@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-FinDER Benchmark with LightRAG
+FinDER Benchmark with LightRAG - Query Only
 
-Benchmarks the LightRAG framework on the FinDER financial dataset using:
-- LLM: Llama-3.2-3B-Instruct (CPU inference via llama-cpp-python)
-- Embedder: Qwen3-0.6B (sentence-transformers)
+This script runs queries ONLY on already-indexed data.
+Assumes you have already run the indexing phase.
+
+Optimized for:
+- LLM: Llama-3.2-3B-Instruct with 32K context (CPU inference)
+- Embedder: Qwen3-0.6B (CPU inference)
 - Dataset: FinDER train set (10-K financial filings)
-
-Optimized for small (3B) models with strict generation parameters.
 """
 
 import pandas as pd
@@ -16,7 +17,6 @@ import asyncio
 from pathlib import Path
 from typing import List, Dict, Any
 import os
-import shutil
 
 # LightRAG imports
 from lightrag import LightRAG, QueryParam
@@ -33,36 +33,34 @@ from sentence_transformers import SentenceTransformer
 MODEL_PATH = "./models/Llama-3.2-3B-Instruct.Q8_0.gguf"
 EMBEDDER_PATH = "./models/qwen3-0.6b"
 DATA_PATH = "./data/finder_train.parquet"
-WORKING_DIR = "./finder_benchmark_workdir1"
+WORKING_DIR = "./finder_benchmark_workdir1"  # Must contain indexed data
 
 # Flag for query detection (used by embedder to differentiate queries from documents)
 QUERY_FLAG = "benchmark::query::"
 
-# Number of documents to index (limited for CPU benchmarking)
+# Number of documents to query (should match the indexed data)
 NUM_DOCS = 10
 
 # ============================================================================
-# LLM WRAPPER - CPU-Optimized with Strict Parameters
+# LLM WRAPPER - CPU-Optimized with 32K Context
 # ============================================================================
 
 class LlamaCppWrapper:
     """
-    CPU-optimized LLM wrapper for llama-cpp-python.
-
-    Optimized for 3B models with strict generation parameters to ensure
-    proper formatting for LightRAG's entity extraction.
+    CPU-optimized LLM wrapper with extended 32K context window.
     """
 
     def __init__(self, model_path: str):
         print(f"Loading LLM from {model_path}...")
         self.llm = Llama(
             model_path=model_path,
-            n_ctx=8192,  # Large context for 10-K documents
+            n_ctx=32768,  # Extended context (32K) - you have 32GB RAM
             n_threads=8,  # Leave headroom for OS
             n_gpu_layers=0,  # CPU-only
             verbose=False
         )
         print("✓ LLM loaded successfully")
+        print(f"  Context window: 32,768 tokens")
 
     async def __call__(self, prompt: str, system_prompt: str = None, **kwargs) -> str:
         """
@@ -111,7 +109,7 @@ class LlamaCppWrapper:
 
 
 # ============================================================================
-# EMBEDDER WRAPPER - Instruction-Aware for Queries
+# EMBEDDER WRAPPER - Instruction-Aware for Queries (CPU-Only)
 # ============================================================================
 
 class QwenEmbedderWrapper:
@@ -178,29 +176,28 @@ class QwenEmbedderWrapper:
 
 
 # ============================================================================
-# MAIN BENCHMARK PIPELINE
+# MAIN QUERY PIPELINE
 # ============================================================================
 
 async def main():
-    """Main benchmark execution pipeline."""
+    """Main query execution pipeline (assumes data is already indexed)."""
 
     print("=" * 70)
-    print("FinDER BENCHMARK WITH LIGHTRAG")
+    print("FinDER BENCHMARK - QUERY ONLY MODE")
     print("=" * 70)
     print()
 
     # ------------------------------------------------------------------------
-    # STEP 1: Safe-Start - Clear Previous Data
+    # STEP 1: Verify Working Directory Exists
     # ------------------------------------------------------------------------
 
-    if os.path.exists(WORKING_DIR):
-        print(f"⚠ Found existing working directory: {WORKING_DIR}")
-        shutil.rmtree(WORKING_DIR)
-        print("✓ Cleared previous benchmark data for clean run")
-        print()
+    if not os.path.exists(WORKING_DIR):
+        print(f"❌ ERROR: Working directory not found: {WORKING_DIR}")
+        print("   Please run the indexing script first!")
+        return
 
-    # Create fresh working directory
-    Path(WORKING_DIR).mkdir(parents=True, exist_ok=True)
+    print(f"✓ Found existing working directory: {WORKING_DIR}")
+    print()
 
     # ------------------------------------------------------------------------
     # STEP 2: Initialize Models
@@ -229,47 +226,30 @@ async def main():
     print()
 
     # ------------------------------------------------------------------------
-    # STEP 3: Load and Prepare FinDER Data
+    # STEP 3: Load FinDER Data
     # ------------------------------------------------------------------------
 
     print("Loading FinDER dataset...")
     df = pd.read_parquet(DATA_PATH)
 
     print(f"✓ Loaded {len(df)} query-answer pairs")
-    print(f"  Columns: {df.columns.tolist()}")
     print()
 
-    # Extract and deduplicate contexts (10-K passages)
-    # IMPORTANT: FinDER uses 'references' column (which is a numpy array) instead of 'context'
-    print("Extracting unique contexts...")
-
-    # 'references' is a numpy array, so we explode it to get individual strings
+    # Extract unique contexts to match what was indexed
+    print("Extracting unique contexts (to match indexed data)...")
     unique_contexts = df['references'].explode().drop_duplicates().tolist()
-    print(f"✓ Found {len(unique_contexts)} unique contexts")
-
-    # Limit to first N documents for reasonable runtime on CPU
     selected_contexts = unique_contexts[:NUM_DOCS]
-    print(f"✓ Selected first {NUM_DOCS} contexts for benchmarking")
 
     # Filter dataframe to only queries matching selected contexts
-    # This ensures 100% alignment between indexed documents and test queries
     filtered_df = df[df['references'].apply(lambda refs: any(ref in selected_contexts for ref in refs))].copy()
-    print(f"✓ Filtered to {len(filtered_df)} queries matching selected contexts")
-    print()
-
-    # Display sample
-    print("=== Sample Data ===")
-    print(f"Query: {filtered_df.iloc[0]['text'][:100]}...")
-    print(f"Answer: {filtered_df.iloc[0]['answer'][:100]}...")
-    print(f"References count: {len(filtered_df.iloc[0]['references'])}")
-    print(f"First reference length: {len(filtered_df.iloc[0]['references'][0])} chars")
+    print(f"✓ Found {len(filtered_df)} queries matching the {NUM_DOCS} indexed contexts")
     print()
 
     # ------------------------------------------------------------------------
-    # STEP 4: Initialize LightRAG
+    # STEP 4: Initialize LightRAG (Load Existing Index)
     # ------------------------------------------------------------------------
 
-    print("Initializing LightRAG...")
+    print("Initializing LightRAG (loading existing index)...")
 
     rag = LightRAG(
         working_dir=WORKING_DIR,
@@ -282,12 +262,12 @@ async def main():
         # Embedding configuration
         embedding_func=embedding_func,
 
-        # Chunking configuration (reduced for 3B model)
-        chunk_token_size=1024,  # Reduced from 1200 for easier processing
+        # Chunking configuration (must match indexing config)
+        chunk_token_size=1024,
         chunk_overlap_token_size=100,
 
-        # Entity extraction retry mechanism (crucial for 3B models)
-        entity_extract_max_gleaning=2,  # Allow 2 retry attempts for formatting
+        # Entity extraction retry mechanism
+        entity_extract_max_gleaning=2,
 
         # Storage backends
         graph_storage="NetworkXStorage",
@@ -298,47 +278,16 @@ async def main():
         max_parallel_insert=1
     )
 
-    # CRITICAL: Initialize storages
+    # Initialize storages (loads existing data)
     await rag.initialize_storages()
 
-    print("✓ LightRAG initialized successfully")
+    print("✓ LightRAG initialized successfully (loaded existing index)")
     print(f"  Working directory: {WORKING_DIR}")
-    print(f"  Chunk size: 1024 tokens")
-    print(f"  Max gleaning retries: 2")
-    print(f"  Concurrency: 1 (CPU-optimized)")
+    print(f"  Context window: 32,768 tokens")
     print()
 
     # ------------------------------------------------------------------------
-    # STEP 5: Index Documents
-    # ------------------------------------------------------------------------
-
-    print("=" * 70)
-    print("INDEXING PHASE")
-    print("=" * 70)
-    print()
-
-    for idx, context in enumerate(selected_contexts, 1):
-        try:
-            print(f"[{idx}/{NUM_DOCS}] Indexing context (length: {len(context)} chars)...")
-
-            # Insert document (no flag needed - this is a document)
-            await rag.ainsert(context)
-
-            print(f"  ✓ Indexed successfully")
-            print()
-
-        except Exception as e:
-            print(f"  ⚠ Error indexing document {idx}: {e}")
-            print()
-            continue
-
-    print("=" * 70)
-    print("✓ INDEXING COMPLETE")
-    print("=" * 70)
-    print()
-
-    # ------------------------------------------------------------------------
-    # STEP 6: Query and Generate Answers
+    # STEP 5: Query and Generate Answers
     # ------------------------------------------------------------------------
 
     print("=" * 70)
@@ -350,10 +299,9 @@ async def main():
 
     for idx, row in filtered_df.iterrows():
         try:
-            # FinDER uses 'text' for questions, not 'question'
+            # FinDER uses 'text' for questions
             query = row['text']
             ground_truth_answer = row['answer']
-            # 'references' is a numpy array, so we join them with separator
             ground_truth_context = "\n\n---\n\n".join(row['references'])
 
             print(f"[{len(results)+1}/{len(filtered_df)}] Query: {query[:80]}...")
@@ -403,7 +351,7 @@ async def main():
     print()
 
     # ------------------------------------------------------------------------
-    # STEP 7: Save Results
+    # STEP 6: Save Results
     # ------------------------------------------------------------------------
 
     print("Saving results...")
@@ -412,7 +360,7 @@ async def main():
     results_df = pd.DataFrame(results)
 
     # Save to CSV
-    output_path = "finder_lightrag_results.csv"
+    output_path = "finder_lightrag_results_query_only.csv"
     results_df.to_csv(output_path, index=False)
 
     print(f"✓ Results saved to {output_path}")
