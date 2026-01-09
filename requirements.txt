@@ -1,0 +1,27 @@
+# Core LightRAG Framework
+lightrag-hku>=0.0.2
+
+# Machine Learning & Embeddings
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# HTML Parsing & Document Processing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Data Handling
+pandas>=2.0.0
+pyarrow>=14.0.0
+numpy>=1.24.0
+
+# Async & Jupyter Support
+nest-asyncio>=1.5.0
+
+# Progress & UI
+tqdm>=4.65.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Optional: GPU Acceleration (uncomment if using CUDA)
+# nvidia-ml-py3>=7.352.0

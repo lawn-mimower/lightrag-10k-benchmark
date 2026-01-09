@@ -1,0 +1,436 @@
+# LightRAG 10-K Document Benchmark
+
+A knowledge graph-powered question-answering system for SEC 10-K financial filings using [LightRAG](https://github.com/HKUDS/LightRAG). This project demonstrates hybrid search (knowledge graph + vector retrieval) with GPU-accelerated embeddings and reranking for financial document analysis.
+
+## Overview
+
+This project processes SEC 10-K HTML filings, builds knowledge graphs using LightRAG, and enables natural language querying with full provenance tracking. The system combines:
+
+- **Knowledge Graph Extraction**: Entities and relationships extracted from financial documents
+- **Hybrid Search**: Graph-based reasoning + semantic vector search
+- **GPU Acceleration**: Fast embeddings (BGE-large) and reranking (BGE-reranker)
+- **Metadata Preservation**: Full citation tracking for answers
+
+### Current Status
+
+- **Tested**: HON (Honeywell) - 2 test queries successfully answered
+- **Ready**: Framework for batch indexing 496 remaining company tickers
+- **Pending**: Full evaluation metrics and debugging for general framework
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+- Python 3.10+
+- CUDA-capable GPU (recommended, ~8GB VRAM)
+- 16GB+ RAM
+- Mistral API key ([get one here](https://console.mistral.ai/))
+
+### Installation
+
+1. **Clone the repository** (or navigate to project directory):
+   ```bash
+   cd lightrag-bench
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install lightrag-hku sentence-transformers torch beautifulsoup4 \
+               pandas tqdm nest-asyncio python-dotenv
+   ```
+
+3. **Set up environment variables**:
+   Create a `.env` file in the project root:
+   ```bash
+   MISTRAL_API_KEY=your_mistral_api_key_here
+   ```
+
+4. **Verify GPU** (optional but recommended):
+   ```python
+   import torch
+   print(torch.cuda.is_available())  # Should print True
+   ```
+
+---
+
+## Data Pipeline
+
+### Step 1: Download 10-K Filings
+
+Download the FinDER dataset (497 company 10-K HTML files, ~136MB):
+
+```bash
+wget https://huggingface.co/datasets/Linq-AI-Research/FinDER/resolve/main/10-k.zip?download=true -O 10-k.zip
+```
+
+### Step 2: Unzip Files
+
+```bash
+unzip 10-k.zip
+```
+
+This creates a `10k/` directory with 497 HTML files (one per company ticker):
+```
+10k/
+├── AAPL.html
+├── MSFT.html
+├── HON.html
+└── ...
+```
+
+### Step 3: Preprocess HTML Files
+
+The HTML files contain iXBRL tags (inline XBRL) that need to be removed to extract clean text:
+
+```bash
+python html_parser.py 10k parsed_10k_documents.json
+```
+
+**What this does:**
+- Removes all iXBRL tags (`ix:hidden`, `ix:header`, etc.)
+- Strips CSS, JavaScript, and non-visible content
+- Extracts metadata (company name, filing period)
+- Outputs clean JSON with structure:
+  ```json
+  {
+    "AAPL": {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "period_end_date": "September 30, 2023",
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION..."
+    }
+  }
+  ```
+
+**Output**: `parsed_10k_documents.json` (~156MB, 497 companies)
+
+---
+
+## Running the Test
+
+### HON (Honeywell) Test
+
+Open and run the Jupyter notebook:
+
+```bash
+jupyter notebook lightrag_10k_test_hon.ipynb
+```
+
+Or run all cells programmatically:
+```bash
+jupyter nbconvert --to notebook --execute lightrag_10k_test_hon.ipynb
+```
+
+**What happens:**
+1. Loads models (BGE embeddings, Mistral LLM, BGE reranker)
+2. Initializes LightRAG workspace
+3. Indexes HON document (builds knowledge graph)
+4. Runs 2 test queries from FinDER benchmark
+5. Saves results to `test_results_hon.json`
+
+**Expected runtime**: 5-10 minutes on GPU (first run)
+
+---
+
+## Notebook Components
+
+The notebook is organized into 5 main cells:
+
+### Cell 0: Overview
+- Goal: Test LightRAG with HON first, then batch-index remaining tickers
+- Models: BGE-large (embeddings), Ministral-8b (LLM), BGE-reranker (reranking)
+- Priority tickers for batch indexing
+
+### Cell 1: Configuration
+```python
+# Key settings
+PARSED_DOCS_PATH = "parsed_10k_documents.json"
+WORKING_DIR = "./lightrag_test_workspace"
+BGE_MODEL_NAME = "BAAI/bge-large-en-v1.5"
+MISTRAL_MODEL = "ministral-8b-latest"
+DEVICE = "cuda"  # GPU acceleration
+```
+
+### Cell 2: Model Loading
+- **BGE Embeddings** (1024-dim): Loaded to GPU for fast encoding
+- **Mistral LLM**: API-based, used for knowledge graph extraction and answer generation
+- **BGE Reranker**: GPU-accelerated cross-encoder for relevance scoring
+
+**Test**: Verifies embedding shape and device placement
+
+### Cell 3: LightRAG Initialization
+```python
+rag = LightRAG(
+    working_dir=WORKING_DIR,
+    llm_model_func=mistral_llm_func,
+    embedding_func=bge_embedding_func,
+    chunk_token_size=1200,      # Chunk size
+    chunk_overlap_token_size=100,  # Overlap
+    rerank_model_func=hf_rerank_func
+)
+```
+
+**Indexing HON**:
+- Chunks HON document automatically (1200 tokens, 100 overlap)
+- Extracts entities and relationships → builds knowledge graph
+- Encodes metadata (ticker, company, period) for provenance
+- Stores in `lightrag_test_workspace/`
+
+**To batch-index remaining tickers**: Uncomment the code block at the end of Cell 3
+
+### Cell 4: Test Queries
+Loads 2 HON questions from `finder_train.parquet` and queries LightRAG:
+
+**Example Query 1**:
+- Question: "Impact on supply chain risk and cost structure for Skyworks globally."
+- Mode: Hybrid (KG + vector search)
+- Top-k: 60 entities/relations, 20 text chunks
+- Reranking: Top 20 after scoring
+
+**Output**: `test_results_hon.json` with:
+- Retrieved context (entities, relations, text chunks)
+- Expected answer (from benchmark)
+- Metadata and timestamps
+
+---
+
+## Architecture
+
+### LightRAG Hybrid Search
+
+1. **Knowledge Graph Query**:
+   - Extracts key entities from question (e.g., "supply chain", "Honeywell")
+   - Retrieves relevant entities and 1-hop relations from graph
+   - Uses cosine similarity on entity embeddings
+
+2. **Vector Chunk Retrieval**:
+   - Semantic search over text chunks
+   - BGE-large embeddings (1024-dim)
+
+3. **Reranking**:
+   - Cross-encoder (BGE-reranker) scores query-chunk pairs
+   - Selects top 20 most relevant chunks
+
+4. **Answer Generation**:
+   - Mistral-8b generates answer from reranked context
+   - Includes citations from metadata
+
+### Model Stack
+
+| Component | Model | Device | Purpose |
+|-----------|-------|--------|---------|
+| Embeddings | BAAI/bge-large-en-v1.5 | GPU | 1024-dim dense vectors |
+| LLM | ministral-8b-latest | API | KG extraction + generation |
+| Reranker | BAAI/bge-reranker-base | GPU | Relevance scoring |
+
+### Metadata Encoding
+
+Each document chunk includes:
+```json
+{
+  "ticker": "HON",
+  "company": "Honeywell International Inc.",
+  "period": "December 31, 2023",
+  "source": "HON.html"
+}
+```
+
+Encoded in LightRAG's `file_path` field for full provenance tracking.
+
+---
+
+## Project Structure
+
+```
+lightrag-bench/
+├── 10-k.zip                        # Downloaded dataset (136MB)
+├── 10k/                            # Unzipped HTML files (497 companies)
+│   ├── AAPL.html
+│   ├── HON.html
+│   └── ...
+├── html_parser.py                  # HTML preprocessing script
+├── parsed_10k_documents.json       # Parsed clean text (156MB)
+├── lightrag_10k_test_hon.ipynb     # Main test notebook
+├── test_results_hon.json           # Query results
+├── lightrag_test_workspace/        # LightRAG storage
+│   ├── kv_store_full_entities.json # Knowledge graph entities
+│   ├── kv_store_full_relations.json # Knowledge graph relations
+│   ├── vdb_entities.json           # Entity embeddings
+│   ├── vdb_chunks.json             # Chunk embeddings
+│   └── ...
+├── finder_train.parquet            # FinDER benchmark questions
+├── .env                            # API keys (create this)
+└── README.md                       # This file
+```
+
+---
+
+## Future Work
+
+### Batch Indexing
+To index all 496 remaining tickers, uncomment the code in Cell 3:
+
+```python
+BATCH_PRIORITY = [t for t in PRIORITY_TICKERS if t != "HON" and t in documents]
+for ticker in tqdm(BATCH_PRIORITY, desc="Priority batch"):
+    await index_document(ticker, documents[ticker])
+```
+
+**Note**: Full indexing takes several hours on GPU (497 companies × ~2-5 min/company)
+
+### General Framework
+The current system is ready to work with any 10-K corpus:
+1. Replace `10k/` with your HTML files
+2. Run `html_parser.py`
+3. Update `PRIORITY_TICKERS` or index all documents
+4. Query with your own questions
+
+**Status**: Framework complete, pending evaluation metrics and debugging
+
+### Evaluation Metrics
+- Accuracy vs. FinDER ground truth answers
+- Context relevance (reranking effectiveness)
+- Citation quality (metadata preservation)
+- Retrieval recall@k (entities, relations, chunks)
+
+---
+
+## Dependencies
+
+Install all dependencies with:
+
+```bash
+pip install lightrag-hku sentence-transformers torch beautifulsoup4 \
+            pandas tqdm nest-asyncio python-dotenv pyarrow
+```
+
+**Key packages**:
+- `lightrag-hku`: Knowledge graph + hybrid RAG
+- `sentence-transformers`: BGE embeddings and reranker
+- `torch`: GPU acceleration (CUDA)
+- `beautifulsoup4`: HTML parsing
+- `pandas`, `pyarrow`: FinDER benchmark loading
+
+**GPU Requirements**:
+- Recommended: NVIDIA GPU with 8GB+ VRAM
+- CPU fallback: Works but ~10x slower for embeddings
+
+---
+
+## Troubleshooting
+
+### CUDA Out of Memory
+Reduce batch sizes in Cell 2:
+```python
+# Reranker batch size
+batch_size=16  # Reduce from 32
+```
+
+### API Rate Limits
+Mistral API has rate limits. Add retries or use a different LLM:
+```python
+from lightrag.llm.openai import openai_complete_if_cache
+
+# Replace with OpenAI GPT-4 or local model
+```
+
+### Slow Indexing
+Indexing is compute-intensive. Use GPU for embeddings:
+```python
+assert DEVICE == "cuda", "GPU recommended for fast indexing"
+```
+
+### Missing .env File
+Create `.env` with your Mistral API key:
+```bash
+echo "MISTRAL_API_KEY=your_key_here" > .env
+```
+
+### HTML Parser Errors
+If parsing fails, check encoding:
+```python
+# In html_parser.py, try different encodings
+with open(file_path, 'r', encoding='latin-1') as f:
+    html_content = f.read()
+```
+
+---
+
+## Expected Results
+
+### Good Results Look Like:
+1. **Context retrieval**: 80-150K characters of relevant entities, relations, chunks
+2. **Metadata present**: Ticker, company name, period in context
+3. **Reranking effective**: Top 20 chunks are on-topic
+4. **Citations clear**: Answers reference specific document sections
+
+### Test Output (HON):
+```
+Question 1: Impact on supply chain risk...
+✓ Retrieved context (150,659 chars)
+✓ 97 entities, 128 relations, 12 chunks
+✓ Reranked: 20 chunks from 43 original
+
+Question 2: OpMargin (Income Before Taxes/Net Sales)...
+✓ Retrieved context (129,927 chars)
+✓ 79 entities, 156 relations, 11 chunks
+✓ Reranked: 20 chunks from 43 original
+```
+
+---
+
+## Citation
+
+If you use this code or dataset, please cite:
+
+**LightRAG**:
+```bibtex
+@article{lightrag2024,
+  title={LightRAG: Simple and Fast Retrieval-Augmented Generation},
+  author={Zirui Guo et al.},
+  journal={arXiv preprint arXiv:2410.05779},
+  year={2024}
+}
+```
+
+**FinDER Dataset**:
+```bibtex
+@dataset{finder2024,
+  title={FinDER: Financial Document Entity Recognition Dataset},
+  author={Linq AI Research},
+  url={https://huggingface.co/datasets/Linq-AI-Research/FinDER},
+  year={2024}
+}
+```
+
+---
+
+## License
+
+This project is for research and educational purposes. SEC 10-K filings are public domain. Check individual package licenses (LightRAG, BGE models, Mistral API terms).
+
+---
+
+## Contributing
+
+Contributions welcome! Areas for improvement:
+- Add more evaluation metrics
+- Support for other document types (10-Q, 8-K)
+- Optimize chunking strategies
+- Multi-document reasoning
+- UI for interactive querying
+
+---
+
+## Acknowledgments
+
+- [LightRAG](https://github.com/HKUDS/LightRAG) for the hybrid RAG framework
+- [FinDER](https://huggingface.co/datasets/Linq-AI-Research/FinDER) for the benchmark dataset
+- [BGE Models](https://huggingface.co/BAAI) for embeddings and reranking
+- [Mistral AI](https://mistral.ai/) for the LLM API
+
+---
+
+**Questions?** Open an issue or check the notebook comments for detailed explanations.
