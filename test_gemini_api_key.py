@@ -10,7 +10,7 @@ def test_gemini():
         print("Sending request to Gemini 3 Flash...")
         response = client.models.generate_content(
             model="gemini-3-flash-preview",
-            contents="Respond with 'System Online yo boi' if you can hear me."
+            contents="gimme a 5 line poem"
         )
         
         print("-" * 20)
