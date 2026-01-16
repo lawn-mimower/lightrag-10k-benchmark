@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Answer Generation Script for CTAS Test Results
-(Gemini SDK with Thinking Config Support)
+Answer Generation Script - REASONING ALWAYS ON
+(Gemini SDK with Thinking Config Always Enabled)
+Preserves old responses as response_old before regenerating.
 """
 
 import json
@@ -17,13 +18,13 @@ from google.genai import types
 
 # Load env
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") 
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Configuration
 RESULTS_FOLDER = "5_modes_question_wise_results/5_modes_question_wise_results_priority_tickers_ALL"
 CTAS_FILE_PATTERN = "test_results_CTAS_question_*.json"
-CHECKPOINT_FILE = "generation_checkpoint_ctas.json"
-LOG_FILE = "generation_log_ctas.txt"
+CHECKPOINT_FILE = "generation_checkpoint_reasoning.json"
+LOG_FILE = "generation_log_reasoning.txt"
 MODEL_NAME = "gemini-3-flash-preview"
 
 # Parameters
@@ -55,11 +56,11 @@ def generate_answer_logic(
     context: str,
     mode: str,
     question_id: str,
-    requires_reasoning: bool = False
+    requires_reasoning: bool = True  # Always True in this version
 ) -> Tuple[Optional[str], Optional[str]]:
     """
     Generate answer for a given question and context.
-    Returns (answer, thought) tuple where thought is None if not using reasoning mode.
+    Returns (answer, thought) tuple where thought contains reasoning.
     """
     prompt = f"""You are a financial document analyst specializing in SEC 10-K filings.
 
@@ -67,7 +68,7 @@ CRITICAL INSTRUCTIONS:
 - Answer ONLY based on the provided context
 - Be precise with numerical values
 - Keep answers concise (2-4 sentences)
-{f"- This question requires detailed reasoning and analysis" if requires_reasoning else ""}
+- This question requires detailed reasoning and analysis
 
 Question: {question}
 
@@ -78,17 +79,16 @@ Please provide a concise, factual answer based only on the information in the co
 
     for attempt in range(MAX_RETRIES):
         try:
-            # Configure generation with no output token restrictions
+            # Configure generation with thinking always enabled
             generation_config = types.GenerateContentConfig(
                 max_output_tokens=65536,  # Gemini 3 Flash maximum capacity
                 temperature=0.1,
             )
 
-            # Add thinking config if reasoning is required
-            if requires_reasoning:
-                generation_config.thinking_config = types.ThinkingConfig(
-                    include_thoughts=True
-                )
+            # Always add thinking config (reasoning always ON)
+            generation_config.thinking_config = types.ThinkingConfig(
+                include_thoughts=True
+            )
 
             response = client.models.generate_content(
                 model=MODEL_NAME,
@@ -97,58 +97,53 @@ Please provide a concise, factual answer based only on the information in the co
             )
 
             if not response or not response.candidates:
-                log_message(f"  ⚠ Empty response for {question_id} [{mode}]")
+                log_message(f"  Warning: Empty response for {question_id} [{mode}]")
                 return None, None
 
-            # Extract answer and thought based on response structure
+            # Extract answer and thought from response
             answer = None
             thought = None
 
-            if requires_reasoning:
-                # When thinking is enabled, parse multiple parts
-                # Parts with thought=True are reasoning, thought=False is final answer
-                thought_parts = []
-                answer_parts = []
+            # When thinking is enabled, parse multiple parts
+            # Parts with thought=True are reasoning, thought=False is final answer
+            thought_parts = []
+            answer_parts = []
 
-                if response.candidates and len(response.candidates) > 0:
-                    candidate = response.candidates[0]
-                    if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
-                        for part in candidate.content.parts:
-                            # Check if this part is a thought (reasoning)
-                            is_thought = getattr(part, 'thought', False)
+            if response.candidates and len(response.candidates) > 0:
+                candidate = response.candidates[0]
+                if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
+                    for part in candidate.content.parts:
+                        # Check if this part is a thought (reasoning)
+                        is_thought = getattr(part, 'thought', False)
 
-                            # Extract text from this part
-                            part_text = getattr(part, 'text', '')
+                        # Extract text from this part
+                        part_text = getattr(part, 'text', '')
 
-                            if is_thought:
-                                # This is reasoning/thinking
-                                if part_text:
-                                    thought_parts.append(part_text)
-                            else:
-                                # This is the final answer
-                                if part_text:
-                                    answer_parts.append(part_text)
+                        if is_thought:
+                            # This is reasoning/thinking
+                            if part_text:
+                                thought_parts.append(part_text)
+                        else:
+                            # This is the final answer
+                            if part_text:
+                                answer_parts.append(part_text)
 
-                # Combine parts
-                if thought_parts:
-                    thought = '\n'.join(thought_parts).strip()
-                if answer_parts:
-                    answer = '\n'.join(answer_parts).strip()
-            else:
-                # Standard response (no thinking) - simple text extraction
-                if hasattr(response, 'text') and isinstance(response.text, str):
-                    answer = response.text.strip()
+            # Combine parts
+            if thought_parts:
+                thought = '\n'.join(thought_parts).strip()
+            if answer_parts:
+                answer = '\n'.join(answer_parts).strip()
 
             if answer:
                 thought_info = f" (with reasoning: {len(thought)} chars)" if thought else ""
-                log_message(f"  ✓ Generated answer for {question_id} [{mode}] ({len(answer)} chars{thought_info})")
+                log_message(f"  Generated answer for {question_id} [{mode}] ({len(answer)} chars{thought_info})")
                 return answer, thought
             else:
-                log_message(f"  ⚠ No answer text in response for {question_id} [{mode}]")
+                log_message(f"  Warning: No answer text in response for {question_id} [{mode}]")
                 return None, None
 
         except Exception as e:
-            log_message(f"  ⚠ Attempt {attempt+1}/{MAX_RETRIES} failed for {question_id} [{mode}]: {e}")
+            log_message(f"  Warning: Attempt {attempt+1}/{MAX_RETRIES} failed for {question_id} [{mode}]: {e}")
             if attempt < MAX_RETRIES - 1:
                 time.sleep(RETRY_DELAY)
             else:
@@ -162,7 +157,7 @@ def process_single_mode(
     question_id: str,
     mode_name: str,
     mode_data: Dict[str, Any],
-    requires_reasoning: bool
+    requires_reasoning: bool = True  # Always True
 ) -> Tuple[str, Optional[str], Optional[str], Optional[str]]:
     """
     Process a single mode for a question.
@@ -202,10 +197,12 @@ def process_ctas_file(
 
     question_id = data["question_id"]
     question = data["question"]
-    requires_reasoning = data.get("reasoning", False)
+
+    # Always enable reasoning in this version
+    requires_reasoning = True
 
     log_message(f"Question ID: {question_id}")
-    log_message(f"Reasoning required: {requires_reasoning}")
+    log_message(f"Reasoning: ALWAYS ON (forced)")
 
     if file_path.name not in checkpoint["completed"]:
         checkpoint["completed"][file_path.name] = {
@@ -216,26 +213,28 @@ def process_ctas_file(
     completed_modes = []
     modes = data.get("modes", {})
 
-    # Identify modes that need processing
+    # Rename existing responses to response_old before processing
+    for mode_name, mode_data in modes.items():
+        if "response" in mode_data and mode_data["response"]:
+            mode_data["response_old"] = mode_data["response"]
+            del mode_data["response"]
+            log_message(f"  -> Renamed existing response to response_old: {mode_name}")
+
+    # Identify modes that need processing (all of them now, since we renamed responses)
     modes_to_process = []
-    
+
     for mode_name, mode_data in modes.items():
         if mode_name in completed_modes:
-            log_message(f"  ⊙ Already completed: {mode_name}")
-            continue
-
-        if "response" in mode_data and mode_data["response"]:
-            log_message(f"  ⊙ Response exists: {mode_name}")
-            completed_modes.append(mode_name)
+            log_message(f"  Already completed: {mode_name}")
             continue
 
         modes_to_process.append((mode_name, mode_data))
-    
-    if not modes_to_process:
-        log_message("  ✓ All modes already processed")
-        return checkpoint, False  # No API calls made
 
-    log_message(f"\n  → Processing {len(modes_to_process)} modes in parallel...")
+    if not modes_to_process:
+        log_message("  All modes already processed")
+        return checkpoint
+
+    log_message(f"\n  -> Processing {len(modes_to_process)} modes in parallel with reasoning ON...")
 
     # Process all modes in parallel
     with ThreadPoolExecutor(max_workers=MAX_PARALLEL_MODES) as executor:
@@ -259,20 +258,20 @@ def process_ctas_file(
             mode_data = modes[mode_name]
 
             if error:
-                log_message(f"  ⊘ Error processing {mode_name}: {error}")
+                log_message(f"  Error processing {mode_name}: {error}")
                 continue
 
             if answer:
                 mode_data["response"] = answer
                 if thought:
                     mode_data["thought"] = thought
-                    log_message(f"  ✓ Saved answer with reasoning for {mode_name}")
+                    log_message(f"  Saved answer with reasoning for {mode_name}")
                 else:
-                    log_message(f"  ✓ Saved answer for {mode_name}")
+                    log_message(f"  Saved answer for {mode_name}")
 
                 completed_modes.append(mode_name)
             else:
-                log_message(f"  ⊘ No answer generated for {mode_name}")
+                log_message(f"  No answer generated for {mode_name}")
 
     # Save results after all parallel processing is done
     with open(file_path, "w", encoding="utf-8") as f:
@@ -281,14 +280,14 @@ def process_ctas_file(
     checkpoint["completed"][file_path.name]["completed_modes"] = completed_modes
     save_checkpoint(checkpoint)
 
-    log_message(f"\n  ✓ File processing complete: {len(completed_modes)}/{len(modes)} modes done")
+    log_message(f"\n  File processing complete: {len(completed_modes)}/{len(modes)} modes done")
 
-    return checkpoint, True  # API calls were made
+    return checkpoint
 
 def main():
     log_message("="*60)
-    log_message(f"CTAS Answer Generation - {MODEL_NAME}")
-    log_message("Gemini SDK with Thinking Config Support")
+    log_message(f"REASONING-ON Answer Generation - {MODEL_NAME}")
+    log_message("Gemini SDK with Thinking Config ALWAYS ENABLED")
     log_message("="*60)
 
     if not GEMINI_API_KEY:
@@ -298,7 +297,7 @@ def main():
 
     # Initialize Gemini Client
     client = genai.Client(api_key=GEMINI_API_KEY)
-    log_message(f"✓ Initialized Gemini Client with {MODEL_NAME}")
+    log_message(f"Initialized Gemini Client with {MODEL_NAME}")
 
     # Get files from the results folder
     results_path = Path(RESULTS_FOLDER)
@@ -312,8 +311,8 @@ def main():
         log_message(f"ERROR: No files matching pattern '{CTAS_FILE_PATTERN}' found in {RESULTS_FOLDER}")
         return
 
-    log_message(f"✓ Found {len(ctas_files)} files to process")
-    log_message(f"✓ Rate limiting: Processing 1 file per {FILE_PROCESSING_DELAY} seconds (5 parallel requests per minute)")
+    log_message(f"Found {len(ctas_files)} files to process")
+    log_message(f"Rate limiting: Processing 1 file per {FILE_PROCESSING_DELAY} seconds (5 parallel requests per minute)")
     log_message("")
 
     checkpoint = load_checkpoint()
@@ -323,15 +322,15 @@ def main():
         log_message(f"FILE {i}/{len(ctas_files)}")
         log_message(f"{'#'*60}")
 
-        checkpoint, made_api_calls = process_ctas_file(file_path, client, checkpoint)
+        checkpoint = process_ctas_file(file_path, client, checkpoint)
 
-        # Add delay between files to respect rate limits (only if API calls were made, and not last file)
-        if made_api_calls and i < len(ctas_files):
-            log_message(f"\n⏳ Waiting {FILE_PROCESSING_DELAY} seconds before next file (rate limiting)...")
+        # Add delay between files to respect rate limits (except for the last file)
+        if i < len(ctas_files):
+            log_message(f"\nWaiting {FILE_PROCESSING_DELAY} seconds before next file (rate limiting)...")
             time.sleep(FILE_PROCESSING_DELAY)
 
     log_message("\n" + "="*60)
-    log_message("✓ ALL FILES PROCESSED SUCCESSFULLY")
+    log_message("ALL FILES PROCESSED SUCCESSFULLY")
     log_message("="*60)
 
 
