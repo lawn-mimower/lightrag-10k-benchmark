@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Batch RAGAS Evaluation - Process Multiple Files in Parallel
-===========================================================
-Processes 3 files at a time, each evaluating all 5 modes in parallel.
-Results are appended to a single JSON file.
-
-Strategy:
-- 3 files × 5 modes = 15 concurrent evaluations
-- For 63 files: 21 batches × ~25 seconds = ~9 minutes total
+FAST Batch RAGAS Evaluation - Fixed with Connection Handling
+=============================================================
+Key improvements:
+1. API connection testing before batch processing
+2. Reduced concurrent requests to avoid overwhelming API
+3. Retry logic with exponential backoff
+4. Better error handling and diagnostics
+5. Connection pooling and rate limiting
 """
 
 import os
@@ -17,10 +17,12 @@ import warnings
 import asyncio
 from pathlib import Path
 from datetime import datetime
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import numpy as np
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from tqdm import tqdm
+from tqdm.asyncio import tqdm
+import aiofiles
+import aiohttp
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 # Suppress warnings
 warnings.filterwarnings("ignore", message=".*LangchainLLMWrapper is deprecated.*")
@@ -44,105 +46,214 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ============================================
-# Configuration
+# OPTIMIZED Configuration with Connection Fix
 # ============================================
 RESULTS_DIR = "./lightrag-bench/5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"
-OUTPUT_FILE = "./lightrag-bench/batch_ragas_evaluation_results.json"
+OUTPUT_FILE = "./lightrag-bench/batch_ragas_evaluation_results_fast.json"
 
-# Processing settings
-BATCH_SIZE = 3  # Process 3 files at a time
-MAX_WORKERS = 15  # 3 files × 5 modes
+# SPEED OPTIMIZATIONS - REDUCED FOR STABILITY
+BATCH_SIZE = 5  # Reduced from 10 to avoid overwhelming API
+MAX_CONCURRENT = 10  # Reduced from 50 to avoid connection errors
+ENABLE_RETRIES = True  # Enable retries for connection errors
+TIMEOUT_SECONDS = 60  # Increased timeout for stability
+RATE_LIMIT_DELAY = 0.5  # Delay between API calls to avoid rate limiting
 
 # Models
 RAGAS_JUDGE_MODEL = "ministral-14b-2512"
 RAGAS_EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"
 
-# Query modes to evaluate
+# Query modes
 QUERY_MODES = ["local", "global", "naive", "hybrid", "mix"]
 
 print("="*70)
-print("📦 BATCH RAGAS EVALUATION")
+print("⚡ FAST BATCH RAGAS EVALUATION - FIXED VERSION")
 print("="*70)
 print(f"📁 Source Directory: {Path(RESULTS_DIR).name}")
 print(f"💾 Output File: {Path(OUTPUT_FILE).name}")
-print(f"⚡ Batch Size: {BATCH_SIZE} files concurrently")
-print(f"🔧 Max Workers: {MAX_WORKERS}")
+print(f"🚀 Batch Size: {BATCH_SIZE} files concurrently")
+print(f"⚡ Max Concurrent: {MAX_CONCURRENT} evaluations")
+print(f"🔄 Retries: {'Enabled' if ENABLE_RETRIES else 'Disabled'}")
+print(f"⏱️ Timeout: {TIMEOUT_SECONDS}s")
 print()
 
 # ============================================
-# Setup Models (Once for entire batch)
+# API Connection Test
 # ============================================
-print("Setting up evaluation models...")
+async def test_api_connection():
+    """Test API connection before starting batch processing."""
+    print("🔍 Testing API connection...")
 
-# Check API key
-mistral_api_key = os.getenv("MISTRAL_API_KEY")
-if not mistral_api_key:
-    print("❌ ERROR: MISTRAL_API_KEY not found in environment variables!")
-    print("   Please set it in your .env file or environment")
-    exit(1)
+    mistral_api_key = os.getenv("MISTRAL_API_KEY")
+    if not mistral_api_key:
+        print("❌ MISTRAL_API_KEY not found in environment!")
+        print("   Please set it using: export MISTRAL_API_KEY='your-key-here'")
+        print("   Or add it to your .env file")
+        return False
 
-print(f"✓ Mistral API Key: {mistral_api_key[:8]}...")
-print(f"✓ Model: {RAGAS_JUDGE_MODEL}")
-print(f"✓ Endpoint: https://api.mistral.ai/v1")
+    print(f"✓ API Key found (length: {len(mistral_api_key)} chars)")
 
-# LLM for judging
-base_llm = ChatOpenAI(
-    model=RAGAS_JUDGE_MODEL,
-    api_key=mistral_api_key,
-    base_url="https://api.mistral.ai/v1",
-    max_retries=5,
-    request_timeout=180
-)
+    # Test API endpoint
+    try:
+        async with aiohttp.ClientSession() as session:
+            headers = {
+                "Authorization": f"Bearer {mistral_api_key}",
+                "Content-Type": "application/json"
+            }
 
-try:
-    ragas_llm = LangchainLLMWrapper(
-        langchain_llm=base_llm,
-        bypass_n=True
+            # Test with a simple completion request
+            test_payload = {
+                "model": RAGAS_JUDGE_MODEL,
+                "messages": [{"role": "user", "content": "test"}],
+                "max_tokens": 10
+            }
+
+            async with session.post(
+                "https://api.mistral.ai/v1/chat/completions",
+                headers=headers,
+                json=test_payload,
+                timeout=aiohttp.ClientTimeout(total=10)
+            ) as response:
+                if response.status == 200:
+                    print("✅ API connection successful!")
+                    return True
+                elif response.status == 401:
+                    print("❌ API authentication failed! Check your API key.")
+                    return False
+                elif response.status == 429:
+                    print("⚠️ API rate limit hit. Will use rate limiting...")
+                    return True
+                else:
+                    error_text = await response.text()
+                    print(f"❌ API returned status {response.status}: {error_text[:200]}")
+                    return False
+
+    except aiohttp.ClientConnectorError as e:
+        print(f"❌ Connection failed: {e}")
+        print("   Check your internet connection and firewall settings")
+        return False
+    except asyncio.TimeoutError:
+        print("❌ Connection timeout! API might be slow or unreachable.")
+        return False
+    except Exception as e:
+        print(f"❌ Unexpected error: {e}")
+        return False
+
+# ============================================
+# Setup Models with Better Error Handling
+# ============================================
+async def setup_models():
+    """Setup models with connection testing."""
+    print("\n📦 Setting up models...")
+
+    mistral_api_key = os.getenv("MISTRAL_API_KEY")
+
+    # Create LLM with retry configuration
+    base_llm = ChatOpenAI(
+        model=RAGAS_JUDGE_MODEL,
+        api_key=mistral_api_key,
+        base_url="https://api.mistral.ai/v1",
+        max_retries=3 if ENABLE_RETRIES else 0,
+        request_timeout=TIMEOUT_SECONDS,
+        temperature=0.1
+        # Note: max_tokens removed as it causes issues with Mistral API
     )
-except:
-    ragas_llm = base_llm
 
-# Local embeddings
-print("Loading local embeddings...")
-ragas_embeddings = HuggingFaceEmbeddings(
-    model_name=RAGAS_EMBEDDING_MODEL,
-    model_kwargs={'device': 'cpu'},
-    encode_kwargs={'normalize_embeddings': True}
+    try:
+        ragas_llm = LangchainLLMWrapper(
+            langchain_llm=base_llm,
+            bypass_n=True
+        )
+    except:
+        ragas_llm = base_llm
+
+    # Local embeddings (cached after first load)
+    print("📚 Loading embeddings (cached after first load)...")
+    ragas_embeddings = HuggingFaceEmbeddings(
+        model_name=RAGAS_EMBEDDING_MODEL,
+        model_kwargs={'device': 'cpu'},
+        encode_kwargs={'normalize_embeddings': True}
+    )
+
+    print("✓ Models ready!\n")
+    return ragas_llm, ragas_embeddings
+
+# ============================================
+# Rate Limiter
+# ============================================
+class RateLimiter:
+    """Simple rate limiter to avoid overwhelming the API."""
+    def __init__(self, delay: float = 0.5):
+        self.delay = delay
+        self.last_call = 0
+        self.lock = asyncio.Lock()
+
+    async def acquire(self):
+        async with self.lock:
+            now = time.time()
+            time_since_last = now - self.last_call
+            if time_since_last < self.delay:
+                await asyncio.sleep(self.delay - time_since_last)
+            self.last_call = time.time()
+
+# Global rate limiter
+rate_limiter = RateLimiter(RATE_LIMIT_DELAY)
+
+# ============================================
+# Async Evaluation Functions with Retry
+# ============================================
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=2, max=30),
+    retry=retry_if_exception_type((aiohttp.ClientError, asyncio.TimeoutError))
 )
-print("✓ Models configured\n")
+async def evaluate_mode_with_retry(
+    eval_dataset: Dataset,
+    metrics: list,
+    llm,
+    embeddings
+) -> dict:
+    """Evaluate with retry logic for connection errors."""
+    loop = asyncio.get_event_loop()
 
-# ============================================
-# Evaluation Functions
-# ============================================
+    # Add rate limiting
+    await rate_limiter.acquire()
 
-def evaluate_single_mode(
+    # Run evaluation in thread pool
+    eval_results = await loop.run_in_executor(
+        None,
+        lambda: evaluate(
+            dataset=eval_dataset,
+            metrics=metrics,
+            llm=llm,
+            embeddings=embeddings,
+            show_progress=False
+        )
+    )
+    return eval_results
+
+async def evaluate_mode_async(
     question_id: str,
     question_text: str,
     mode: str,
     mode_data: Dict[str, Any],
     expected_answer: str,
-    retry_count: int = 3
+    semaphore: asyncio.Semaphore,
+    ragas_llm,
+    ragas_embeddings
 ) -> Dict[str, Any]:
     """
-    Evaluate a single mode for a question.
-    This runs in a thread pool to allow parallelism.
-    Includes retry logic for API connection errors.
+    Async evaluation of a single mode with improved error handling.
     """
     if mode_data.get("status") != "success":
         return {
             "question_id": question_id,
             "mode": mode,
-            "status": "skipped",
-            "reason": "no_successful_generation"
+            "status": "skipped"
         }
 
-    last_error = None
-    for attempt in range(retry_count):
+    async with semaphore:
         try:
-            if attempt > 0:
-                time.sleep(2 ** attempt)  # Exponential backoff: 2, 4, 8 seconds
-
-            # Prepare RAGAS dataset
+            # Prepare dataset
             eval_dataset = Dataset.from_dict({
                 "question": [question_text],
                 "answer": [mode_data["answer"]],
@@ -150,19 +261,34 @@ def evaluate_single_mode(
                 "ground_truth": [str(expected_answer)]
             })
 
-            # Run evaluation
-            eval_results = evaluate(
-                dataset=eval_dataset,
-                metrics=[
-                    Faithfulness(),
-                    AnswerRelevancy(),
-                    ContextRecall(),
-                    ContextPrecision()
-                ],
-                llm=ragas_llm,
-                embeddings=ragas_embeddings,
-                show_progress=False
-            )
+            metrics = [
+                Faithfulness(),
+                AnswerRelevancy(),
+                ContextRecall(),
+                ContextPrecision()
+            ]
+
+            # Evaluate with retry logic
+            if ENABLE_RETRIES:
+                eval_results = await evaluate_mode_with_retry(
+                    eval_dataset,
+                    metrics,
+                    ragas_llm,
+                    ragas_embeddings
+                )
+            else:
+                loop = asyncio.get_event_loop()
+                await rate_limiter.acquire()
+                eval_results = await loop.run_in_executor(
+                    None,
+                    lambda: evaluate(
+                        dataset=eval_dataset,
+                        metrics=metrics,
+                        llm=ragas_llm,
+                        embeddings=ragas_embeddings,
+                        show_progress=False
+                    )
+                )
 
             # Extract scores
             df = eval_results.to_pandas()
@@ -184,176 +310,162 @@ def evaluate_single_mode(
                 "mode": mode,
                 "status": "success",
                 "metrics": metrics,
-                "ragas_score": round(ragas_score, 4),
-                "timestamp": datetime.now().isoformat()
+                "ragas_score": round(ragas_score, 4)
             }
 
+        except aiohttp.ClientError as e:
+            return {
+                "question_id": question_id,
+                "mode": mode,
+                "status": "connection_error",
+                "error": f"API Connection Error: {str(e)[:100]}"
+            }
+        except asyncio.TimeoutError:
+            return {
+                "question_id": question_id,
+                "mode": mode,
+                "status": "timeout"
+            }
         except Exception as e:
-            last_error = e
-            if attempt < retry_count - 1:
-                print(f"    Retry {attempt + 1}/{retry_count} for {mode}: {str(e)[:50]}")
-                continue
+            return {
+                "question_id": question_id,
+                "mode": mode,
+                "status": "error",
+                "error": str(e)[:100]
+            }
 
-    # All retries failed
-    return {
-        "question_id": question_id,
-        "mode": mode,
-        "status": "error",
-        "error": str(last_error)[:200] if last_error else "Unknown error",
-        "timestamp": datetime.now().isoformat()
-    }
-
-
-def process_file(file_path: Path, executor: ThreadPoolExecutor) -> List[Dict[str, Any]]:
+async def process_file_async(
+    file_path: Path,
+    semaphore: asyncio.Semaphore,
+    ragas_llm,
+    ragas_embeddings
+) -> List[Dict[str, Any]]:
     """
-    Process one file, evaluating all modes in parallel.
-    Returns list of evaluation results for all modes.
+    Process one file with ALL modes in parallel.
     """
     try:
-        # Load the file
-        with open(file_path, 'r') as f:
-            data = json.load(f)
+        # Load file asynchronously
+        async with aiofiles.open(file_path, 'r') as f:
+            content = await f.read()
+            data = json.loads(content)
 
         question_id = data["question_id"]
         question_text = data["question"]
         expected_answer = str(data["expected_answer"])
 
-        # Submit all mode evaluations to thread pool
-        futures = []
+        # Create tasks for ALL modes at once
+        tasks = []
         for mode in QUERY_MODES:
             mode_data = data["modes"].get(mode, {})
-            future = executor.submit(
-                evaluate_single_mode,
+            task = evaluate_mode_async(
                 question_id,
                 question_text,
                 mode,
                 mode_data,
-                expected_answer
+                expected_answer,
+                semaphore,
+                ragas_llm,
+                ragas_embeddings
             )
-            futures.append((mode, future))
+            tasks.append(task)
 
-        # Collect results
-        results = []
-        for mode, future in futures:
-            try:
-                result = future.result(timeout=120)  # Increase to 120s timeout per mode
-                results.append(result)
-            except Exception as e:
-                results.append({
+        # Wait for all modes to complete
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # Filter out exceptions
+        valid_results = []
+        for r in results:
+            if isinstance(r, dict):
+                valid_results.append(r)
+            else:
+                valid_results.append({
                     "question_id": question_id,
-                    "mode": mode,
-                    "status": "timeout",
-                    "error": str(e)[:100]
+                    "status": "exception",
+                    "error": str(r)[:100]
                 })
 
-        return results
+        return valid_results
 
     except Exception as e:
-        # Return error for all modes if file can't be loaded
         return [{
-            "question_id": file_path.stem.split('_')[-1],
             "file": str(file_path.name),
             "status": "file_error",
-            "error": str(e)[:200]
+            "error": str(e)[:100]
         }]
 
-
-async def process_batch(
+async def process_batch_async(
     batch_files: List[Path],
     batch_num: int,
     total_batches: int,
-    all_results: List[Dict[str, Any]]
-) -> None:
+    semaphore: asyncio.Semaphore,
+    ragas_llm,
+    ragas_embeddings
+) -> List[Dict[str, Any]]:
     """
-    Process a batch of files concurrently.
+    Process a batch of files with better error handling.
     """
-    print(f"\n[Batch {batch_num}/{total_batches}] Processing {len(batch_files)} files...")
-    batch_start = time.time()
+    print(f"\n[Batch {batch_num}/{total_batches}] Starting {len(batch_files)} files...")
+    start_time = time.time()
 
-    # Use thread pool for parallel processing
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # Process all files in batch
-        batch_results = []
-        for file_path in batch_files:
-            file_results = process_file(file_path, executor)
-            batch_results.extend(file_results)
-            print(f"  ✓ {file_path.name}: {len(file_results)} modes evaluated")
+    # Process ALL files in parallel
+    tasks = [process_file_async(f, semaphore, ragas_llm, ragas_embeddings) for f in batch_files]
 
-    # Add to overall results
-    all_results.extend(batch_results)
+    # Progress bar
+    results_lists = []
+    connection_errors = 0
+    successes = 0
 
-    batch_time = time.time() - batch_start
-    print(f"[Batch {batch_num}] Completed in {batch_time:.1f}s")
+    with tqdm(total=len(tasks), desc=f"Batch {batch_num}") as pbar:
+        for coro in asyncio.as_completed(tasks):
+            try:
+                result = await coro
+                results_lists.append(result)
 
-    # Save intermediate results after each batch
-    save_results(all_results, is_intermediate=True)
+                # Count errors
+                for r in result:
+                    if r.get("status") == "connection_error":
+                        connection_errors += 1
+                    elif r.get("status") == "success":
+                        successes += 1
 
+                pbar.update(1)
+            except Exception as e:
+                print(f"\n⚠️ Task failed: {e}")
+                pbar.update(1)
 
-def save_results(results: List[Dict[str, Any]], is_intermediate: bool = False):
-    """
-    Save results to JSON file.
-    """
-    output_data = {
-        "timestamp": datetime.now().isoformat(),
-        "total_evaluations": len(results),
-        "is_intermediate": is_intermediate,
-        "judge_model": RAGAS_JUDGE_MODEL,
-        "embedding_model": RAGAS_EMBEDDING_MODEL,
-        "evaluations": results
-    }
+    # Flatten results
+    all_results = []
+    for result_list in results_lists:
+        all_results.extend(result_list)
 
-    # Save with atomic write (write to temp, then rename)
-    temp_file = OUTPUT_FILE + ".tmp"
-    with open(temp_file, 'w') as f:
-        json.dump(output_data, f, indent=2, ensure_ascii=False)
+    elapsed = time.time() - start_time
+    print(f"[Batch {batch_num}] ✅ Completed in {elapsed:.1f}s "
+          f"({successes} successful, {connection_errors} connection errors)")
 
-    # Atomic rename
-    os.replace(temp_file, OUTPUT_FILE)
+    # If too many connection errors, pause briefly
+    if connection_errors > len(batch_files):
+        print(f"⚠️ High connection error rate. Pausing for 5 seconds...")
+        await asyncio.sleep(5)
 
-    if not is_intermediate:
-        print(f"\n💾 Final results saved to: {OUTPUT_FILE}")
-
-
-def calculate_statistics(results: List[Dict[str, Any]]) -> Dict[str, Any]:
-    """
-    Calculate summary statistics from evaluation results.
-    """
-    successful = [r for r in results if r.get("status") == "success"]
-
-    if not successful:
-        return {"error": "No successful evaluations"}
-
-    # Group by mode
-    mode_stats = {}
-    for mode in QUERY_MODES:
-        mode_results = [r for r in successful if r.get("mode") == mode]
-        if mode_results:
-            mode_stats[mode] = {
-                "count": len(mode_results),
-                "avg_ragas": np.mean([r["ragas_score"] for r in mode_results]),
-                "avg_faithfulness": np.mean([r["metrics"]["faithfulness"] for r in mode_results]),
-                "avg_relevancy": np.mean([r["metrics"]["answer_relevancy"] for r in mode_results]),
-                "avg_recall": np.mean([r["metrics"]["context_recall"] for r in mode_results]),
-                "avg_precision": np.mean([r["metrics"]["context_precision"] for r in mode_results])
-            }
-
-    return {
-        "total": len(results),
-        "successful": len(successful),
-        "failed": len(results) - len(successful),
-        "by_mode": mode_stats
-    }
-
-
-# ============================================
-# Main Batch Processing
-# ============================================
+    return all_results
 
 async def main():
     """
-    Main batch processing function.
+    Main async orchestrator with connection testing.
     """
-    # Find all result files
+    # Test API connection first
+    if not await test_api_connection():
+        print("\n❌ Cannot proceed without working API connection.")
+        print("   Please check:")
+        print("   1. Your MISTRAL_API_KEY is valid")
+        print("   2. You have internet connectivity")
+        print("   3. The Mistral API is accessible from your network")
+        return
+
+    # Setup models
+    ragas_llm, ragas_embeddings = await setup_models()
+
+    # Find all files
     results_path = Path(RESULTS_DIR)
     all_files = sorted(results_path.glob("test_results_*_question_*.json"))
 
@@ -363,9 +475,9 @@ async def main():
 
     print(f"📊 Found {len(all_files)} files to process")
 
-    # Ask for confirmation if many files
+    # Confirmation
     if len(all_files) > 10:
-        response = input(f"\n⚠ This will process {len(all_files)} files. Continue? (y/N): ")
+        response = input(f"\n⚠ Process {len(all_files)} files? (y/N): ")
         if response.lower() != 'y':
             print("Cancelled.")
             return
@@ -374,50 +486,73 @@ async def main():
     batches = [all_files[i:i+BATCH_SIZE] for i in range(0, len(all_files), BATCH_SIZE)]
     total_batches = len(batches)
 
-    print(f"📦 Split into {total_batches} batches of up to {BATCH_SIZE} files each")
-    print(f"⏱ Estimated time: {total_batches * 25:.0f} seconds ({total_batches * 25 / 60:.1f} minutes)")
+    print(f"📦 {total_batches} batches × {BATCH_SIZE} files")
+    print(f"⏱️ Estimated time: {total_batches * 30:.0f}s ({total_batches * 30 / 60:.1f} min)")
     print("="*70)
+
+    # Semaphore to limit concurrent API calls
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT)
 
     # Process all batches
     all_results = []
     start_time = time.time()
+    connection_error_count = 0
 
     for batch_num, batch_files in enumerate(batches, 1):
-        await process_batch(batch_files, batch_num, total_batches, all_results)
+        batch_results = await process_batch_async(
+            batch_files,
+            batch_num,
+            total_batches,
+            semaphore,
+            ragas_llm,
+            ragas_embeddings
+        )
+        all_results.extend(batch_results)
+
+        # Count connection errors
+        batch_connection_errors = len([r for r in batch_results if r.get("status") == "connection_error"])
+        connection_error_count += batch_connection_errors
+
+        # If getting too many connection errors, increase delay
+        if batch_connection_errors > len(batch_files) * 2:
+            print(f"⚠️ Too many connection errors ({batch_connection_errors}). Adjusting rate limit...")
+            rate_limiter.delay = min(rate_limiter.delay * 1.5, 5.0)
+
+        # Save intermediate results
+        async with aiofiles.open(OUTPUT_FILE, 'w') as f:
+            await f.write(json.dumps({
+                "timestamp": datetime.now().isoformat(),
+                "total_evaluations": len(all_results),
+                "is_complete": batch_num == total_batches,
+                "connection_errors": connection_error_count,
+                "evaluations": all_results
+            }, indent=2))
 
     total_time = time.time() - start_time
 
-    # Final save
-    save_results(all_results, is_intermediate=False)
-
-    # Calculate and display statistics
-    stats = calculate_statistics(all_results)
+    # Calculate stats
+    successful = len([r for r in all_results if r.get("status") == "success"])
 
     print("\n" + "="*70)
-    print("📊 EVALUATION COMPLETE")
+    print("⚡ EVALUATION COMPLETE!")
     print("="*70)
     print(f"Total Files:        {len(all_files)}")
-    print(f"Total Evaluations:  {stats['total']}")
-    print(f"Successful:         {stats['successful']}")
-    print(f"Failed:             {stats['failed']}")
-    print(f"Total Time:         {total_time:.1f}s ({total_time/60:.1f} minutes)")
+    print(f"Total Evaluations:  {len(all_results)}")
+    print(f"Successful:         {successful}")
+    print(f"Connection Errors:  {connection_error_count}")
+    print(f"Other Failures:     {len(all_results) - successful - connection_error_count}")
+    print(f"Total Time:         {total_time:.1f}s ({total_time/60:.1f} min)")
     print(f"Avg per File:       {total_time/len(all_files):.1f}s")
-
-    if "by_mode" in stats:
-        print("\n📈 RESULTS BY MODE:")
-        print(f"{'Mode':<8} | {'Count':<5} | {'RAGAS':<6} | {'Faith':<6} | {'Relev':<6} | {'Recall':<6} | {'Precis':<6}")
-        print("-" * 70)
-
-        for mode in QUERY_MODES:
-            if mode in stats["by_mode"]:
-                s = stats["by_mode"][mode]
-                print(f"{mode.upper():<8} | {s['count']:<5} | {s['avg_ragas']:.4f} | "
-                      f"{s['avg_faithfulness']:.4f} | {s['avg_relevancy']:.4f} | "
-                      f"{s['avg_recall']:.4f} | {s['avg_precision']:.4f}")
-
-    print("\n✅ Batch processing complete!")
+    print(f"Success Rate:       {successful/len(all_results)*100:.1f}%")
+    print()
     print(f"📁 Results saved to: {OUTPUT_FILE}")
 
+    if connection_error_count > 0:
+        print(f"\n⚠️ {connection_error_count} connection errors occurred.")
+        print("   Consider:")
+        print("   - Reducing MAX_CONCURRENT further")
+        print("   - Increasing RATE_LIMIT_DELAY")
+        print("   - Checking API quota/limits")
 
 if __name__ == "__main__":
     asyncio.run(main())
