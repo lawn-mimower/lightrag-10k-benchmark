@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-SIMPLE BATCH RAGAS EVALUATION
-==============================
-Process one file at a time, all 5 modes in parallel.
-Simple, reliable, no fancy async stuff.
+ULTRA SIMPLE BATCH RAGAS EVALUATION
+====================================
+Maximum simplicity, maximum reliability.
+Process one file at a time, one mode at a time.
 """
 
 import os
@@ -12,14 +12,11 @@ import time
 import warnings
 from pathlib import Path
 from datetime import datetime
-from typing import List, Dict, Any
 import numpy as np
 from tqdm import tqdm
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Suppress warnings
-warnings.filterwarnings("ignore", message=".*LangchainLLMWrapper is deprecated.*")
-warnings.filterwarnings("ignore", message=".*Unexpected type for token usage.*")
+warnings.filterwarnings("ignore")
 
 # RAGAS imports
 from datasets import Dataset
@@ -39,15 +36,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ============================================
-# SIMPLE Configuration
+# ULTRA SIMPLE Configuration
 # ============================================
 RESULTS_DIR = "./lightrag-bench/5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"
-OUTPUT_FILE = "./lightrag-bench/batch_ragas_evaluation_results_simple.json"
-CHECKPOINT_FILE = "./lightrag-bench/batch_ragas_checkpoint.json"
+OUTPUT_FILE = "./lightrag-bench/batch_ragas_evaluation_results_ultra_simple.json"
+CHECKPOINT_FILE = "./lightrag-bench/batch_ragas_checkpoint_ultra.json"
 
-# Simple settings
-TIMEOUT_SECONDS = 120  # 2 minutes timeout
-MAX_WORKERS = 5  # Process 5 modes in parallel
+# Ultra conservative settings
+DELAY_BETWEEN_MODES = 2  # 2 second delay between mode evaluations
+DELAY_BETWEEN_FILES = 3  # 3 second delay between files
+MAX_RETRIES = 3  # Retry failed evaluations
 
 # Models
 RAGAS_JUDGE_MODEL = "ministral-14b-2512"
@@ -57,32 +55,54 @@ RAGAS_EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"
 QUERY_MODES = ["local", "global", "naive", "hybrid", "mix"]
 
 print("="*70)
-print("📦 SIMPLE BATCH RAGAS EVALUATION")
+print("🐌 ULTRA SIMPLE BATCH RAGAS EVALUATION")
 print("="*70)
 print(f"📁 Source: {Path(RESULTS_DIR).name}")
 print(f"💾 Output: {Path(OUTPUT_FILE).name}")
-print(f"⏱️ Timeout: {TIMEOUT_SECONDS} seconds per evaluation")
-print(f"🔄 Processing: 1 file at a time, 5 modes in parallel")
+print(f"🐢 Mode: Sequential (1 file → 1 mode at a time)")
+print(f"⏰ Delays: {DELAY_BETWEEN_MODES}s between modes, {DELAY_BETWEEN_FILES}s between files")
 print()
 
 # ============================================
-# Setup Models Once
+# Test Connection First
 # ============================================
-print("Setting up models...")
-
+print("🔍 Testing API connection...")
 mistral_api_key = os.getenv("MISTRAL_API_KEY")
 if not mistral_api_key:
     print("❌ MISTRAL_API_KEY not found!")
     exit(1)
 
-# Create LLM - simple config that works
+# Quick connection test
+try:
+    test_llm = ChatOpenAI(
+        model=RAGAS_JUDGE_MODEL,
+        api_key=mistral_api_key,
+        base_url="https://api.mistral.ai/v1",
+        max_retries=2,
+        request_timeout=30
+    )
+    response = test_llm.invoke("Say 'ok' in one word")
+    print(f"✅ API connection working: {response.content}")
+except Exception as e:
+    print(f"❌ API connection failed: {e}")
+    print("\nPlease check:")
+    print("1. Your MISTRAL_API_KEY is valid")
+    print("2. You have internet connection")
+    print("3. Mistral API is accessible")
+    exit(1)
+
+# ============================================
+# Setup Models (KNOWN WORKING CONFIG)
+# ============================================
+print("\n📦 Setting up models...")
+
+# Create LLM with EXACT working config
 base_llm = ChatOpenAI(
     model=RAGAS_JUDGE_MODEL,
     api_key=mistral_api_key,
     base_url="https://api.mistral.ai/v1",
-    max_retries=5,  # More retries
-    request_timeout=TIMEOUT_SECONDS,
-    temperature=0.1  # Add temperature for consistency
+    max_retries=5,
+    request_timeout=180  # 3 minutes
 )
 
 try:
@@ -90,10 +110,10 @@ try:
         langchain_llm=base_llm,
         bypass_n=True
     )
-    print("✓ LLM ready")
+    print("✓ LLM ready (bypass_n mode)")
 except:
     ragas_llm = base_llm
-    print("✓ LLM ready (standard mode)")
+    print("✓ LLM ready")
 
 # Local embeddings
 print("Loading embeddings...")
@@ -106,40 +126,38 @@ print("✓ Embeddings ready")
 print()
 
 # ============================================
-# Load checkpoint if exists
+# Checkpoint Management
 # ============================================
 def load_checkpoint():
-    """Load checkpoint to resume from where we left off."""
+    """Load checkpoint to resume."""
     if os.path.exists(CHECKPOINT_FILE):
         try:
             with open(CHECKPOINT_FILE, 'r') as f:
                 checkpoint = json.load(f)
-                print(f"📚 Resuming from checkpoint: {checkpoint['processed_files']} files already done")
-                return set(checkpoint['processed_files'])
+                return checkpoint
         except:
             pass
-    return set()
+    return {"processed": {}, "results": []}
 
-def save_checkpoint(processed_files):
-    """Save checkpoint after each file."""
+def save_checkpoint(checkpoint):
+    """Save checkpoint."""
+    checkpoint['timestamp'] = datetime.now().isoformat()
     with open(CHECKPOINT_FILE, 'w') as f:
-        json.dump({
-            'timestamp': datetime.now().isoformat(),
-            'processed_files': list(processed_files)
-        }, f)
+        json.dump(checkpoint, f, indent=2)
 
 # ============================================
-# Simple Evaluation Function
+# ULTRA SIMPLE Evaluation
 # ============================================
-def evaluate_single_mode(
+def evaluate_single_mode_with_retry(
     question_id: str,
     question_text: str,
     mode: str,
-    mode_data: Dict[str, Any],
-    expected_answer: str
-) -> Dict[str, Any]:
+    mode_data: dict[str, any],
+    expected_answer: str,
+    retry_count: int = 0
+) -> dict[str, any]:
     """
-    Evaluate a single mode - simple and direct
+    Evaluate with retry logic.
     """
     if mode_data.get("status") != "success":
         return {
@@ -196,94 +214,30 @@ def evaluate_single_mode(
         }
 
     except Exception as e:
-        error_msg = str(e)
-        if "timeout" in error_msg.lower():
-            return {
-                "question_id": question_id,
-                "mode": mode,
-                "status": "timeout"
-            }
-        else:
-            return {
-                "question_id": question_id,
-                "mode": mode,
-                "status": "error",
-                "error": error_msg[:200]
-            }
+        error_str = str(e)
 
+        # Check if it's a connection error and we can retry
+        if "connection" in error_str.lower() and retry_count < MAX_RETRIES:
+            print(f"    ⚠️ Connection error, retrying ({retry_count + 1}/{MAX_RETRIES})...")
+            time.sleep(5 * (retry_count + 1))  # Exponential backoff
+            return evaluate_single_mode_with_retry(
+                question_id, question_text, mode, mode_data, expected_answer,
+                retry_count + 1
+            )
 
-def process_single_file(file_path: Path) -> Dict[str, Any]:
-    """
-    Process ONE file - evaluate all 5 modes in parallel
-    """
-    file_start = time.time()
-
-    try:
-        # Load file
-        with open(file_path, 'r') as f:
-            data = json.load(f)
-
-        question_id = data["question_id"]
-        question_text = data["question"]
-        expected_answer = str(data["expected_answer"])
-
-        # Process all 5 modes in parallel
-        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            futures = {}
-
-            # Submit all mode evaluations
-            for mode in QUERY_MODES:
-                mode_data = data["modes"].get(mode, {})
-                future = executor.submit(
-                    evaluate_single_mode,
-                    question_id,
-                    question_text,
-                    mode,
-                    mode_data,
-                    expected_answer
-                )
-                futures[future] = mode
-
-            # Collect results
-            mode_results = []
-            for future in as_completed(futures):
-                mode = futures[future]
-                try:
-                    result = future.result(timeout=TIMEOUT_SECONDS)
-                    mode_results.append(result)
-                except Exception as e:
-                    mode_results.append({
-                        "question_id": question_id,
-                        "mode": mode,
-                        "status": "timeout",
-                        "error": str(e)[:100]
-                    })
-
-        file_time = time.time() - file_start
-
-        # Count successes
-        successes = sum(1 for r in mode_results if r.get("status") == "success")
-
+        # Otherwise return error
         return {
-            "file": file_path.name,
             "question_id": question_id,
-            "processing_time": round(file_time, 1),
-            "successful_modes": successes,
-            "total_modes": len(mode_results),
-            "mode_evaluations": mode_results
-        }
-
-    except Exception as e:
-        return {
-            "file": file_path.name,
-            "status": "file_error",
-            "error": str(e)[:200]
+            "mode": mode,
+            "status": "error",
+            "error": error_str[:200],
+            "retries": retry_count
         }
 
 
 def main():
     """
-    Main function - process files one by one
+    Main function - ULTRA SIMPLE approach
     """
     # Find all files
     results_path = Path(RESULTS_DIR)
@@ -295,116 +249,143 @@ def main():
 
     print(f"📊 Found {len(all_files)} files to process")
 
-    # Load checkpoint to skip already processed files
-    processed_files = load_checkpoint()
+    # Load checkpoint
+    checkpoint = load_checkpoint()
+    processed = checkpoint.get("processed", {})
+    all_results = checkpoint.get("results", [])
 
-    # Filter out already processed files
-    remaining_files = [f for f in all_files if f.name not in processed_files]
+    # Count remaining work
+    total_evaluations = len(all_files) * len(QUERY_MODES)
+    completed_evaluations = sum(len(modes) for modes in processed.values())
+    remaining_evaluations = total_evaluations - completed_evaluations
 
-    if len(remaining_files) < len(all_files):
-        print(f"⏭️ Skipping {len(all_files) - len(remaining_files)} already processed files")
-        print(f"📋 {len(remaining_files)} files left to process")
+    if completed_evaluations > 0:
+        print(f"📚 Resuming: {completed_evaluations}/{total_evaluations} already done")
 
-    if not remaining_files:
-        print("✅ All files already processed!")
+    if remaining_evaluations == 0:
+        print("✅ All evaluations complete!")
         return
 
     # Confirmation
-    if len(remaining_files) > 10:
-        response = input(f"\n⚠ Process {len(remaining_files)} files? (y/N): ")
+    if remaining_evaluations > 50:
+        print(f"\n⚠ {remaining_evaluations} evaluations to process")
+        print(f"⏱️ Estimated time: {remaining_evaluations * 15:.0f}s ({remaining_evaluations * 15 / 60:.1f} min)")
+        response = input("Continue? (y/N): ")
         if response.lower() != 'y':
             print("Cancelled.")
             return
 
-    print(f"\n📦 Processing {len(remaining_files)} files one by one")
-    print(f"⏱️ Estimated time: {len(remaining_files) * 30:.0f}s ({len(remaining_files) * 30 / 60:.1f} min)")
+    print("\n" + "="*70)
+    print("🚀 STARTING SEQUENTIAL PROCESSING")
     print("="*70)
 
-    # Process each file
-    all_results = []
-
-    # Load existing results if resuming
-    if os.path.exists(OUTPUT_FILE):
-        try:
-            with open(OUTPUT_FILE, 'r') as f:
-                existing_data = json.load(f)
-                all_results = existing_data.get("evaluations", [])
-                print(f"📚 Loaded {len(all_results)} existing results")
-        except:
-            pass
-
     start_time = time.time()
+    evaluation_count = 0
 
-    # Progress bar for all files
-    with tqdm(total=len(remaining_files), desc="Files") as pbar:
-        for file_num, file_path in enumerate(remaining_files, 1):
-            # Process the file
-            pbar.set_description(f"File {file_num}/{len(remaining_files)}: {file_path.name[:30]}")
+    # Process each file
+    with tqdm(total=remaining_evaluations, desc="Evaluations", initial=completed_evaluations) as pbar:
+        for file_path in all_files:
+            file_name = file_path.name
 
-            result = process_single_file(file_path)
-            all_results.append(result)
+            # Skip if already fully processed
+            if file_name in processed and len(processed[file_name]) == len(QUERY_MODES):
+                continue
 
-            # Update checkpoint
-            processed_files.add(file_path.name)
-            save_checkpoint(processed_files)
+            # Load file
+            try:
+                with open(file_path, 'r') as f:
+                    data = json.load(f)
 
-            # Save results after each file
-            with open(OUTPUT_FILE, 'w') as f:
-                json.dump({
-                    "timestamp": datetime.now().isoformat(),
-                    "total_files_processed": len(processed_files),
-                    "total_files": len(all_files),
-                    "is_complete": len(processed_files) == len(all_files),
-                    "evaluations": all_results
-                }, f, indent=2)
+                question_id = data["question_id"]
+                question_text = data["question"]
+                expected_answer = str(data["expected_answer"])
 
-            # Update progress
-            if "successful_modes" in result:
-                pbar.set_postfix({
-                    "success": f"{result['successful_modes']}/5",
-                    "time": f"{result.get('processing_time', 0):.1f}s"
-                })
+                # Process each mode sequentially
+                for mode in QUERY_MODES:
+                    # Skip if already processed
+                    if file_name in processed and mode in processed.get(file_name, []):
+                        continue
 
-            pbar.update(1)
+                    mode_data = data["modes"].get(mode, {})
 
-            # Small pause between files to avoid overwhelming API
-            if file_num < len(remaining_files):
-                time.sleep(1)
+                    # Show current task
+                    pbar.set_description(f"{question_id[:8]}:{mode}")
+
+                    # Evaluate with retry
+                    result = evaluate_single_mode_with_retry(
+                        question_id,
+                        question_text,
+                        mode,
+                        mode_data,
+                        expected_answer
+                    )
+
+                    # Store result
+                    result['file'] = file_name
+                    all_results.append(result)
+
+                    # Update checkpoint
+                    if file_name not in processed:
+                        processed[file_name] = []
+                    processed[file_name].append(mode)
+
+                    checkpoint = {"processed": processed, "results": all_results}
+                    save_checkpoint(checkpoint)
+
+                    # Save full results
+                    with open(OUTPUT_FILE, 'w') as f:
+                        json.dump({
+                            "timestamp": datetime.now().isoformat(),
+                            "evaluations_completed": len(all_results),
+                            "evaluations_total": total_evaluations,
+                            "is_complete": len(all_results) == total_evaluations,
+                            "results": all_results
+                        }, f, indent=2)
+
+                    # Update progress
+                    evaluation_count += 1
+                    pbar.update(1)
+
+                    if result.get("status") == "success":
+                        pbar.set_postfix({"✓": evaluation_count, "mode": mode})
+                    else:
+                        pbar.set_postfix({"✓": evaluation_count, "⚠": result.get("status")})
+
+                    # Delay between modes
+                    if mode != QUERY_MODES[-1]:  # Not the last mode
+                        time.sleep(DELAY_BETWEEN_MODES)
+
+                # Delay between files
+                time.sleep(DELAY_BETWEEN_FILES)
+
+            except Exception as e:
+                print(f"\n❌ Error processing {file_name}: {e}")
+                continue
 
     total_time = time.time() - start_time
 
-    # Calculate final stats
-    total_evaluations = sum(
-        r.get("total_modes", 0) for r in all_results
-        if "total_modes" in r
-    )
-    successful_evaluations = sum(
-        r.get("successful_modes", 0) for r in all_results
-        if "successful_modes" in r
-    )
+    # Final stats
+    successful = len([r for r in all_results if r.get("status") == "success"])
 
     print("\n" + "="*70)
     print("✅ EVALUATION COMPLETE!")
     print("="*70)
-    print(f"Total Files:        {len(all_files)}")
-    print(f"Processed:          {len(processed_files)}")
-    print(f"Total Evaluations:  {total_evaluations}")
-    print(f"Successful:         {successful_evaluations}")
-    print(f"Failed:             {total_evaluations - successful_evaluations}")
+    print(f"Total Evaluations:  {len(all_results)}")
+    print(f"Successful:         {successful}")
+    print(f"Failed/Skipped:     {len(all_results) - successful}")
     print(f"Total Time:         {total_time:.1f}s ({total_time/60:.1f} min)")
-    print(f"Avg per File:       {total_time/len(remaining_files):.1f}s")
+    print(f"Avg per Evaluation: {total_time/len(all_results):.1f}s")
 
-    if successful_evaluations > 0:
-        print(f"Success Rate:       {successful_evaluations/total_evaluations*100:.1f}%")
+    if successful > 0:
+        print(f"Success Rate:       {successful/len(all_results)*100:.1f}%")
 
     print()
     print(f"📁 Results saved to: {OUTPUT_FILE}")
 
-    # Clean up checkpoint file
-    if len(processed_files) == len(all_files):
-        if os.path.exists(CHECKPOINT_FILE):
-            os.remove(CHECKPOINT_FILE)
-            print("🧹 Checkpoint file removed (all done)")
+    # Clean up checkpoint
+    if os.path.exists(CHECKPOINT_FILE):
+        os.remove(CHECKPOINT_FILE)
+        print("🧹 Checkpoint removed (all done)")
 
 
 if __name__ == "__main__":
