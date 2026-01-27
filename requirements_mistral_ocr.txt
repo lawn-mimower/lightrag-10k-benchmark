@@ -1,0 +1,8 @@
+# Mistral Document AI OCR Requirements
+# Install with: pip install -r requirements_mistral_ocr.txt
+
+# Core Mistral API client
+mistralai>=1.0.0
+
+# For environment variable management (optional but recommended)
+python-dotenv>=1.0.0
