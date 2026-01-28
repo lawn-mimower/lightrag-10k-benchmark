@@ -3,7 +3,7 @@ import time
 import pandas as pd
 from pathlib import Path
 from mistralai import Mistral
-import dotenv
+import dotenva
 import json 
 dotenv.load_dotenv()
 
@@ -12,12 +12,6 @@ API_KEY = os.environ.get("MISTRAL_API_KEY")
 BASE_DIR = Path("./data")
 DOCUMENTS = [
     "sample_docs/sample_statement.pdf",
-    "Validation.JPG",
-    "Prescutiny.JPG",
-    "Prescrutiny CFS.JPG",
-    "Validation CFS.JPG",
-    "InstanceDocument-EXAMPLEENGINEERINGPRIVATELIMITED_Standalone.xml",
-    "InstanceDocument-EXAMPLEENGINEERINGPRIVATELIMITED_Consolidated.xml"
 ]
 
 def process_signed_url(client, doc_path):
