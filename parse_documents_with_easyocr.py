@@ -1,78 +1,67 @@
 """
-Script to parse specific documents using Docling and export to JSON with markdown content.
-CPU-only mode with timestamps.
+Alternative document parser using EasyOCR instead of RT-DETRv2
+This avoids the transformers compatibility issue
 """
 
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.base_models import InputFormat
-from docling.datamodel.pipeline_options import (
-    PdfPipelineOptions,
-    AcceleratorDevice,
-    AcceleratorOptions,
-    RapidOcrOptions
-)
+from docling.datamodel.pipeline_options import PdfPipelineOptions, OcrOptions, AcceleratorDevice, AcceleratorOptions
 import json
 from pathlib import Path
 from datetime import datetime
 import time
-from dotenv import load_dotenv
+
 # Base directory where documents are located
 BASE_DIR = Path("./data")
 
-
-load_dotenv()
 # Specific documents to process
 DOCUMENTS_TO_PROCESS = [
-"sample_docs/sample_statement.xlsx"
+    #"sample_docs/sample_statement.docx",
+    #"sample_docs/sample_statement.docx",
+    #"sample_docs/sample_statement.docx",
+    "sample_docs/sample_statement.xlsx",
+    #"sample_docs/sample_statement.pdf",
+    #"Validation.JPG",
+    #"Prescutiny.JPG",
+    #"Prescrutiny CFS.JPG",
+    #"Validation CFS.JPG",
+    #"InstanceDocument-EXAMPLEENGINEERINGPRIVATELIMITED_Standalone.xml",
+    #"InstanceDocument-EXAMPLEENGINEERINGPRIVATELIMITED_Consolidated.xml"
 ]
 
 
 def initialize_converter():
-    """Initialize Docling DocumentConverter in CPU-only mode."""
-    print("Initializing Docling DocumentConverter in CPU-only mode...")
+    """Initialize Docling DocumentConverter with EasyOCR backend."""
+    print("Initializing Docling DocumentConverter with EasyOCR...")
 
-    try:
-        print("  Creating PdfPipelineOptions...")
-        # Configure pipeline options for CPU-only processing
-        pipeline_options = PdfPipelineOptions()
-        pipeline_options.do_ocr = True  # Enable OCR for scanned documents
-        pipeline_options.do_table_structure = True  # Extract table structure
+    # Configure pipeline options
+    pipeline_options = PdfPipelineOptions()
+    pipeline_options.do_table_structure = True  # Extract table structure
 
-        print("  Creating RapidOcrOptions...")
-        # Configure OCR options specifically using RapidOCR
-        ocr_options = RapidOcrOptions(
-            lang=["en"],  # Required: language for OCR
-            force_full_page_ocr=True  # Force OCR on all pages, even if text is detected
-        )
+    # Configure OCR with EasyOCR (alternative to default RT-DETRv2)
+    ocr_options = OcrOptions()
+    ocr_options.use_gpu = False  # CPU mode
+    ocr_options.lang = ["en"]  # English OCR
 
-        pipeline_options.ocr_options = ocr_options
+    pipeline_options.ocr_options = ocr_options
+    pipeline_options.do_ocr = True
 
-        print("  Setting AcceleratorOptions...")
-        # Force CPU-only processing
-        pipeline_options.accelerator_options = AcceleratorOptions(
-            num_threads=4,
-            device=AcceleratorDevice.CPU
-        )
+    # Force CPU-only processing
+    pipeline_options.accelerator_options = AcceleratorOptions(
+        num_threads=4,
+        device=AcceleratorDevice.CPU
+    )
 
-        print("  Creating DocumentConverter...")
-        # Initialize converter with default backend (DoclingParseV4)
-        # This is more robust than PyPdfiumDocumentBackend
-        converter = DocumentConverter(
-            format_options={
-                InputFormat.PDF: PdfFormatOption(
-                    pipeline_options=pipeline_options
-                )
-            }
-        )
+    # Initialize converter
+    converter = DocumentConverter(
+        format_options={
+            InputFormat.PDF: PdfFormatOption(
+                pipeline_options=pipeline_options
+            )
+        }
+    )
 
-        print("  Converter initialized successfully!")
-        return converter
-
-    except Exception as e:
-        print(f"  ERROR during initialization: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
+    return converter
 
 
 def parse_documents():
@@ -81,16 +70,12 @@ def parse_documents():
     start_time = datetime.now()
     converter = initialize_converter()
 
-    if converter is None:
-        print("ERROR: Failed to initialize converter. Exiting.")
-        return None
-
     results = {
         "metadata": {
             "start_timestamp": start_time.isoformat(),
             "source_directory": str(BASE_DIR),
             "total_documents": len(DOCUMENTS_TO_PROCESS),
-            "processing_mode": "CPU-only"
+            "processing_mode": "CPU-only with EasyOCR"
         },
         "documents": []
     }
@@ -152,7 +137,7 @@ def parse_documents():
 def main():
     """Main execution function."""
     print("=" * 70)
-    print("Docling Document Parser (CPU-Only Mode)")
+    print("Docling Document Parser (EasyOCR Backend)")
     print("=" * 70)
     print(f"Source directory: {BASE_DIR}")
     print(f"Documents to process: {len(DOCUMENTS_TO_PROCESS)}")
@@ -160,15 +145,10 @@ def main():
     print()
 
     # Parse all documents
-    print("Starting document parsing...")
     results = parse_documents()
 
-    if results is None:
-        print("ERROR: Document parsing failed.")
-        return
-
     # Save to JSON file
-    output_file = Path("parsed_documents_markdown.json")
+    output_file = Path("parsed_documents_markdown_easyocr.json")
     print(f"\nSaving results to {output_file}...")
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
@@ -190,11 +170,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print("Script started...")
-    try:
-        main()
-    except Exception as e:
-        print(f"Unhandled exception in main: {e}")
-        import traceback
-        traceback.print_exc()
-    print("Script finished.")
+    main()

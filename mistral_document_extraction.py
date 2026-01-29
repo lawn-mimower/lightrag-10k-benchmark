@@ -19,13 +19,8 @@ load_dotenv()
 
 # Specific documents to process
 DOCUMENTS_TO_PROCESS = [
-    "sample_docs/sample_statement.pdf",
-    "Validation.JPG",
-    "Prescutiny.JPG",
-    "Prescrutiny CFS.JPG",
-    "Validation CFS.JPG",
-    "InstanceDocument-EXAMPLEENGINEERINGPRIVATELIMITED_Standalone.xml",
-    "InstanceDocument-EXAMPLEENGINEERINGPRIVATELIMITED_Consolidated.xml"
+    "sample_docs/sample_statement.xml",
+    # Add more documents here as needed
 ]
 
 
@@ -89,40 +84,41 @@ def extract_text_from_response(response) -> str:
     """
     try:
         # Check if response has pages attribute (typical for document OCR)
-        if hasattr(response, 'pages'):
+        if hasattr(response, 'pages') and response.pages:
             markdown_parts = []
 
             for i, page in enumerate(response.pages):
                 # Add page separator for multi-page documents
                 if i > 0:
                     markdown_parts.append("\n\n---\n\n")
+                    markdown_parts.append(f"## Page {i + 1}\n\n")
 
-                # Extract content from page
-                if hasattr(page, 'content'):
+                # Extract content from page - Mistral OCR returns markdown attribute
+                if hasattr(page, 'markdown'):
+                    markdown_parts.append(page.markdown)
+                elif hasattr(page, 'content'):
                     markdown_parts.append(page.content)
                 elif hasattr(page, 'text'):
                     markdown_parts.append(page.text)
-                elif hasattr(page, 'markdown'):
-                    markdown_parts.append(page.markdown)
                 elif isinstance(page, dict):
                     # Try to extract from dict structure
-                    content = page.get('content') or page.get('text') or page.get('markdown', '')
+                    content = page.get('markdown') or page.get('content') or page.get('text', '')
                     markdown_parts.append(content)
 
             return ''.join(markdown_parts)
 
-        # Check for direct text/content attributes
+        # For single page or direct response
+        if hasattr(response, 'markdown'):
+            return response.markdown
         if hasattr(response, 'content'):
             return response.content
         if hasattr(response, 'text'):
             return response.text
-        if hasattr(response, 'markdown'):
-            return response.markdown
 
         # Handle dict response
         if isinstance(response, dict):
             # Try various possible keys
-            for key in ['content', 'text', 'markdown', 'extracted_text', 'result']:
+            for key in ['markdown', 'content', 'text', 'extracted_text', 'result']:
                 if key in response:
                     return response[key]
 
@@ -134,8 +130,9 @@ def extract_text_from_response(response) -> str:
                     for i, page in enumerate(pages):
                         if i > 0:
                             markdown_parts.append("\n\n---\n\n")
+                            markdown_parts.append(f"## Page {i + 1}\n\n")
                         if isinstance(page, dict):
-                            content = page.get('content') or page.get('text') or page.get('markdown', '')
+                            content = page.get('markdown') or page.get('content') or page.get('text', '')
                             markdown_parts.append(content)
                         else:
                             markdown_parts.append(str(page))
@@ -161,6 +158,7 @@ def process_document(client: Mistral, doc_path: Path) -> Dict:
         Dictionary containing processing results
     """
     doc_start = time.time()
+    uploaded_file = None
 
     try:
         # Check file size (50 MB limit)
@@ -168,58 +166,60 @@ def process_document(client: Mistral, doc_path: Path) -> Dict:
         if file_size_mb > 50:
             raise ValueError(f"File size ({file_size_mb:.2f} MB) exceeds 50 MB limit")
 
-        # First, try to upload the file and get a file_id
-        # The Mistral API requires files to be uploaded first
-        try:
-            # Upload file to Mistral
-            with open(doc_path, 'rb') as f:
-                # Try to upload the file using files.upload if available
-                upload_response = client.files.upload(
-                    file=f,
-                    purpose="ocr"  # or "assistants" based on API
-                )
-                file_id = upload_response.id
+        ext = doc_path.suffix.lower()
 
-            # Prepare document data using file_id
+        # For images, we can use base64 directly
+        if ext in ['.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff']:
+            # Check image file size (10 MB limit for images)
+            if file_size_mb > 10:
+                raise ValueError(f"Image file size ({file_size_mb:.2f} MB) exceeds 10 MB limit")
+
+            file_base64 = encode_file_to_base64(doc_path)
+            mime_type = {
+                '.jpg': 'image/jpeg',
+                '.jpeg': 'image/jpeg',
+                '.png': 'image/png',
+                '.bmp': 'image/bmp',
+                '.gif': 'image/gif',
+                '.tiff': 'image/tiff'
+            }.get(ext, 'image/jpeg')
+
+            # Create a data URI for the image
+            data_uri = f"data:{mime_type};base64,{file_base64}"
+
             document_data = {
-                "type": "file",
-                "file_id": file_id
+                "type": "image_url",
+                "image_url": data_uri
             }
 
-        except AttributeError:
-            # If files.upload doesn't exist, fall back to base64 with image format for images
-            # or raise an error for documents
-            ext = doc_path.suffix.lower()
+        else:
+            # For documents (PDF, DOCX, XML, etc.), use the signed URL approach
+            print(f"    → Uploading file to Mistral...")
 
-            if ext in ['.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff']:
-                # For images, we can try using base64 in a data URI format
-                file_base64 = encode_file_to_base64(doc_path)
-                mime_type = {
-                    '.jpg': 'image/jpeg',
-                    '.jpeg': 'image/jpeg',
-                    '.png': 'image/png',
-                    '.bmp': 'image/bmp',
-                    '.gif': 'image/gif',
-                    '.tiff': 'image/tiff'
-                }.get(ext, 'image/jpeg')
+            # Read the file content
+            with open(doc_path, 'rb') as f:
+                file_content = f.read()
 
-                # Create a data URI for the image
-                data_uri = f"data:{mime_type};base64,{file_base64}"
+            # Upload the file with proper format
+            uploaded_file = client.files.upload(
+                file={
+                    "file_name": doc_path.name,
+                    "content": file_content
+                },
+                purpose="ocr"
+            )
 
-                document_data = {
-                    "type": "image_url",
-                    "image_url": data_uri
-                }
-            else:
-                # For non-image documents, we need a URL or file upload
-                # For now, return an informative error
-                raise ValueError(
-                    f"Cannot process {ext} files locally without file upload support. "
-                    "Please either:\n"
-                    "1. Host the file on a web server and use the URL\n"
-                    "2. Convert the document to PDF and host it\n"
-                    "3. Use a cloud storage service to get a public URL"
-                )
+            print(f"    → File uploaded, getting signed URL...")
+
+            # Get a signed URL for the uploaded file
+            signed_url_response = client.files.get_signed_url(file_id=uploaded_file.id)
+
+            document_data = {
+                "type": "document_url",
+                "document_url": signed_url_response.url
+            }
+
+            print(f"    → Processing document with OCR...")
 
         # Prepare OCR parameters
         ocr_params = {
@@ -228,10 +228,11 @@ def process_document(client: Mistral, doc_path: Path) -> Dict:
         }
 
         # Add table formatting for document types (not images)
-        if document_data["type"] == "file" or (document_data["type"] == "document_url"):
+        if document_data["type"] == "document_url":
             ocr_params["table_format"] = "markdown"  # Use markdown format for tables
-            ocr_params["extract_header"] = True      # Extract headers separately
-            ocr_params["extract_footer"] = True      # Extract footers separately
+            # Note: header/footer extraction only available for newer OCR models
+            # ocr_params["extract_header"] = True
+            # ocr_params["extract_footer"] = True
             ocr_params["include_image_base64"] = False  # Don't include base64 images in response
 
         # Process with Mistral OCR
@@ -255,7 +256,8 @@ def process_document(client: Mistral, doc_path: Path) -> Dict:
             "markdown": markdown_content,
             "markdown_length": len(markdown_content),
             "processing_time_seconds": round(processing_time, 3),
-            "timestamp": datetime.now().isoformat()
+            "timestamp": datetime.now().isoformat(),
+            "processing_method": "image_url" if ext in ['.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff'] else "signed_url"
         }
 
     except Exception as e:
@@ -269,6 +271,15 @@ def process_document(client: Mistral, doc_path: Path) -> Dict:
             "processing_time_seconds": round(processing_time, 3),
             "timestamp": datetime.now().isoformat()
         }
+
+    finally:
+        # Clean up uploaded file if it exists
+        if uploaded_file:
+            try:
+                client.files.delete(file_id=uploaded_file.id)
+                print(f"    → Cleaned up uploaded file")
+            except Exception as e:
+                print(f"    → Warning: Could not delete uploaded file: {e}")
 
 
 def parse_documents():

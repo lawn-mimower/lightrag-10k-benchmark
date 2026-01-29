@@ -16,7 +16,7 @@ from pathlib import Path
 from datetime import datetime
 import time
 from dotenv import load_dotenv
-
+import psutil
 # Base directory where documents are located
 BASE_DIR = Path("./data")
 # Directory to save the output Markdown files
