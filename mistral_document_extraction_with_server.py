@@ -11,7 +11,7 @@ dotenv.load_dotenv()
 API_KEY = os.environ.get("MISTRAL_API_KEY")
 BASE_DIR = Path("./data")
 DOCUMENTS = [
-    "sample_docs/sample_statement.xml",
+    "sample_docs/sample_statement.xml"
 ]
 
 def process_signed_url(client, doc_path):
