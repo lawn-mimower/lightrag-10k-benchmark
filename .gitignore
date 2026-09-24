@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ml-env/
+
+# Secrets
+.env
+
+# Input data (download separately, see README_LightRAG.md)
+10k/
+10-k.zip
+data/
+models/
+*.parquet
+*.jsonl
+*.gguf
+parsed_10k_documents.json
+embeddings_10k.npy
+chunk_metadata.json
+
+# LightRAG workspaces
+lightrag_*workspace*/
+finder_benchmark_workdir*/
+finder_single_kg_qwen3/
+
+# Pipeline outputs, checkpoints and logs
+5_modes_question_wise_results*/
+query_results/
+evaluation_analysis/
+batch_files/
+test_results_*.json
+batch_ragas_*results*.json
+batch_ragas_checkpoint*.json
+ragas_evaluation_results_*.json
+single_file_ragas_test_results.json
+single_example_ragas_results.json
+generation_checkpoint*.json
+evaluation_checkpoint*.json
+gemini_benchmark_*.json
+mode_performance_analysis.json
+parsing_errors.json
+*_log*.txt
+*.csv
+*.png
+
+# Document parsing outputs
+output_markdown*/
+mistral_output_markdown/
+docling_output/
