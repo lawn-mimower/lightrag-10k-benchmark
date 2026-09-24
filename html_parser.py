@@ -95,16 +95,37 @@ def parse_ixbrl_html(file_path: str) -> Dict:
     }
 
 
+def to_documents_by_ticker(parsed_docs: List[Dict]) -> Dict[str, Dict]:
+    """
+    Convert parse results into the {ticker: record} layout that the
+    LightRAG notebooks load from parsed_10k_documents.json.
+    """
+    documents = {}
+    for parsed in parsed_docs:
+        ticker = parsed['ticker']
+        documents[ticker] = {
+            'ticker': ticker,
+            'company_name': parsed['metadata'].get('company_name', ''),
+            'period_end_date': parsed['metadata'].get('period_end_date', ''),
+            'source_file': parsed.get('source_file', f"{ticker}.html"),
+            'text': parsed['text'],
+            'text_length': len(parsed['text']),
+        }
+    return documents
+
+
 def batch_parse_html_files(directory: str, output_path: Optional[str] = None,
-                           n_workers: int = 4, limit: Optional[int] = None) -> List[Dict]:
+                           n_workers: int = 4, limit: Optional[int] = None,
+                           tickers: Optional[List[str]] = None) -> List[Dict]:
     """
     Parse all HTML files in directory with multiprocessing
 
     Args:
         directory: Path to directory containing HTML files
-        output_path: Optional path to save parsed docs as JSON
+        output_path: Optional path to save parsed docs as JSON ({ticker: record})
         n_workers: Number of parallel workers
         limit: Optional limit on number of files to parse (for testing)
+        tickers: Optional list of tickers (file stems) to parse
 
     Returns:
         List of parsed document dicts
@@ -115,11 +136,15 @@ def batch_parse_html_files(directory: str, output_path: Optional[str] = None,
     from tqdm import tqdm
 
     # Get all HTML files
-    html_files = [
+    html_files = sorted(
         os.path.join(directory, f)
         for f in os.listdir(directory)
         if f.endswith('.html')
-    ]
+    )
+
+    if tickers:
+        wanted = {t.upper() for t in tickers}
+        html_files = [f for f in html_files if Path(f).stem.upper() in wanted]
 
     if limit:
         html_files = html_files[:limit]
@@ -134,24 +159,36 @@ def batch_parse_html_files(directory: str, output_path: Optional[str] = None,
             desc="Parsing HTML files"
         ))
 
+    for parsed, html_file in zip(parsed_docs, html_files):
+        parsed['source_file'] = os.path.basename(html_file)
+
     # Save if output path provided
     if output_path:
-        with open(output_path, 'w') as f:
-            json.dump(parsed_docs, f, indent=2)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(to_documents_by_ticker(parsed_docs), f, indent=2, ensure_ascii=False)
         print(f"Saved parsed documents to {output_path}")
 
     return parsed_docs
 
 
 if __name__ == "__main__":
-    import sys
+    import argparse
 
-    if len(sys.argv) < 2:
-        print("Usage: python html_parser.py <html_file_or_directory> [output_json]")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description="Parse SEC 10-K iXBRL HTML files into clean text"
+    )
+    parser.add_argument("path", help="HTML file or directory of <TICKER>.html files")
+    parser.add_argument("output_json", nargs="?", default=None,
+                        help="Where to write {ticker: record} JSON (directory mode)")
+    parser.add_argument("--limit", type=int, default=None,
+                        help="Parse at most N files (directory mode)")
+    parser.add_argument("--tickers", nargs="+", default=None,
+                        help="Only parse these tickers, e.g. --tickers CTAS HON")
+    parser.add_argument("--workers", type=int, default=4, help="Parallel workers")
+    args = parser.parse_args()
 
-    path = sys.argv[1]
-    output = sys.argv[2] if len(sys.argv) > 2 else None
+    path = args.path
+    output = args.output_json
 
     if os.path.isfile(path):
         # Parse single file
@@ -163,7 +200,8 @@ if __name__ == "__main__":
 
     elif os.path.isdir(path):
         # Parse directory
-        parsed_docs = batch_parse_html_files(path, output, limit=5)  # Test with 5 files
+        parsed_docs = batch_parse_html_files(path, output, n_workers=args.workers,
+                                             limit=args.limit, tickers=args.tickers)
         print(f"\nParsed {len(parsed_docs)} documents")
         if parsed_docs:
             print(f"\nSample document:")
@@ -171,3 +209,4 @@ if __name__ == "__main__":
             print(f"Text length: {len(parsed_docs[0]['text'])} chars")
     else:
         print(f"Error: {path} is not a valid file or directory")
+        raise SystemExit(1)
