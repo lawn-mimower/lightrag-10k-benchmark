@@ -33,14 +33,17 @@ class CustomRAGASMetrics:
     Custom implementation of RAGAS metrics using Gemini API.
     """
 
-    def __init__(self, model_name: str = "gemini-2.0-flash-exp", api_key: str = None):
+    def __init__(self, model_name: str = None, api_key: str = None):
         """
         Initialize the metrics calculator with Gemini model.
 
         Args:
-            model_name: Name of Gemini model to use (default: gemini-2.0-flash-exp)
+            model_name: Name of Gemini model to use (default: CUSTOM_RAGAS_MODEL
+                env var, else gemini-2.5-flash; gemini-2.0-flash-exp was retired)
             api_key: Google API key (if not provided, reads from GEMINI_API_KEY env var)
         """
+        if model_name is None:
+            model_name = os.getenv("CUSTOM_RAGAS_MODEL", "gemini-2.5-flash")
         if api_key is None:
             api_key = os.getenv("GEMINI_API_KEY")
 
