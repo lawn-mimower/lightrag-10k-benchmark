@@ -20,7 +20,8 @@ load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") 
 
 # Configuration
-RESULTS_FOLDER = "5_modes_question_wise_results/5_modes_question_wise_results_priority_tickers_ALL"
+# Per-question result files; set RESULTS_DIR for the notebook's 5_modes_question_wise_results_with_answers/... output
+RESULTS_FOLDER = os.getenv("RESULTS_DIR", "5_modes_question_wise_results/5_modes_question_wise_results_priority_tickers_ALL")
 CTAS_FILE_PATTERN = "test_results_CTAS_question_*.json"
 CHECKPOINT_FILE = "generation_checkpoint_ctas.json"
 LOG_FILE = "generation_log_ctas.txt"

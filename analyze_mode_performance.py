@@ -173,7 +173,7 @@ def aggregate_results(all_results: List[Dict[str, Any]]) -> Dict[str, Any]:
 
 def main():
     # Directory containing result files
-    results_dir = Path('5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL')
+    results_dir = Path(os.getenv('RESULTS_DIR', '5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL'))
 
     if not results_dir.exists():
         print(f"Error: Directory {results_dir} does not exist")

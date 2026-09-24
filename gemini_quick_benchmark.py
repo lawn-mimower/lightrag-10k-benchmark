@@ -20,7 +20,7 @@ load_dotenv()
 # Configuration - EDIT THESE VALUES AS NEEDED
 SAMPLE_SIZE = 10  # Number of questions to test per mode
 API_KEY = os.getenv('GEMINI_API_KEY')
-DATA_DIR = '5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL'
+DATA_DIR = os.getenv('RESULTS_DIR', '5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL')
 OUTPUT_FILE = f"gemini_benchmark_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 MODEL_NAME = "gemini-3-flash-preview"
 

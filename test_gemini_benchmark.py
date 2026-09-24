@@ -90,7 +90,7 @@ def test_gemini_connection():
 
 def check_data_directory():
     """Check if the data directory exists and has files."""
-    data_dir = "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"
+    data_dir = os.getenv("RESULTS_DIR", "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL")
 
     print(f"\nChecking data directory...")
 
