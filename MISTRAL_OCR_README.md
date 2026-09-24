@@ -133,9 +133,9 @@ The local server uses port 8888. If it's in use, either:
 2. Modify the `server_port` variable in the script
 
 ### Error: "File not found"
-Ensure the documents exist in the specified directory:
-```python
-BASE_DIR = Path("./data")
+Ensure the documents exist in the input directory (`--input-dir`, default `$DOCS_DIR` or `./documents`):
+```bash
+python mistral_document_extraction.py --input-dir /path/to/docs report.pdf scan.jpg
 ```
 
 ### API Validation Errors
@@ -143,7 +143,7 @@ If you encounter validation errors, use the `mistral_document_extraction_with_se
 
 ## Customization
 
-To process different files, modify the `DOCUMENTS_TO_PROCESS` list in the script:
+To process different files, pass them on the command line (paths are relative to `--input-dir` or absolute), or modify the `DOCUMENTS_TO_PROCESS` list in the script:
 
 ```python
 DOCUMENTS_TO_PROCESS = [
@@ -153,11 +153,7 @@ DOCUMENTS_TO_PROCESS = [
 ]
 ```
 
-To change the source directory, modify the `BASE_DIR` variable:
-
-```python
-BASE_DIR = Path("/your/document/directory")
-```
+To change the source directory, pass `--input-dir /your/document/directory` or set `DOCS_DIR`.
 
 ## Best Practices
 
