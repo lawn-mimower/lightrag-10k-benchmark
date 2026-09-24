@@ -49,7 +49,7 @@ def calculate_retrieval_time(mode_data: Dict[str, Any], prev_timestamp: datetime
 
     return None
 
-def analyze_file(file_path: Path, next_file_start_time: datetime = None) -> Dict[str, Any]:
+def analyze_file(file_path: Path, prev_file_end_time: datetime = None) -> Dict[str, Any]:
     """Analyze a single result file."""
     try:
         with open(file_path, 'r') as f:
@@ -80,27 +80,25 @@ def analyze_file(file_path: Path, next_file_start_time: datetime = None) -> Dict
             continue
 
         # Calculate retrieval time
+        # The notebook stamps each mode when it finishes and runs the modes in
+        # mode_order, so a mode's duration is the gap since the previous mode
+        # finished (for the first mode: since the previous question finished).
         retrieval_time = None
         if mode_name in timestamps and timestamps[mode_name]:
-            # For each mode, calculate time until the next mode starts
-            # This represents the time taken for this mode's retrieval/processing
-            if i < len(mode_order) - 1:  # Not the last mode
-                next_mode = None
-                for j in range(i + 1, len(mode_order)):
-                    if mode_order[j] in timestamps:
-                        next_mode = mode_order[j]
-                        break
+            prev_mode = None
+            for j in range(i - 1, -1, -1):
+                if mode_order[j] in timestamps:
+                    prev_mode = mode_order[j]
+                    break
 
-                if next_mode and timestamps[next_mode]:
-                    retrieval_time = (timestamps[next_mode] - timestamps[mode_name]).total_seconds()
+            if prev_mode and timestamps[prev_mode]:
+                retrieval_time = (timestamps[mode_name] - timestamps[prev_mode]).total_seconds()
 
-            else:  # Last mode (mix)
-                # If we have the next file's start time, use that
-                if next_file_start_time and timestamps[mode_name]:
-                    retrieval_time = (next_file_start_time - timestamps[mode_name]).total_seconds()
-                    # Sanity check - if time is too long (>5 minutes), ignore it
-                    if retrieval_time > 300:
-                        retrieval_time = None
+            elif prev_file_end_time:
+                retrieval_time = (timestamps[mode_name] - prev_file_end_time).total_seconds()
+                # Sanity check - if time is too long (>5 minutes), ignore it
+                if retrieval_time > 300:
+                    retrieval_time = None
 
         # Estimate tokens
         context_length = mode_data.get('context_length', 0)
@@ -203,16 +201,17 @@ def main():
 
     # Analyze each file with next file's start time
     all_results = []
+    prev_file_end = None
     for i, (file_path, _) in enumerate(file_timestamps):
         print(f"Processing {file_path.name}...")
 
-        # Get next file's start time if available
-        next_file_start = None
-        if i < len(file_timestamps) - 1:
-            next_file_start = file_timestamps[i + 1][1]
-
-        file_result = analyze_file(file_path, next_file_start)
+        file_result = analyze_file(file_path, prev_file_end)
         if file_result:
+            # Last finish time of this question, used for the next question's first mode
+            ends = [parse_timestamp(m['timestamp']) for m in file_result.values()
+                    if isinstance(m, dict) and m.get('timestamp')]
+            ends = [t for t in ends if t]
+            prev_file_end = max(ends) if ends else None
             # Remove the internal timestamp field before storing
             if '_first_timestamp' in file_result:
                 del file_result['_first_timestamp']
@@ -244,7 +243,7 @@ def main():
             print(f"  Avg Processing Time: {stats['avg_retrieval_time']:.2f} seconds")
             print(f"  Median Processing Time: {stats['median_retrieval_time']:.2f} seconds")
         else:
-            print(f"  Processing Time: N/A (last mode - no next timestamp)")
+            print(f"  Processing Time: N/A (first mode - no previous timestamp)")
 
         print(f"\n  Token Consumption:")
         print(f"    Avg Input Tokens: {stats['avg_input_tokens']:,.0f}")
