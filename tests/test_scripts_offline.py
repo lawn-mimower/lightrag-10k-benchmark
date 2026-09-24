@@ -123,7 +123,7 @@ def test_multimode_notebook_ragas_cell_uses_imported_embeddings():
 
 
 DOCUMENT_PARSING_SCRIPTS = {
-    "parse_documents_with_docling.py", "parse_documents_with_easyocr.py",
+    "parse_documents_with_docling.py",
     "docling_md_out_monitored.py", "mistral_document_extraction.py",
     "mistral_document_extraction_with_server.py", "mistral_scanned.py",
 }
@@ -137,3 +137,22 @@ def test_no_absolute_home_paths_in_pipeline_code():
         for line in path.read_text(encoding="utf-8").splitlines() if "/home/" in line
     ]
     assert offenders == []
+
+
+@pytest.mark.parametrize("engine, options_class", [("rapidocr", "RapidOcrOptions"), ("easyocr", "EasyOcrOptions")])
+def test_docling_parser_ocr_engine(load_script, monkeypatch, engine, options_class):
+    parser = load_script("parse_documents_with_docling.py")
+    built = {}
+
+    def fake_converter(format_options):
+        built["pipeline"] = next(iter(format_options.values())).pipeline_options
+        return "converter"
+
+    monkeypatch.setattr(parser, "DocumentConverter", fake_converter)
+    assert parser.initialize_converter(engine) == "converter"
+    pipeline = built["pipeline"]
+    assert type(pipeline.ocr_options).__name__ == options_class
+    assert pipeline.ocr_options.lang == ["en"]
+    assert pipeline.do_ocr and pipeline.do_table_structure
+    assert pipeline.accelerator_options.device == parser.AcceleratorDevice.CPU
+    assert parser.OCR_ENGINES[engine]["output"].startswith("parsed_documents_markdown")
