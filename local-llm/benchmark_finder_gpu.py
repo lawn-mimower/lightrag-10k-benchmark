@@ -34,6 +34,7 @@ MODEL_PATH = "./models/Llama-3.2-3B-Instruct.Q8_0.gguf"
 EMBEDDER_PATH = "./models/qwen3-0.6b"
 DATA_PATH = "./data/finder_train.parquet"
 WORKING_DIR = "./finder_benchmark_workdir_gpu"
+OUTPUT_PATH = "finder_lightrag_results_gpu.csv"
 
 # Flag for query detection (used by embedder to differentiate queries from documents)
 QUERY_FLAG = "benchmark::query::"
@@ -41,9 +42,25 @@ QUERY_FLAG = "benchmark::query::"
 # NO DOCUMENT LIMIT - Process all unique contexts
 LIMIT_DOCS = None  # Set to None for no limit, or an integer to limit
 
+# Number of matching queries to run (None = all)
+MAX_QUERIES = None
+
 # ============================================================================
 # LLM WRAPPER - GPU-Accelerated with Maximum Context
 # ============================================================================
+
+def format_llama3_prompt(prompt: str, system_prompt: str = None, history_messages=None) -> str:
+    """Render system prompt, prior turns and the new user prompt with the Llama 3 chat template."""
+    parts = []
+    if system_prompt:
+        parts.append(f"<|start_header_id|>system<|end_header_id|>\n\n{system_prompt}<|eot_id|>")
+    for message in history_messages or []:
+        role = message.get("role", "user")
+        parts.append(f"<|start_header_id|>{role}<|end_header_id|>\n\n{message.get('content', '')}<|eot_id|>")
+    parts.append(f"<|start_header_id|>user<|end_header_id|>\n\n{prompt}<|eot_id|>")
+    parts.append("<|start_header_id|>assistant<|end_header_id|>\n\n")
+    return "".join(parts)
+
 
 class LlamaCppWrapper:
     """
@@ -64,7 +81,7 @@ class LlamaCppWrapper:
         print(f"  Context window: 131,072 tokens (128K)")
         print(f"  GPU layers: ALL (-1)")
 
-    async def __call__(self, prompt: str, system_prompt: str = None, **kwargs) -> str:
+    async def __call__(self, prompt: str, system_prompt: str = None, history_messages=None, **kwargs) -> str:
         """
         Async generation method compatible with LightRAG.
 
@@ -81,11 +98,9 @@ class LlamaCppWrapper:
             if prompt.startswith(QUERY_FLAG):
                 prompt = prompt[len(QUERY_FLAG):]
 
-            # Format using Llama 3 chat template
-            if system_prompt:
-                formatted_prompt = f"<|start_header_id|>system<|end_header_id|>\n\n{system_prompt}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{prompt}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
-            else:
-                formatted_prompt = f"<|start_header_id|>user<|end_header_id|>\n\n{prompt}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
+            # Format using Llama 3 chat template (entity-extraction gleaning
+            # sends the previous extraction turn as history_messages)
+            formatted_prompt = format_llama3_prompt(prompt, system_prompt, history_messages)
 
             # Run synchronous generation in thread pool
             loop = asyncio.get_event_loop()
@@ -214,7 +229,7 @@ async def main():
 
     # Create LightRAG-compatible LLM function
     async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwargs) -> str:
-        return await llm_wrapper(prompt, system_prompt, **kwargs)
+        return await llm_wrapper(prompt, system_prompt, history_messages=history_messages, **kwargs)
 
     # Initialize embedder wrapper
     embedder_wrapper = QwenEmbedderWrapper(EMBEDDER_PATH)
@@ -256,6 +271,8 @@ async def main():
 
     # Filter dataframe to only queries matching selected contexts
     filtered_df = df[df['references'].apply(lambda refs: any(ref in selected_contexts for ref in refs))].copy()
+    if MAX_QUERIES is not None:
+        filtered_df = filtered_df.head(MAX_QUERIES)
     print(f"✓ Filtered to {len(filtered_df)} queries matching selected contexts")
     print()
 
@@ -429,13 +446,13 @@ async def main():
     results_df = pd.DataFrame(results)
 
     # Save to CSV
-    output_path = "finder_lightrag_results_gpu.csv"
+    output_path = OUTPUT_PATH
     results_df.to_csv(output_path, index=False)
 
     print(f"✓ Results saved to {output_path}")
     print(f"  Total queries: {len(results_df)}")
-    print(f"  Successful: {len(results_df[~results_df['lightrag_generated_answer'].str.startswith('ERROR')])}")
-    print(f"  Errors: {len(results_df[results_df['lightrag_generated_answer'].str.startswith('ERROR')])}")
+    print(f"  Successful: {len(results_df[~results_df['lightrag_generated_answer'].str.upper().str.startswith('ERROR')])}")
+    print(f"  Errors: {len(results_df[results_df['lightrag_generated_answer'].str.upper().str.startswith('ERROR')])}")
     print()
 
     # Display preview
@@ -450,13 +467,41 @@ async def main():
     print(f"📊 Statistics:")
     print(f"   Total contexts indexed: {len(selected_contexts)}")
     print(f"   Total queries processed: {len(results_df)}")
-    print(f"   Success rate: {len(results_df[~results_df['lightrag_generated_answer'].str.startswith('ERROR')]) / len(results_df) * 100:.1f}%")
+    print(f"   Success rate: {len(results_df[~results_df['lightrag_generated_answer'].str.upper().str.startswith('ERROR')]) / len(results_df) * 100:.1f}%")
 
 
 # ============================================================================
 # ENTRY POINT
 # ============================================================================
 
+def parse_args():
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
+    parser.add_argument("--model-path", default=os.getenv("LLM_MODEL_PATH", MODEL_PATH),
+                        help="Llama-3.2-3B-Instruct GGUF file (env LLM_MODEL_PATH)")
+    parser.add_argument("--embedder-path", default=os.getenv("EMBEDDER_PATH", EMBEDDER_PATH),
+                        help="Qwen3-Embedding-0.6B directory or HF id (env EMBEDDER_PATH)")
+    parser.add_argument("--data-path", default=os.getenv("FINDER_DATA_PATH", DATA_PATH),
+                        help="FinDER finder_train.parquet (env FINDER_DATA_PATH)")
+    parser.add_argument("--working-dir", default=WORKING_DIR,
+                        help="LightRAG workspace (deleted and recreated on each run)")
+    parser.add_argument("--num-docs", type=int, default=LIMIT_DOCS,
+                        help="Number of unique FinDER contexts to index (default: all)")
+    parser.add_argument("--max-queries", type=int, default=None,
+                        help="Only run the first N matching queries")
+    parser.add_argument("--output", default=OUTPUT_PATH, help="Results CSV path")
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
+    args = parse_args()
+    MODEL_PATH = args.model_path
+    EMBEDDER_PATH = args.embedder_path
+    DATA_PATH = args.data_path
+    WORKING_DIR = args.working_dir
+    LIMIT_DOCS = args.num_docs
+    MAX_QUERIES = args.max_queries
+    OUTPUT_PATH = args.output
+
     # Run the async main function
     asyncio.run(main())
