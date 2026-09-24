@@ -12,7 +12,7 @@ ml-env/
 # Secrets
 .env
 
-# Input data (download separately, see README_LightRAG.md)
+# Input data (download separately, see README.md)
 /10k/
 10-k.zip
 data/
@@ -30,6 +30,7 @@ finder_benchmark_workdir*/
 finder_single_kg_qwen3/
 
 # Pipeline outputs, checkpoints and logs
+runs/
 5_modes_question_wise_results*/
 query_results/
 evaluation_analysis/
