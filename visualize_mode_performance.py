@@ -30,8 +30,8 @@ def create_processing_time_chart(summary_data):
 
     for mode in modes:
         if mode in summary_data:
-            avg_times.append(summary_data[mode].get('avg_retrieval_time', 0))
-            median_times.append(summary_data[mode].get('median_retrieval_time', 0))
+            avg_times.append(summary_data[mode].get('avg_retrieval_time') or 0)
+            median_times.append(summary_data[mode].get('median_retrieval_time') or 0)
         else:
             avg_times.append(0)
             median_times.append(0)
@@ -137,7 +137,7 @@ def create_efficiency_chart(summary_data):
 
     for i, mode in enumerate(modes):
         if mode in summary_data:
-            time = summary_data[mode].get('avg_retrieval_time', 0)
+            time = summary_data[mode].get('avg_retrieval_time') or 0
             tokens = summary_data[mode].get('avg_total_tokens', 0)
 
             # Create scatter plot with different sizes based on output tokens
@@ -243,8 +243,8 @@ def create_summary_table(summary_data):
             data = summary_data[mode]
             row = [
                 label,
-                f"{data.get('avg_retrieval_time', 0):.1f}",
-                f"{data.get('median_retrieval_time', 0):.1f}",
+                f"{data.get('avg_retrieval_time') or 0:.1f}",
+                f"{data.get('median_retrieval_time') or 0:.1f}",
                 f"{data.get('avg_input_tokens', 0):,.0f}",
                 f"{data.get('avg_output_tokens', 0):,.0f}",
                 f"{data.get('avg_total_tokens', 0):,.0f}"
@@ -376,8 +376,8 @@ def create_processing_time_subplot(ax, summary_data):
     modes = ['local', 'global', 'naive', 'hybrid', 'mix']
     mode_labels = ['Local', 'Global', 'Naive', 'Hybrid', 'Mix']
 
-    avg_times = [summary_data.get(mode, {}).get('avg_retrieval_time', 0) for mode in modes]
-    median_times = [summary_data.get(mode, {}).get('median_retrieval_time', 0) for mode in modes]
+    avg_times = [summary_data.get(mode, {}).get('avg_retrieval_time') or 0 for mode in modes]
+    median_times = [summary_data.get(mode, {}).get('median_retrieval_time') or 0 for mode in modes]
 
     x = np.arange(len(modes))
     width = 0.35
@@ -449,7 +449,7 @@ def create_efficiency_subplot(ax, summary_data):
 
     for i, mode in enumerate(modes):
         if mode in summary_data:
-            time = summary_data[mode].get('avg_retrieval_time', 0)
+            time = summary_data[mode].get('avg_retrieval_time') or 0
             tokens = summary_data[mode].get('avg_total_tokens', 0)
             output_tokens = summary_data[mode].get('avg_output_tokens', 0)
             size = 100 + (output_tokens / 10)
@@ -513,7 +513,7 @@ def create_table_subplot(ax, summary_data):
             data = summary_data[mode]
             row = [
                 label,
-                f"{data.get('avg_retrieval_time', 0):.1f}",
+                f"{data.get('avg_retrieval_time') or 0:.1f}",
                 f"{data.get('avg_input_tokens', 0):,.0f}",
                 f"{data.get('avg_output_tokens', 0):,.0f}",
                 f"{data.get('avg_total_tokens', 0):,.0f}"
