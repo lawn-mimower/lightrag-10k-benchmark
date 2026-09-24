@@ -42,7 +42,7 @@
 - Outperforms 2.5 Pro on accuracy benchmarks
 - Configurable "thinking level" for complex reasoning
 - Better instruction adherence (less hallucination)
-- ✓ Validated API pattern in test_gemini_api_key.py
+- ✓ Validated API pattern in benchmark_gemini_api.py (`--check`)
 
 ---
 
@@ -273,7 +273,7 @@ export GOOGLE_API_KEY="your-google-api-key"
 
 ### **Configuration with Gemini-3-Flash-Preview**
 
-Using the validated pattern from [test_gemini_api_key.py](test_gemini_api_key.py):
+Using the validated pattern from [benchmark_gemini_api.py](benchmark_gemini_api.py) (`--check`):
 
 ```python
 import os
@@ -430,7 +430,7 @@ Convert your current test results format to Ragas format:
 1. **Install Ragas**: `pip install ragas google-genai`
 2. **Load your test results**: Read JSON files
 3. **Convert data format**: Map fields as shown above
-4. **Initialize Gemini**: Use validated pattern from test_gemini_api_key.py
+4. **Initialize Gemini**: Use validated pattern from benchmark_gemini_api.py --check
 5. **Run Ragas evaluation**: Replace custom prompts with Ragas metrics
 6. **Compare results**: Validate against baseline (46.6% accuracy)
 
@@ -505,7 +505,7 @@ def evaluate_in_batches(dataset, metrics, llm, embeddings, batch_size=10):
 | **Cost** | $5/M in, $15/M out | $0.50/M in, $3.00/M out |
 | **Speed** | Baseline | 3x faster than Gemini 2.5 Pro |
 | **Benchmarks** | Strong | 90.4% GPQA Diamond, 33.7% Humanity's Last Exam |
-| **API Pattern** | OpenAI | Google GenAI (✓ validated in test_gemini_api_key.py) |
+| **API Pattern** | OpenAI | Google GenAI (✓ validated by benchmark_gemini_api.py --check) |
 
 **Why This Works**: Gemini-3-Flash-Preview has frontier reasoning capabilities that match GPT-4o for evaluation tasks while being significantly cheaper and faster.
 
@@ -597,7 +597,7 @@ max_total_tokens=25000       # ↓ from 30000
 
 ### **Validated API Patterns Quick Reference**
 
-**Pattern 1: Direct Generation (from [test_gemini_api_key.py](test_gemini_api_key.py))**
+**Pattern 1: Direct Generation (from [benchmark_gemini_api.py](benchmark_gemini_api.py) `--check`)**
 ```python
 import google.genai as genai
 

@@ -25,7 +25,7 @@ def load_benchmark_data(file_path: str = None):
         benchmark_files = list(Path('.').glob('gemini_benchmark_*.json'))
         if not benchmark_files:
             print("Error: No benchmark result files found.")
-            print("Please run benchmark_gemini_api.py or gemini_quick_benchmark.py first.")
+            print("Please run benchmark_gemini_api.py (full or --quick) first.")
             sys.exit(1)
 
         # Sort by modification time and get the most recent

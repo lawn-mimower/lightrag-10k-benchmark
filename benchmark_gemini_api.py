@@ -2,8 +2,16 @@
 """
 Benchmark Gemini-3-Flash-Preview API performance across different LightRAG modes.
 Measures actual API response time and token consumption for each mode.
+
+  (default)  full benchmark with detailed statistics
+  --quick    quick benchmark: generate_answers_ctas.py-style prompt with the
+             context capped at 50,000 characters, modes skipped one by one
+             when a question has no result for them, short summary
+  --check    verify the API key with one request and check the results
+             directory before running a benchmark
 """
 
+import argparse
 import json
 import os
 import time
@@ -21,14 +29,10 @@ load_dotenv()
 
 # Configure Gemini API
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
-if not GEMINI_API_KEY:
-    print("Error: GEMINI_API_KEY environment variable not set")
-    print("Please set it using: export GEMINI_API_KEY='your-api-key'")
-    print("Or add it to your .env file")
-    exit(1)
 
 # Model configuration
 MODEL_NAME = "gemini-3-flash-preview"
+DEFAULT_RESULTS_DIR = '5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL'
 
 def load_sample_questions(data_dir: Path, sample_size: int = 10) -> List[Dict[str, Any]]:
     """Load sample questions with their contexts for all modes."""
@@ -311,11 +315,8 @@ def print_summary(stats: Dict[str, Any]):
         for i, mode in enumerate(ranked_modes, 1):
             print(f"  {i}. {mode.upper()}: {stats[mode]['total_tokens']['mean']:,.0f} avg tokens")
 
-def main():
-    # Configuration
-    data_dir = Path(os.getenv('RESULTS_DIR', '5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL'))
-    sample_size = int(os.getenv('SAMPLE_SIZE', '10'))  # Number of questions to test
-
+def main(data_dir: Path, sample_size: int = 10):
+    """Full benchmark with detailed statistics."""
     if not data_dir.exists():
         print(f"Error: Directory {data_dir} does not exist")
         return
@@ -366,5 +367,365 @@ def main():
 
     print(f"\nDetailed results saved to: {output_file}")
 
+
+# ============================================
+# --quick: simplified benchmark
+# ============================================
+def run_quick_benchmark(data_dir: Path, sample_size: int = 10):
+    """Run a quick benchmark test."""
+    output_file = f"gemini_benchmark_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+
+    # Initialize Gemini Client
+    print(f"Initializing Gemini Client with {MODEL_NAME}...")
+    client = genai.Client(api_key=GEMINI_API_KEY)
+    print(f"✓ Initialized Gemini Client\n")
+
+    # Load sample files
+    data_path = Path(data_dir)
+    json_files = list(data_path.glob('*.json'))
+
+    if len(json_files) == 0:
+        print("No JSON files found in", data_dir)
+        return
+
+    # Sample random files
+    sample_files = random.sample(json_files, min(sample_size, len(json_files)))
+
+    results = {
+        'local': [],
+        'global': [],
+        'naive': [],
+        'hybrid': [],
+        'mix': []
+    }
+
+    print(f"Testing {len(sample_files)} questions across 5 modes...")
+    print(f"Total API calls: {len(sample_files) * 5}\n")
+
+    for i, file_path in enumerate(sample_files, 1):
+        print(f"Question {i}/{len(sample_files)}: {file_path.name}")
+
+        # Load question data
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+
+        question = data.get('question', '')
+        modes_data = data.get('modes', {})
+
+        for mode in results.keys():
+            if mode not in modes_data or modes_data[mode].get('status') != 'success':
+                print(f"  {mode}: skipped (no data)")
+                continue
+
+            context = modes_data[mode].get('retrieved_context', '')
+
+            # Create prompt (matching the style from generate_answers_ctas.py)
+            prompt = f"""You are a financial document analyst specializing in SEC 10-K filings.
+
+CRITICAL INSTRUCTIONS:
+- Answer ONLY based on the provided context
+- Be precise with numerical values
+- Keep answers concise (2-4 sentences)
+
+Question: {question}
+
+Context from {mode.upper()}:
+{context[:50000]}
+
+Please provide a concise, factual answer based only on the information in the context above."""
+
+            # Measure API call
+            start_time = time.time()
+
+            try:
+                # Configure generation (matching generate_answers_ctas.py)
+                generation_config = types.GenerateContentConfig(
+                    max_output_tokens=65536,
+                    temperature=0.1,
+                )
+
+                # Generate response
+                response = client.models.generate_content(
+                    model=MODEL_NAME,
+                    contents=prompt,
+                    config=generation_config
+                )
+
+                elapsed = time.time() - start_time
+
+                # Extract answer text
+                answer_text = ""
+                if response and response.candidates and len(response.candidates) > 0:
+                    candidate = response.candidates[0]
+                    if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
+                        for part in candidate.content.parts:
+                            if hasattr(part, 'text'):
+                                answer_text += part.text
+
+                # Get token counts
+                input_tokens = 0
+                output_tokens = 0
+
+                if hasattr(response, 'usage_metadata'):
+                    usage = response.usage_metadata
+                    if hasattr(usage, 'prompt_token_count'):
+                        input_tokens = usage.prompt_token_count
+                    if hasattr(usage, 'candidates_token_count'):
+                        output_tokens = usage.candidates_token_count
+                else:
+                    # Estimate if not provided
+                    input_tokens = len(prompt) // 4
+                    output_tokens = len(answer_text) // 4
+
+                results[mode].append({
+                    'time': elapsed,
+                    'input_tokens': input_tokens,
+                    'output_tokens': output_tokens,
+                    'answer_length': len(answer_text),
+                    'success': True
+                })
+
+                print(f"  {mode}: {elapsed:.2f}s, {input_tokens+output_tokens} tokens")
+
+            except Exception as e:
+                print(f"  {mode}: ERROR - {str(e)[:50]}")
+                results[mode].append({
+                    'time': time.time() - start_time,
+                    'error': str(e),
+                    'success': False
+                })
+
+            time.sleep(0.5)  # Rate limiting
+
+    # Calculate averages
+    print("\n" + "="*60)
+    print("SUMMARY")
+    print("="*60)
+
+    summary = {}
+    for mode, mode_results in results.items():
+        successful = [r for r in mode_results if r.get('success', False)]
+
+        if successful:
+            avg_time = sum(r['time'] for r in successful) / len(successful)
+            avg_input = sum(r.get('input_tokens', 0) for r in successful) / len(successful)
+            avg_output = sum(r.get('output_tokens', 0) for r in successful) / len(successful)
+
+            summary[mode] = {
+                'avg_time': avg_time,
+                'avg_input_tokens': avg_input,
+                'avg_output_tokens': avg_output,
+                'avg_total_tokens': avg_input + avg_output,
+                'success_rate': len(successful) / len(mode_results) * 100 if mode_results else 0
+            }
+
+            print(f"\n{mode.upper()}:")
+            print(f"  Avg Time: {avg_time:.3f}s")
+            print(f"  Avg Tokens: {avg_input + avg_output:.0f} (in: {avg_input:.0f}, out: {avg_output:.0f})")
+            print(f"  Success Rate: {summary[mode]['success_rate']:.0f}%")
+
+    # Save results
+    with open(output_file, 'w') as f:
+        json.dump({
+            'config': {
+                'model': 'gemini-3-flash-preview',
+                'samples': len(sample_files),
+                'timestamp': datetime.now().isoformat()
+            },
+            'summary': summary,
+            'raw_results': results
+        }, f, indent=2)
+
+    print(f"\nResults saved to: {output_file}")
+
+
+# ============================================
+# --check: verify the setup before running a benchmark
+# ============================================
+def check_gemini_connection():
+    """Test basic Gemini API connection."""
+
+    # Check API key
+    api_key = os.getenv('GEMINI_API_KEY')
+    if not api_key:
+        print("❌ GEMINI_API_KEY not found in environment variables")
+        print("   Please set it in your .env file or export it:")
+        print("   export GEMINI_API_KEY='your-api-key'")
+        return False
+    else:
+        print(f"✓ GEMINI_API_KEY found (length: {len(api_key)})")
+
+    # Initialize client
+    try:
+        client = genai.Client(api_key=api_key)
+        print("✓ Gemini client initialized successfully")
+    except Exception as e:
+        print(f"❌ Failed to initialize Gemini client: {e}")
+        return False
+
+    # Test a simple API call
+    print("\nTesting API call with gemini-3-flash-preview...")
+
+    test_prompt = "What is 2+2? Answer in one word."
+
+    try:
+        # Configure generation
+        generation_config = types.GenerateContentConfig(
+            max_output_tokens=100,
+            temperature=0.1,
+        )
+
+        # Make API call
+        response = client.models.generate_content(
+            model="gemini-3-flash-preview",
+            contents=test_prompt,
+            config=generation_config
+        )
+
+        # Extract answer
+        answer = ""
+        if response and response.candidates and len(response.candidates) > 0:
+            candidate = response.candidates[0]
+            if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
+                for part in candidate.content.parts:
+                    if hasattr(part, 'text'):
+                        answer += part.text
+
+        if answer:
+            print(f"✓ API call successful!")
+            print(f"  Response: {answer.strip()}")
+
+            # Check for token usage
+            if hasattr(response, 'usage_metadata'):
+                usage = response.usage_metadata
+                if hasattr(usage, 'prompt_token_count'):
+                    print(f"  Input tokens: {usage.prompt_token_count}")
+                if hasattr(usage, 'candidates_token_count'):
+                    print(f"  Output tokens: {usage.candidates_token_count}")
+                if hasattr(usage, 'total_token_count'):
+                    print(f"  Total tokens: {usage.total_token_count}")
+            else:
+                print("  Note: Token usage metadata not available")
+        else:
+            print("⚠️ API call returned but no answer text found")
+            return False
+
+    except Exception as e:
+        print(f"❌ API call failed: {e}")
+        return False
+
+    print("\n" + "="*60)
+    print("✅ All tests passed! Ready to run the benchmark.")
+    print("="*60)
+    return True
+
+def check_data_directory(data_dir):
+    """Check if the data directory exists and has files."""
+
+    print(f"\nChecking data directory...")
+
+    if not os.path.exists(data_dir):
+        print(f"❌ Data directory not found: {data_dir}")
+        return False
+
+    # Count JSON files
+    from pathlib import Path
+    json_files = list(Path(data_dir).glob("*.json"))
+
+    if not json_files:
+        print(f"❌ No JSON files found in {data_dir}")
+        return False
+
+    print(f"✓ Found {len(json_files)} JSON files in data directory")
+
+    # Check a sample file structure
+    import json
+    sample_file = json_files[0]
+
+    try:
+        with open(sample_file, 'r') as f:
+            data = json.load(f)
+
+        required_fields = ['question', 'modes']
+        missing_fields = [field for field in required_fields if field not in data]
+
+        if missing_fields:
+            print(f"⚠️ Sample file missing fields: {missing_fields}")
+            return False
+
+        # Check modes
+        modes = data.get('modes', {})
+        expected_modes = ['local', 'global', 'naive', 'hybrid', 'mix']
+        available_modes = [m for m in expected_modes if m in modes]
+
+        print(f"✓ Sample file structure looks good")
+        print(f"  Available modes: {', '.join(available_modes)}")
+
+        # Check for context in first available mode
+        if available_modes:
+            first_mode = available_modes[0]
+            if 'retrieved_context' in modes[first_mode]:
+                context_len = len(modes[first_mode]['retrieved_context'])
+                print(f"  Sample context length ({first_mode}): {context_len:,} chars")
+            else:
+                print(f"⚠️ No retrieved_context in {first_mode} mode")
+
+    except Exception as e:
+        print(f"❌ Error reading sample file: {e}")
+        return False
+
+    return True
+
+
+def run_checks(data_dir):
+    """Verify the API key and the results directory."""
+    print("="*60)
+    print("Gemini Benchmark Test Suite")
+    print("="*60)
+
+    # Run tests
+    api_ok = check_gemini_connection()
+    data_ok = check_data_directory(data_dir)
+
+    print("\n" + "="*60)
+    if api_ok and data_ok:
+        print("✅ ALL CHECKS PASSED - Ready to run benchmark!")
+        print("\nYou can now run:")
+        print("  python3 benchmark_gemini_api.py --quick   # For quick test (10 questions)")
+        print("  python3 benchmark_gemini_api.py           # For full benchmark")
+    else:
+        print("❌ Some checks failed - please fix the issues above")
+    print("="*60)
+
+
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(description="Benchmark gemini-3-flash-preview across the LightRAG query modes")
+    what = parser.add_mutually_exclusive_group()
+    what.add_argument("--quick", action="store_true",
+                      help="Quick benchmark with the answer-generation prompt and a short summary "
+                           "(writes gemini_benchmark_<timestamp>.json)")
+    what.add_argument("--check", action="store_true",
+                      help="Only verify the API key and the results directory")
+    parser.add_argument("--samples", type=int, default=int(os.getenv('SAMPLE_SIZE', '10')),
+                        help="Number of questions to test (env SAMPLE_SIZE, default 10)")
+    parser.add_argument("--results-dir", default=os.getenv('RESULTS_DIR', DEFAULT_RESULTS_DIR),
+                        help="Directory with the per-question result files (env RESULTS_DIR)")
+    return parser.parse_args(argv)
+
+
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    if args.check:
+        run_checks(args.results_dir)
+    elif args.quick:
+        if not GEMINI_API_KEY:
+            print("Error: Set GEMINI_API_KEY environment variable")
+            exit(1)
+        run_quick_benchmark(args.results_dir, args.samples)
+    else:
+        if not GEMINI_API_KEY:
+            print("Error: GEMINI_API_KEY environment variable not set")
+            print("Please set it using: export GEMINI_API_KEY='your-api-key'")
+            print("Or add it to your .env file")
+            exit(1)
+        main(Path(args.results_dir), args.samples)

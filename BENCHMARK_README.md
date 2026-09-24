@@ -5,9 +5,11 @@ This suite benchmarks the `gemini-3-flash-preview` model across different LightR
 
 ## Files
 
-1. **`test_gemini_benchmark.py`** - Test script to verify setup
-2. **`gemini_quick_benchmark.py`** - Quick benchmark (simplified)
-3. **`benchmark_gemini_api.py`** - Full benchmark with detailed statistics
+All runs use **`benchmark_gemini_api.py`**:
+
+1. `--check` - Verify the setup (API key, connection, data directory)
+2. `--quick` - Quick benchmark (simplified)
+3. no option - Full benchmark with detailed statistics
 
 ## Setup
 
@@ -30,9 +32,9 @@ export GEMINI_API_KEY='your-gemini-api-key-here'
 ```
 
 ### 3. Test Your Setup
-Run the test script to verify everything is configured correctly:
+Run the setup check to verify everything is configured correctly:
 ```bash
-python3 test_gemini_benchmark.py
+python3 benchmark_gemini_api.py --check
 ```
 
 This will:
@@ -54,7 +56,7 @@ Expected output:
 
 ### Quick Benchmark (Recommended for Testing)
 ```bash
-python3 gemini_quick_benchmark.py
+python3 benchmark_gemini_api.py --quick
 ```
 - Tests 10 random questions across all 5 modes
 - Total of 50 API calls
@@ -72,7 +74,7 @@ python3 benchmark_gemini_api.py
 
 ## Configuration
 
-Both scripts use the same configuration as your `generate_answers_ctas.py`:
+Both benchmarks use the same configuration as your `generate_answers_ctas.py`:
 - Model: `gemini-3-flash-preview`
 - Temperature: `0.1` (for consistent results)
 - Max output tokens: `65536`
@@ -120,7 +122,7 @@ Response times typically:
 
 ## Output Files
 
-Both scripts generate timestamped JSON files:
+Both benchmarks generate timestamped JSON files:
 - `gemini_benchmark_YYYYMMDD_HHMMSS.json`
 
 Contains:
@@ -160,9 +162,10 @@ The scripts include:
 
 ## Customization
 
-Edit in `gemini_quick_benchmark.py`:
-```python
-SAMPLE_SIZE = 10  # Number of questions to test
+Set the number of questions with `--samples` (or `SAMPLE_SIZE`) and the
+results directory with `--results-dir` (or `RESULTS_DIR`):
+```bash
+python3 benchmark_gemini_api.py --quick --samples 20
 ```
 
 ## Troubleshooting
