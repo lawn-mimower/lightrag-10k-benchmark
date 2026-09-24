@@ -59,6 +59,35 @@ A result file looks like this (abridged):
 }
 ```
 
+## Results
+
+The pipeline above was run on 2026-01-19 over the 10 priority tickers and their 63 questions. The
+run used `ministral-14b-2512` extraction, e5-mistral embeddings, `bge-reranker-v2-m3` with
+`min_rerank_score=0.3` and `gemini-3-flash-preview` answers. RAGAS then scored all 315 answers with
+`ministral-14b-2512` as the judge. [results/RESULTS.md](results/RESULTS.md) has the analysis:
+per-mode scores, latency, breakdowns, examples of where the modes disagree, and the exact run
+conditions. [results/](results/) holds the per-question answers, context summaries, timings and
+scores.
+
+| mode | RAGAS score (mean of 4) | faithfulness | answer relevancy | context recall | context precision | median time per mode (s) |
+|---|---|---|---|---|---|---|
+| local | 0.741 | 0.966 | 0.688 | 0.499 | 0.810 | 24.1 |
+| global | 0.718 | 0.937 | 0.673 | 0.518 | 0.742 | 25.7 |
+| naive | 0.513 | 0.927 | 0.419 | 0.291 | 0.429 | 11.2 |
+| hybrid | 0.765 | 0.953 | 0.673 | 0.595 | 0.841 | 29.3 |
+| mix | 0.760 | 0.941 | 0.674 | 0.618 | 0.810 | 30.9 |
+
+The values are means over 63 questions. Three metric values are NaN and left out, so faithfulness
+has N=62 for `naive` and `mix`, and context precision has N=62 for `global`. The time per mode covers
+LightRAG's answer call and context call on one RTX 4070 SUPER, with Gemini as a hosted API.
+
+- **Graph modes against `naive`:** the four graph modes score 0.72 to 0.77, well ahead of `naive`
+  at 0.51. Part of that gap comes from the rerank threshold. `naive` sends only 10 chunks to the
+  reranker, and after the 0.3 cut it kept 3.1 on average, with none at all for 13 questions.
+- **Among the graph modes:** `hybrid` and `mix` are level with each other. The margins between the
+  graph modes are small next to the judge's variation when the same item is scored twice.
+- **Scope:** this is one run with one judge on 63 questions.
+
 ## Data (not included)
 
 Both inputs come from the FinDER dataset on Hugging Face
@@ -187,8 +216,9 @@ collects only `tests/`.
   embeddings. All five modes returned answers, and `batch_ragas_evaluation.py` scored the `naive`
   answer. `local-llm/benchmark_finder.py` also ran on CPU with 1 passage and 1 query: it gave the
   correct answer in about 9 minutes. The default hosted setup (Mistral extraction, Gemini answers,
-  e5-mistral on a GPU) is covered only by the live tests, which need API keys. This repository
-  publishes no benchmark scores.
+  e5-mistral on a GPU) ran in full once, in January 2026, with the notebook as it was then. Its
+  results are in [results/](results/) (see [Results](#results)). Since then, only the live tests,
+  which need API keys, have exercised that setup.
 - **Embedding wrapper:** the e5-mistral wrapper mean-pools the last hidden state over every position,
   padding included. It truncates input at 512 tokens, although chunks are 1,200 tokens long, and it adds no
   query instruction. The model card for e5-mistral uses last-token pooling and an instruction prefix
@@ -220,6 +250,7 @@ collects only `tests/`.
 | `batch_ragas_evaluation.py`, `run_simple_evaluation.sh` | Resumable RAGAS scoring (`--strategy sequential\|adaptive`) |
 | `analyze_mode_performance.py`, `visualize_mode_performance.py` | Per-mode latency and context-size comparison |
 | `local-llm/benchmark_finder.py` | API-free llama.cpp variant on FinDER passages |
+| `results/` | Benchmark outputs from January 2026 (per-question answers, context summaries, timings, RAGAS scores, charts), `RESULTS.md` analysis, `summarize.py` |
 | `tests/` | Offline and live tests, 10-K fixture |
 | `docs/` | Configuration, evaluation utilities, document parsing |
 
@@ -248,7 +279,10 @@ does not need them.
 
 - [LightRAG](https://github.com/HKUDS/LightRAG) (Guo et al., arXiv:2410.05779).
 - FinDER: Choi et al., *FinDER: Financial Dataset for Question Answering and Evaluating
-  Retrieval-Augmented Generation*, arXiv:2504.15800. The FinDER data is CC BY-NC 4.0 and is not
-  redistributed here.
+  Retrieval-Augmented Generation*, arXiv:2504.15800. The FinDER data is licensed CC BY-NC 4.0.
+  `results/` includes the 63 questions and expected answers used in the benchmark, under that
+  licence. The rest of the dataset is not redistributed here. The context excerpts in `results/`
+  come from the companies' public SEC 10-K filings.
 
-Licence: not yet specified.
+Licence: MIT — see [LICENSE](LICENSE). The FinDER-derived content in `results/` stays under
+CC BY-NC 4.0 (see [results/README.md](results/README.md)).
