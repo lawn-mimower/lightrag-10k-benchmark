@@ -1,0 +1,405 @@
+{
+ "question_id": "0d0d16d0",
+ "ticker": "CE",
+ "question": "Capex conversion to op profit across segments for Celanese (CE).",
+ "expected_answer": "The provided data does offer enough detail to examine how Celanese is turning its capital investments into operating profit across its segments by comparing the operating profit figures with the corresponding capital expenditures over the past three years. For example, looking at the consolidated numbers:\n\n• In 2021, the consolidated operating profit was US$1,946 million with capital expenditures of US$490 million, implying roughly US$3.97 of operating profit per US$1 invested in CAPEX.\n• In 2022 the consolidated operating profit was US$1,378 million with CAPEX of US$583 million – that is, about US$2.36 profit per US$1 of CAPEX.\n• In 2023, the consolidated figures show operating profit of US$1,687 million against CAPEX of US$542 million, which is approximately US$3.11 generated for every US$1 of investment.\n\nThese ratios indicate that while there was a dip in 2022, overall, the conversion of capital expenditures into operating performance has been generally robust, although there is some volatility from year to year.\n\nSegment‐by‐segment, the data also provide insights:\n\n1. Engineered Materials: \n   • 2021: Operating profit of US$411 million with CAPEX of US$154 million gives an approximate ratio of 2.67.\n   • 2022: US$429 million operating profit with US$178 million in CAPEX yields about 2.41.\n   • 2023: US$1,083 million operating profit with US$237 million in CAPEX improves this ratio to approximately 4.57. \n   This suggests that at least in the Engineered Materials segment, recent capital spending is paying off significantly better than in prior years.\n\n2. Acetyl Chain: (Note that for this segment there is a reference to an adjusted gain from the joint venture formation that affects the operating profit numbers.)\n   • 2021: Operating profit of about US$1,875 million with CAPEX of US$311 million gives roughly 6.03.\n   • 2022: US$1,447 million operating profit with US$352 million in CAPEX gives around 4.11.\n   • 2023: US$1,109 million operating profit paired with US$207 million in CAPEX results in a ratio of about 5.36.\n   Here, while the 2021 ratio was the highest, the 2023 ratio has partially rebounded compared to 2022, indicating that the capital investment efficiency in the Acetyl Chain segment has experienced some fluctuation, possibly due to one‐time adjustments (such as the joint venture gain).\n\n3. Other Activities: \n   Although these have registered operating losses, the loss per dollar invested has narrowed over time:\n   • In 2021, a loss of US$340 vs CAPEX of US$25 results in a very high (negative) ratio (~–13.6).\n   • In 2022, a loss of US$498 with US$53 in CAPEX (approx. –9.40).\n   • In 2023, a loss of US$505 against US$98 in CAPEX yields about –5.16.\n   This trend suggests that, despite negative operating performance, the efficiency of the capital conversion (in absolute terms) is improving in this segment.\n\nIn summary, the data indicate that Celanese has been moderately effective in converting capital expenditures into operating profit. The Engineered Materials segment in particular shows a notable improvement in 2023, while Acetyl Chain has experienced some fluctuations. Overall, the consolidated ratio improved from 2022 to 2023 despite the variations in segment performance, which suggests that capital allocation has contributed positively to operational efficiency and profitability. However, the year‐to‐year volatility and the impact of nonrecurring items (such as the joint venture gains and elimination adjustments) imply that a more detailed breakdown would be needed to fully assess the sustainability of these returns.",
+ "category": "Footnotes",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 2261,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:42:03.059001",
+   "duration_ms": 23176,
+   "answer": "Celanese Corporation's capital expenditures and their relationship to operating profit are characterized by strategic investments in growth, productivity, and large-scale acquisitions. The company’s capital expenditures on property, plant, and equipment have shown a consistent upward trend over the last three years, with $568 million invested in 2023, $543 million in 2022, and $467 million in 2021. For 2024, Celanese has established a capital expenditure budget of $400 million, primarily focused on growth and productivity initiatives.\n\n### Operating Profit and Performance Drivers\nIn 2023, Celanese reported an operating profit of $1,687 million, an increase of $309 million (approximately 22%) compared to the $1,378 million achieved in 2022. This growth in profitability was heavily influenced by segment-specific factors and strategic maneuvers:\n\n*   **Engineered Materials:** This segment was a major contributor to the increase in operating profit due to higher net sales, which were bolstered by the M&M Acquisition and the KEPCO restructuring. Additionally, a significant one-time gain of $515 million was recognized within this segment following the formation of the Nutrinova joint venture.\n*   **Acetyl Chain:** Profitability in this segment was supported by lower raw material and sourcing costs for key inputs such as ethylene, methanol, and acid. While the segment saw increased demand in Asia, these gains were partially offset by lower pricing as market conditions stabilized from previous highs and lower volumes in the Western Hemisphere for products like vinyl acetate monomer (VAM).\n\n### Strategic Investment and Efficiency\nThe conversion of capital into profit is also reflected in the company's efforts to optimize its global footprint and operational efficiency. In 2023, Celanese realigned its European headquarters and principal operations to Switzerland to achieve greater operational efficiencies. The company also utilizes its large global production capacity—consisting of 58 global production facilities—and proprietary technology to maintain competitive cost structures. \n\nFurthermore, Celanese relies on its subsidiaries to generate the cash flow necessary to fund these capital expenditures and satisfy debt obligations. Net cash provided by operating activities reached $1,899 million in 2023, providing the necessary liquidity to support both ongoing operations and long-term investment strategies.\n\n### References\n\n* [1] CELANESE CORPORATION Document Title One (CE.html)",
+   "answer_length": 2511,
+   "context_length": 107047,
+   "context": {
+    "entities": 60,
+    "relations": 184,
+    "chunks": 10,
+    "rerank_candidates": 52,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Capital Expenditures By Segment",
+     "Operating And Capital Expenditures",
+     "$400 Million Capital Expenditures",
+     "Celanese Us Holdings LLC",
+     "Operating Efficiencies",
+     "Gain (Loss) On Disposition Of Businesses And Assets",
+     "$132 Million",
+     "$146 Million",
+     "Equity In Net Earnings (Loss) Of Affiliates",
+     "Celanese Europe B.V.",
+     "Capital Expenditures On Property, Plant And Equipment",
+     "$125 Million",
+     "Operating Profitability",
+     "List Of Subsidiaries Of Celanese Corporation",
+     "Refinancing Expense"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6020,
+      "text": "KOENIG Director February 23, 2024 Michael Koenig /s/ GANESH MOORTHY Director February 23, 2024 Ganesh Moorthy /s/ KIM K.W. RUCKER Director February 23, 2024 Kim K.W. Rucker 60 Table of Contents CELANESE CORPORATION AND SUBSIDIARIES INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page Number Report of Independent Registered Public Accounting Firm 62 Consolidated Statements of Operations for the years en"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6172,
+      "text": "OF CONTENTS Page Special Note Regarding Forward-Looking Statements 3 PART I Item 1. Business 4 Item 1A. Risk Factors 17 Item 1B. Unresolved Staff Comments 29 Item 1C. Cybersecurity 29 Item 2. Properties 30 Item 3. Legal Proceedings 31 Item 4. Mine Safety Disclosures 31 Information about our Executive Officers 31 PART II Item 5. Market for the Registrant's Common Equity, Related Shareholder Matters"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6037,
+      "text": "and business management, planning and portfolio development, and pipeline management. He was promoted to Executive Vice President in March 2020. Previously, Mr. Richardson served as Vice President and General Manager of the Acetyl Chain since 2011. Mr. Richardson has progressed through several Celanese roles including global commercial director, Acetyls; manager of Investor Relations; business ana"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4504,
+      "text": "10.7 to the Quarterly Report on Form 10-Q filed with the SEC on May 10, 2023). 10.7(m)‡ Form of 2023 Time-Based Restricted Stock Unit Award Agreement (for non-employee directors) (incorporated by reference to Exhibit 10.2 to the Quarterly Report on Form 10-Q filed with the SEC on August 8, 2023). 10.8(a)‡ Executive Severance Benefits Plan, amended effective February 6, 2013 (incorporated by refere"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6531,
+      "text": "agreements (the \"Credit Agreements\") or the indentures (the \"Indentures\") governing our outstanding senior unsecured notes (collectively, the \"Senior Notes\"); • Requiring a substantial portion of cash flow from operations to be dedicated to the payment of principal and interest on indebtedness and amounts payable in connection with the satisfaction of our other liabilities, therefore reducing our "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9743589743589743,
+    "answer_relevancy": 0.7339103971963796,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6771
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:42:25.051282",
+   "duration_ms": 21992,
+   "answer": "Based on the provided context, Celanese Corporation (CE) reported a significant increase in operating profit for the year ended December 31, 2023, driven largely by strategic acquisitions and joint venture gains within its business segments. While specific capital expenditure (Capex) figures are not explicitly detailed in the text, the relationship between investment-driven capacity and operating profit is highlighted through the company's segment performance.\n\n### Consolidated Operating Profit Performance\nFor the 2023 fiscal year, Celanese reported a total operating profit of **$1,687 million**, representing a **22% increase** ($309 million) compared to $1,378 million in 2022. This growth was primarily influenced by performance shifts within the Engineered Materials and Acetyl Chain segments. The company's overall operating margin also improved to 15.4% in 2023 from 14.2% in the previous year.\n\n### Engineered Materials Segment\nThe Engineered Materials segment was a primary driver of the company's profit growth, influenced by large-scale investments and restructuring:\n*   **Volume and Acquisitions:** Net sales in this segment increased by 53%, primarily due to higher volumes resulting from the **M&M Acquisition** and **KEPCO restructuring**.\n*   **Joint Venture Gains:** Operating profit was significantly bolstered by a **$515 million gain** recognized upon the formation of the **Nutrinova joint venture**.\n*   **Offsetting Costs:** These gains were partially offset by higher spending and raw material costs. Specifically, the segment experienced increased costs as a direct result of the additional production capacity gained through the M&M Acquisition.\n\n### Acetyl Chain Segment\nThe Acetyl Chain segment experienced a different profitability dynamic characterized by cost management rather than volume growth:\n*   **Cost Reductions:** The segment benefited from lower raw material and sourcing costs, particularly for ethylene, methanol, and acid.\n*   **Sales Decline:** Despite these cost savings, the segment saw lower net sales, with pricing decreasing by 17% as market conditions reverted from the higher levels seen in the prior year. Additionally, demand decreased for vinyl acetate monomer (VAM), acid, and emulsion polymers in the Western Hemisphere.\n\n### References\n\n* [1] {\"ticker\":\"CE\",\"company\":\"CELANESE CORPORATION\",\"period\":\"December 31, 2023\",\"source\":\"CE.html\"}",
+   "answer_length": 2404,
+   "context_length": 45295,
+   "context": {
+    "entities": 33,
+    "relations": 60,
+    "chunks": 1,
+    "rerank_candidates": 107,
+    "chunk_tickers": [
+     "CE"
+    ],
+    "entity_names": [
+     "Operating Cash Flow Growth",
+     "Weighted Average Cost Of Capital",
+     "Capital Projects",
+     "Internal Rates Of Return",
+     "Company",
+     "Operating Income",
+     "Cost Of Sales",
+     "Research And Development",
+     "Data Analytics Provider",
+     "EBITDA",
+     "Corporate Expenses",
+     "Operating Margin",
+     "Cost Reduction Programs",
+     "Financial Performance",
+     "Consolidated Statement Of Operations"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.14814814814814814,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.537
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:42:35.461777",
+   "duration_ms": 10410,
+   "answer": "Based on the provided documents, Celanese (CE) operates through two primary business segments: **Engineered Materials** and the **Acetyl Chain**. While the documents provide details on total capital expenditures and specific growth projects within these segments, they do not provide a specific numerical \"capex conversion to operating profit\" ratio for the individual segments.\n\n### Capital Expenditure Overview\nFor 2024, Celanese expects total capital expenditures to be approximately **$400 million**. These investments are primarily directed toward growth opportunities and productivity improvements to strengthen the company's manufacturing network and reliability.\n\n### Segment-Specific Growth Projects\nThe capital expenditures are distributed across several major projects in both segments:\n\n*   **Engineered Materials:** Key investments include the expansion of a compounding plant and a new liquid crystal polymer (LCP) plant in Nanjing, China. Additionally, the company is debottlenecking an ultra-high molecular weight polyethylene (UHMW-PE) unit in Bishop, Texas, and conducting an energy optimization project for a polyoxymethylene (POM) unit in Frankfurt, Germany.\n*   **Acetyl Chain:** Major projects include the expansion of the acetic acid unit in Clear Lake, Texas, which was scheduled for commissioning in early 2024. Other investments involve vinyl acetate ethylene (VAE) emulsion units in Nanjing, China, and Frankfurt, Germany. The company also recently commissioned a sustainable methanol production unit using carbon capture at its Fairway joint venture in Texas.\n\n### Operating Performance\nFor the year ended December 31, 2023, Celanese reported net cash provided by operating activities of **$1.9 billion**, an increase from $1.8 billion in the previous year. This performance was driven by favorable trade working capital and cash receipts from non-trade receivables, although it was partially offset by a decrease in earnings performance and increased interest expenses related to the M&M Acquisition. The provided documentation does not break down operating profit by segment or offer a direct conversion metric from capital expenditure to operating profit.\n\n### References\n\n- [1] CELANESE CORPORATION December 31, 2023",
+   "answer_length": 2248,
+   "context_length": 12657,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CE",
+     "CE"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6066,
+      "text": "growth and productivity in the near term and expect total capital expenditures to be approximately $400 million in 2024, primarily due to certain investments in growth opportunities and productivity improvements. In Engineered Materials, at our Nanjing, China facility, our expansions of (1) the compounding plant and (2) the new liquid crystal polymer (\"LCP\") plant are on schedule and in constructi"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:42:59.113365",
+   "duration_ms": 23652,
+   "answer": "Celanese Corporation (CE) manages its capital expenditures (capex) with a strategic focus on growth opportunities and productivity improvements. For the 2024 fiscal year, the company has budgeted approximately $400 million for capital expenditures. Historically, the company invested $568 million in property, plant, and equipment in 2023, compared to $543 million in 2022 and $467 million in 2021. These investments are primarily funded through operational cash flow and existing cash resources to support the company’s differentiated business models and large global production capacity.\n\n### Engineered Materials Segment\nIn the Engineered Materials segment, capital investments are directed toward expanding production capacity and leveraging a project pipeline model to commercialize new products. Recent and ongoing capital projects include:\n*   **Nanjing, China:** Expansion of a compounding plant and a new liquid crystal polymer (LCP) plant.\n*   **Bishop, Texas:** Debottlenecking of the ultra-high molecular weight polyethylene (UHMW-PE) unit.\n*   **Frankfurt, Germany:** An energy optimization productivity project at the polyoxymethylene (POM) unit.\n\nThese investments, alongside the M&M Acquisition, contributed to a significant increase in operating profit. In 2023, the segment's performance was bolstered by a $515 million gain from the formation of the Nutrinova joint venture and higher sales volumes. However, these gains were partially offset by higher raw material costs associated with the additional capacity gained through the M&M Acquisition.\n\n### Acetyl Chain Segment\nThe Acetyl Chain segment focuses on an integrated chain model to maximize value creation. The conversion of capital into profit in this segment is driven by global optionality and operational efficiencies. Key capital projects include:\n*   **Clear Lake, Texas:** A planned expansion of the acetic acid unit commissioned in the first quarter of 2024, and a successfully started methanol unit utilizing carbon capture technology.\n*   **International Expansions:** Expansion of vinyl acetate ethylene (VAE) emulsion units in Nanjing, China, and Frankfurt, Germany.\n\nWhile the Acetyl Chain saw a decrease in net sales in 2023 due to market pricing reverting from prior-year highs, the segment benefited from lower sourcing costs for raw materials such as ethylene and methanol. Additionally, Celanese's strategic ventures within the Acetyl Chain provided significant dividend income, totaling $125 million in 2023.\n\n### Consolidated Operating Performance\nOn a consolidated basis, Celanese reported an operating profit of $1,687 million for 2023, a 22% increase from $1,378 million in 2022. This growth reflects the successful integration of acquired businesses and the realization of gains from strategic ventures. The company's operating margin improved from 14.2% in 2022 to 15.4% in 2023, demonstrating the effectiveness of its capital allocation toward high-value applications and cost-competitive production structures.\n\n### References\n\n* [1] CELANESE CORPORATION December 31, 2023",
+   "answer_length": 3075,
+   "context_length": 122645,
+   "context": {
+    "entities": 47,
+    "relations": 179,
+    "chunks": 10,
+    "rerank_candidates": 145,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Capital Expenditures By Segment",
+     "Operating Cash Flow Growth",
+     "Operating And Capital Expenditures",
+     "Weighted Average Cost Of Capital",
+     "$400 Million Capital Expenditures",
+     "Capital Projects",
+     "Celanese Us Holdings LLC",
+     "Internal Rates Of Return",
+     "Operating Efficiencies",
+     "Company",
+     "Gain (Loss) On Disposition Of Businesses And Assets",
+     "Operating Income",
+     "$132 Million",
+     "Cost Of Sales",
+     "$146 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6172,
+      "text": "OF CONTENTS Page Special Note Regarding Forward-Looking Statements 3 PART I Item 1. Business 4 Item 1A. Risk Factors 17 Item 1B. Unresolved Staff Comments 29 Item 1C. Cybersecurity 29 Item 2. Properties 30 Item 3. Legal Proceedings 31 Item 4. Mine Safety Disclosures 31 Information about our Executive Officers 31 PART II Item 5. Market for the Registrant's Common Equity, Related Shareholder Matters"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6037,
+      "text": "and business management, planning and portfolio development, and pipeline management. He was promoted to Executive Vice President in March 2020. Previously, Mr. Richardson served as Vice President and General Manager of the Acetyl Chain since 2011. Mr. Richardson has progressed through several Celanese roles including global commercial director, Acetyls; manager of Investor Relations; business ana"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4504,
+      "text": "10.7 to the Quarterly Report on Form 10-Q filed with the SEC on May 10, 2023). 10.7(m)‡ Form of 2023 Time-Based Restricted Stock Unit Award Agreement (for non-employee directors) (incorporated by reference to Exhibit 10.2 to the Quarterly Report on Form 10-Q filed with the SEC on August 8, 2023). 10.8(a)‡ Executive Severance Benefits Plan, amended effective February 6, 2013 (incorporated by refere"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6531,
+      "text": "agreements (the \"Credit Agreements\") or the indentures (the \"Indentures\") governing our outstanding senior unsecured notes (collectively, the \"Senior Notes\"); • Requiring a substantial portion of cash flow from operations to be dedicated to the payment of principal and interest on indebtedness and amounts payable in connection with the satisfaction of our other liabilities, therefore reducing our "
+     },
+     {
+      "ticker": "CE",
+      "chars": 6066,
+      "text": "growth and productivity in the near term and expect total capital expenditures to be approximately $400 million in 2024, primarily due to certain investments in growth opportunities and productivity improvements. In Engineered Materials, at our Nanjing, China facility, our expansions of (1) the compounding plant and (2) the new liquid crystal polymer (\"LCP\") plant are on schedule and in constructi"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5749,
+      "text": "Pont Teijin Films is a leading global producer of PET and polyethylene naphthalate (\"PEN\") polyester films, which are used in a wide variety of end markets from healthcare to industrial and electronics. Mylar ® and Melinex ® brand films, known for their wide range of performance capabilities, are used in a variety of applications. DuPont Filaments. DuPont Filaments is a joint venture with Xingda f"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9310344827586207,
+    "answer_relevancy": 0.7334603209294145,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6661
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:43:22.527400",
+   "duration_ms": 23414,
+   "answer": "Celanese Corporation (CE) operates primarily through two business segments: **Engineered Materials** and the **Acetyl Chain**. In 2023, the company reported an overall operating profit of $1,687 million, representing a 22% increase ($309 million) over the previous year. This growth was driven by a combination of strategic capital investments, acquisitions, and joint ventures across its core segments.\n\n### Engineered Materials Segment\nThe Engineered Materials segment is a project-based business where growth is tied to the commercialization of new projects from its pipeline. In 2023, this segment's operating profit was significantly bolstered by higher net sales resulting from the M&M Acquisition and a one-time gain of $515 million recognized from the formation of the Nutrinova joint venture.\n\nCapital expenditures in this segment are focused on expanding production capacity and efficiency. Key ongoing projects include:\n*   **Nanjing, China:** Expansion of the compounding plant and a new liquid crystal polymer (LCP) plant.\n*   **Bishop, Texas:** Debottlenecking of the ultra-high molecular weight polyethylene (UHMW-PE) unit.\n*   **Frankfurt, Germany:** An energy optimization productivity project at the polyoxymethylene (POM) unit.\n\n### Acetyl Chain Segment\nThe Acetyl Chain segment utilizes an integrated chain model to maximize value. While this segment saw lower net sales in 2023 due to market conditions reverting from prior-year highs, its profitability was supported by lower raw material and sourcing costs for ethylene, methanol, and acid.\n\nStrategic capital investments in this segment are aimed at strengthening the manufacturing network:\n*   **Clear Lake, Texas:** Expansion of the acetic acid unit, scheduled for commissioning in the first quarter of 2024.\n*   **VAE Emulsions:** Expansions of units in Nanjing, China, and Frankfurt, Germany.\n*   **Sustainability Investments:** The Fairway joint venture in Clear Lake successfully started producing methanol through carbon capture utilization in late 2023.\n\n### Capital Expenditure Trends and Outlook\nCelanese invested $568 million in capital expenditures for property, plant, and equipment during 2023. For 2024, the company has budgeted approximately $400 million for total capital expenditures, primarily targeting growth opportunities and productivity improvements. The company relies on the cash flow generated by its subsidiaries to fund these investments and meet its debt obligations. Despite the 2023 increase in operating profit, the company noted that earnings performance was partially offset by a $639 million increase in cash interest paid, primarily related to the debt incurred for the M&M Acquisition.\n\n### References\n\n* [1] CELANESE CORPORATION Period: December 31, 2023",
+   "answer_length": 2767,
+   "context_length": 122645,
+   "context": {
+    "entities": 47,
+    "relations": 179,
+    "chunks": 10,
+    "rerank_candidates": 152,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Capital Expenditures By Segment",
+     "Operating Cash Flow Growth",
+     "Operating And Capital Expenditures",
+     "Weighted Average Cost Of Capital",
+     "$400 Million Capital Expenditures",
+     "Capital Projects",
+     "Celanese Us Holdings LLC",
+     "Internal Rates Of Return",
+     "Operating Efficiencies",
+     "Company",
+     "Gain (Loss) On Disposition Of Businesses And Assets",
+     "Operating Income",
+     "$132 Million",
+     "Cost Of Sales",
+     "$146 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6172,
+      "text": "OF CONTENTS Page Special Note Regarding Forward-Looking Statements 3 PART I Item 1. Business 4 Item 1A. Risk Factors 17 Item 1B. Unresolved Staff Comments 29 Item 1C. Cybersecurity 29 Item 2. Properties 30 Item 3. Legal Proceedings 31 Item 4. Mine Safety Disclosures 31 Information about our Executive Officers 31 PART II Item 5. Market for the Registrant's Common Equity, Related Shareholder Matters"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6037,
+      "text": "and business management, planning and portfolio development, and pipeline management. He was promoted to Executive Vice President in March 2020. Previously, Mr. Richardson served as Vice President and General Manager of the Acetyl Chain since 2011. Mr. Richardson has progressed through several Celanese roles including global commercial director, Acetyls; manager of Investor Relations; business ana"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4504,
+      "text": "10.7 to the Quarterly Report on Form 10-Q filed with the SEC on May 10, 2023). 10.7(m)‡ Form of 2023 Time-Based Restricted Stock Unit Award Agreement (for non-employee directors) (incorporated by reference to Exhibit 10.2 to the Quarterly Report on Form 10-Q filed with the SEC on August 8, 2023). 10.8(a)‡ Executive Severance Benefits Plan, amended effective February 6, 2013 (incorporated by refere"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6531,
+      "text": "agreements (the \"Credit Agreements\") or the indentures (the \"Indentures\") governing our outstanding senior unsecured notes (collectively, the \"Senior Notes\"); • Requiring a substantial portion of cash flow from operations to be dedicated to the payment of principal and interest on indebtedness and amounts payable in connection with the satisfaction of our other liabilities, therefore reducing our "
+     },
+     {
+      "ticker": "CE",
+      "chars": 6066,
+      "text": "growth and productivity in the near term and expect total capital expenditures to be approximately $400 million in 2024, primarily due to certain investments in growth opportunities and productivity improvements. In Engineered Materials, at our Nanjing, China facility, our expansions of (1) the compounding plant and (2) the new liquid crystal polymer (\"LCP\") plant are on schedule and in constructi"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5749,
+      "text": "Pont Teijin Films is a leading global producer of PET and polyethylene naphthalate (\"PEN\") polyester films, which are used in a wide variety of end markets from healthcare to industrial and electronics. Mylar ® and Melinex ® brand films, known for their wide range of performance capabilities, are used in a variety of applications. DuPont Filaments. DuPont Filaments is a joint venture with Xingda f"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9555555555555556,
+    "answer_relevancy": 0.7162701219803497,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.668
+   }
+  }
+ }
+}

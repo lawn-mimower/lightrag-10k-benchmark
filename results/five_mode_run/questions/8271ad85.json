@@ -1,0 +1,483 @@
+{
+ "question_id": "8271ad85",
+ "ticker": "MSI",
+ "question": "Motorola Solutions’ innovation in workforce composition and competitive positioning, MSI.",
+ "expected_answer": "Motorola Solutions employs approximately 21,000 people globally with a balanced geographic distribution of 53% in North America and 47% internationally. Notably, 40% of the total workforce is in engineering, which is a critical function for technological innovation. This diverse and specialized talent pool supports the company's ability to develop innovative solutions tailored to various regional demands, thereby strengthening its competitive positioning and potential for sustained growth.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 622,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:52:52.206129",
+   "duration_ms": 16783,
+   "answer": "Motorola Solutions maintains a highly specialized workforce designed to drive its mission-critical technology offerings. As of December 31, 2023, the company employed approximately 21,000 people globally. The geographic distribution of its staff is nearly balanced, with 53% located in North America and 47% in international regions. A significant 40% of the total global workforce is dedicated to engineering, reflecting the company's focus on technical development and innovation in the safety and security sectors.\n\nInnovation is a core pillar of the company’s strategy, supported by a robust research and development (R&D) framework. Motorola Solutions employs approximately 8,000 personnel in R&D activities and invested $858 million in these efforts in 2023. This investment fuels a extensive intellectual property portfolio, which includes 6,560 granted patents and 775 pending applications. The company’s innovation focus centers on three primary technology pillars: Land Mobile Radio (LMR) Communications, Video Security and Access Control, and Command Center solutions. To maintain its technological edge, the company integrates artificial intelligence (AI)-powered analytics into its video security segment and develops cloud-based and hybrid solutions for its software and services.\n\nThe company's competitive positioning is defined by its status as a global leader in public safety and enterprise security, serving over 100,000 customers in more than 100 countries. Its strategy emphasizes building an \"ecosystem\" of safety and security technologies that allows for seamless collaboration across different platforms—such as connecting a school's panic button to local law enforcement while simultaneously sharing live video feeds. This integrated approach distinguishes the company from specialized competitors like Axon Enterprise (which competes in the Video and Command Center segments), Oracle Public Safety (Command Center), and Milestone Systems (Video).\n\nMotorola Solutions also strengthens its market position through strategic acquisitions and a commitment to mission-critical reliability. Acquisitions such as Rave Mobile Safety and IPVideo Corporation have expanded its capabilities in mass notification and multifunctional security devices. The company’s LMR systems remain a cornerstone of its business due to their purpose-built design for resiliency in challenging conditions, which continues to be a primary requirement for government and public safety agencies worldwide.\n\n### References\n\n- [1] MOTOROLA SOLUTIONS, INC. (December 31, 2023)",
+   "answer_length": 2569,
+   "context_length": 115918,
+   "context": {
+    "entities": 60,
+    "relations": 160,
+    "chunks": 10,
+    "rerank_candidates": 42,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Motorola Solutions Inc.",
+     "Software and Services",
+     "Products and Systems Integration",
+     "Command Center Software And Services",
+     "Motorola Solutions UK Ltd.",
+     "Motorola Inc",
+     "Safety and Productivity Solutions",
+     "LMR Communications Products",
+     "Artificial Intelligence (AI)-Powered Analytics",
+     "Professional And Commercial Radio (PCR)",
+     "Motorola Marks Modifications",
+     "Commercial Users",
+     "Engineering",
+     "Land Mobile Radio",
+     "LMR Communications Software and Services"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5841,
+      "text": "Reserved] 30 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 31 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 53 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 101 Item 9A. Controls and Procedures 101 Item 9B. Other Information 101"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6549807679992005,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8304
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:53:08.949952",
+   "duration_ms": 16744,
+   "answer": "Motorola Solutions maintains a robust global workforce of approximately 21,000 employees, with a strategic composition heavily weighted toward technical innovation. Approximately 40% of its total workforce is employed in engineering, reflecting the company's \"people first\" philosophy and its focus on driving advancements in public safety and enterprise security. The workforce is geographically distributed, with 53% of employees based in North America and 47% located internationally. To maintain its competitive edge, the company prioritizes human capital management through structured mentorship, rotational programs, and specialized training in fields such as data science and artificial intelligence.\n\nThe company’s competitive positioning is anchored in its \"Unified Safety and Security Ecosystem,\" which integrates three core technologies: Land Mobile Radio (LMR) Communications, Video Security and Access Control, and Command Center software. Motorola Solutions is a global leader in the mission-critical communications sector, serving over 100,000 customers across more than 100 countries. By uniting these traditionally siloed technologies, the company aims to improve information flow and operational collaboration for public safety agencies and enterprise customers, such as schools and hospitals.\n\nInnovation is a primary driver of the company’s market position, supported by significant investment in research and development (R&D). In 2023, Motorola Solutions invested $858 million in R&D, employing approximately 8,000 personnel dedicated to these activities. This commitment has resulted in a formidable intellectual property portfolio, which includes approximately 6,560 granted patents globally. These patents cover critical areas such as radio frequency technology, wireless networks, and AI-powered analytics, providing a distinct advantage in both core product areas and the development of future technologies.\n\nStrategic acquisitions further bolster Motorola Solutions' competitive standing by expanding its capabilities in cloud-based and hybrid solutions. Recent notable acquisitions include IPVideo Corporation, which specializes in multifunctional safety devices, and Rave Mobile Safety, Inc., a provider of mass notification and incident management services. These acquisitions, alongside others like Openpath Security for cloud-based mobile access control, allow the company to evolve its legacy LMR focus into a comprehensive suite of safety and security products that meet the shifting, data-centric needs of global customers.\n\n### References\n\n- [1] MOTOROLA SOLUTIONS, INC.",
+   "answer_length": 2607,
+   "context_length": 104294,
+   "context": {
+    "entities": 39,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 106,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Engineering",
+     "Motorola Solutions",
+     "Business",
+     "Video Security and Access Control",
+     "Command Center Software And Services",
+     "Software and Services",
+     "Acquisitions",
+     "Factories",
+     "Commercial Users",
+     "Capital Markets",
+     "Video Security Solutions",
+     "Unified Safety And Security Ecosystem",
+     "Engineered Materials",
+     "Global Marketplace Presence",
+     "Human Capital Management"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5841,
+      "text": "Reserved] 30 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 31 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 53 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 101 Item 9A. Controls and Procedures 101 Item 9B. Other Information 101"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6329,
+      "text": "Part 1. Item 1A. Risk Factors\" of this Form 10-K for a discussion of the risks and uncertainties associated with the CMA's remedies order. 7 Recent Acquisitions Technology Segment Acquisition Description Purchase Price Date of Acquisition Video Security and Access Control Products and Systems Integration IPVideo Corporation Creator of a multifunctional safety and security device. $170 million and "
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5541,
+      "text": "-based compensation of $1 million October 29, 2021 Video Security and Access Control Products and Systems Integration Software and Services Openpath Security, Inc. Provider of cloud-based mobile access control. $298 million and share-based compensation of $29 million July 15, 2021 35 Climate Change Regulations We expect that our operations and supply chain will become increasingly subject to feder"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.975609756097561,
+    "answer_relevancy": 0.7085258063120655,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8377
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:53:22.238901",
+   "duration_ms": 13289,
+   "answer": "Motorola Solutions (MSI) maintains its competitive positioning through a strategic focus on an integrated ecosystem of safety and security technologies. The company organizes its innovation around three core technology pillars: Land Mobile Radio (LMR) Communications, Video Security and Access Control, and Command Center software. By unifying these technologies, MSI aims to remove data silos and improve collaboration between public safety agencies and enterprises. For instance, their ecosystem allows for automated workflows, such as a school panic button triggering a lockdown while simultaneously sharing live video feeds with first responders.\n\nThe company's workforce composition is heavily weighted toward technical innovation and engineering. As of December 31, 2023, Motorola Solutions employed approximately 21,000 people globally, with 40% of the total workforce employed in engineering roles. This global team is distributed relatively evenly between regions, with 53% of employees located in North America and 47% in international regions. MSI operates under a \"people first\" philosophy, emphasizing talent development through structured mentorship, rotational programs, and annual talent reviews to identify high-potential employees for succession planning.\n\nIn terms of diversity and inclusion, the company has implemented several initiatives to strengthen its human capital. In 2023, MSI launched \"GO ALL INclusive\" to promote inclusive corporate behaviors and grew its eight business councils to foster a sense of belonging among diverse employee groups. The company also maintains market-competitive compensation packages, which include broad-based stock grants, bonuses, and flexible work options, intended to attract and retain specialized talent in the competitive technology sector.\n\nFrom a competitive standpoint, Motorola Solutions is a global leader in the two-way radio category, including Project 25 (P25) and Terrestrial Trunked Radio (TETRA) standards. The company is currently driving growth by augmenting traditional LMR systems with broadband data capabilities and migrating customers toward cloud-based and hybrid \"software-as-a-service\" (SaaS) models. In the video segment, MSI differentiates itself through AI-powered analytics, such as \"Appearance Search\" and license plate recognition, which convert raw video data into actionable intelligence for government and enterprise customers.\n\nLooking forward, the company's competitive strategy involves continuing to rationalize costs and leveraging acquisitions to drive operating leverage. While the company faces evolving regulations regarding artificial intelligence, biometrics, and climate change—such as the U.K. government's requirement for carbon reduction plans—it continues to invest heavily in research and development. In 2023, the company reported $858 million in R&D expenditures to support the ongoing evolution of its mission-critical communications and security portfolio.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. (December 31, 2023)",
+   "answer_length": 3041,
+   "context_length": 39734,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 6,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5541,
+      "text": "-based compensation of $1 million October 29, 2021 Video Security and Access Control Products and Systems Integration Software and Services Openpath Security, Inc. Provider of cloud-based mobile access control. $298 million and share-based compensation of $29 million July 15, 2021 35 Climate Change Regulations We expect that our operations and supply chain will become increasingly subject to feder"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7144,
+      "text": "the net sales of the total segment in 2023. Video Our Video technology includes video management infrastructure, AI-powered security cameras including fixed and certain mobile video equipment as well as on-premise and cloud-based access control solutions. We deploy video security and access control solutions to thousands of government and enterprise customers around the world, including schools, t"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7110,
+      "text": "Long Term Evolution (“LTE”) and enterprise-grade private LTE. Our technology enables voice and multimedia collaborations across two-way radio, WiFi and public and private broadband networks. We are a global leader in the two-way radio category, including Project 25 (P25), Terrestrial Trunked Radio (“TETRA”) and Digital Mobile Radio (DMR), as well as other PCR solutions. We also deliver LTE solutio"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7256661473237803,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8481
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:53:43.508993",
+   "duration_ms": 21270,
+   "answer": "Motorola Solutions maintains its competitive positioning through a robust innovation strategy that integrates mission-critical communications, video security, and command center software. The company serves over 100,000 public safety and enterprise customers across more than 100 countries. Its business is organized into two primary segments: Products and Systems Integration, and Software and Services. A core element of its competitive advantage is the creation of a unified safety and security ecosystem that integrates Land Mobile Radio (LMR), video security, and command center technologies to remove data silos and improve operational collaboration for first responders and enterprise users.\n\n### Workforce Composition and Human Capital Management\nMotorola Solutions’ workforce is a primary driver of its technological innovation. As of late 2023, the company employed approximately 21,000 people globally, with 53% based in North America and 47% internationally. A significant 40% of this total workforce is dedicated to engineering roles, underscoring the company’s focus on research and development (R&D). To sustain this innovation, the company employs a \"people first\" human capital management strategy that includes structured mentorship, rotational programs, and extensive technical training resources.\n\nDiversity, Equity, and Inclusion (DEI) are also central to the company’s workforce innovation. Motorola Solutions aims to foster a workplace where unique perspectives contribute to corporate success, evidenced by initiatives like \"GO ALL INclusive\" and the operation of eight distinct business councils. These programs are designed to attract and retain diverse talent, which the company views as essential for developing new ideas and maintaining leadership in the public safety and enterprise security markets.\n\n### Competitive Strategy and Market Positioning\nThe company’s competitive positioning is reinforced by its extensive intellectual property portfolio and strategic investment in R&D. Motorola Solutions holds approximately 6,560 granted patents and 775 pending applications, leveraging these assets to maintain dominance in its core technology areas. Its strategy involves both organic development and strategic acquisitions—such as Openpath Security, Rave Mobile Safety, Inc., and Futurecom Systems Group—to expand its reach into cloud-based solutions, AI-powered analytics, and mass notification services.\n\nMotorola Solutions differentiates itself by offering a comprehensive suite of technologies tailored for high-stakes environments, including schools, hospitals, and government facilities. For instance, its Command Center software unifies voice, video, and data to accelerate emergency response times. By providing hybrid and cloud-based options across its LMR, Video, and Command Center segments, the company adapts to evolving customer preferences while maintaining the reliability and resiliency required for mission-critical communications.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. December 31, 2023 (MSI.html)",
+   "answer_length": 3058,
+   "context_length": 116764,
+   "context": {
+    "entities": 70,
+    "relations": 128,
+    "chunks": 10,
+    "rerank_candidates": 170,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Technological Trends",
+     "Engineering",
+     "Innovation Strategy",
+     "Motorola Solutions",
+     "Business Strategy And Operations",
+     "Business",
+     "Market Analysis",
+     "Video Security and Access Control",
+     "Integration And Collaboration",
+     "Command Center Software And Services",
+     "Government and Enterprise Markets",
+     "Factories",
+     "Competitive Marketplace",
+     "Commercial Users",
+     "Legal Markets"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5841,
+      "text": "Reserved] 30 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 31 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 53 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 101 Item 9A. Controls and Procedures 101 Item 9B. Other Information 101"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7615063679814541,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9404
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:54:05.232048",
+   "duration_ms": 21723,
+   "answer": "Motorola Solutions maintains a robust global workforce of approximately 21,000 employees, with a significant emphasis on technical expertise to drive its innovation. Approximately 40% of its global workforce is employed in engineering, reflecting the company's focus on advancing mission-critical technologies. This workforce is distributed globally, with 53% of personnel located in North America and 47% in international regions. The company employs a \"people first\" philosophy, utilizing human capital management strategies that prioritize diversity, equity, and inclusion (DEI), alongside structured development programs like mentorship and rotational assignments to foster a high-performance culture.\n\nThe company's competitive positioning is anchored by its \"unified safety and security ecosystem,\" which integrates three core technology pillars: Land Mobile Radio (LMR) Communications, Video Security and Access Control, and Command Center solutions. By uniting these traditionally siloed technologies, Motorola Solutions enables better outcomes for its 100,000+ customers, such as schools and hospitals, by allowing data to flow seamlessly between detection, response, and resolution phases of an incident. This integration is supported by a massive intellectual property portfolio, which includes 6,560 granted patents and 775 pending applications as of the end of 2023.\n\nInnovation is further sustained through aggressive research and development (R&D) and strategic acquisitions. In 2023, the company spent $858 million on R&D expenditures, an increase from $779 million in 2022. Strategic acquisitions have been pivotal in expanding the company's capabilities, particularly in the Software and Services segment. Notable examples include the acquisition of Rave Mobile Safety, Inc. for mass notification capabilities and Openpath Security for cloud-based access control. These moves allow the company to maintain a leading position in the global marketplace, serving government and enterprise sectors across more than 100 countries.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. Document Title One",
+   "answer_length": 2110,
+   "context_length": 115911,
+   "context": {
+    "entities": 69,
+    "relations": 124,
+    "chunks": 10,
+    "rerank_candidates": 171,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Innovation Strategy",
+     "Engineering",
+     "Technological Trends",
+     "Motorola Solutions",
+     "Business Strategy And Operations",
+     "Business",
+     "Strategic Growth Initiatives",
+     "Video Security and Access Control",
+     "Integration And Collaboration",
+     "Command Center Software And Services",
+     "Technology And Analytics Partner",
+     "Factories",
+     "Market-Focused Team Approach",
+     "Commercial Users",
+     "Business And Marketing Strategies"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5841,
+      "text": "Reserved] 30 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 31 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 53 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 101 Item 9A. Controls and Procedures 101 Item 9B. Other Information 101"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6978137340821592,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9245
+   }
+  }
+ }
+}

@@ -1,0 +1,483 @@
+{
+ "question_id": "44063ab3",
+ "ticker": "ROP",
+ "question": "Cost variation of share repurchase at Roper Technologies from 2021 to 2023, ROP.",
+ "expected_answer": "To determine the cost per share each year, we divide the total consideration by the number of shares purchased as follows:\n\n• 2023: $15.5 / 0.038 ≈ $407.89 per share\n• 2022: $14.3 / 0.039 ≈ $366.67 per share\n• 2021: $15.1 / 0.040 ≈ $377.50 per share\n\nThese results indicate that in 2023, participants of the ESPP paid a significantly higher cost per share (~$408) compared to 2022 (~$367) and 2021 (~$377). This variation in the pricing across the years could suggest a few strategic insights regarding Roper's share repurchase pricing:\n\n1. The higher cost per share for 2023 might indicate that the prevailing market conditions or the timing of the repurchase led to higher stock prices compared to previous years. Alternatively, it could reflect a strategic decision by Roper to repurchase shares when investor sentiment or market valuation was at a peak.\n\n2. The relatively lower cost per share in 2022 suggests that Roper repurchased its treasury shares at a time when the market conditions were more favorable, potentially allowing more cost-effective buybacks.\n\n3. The relatively moderate cost in 2021 could indicate either transitional market conditions or a balanced approach in the timing of repurchases compared to the follow‐up years.\n\nOverall, this analysis of the cost per share across the three years provides insight into how market conditions and strategic timing may have influenced Roper's repurchase activities through the ESPP, potentially affecting the company’s capital allocation and overall share price management strategy.",
+ "category": "Shareholder return",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 264,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:19:15.322078",
+   "duration_ms": 36660,
+   "answer": "Based on the provided financial records for Roper Technologies, Inc. (ROP), the company engaged in share repurchase activities primarily in 2021, with subsequent years focusing on other financing and treasury activities.\n\n### Share Repurchase Activity in 2021\nIn 2021, Roper Technologies reported a significant expenditure for the repurchase of its common stock. These repurchases amounted to **$475.0 million**, serving as a major component of the company's financing activities for that fiscal year.\n\n### Financial Activities and Treasury Stock (2022–2023)\nFor the years 2022 and 2023, the provided consolidated financial statements do not explicitly list specific costs for new share repurchases under the financing activities section. Instead, the company's financing outflows were characterized by the payment of senior notes and dividends. Dividends declared reached $269.6 million ($2.54 per share) in 2022 and increased to $298.6 million ($2.80 per share) in 2023.\n\nDuring this period, Roper Technologies recorded \"Treasury stock sold\" as part of its stock-related activities. The proceeds from these sales were $15.1 million in 2021, $14.3 million in 2022, and $15.5 million in 2023. The balance of treasury stock reflected on the consolidated balance sheets was $17.6 million at the end of 2021, $17.2 million in 2022, and $16.8 million in 2023.\n\n### References\n\n- [1] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 1403,
+   "context_length": 81213,
+   "context": {
+    "entities": 60,
+    "relations": 89,
+    "chunks": 10,
+    "rerank_candidates": 27,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [
+     "51.1 Billion USD",
+     "Equity Investments Activity, Net",
+     "Roper Technologies Inc",
+     "Roper Technologies, Inc. Director Compensation Plan",
+     "Income From Operations",
+     "Roper International Holding, Inc.",
+     "Gain On Disposition Of Discontinued Operations, Net Of Tax",
+     "2023 Share Repurchases",
+     "Roper Proxy Statement",
+     "Other Intangible Assets, Net",
+     "Cash Provided By Operating Activities From Continuing Operations",
+     "Net Earnings From Discontinued Operations",
+     "July 27, 2021 Share Buyback Program",
+     "$6.9 Billion Stock Repurchase Program",
+     "Roper Technologies, Inc. Compensation Clawback Policy"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 3407,
+      "text": "— — — 1,152.6 — — 1,152.6 Stock option exercises 0.5 — 104.7 — — — 104.7 Cash settlement of share-based awards in connection with disposition of discontinued operations — — ( 6.7 ) — — — ( 6.7 ) Treasury stock sold — — 14.7 — — 0.4 15.1 Currency translation adjustments, including tax benefit of $ 6.2 — — — — ( 36.1 ) — ( 36.1 ) Stock-based compensation — — 138.0 — — — 138.0 Restricted stock activi"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 3493,
+      "text": ", net of current portion 5,830.6 5,962.5 Deferred taxes 1,513.1 1,676.8 Other liabilities 415.8 411.2 Total liabilities 10,722.7 10,943.0 Commitments and contingencies (Note 13) Stockholders’ equity: Preferred stock, $ 0.01 par value per share; 1.0 shares authorized; none outstanding — — Common stock, $ 0.01 par value per share; 350.0 shares authorized; 108.6 shares issued and 106.9 outstanding at"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4664,
+      "text": ") Other than as set forth below, the information required by this Item 12 - Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters and not otherwise set forth below is contained in the 2024 Proxy Statement under the caption “Beneficial Ownership.” Securities Authorized for Issuance under Equity Compensation Plans The following table provides information as o"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4077,
+      "text": "net ( 19.8 ) ( 18.0 ) ( 36.7 ) Cash provided by operating activities from continuing operations 2,037.4 606.6 1,655.8 Cash provided by (used in) operating activities from discontinued operations ( 2.3 ) 128.0 356.1 Cash provided by operating activities 2,035.1 734.6 2,011.9 Cash flows from (used in) investing activities: Acquisitions of businesses, net of cash acquired ( 2,052.7 ) ( 4,280.1 ) ( 21"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5155,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 --------------------------- FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission File Number 1-12273 ROPER "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5684,
+      "text": "matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does no"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5105,
+      "text": ".8% in the year ended December 31, 2022. The resulting operating margin was 33.4% in the year ended December 31, 2023 as compared to 33.2% in the year ended December 31, 2022. Corporate expenses increased by $17.5 to $226.7, or 3.7% of revenues, in 2023 as compared to $209.2, or 3.9% of revenues, in 2022. The dollar increase was due primarily to higher compensation and acquisition-related expenses"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5154,
+      "text": "February 2023 and as Vice President and Controller from 2017 to 2021. He previously served as the Chief Financial Officer at Managed Health Care Associates, a Roper subsidiary, from 2013 to 2017. He also led the financial planning and investor relations activities for Roper from 2006 to 2013. Before joining Roper, Mr. Conley served in various finance and accounting leadership roles at Honeywell In"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.9320614220200287,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7183
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:19:53.368138",
+   "duration_ms": 38046,
+   "answer": "Based on the provided documents, **Roper Technologies, Inc. (ROP)** did not report any cash expenditures or costs associated with share repurchases for the fiscal years ending December 31, 2021, 2022, and 2023. Instead of repurchasing shares, the company’s financing activities were focused on debt management and dividend payments, and its outstanding share count increased during this period.\n\n### Financing Activities and Cash Usage\nFor the fiscal years 2022 and 2023, Roper Technologies' management specifically identified the primary uses of cash within financing activities, and share repurchases were not among them:\n*   **Fiscal 2023:** Cash used in financing activities was primarily directed toward the repayment of **$700.0 million** in senior notes at maturity and the payment of dividends. These outflows were partially offset by **$360.0 million** in net borrowings from an unsecured credit facility and proceeds from stock-based compensation.\n*   **Fiscal 2022:** Cash was primarily used for the repayment of senior notes totaling **$800.0 million**, net repayments of **$470.0 million** on the company's unsecured credit facility, and dividend payments.\n\n### Equity and Share Count Trends\nThe Consolidated Statements of Stockholders’ Equity and associated financial data further indicate that the company did not engage in significant buybacks during this timeframe:\n*   **Outstanding Shares:** The weighted average common shares outstanding (diluted) increased from **106.5 million** in 2021 to **106.8 million** in 2022, and further to **107.4 million** in 2023. A share repurchase program typically results in a reduction of outstanding shares.\n*   **Treasury Stock:** The value of treasury stock held by the company actually decreased from **$17.2 million** at the end of 2022 to **$16.8 million** at the end of 2023. Furthermore, records for 2021 show that treasury stock was sold (generating **$15.1 million**) rather than purchased.\n\nWhile the Board of Directors has the authority to manage share repurchase programs, the financial results of operations for 2021 through 2023 reflect a strategy of returning value to shareholders through dividends and prioritizing debt reduction and acquisitions over common stock repurchases.\n\n### References\n\n* [1] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 2298,
+   "context_length": 93745,
+   "context": {
+    "entities": 29,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 96,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "CTAS",
+     "MSI",
+     "MRO",
+     "MSI",
+     "MRO"
+    ],
+    "entity_names": [
+     "Financial Condition",
+     "Share Repurchase Programs",
+     "Results Of Operations",
+     "Board Of Directors",
+     "Open Market Transactions",
+     "Share Repurchase Program",
+     "Future Capital Requirements",
+     "Share Repurchase Plan",
+     "Verisk",
+     "Common Stock Repurchases",
+     "Stock Price",
+     "Repurchases Of Common Stock",
+     "Verisk Analytics Inc",
+     "Capital Availability",
+     "Common Stock"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 3493,
+      "text": ", net of current portion 5,830.6 5,962.5 Deferred taxes 1,513.1 1,676.8 Other liabilities 415.8 411.2 Total liabilities 10,722.7 10,943.0 Commitments and contingencies (Note 13) Stockholders’ equity: Preferred stock, $ 0.01 par value per share; 1.0 shares authorized; none outstanding — — Common stock, $ 0.01 par value per share; 350.0 shares authorized; 108.6 shares issued and 106.9 outstanding at"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5933,
+      "text": "positions and certain other tax liabilities as we are not able to reasonably estimate the timing of the payments. See Note 8 of the Notes to Consolidated Financial Statements included in this Annual Report. 2 Represents minimum fixed price purchase commitments that are legally binding across Roper. 27 We believe that internally generated cash flows and the remaining availability under our unsecure"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6520,
+      "text": "Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 18 Item 6. [Reserved] 19 Item 7. Management ’ s Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures A bout Market Risk 29 Item 8. Financial Statements and Supplementary Data 30 Item 9. Changes in and Disagreements with Accountants on Accounting and"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5105,
+      "text": ".8% in the year ended December 31, 2022. The resulting operating margin was 33.4% in the year ended December 31, 2023 as compared to 33.2% in the year ended December 31, 2022. Corporate expenses increased by $17.5 to $226.7, or 3.7% of revenues, in 2023 as compared to $209.2, or 3.9% of revenues, in 2022. The dollar increase was due primarily to higher compensation and acquisition-related expenses"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5154,
+      "text": "February 2023 and as Vice President and Controller from 2017 to 2021. He previously served as the Chief Financial Officer at Managed Health Care Associates, a Roper subsidiary, from 2013 to 2017. He also led the financial planning and investor relations activities for Roper from 2006 to 2013. Before joining Roper, Mr. Conley served in various finance and accounting leadership roles at Honeywell In"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 3492,
+      "text": "' equity: Preferred stock, no par value: 100,000 shares authorized, none outstanding — — Common stock, no par value, and paid-in capital: 425,000,000 shares authorized 2024: 193,274,296 shares issued and 101,251,994 shares outstanding 2023: 192,198,938 shares issued and 101,732,148 shares outstanding 2,305,301 2,031,542 Retained earnings 10,617,955 9,597,315 Treasury stock: 2024: 92,022,302 shares"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5124,
+      "text": ", respectively. The reorganization of business accruals for employee separation costs at December 31, 2023 were $23 million which we expect to pay within one year. At January 1, 2023, we had an accrual of $10 million for exit costs related to our exit of the ESN contract with the Home Office. During the year, we recorded a $5 million reversal for accruals no longer needed. The remaining $5 million"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.5555555555555556,
+    "answer_relevancy": 0.9046875879175561,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.3651
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:20:43.256907",
+   "duration_ms": 49889,
+   "answer": "I do not have enough information to answer the query regarding the cost variation of share repurchases for Roper Technologies, Inc. (ROP) between 2021 and 2023. The provided documentation for Roper Technologies does not contain specific data or narrative details regarding its share repurchase program or the monetary value of shares bought back during those fiscal years.\n\nThe available context for Roper Technologies focuses on its consolidated financial results and acquisition history. For the year ended December 31, 2023, the company reported net revenues of $6,177.8 million, representing a 15.0% increase compared to 2022. The documents detail organic revenue growth and operating margins across its primary segments—Application Software, Network Software, and Technology Enabled Products—as well as a list of acquisitions completed between 2021 and 2023, such as Syntellis, Replicon Inc., and ProPricer. While \"enterprise-wide stock-based compensation\" is mentioned as part of corporate expenses, the text does not address share repurchase expenditures.\n\n### References\n\n- [2] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 1110,
+   "context_length": 33206,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 6,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "VRSK",
+     "ROP",
+     "MSI",
+     "MRO",
+     "BIIB",
+     "AMP"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 5293,
+      "text": "graph below include both the prior and the new indices of peer companies. The new peer issuers used for this graph are Black Knight, Inc., Nasdaq Inc., CoStar Group Inc., Equifax Inc., Fair Isaac Corp., Gartner, Inc., Global Payments, Inc., Clarivate PLC, Intercontinental Exchange, Inc., Jack Henry & Associates Inc., Moody’s Corporation, MSCI Inc., S&P Global, and TransUnion. The old peer issuers "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4444,
+      "text": ".2 % 18.3 % 16.7 % (1) Includes results from the acquisitions of American LegalNet, Inc. from December 30, 2021, Horizon Lab Systems, LLC from January 3, 2022, Common Cents Systems, Inc. from April 6, 2022, MGA Systems Holdings, Inc. from June 27, 2022, Common Sense Solutions, Inc. from July 12, 2022, viDesktop Inc. from August 19, 2022, TIP Technologies, Inc. from September 23, 2022, Frontline fr"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5330,
+      "text": "was outstanding under the 364-day tranche and $500.0 million was outstanding under the three-year tranche. 2020 REVOLVING CREDIT FACILITY In January 2020 we entered into a $1.0 billion, five-year senior unsecured revolving credit facility under which we are permitted to draw funds for working capital and general corporate purposes. The terms of the revolving credit facility include a financial cov"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "273,963 $ 3,474,380,514 Employee transactions (2) 1,613 $ 321.01 N/A N/A November 1, 2023 to November 30, 2023 Share repurchase program (1) 475,133 $ 346.37 475,133 $ 3,309,808,008 Employee transactions (2) 18,664 $ 344.13 N/A N/A December 1, 2023 to December 31, 2023 Share repurchase program (1) 516,544 $ 369.23 516,544 $ 3,119,083,448 Employee transactions (2) 92,825 $ 370.31 N/A N/A Totals Shar"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.7647058823529411,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.1912
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:21:12.037465",
+   "duration_ms": 28781,
+   "answer": "Based on the provided financial statements and data for Roper Technologies, Inc. (ROP) for the fiscal years 2021 through 2023, there were no reported cash expenditures for the repurchase of common stock or treasury stock. The company's financing activities during this period focused primarily on debt management, dividend payments, and transactions related to employee stock plans.\n\n### Analysis of Share Repurchase Activity\nAccording to the **Consolidated Statements of Cash Flows**, Roper Technologies did not record any line items for \"repurchases of common stock\" or \"purchases of treasury stock\" within its financing activities for the years ending December 31, 2021, 2022, and 2023. Instead, the company recorded cash inflows from the **sale of treasury stock**, which amounted to:\n*   **2023:** $15.5 million\n*   **2022:** $14.3 million\n*   **2021:** $15.1 million\n\nThese sales are often associated with the exercise of stock options or other employee-based compensation activities rather than open-market repurchase programs. The **Consolidated Statements of Stockholders’ Equity** further confirms this trend, showing that the treasury stock balance slightly decreased from $18.0 million at the end of 2020 to $16.8 million by December 31, 2023.\n\n### Capital Allocation and Shareholder Returns\nWhile Roper Technologies did not engage in share repurchases during this specific three-year window, the company maintained a consistent policy of returning capital to shareholders through cash dividends. Dividends declared and paid per share increased annually as follows:\n*   **2021:** $2.31 per share (Totaling $236.4 million in cash paid)\n*   **2022:** $2.54 per share (Totaling $262.3 million in cash paid)\n*   **2023:** $2.80 per share (Totaling $290.2 million in cash paid)\n\nThe Board of Directors continues to oversee financial strategies, including the authorization of share repurchase programs based on capital availability; however, recent capital allocation has been heavily directed toward acquisitions—deploying approximately $6.55 billion over the last three years—and the reduction of outstanding debt.\n\n### References\n\n*   [1] ROPER TECHNOLOGIES, INC. Annual Report on Form 10-K for the fiscal year ended December 31, 2023",
+   "answer_length": 2244,
+   "context_length": 107287,
+   "context": {
+    "entities": 37,
+    "relations": 148,
+    "chunks": 10,
+    "rerank_candidates": 122,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [
+     "51.1 Billion USD",
+     "Financial Condition",
+     "Equity Investments Activity, Net",
+     "Share Repurchase Programs",
+     "Roper Technologies Inc",
+     "Results Of Operations",
+     "Roper Technologies, Inc. Director Compensation Plan",
+     "Board Of Directors",
+     "Income From Operations",
+     "Open Market Transactions",
+     "Roper International Holding, Inc.",
+     "Share Repurchase Program",
+     "Gain On Disposition Of Discontinued Operations, Net Of Tax",
+     "Future Capital Requirements",
+     "2023 Share Repurchases"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 3407,
+      "text": "— — — 1,152.6 — — 1,152.6 Stock option exercises 0.5 — 104.7 — — — 104.7 Cash settlement of share-based awards in connection with disposition of discontinued operations — — ( 6.7 ) — — — ( 6.7 ) Treasury stock sold — — 14.7 — — 0.4 15.1 Currency translation adjustments, including tax benefit of $ 6.2 — — — — ( 36.1 ) — ( 36.1 ) Stock-based compensation — — 138.0 — — — 138.0 Restricted stock activi"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 3493,
+      "text": ", net of current portion 5,830.6 5,962.5 Deferred taxes 1,513.1 1,676.8 Other liabilities 415.8 411.2 Total liabilities 10,722.7 10,943.0 Commitments and contingencies (Note 13) Stockholders’ equity: Preferred stock, $ 0.01 par value per share; 1.0 shares authorized; none outstanding — — Common stock, $ 0.01 par value per share; 350.0 shares authorized; 108.6 shares issued and 106.9 outstanding at"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4664,
+      "text": ") Other than as set forth below, the information required by this Item 12 - Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters and not otherwise set forth below is contained in the 2024 Proxy Statement under the caption “Beneficial Ownership.” Securities Authorized for Issuance under Equity Compensation Plans The following table provides information as o"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5933,
+      "text": "positions and certain other tax liabilities as we are not able to reasonably estimate the timing of the payments. See Note 8 of the Notes to Consolidated Financial Statements included in this Annual Report. 2 Represents minimum fixed price purchase commitments that are legally binding across Roper. 27 We believe that internally generated cash flows and the remaining availability under our unsecure"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4077,
+      "text": "net ( 19.8 ) ( 18.0 ) ( 36.7 ) Cash provided by operating activities from continuing operations 2,037.4 606.6 1,655.8 Cash provided by (used in) operating activities from discontinued operations ( 2.3 ) 128.0 356.1 Cash provided by operating activities 2,035.1 734.6 2,011.9 Cash flows from (used in) investing activities: Acquisitions of businesses, net of cash acquired ( 2,052.7 ) ( 4,280.1 ) ( 21"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5155,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 --------------------------- FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission File Number 1-12273 ROPER "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5684,
+      "text": "matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does no"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5105,
+      "text": ".8% in the year ended December 31, 2022. The resulting operating margin was 33.4% in the year ended December 31, 2023 as compared to 33.2% in the year ended December 31, 2022. Corporate expenses increased by $17.5 to $226.7, or 3.7% of revenues, in 2023 as compared to $209.2, or 3.9% of revenues, in 2022. The dollar increase was due primarily to higher compensation and acquisition-related expenses"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5154,
+      "text": "February 2023 and as Vice President and Controller from 2017 to 2021. He previously served as the Chief Financial Officer at Managed Health Care Associates, a Roper subsidiary, from 2013 to 2017. He also led the financial planning and investor relations activities for Roper from 2006 to 2013. Before joining Roper, Mr. Conley served in various finance and accounting leadership roles at Honeywell In"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8751260609163246,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4688
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:22:02.592625",
+   "duration_ms": 50555,
+   "answer": "Based on the provided financial records for Roper Technologies, Inc. (ROP) between 2021 and 2023, the company did not report any cash expenditures for the repurchase of its common stock. While the **Board of Directors** is responsible for overseeing financial strategies that include share repurchase programs, the consolidated statements of cash flows for this three-year period show no cash outflows for such activities.\n\n### Share Repurchase and Treasury Stock Activity\nAlthough no common stock repurchases were recorded, Roper Technologies reported consistent cash inflows from the sale of treasury stock. These transactions are categorized under cash flows from financing activities and as part of the company's broader stock repurchase and equity management strategies. The recorded values for **Treasury stock sales** are as follows:\n\n*   **2021:** $15.1 million\n*   **2022:** $14.3 million\n*   **2023:** $15.5 million\n\nThe company’s equity structure remained relatively stable during this period. As of December 31, 2023, Roper had 350.0 million shares of common stock authorized, with 108.6 million shares issued and 106.9 million shares outstanding.\n\n### Related Capital Allocation and Dividends\nInstead of repurchasing shares, Roper Technologies focused its capital return strategy on dividend payments. The company has increased its annual dividend rate for 31 consecutive years. In November 2023, the Board of Directors increased the quarterly dividend by 10% to $0.75 per share. \n\nThe total dividends declared per share during the 2021–2023 period were:\n*   **2021:** $2.31 per share\n*   **2022:** $2.54 per share\n*   **2023:** $2.80 per share\n\nThe feasibility of future share repurchases or other capital allocations remains subject to the company's financial condition, capital availability, and the Board's assessment of market conditions and future capital requirements for strategic transactions and operations.\n\n### References\n\n* [1] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 1978,
+   "context_length": 107287,
+   "context": {
+    "entities": 37,
+    "relations": 148,
+    "chunks": 10,
+    "rerank_candidates": 126,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [
+     "51.1 Billion USD",
+     "Financial Condition",
+     "Equity Investments Activity, Net",
+     "Share Repurchase Programs",
+     "Roper Technologies Inc",
+     "Results Of Operations",
+     "Roper Technologies, Inc. Director Compensation Plan",
+     "Board Of Directors",
+     "Income From Operations",
+     "Open Market Transactions",
+     "Roper International Holding, Inc.",
+     "Share Repurchase Program",
+     "Gain On Disposition Of Discontinued Operations, Net Of Tax",
+     "Future Capital Requirements",
+     "2023 Share Repurchases"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 3407,
+      "text": "— — — 1,152.6 — — 1,152.6 Stock option exercises 0.5 — 104.7 — — — 104.7 Cash settlement of share-based awards in connection with disposition of discontinued operations — — ( 6.7 ) — — — ( 6.7 ) Treasury stock sold — — 14.7 — — 0.4 15.1 Currency translation adjustments, including tax benefit of $ 6.2 — — — — ( 36.1 ) — ( 36.1 ) Stock-based compensation — — 138.0 — — — 138.0 Restricted stock activi"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 3493,
+      "text": ", net of current portion 5,830.6 5,962.5 Deferred taxes 1,513.1 1,676.8 Other liabilities 415.8 411.2 Total liabilities 10,722.7 10,943.0 Commitments and contingencies (Note 13) Stockholders’ equity: Preferred stock, $ 0.01 par value per share; 1.0 shares authorized; none outstanding — — Common stock, $ 0.01 par value per share; 350.0 shares authorized; 108.6 shares issued and 106.9 outstanding at"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4664,
+      "text": ") Other than as set forth below, the information required by this Item 12 - Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters and not otherwise set forth below is contained in the 2024 Proxy Statement under the caption “Beneficial Ownership.” Securities Authorized for Issuance under Equity Compensation Plans The following table provides information as o"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5933,
+      "text": "positions and certain other tax liabilities as we are not able to reasonably estimate the timing of the payments. See Note 8 of the Notes to Consolidated Financial Statements included in this Annual Report. 2 Represents minimum fixed price purchase commitments that are legally binding across Roper. 27 We believe that internally generated cash flows and the remaining availability under our unsecure"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4077,
+      "text": "net ( 19.8 ) ( 18.0 ) ( 36.7 ) Cash provided by operating activities from continuing operations 2,037.4 606.6 1,655.8 Cash provided by (used in) operating activities from discontinued operations ( 2.3 ) 128.0 356.1 Cash provided by operating activities 2,035.1 734.6 2,011.9 Cash flows from (used in) investing activities: Acquisitions of businesses, net of cash acquired ( 2,052.7 ) ( 4,280.1 ) ( 21"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5155,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 --------------------------- FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission File Number 1-12273 ROPER "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5684,
+      "text": "matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does no"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5105,
+      "text": ".8% in the year ended December 31, 2022. The resulting operating margin was 33.4% in the year ended December 31, 2023 as compared to 33.2% in the year ended December 31, 2022. Corporate expenses increased by $17.5 to $226.7, or 3.7% of revenues, in 2023 as compared to $209.2, or 3.9% of revenues, in 2022. The dollar increase was due primarily to higher compensation and acquisition-related expenses"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5154,
+      "text": "February 2023 and as Vice President and Controller from 2017 to 2021. He previously served as the Chief Financial Officer at Managed Health Care Associates, a Roper subsidiary, from 2013 to 2017. He also led the financial planning and investor relations activities for Roper from 2006 to 2013. Before joining Roper, Mr. Conley served in various finance and accounting leadership roles at Honeywell In"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.92,
+    "answer_relevancy": 0.8914613543068128,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4529
+   }
+  }
+ }
+}

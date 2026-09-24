@@ -1,0 +1,441 @@
+{
+ "question_id": "7b84589a",
+ "ticker": "ROP",
+ "question": "Performance rev trends for Roper Tech (ROP) 3yr App vs Network Software.",
+ "expected_answer": "Over the three‐year period, both segments showed growth, but the trends vary in magnitude and contribution. In Application Software, total revenue increased from approximately $2,367 million in 2021 to $2,640 million in 2022 and further to about $3,187 million in 2023. Recurring revenue within this segment, a key driver for long‐term stability, grew consistently—from $1,708 million in 2021 to $1,946 million in 2022 and then to $2,454 million in 2023—indicating strong adoption and stickiness of its subscription and term license offerings. This segment’s share of the overall revenue also increased, growing from roughly 49% in 2021 to over 51% in 2023, suggesting that Application Software has been driving a significant portion of the company’s revenue growth.\n\nIn contrast, Network Software revenue increased from about $1,224 million in 2021 to $1,379 million in 2022 and then to $1,439 million in 2023. While there was noticeable growth between 2021 and 2022 (an increase of approximately 12.6%), the growth rate moderated from 2022 to 2023 (a modest increase of about 4.4%). Furthermore, the percentage contribution of Network Software to total revenue fell slightly—from about 25.3% in 2021 to 23.3% in 2023—implying that although the segment continues to add dollars, its relative importance in driving overall company revenue is diminishing compared to Application Software.\n\nOverall, the data indicates that the Application Software segment is experiencing stronger growth and is increasingly becoming the dominant contributor to overall revenue expansion. In contrast, while the Network Software segment continues to generate revenue, its growth has slowed and its proportionate share of total revenue has contracted over the period examined.",
+ "category": "Footnotes",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 8642,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:16:59.752594",
+   "duration_ms": 19033,
+   "answer": "Roper Technologies (ROP) has significantly transformed its business profile over the last three years, primarily through a strategy of acquiring high-margin, asset-light software businesses while divesting more cyclical industrial units. In the period leading up to the end of 2023, the company deployed approximately $6.55 billion toward acquisitions. This includes major additions such as Frontline ($3.75 billion in 2022) and Syntellis Performance Solutions ($1.38 billion in 2023). These strategic moves, alongside the divestiture of a majority stake in its industrial businesses (the Indicor transaction) and other units in 2021-2022, have increased the company's mix of recurring revenue and enhanced its overall margin profile.\n\n### Application Software Segment Performance\nThe Application Software segment is currently Roper's largest, accounting for 51.6% of total net revenues in 2023. This segment saw substantial growth between 2022 and 2023, with net revenues rising from $2,639.5 million to $3,186.9 million, representing a total revenue growth of 20.7%. However, much of this increase was driven by acquisitions, which contributed 14.8% to that growth.\n\nThe organic revenue growth for Application Software was a more modest 5.9% in 2023. This growth was broad-based but led specifically by businesses serving the government contracting, property and casualty insurance, acute healthcare, and legal markets. Despite the revenue surge, the operating margin for this segment slightly decreased from 27.1% in 2022 to 25.8% in 2023, primarily due to higher amortization of intangible assets from recent acquisitions and restructuring expenses related to integrating Syntellis.\n\n### Network Software Segment Performance\nThe Network Software segment exhibited steady, more organically driven growth compared to the Application Software segment. In 2023, net revenues reached $1,439.4 million, up from $1,378.5 million in 2022, a total increase of 4.4%. Notably, the organic revenue growth for this segment was 4.6%, indicating that the growth was entirely internal rather than fueled by new acquisitions during this specific period.\n\nThe performance in Network Software was driven by strength in the freight match, alternate site healthcare, and life insurance markets. Unlike the Application Software segment, Network Software saw an improvement in its operating margin, which rose from 41.4% in 2022 to 43.9% in 2023. This expansion was attributed to operating leverage on higher organic revenues, cost structure rationalization in the freight match business, and cost synergies from a previous acquisition in the construction market.\n\n### References\n\n- [1] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 2692,
+   "context_length": 69783,
+   "context": {
+    "entities": 60,
+    "relations": 74,
+    "chunks": 7,
+    "rerank_candidates": 45,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [
+     "RoperTech.com",
+     "DAT",
+     "Network Connectivity",
+     "Roper Technologies, Inc. Director Compensation Plan",
+     "LMR Communications Software and Services",
+     "Video Software",
+     "Video Network Management Software",
+     "Operational Systems And Networks",
+     "Technology-Enabled Products",
+     "Information Technology Solutions",
+     "Information Technology Product And Services Vendors",
+     "Network Software Segment",
+     "Rf IDEAS",
+     "Software And Technology Systems",
+     "Information Technology Costs"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 4444,
+      "text": ".2 % 18.3 % 16.7 % (1) Includes results from the acquisitions of American LegalNet, Inc. from December 30, 2021, Horizon Lab Systems, LLC from January 3, 2022, Common Cents Systems, Inc. from April 6, 2022, MGA Systems Holdings, Inc. from June 27, 2022, Common Sense Solutions, Inc. from July 12, 2022, viDesktop Inc. from August 19, 2022, TIP Technologies, Inc. from September 23, 2022, Frontline fr"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6419,
+      "text": "businesses in their respective software code development processes or for other purposes that require third-party access to critical infrastructure. The controls include, as appropriate, regularly assessing management of access controls and the cybersecurity risks posed by third parties. Roper performs cybersecurity risk assessments to assess compliance with mandated cybersecurity controls and to "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4477,
+      "text": "1934, filed herewith. (n)10.1 Employee Stock Purchase Plan, as A mended and R estated. † (o)10.2 First Amendment to Roper Technologies, Inc. Employee Stock Purchase Plan ( a s Amended and Restated effective July 1, 2020). † (p)10.3 Non-Qualified Retirement Plan, as A mended and Restated . † (q)10.4 Credit Agreement dated as of July 21, 2022, among Roper, the foreign subsidiary borrowers from time "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5684,
+      "text": "matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does no"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6838,
+      "text": "of our operating units are substantially dependent on any single item of intellectual property, including a trade secret, patent, trademark, trade dress, or copyright. Human Capital Management Roper is a diversified technology company that utilizes a decentralized operating model across our many businesses which serve a diverse set of end markets. Subject to oversight and guidance from Roper execu"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.972972972972973,
+    "answer_relevancy": 0.6980626992788808,
+    "context_recall": 0.2222222222222222,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7233
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:17:25.437004",
+   "duration_ms": 25684,
+   "answer": "Roper Technologies (ROP) has undergone a significant strategic transformation over the last three years, shifting toward an asset-light business model focused on recurring revenue through its software segments. Following the divestiture of its industrial businesses (Indicor) and several 2021 divestitures, the company's financial results are now dominated by its **Application Software** and **Network Software** units.\n\n### Application Software Performance Trends\nThe Application Software segment is Roper’s largest division, accounting for **$3,186.9 million** in net revenues for the fiscal year ended December 31, 2023. This represents 51.6% of the company's total net revenues. The segment has seen substantial growth driven by large-scale acquisitions intended to bolster its vertical software presence. Key drivers include the 2022 acquisition of **Frontline** for approximately $3.75 billion and the 2023 acquisition of **Syntellis Performance Solutions** for approximately $1.38 billion.\n\nReflecting this upward trend, the segment's backlog increased by **18.9%**, rising to $2,136.1 million at the end of 2023 compared to $1,796.3 million in 2022. This growth was attributed to both recent acquisitions (contributing 16%) and organic growth (3%).\n\n### Network Software Performance Trends\nThe Network Software segment has shown consistent revenue growth over the three-year period from 2021 to 2023. According to the reported data:\n*   **2023 Net Revenues:** $1,439.4 million (23.3% of total revenue)\n*   **2022 Net Revenues:** $1,378.5 million\n*   **2021 Net Revenues:** $1,223.8 million\n\nWhile revenue has grown steadily, the segment's backlog experienced a slight decline of **2.7%**, ending 2023 at $493.6 million compared to $507.5 million in 2022. Despite the backlog dip, the segment maintained high profitability, with gross margins improving annually from 84.1% in 2021 to 84.6% in 2022, and reaching **85.1% in 2023**.\n\n### Comparative Strategic Outlook\nThe performance trends of both segments reflect Roper’s broader strategy of acquiring high-margin, niche software businesses. Application Software currently holds a more aggressive growth trajectory due to significant capital deployment toward market-leading SaaS providers like Frontline and Syntellis. In contrast, Network Software, which includes brands such as ConstructConnect and DAT, demonstrates a steady increase in both revenue and margin profile, contributing to the company's overall high-margin, decentralized operating model.\n\n### References\n* [1] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 2560,
+   "context_length": 99030,
+   "context": {
+    "entities": 41,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 117,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [
+     "Data Analytics Provider",
+     "Results Of Operations",
+     "Item 7",
+     "Roper Technologies",
+     "Performance Graph",
+     "Standard & Poors 500 Information Technology Index",
+     "Consolidated Statements Of Earnings",
+     "Roper Technologies Inc",
+     "Network Software",
+     "Roper",
+     "Consolidated Statement Of Operations",
+     "Honeywell",
+     "Quarterly Results Of Operations",
+     "Verisk",
+     "Terminal Growth Rate"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 4664,
+      "text": ") Other than as set forth below, the information required by this Item 12 - Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters and not otherwise set forth below is contained in the 2024 Proxy Statement under the caption “Beneficial Ownership.” Securities Authorized for Issuance under Equity Compensation Plans The following table provides information as o"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6935,
+      "text": "202 1 37 Notes to Consolidated Financial Statements 38 30 Report of Independent Registered Public Accounting Firm To the Board of Directors and Stockholders of Roper Technologies, Inc. Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of Roper Technologies, Inc. and its subsidiaries (the “Company”) as of "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5105,
+      "text": ".8% in the year ended December 31, 2022. The resulting operating margin was 33.4% in the year ended December 31, 2023 as compared to 33.2% in the year ended December 31, 2022. Corporate expenses increased by $17.5 to $226.7, or 3.7% of revenues, in 2023 as compared to $209.2, or 3.9% of revenues, in 2022. The dollar increase was due primarily to higher compensation and acquisition-related expenses"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6520,
+      "text": "Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 18 Item 6. [Reserved] 19 Item 7. Management ’ s Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures A bout Market Risk 29 Item 8. Financial Statements and Supplementary Data 30 Item 9. Changes in and Disagreements with Accountants on Accounting and"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5933,
+      "text": "positions and certain other tax liabilities as we are not able to reasonably estimate the timing of the payments. See Note 8 of the Notes to Consolidated Financial Statements included in this Annual Report. 2 Represents minimum fixed price purchase commitments that are legally binding across Roper. 27 We believe that internally generated cash flows and the remaining availability under our unsecure"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4912,
+      "text": "profiles assumed with our 2023 acquisitions, most notably Syntellis and Replicon, increased deferred revenue, and changes in income tax-related balances, partially offset by an increase in accounts receivable and the cash payment related to the settlement of the Berall v. Verathon patent litigation matter. Consistent negative net working capital demonstrates Roper’s focus on asset-light business m"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 3407,
+      "text": "— — — 1,152.6 — — 1,152.6 Stock option exercises 0.5 — 104.7 — — — 104.7 Cash settlement of share-based awards in connection with disposition of discontinued operations — — ( 6.7 ) — — — ( 6.7 ) Treasury stock sold — — 14.7 — — 0.4 15.1 Currency translation adjustments, including tax benefit of $ 6.2 — — — — ( 36.1 ) — ( 36.1 ) Stock-based compensation — — 138.0 — — — 138.0 Restricted stock activi"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5155,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 --------------------------- FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission File Number 1-12273 ROPER "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9761904761904762,
+    "answer_relevancy": 0.7854355822108309,
+    "context_recall": 0.5555555555555556,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8293
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:17:35.668268",
+   "duration_ms": 10231,
+   "answer": "Based on the provided documents, Roper Technologies (ROP) has undergone a significant portfolio transformation over the last three years, focusing on high-margin, niche software markets. This shift involved deploying approximately $6.55 billion in capital toward acquisitions and divesting more cyclical industrial businesses.\n\n### Application Software Segment Performance\nThe Application Software segment is the largest division of Roper Technologies, accounting for 51.6% of total net revenues in 2023.\n\n*   **Revenue Growth:** Net revenues for this segment grew to $3,186.9 million in 2023, compared to $2,639.5 million in 2022. While total revenue growth was 20.7%, the organic growth rate was 5.9%. This growth was led by businesses serving the legal, acute healthcare, property and casualty insurance, and government contracting markets.\n*   **Margins:** Gross margins remained consistent at 68.9% in 2023. however, the operating margin decreased from 27.1% in 2022 to 25.8% in 2023. This decline was primarily attributed to higher amortization of acquired intangibles from the Frontline and Syntellis acquisitions, as well as restructuring expenses related to the integration of Syntellis.\n*   **Key Acquisitions:** Major recent investments in this segment include the $3.75 billion acquisition of Frontline in 2022 and the $1.38 billion acquisition of Syntellis Performance Solutions in 2023.\n\n### Network Software Segment Performance\nThe Network Software segment maintains higher profit margins than the Application Software segment, though it represents a smaller portion of the total revenue.\n\n*   **Revenue Growth:** Net revenues reached $1,439.4 million in 2023, up from $1,378.5 million in 2022. This segment saw 4.4% total revenue growth and 4.6% organic revenue growth, driven primarily by businesses in the life insurance, alternate site healthcare, and freight match markets.\n*   **Margins:** This segment experienced margin expansion. Gross margin increased to 85.1% in 2023 (from 84.6% in 2022), and operating margin improved to 43.9% (from 41.4% in 2022). The margin growth was driven by operating leverage on higher organic revenues and cost synergies from acquisitions and rationalization.\n\n### Portfolio Transformation (3-Year Trend)\nOver the past three years, Roper has actively reduced its asset intensity and cyclicality by divesting several industrial and medical businesses. These include the 2021 divestitures of TransCore, Zetec, and CIVCO Radiotherapy, followed by the 2022 divestiture of a 51% majority stake in its industrial businesses (the \"Indicor\" transaction). These moves have resulted in a business profile with a higher mix of recurring revenue and overall higher margin potential.\n\n### References\n\n* [1] {\"ticker\":\"ROP\",\"company\":\"ROPER TECHNOLOGIES, INC.\",\"period\":\"December 31, 2023\",\"source\":\"ROP.html\"}",
+   "answer_length": 2849,
+   "context_length": 11102,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 4444,
+      "text": ".2 % 18.3 % 16.7 % (1) Includes results from the acquisitions of American LegalNet, Inc. from December 30, 2021, Horizon Lab Systems, LLC from January 3, 2022, Common Cents Systems, Inc. from April 6, 2022, MGA Systems Holdings, Inc. from June 27, 2022, Common Sense Solutions, Inc. from July 12, 2022, viDesktop Inc. from August 19, 2022, TIP Technologies, Inc. from September 23, 2022, Frontline fr"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9574468085106383,
+    "answer_relevancy": 0.6993552527307632,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7475
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:18:04.430269",
+   "duration_ms": 28762,
+   "answer": "Roper Technologies (ROP) has demonstrated consistent revenue growth over the three-year period ending December 31, 2023, with total net revenues rising from $4,833.8 million in 2021 to $5,371.8 million in 2022, and reaching $6,177.8 million in 2023. This performance is driven largely by the company's focus on vertical software and technology-enabled products in niche markets, as well as an active acquisition strategy.\n\n### Application Software Segment\nThe **Application Software** segment is Roper's largest division, representing 51.6% of total net revenues in 2023. Revenue for this segment grew significantly to $3,186.9 million in 2023, compared to $2,639.5 million in 2022, marking a 20.7% total increase. This growth was heavily influenced by acquisitions, which contributed 14.8% to the segment's expansion. Notable recent acquisitions include Syntellis Performance Solutions, Replicon Inc., and Frontline Education.\n\nOrganic revenue growth for Application Software was 5.9% in 2023. This was driven by strong performance across businesses serving government contracting, property and casualty insurance, acute healthcare, and legal markets. Despite the revenue increase, the segment's operating margin saw a slight decline from 27.1% in 2022 to 25.8% in 2023, primarily due to higher restructuring expenses and amortization costs associated with the integration of new acquisitions.\n\n### Network Software Segment\nThe **Network Software** segment reported revenues of $1,439.4 million in 2023, an increase from $1,378.5 million in 2022. The segment achieved a total revenue growth of 4.4%, with organic growth slightly higher at 4.6% (offset by a minor 0.2% negative impact from foreign exchange). The organic gains were led by businesses operating in the freight match, alternate site healthcare, and life insurance markets.\n\nUnlike the Application Software segment, Network Software improved its profitability, with operating margins rising from 41.4% in 2022 to 43.9% in 2023. This margin expansion was attributed to operating leverage on organic revenue growth and successful cost structure rationalization, particularly within the freight match market businesses. Additionally, the segment benefited from cost synergies following an acquisition in the construction market.\n\n### Comparative Growth Drivers\nWhile both segments contribute to Roper’s asset-light business model, their growth profiles differ. Application Software is more acquisition-intensive, as seen in the double-digit impact of new businesses on its 2023 totals. Conversely, Network Software showed a more stable organic profile with a focus on margin expansion through operational efficiency. Both segments support Roper's broader strategic shift toward increased recurring revenue and reduced cyclicality following major divestitures in 2021 and 2022.\n\n### References\n\n- [1] ROPER TECHNOLOGIES, INC. Annual Report December 31, 2023",
+   "answer_length": 2916,
+   "context_length": 109938,
+   "context": {
+    "entities": 51,
+    "relations": 126,
+    "chunks": 10,
+    "rerank_candidates": 128,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [
+     "RoperTech.com",
+     "Performance Graph",
+     "Roper Technologies, Inc. Director Compensation Plan",
+     "Roper Technologies",
+     "Information Technology Product And Services Vendors",
+     "Item 7",
+     "LMR Communications Software and Services",
+     "Standard & Poors 500 Information Technology Index",
+     "Technology-Enabled Products",
+     "Consolidated Statements Of Earnings",
+     "LMR Communications Products",
+     "Roper Technologies Inc",
+     "DAT",
+     "Standard & Poors 500 Stock Index",
+     "Software Enterprise and Mobile Video"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 4664,
+      "text": ") Other than as set forth below, the information required by this Item 12 - Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters and not otherwise set forth below is contained in the 2024 Proxy Statement under the caption “Beneficial Ownership.” Securities Authorized for Issuance under Equity Compensation Plans The following table provides information as o"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4444,
+      "text": ".2 % 18.3 % 16.7 % (1) Includes results from the acquisitions of American LegalNet, Inc. from December 30, 2021, Horizon Lab Systems, LLC from January 3, 2022, Common Cents Systems, Inc. from April 6, 2022, MGA Systems Holdings, Inc. from June 27, 2022, Common Sense Solutions, Inc. from July 12, 2022, viDesktop Inc. from August 19, 2022, TIP Technologies, Inc. from September 23, 2022, Frontline fr"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6935,
+      "text": "202 1 37 Notes to Consolidated Financial Statements 38 30 Report of Independent Registered Public Accounting Firm To the Board of Directors and Stockholders of Roper Technologies, Inc. Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of Roper Technologies, Inc. and its subsidiaries (the “Company”) as of "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5105,
+      "text": ".8% in the year ended December 31, 2022. The resulting operating margin was 33.4% in the year ended December 31, 2023 as compared to 33.2% in the year ended December 31, 2022. Corporate expenses increased by $17.5 to $226.7, or 3.7% of revenues, in 2023 as compared to $209.2, or 3.9% of revenues, in 2022. The dollar increase was due primarily to higher compensation and acquisition-related expenses"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6520,
+      "text": "Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 18 Item 6. [Reserved] 19 Item 7. Management ’ s Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures A bout Market Risk 29 Item 8. Financial Statements and Supplementary Data 30 Item 9. Changes in and Disagreements with Accountants on Accounting and"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5933,
+      "text": "positions and certain other tax liabilities as we are not able to reasonably estimate the timing of the payments. See Note 8 of the Notes to Consolidated Financial Statements included in this Annual Report. 2 Represents minimum fixed price purchase commitments that are legally binding across Roper. 27 We believe that internally generated cash flows and the remaining availability under our unsecure"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4912,
+      "text": "profiles assumed with our 2023 acquisitions, most notably Syntellis and Replicon, increased deferred revenue, and changes in income tax-related balances, partially offset by an increase in accounts receivable and the cash payment related to the settlement of the Berall v. Verathon patent litigation matter. Consistent negative net working capital demonstrates Roper’s focus on asset-light business m"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 3407,
+      "text": "— — — 1,152.6 — — 1,152.6 Stock option exercises 0.5 — 104.7 — — — 104.7 Cash settlement of share-based awards in connection with disposition of discontinued operations — — ( 6.7 ) — — — ( 6.7 ) Treasury stock sold — — 14.7 — — 0.4 15.1 Currency translation adjustments, including tax benefit of $ 6.2 — — — — ( 36.1 ) — ( 36.1 ) Stock-based compensation — — 138.0 — — — 138.0 Restricted stock activi"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7494298602129691,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7707
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:18:38.661937",
+   "duration_ms": 34232,
+   "answer": "Roper Technologies (ROP) manages a diversified portfolio focused on vertical software and technology-enabled products. The performance trends for its **Application Software** and **Network Software** segments over the recent three-year period (2021–2023) highlight significant growth driven by both organic performance and strategic acquisitions.\n\n### Application Software Performance Trends\n\nThe Application Software segment is Roper’s largest division by revenue. In 2023, the segment generated **$3,186.9 million** in net revenue, representing a 20.7% increase from the **$2,639.5 million** reported in 2022. \n\n*   **Growth Drivers:** Organic revenue growth for this segment was 5.9% in 2023. This was driven by broad-based demand across businesses serving government contracting, acute healthcare, legal markets, and property and casualty insurance. Acquisitions (such as Frontline and Syntellis) provided a 14.8% impact on total revenue growth.\n*   **Margins:** Gross margin for Application Software remained stable at 68.9% in 2023 (compared to 68.8% in 2022). However, the operating margin decreased from 27.1% in 2022 to 25.8% in 2023. This decline was primarily attributed to higher amortization of acquired intangibles and restructuring expenses related to the integration of the Syntellis acquisition.\n\n### Network Software Performance Trends\n\nThe Network Software segment maintains the highest margin profile among Roper’s reporting units and has shown consistent revenue increases over the last three fiscal years.\n\n*   **Revenue Trend:** Net revenues for the segment were **$1,439.4 million** in 2023, **$1,378.5 million** in 2022, and **$1,223.8 million** in 2021. \n*   **Growth Drivers:** In 2023, the segment achieved a total revenue growth of 4.4%, with organic growth at 4.6%. Performance was led by software businesses serving the life insurance, freight match, and alternate site healthcare markets.\n*   **Margins and Efficiency:** The segment's gross margin has improved steadily from 84.1% in 2021 to 85.1% in 2023, driven by operating leverage on higher organic revenues. Operating margins also saw an increase to 43.9% in 2023, up from 41.4% in 2022. These gains were supported by cost structure rationalization in freight match businesses and cost synergies from acquisitions in the construction market.\n\n### Comparative Summary\n\nWhile Application Software generates higher total revenue and has seen more aggressive growth through large-scale acquisitions, Network Software demonstrates a more profitable profile with superior gross and operating margins. Both segments contributed to an overall increase in Roper’s total backlog, which rose to $3,156.6 million at the end of 2023, with Application Software's backlog growing by 18.9% and Network Software's backlog experiencing a slight decline of 2.7%.\n\n### References\n\n- [1] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 2879,
+   "context_length": 115615,
+   "context": {
+    "entities": 65,
+    "relations": 163,
+    "chunks": 10,
+    "rerank_candidates": 133,
+    "chunk_tickers": [
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP",
+     "ROP"
+    ],
+    "entity_names": [
+     "RoperTech.com",
+     "Performance Graph",
+     "Network Software Segment",
+     "Roper Technologies",
+     "Software and Services Segment",
+     "Standard & Poors 500 Information Technology Index",
+     "Roper Technologies, Inc. Director Compensation Plan",
+     "Item 7",
+     "Information Technology Product And Services Vendors",
+     "Standard & Poors 500 Stock Index",
+     "Technology-Enabled Products",
+     "Data Analytics Provider",
+     "DAT",
+     "Results Of Operations",
+     "Software And Technology Systems"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "ROP",
+      "chars": 4664,
+      "text": ") Other than as set forth below, the information required by this Item 12 - Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters and not otherwise set forth below is contained in the 2024 Proxy Statement under the caption “Beneficial Ownership.” Securities Authorized for Issuance under Equity Compensation Plans The following table provides information as o"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4444,
+      "text": ".2 % 18.3 % 16.7 % (1) Includes results from the acquisitions of American LegalNet, Inc. from December 30, 2021, Horizon Lab Systems, LLC from January 3, 2022, Common Cents Systems, Inc. from April 6, 2022, MGA Systems Holdings, Inc. from June 27, 2022, Common Sense Solutions, Inc. from July 12, 2022, viDesktop Inc. from August 19, 2022, TIP Technologies, Inc. from September 23, 2022, Frontline fr"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5105,
+      "text": ".8% in the year ended December 31, 2022. The resulting operating margin was 33.4% in the year ended December 31, 2023 as compared to 33.2% in the year ended December 31, 2022. Corporate expenses increased by $17.5 to $226.7, or 3.7% of revenues, in 2023 as compared to $209.2, or 3.9% of revenues, in 2022. The dollar increase was due primarily to higher compensation and acquisition-related expenses"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6520,
+      "text": "Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 18 Item 6. [Reserved] 19 Item 7. Management ’ s Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures A bout Market Risk 29 Item 8. Financial Statements and Supplementary Data 30 Item 9. Changes in and Disagreements with Accountants on Accounting and"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5933,
+      "text": "positions and certain other tax liabilities as we are not able to reasonably estimate the timing of the payments. See Note 8 of the Notes to Consolidated Financial Statements included in this Annual Report. 2 Represents minimum fixed price purchase commitments that are legally binding across Roper. 27 We believe that internally generated cash flows and the remaining availability under our unsecure"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6241,
+      "text": "-added software, services, technology-enabled products, and solutions that we believe are capable of achieving growth and maintaining high margins. We compete in many defensible niche markets and believe we are the market leader or a competitive alternative to the market leader in most of these markets. In the last three years, we have deployed approximately $6,550 of capital toward acquisitions, "
+     },
+     {
+      "ticker": "ROP",
+      "chars": 4912,
+      "text": "profiles assumed with our 2023 acquisitions, most notably Syntellis and Replicon, increased deferred revenue, and changes in income tax-related balances, partially offset by an increase in accounts receivable and the cash payment related to the settlement of the Berall v. Verathon patent litigation matter. Consistent negative net working capital demonstrates Roper’s focus on asset-light business m"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 3407,
+      "text": "— — — 1,152.6 — — 1,152.6 Stock option exercises 0.5 — 104.7 — — — 104.7 Cash settlement of share-based awards in connection with disposition of discontinued operations — — ( 6.7 ) — — — ( 6.7 ) Treasury stock sold — — 14.7 — — 0.4 15.1 Currency translation adjustments, including tax benefit of $ 6.2 — — — — ( 36.1 ) — ( 36.1 ) Stock-based compensation — — 138.0 — — — 138.0 Restricted stock activi"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 5155,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 --------------------------- FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission File Number 1-12273 ROPER "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8004068377848119,
+    "context_recall": 0.2222222222222222,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7557
+   }
+  }
+ }
+}

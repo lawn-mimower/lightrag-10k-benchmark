@@ -1,0 +1,59 @@
+question_id,question,category,expected_type,reasoning,answer_accuracy,answer_accuracy_eval1,answer_accuracy_eval2,context_relevance,context_relevance_eval1,context_relevance_eval2,groundedness,groundedness_eval1,groundedness_eval2,context_length
+7415499e,"Hedging efficacy of Constellation Energy (CE) plays a crucial role in mitigating commodity risk, ens",Company overview,None,False,0.0,0.0,0.0,0.75,1.0,0.5,0.5,1.0,0.0,67616
+38ae5ab1,Constellation Energy's (CE) cash flow credit targets affect its fin. health & valuation.,Governance,None,False,0.0,0.0,0.0,0.5,0.5,0.5,0.5,1.0,0.0,65694
+9294f77b,Constellation Energy (CE) focuses on clean energy market policy positioning.,Company overview,None,False,0.0,0.0,0.0,0.75,1.0,0.5,0.5,1.0,0.0,67662
+008beea7,Hasbro (HAS) FY 2023 effective interest rate & cost of capital.,Financials,Compositional,True,0.5,0.5,0.5,0.5,0.5,0.5,0.25,0.5,0.0,111586
+2afcec04,Growth in IP licensing and revenue recognition enhances competitive positioning for Hasbro (HAS).,Accounting,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,71019
+caa865da,"Impact of Hasbro's brand segmentation on long-term rev & profit growth, HAS.",Company overview,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.5,0.5,0.5,81426
+2fdba0b2,"Net sales & segment profit trends by biz unit for Honeywell over 3Y, HON.",Footnotes,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.25,0.5,0.0,73494
+c88933f5,Impact of Honeywell's (HON) cybersecurity investments on ops disruptions & profit sustainability.,Risk,None,False,1.0,1.0,1.0,1.0,1.0,1.0,0.5,0.5,0.5,89221
+47703f4b,"Honeywell's leadership diversity positively impacts operational efficiency and profitability, HON.",Governance,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.75,1.0,0.5,78840
+c8c289bc,Impact of Honeywell's (HON) R&D & Forge expansion on competitive positioning and revenue sustainabil,Governance,None,False,1.0,1.0,1.0,1.0,1.0,1.0,0.75,1.0,0.5,84362
+5e5180f2,"Honeywell (HON) contract assets & liabilities impact rev & earnings, raising quality & risk concerns",Accounting,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,84986
+a2aef1d1,"Impact of Verisk Analytics' asset reduction on capex strategy & inv. outlook, VRSK.",Footnotes,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,62165
+95e8ffed,Verisk Analytics (VRSK) board oversight of risk committee on cybersecurity’s impact on valuation mul,Risk,None,False,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,67882
+74189809,"Risk, synergies, & competitive impact of Verisk (VRSK) acquisition.",Company overview,None,False,1.0,1.0,1.0,1.0,1.0,1.0,0.75,1.0,0.5,70760
+c6cb8e43,"Verisk's (VRSK) subscription model impacts op efficiency, profitability, & cash flow.",Governance,None,False,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,63564
+a97d9785,Verisk Analytics (VRSK) faces long-term debt refinancing risks impacting capital planning.,Financials,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.75,1.0,0.5,63845
+b17a4e4a,Verisk Analytics (VRSK) Rule 10b5-1 durations & end date rationale.,Governance,None,False,0.0,0.0,0.0,0.5,0.5,0.5,0.5,0.5,0.5,59084
+c520d0e9,"Impact of Biogen's DEI on comp. pos. and risk profile, BIIB.",Company overview,None,True,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,63927
+a26c0c76,"Impact of generics & biosimilars on revenue for Biogen, BIIB.",Company overview,None,False,0.75,0.5,1.0,1.0,1.0,1.0,0.75,1.0,0.5,65000
+cbd456e9,"Biogen manages legal liabs vs LT growth as it faces patent expirations and reg challenges, BIIB.",Legal,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.5,0.5,0.5,62038
+d5641244,"Review of climate risk measures by Biogen, BIIB.",Governance,None,False,0.25,0.5,0.0,0.75,1.0,0.5,1.0,1.0,1.0,68228
+df27b7cc,Biogen (BIIB) revenue recognition timing under ASC 606: point vs over time.,Accounting,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.5,0.5,0.5,66673
+5f7adf0f,Impact of Robin Kramer's non-10b5-1 sale on Biogen (BIIB) insider ownership.,Governance,None,False,0.0,0.0,0.0,0.5,0.5,0.5,0.0,0.0,0.0,74924
+383d8d29,Total labor cost calc: $80K (ROP) x 16.8K employees.,Company overview,Multiplication,True,0.0,0.0,0.0,0.75,1.0,0.5,0.25,0.0,0.5,67291
+7b84589a,Performance rev trends for Roper Tech (ROP) 3yr App vs Network Software.,Footnotes,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.5,0.5,0.5,72167
+44063ab3,"Cost variation of share repurchase at Roper Technologies from 2021 to 2023, ROP.",Shareholder return,None,False,0.0,0.0,0.0,1.0,1.0,1.0,0.5,0.5,0.5,78246
+bba13757,Roper Technologies (ROP) valuation multiples compared to industry benchmarks in competitive mkts.,Company overview,None,False,0.75,0.5,1.0,0.75,1.0,0.5,0.5,0.5,0.5,63315
+642d3af4,Impacts of LOC & surety bond liquidity and flexibility for Roper (ROP).,Legal,None,False,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,70273
+3eec923a,"How does capital allocation for acquisitions impact rev, cash flow, and growth for Roper Technologie",Governance,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.5,0.5,0.5,74303
+58a5d8e7,Cintas (CTAS) HCM's influence on comp. positioning & labor turnover risk.,Company overview,None,True,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,94443
+f54eba8e,Impact of repurchase timing on Cintas' (CTAS) capital allocation strategies.,Shareholder return,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,121641
+4d181fb3,Impact of executive power concentration in the CTAS CEO role on overall company governance and strat,Governance,None,False,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,71316
+9bc47daa,Cintas Corp (CTAS) net rev presentation & its influence on op margins.,Accounting,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.5,0.5,0.5,94946
+f2396b30,Cintas' (CTAS) liquidity sources include operating CF vs debt capacity.,Financials,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.5,0.5,0.5,83046
+1bacc152,Cintas (CTAS) 2024 capex total & segment breakdown.,Footnotes,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.75,1.0,0.5,120251
+2b9ff3ae,Celanese Corp (CE) basic share count delta from 2022 to 2023 and its implications on share structure,Financials,Subtract,True,0.75,0.5,1.0,0.75,1.0,0.5,0.5,0.5,0.5,83080
+0d0d16d0,Capex conversion to op profit across segments for Celanese (CE).,Footnotes,None,False,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,71891
+d25e0880,Ameriprise (AMP) has a culture and workforce that significantly influence its competitive positionin,Company overview,None,True,0.75,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,67775
+1c41ffb9,Q4 2023 Ameriprise Financial (AMP) share repurchase program vs. employee transactions' prop'n and ca,Shareholder return,None,False,1.0,1.0,1.0,1.0,1.0,1.0,0.5,0.5,0.5,87529
+6cf59e04,cost ctrl for vendor risk mgmt & cybersecurity on balance sheet (AMP),Risk,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,73182
+99b022fd,"Regulatory/legal factors impacting capital allocation and growth potential for Ameriprise Financial,",Legal,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,128347
+8ce0a122,Rev rec for variable annuities; AMP valuation for future revenues (AMP).,Accounting,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,65438
+69c257e0,Liquidity vs short-term obligations for Ameriprise Financial (AMP) in 2024.,Financials,None,False,0.0,0.0,0.0,0.75,1.0,0.5,0.5,0.5,0.5,97533
+8271ad85,"Motorola Solutions’ innovation in workforce composition and competitive positioning, MSI.",Company overview,None,True,0.5,0.5,0.5,1.0,1.0,1.0,0.5,0.5,0.5,70184
+38758f5a,Q4-23 avg price for share repurchase volume was reported for Motorola Solutions (MSI).,Shareholder return,None,False,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,86127
+7fd59fe6,"Audit oversight & cybersecurity impact on valuation, stakeholder confidence, capital allocation, MSI",Risk,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,71378
+49f441e1,"Impact of tech innovation & R&D on competitiveness and long-term outlook, MSI.",Company overview,None,False,0.5,0.5,0.5,0.75,1.0,0.5,1.0,1.0,1.0,70321
+30418203,Motorola Solutions (MSI) appeals risk valuation sentiment.,Legal,None,False,0.0,0.0,0.0,0.5,0.5,0.5,0.75,1.0,0.5,69098
+d20600e5,Motorola Solutions (MSI) performance obligation allocation ESP data inputs.,Accounting,None,False,0.5,0.5,0.5,0.5,0.5,0.5,0.75,1.0,0.5,66447
+ab124c52,Capex for Motorola Solutions (MSI) from 2021 to 2023 shows distinct trends in spending.,Footnotes,None,False,0.0,0.0,0.0,0.75,1.0,0.5,0.0,0.0,0.0,80536
+8a0f4278,"Effect of GRMN TTM/product availability on mkt share & growth vs AAPL, SSNLF, HON.",Company overview,None,False,0.0,0.0,0.0,0.5,0.5,0.5,0.0,0.0,0.0,66809
+0ed7397a,"Impact of Marathon Oil's DEI & talent mgmt on risk mitigation & sustainable execution, MRO.",Company overview,None,True,0.75,0.5,1.0,1.0,1.0,1.0,0.75,1.0,0.5,95992
+c399ba47,Impact on EPS and shareholder value from share repurchase by Marathon Oil (MRO).,Shareholder return,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.5,0.5,0.5,75314
+eed2fffd,"Impact on growth & competitive positioning from Marathon Oil's new tech in cybersecurity, MRO.",Risk,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.5,0.5,0.5,71565
+775f0325,"Advanced economic analysis, portfolio mgmt, competitive positioning, and valuation metrics for Marat",Company overview,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.75,1.0,0.5,75037
+1baac2d2,"Succession planning for Marathon Oil execs focuses on age dist., MRO.",Governance,None,False,0.5,0.5,0.5,1.0,1.0,1.0,0.5,0.5,0.5,77150
+9fd9b39f,Impact on liquidity & working capital from 30-day payment terms at Marathon Oil (MRO).,Accounting,None,False,0.0,0.0,0.0,0.5,0.5,0.5,0.0,0.0,0.0,73243
+132a45f4,"Governance, risk, and growth are impacted by MRO insider trading arrangements, MRO.",Governance,None,False,0.5,0.5,0.5,0.75,1.0,0.5,0.5,0.5,0.5,70611

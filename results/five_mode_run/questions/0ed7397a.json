@@ -1,0 +1,441 @@
+{
+ "question_id": "0ed7397a",
+ "ticker": "MRO",
+ "question": "Impact of Marathon Oil's DEI & talent mgmt on risk mitigation & sustainable execution, MRO.",
+ "expected_answer": "Marathon Oil’s 2023 report outlines several key initiatives that contribute to operational resilience and risk management. The company has strategically managed its workforce composition by maintaining a significant U.S. presence (74% of full-time employees) while also ensuring local integration in regions like Equatorial Guinea (with 94% of the MEGPL workforce being Equatoguinean). Additionally, the acquisition of Ensign and associated integration of experienced personnel strengthen their team structure. The company’s emphasis on long-tenured employees (with an average of 8 years and 32% having 10 or more years of experience in the U.S.) combined with comprehensive DEI training and mental wellness programs helps in fostering a collaborative work culture. This proactive approach, reinforced by an annual risk analysis aligned with their Enterprise Risk Management process, aims to improve efficiency, mitigate talent risks, and ultimately support sustainable long-term performance.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 2892,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:08:32.277122",
+   "duration_ms": 13485,
+   "answer": "Marathon Oil (MRO) views talent as a foundational element for delivering its corporate strategy and achieving sustainable execution. The company’s talent management and Diversity, Equity, and Inclusion (DEI) initiatives are integrated into its broader Enterprise Risk Management (ERM) process, ensuring that workforce capabilities align with its objectives of sustainable free cash flow and ESG excellence. Leadership accountability for these programs rests with the Vice President of Human Resources, who reports directly to the CEO and reviews quarterly talent data with the Executive Committee to maintain accountability for human capital outcomes.\n\n### Risk Mitigation through Strategic Talent Management\nTo mitigate enterprise risks associated with the workforce, Marathon Oil conducts proactive annual risk analyses that include a multi-year view of potential talent risks. This allows the company to respond to macro-environmental changes while maintaining long-term stability. Key mitigation strategies include:\n*   **Succession Planning:** Designed to identify the necessary experiences and exposures to prepare employees for future senior leadership roles.\n*   **Knowledge Sharing:** The company utilizes a common asset team organizational structure to drive collaboration and talent deployment, which enhances execution efficiency.\n*   **Contingent Labor Oversight:** A managed service provider is used to ensure equitable treatment and compliance auditing for the contingent workforce.\n*   **Board Oversight:** The Board of Directors receives regular updates on talent as an enterprise risk, including metrics on employee engagement, succession, and diversity.\n\n### DEI as a Business Advantage\nMarathon Oil fosters an inclusive \"One Team\" culture, asserting that a diversity of people, experiences, and ideas provides a significant business advantage. The company’s Code of Business Conduct emphasizes hiring and promotion based on merit and qualifications while celebrating workforce diversity. To reinforce this, voluntary enterprise-wide DEI training was expanded in 2023 to all field locations, including Equatorial Guinea. Furthermore, Employee Resource Groups (ERGs) are supported to promote diverse perspectives, encourage networking, and facilitate continuous development. As of late 2023, women accounted for 30% and people of color accounted for 32% of the company's U.S. full-time workforce.\n\n### Driving Sustainable Execution\nThe company’s focus on human capital is intended to create a safe and ethical environment that supports long-term value for stakeholders. Sustainable execution is driven by investing in organizational learning through a centralized on-demand development hub and leadership coaching. In 2023, the company introduced a Leadership Development Program for mid-level and high-potential employees to bridge skill gaps identified during talent assessments. Additionally, to maintain engagement in a cyclical industry, Marathon Oil offers competitive benefits, such as fully funded health plan premiums for employees and their families through 2024, and wellness programs designed to support overall well-being.\n\n### References\n\n* [1] {\"ticker\":\"MRO\",\"company\":\"Marathon Oil Corporation\",\"period\":\"December 31, 2023\",\"source\":\"MRO.html\"}",
+   "answer_length": 3279,
+   "context_length": 84210,
+   "context": {
+    "entities": 60,
+    "relations": 91,
+    "chunks": 7,
+    "rerank_candidates": 42,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Diversity, Equity, And Inclusion (DEI)",
+     "ESG Excellence",
+     "Diversity, Equity, and Inclusion (DEI)",
+     "Diversity, Equity And Inclusion",
+     "Diversity, Equity, and Inclusion",
+     "Diversity, Equity, And Inclusion",
+     "Corporate Social Responsibility",
+     "Voluntary DEI Training",
+     "Environmental, Social, and Governance (ESG) Opportunities",
+     "Diversity, Equity, And Inclusion (Dei)",
+     "ESG Matters",
+     "Health, Environmental, Safety And Corporate Responsibility Committee",
+     "Human Capital Resources",
+     "Environmental, Social, And Governance (ESG) Matters",
+     "Global Inclusion And Diversity Steering Committee"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6523,
+      "text": "end of 2023 but is now expected in 2024. The implementation of this proposed limit, or the promulgation of a more stringent standard in the future, may result in an increase in costs for emission controls and requirements for additional monitoring and testing, as well as a more cumbersome permitting process. Although there may be an adverse financial impact (including compliance costs, potential p"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7126,
+      "text": "internet and other public networks for communications, services and storage, including “cloud” computing, exposes us and our users to cybersecurity risks. There is no guarantee that our security measures will provide absolute security. We may not be able to anticipate, detect or prevent cyberattacks, particularly because the methodologies used by attackers change frequently or may not be recognize"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6789,
+      "text": "2021 Percentage of Total Commodity Sales Marathon Petroleum Corporation 22 % 22 % 17 % Trafigura Groupe Pte. Ltd. 12 % 10 % N/A Valero Marketing and Supply 11 % 12 % 10 % 12 Table of Contents Gross Delivery Commitments We have commitments to customers to deliver gross quantities of crude oil and condensate and natural gas under a variety of contracts. As of December 31, 2023, the contracts for fix"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8133889949047249,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8533
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:08:49.896522",
+   "duration_ms": 17619,
+   "answer": "Marathon Oil integrates human capital management (HCM) and diversity, equity, and inclusion (DEI) as foundational elements of its corporate strategy. The company’s framework for success—which targets sustainable free cash flow, return of capital to shareholders, and ESG excellence—is underpinned by intentional strategies to attract, engage, and deploy a dedicated workforce. These efforts are governed through a structured leadership hierarchy: the Vice President of Human Resources manages workforce policies and reports directly to the CEO, while the Board of Directors provides oversight as an integral component of the company's Enterprise Risk Management (ERM) process.\n\nRisk mitigation is a primary objective of Marathon Oil’s talent management approach. The company conducts annual proactive risk analyses that include a multi-year view of potential talent risks to ensure preparedness for shifts in the macro-environment. To protect against the loss of technical expertise, the company utilizes a \"One Team\" culture and has formalized communities of practice across six petro-technical disciplines. These communities facilitate knowledge sharing and collaboration across multiple basins, which the company believes results in efficiency gains and enhanced operational execution. Furthermore, succession planning is specifically designed to identify the experiences and exposures required to prepare employees for future senior leadership roles, thereby ensuring business continuity.\n\nMarathon Oil views its DEI initiatives as a strategic business advantage rather than just a social priority. The company believes that a diversity of people, experiences, and ideas fosters a stronger, more resilient business. To promote this environment, Marathon Oil has expanded voluntary enterprise-wide DEI training to all field locations, including its international operations in Equatorial Guinea. Employee Resource Groups (ERGs) are supported to encourage diverse perspectives and networking, while a workforce flexibility program helps balance career needs with personal well-being. This inclusive culture is codified in the company’s Code of Business Conduct, which emphasizes hiring and promotion based on merit and job-related factors.\n\nThe alignment of talent management with sustainable execution is further reinforced through the company’s compensation and safety programs. To ensure accountability for ESG and safety goals, metrics such as greenhouse gas (GHG) intensity and the Total Recordable Injury Rate (TRIR) are linked directly to compensation outcomes. The company also leverages diverse employee perspectives through multi-functional committees, such as the Emissions Management Committee, to address complex environmental and safety (HES) issues. By offering competitive benefits—such as fully funding employee health premiums through 2024 and providing long-term equity incentives—Marathon Oil aims to retain the specialized talent necessary to navigate industry volatility and deliver long-term value.\n\n### References\n\n* [1] Marathon Oil Corporation",
+   "answer_length": 3071,
+   "context_length": 108704,
+   "context": {
+    "entities": 37,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 102,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Board Of Directors",
+     "Human Capital Management",
+     "Company",
+     "Diversity, Equity, And Inclusion",
+     "Diversity",
+     "Human Capital Resources",
+     "Environmental, Social, And Governance (ESG)",
+     "Human Capital",
+     "Reimagining Inclusion For Social Equity (RISE)",
+     "Verisk",
+     "Talent Management",
+     "Diverse Talent",
+     "Talent Recruitment",
+     "Diversity And Inclusion",
+     "Roper"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6523,
+      "text": "end of 2023 but is now expected in 2024. The implementation of this proposed limit, or the promulgation of a more stringent standard in the future, may result in an increase in costs for emission controls and requirements for additional monitoring and testing, as well as a more cumbersome permitting process. Although there may be an adverse financial impact (including compliance costs, potential p"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7126,
+      "text": "internet and other public networks for communications, services and storage, including “cloud” computing, exposes us and our users to cybersecurity risks. There is no guarantee that our security measures will provide absolute security. We may not be able to anticipate, detect or prevent cyberattacks, particularly because the methodologies used by attackers change frequently or may not be recognize"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9830508474576272,
+    "answer_relevancy": 0.7548635792484019,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8845
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:09:02.710544",
+   "duration_ms": 12814,
+   "answer": "Marathon Oil Corporation integrates human capital management and Diversity, Equity, and Inclusion (DEI) into its core business strategies to drive sustainable execution and mitigate enterprise-level risks. The company’s Board of Directors provides oversight to these strategies as an integral part of the overall Enterprise Risk Management (ERM) process. To ensure accountability, the Vice President of Human Resources, who reports directly to the CEO, reviews quarterly talent data with the Executive Committee to assess the talent landscape and manage risks such as talent gaps, succession, and employee engagement [1].\n\n### DEI as a Business Advantage\nMarathon Oil views an inclusive culture as a foundational element for business strength and resilience. The company’s Code of Business Conduct emphasizes fostering an environment where hiring and promotion are based on merit and performance, while celebrating the diversity of its workforce. As of late 2023, women accounted for 30% and people of color represented 32% of the U.S. full-time workforce. These DEI efforts are supported through:\n*   **Voluntary Training:** Expanded enterprise-wide training to field locations to foster a \"One Team\" culture.\n*   **Employee Resource Groups (ERGs):** These groups promote diverse perspectives and encourage continuous development.\n*   **Nationalization Efforts:** In Equatorial Guinea, 94% of the MEGPL workforce is Equatoguinean, reflecting the company's commitment to the areas where it operates [1].\n\n### Talent Management and Risk Mitigation\nThe company conducts proactive, annual risk analyses to gain a multi-year view of potential talent risks, ensuring it can respond effectively to the macro-environment. Marathon Oil utilizes a common asset team organizational structure to drive knowledge sharing and talent deployment, which results in efficiency gains. To mitigate skill-related risks, the company employs a robust talent assessment process that identifies critical skill gaps and guides training. Furthermore, a succession process is in place to prepare employees for future senior leadership roles, while mentoring programs—including those pairing senior leaders with directors—strengthen the corporate culture [1].\n\n### Sustainable Execution and HES Culture\nSustainable business execution is underpinned by a strong commitment to Health, Environment, and Safety (HES). Marathon Oil utilizes the Responsible Operations Management System (ROMS) to manage operational risks. Key sustainability outcomes are directly tied to workforce behavior and compensation:\n*   **Safety and Environment:** Training includes \"stop work authority\" for all employees and contractors in the event of potential safety or environmental risks.\n*   **Incentive Alignment:** Compensation outcomes are linked to metrics such as the Total Recordable Injury Rate (TRIR) and Greenhouse Gas (GHG) intensity.\n*   **Emissions Management:** The Emissions Management Committee (EMC) prioritizes methane and GHG reduction opportunities, ensuring appropriate capital allocation for climate-related actions [1].\n\n### Retention through Total Rewards\nTo support long-term execution and talent retention, Marathon Oil offers competitive benefit programs and a \"Total Rewards\" framework. This includes covering employee health plan premiums through 2024 to mitigate inflationary pressures and offering a workforce flexibility program to improve work-life balance. By benchmarking pay and benefits against industry peers, the company aims to attract and retain the talent necessary for long-term success [1].\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 3658,
+   "context_length": 14352,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7502408949059157,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9376
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:09:23.150788",
+   "duration_ms": 20440,
+   "answer": "At Marathon Oil, talent management and Diversity, Equity, and Inclusion (DEI) are viewed as foundational components for delivering on the corporate strategy. These initiatives are designed to drive business advantage, ensure sustainable execution—specifically aiming for sustainable free cash flow and meaningful shareholder returns—and support differentiated execution through a strong balance sheet and ESG excellence.\n\n### Talent Management and Sustainable Execution\nMarathon Oil utilizes intentional human capital management strategies to attract, engage, develop, and deploy its workforce. A key driver of operational efficiency and execution is the company's \"common asset team\" organizational structure. This model promotes knowledge sharing, collaboration, and flexible talent deployment across various basins, which the company believes results in efficiency gains and enhanced project execution. Furthermore, the \"One Team\" culture emphasizes a shared commitment to business objectives and high ethical standards, ensuring that workforce capabilities remain aligned with strategic goals.\n\nThe company invests heavily in talent development through a multi-pronged approach that includes a centralized on-demand development hub, 360-degree assessments, and leadership coaching. In 2023, the company introduced a Leadership Development Program for mid-level and high-potential employees to prepare them for future roles. To support retention and high performance, Marathon Oil offers competitive benefits and a compensation program that rewards both financial and operational results, often linking incentive outcomes directly to performance metrics.\n\n### DEI Initiatives and Inclusive Culture\nMarathon Oil fosters an inclusive work environment through its Code of Business Conduct, which emphasizes mutual respect and fair, non-discriminatory hiring practices. As of late 2023, women represented 30% and people of color represented 32% of the U.S. full-time workforce. DEI efforts are integrated into the broader workforce through voluntary enterprise-wide training, which was expanded in 2023 to include all field locations, such as those in Equatorial Guinea.\n\nThe company also utilizes Employee Resource Groups (ERGs) to promote diverse perspectives, networking, and continuous development. These groups are essential to the company's \"One Team\" culture, helping to cultivate a collaborative environment where different viewpoints are leveraged to address complex business and technical challenges.\n\n### Risk Mitigation and Governance\nTalent management and DEI are integrated into Marathon Oil’s Enterprise Risk Management (ERM) process to mitigate potential operational disruptions. The Board of Directors provides oversight for these strategies, receiving regular updates on talent as an enterprise risk, employee engagement, and succession planning. Additionally, the company conducts a proactive annual risk analysis that takes a multi-year view of potential talent risks to ensure the organization is prepared for shifts in the macro-environment.\n\nOversight is further formalized through the Vice President of Human Resources, who is accountable for workforce management policies and reports directly to the CEO. This executive reviews quarterly talent data with the Executive Committee to ensure accountability for human capital outcomes and to monitor the evolving talent landscape. For contingent labor, the company employs a managed service provider to ensure equitable treatment and compliance auditing, further reducing legal and operational risks.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 3645,
+   "context_length": 123376,
+   "context": {
+    "entities": 54,
+    "relations": 132,
+    "chunks": 10,
+    "rerank_candidates": 149,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Diversity, Equity, And Inclusion (DEI)",
+     "Board Of Directors",
+     "Diversity, Equity, and Inclusion (DEI)",
+     "Human Capital Management",
+     "Voluntary DEI Training",
+     "Company",
+     "Diversity, Equity And Inclusion",
+     "Diversity, Equity, And Inclusion",
+     "Corporate Social Responsibility",
+     "Diversity",
+     "ESG Excellence",
+     "Human Capital Resources",
+     "Global Inclusion And Diversity Steering Committee",
+     "Environmental, Social, And Governance (ESG)",
+     "Diversity, Equity, And Inclusion (Dei)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6523,
+      "text": "end of 2023 but is now expected in 2024. The implementation of this proposed limit, or the promulgation of a more stringent standard in the future, may result in an increase in costs for emission controls and requirements for additional monitoring and testing, as well as a more cumbersome permitting process. Although there may be an adverse financial impact (including compliance costs, potential p"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7760639854340671,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.944
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:09:42.203815",
+   "duration_ms": 19053,
+   "answer": "At Marathon Oil, intentional human capital management and Diversity, Equity, and Inclusion (DEI) initiatives are foundational to the company’s corporate strategy. These programs are designed to drive differentiated execution and support long-term business objectives, such as achieving sustainable free cash flow and providing meaningful returns to shareholders. By integrating talent strategies with its \"One Team\" culture, the company seeks to maintain a competitive advantage while fostering an ethical and safe work environment.\n\n### Strategic Talent Management and Oversight\nMarathon Oil views talent as the primary driver for delivering on its framework for success. The Vice President of Human Resources holds leadership accountability for workforce policies and reports directly to the CEO, reviewing quarterly talent data with the Executive Committee to assess the talent landscape. This structure ensures that talent management is prioritized at the highest levels of leadership. Furthermore, the Board of Directors provides oversight of human capital management as an integral part of the company's Enterprise Risk Management (ERM) process.\n\nTo mitigate operational risks, Marathon Oil conducts a proactive annual risk analysis that includes a multi-year view of potential talent risks. This preparation allows the company to respond effectively to the macro-environment. Additionally, the company utilizes a \"common asset team\" organizational structure that promotes knowledge sharing, collaboration, and efficient talent deployment across its various teams, which enhances execution and drives efficiency gains.\n\n### DEI as a Business Advantage\nThe company’s commitment to DEI is embedded in its Code of Business Conduct, which emphasizes mutual respect and hiring based on merit and qualifications. Marathon Oil believes that a diversity of people, experiences, and ideas provides a distinct business advantage. To support this, the company expanded its voluntary enterprise-wide DEI training in 2023 to all field locations, including Equatorial Guinea, to further cultivate its \"One Team\" culture.\n\nEmployee Resource Groups (ERGs) are also utilized to promote diverse perspectives, encourage internal networking, and provide continuous development opportunities. These initiatives are designed to create an environment where all employees can reach their full potential, which in turn strengthens the resilience of the overall business.\n\n### Risk Mitigation and Sustainable Execution\nMarathon Oil leverages its collective talent to address complex Health, Environmental, and Safety (HES) challenges. Multi-functional committees, such as the Emissions Management Committee (EMC), use diverse employee perspectives to prioritize greenhouse gas and methane emissions reduction opportunities. The company links ESG (Environmental, Social, and Governance) performance directly to its compensation outcomes; for instance, GHG intensity and Total Recordable Injury Rate (TRIR) are key metrics used to determine compensation, aligning employee performance with sustainable execution and operational excellence.\n\nInvestment in talent development further supports long-term sustainability. The company employs a multi-pronged approach to learning, including leadership coaching, 360 assessments, and a centralized development hub. By identifying critical skill gaps and implementing succession planning for future senior leadership roles, Marathon Oil ensures it has the workforce capabilities necessary to navigate the cyclical nature of the energy industry.\n\n### References\n\n* [1] Marathon Oil Corporation - December 31, 2023",
+   "answer_length": 3632,
+   "context_length": 121555,
+   "context": {
+    "entities": 54,
+    "relations": 119,
+    "chunks": 10,
+    "rerank_candidates": 149,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Diversity, Equity, And Inclusion (DEI)",
+     "Board Of Directors",
+     "Diversity, Equity, and Inclusion (DEI)",
+     "Human Capital Management",
+     "Diversity, Equity And Inclusion",
+     "Company",
+     "Voluntary DEI Training",
+     "Diversity, Equity, And Inclusion",
+     "Diversity, Equity, And Inclusion (Dei)",
+     "Diversity",
+     "Diversity, Equity, and Inclusion",
+     "Human Capital Resources",
+     "Environmental, Social, And Governance (ESG)",
+     "Senior Vice President of Human Resources and Chief Diversity Officer",
+     "Human Capital"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6523,
+      "text": "end of 2023 but is now expected in 2024. The implementation of this proposed limit, or the promulgation of a more stringent standard in the future, may result in an increase in costs for emission controls and requirements for additional monitoring and testing, as well as a more cumbersome permitting process. Although there may be an adverse financial impact (including compliance costs, potential p"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9487179487179487,
+    "answer_relevancy": 0.7665643796202039,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9288
+   }
+  }
+ }
+}

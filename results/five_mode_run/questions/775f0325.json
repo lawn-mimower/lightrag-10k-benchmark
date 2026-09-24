@@ -1,0 +1,421 @@
+{
+ "question_id": "775f0325",
+ "ticker": "MRO",
+ "question": "Advanced economic analysis, portfolio mgmt, competitive positioning, and valuation metrics for Marathon Oil (MRO).",
+ "expected_answer": "Marathon Oil's reliance on advanced economic analysis and portfolio management plays a fundamental role in its competitive positioning and valuation in several key ways. First, the company uses these tools to identify and assess high-potential opportunities in exploration and development. By leveraging advanced economic analysis, Marathon Oil can perform rigorous cost‐benefit evaluations of prospective projects, enabling it to focus capital and resources on the most promising ventures. This strategy assists in optimizing the asset mix by strategically acquiring, divesting, or intensifying investments in specific assets based on their comparative advantage. \n\nSecond, portfolio management allows the company to balance risk and return across a diverse set of properties. This dynamic rebalancing ensures that the asset portfolio remains robust, even in volatile market conditions, which in turn supports consistent cash flow generation and improved risk-adjusted returns. Such effective allocation is also reflected in industry-standard valuation metrics. For instance, by improving portfolio quality and reducing risk exposures, Marathon Oil can maintain more favorable EBITDA multiples and possibly higher price-to-earnings ratios compared to peers, contributing positively to its overall market valuation. \n\nFinally, by combining economic analysis with in-depth competitive insights (such as geological and engineering expertise), the company is better positioned to navigate competitive pressures in the marketplace. This integrated approach enhances its ability to secure valuable assets in competitive bidding situations, sustain its market share, and maintain pricing power, thus reinforcing its competitive positioning and positively influencing investor perceptions and valuation metrics.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 907,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:13:02.391771",
+   "duration_ms": 19949,
+   "answer": "Marathon Oil Corporation (MRO) utilizes a specialized business strategy and financial framework to manage its portfolio and maintain competitive positioning within the oil and gas industry. The company operates through two primary reportable segments: the United States, which focuses on high-quality resource plays such as the Eagle Ford, Bakken, STACK/SCOOP, and Permian; and the International segment, which involves operations in Equatorial Guinea (E.G.) including the production of crude oil, LNG, and methanol [1].\n\n### Portfolio Management and Capital Allocation\nMarathon Oil's portfolio management is driven by economic analysis and a disciplined **Capital Allocation Framework**. This strategy is designed to deliver leading cash returns to shareholders that are sustainable long-term and resilient through various commodity price cycles [1]. The framework prioritizes:\n*   **Shareholder Returns:** Prioritizing dividends and share repurchases. In 2023, the company repurchased $1.5 billion of shares and paid $251 million in dividends [1].\n*   **Reinvestment Discipline:** Limiting capital expenditures relative to expected cash flow from operations. The 2024 capital budget is projected between $1.9 billion and $2.1 billion [1].\n*   **Debt Retirement:** Actively reducing outstanding debt, such as the $501 million of long-term debt repaid in 2023 [1].\n*   **Inventory Replenishment:** Ensuring the maintenance and expansion of drilling and production capacity to support future operations [1].\n\n### Competitive Positioning\nMRO competes with major integrated oil companies, independent exploration and production (E&P) firms, and national oil companies. Competition is particularly intense regarding the acquisition of oil and natural gas leases, the exploration for new reserves, and securing the labor and equipment necessary for development [1]. To maintain its competitive edge, the company relies on geological and engineering research, technological innovation, and detailed economic analysis for portfolio optimization [1]. Significant portions of its commodity sales are concentrated with key customers, including Marathon Petroleum Corporation, Trafigura Groupe Pte. Ltd., and Valero Marketing and Supply [1].\n\n### Valuation Metrics and Economic Viability\nThe company employs several valuation techniques to assess the economic viability of its crude oil, condensate, NGLs, and natural gas reserves. A primary metric used is **Discounted Future Net Cash Flows**, which evaluates the potential profitability of reserves based on existing economic conditions and government regulations [1]. \n\nFurthermore, **Discounted Cash Flow (DCF)** models are used for fair value estimates and quantitative impairment tests. These models require significant management judgment regarding:\n*   Projected revenue growth rates and future cash flows.\n*   Future operating and development costs, including drilling expenses and asset maintenance.\n*   Discount and growth rates used to calculate the present value of future earnings.\n*   Commodity price assumptions, which are subject to volatility [1].\n\n### Reserve Governance and Auditing\nTo ensure the accuracy of its financial and operational metrics, MRO maintains a **Corporate Reserves Group (CRG)** responsible for reviewing and approving reserve estimates. These estimates are developed by Qualified Reserves Estimators (QREs) using methodologies such as decline curve analysis and reservoir simulation [1]. For the fiscal year 2023, MRO engaged third-party consultants, including Ryder Scott Company and Netherland, Sewell & Associates, Inc. (NSAI), to audit approximately 87% of its total proved reserves, providing an external layer of validation for its reported asset values [1].\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 3819,
+   "context_length": 112981,
+   "context": {
+    "entities": 60,
+    "relations": 156,
+    "chunks": 10,
+    "rerank_candidates": 50,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Discounted Future Net Cash Flows",
+     "Investment",
+     "Capital Allocation Process",
+     "Corporate Reserves Group",
+     "Exploration And Drilling Costs",
+     "Capital Allocation Framework",
+     "Discounted Cash Flow Models",
+     "Manager of Corporate Reserves",
+     "External Industry And Market Data",
+     "Economic Analysis",
+     "Operating And Development Costs",
+     "Free Cash Flow",
+     "10% of Total Consolidated Assets",
+     "Corporate Reserves Group (CRG)",
+     "Other Current Assets And Liabilities"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6789,
+      "text": "2021 Percentage of Total Commodity Sales Marathon Petroleum Corporation 22 % 22 % 17 % Trafigura Groupe Pte. Ltd. 12 % 10 % N/A Valero Marketing and Supply 11 % 12 % 10 % 12 Table of Contents Gross Delivery Commitments We have commitments to customers to deliver gross quantities of crude oil and condensate and natural gas under a variety of contracts. As of December 31, 2023, the contracts for fix"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9722222222222222,
+    "answer_relevancy": 0.8132974150222881,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8964
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:13:23.358889",
+   "duration_ms": 20967,
+   "answer": "Marathon Oil Corporation (MRO) utilizes economic analysis and strategic portfolio management as central components of its operations and competitive strategy within the oil and gas industry. The company operates a diverse multi-basin portfolio and emphasizes differentiated execution underpinned by a strong balance sheet and Environmental, Social, and Governance (ESG) excellence.\n\n### Competitive Positioning and Strategy\nMarathon Oil competes with major integrated oil companies, independent producers, and national oil companies. To maintain its market position, the company employs several principal methods of competition, including:\n*   **Technical Expertise:** Leveraging geological, geophysical, and engineering research alongside advanced technology.\n*   **Economic Analysis:** Integrating economic assessments into portfolio management and decision-making for oil and gas operations.\n*   **Operational Safety:** Prioritizing the safe operation of oil and gas producing properties.\n\nThe company's commercial stability is supported by significant relationships with major customers. For instance, Marathon Petroleum Corporation—a major customer and former subsidiary—accounted for 22% of MRO’s total commodity sales in 2023 and 2022, and 17% in 2021. Other key customers include Trafigura Groupe Pte. Ltd. and Valero Marketing and Supply.\n\n### Portfolio Management and Economic Analysis\nEconomic analysis is fundamental to Marathon Oil’s portfolio management, assisting in the evaluation of acquisitions, exploration, and the development of new reserves. The company manages a multi-basin portfolio and seeks to optimize its asset base to ensure long-term success. This strategic focus is supported by \"intentional human capital management,\" where leadership assesses the talent landscape and enterprise risks—including macro-environmental factors—to align workforce capabilities with business objectives.\n\n### Valuation Metrics and Financial Performance\nA critical aspect of Marathon Oil’s financial valuation involves the estimation of proved developed oil, condensate, natural gas liquids (NGLs), and natural gas reserves. These estimates require significant judgment by management and the use of specialists, such as petroleum engineers and geoscientists. These reserves are essential for determining the value of oil and gas properties and are a primary focus for internal and external audits.\n\nAs of December 31, 2023, the company reported the following financial metrics:\n*   **Total Revenues and Other Income:** $6,697 million for 2023 (compared to $8,036 million in 2022).\n*   **Net Income:** $1,554 million in 2023.\n*   **Cash and Cash Equivalents:** $155 million.\n*   **Total Assets:** $19,575 million.\n\n### Capital Allocation and Shareholder Returns\nMarathon Oil’s Board of Directors oversees capital allocation, including the payment of dividends and share repurchases. The dividend policy is based on the company’s financial condition and results of operations. Additionally, the company maintains an active share repurchase program; as of December 31, 2023, approximately $2.3 billion in authorization remained for future stock repurchases.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 3239,
+   "context_length": 83228,
+   "context": {
+    "entities": 51,
+    "relations": 60,
+    "chunks": 6,
+    "rerank_candidates": 134,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Economic Analysis",
+     "Marathon Petroleum Corporation",
+     "Terminal Growth Rate",
+     "Valuation Professionals",
+     "Price Risk",
+     "Strategic Investment Portfolio",
+     "Financial Condition",
+     "Market Share",
+     "Future Cash Flow",
+     "Pipeline Development",
+     "Business Considerations",
+     "Commercial Building",
+     "Data Analytics Provider",
+     "Actuarial And Portfolio Modeling",
+     "Data Analytics"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6789,
+      "text": "2021 Percentage of Total Commodity Sales Marathon Petroleum Corporation 22 % 22 % 17 % Trafigura Groupe Pte. Ltd. 12 % 10 % N/A Valero Marketing and Supply 11 % 12 % 10 % 12 Table of Contents Gross Delivery Commitments We have commitments to customers to deliver gross quantities of crude oil and condensate and natural gas under a variety of contracts. As of December 31, 2023, the contracts for fix"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4943,
+      "text": "GLs and natural gas reserves have been developed by specialists, specifically petroleum engineers and geoscientists. The principal considerations for our determination that performing procedures relating to the impact of proved developed oil and condensate, NGLs and natural gas reserves on proved oil and natural gas properties, net is a critical audit matter are (i) the significant judgment by man"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7128964174619202,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8282
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:13:33.779587",
+   "duration_ms": 10421,
+   "answer": "I do not have enough information to answer this query. The provided context does not contain any data or documents regarding Marathon Oil (MRO), its economic analysis, portfolio management strategies, competitive positioning, or valuation metrics.\n\nAs my instructions strictly require that I only use information from the provided document chunks and reference list, I am unable to synthesize a response on this topic without the necessary source material.\n\n### References",
+   "answer_length": 472,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:13:57.295471",
+   "duration_ms": 23516,
+   "answer": "Marathon Oil Corporation (MRO) employs a disciplined **Capital Allocation Framework** designed to maximize shareholder returns while maintaining operational resilience through various commodity price cycles. This strategy prioritizes returning leading cash amounts to shareholders, exercising reinvestment discipline, retiring outstanding debt, and replenishing inventory. For the 2024 fiscal year, the company announced a capital budget of $1.9 billion to $2.1 billion focused on free cash flow generation. The company also utilizes advanced **Economic Analysis** for portfolio management and decision-making, evaluating the viability of its crude oil, condensate, NGLs, and natural gas reserves through **Discounted Future Net Cash Flows**.\n\nThe company’s portfolio is primarily concentrated in high-quality U.S. resource plays, including the **Eagle Ford** (Texas), **Bakken** (North Dakota), **STACK/SCOOP** (Oklahoma), and **Permian Basin** (New Mexico and Texas). These U.S. assets are complemented by international operations in Equatorial Guinea (E.G.), which include the production of LNG and methanol. A significant strategic addition to the portfolio occurred in December 2022, when Marathon Oil acquired approximately 130,000 net acres in the Eagle Ford play from Ensign for $3.0 billion. The management of these assets is supported by a \"common asset team\" structure that facilitates knowledge sharing and talent deployment across basins.\n\nIn terms of competitive positioning, Marathon Oil operates in a highly intensive industry, competing with major integrated companies, independent producers, and national oil companies. Competition focuses on the acquisition of leases, exploration and development of new reserves, and securing the labor and equipment necessary for production. The company leverages several principal methods to maintain its market position, including geological and engineering research, technological innovation, and expert economic analysis. Its customer base is concentrated, with **Marathon Petroleum Corporation** accounting for 22% of total commodity sales in 2023 and 2022. Other significant customers include Trafigura Groupe Pte. Ltd. and Valero Marketing and Supply.\n\nValuation and financial health are assessed through a variety of metrics and independent audits. As of December 31, 2023, Marathon Oil reported $4.1 billion in cash from operations. Valuation professionals and specialized experts utilize metrics such as the **EBITDA market multiple**, **Terminal Growth Rate**, and **Discount Rate** to estimate the fair value of reporting units and intangible assets. To ensure the integrity of its reserve estimates, the company's **Corporate Reserves Group** oversees evaluations, which are further audited by third-party firms such as **Ryder Scott Company** and **Netherland, Sewell & Associates, Inc.** Additionally, the company is focused on debt reduction, having repaid $501 million of long-term debt in 2023, and continues to execute an active share repurchase program, which had approximately $2.3 billion in remaining authorization as of late 2023.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 3183,
+   "context_length": 132601,
+   "context": {
+    "entities": 67,
+    "relations": 168,
+    "chunks": 10,
+    "rerank_candidates": 155,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Discounted Future Net Cash Flows",
+     "Economic Analysis",
+     "Investment",
+     "Marathon Petroleum Corporation",
+     "Corporate Reserves Group",
+     "Terminal Growth Rate",
+     "Exploration And Drilling Costs",
+     "Valuation Professionals",
+     "Capital Allocation Process",
+     "Price Risk",
+     "Manager of Corporate Reserves",
+     "Strategic Investment Portfolio",
+     "Marathon Oil EF II LLC",
+     "Financial Condition",
+     "MPC Investment LLC"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6789,
+      "text": "2021 Percentage of Total Commodity Sales Marathon Petroleum Corporation 22 % 22 % 17 % Trafigura Groupe Pte. Ltd. 12 % 10 % N/A Valero Marketing and Supply 11 % 12 % 10 % 12 Table of Contents Gross Delivery Commitments We have commitments to customers to deliver gross quantities of crude oil and condensate and natural gas under a variety of contracts. As of December 31, 2023, the contracts for fix"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7366637312349024,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9342
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:14:22.654817",
+   "duration_ms": 25359,
+   "answer": "Marathon Oil Corporation (MRO) utilizes a comprehensive capital allocation framework and advanced economic analysis to drive its portfolio management and operational decisions. The company's primary strategy is to deliver sustainable, long-term cash returns to shareholders that remain resilient across various commodity price cycles. This is achieved by limiting capital expenditures relative to cash flow from operations, prioritizing shareholder returns, and maintaining reinvestment discipline. For 2024, Marathon Oil announced a capital budget of $1.9 billion to $2.1 billion, specifically designed to prioritize free cash flow generation and debt retirement.\n\n### Portfolio Management and Economic Analysis\nMarathon Oil manages its portfolio by focusing on high-quality U.S. resource plays, including the **Eagle Ford** (Texas), **Bakken** (North Dakota), **STACK/SCOOP** (Oklahoma), and **Permian** (New Mexico and Texas). These domestic assets are complemented by international operations in **Equatorial Guinea (E.G.)**. The company employs economic analysis as a primary method for portfolio management, evaluating the economic viability of its crude oil, condensate, NGLs, and natural gas reserves through metrics such as **Discounted Future Net Cash Flows**. Additionally, a common asset team structure is utilized to drive knowledge sharing and efficiency gains across these diverse operating regions.\n\n### Competitive Positioning\nMarathon Oil operates in a highly competitive environment, vying with major integrated oil companies, independent producers, and national oil companies. Competition extends to the acquisition of leases, exploration for new reserves, and the marketing of production into global commodity markets. The company maintains its competitive edge through:\n*   **Technical Expertise:** Utilizing geological, geophysical, and engineering research and technology.\n*   **Operational Excellence:** Focusing on safe operations and specialized skill in reservoir engineering.\n*   **Strategic Partnerships:** Its customer base is concentrated, with **Marathon Petroleum Corporation** accounting for 22% of total commodity sales in 2023 and 2022. Other significant customers include Trafigura Groupe Pte. Ltd. and Valero Marketing and Supply.\n\n### Reserve Valuation and Estimation Metrics\nThe estimation of proved reserves is a technical process overseen by the **Corporate Reserves Group (CRG)** and the Manager of Corporate Reserves. Valuation metrics and methodologies include:\n*   **SEC Pricing:** Proved reserves are determined using an unweighted average of commodity prices from the prior 12-month period, based on the first-day-of-the-month closing prices.\n*   **Estimation Methodologies:** These include decline curve analysis, reservoir simulation, statistical analysis of production performance, and volumetric analysis.\n*   **Independent Audits:** To ensure accuracy, Marathon Oil engages third-party consultants such as **Ryder Scott Company** and **Netherland, Sewell & Associates, Inc. (NSAI)**. The company’s policy requires auditing at least 70% of its total proved reserves annually; in 2023, 87% of total reserves were audited.\n\n### Financial Performance and Valuation\nIn 2023, Marathon Oil reported a net income of $1,554 million and generated $4,087 million in net cash from operating activities. Under its disciplined capital allocation framework, the company repurchased approximately $1.5 billion in shares and repaid $501 million of long-term debt during the year. These actions reflect a management strategy focused on reducing the outstanding share count and strengthening the balance sheet while navigating supply chain disruptions and inflationary pressures that have persisted since the COVID-19 pandemic.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 3837,
+   "context_length": 131251,
+   "context": {
+    "entities": 67,
+    "relations": 167,
+    "chunks": 10,
+    "rerank_candidates": 157,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Discounted Future Net Cash Flows",
+     "Economic Analysis",
+     "Investment",
+     "Marathon Petroleum Corporation",
+     "Discounted Cash Flow Models",
+     "Terminal Growth Rate",
+     "Corporate Reserves Group",
+     "Valuation Professionals",
+     "External Industry And Market Data",
+     "Price Risk",
+     "Comparable Public Company Multiples",
+     "Strategic Investment Portfolio",
+     "Exploration And Drilling Costs",
+     "Financial Condition",
+     "Fair Value Estimates"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6789,
+      "text": "2021 Percentage of Total Commodity Sales Marathon Petroleum Corporation 22 % 22 % 17 % Trafigura Groupe Pte. Ltd. 12 % 10 % N/A Valero Marketing and Supply 11 % 12 % 10 % 12 Table of Contents Gross Delivery Commitments We have commitments to customers to deliver gross quantities of crude oil and condensate and natural gas under a variety of contracts. As of December 31, 2023, the contracts for fix"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9142857142857143,
+    "answer_relevancy": 0.7296501197811507,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.911
+   }
+  }
+ }
+}

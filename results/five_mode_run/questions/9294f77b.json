@@ -1,0 +1,197 @@
+{
+ "question_id": "9294f77b",
+ "ticker": "CE",
+ "question": "Constellation Energy (CE) focuses on clean energy market policy positioning.",
+ "expected_answer": "The available information clearly indicates that Constellation Energy Corporation is well-positioned to capitalize on policy changes and market shifts toward cleaner energy alternatives. The company’s fleet, which comprises nuclear, hydro, wind, and solar generation, enables it to produce nearly 90% carbon‐free energy, positioning it as a leader in supporting both aggressive carbon-reduction targets and the broader transition to a low-carbon economy. This strong position is reinforced by several factors:\n\n1. Capacity and Scale: With over 33,094 megawatts of capacity, the company is not only one of the largest producers of carbon-free energy in the U.S. but also capable of powering the equivalent of 16 million homes. This scale allows it to absorb policy-driven demand increases and new market opportunities efficiently.\n\n2. Diverse Energy Portfolio: The diversified mix of generation sources minimizes regulatory and operational risk. The heavy reliance on carbon-free sources such as nuclear and renewable energy makes Constellation an attractive partner in regions and markets where governments and industries are increasingly prioritizing clean energy solutions.\n\n3. Market and Policy Alignment: With nearly 10 percent of the nation’s carbon-free energy in its portfolio, the company can support state, federal, and local initiatives aimed at reducing carbon emissions. Its leadership in carbon-free energy is particularly advantageous as both policy and market trends continue to favor renewable and sustainable energy practices.\n\n4. Customer Base: Serving a significant portion of Fortune 100 companies and a wide geographic footprint (48 states, the District of Columbia, Canada, and the United Kingdom) means the company is well integrated into markets that are likely to be early adopters of advanced carbon-reduction and clean energy policies.\n\nOverall, the data suggest that Constellation Energy Corporation is very well-positioned to benefit from the ongoing transition to cleaner energy, supported by robust infrastructure, a diverse energy generation portfolio, and a strong market presence that aligns well with emerging policy trends.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1490,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:06:37.194645",
+   "duration_ms": 14653,
+   "answer": "I do not have enough information in the provided context to answer your query regarding Constellation Energy (CE) and its focus on clean energy market policy positioning. The information provided focuses on other organizations, business segments, and energy-related initiatives.\n\nSpecifically, the context includes details about Honeywell's \"Energy and Sustainability Solutions\" segment, Cintas’ \"Climate and Energy Initiatives,\" and various environmental regulations such as the Greenhouse Gas Reporting Program and the Inflation Reduction Act (IRA). There is no mention of Constellation Energy or its specific market policy strategies in the provided data.\n\n### References\n\n* I do not have enough information to provide references for this specific query.",
+   "answer_length": 757,
+   "context_length": 30193,
+   "context": {
+    "entities": 60,
+    "relations": 85,
+    "chunks": 0,
+    "rerank_candidates": 46,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Energy And Sustainability Solutions",
+     "Energy And Specialized Markets",
+     "Energy and Sustainability Solutions",
+     "Ensign Natural Resources",
+     "Quantum Resources Management",
+     "Energy Usage Efficiency",
+     "Clean Energy Investments",
+     "Consolidated Investments Engineered Materials",
+     "Corporate Health, Environment, Safety And Security Organization",
+     "Common Sense Solutions, Inc.",
+     "United States Energy Information Agency",
+     "Advanced Energy Storage Systems",
+     "U.S. Department Of Energy",
+     "Renewable Energy Use",
+     "State of Minnesota Department of Commerce"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:07:08.541126",
+   "duration_ms": 31346,
+   "answer": "I do not have enough information to answer this query. The provided context does not contain information regarding Constellation Energy (CE) or its clean energy market policy positioning.",
+   "answer_length": 187,
+   "context_length": 45533,
+   "context": {
+    "entities": 48,
+    "relations": 60,
+    "chunks": 0,
+    "rerank_candidates": 131,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Renewable Energy",
+     "Transition Risk",
+     "Automobile Industry",
+     "Company",
+     "Demand For Solutions",
+     "Energy Transition Driven By Climate Change",
+     "Climate Change",
+     "Energy Transition",
+     "Fuel And Energy Industry",
+     "Health Care And Energy Efficiency Standards",
+     "Honeywell Building Technologies",
+     "Engineered Materials",
+     "Global Marketplace Presence",
+     "Renewable Energy Use",
+     "Energy Efficiency"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.1667
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:07:12.788588",
+   "duration_ms": 4247,
+   "answer": "I do not have enough information to answer your query. The provided context does not contain any details regarding Constellation Energy (CE) or its clean energy market policy positioning.",
+   "answer_length": 187,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:07:49.376504",
+   "duration_ms": 36588,
+   "answer": "I do not have enough information to answer this query. The provided context does not contain any information regarding **Constellation Energy (CE)** or its focus on clean energy market policy positioning.\n\nThe available information focuses on other organizations and their respective energy and sustainability initiatives. For example:\n*   **Honeywell International Inc.** operates a segment called **Energy and Sustainability Solutions**, which focuses on the global **Energy Transition** and the development of sustainable technologies such as **Advanced Energy Storage Systems**.\n*   **Celanese Corporation** utilizes **Solar Energy** at its Clear Lake facility and manages an **Engineered Materials** segment that responds to environmental considerations and customer demand for sustainable products.\n*   **Marathon Oil** and **Marathon Petroleum Corporation** address **Climate Change Regulations**, greenhouse gas emissions, and competition from **Alternative Energy Industries**.\n*   **Cintas** implements **Climate and Energy Initiatives** to improve energy efficiency and reduce its carbon footprint.\n\nBecause Constellation Energy is not mentioned in the provided Knowledge Graph or Document Chunks, I cannot provide details on its specific market policy positioning.\n\n### References\n\n(No references are available for the requested entity.)",
+   "answer_length": 1349,
+   "context_length": 59365,
+   "context": {
+    "entities": 68,
+    "relations": 136,
+    "chunks": 0,
+    "rerank_candidates": 166,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Energy And Sustainability Solutions",
+     "Renewable Energy",
+     "Energy And Specialized Markets",
+     "Transition Risk",
+     "Energy and Sustainability Solutions",
+     "Automobile Industry",
+     "Ensign Natural Resources",
+     "Company",
+     "Quantum Resources Management",
+     "Demand For Solutions",
+     "Energy Usage Efficiency",
+     "Energy Transition Driven By Climate Change",
+     "Clean Energy Investments",
+     "Climate Change",
+     "Consolidated Investments Engineered Materials"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2188
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:08:32.696773",
+   "duration_ms": 43320,
+   "answer": "I do not have enough information to answer your query regarding Constellation Energy (CE). The provided context does not contain any information about an organization named Constellation Energy, nor does it mention its specific focus on clean energy market policy positioning.\n\nThe context primarily provides information on the sustainability and energy strategies of other entities, such as Honeywell International Inc., Marathon Oil Corporation, and Celanese Corporation. For instance, Honeywell focuses on the energy transition megatrend and sustainability solutions, while Marathon Oil addresses greenhouse gas emissions and transition risks. However, no data regarding Constellation Energy is available in the Knowledge Graph or Document Chunks provided.",
+   "answer_length": 759,
+   "context_length": 58000,
+   "context": {
+    "entities": 62,
+    "relations": 137,
+    "chunks": 0,
+    "rerank_candidates": 166,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Energy And Sustainability Solutions",
+     "Renewable Energy",
+     "Energy And Specialized Markets",
+     "Transition Risk",
+     "Energy and Sustainability Solutions",
+     "Automobile Industry",
+     "Ensign Natural Resources",
+     "Company",
+     "Quantum Resources Management",
+     "Demand For Solutions",
+     "Energy Usage Efficiency",
+     "Energy Transition Driven By Climate Change",
+     "Clean Energy Investments",
+     "Climate Change",
+     "Consolidated Investments Engineered Materials"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  }
+ }
+}

@@ -1,0 +1,465 @@
+{
+ "question_id": "c520d0e9",
+ "ticker": "BIIB",
+ "question": "Impact of Biogen's DEI on comp. pos. and risk profile, BIIB.",
+ "expected_answer": "Biogen's focus on diversity, equity, and inclusion is reflected in several key metrics. For instance, as of December 31, 2023, 31.2% of its manager-level and above positions in the U.S. were held by ethnic or racial minorities, and 48.6% of its positions at the director-level and above globally were held by women. Furthermore, Biogen invests in global training initiatives such as the GlobeSmart® tool to enhance cross-cultural collaboration and leadership accountability. These efforts can strengthen the company’s talent pipeline, promote innovative decision-making, and enhance brand reputation, ultimately contributing to competitive positioning and reducing operational risks that could arise from talent and market challenges.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 3287,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:56:38.206003",
+   "duration_ms": 29340,
+   "answer": "Biogen integrates Diversity, Equity, and Inclusion (DE&I) as a core component of its long-term global strategy and Environmental, Social, and Governance (ESG) framework. The company maintains a strict stance that prejudice, racism, and intolerance are unacceptable, applying DE&I principles across recruitment, hiring, promotion, and development practices. As of December 31, 2023, Biogen reported that 31.2% of its U.S. manager-level and above positions were held by ethnic or racial minorities, while 48.6% of director-level and above positions globally were held by women.\n\n### Impact on Competitive Position\nBiogen’s commitment to DEI is a primary driver of its status as an \"employer of choice,\" which is essential for attracting and retaining high-caliber talent in a highly dynamic labor market. The company has received significant recognition for its inclusive environment, scoring 100% on the Disability Equality Index for six consecutive years and being recognized as a \"Best Place to Work for LGBTQ+ Equality\" by the Human Rights Campaign for ten consecutive years. \n\nTo maintain this competitive edge, Biogen invests in various talent pipeline and leadership programs, such as the Women’s Leadership Program and The Partnership, Inc.'s BioDiversity Fellows Program. The latter is specifically designed to bolster the talent pipeline with a diverse mix of high-potential, mid-career, and underrepresented minority leaders. Additionally, Employee Resource Networks (ERNs) like Mosaic, AccessAbility, and the Women’s Innovation Network foster cross-cultural collaboration and networking, which the company believes strengthens its global competency and innovation.\n\n### Integration with Compensation and Performance\nBiogen actively ties its DEI and ESG objectives to financial and performance incentives. A portion of compensation for both executive officers and general employees is linked to the advancement of the company's ESG efforts. Furthermore, the company maintains a \"pay equity\" philosophy, aiming to provide equal pay for equal work by analyzing compensation through the lens of role, market data, internal equity, and individual performance. Regular reviews and training are implemented to identify and prevent bias in hiring and compensation decisions.\n\n### Risk Profile and Reputation Management\nFrom a risk management perspective, DEI is categorized under the broader umbrella of ESG risks. Biogen acknowledges that failure to manage DEI matters in a way that meets the rapidly changing expectations of investors, regulators, and society can negatively impact its corporate reputation and business. \n\nReputation is a critical factor in Biogen’s risk profile, as the company’s revenue is dependent on maintaining a positive standing among patients and healthcare providers. The inability to manage these social expectations is viewed as a strategic risk that could affect stakeholder interest and the company's overall business model. To mitigate these risks, the Board of Directors and the Executive Committee annually review the ESG strategy, including DEI-specific goals and leadership accountability measures.\n\n### References\n\n- [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 3191,
+   "context_length": 108482,
+   "context": {
+    "entities": 60,
+    "relations": 172,
+    "chunks": 10,
+    "rerank_candidates": 46,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Diversity, Equity And Inclusion",
+     "Biogen",
+     "Diversity, Equity, and Inclusion (DE&I)",
+     "Global Biogen Biosimilars Unit",
+     "Diversity, Equity, and Inclusion (DEI)",
+     "Diversity, Equity & Inclusion",
+     "Biogen Therapeutics Inc.",
+     "Diversity, Equity, and Inclusion",
+     "Diversity, Equity, And Inclusion (DEI)",
+     "Diversity, Equity, And Inclusion (Dei)",
+     "Biogen Inc. 2017 Omnibus Equity Plan",
+     "Biogen Inc",
+     "Rachid Izzar",
+     "Diversity, Equity, And Inclusion",
+     "Diversity and Inclusion Framework"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4362,
+      "text": "3.1 to our Current Report on Form 8-K filed on December 12, 2023. 4.1 Second Supplemental Indenture, dated April 30, 2020, between Biogen Inc. and U.S. Bank National Association, including the forms of Global Notes attached as Exhibit A and Exhibit B, respectively, thereto. Filed as Exhibit 4.2 to our Current Report on Form 8-K filed on April 30, 2020. 4.2 Reference is made to Exhibit 3.1 for a de"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7057749808188526,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8639
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:57:10.432696",
+   "duration_ms": 32227,
+   "answer": "Biogen Inc. views Diversity, Equity, and Inclusion (DE&I) as a core component of its long-term global strategy and human capital management. The company integrates these principles into its recruitment, promotion, and retention practices to build talent and strengthen leadership. As of December 31, 2023, 31.2% of Biogen's manager-level and above positions in the U.S. were held by ethnic or racial minorities, and 48.6% of director-level and above positions globally were held by women.\n\n### Impact on Competitive Position\nBiogen utilizes its DE&I initiatives to maintain its status as an \"employer of choice,\" which is essential for attracting and retaining high-caliber talent in a dynamic labor market. The company has received several industry recognitions for its inclusive environment, including:\n*   Scoring 100% on the **Disability Equality Index** for six consecutive years.\n*   Being recognized as a **Best Place to Work for LGBTQ+ Equality** by the Human Rights Campaign for ten consecutive years.\n*   Implementing specialized leadership programs such as the **Women’s Leadership Program**, **BioDiversity Fellows Program**, and **Emerging Leaders** to bolster its talent pipeline.\n\nTo further its competitive edge, Biogen employs tools like GlobeSmart® to enhance cross-cultural collaboration and cultural agility among its global teams. These efforts are intended to improve health outcomes for underserved communities and foster a workplace empowered to deliver on the company’s mission.\n\n### Integration into Risk Profile\nFrom a risk management perspective, Biogen identifies the management of DE&I and broader Environmental, Social, and Governance (ESG) matters as a significant factor in its reputation and business stability. The company's **Enterprise Risk Management (ERM)** framework ensures that these social goals are integrated into the overall business strategy. Biogen acknowledges that failure to meet the \"rapidly changing expectations\" of investors, regulators, and customers regarding DE&I could negatively impact its reputation and business operations.\n\n### Accountability and Compensation\nTo ensure progress on these initiatives, Biogen ties a portion of employee and executive officer compensation directly to the advancement of its ESG efforts, including DE&I. This structural alignment ensures that leadership is held accountable for fostering an inclusive workplace and achieving the company's long-term social objectives. Additionally, the Board of Directors annually reviews the company's ESG strategy and succession plans for executives to ensure long-term business continuity.\n\n### References\n\n- [1] BIOGEN INC. Period: December 31, 2023",
+   "answer_length": 2679,
+   "context_length": 101425,
+   "context": {
+    "entities": 36,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 109,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen",
+     "Drug Price Negotiation",
+     "Risk Factors",
+     "Biopharmaceutical Industry",
+     "Competitive Market Entry",
+     "Biogen Inc",
+     "Environmental, Social And Governance",
+     "Social Media",
+     "Judicial Decisions",
+     "Future Cash Flow",
+     "Generic And Biosimilar Competition",
+     "Biotechnology Market Sentiment",
+     "Investment Portfolio",
+     "Middle East Military Conflict",
+     "Competition"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7177233484237372,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8669
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:57:20.777816",
+   "duration_ms": 10345,
+   "answer": "Biogen Inc. leverages Diversity, Equity, and Inclusion (DEI) as a strategic component to enhance its competitive positioning and stabilize its risk profile. The company’s DEI strategy is designed to build talent, strengthen leadership, and improve health outcomes for underserved communities, which ultimately supports its reputation as an employer of choice and its ability to attract high-caliber talent in a dynamic labor market.\n\n### Impact on Competitive Position\n\nBiogen’s commitment to DEI significantly bolsters its competitive edge by fostering a diverse and agile workforce. The company has been consistently recognized for its inclusive culture, achieving a 100% score on the Disability Equality Index for six consecutive years and being named a \"Best Place to Work for LGBTQ+ Equality\" for ten consecutive years. These accolades help the company attract and retain the \"highest caliber\" employees necessary for innovation.\n\nTo further its global competitiveness, Biogen utilizes tools such as GlobeSmart® to enhance cross-cultural collaboration and cultural agility among its global teams. The company also invests in several talent development programs aimed at various demographics to ensure a robust internal pipeline, including:\n*   **The BioDiversity Fellows Program:** Focused on underrepresented minorities in mid-career roles.\n*   **Women’s Leadership Program and Women on the Rise:** Addressing unique challenges for female leaders to increase their influence.\n*   **Employee Resource Networks (ERNs):** Groups like Mosaic, ReachOUT, and AccessAbility provide networking and development opportunities that foster a sense of belonging and community.\n\n### Impact on Risk Profile and Mitigation\n\nFrom a risk management perspective, Biogen’s DEI initiatives serve to mitigate operational and reputational risks. The company’s philosophy on **pay equity** is a central pillar; it conducts regular reviews of compensation practices to ensure equal pay for equal work and implements measures to interrupt and prevent bias in hiring and performance management. This reduces the risk of legal challenges and internal dissatisfaction related to compensation.\n\nSuccession planning is another critical risk mitigation tool. Biogen conducts annual talent reviews across the global enterprise and ensures the Board of Directors reviews executive succession plans to maintain long-term business continuity. Furthermore, the company integrates \"Human Performance\" into its Environment, Health, and Safety programs, encouraging proactive problem-solving and risk conversations to reduce the likelihood of serious workplace injuries or fatalities. By utilizing employee surveys and analytics, Biogen also monitors workforce sentiment to maintain its reputation and address cultural issues before they escalate.\n\n### References\n\n- [1] BIOGEN INC. Document Title: BIIB.html (Period: December 31, 2023)",
+   "answer_length": 2902,
+   "context_length": 19114,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 3,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.7068965517241379,
+    "answer_relevancy": 0.8346010336266131,
+    "context_recall": 0.25,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6979
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:57:57.530035",
+   "duration_ms": 36752,
+   "answer": "Biogen integrates Diversity, Equity, and Inclusion (DE&I) as a fundamental pillar of its long-term global strategy and competitive positioning. By fostering an inclusive environment, the company aims to attract and retain high-caliber talent, which is essential in the highly competitive biopharmaceutical market. Biogen has established a diverse leadership pipeline, reporting that as of December 31, 2023, approximately 31.2% of manager-level positions in the U.S. were held by ethnic or racial minorities, and 48.6% of director-level and above roles globally were held by women. The company further strengthens its global competency through specialized tools and DE&I-specific training for managers to enhance cross-cultural collaboration and cultural agility.\n\nFrom a competitive standpoint, Biogen’s commitment to DE&I has earned it significant recognition as an \"employer of choice.\" These accolades include a 100% score on the Disability Equality Index for six consecutive years and a 100% score on the Human Rights Campaign’s Corporate Equality Index for LGBTQ+ equality for ten consecutive years. Specialized leadership programs, such as the BioDiversity Fellows Program, the Women’s Leadership Program, and the \"Women on the Rise\" initiative, are designed to bolster the talent pipeline and address unique challenges faced by underrepresented leaders. Additionally, Biogen's DE&I strategy includes efforts to improve health outcomes for underserved communities in the disease areas it treats, aligning its business objectives with broader societal health equity goals.\n\nRegarding its risk profile, DE&I is managed as a core component of Biogen’s broader Environmental, Social, and Governance (ESG) strategy, with oversight from the Board of Directors and the Executive Committee. To ensure accountability, the company ties a portion of compensation for executive officers and employees to the advancement of ESG efforts. Biogen acknowledges that failure to manage ESG and DE&I matters in accordance with the rapidly changing expectations of investors, regulators, and society poses a significant reputational risk that could negatively impact the business. Furthermore, DE&I is integrated into annual talent reviews and succession planning to mitigate leadership continuity risks and ensure the organization remains resilient and capable of long-term growth.\n\n### References\n\n* [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 2421,
+   "context_length": 121741,
+   "context": {
+    "entities": 49,
+    "relations": 175,
+    "chunks": 10,
+    "rerank_candidates": 149,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen",
+     "Biogen Inc",
+     "Drug Price Negotiation",
+     "Marketed Product Revenue",
+     "Future Cash Flow",
+     "Biogen Therapeutics Inc.",
+     "Multiple Sclerosis (MS) Business",
+     "EMD Serono",
+     "Organization",
+     "Novartis AG",
+     "United States",
+     "Multiple Sclerosis",
+     "BIIB104",
+     "Judicial Decisions",
+     "Sanofi Genzyme"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.6990649964640401,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8498
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:58:45.879925",
+   "duration_ms": 48350,
+   "answer": "Biogen integrates Diversity, Equity, and Inclusion (DE&I) as a core component of its global strategy to foster an inclusive workplace environment and drive business performance. The company’s DE&I framework is designed to strengthen internal awareness and resources, ensuring that employees across various backgrounds can contribute to an equitable workplace. This commitment is overseen by the Board of Directors, which annually reviews the company's Environmental, Social, and Governance (ESG) strategy.\n\n### Impact on Competitive Position\nBiogen’s DE&I initiatives serve as a critical tool for talent recruitment and retention in a \"highly dynamic labor market.\" By establishing itself as an \"employer of choice,\" the company enhances its competitive edge in attracting high-caliber professionals. Biogen has received significant recognition for its inclusive policies, including a 100% score on the Disability Equality Index for six consecutive years and being named a \"Best Place to Work for LGBTQ+ Equality\" by the Human Rights Campaign for a decade.\n\nThe company further bolsters its competitive standing through specialized talent development programs aimed at building a diverse leadership pipeline. These include:\n*   **The Partnership, Inc.’s BioDiversity Fellows Program:** A collaboration designed to develop high-potential, mid-career, and underrepresented minority leaders.\n*   **Women’s Leadership Programs:** Initiatives such as \"Women on the Rise\" address unique challenges faced by female leaders to increase their influence and impact within the organization.\n*   **Employee Resource Networks (ERNs):** Groups like *Mosaic* (cultural awareness) and the *Women’s Innovation Network* facilitate networking, mentoring, and knowledge sharing, which helps maintain a collaborative and innovative workforce.\n\n### Impact on Risk Profile\nFrom a risk management perspective, Biogen views the effective handling of DE&I and broader ESG matters as essential to maintaining its corporate reputation. The company acknowledges that failure to meet the rapidly changing expectations of investors, regulators, and society regarding these issues could result in material damage to its reputation and business operations. To mitigate these risks, Biogen has integrated DE&I progress into its corporate governance by tying a portion of employee and executive officer compensation to the advancement of ESG efforts.\n\nAdditionally, Biogen proactively manages legal and operational risks through a robust pay equity philosophy. The company conducts regular reviews of compensation practices to identify and prevent bias in hiring and performance management. By utilizing tools like GlobeSmart® to enhance cross-cultural collaboration and providing training on inclusive recruiting, Biogen aims to mitigate the risks associated with global operational fragmentation and ensure a cohesive, culturally agile workforce.\n\n### References\n\n* [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 2966,
+   "context_length": 123922,
+   "context": {
+    "entities": 55,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 153,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Diversity, Equity And Inclusion",
+     "Biogen",
+     "Drug Price Negotiation",
+     "Diversity, Equity, and Inclusion (DE&I)",
+     "Risk Factors",
+     "Global Biogen Biosimilars Unit",
+     "Biopharmaceutical Industry",
+     "Diversity, Equity, and Inclusion (DEI)",
+     "Competitive Market Entry",
+     "Biogen Therapeutics Inc.",
+     "Biogen Inc",
+     "Diversity, Equity, and Inclusion",
+     "Environmental, Social And Governance",
+     "Social Media",
+     "Diversity, Equity, And Inclusion (DEI)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9722222222222222,
+    "answer_relevancy": 0.7309317108576926,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9258
+   }
+  }
+ }
+}

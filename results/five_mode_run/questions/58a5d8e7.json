@@ -1,0 +1,453 @@
+{
+ "question_id": "58a5d8e7",
+ "ticker": "CTAS",
+ "question": "Cintas (CTAS) HCM's influence on comp. positioning & labor turnover risk.",
+ "expected_answer": "Cintas Corporation strategically invests in its human capital by implementing HR programs that ensure the safety, well-being, and inclusivity of its workforce. The company proactively attracts and retains talent with competitive pay and benefits, supports leadership development, and facilitates internal mobility. This approach not only prepares the company for critical roles but also creates a high-performing workforce of approximately 46,500 employees (with about 1,000 union-represented), thereby supporting sustained competitive positioning and mitigating risks associated with labor turnover.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 869,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:27:58.644581",
+   "duration_ms": 22954,
+   "answer": "Cintas Corporation (Cintas) approaches human capital management (HCM) through a culture that refers to its workforce as \"Employee-Partners.\" This designation is central to its strategy of fostering shared ownership and partnership in the company’s success. Cintas’ human capital objectives focus on attracting, retaining, and developing talent to execute its business strategy, with a particular emphasis on safety, inclusion, and professional growth.\n\n### Compensation Positioning and Strategy\nCintas utilizes a \"total rewards package\" to position its compensation competitively in the market. This strategy is specifically designed to attract, retain, and motivate employee-partners. The package includes:\n*   **Monetary Compensation:** Competitive base salaries, commissions, bonuses, and long-term incentives.\n*   **Health and Wellness:** Medical, dental, vision, prescription drug benefits, and insurance for accidents or critical illness.\n*   **Future Planning and Support:** Retirement savings plans and an employee-partner assistance program offering mental health, legal, and financial advice.\n\nThese programs may vary by position and country to maintain local competitiveness. The company also monitors management representation and utilizes a Senior Vice President of Human Resources and Chief Diversity Officer, who reports directly to the CEO, to ensure that workforce diversity goals are met as a critical component of corporate success.\n\n### Labor and Turnover Risks\nCintas identifies several significant risks related to labor and its human capital resources that could adversely affect its financial condition. Key risks include:\n*   **Cost Fluctuations:** Fluctuations in labor costs and increased medical costs are cited as factors that can materially impact consolidated results of operations.\n*   **Regulatory Compliance:** Failure to comply with government regulations concerning employee pay, benefits, health and safety, or employment discrimination poses a legal and financial risk.\n*   **Union Activities:** Costs and potential disruptions associated with union organizing activities are noted; currently, approximately 1,000 of Cintas’ 46,500 employee-partners are represented by labor unions.\n*   **Talent Competition:** The company faces intense competition for highly skilled employees. If Cintas fails to recruit and retain a diverse and talented workforce, its ability to grow and maintain operations could be compromised.\n\n### Mitigation through Development and Inclusion\nTo mitigate turnover and operational risks, Cintas invests heavily in talent development and inclusive culture. The company provides diverse training solutions, including classroom, hands-on, and e-learning, alongside mentoring and executive leadership programs to ensure a stable leadership pipeline. Furthermore, Cintas maintains six Employee-Partner Business Resource Groups (supporting Women, African Americans, Hispanic/Latin Americans, Asian American/Pacific Islanders, LGBTQ+, and Military/Veterans) to foster an inclusive environment that aids in the recruitment and retention of diverse talent.\n\n### References\n\n* [1] Cintas Corporation May 31, 2024 CTAS.html",
+   "answer_length": 3173,
+   "context_length": 90756,
+   "context": {
+    "entities": 60,
+    "relations": 72,
+    "chunks": 10,
+    "rerank_candidates": 46,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas Corp No. 2",
+     "Cintas Corporation Compensation Recoupment Policy",
+     "Peer Group",
+     "Cintas Corporation No. 2",
+     "Cintas' President And Chief Executive Officer",
+     "Cintas' Controllers",
+     "Cintas Code Of Conduct And Business Ethics",
+     "Talent Acquisition And Management",
+     "Cintas' Chief Financial Officer",
+     "Human Capital Resources",
+     "Cintas Corporate Website",
+     "Compensation Programs and Employee Benefits",
+     "Corporate Identity Uniforms",
+     "Talent Recruitment And Enrollments",
+     "CTAS"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6927,
+      "text": "inclusion by fostering a respectful, creative and productive environment where all employee-partners can reach their full potential without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status. We actively recruit, retain, develop and advance a diverse and talented workforce. We have six Employee-Partner Business Resourc"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6284,
+      "text": "to three fiscal years and $297.3 million in the next four to five fiscal years. Future contributions to the defined benefit plans are expected to be $5.1 million in the next fiscal year, $4.7 million in the next two to three fiscal years and $4.7 million in the next four to five fiscal years. Other Commitments Amount of Commitment Expiration per Period (In thousands) Total One year or less Two to "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6734,
+      "text": "in print to any shareholder who requests a copy by writing or calling Cintas as set forth on the Investor Information page under the FAQs. The content on any website referred to in this Annual Report on Form 10-K is not incorporated herein by reference unless expressly noted. Sustainability In fiscal 2024, Cintas published its fourth annual sustainability report and reported on Cintas’ continued s"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6607,
+      "text": "intas' ability to find qualified suppliers who meet its standards and to access products in a timely and efficient manner, is subject to ongoing market risks. For a discussion of the risks associated with sourcing that may materially impact Cintas, please see \" Item 1A: Risk Factors - Risks Relating to Business Strategy and Operations .\" Government Laws and Regulations Cintas is subject to a wide "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6791,
+      "text": "company; (2) provide reasonable assurance that transactions are recorded as necessary to permit preparation of consolidated financial statements in accordance with U.S. generally accepted accounting principles and that receipts and expenditures of the company are being made only in accordance with authorizations of management and directors of the company; and (3) provide reasonable assurance regar"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.7855043820223826,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9236
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:28:21.468740",
+   "duration_ms": 22824,
+   "answer": "Cintas (CTAS) views its human capital management (HCM) as a fundamental driver of its corporate strategy, specifically designed to attract, retain, and develop talent to maintain its market leadership. The company’s HCM objectives are centered on fostering a high-performing workforce through competitive compensation, an inclusive culture, and extensive internal mobility. As of May 31, 2024, Cintas employed approximately 46,500 employee-partners globally, emphasizing that the shared values and principles of these individuals are the primary force behind the company's accomplishments.\n\nThe company’s competitive positioning is heavily influenced by its corporate culture, which Cintas considers as essential as its physical products and services. This culture serves as a cornerstone for performance standards and dictates how employee-partners interact with one another and their customers. To sustain this advantage, Cintas invests heavily in talent development, offering continuous learning methodologies, management trainee programs, and executive leadership training. These programs are intended to ensure robust succession planning and to prepare employee-partners for critical leadership roles, thereby reinforcing the company's operational stability.\n\nLabor turnover and recruitment risks are addressed through a focus on safety, wellness, and competitive benefits. Cintas identifies a competitive hiring environment and rising labor costs—including healthcare benefits, minimum wage increases, and shortages of skilled labor—as potential threats to its financial performance. To mitigate these risks, the company utilizes competitive pay structures and comprehensive wellness programs, such as the \"Live Well\" initiative. Furthermore, Cintas maintains a rigorous focus on health and safety, achieving a recordable injury rate reduction of over 80% since 2008 and securing 128 OSHA Star sites, which supports employee retention by providing a safe and accountable work environment.\n\nStrategic human capital management also plays a critical role in Cintas' expansion and acquisition practices. While the company pursues growth through geographic expansion and the acquisition of other businesses, it acknowledges that the success of these efforts depends on its ability to effectively integrate new teams without disrupting significant business activities. Effective HCM allows Cintas to navigate these transitions by maintaining a \"highly talented and diverse team of service professionals\" who build deep customer relationships, which the company leverages to increase penetration in existing markets and broaden its customer base.\n\n### References\n\n* [1] Cintas Corporation\n\n\n\n\n\n\n\n\n",
+   "answer_length": 2696,
+   "context_length": 75094,
+   "context": {
+    "entities": 35,
+    "relations": 60,
+    "chunks": 5,
+    "rerank_candidates": 111,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Company",
+     "Human Capital Management",
+     "Competitive Hiring Environment",
+     "Key Personnel",
+     "Human Capital Resources",
+     "Honeywell International Inc.",
+     "Labor Costs",
+     "Board Of Directors",
+     "Honeywell",
+     "Human Capital",
+     "Marathon Oil",
+     "Financial Condition",
+     "Market Share",
+     "Verisk",
+     "Key Employees"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6734,
+      "text": "in print to any shareholder who requests a copy by writing or calling Cintas as set forth on the Investor Information page under the FAQs. The content on any website referred to in this Annual Report on Form 10-K is not incorporated herein by reference unless expressly noted. Sustainability In fiscal 2024, Cintas published its fourth annual sustainability report and reported on Cintas’ continued s"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7349,
+      "text": "plans and other ESG aspirations are not an indication that these statements are necessarily material to investors or required to be disclosed in our filings with the SEC. In addition, historical, current and forward-looking GHG-related and/or ESG-related statements may be based on standards for measuring progress that are still developing, internal controls and processes that continue to evolve an"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.851063829787234,
+    "answer_relevancy": 0.7845409013661806,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9089
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:28:43.123654",
+   "duration_ms": 21655,
+   "answer": "Cintas Corporation (Cintas) manages its human capital with the primary objectives of attracting, retaining, and developing talent to execute the company’s broader business strategy. As of May 31, 2024, Cintas employed a global workforce of approximately 46,500 employee-partners. The company’s human capital management (HCM) strategy is built on several pillars, including corporate culture, talent development, health and safety, and diversity, equity, and inclusion (DE&I).\n\n### Compensation Positioning\nCintas utilizes a \"total rewards package\" to position itself competitively in the labor market. This package is designed to attract, motivate, and retain employee-partners through a combination of financial and health-related incentives. Beyond competitive base salaries, the compensation structure includes:\n*   **Performance Incentives:** Commissions, bonuses, and long-term incentives.\n*   **Health and Wellness:** Medical, dental, vision, prescription drug benefits, and various insurance options (accident, life, disability, and critical illness).\n*   **Financial Security:** Retirement savings plans, health savings accounts, and flexible spending accounts.\n*   **Support Services:** An employee-partner assistance program offering advice on mental health, legal, and financial issues.\n\n### Mitigating Labor Turnover Risk\nTo mitigate the risk of labor turnover and ensure a high-performing workforce, Cintas emphasizes internal talent mobility and leadership development. The company provides extensive training through classroom, hands-on, and e-learning solutions. Specifically, Cintas maintains a Management Trainee program and executive leadership programs designed to build a leadership pipeline and facilitate succession planning.\n\nInclusion and safety also play critical roles in retention. Cintas fosters a diverse workforce through six Employee-Partner Business Resource Groups (focused on groups such as Women, African Americans, LGBTQ+, and Veterans) and a dedicated Chief Diversity Officer. Additionally, the company’s focus on a safe work environment—highlighted by 128 OSHA Star sites and an 80% reduction in recordable injury rates since 2008—is intended to keep employees healthy and engaged.\n\n### Labor-Related Risks\nWhile Cintas invests in its HCM programs, it identifies several labor-related risks that could adversely affect its financial performance. These include:\n*   **Cost Fluctuations:** Increases in labor costs, including medical expenses and inflationary pressures.\n*   **Organized Labor:** Although only about 1,000 employees are currently represented by unions, the company notes that union organizing activities and their associated costs represent a potential risk.\n*   **Regulatory Compliance:** Risks associated with failing to comply with government regulations regarding employment discrimination, employee pay, and health and safety standards.\n*   **External Economic Factors:** Sourcing or distribution costs and reactions from competitors regarding service and price can also impact the company's ability to manage its human capital effectively.\n\n### References\n\n* [1] Cintas Corporation May 31, 2024 CTAS.html",
+   "answer_length": 3163,
+   "context_length": 37820,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 6,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6927,
+      "text": "inclusion by fostering a respectful, creative and productive environment where all employee-partners can reach their full potential without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status. We actively recruit, retain, develop and advance a diverse and talented workforce. We have six Employee-Partner Business Resourc"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6734,
+      "text": "in print to any shareholder who requests a copy by writing or calling Cintas as set forth on the Investor Information page under the FAQs. The content on any website referred to in this Annual Report on Form 10-K is not incorporated herein by reference unless expressly noted. Sustainability In fiscal 2024, Cintas published its fourth annual sustainability report and reported on Cintas’ continued s"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6607,
+      "text": "intas' ability to find qualified suppliers who meet its standards and to access products in a timely and efficient manner, is subject to ongoing market risks. For a discussion of the risks associated with sourcing that may materially impact Cintas, please see \" Item 1A: Risk Factors - Risks Relating to Business Strategy and Operations .\" Government Laws and Regulations Cintas is subject to a wide "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9565217391304348,
+    "answer_relevancy": 0.6704413176647964,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9067
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:29:09.022549",
+   "duration_ms": 25899,
+   "answer": "At Cintas Corporation (CTAS), Human Capital Management (HCM) is a central strategic pillar designed to attract, develop, and retain a skilled workforce capable of executing the company’s long-term business goals. As of May 31, 2024, the company employed approximately 46,500 \"employee-partners\" globally. Cintas views its corporate culture—characterized by shared values, high performance standards, and a focus on relationship-building—as a primary competitive advantage that influences the quality of its hires and its ability to interact effectively with customers.\n\n### Influence on Competitive Positioning\nCintas leverages a comprehensive \"total rewards\" package to maintain its competitive position in a fragmented and highly local market. This compensation strategy is specifically designed to attract and motivate employee-partners through competitive base salaries, commissions, bonuses, and long-term incentives. Beyond direct pay, the package includes robust benefits such as retirement savings plans, medical and dental insurance, and an employee-partner assistance program.\n\nThe company’s focus on diversity, equity, and inclusion (DEI) also serves its competitive positioning. Led by a Senior Vice President of Human Resources and a Chief Diversity Officer who reports directly to the CEO, these initiatives focus on recruiting and advancing a diverse workforce to enhance creativity and productivity. Programs like the Management Trainee program and six Employee-Partner Business Resource Groups are utilized to build a leadership pipeline and ensure that the workforce reflects the company’s diverse customer base.\n\n### Labor Turnover and Recruitment Risks\nDespite its strategic focus on HCM, Cintas faces significant risks related to the labor market and turnover. A competitive hiring environment increases the difficulty and cost of recruiting and retaining key personnel, particularly those with critical technical skills. The company has identified several economic factors that can adversely affect its consolidated results of operations, including:\n\n*   **Rising Labor Costs:** Increases in wages, healthcare benefits, and minimum wage requirements directly impact profitability.\n*   **Labor Shortages:** Shortages of skilled labor can constrain Cintas’ ability to service its more than one million customers effectively.\n*   **Union Activities:** Costs and possible effects of union organizing activities are noted as potential disruptors to operations. \n*   **Macroeconomic Pressures:** Inflationary pressures have previously led to higher labor and transportation costs, which the company has had to mitigate through pricing and efficiency initiatives.\n\n### Talent Development and Risk Mitigation\nTo mitigate the risks of turnover and talent loss, Cintas emphasizes continuous development and internal mobility. The company provides wide-ranging training solutions, including classroom and e-learning, to help employee-partners achieve career goals. Succession planning is managed through executive leadership programs and mentoring to ensure business continuity if key leaders or personnel depart. Additionally, Cintas maintains a rigorous focus on health and safety, which has resulted in a significant reduction in injury rates, further supporting retention by providing a safer work environment.\n\n### References\n\n- [1] Cintas Corporation May 31, 2024 Form 10-K",
+   "answer_length": 3390,
+   "context_length": 133684,
+   "context": {
+    "entities": 45,
+    "relations": 168,
+    "chunks": 10,
+    "rerank_candidates": 142,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas Corp No. 2",
+     "Company",
+     "Peer Group",
+     "Human Capital Management",
+     "Cintas Corporation No. 2",
+     "Competitive Hiring Environment",
+     "Item 1: Business Overview",
+     "Key Personnel",
+     "Cintas' Chief Financial Officer",
+     "Human Capital Resources",
+     "Business Strategy And Operations",
+     "Board Of Directors",
+     "Cintas' President And Chief Executive Officer",
+     "Honeywell",
+     "Pricing And Efficiency Initiatives"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6927,
+      "text": "inclusion by fostering a respectful, creative and productive environment where all employee-partners can reach their full potential without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status. We actively recruit, retain, develop and advance a diverse and talented workforce. We have six Employee-Partner Business Resourc"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7290,
+      "text": "landscape and take a holistic view of cybersecurity risks, with a layered cybersecurity strategy based on prevention, detection and mitigation. We have a set of Company-wide policies and procedures concerning cybersecurity matters, which include numerous written information technology (IT) security policies, standards, procedures and guidelines as well as other policies that directly or indirectly"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6731,
+      "text": "and other taxes we collect on behalf of governmental authorities. Shipping and handling costs charged to customers are treated as fulfillment activities and are recorded in both revenue and cost of sales at the time control is transferred to the customer. Certain of our customer contracts include pricing terms and conditions that include components of variable consideration. The variable considera"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6284,
+      "text": "to three fiscal years and $297.3 million in the next four to five fiscal years. Future contributions to the defined benefit plans are expected to be $5.1 million in the next fiscal year, $4.7 million in the next two to three fiscal years and $4.7 million in the next four to five fiscal years. Other Commitments Amount of Commitment Expiration per Period (In thousands) Total One year or less Two to "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6734,
+      "text": "in print to any shareholder who requests a copy by writing or calling Cintas as set forth on the Investor Information page under the FAQs. The content on any website referred to in this Annual Report on Form 10-K is not incorporated herein by reference unless expressly noted. Sustainability In fiscal 2024, Cintas published its fourth annual sustainability report and reported on Cintas’ continued s"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7349,
+      "text": "plans and other ESG aspirations are not an indication that these statements are necessarily material to investors or required to be disclosed in our filings with the SEC. In addition, historical, current and forward-looking GHG-related and/or ESG-related statements may be based on standards for measuring progress that are still developing, internal controls and processes that continue to evolve an"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9852941176470589,
+    "answer_relevancy": 0.8561247618100912,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9604
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:29:33.969646",
+   "duration_ms": 24947,
+   "answer": "Cintas Corporation (Cintas) implements a strategic approach to Human Capital Management (HCM) that serves as a foundation for its competitive positioning and a mechanism to mitigate labor-related risks. Cintas refers to its workforce as \"employee-partners,\" a term that emphasizes shared ownership and dedication to the company's success. The core objectives of its HCM strategy are to attract, retain, and develop talent to deliver on the company’s broader business strategy, focusing specifically on safety, health, and a culture of inclusion.\n\n### Influence on Competitive Positioning\nCintas’ competitive advantage is heavily influenced by its culture and the quality of its workforce. The company views its culture as a \"cornerstone\" that dictates how employee-partners interact with customers and maintain performance standards. To maintain its market position against national and regional competitors, Cintas utilizes a comprehensive \"total rewards package\" designed to attract and motivate talent. This package includes competitive base salaries, commissions, bonuses, and extensive benefits such as retirement savings plans and various insurance options.\n\nThe company’s ability to deepen customer penetration—a key part of its business strategy—is directly tied to its \"highly talented and diverse team of service professionals.\" These partners have frequent contact with customers, allowing them to build strong personal relationships that provide a platform for launching additional products and services. Furthermore, Cintas invests in a leadership pipeline through its Management Trainee program and promotes diversity and inclusion via six Employee-Partner Business Resource Groups, which help recruit and retain a diverse workforce essential for long-term success.\n\n### Labor Turnover and Operational Risks\nCintas operates in a competitive hiring environment where shortages of skilled labor and rising labor costs pose significant risks to its financial performance. The company has identified several factors that could adversely affect its consolidated results of operations, including:\n*   **Labor Market Pressures:** Increases in minimum wages, labor shortages, and rising costs for healthcare benefits can escalate the cost of providing services.\n*   **Inflationary Impacts:** While management has historically mitigated inflationary pressures on labor and transportation through pricing and efficiency initiatives, continued inflation remains a risk to profitability.\n*   **Retention and Recruitment:** The inability to find and retain qualified personnel, particularly in a highly fragmented market with intense competition for talent, can hinder expansion efforts and operational efficiency.\n\n### Safety and Workforce Stability\nA significant component of Cintas’ HCM strategy is its commitment to health and safety, which directly impacts workforce stability and operational costs. By implementing an occupational health and safety management system and achieving 128 OSHA Star sites, Cintas has reduced its recordable injury rate by over 80% since 2008. These efforts are intended to provide a safe and accountable work environment, which helps maintain high morale and reduces the potential for disruptions caused by workplace injuries or labor relations issues.\n\n### References\n\n* [1] Cintas Corporation May 31, 2024 10-K",
+   "answer_length": 3348,
+   "context_length": 134600,
+   "context": {
+    "entities": 50,
+    "relations": 168,
+    "chunks": 10,
+    "rerank_candidates": 149,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Business Strategy And Operations",
+     "Company",
+     "Cintas Corp No. 2",
+     "Human Capital Management",
+     "Peer Group",
+     "Competitive Hiring Environment",
+     "Item 1: Business Overview",
+     "Key Personnel",
+     "Cintas' Chief Financial Officer",
+     "Human Capital Resources",
+     "Pricing And Efficiency Initiatives",
+     "Honeywell International Inc.",
+     "Cintas Corporation No. 2",
+     "Labor Costs",
+     "Cintas' President And Chief Executive Officer"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6927,
+      "text": "inclusion by fostering a respectful, creative and productive environment where all employee-partners can reach their full potential without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status. We actively recruit, retain, develop and advance a diverse and talented workforce. We have six Employee-Partner Business Resourc"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7290,
+      "text": "landscape and take a holistic view of cybersecurity risks, with a layered cybersecurity strategy based on prevention, detection and mitigation. We have a set of Company-wide policies and procedures concerning cybersecurity matters, which include numerous written information technology (IT) security policies, standards, procedures and guidelines as well as other policies that directly or indirectly"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6731,
+      "text": "and other taxes we collect on behalf of governmental authorities. Shipping and handling costs charged to customers are treated as fulfillment activities and are recorded in both revenue and cost of sales at the time control is transferred to the customer. Certain of our customer contracts include pricing terms and conditions that include components of variable consideration. The variable considera"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6284,
+      "text": "to three fiscal years and $297.3 million in the next four to five fiscal years. Future contributions to the defined benefit plans are expected to be $5.1 million in the next fiscal year, $4.7 million in the next two to three fiscal years and $4.7 million in the next four to five fiscal years. Other Commitments Amount of Commitment Expiration per Period (In thousands) Total One year or less Two to "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6734,
+      "text": "in print to any shareholder who requests a copy by writing or calling Cintas as set forth on the Investor Information page under the FAQs. The content on any website referred to in this Annual Report on Form 10-K is not incorporated herein by reference unless expressly noted. Sustainability In fiscal 2024, Cintas published its fourth annual sustainability report and reported on Cintas’ continued s"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7349,
+      "text": "plans and other ESG aspirations are not an indication that these statements are necessarily material to investors or required to be disclosed in our filings with the SEC. In addition, historical, current and forward-looking GHG-related and/or ESG-related statements may be based on standards for measuring progress that are still developing, internal controls and processes that continue to evolve an"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6607,
+      "text": "intas' ability to find qualified suppliers who meet its standards and to access products in a timely and efficient manner, is subject to ongoing market risks. For a discussion of the risks associated with sourcing that may materially impact Cintas, please see \" Item 1A: Risk Factors - Risks Relating to Business Strategy and Operations .\" Government Laws and Regulations Cintas is subject to a wide "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.8454329076335894,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9405
+   }
+  }
+ }
+}

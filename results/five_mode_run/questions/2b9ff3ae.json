@@ -1,0 +1,435 @@
+{
+ "question_id": "2b9ff3ae",
+ "ticker": "CE",
+ "question": "Celanese Corp (CE) basic share count delta from 2022 to 2023 and its implications on share structure.",
+ "expected_answer": "The change in the basic weighted average share count from 2022 to 2023 is calculated as follows:\n\n108,848,962 (2023) − 108,380,082 (2022) = 468,880 additional shares.\n\nThis increase, although modest (about a 0.43% rise), suggests a slight expansion in the company’s share structure. Such an uptick could be attributed to factors like the issuance of shares under employee compensation plans or other incremental share issuances. It indicates that while the company is potentially leveraging equity-based incentives or similar mechanisms, the overall effect on the common share count is relatively small, reflecting stability in its capital structure.",
+ "category": "Financials",
+ "expected_type": "Subtract",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 922,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:39:58.473834",
+   "duration_ms": 18184,
+   "answer": "For the fiscal years 2022 and 2023, Celanese Corporation reported an increase in its weighted average basic share count. The weighted average shares outstanding used to calculate basic earnings per share rose from **108,380,082** in 2022 to **108,848,962** in 2023, representing a delta of **468,880 shares** [1]. On a point-in-time basis, the number of outstanding shares of common stock increased from 108,473,932 as of December 31, 2022, to 108,906,426 as of December 31, 2023 [1].\n\n### Factors Influencing Share Count\nThe increase in the share count during 2023 was primarily driven by the issuance of equity as part of employee compensation and incentive plans. Specifically, the corporation issued **431,526 shares** related to stock awards and **968 shares** stemming from stock option exercises during the year [1]. Furthermore, 91,179 shares were issued from treasury stock under various stock plans [1].\n\nNotably, the company did not engage in any repurchases of its common stock during the 2023 fiscal year, which contributed to the net increase in outstanding shares [1]. This contrasts with previous periods, such as 2021, when the company repurchased over 6.5 million shares to reduce its outstanding count [1].\n\n### Implications on Share Structure\nThe current share structure of Celanese Corporation is characterized by a high volume of authorized but unissued or treasury-held shares. As of December 31, 2023, the corporation had **400,000,000** shares of common stock authorized ($0.0001 par value), with **170,476,740** total shares issued [1]. Of these issued shares, **61,570,314** were held as treasury stock, leaving the final outstanding balance at 108,906,426 shares [1].\n\nWhile no shares were repurchased in 2023, Celanese maintains an active $6.9 billion stock repurchase program authorized by the Board of Directors since 2008. As of December 31, 2023, approximately **$1.1 billion** remains available under this authorization for future share purchases [1]. The management of this program, alongside the issuance of stock-based compensation, continues to be the primary mechanism for adjusting the company's capital structure and shareholder equity [1].\n\n### References\n\n* [1] CELANESE CORPORATION Annual Report 2023",
+   "answer_length": 2244,
+   "context_length": 108109,
+   "context": {
+    "entities": 60,
+    "relations": 158,
+    "chunks": 10,
+    "rerank_candidates": 40,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Celanese Corporation 2009 Employee Stock Purchase Program",
+     "$12,564,643,206",
+     "Dividend Income - Equity Investments",
+     "$132 Million",
+     "Purchases Of Treasury Stock",
+     "$125 Million",
+     "$146 Million",
+     "$6.9 Billion Stock Repurchase Program",
+     "Net Earnings Attributable To Celanese Corporation",
+     "Equity In Net Earnings (Loss) Of Affiliates",
+     "Item 5. Market For The Registrant's Common Equity",
+     "108,906,426",
+     "Cumulative Total Return",
+     "Consolidated Statements of Equity",
+     "Standard & Poor's 500 Stock Index"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 3979,
+      "text": ") Interest income 39 69 8 Dividend income - equity investments 126 133 147 Other income (expense), net 25 9 ( 5 ) Earnings (loss) from continuing operations before tax 1,183 1,421 2,248 Income tax (provision) benefit 790 489 ( 330 ) Earnings (loss) from continuing operations 1,973 1,910 1,918 Earnings (loss) from operation of discontinued operations ( 12 ) ( 9 ) ( 27 ) Income tax (provision) benef"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6020,
+      "text": "KOENIG Director February 23, 2024 Michael Koenig /s/ GANESH MOORTHY Director February 23, 2024 Ganesh Moorthy /s/ KIM K.W. RUCKER Director February 23, 2024 Kim K.W. Rucker 60 Table of Contents CELANESE CORPORATION AND SUBSIDIARIES INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page Number Report of Independent Registered Public Accounting Firm 62 Consolidated Statements of Operations for the years en"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4893,
+      "text": "affiliates, net 105 218 ( 396 ) Inventories 398 ( 253 ) ( 367 ) Other assets 277 ( 13 ) ( 80 ) Trade payables - third party and affiliates 20 ( 84 ) 353 Other liabilities ( 284 ) 412 2 Net cash provided by (used in) operating activities 1,899 1,819 1,757 Investing Activities Capital expenditures on property, plant and equipment ( 568 ) ( 543 ) ( 467 ) Acquisitions, net of cash acquired 52 ( 10,589"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6633,
+      "text": "Recordable Incident Rate (\"TRIR\") and Lost Time Incident Rate (\"LTIR\") based upon the number of incidents per 200,000 work hours of both employees and contractors. Process Safety lagging indicators follow the industry standard from API RP 754 for Tier 1 and Tier 2 events for incident count, rate, and severity. In 2023, the criteria for tracking release to the environment was enhanced to a criteria"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5749,
+      "text": "Pont Teijin Films is a leading global producer of PET and polyethylene naphthalate (\"PEN\") polyester films, which are used in a wide variety of end markets from healthcare to industrial and electronics. Mylar ® and Melinex ® brand films, known for their wide range of performance capabilities, are used in a variety of applications. DuPont Filaments. DuPont Filaments is a joint venture with Xingda f"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8331452335965593,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9083
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:40:16.784162",
+   "duration_ms": 18310,
+   "answer": "The weighted average basic share count for Celanese Corporation (CE) increased between the fiscal years 2022 and 2023. According to the company's consolidated financial statements, the weighted average shares—basic was **108,848,962** in 2023, compared to **108,380,082** in 2022, representing an increase of approximately **468,880 shares**. As of December 31, 2023, the actual number of common shares outstanding was 108,906,426, with a par value of $0.0001 per share.\n\n### Factors Influencing Share Count Changes\nThe increase in the basic share count was primarily driven by the issuance of shares through employee-related compensation programs. Specifically, during 2023, the company saw the following activities:\n*   **Stock Awards:** The issuance of 431,526 shares.\n*   **Stock Option Exercises:** The exercise of 968 shares.\n*   **Treasury Stock Transactions:** The issuance of 91,179 shares from treasury stock under various stock plans.\n\nNotably, Celanese Corporation did not repurchase any common stock during the year ended December 31, 2023. This lack of buyback activity, combined with the issuance of shares for compensation, contributed to the net increase in the total shares outstanding.\n\n### Implications on Share Structure and Equity\nThe changes in share count are a component of the company's broader capital management and equity structure. Total Celanese Corporation shareholders' equity increased to **$7,091 million** in 2023 from $5,637 million in 2022. While the issuance of new shares can dilute existing ownership, the company's net earnings available to Celanese Corporation rose to $1,960 million in 2023, resulting in basic earnings per common share of **$18.01**, up from $17.48 in the prior year.\n\nFurthermore, the company maintains a significant share repurchase program authorized by the Board of Directors. Since February 2008, the Board has authorized up to $6.9 billion in repurchases, with approximately **$1.1 billion** remaining as of December 31, 2023. Although no shares were repurchased in 2023, the existence of this authorization provides the company with the flexibility to influence its share structure in the future, subject to capital availability and financial covenants.\n\n### References\n\n* [1] CELANESE CORPORATION",
+   "answer_length": 2266,
+   "context_length": 79299,
+   "context": {
+    "entities": 32,
+    "relations": 60,
+    "chunks": 7,
+    "rerank_candidates": 106,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Common Stock",
+     "Share Data",
+     "Results Of Operations",
+     "Share Repurchase Programs",
+     "Common Shares",
+     "Total Equity",
+     "Verisk Analytics",
+     "Weighted Average Shares Outstanding",
+     "Insurance Company",
+     "Shareholders",
+     "Financial Condition",
+     "Stock Price",
+     "Employee Stock Ownership Plan (ESOP)",
+     "Board Of Directors",
+     "Motorola Solutions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 3979,
+      "text": ") Interest income 39 69 8 Dividend income - equity investments 126 133 147 Other income (expense), net 25 9 ( 5 ) Earnings (loss) from continuing operations before tax 1,183 1,421 2,248 Income tax (provision) benefit 790 489 ( 330 ) Earnings (loss) from continuing operations 1,973 1,910 1,918 Earnings (loss) from operation of discontinued operations ( 12 ) ( 9 ) ( 27 ) Income tax (provision) benef"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6037,
+      "text": "and business management, planning and portfolio development, and pipeline management. He was promoted to Executive Vice President in March 2020. Previously, Mr. Richardson served as Vice President and General Manager of the Acetyl Chain since 2011. Mr. Richardson has progressed through several Celanese roles including global commercial director, Acetyls; manager of Investor Relations; business ana"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5101,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ Form 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 ("
+     },
+     {
+      "ticker": "CE",
+      "chars": 6066,
+      "text": "growth and productivity in the near term and expect total capital expenditures to be approximately $400 million in 2024, primarily due to certain investments in growth opportunities and productivity improvements. In Engineered Materials, at our Nanjing, China facility, our expansions of (1) the compounding plant and (2) the new liquid crystal polymer (\"LCP\") plant are on schedule and in constructi"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6531,
+      "text": "agreements (the \"Credit Agreements\") or the indentures (the \"Indentures\") governing our outstanding senior unsecured notes (collectively, the \"Senior Notes\"); • Requiring a substantial portion of cash flow from operations to be dedicated to the payment of principal and interest on indebtedness and amounts payable in connection with the satisfaction of our other liabilities, therefore reducing our "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8347239795193482,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8587
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:40:49.473825",
+   "duration_ms": 32690,
+   "answer": "I do not have enough information in the provided context to calculate the specific basic share count delta for Celanese Corporation (CE) between 2022 and 2023, as the exact number of shares outstanding for those years is not provided in the document chunks.\n\n### Ownership and Share Structure\nAs of February 9, 2024, there were **114 holders of record** of the company's Common Stock. However, the company specifies that the actual number of shareholders is significantly larger because a \"substantially greater number\" of shares are held in \"**street name**\" or by beneficial holders whose shares are recorded under the names of banks, brokers, and other financial institutions [1].\n\n### Share Repurchase Activity\nThe company's share structure is managed in part through a Board-authorized repurchase program. Key details include:\n*   **Recent Activity:** Celanese did not repurchase any Common Stock during the three months ended December 31, 2023.\n*   **Total Authorization:** Since February 2008, the Board of Directors has authorized the repurchase of up to **$6.9 billion** of Common Stock.\n*   **Remaining Capacity:** As of December 31, 2023, approximately **$1.1 billion** remains available for future share purchases under this program [1].\n\n### Dividend Policy and Capital Restrictions\nThe company's ability to maintain its share structure and pay regular cash dividends is currently not restricted by its senior credit facilities or its indentures governing senior unsecured notes. Additionally, while the general corporation law of the State of Delaware imposes certain restrictions on dividend payments, these do not currently limit the company's ability to pay its anticipated regular cash dividends [1].\n\n### References\n\n- [1] CELANESE CORPORATION - December 31, 2023",
+   "answer_length": 1782,
+   "context_length": 6764,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 1,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CE"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2321
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:41:19.311446",
+   "duration_ms": 29838,
+   "answer": "For Celanese Corporation (CE), the weighted average common shares outstanding used to calculate basic earnings per share increased between the fiscal years 2022 and 2023. In 2023, the weighted average shares (basic) were **108,848,962**, compared to **108,380,082** in 2022. This represents a delta increase of **468,880** shares in the basic weighted average count over the year.\n\nThe increase in the actual number of shares outstanding at year-end was driven primarily by equity-based compensation activities. As of December 31, 2022, the company had 108,473,932 shares outstanding. By December 31, 2023, this figure grew to **108,906,426** shares outstanding. The primary drivers for this change during 2023 included the issuance of **431,526** shares for stock awards and **968** shares resulting from stock option exercises. Additionally, approximately 91,179 shares were issued from treasury stock under various stock plans.\n\nThe implications for Celanese’s share structure and capital management reflect a period of stability in its share repurchase activities toward the end of 2023. While the company has a long-standing **$6.9 billion** stock repurchase program authorized since 2008, it did not repurchase any common stock during the three months ended December 31, 2023. As of the end of the year, approximately **$1.1 billion** remained available for future purchases under this program.\n\nTreasury stock holdings remained significant, totaling **61,570,314** shares at a cost of approximately **$5.49 billion** as of December 31, 2023. This treasury balance represents shares that have been repurchased but not retired, reducing the total shares outstanding relative to those issued. Despite the slight increase in the share count, the company's basic earnings per share from net earnings increased from $17.48 in 2022 to **$18.01** in 2023, indicating that growth in net earnings available to the corporation outpaced the dilutive effect of the additional shares.\n\n### References\n\n- [1] CELANESE CORPORATION",
+   "answer_length": 2021,
+   "context_length": 109869,
+   "context": {
+    "entities": 47,
+    "relations": 129,
+    "chunks": 10,
+    "rerank_candidates": 145,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "$12,564,643,206",
+     "Common Stock",
+     "Dividend Income - Equity Investments",
+     "Share Data",
+     "Purchases Of Treasury Stock",
+     "Results Of Operations",
+     "Cumulative Total Return",
+     "Share Repurchase Programs",
+     "Celanese Corporation 2009 Employee Stock Purchase Program",
+     "Common Shares",
+     "Earnings Per Share (EPS)",
+     "Total Equity",
+     "Item 5. Market For The Registrant's Common Equity",
+     "Verisk Analytics",
+     "Basic Earnings Per Share For 2021"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 3979,
+      "text": ") Interest income 39 69 8 Dividend income - equity investments 126 133 147 Other income (expense), net 25 9 ( 5 ) Earnings (loss) from continuing operations before tax 1,183 1,421 2,248 Income tax (provision) benefit 790 489 ( 330 ) Earnings (loss) from continuing operations 1,973 1,910 1,918 Earnings (loss) from operation of discontinued operations ( 12 ) ( 9 ) ( 27 ) Income tax (provision) benef"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6020,
+      "text": "KOENIG Director February 23, 2024 Michael Koenig /s/ GANESH MOORTHY Director February 23, 2024 Ganesh Moorthy /s/ KIM K.W. RUCKER Director February 23, 2024 Kim K.W. Rucker 60 Table of Contents CELANESE CORPORATION AND SUBSIDIARIES INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page Number Report of Independent Registered Public Accounting Firm 62 Consolidated Statements of Operations for the years en"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4893,
+      "text": "affiliates, net 105 218 ( 396 ) Inventories 398 ( 253 ) ( 367 ) Other assets 277 ( 13 ) ( 80 ) Trade payables - third party and affiliates 20 ( 84 ) 353 Other liabilities ( 284 ) 412 2 Net cash provided by (used in) operating activities 1,899 1,819 1,757 Investing Activities Capital expenditures on property, plant and equipment ( 568 ) ( 543 ) ( 467 ) Acquisitions, net of cash acquired 52 ( 10,589"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6633,
+      "text": "Recordable Incident Rate (\"TRIR\") and Lost Time Incident Rate (\"LTIR\") based upon the number of incidents per 200,000 work hours of both employees and contractors. Process Safety lagging indicators follow the industry standard from API RP 754 for Tier 1 and Tier 2 events for incident count, rate, and severity. In 2023, the criteria for tracking release to the environment was enhanced to a criteria"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5749,
+      "text": "Pont Teijin Films is a leading global producer of PET and polyethylene naphthalate (\"PEN\") polyester films, which are used in a wide variety of end markets from healthcare to industrial and electronics. Mylar ® and Melinex ® brand films, known for their wide range of performance capabilities, are used in a variety of applications. DuPont Filaments. DuPont Filaments is a joint venture with Xingda f"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6037,
+      "text": "and business management, planning and portfolio development, and pipeline management. He was promoted to Executive Vice President in March 2020. Previously, Mr. Richardson served as Vice President and General Manager of the Acetyl Chain since 2011. Mr. Richardson has progressed through several Celanese roles including global commercial director, Acetyls; manager of Investor Relations; business ana"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5101,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ Form 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 ("
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8260324056055799,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9565
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:41:39.882661",
+   "duration_ms": 20571,
+   "answer": "Celanese Corporation's weighted average basic shares outstanding increased between the fiscal years 2022 and 2023. For the year ended December 31, 2023, the weighted average basic shares were 108,848,962, compared to 108,380,082 in 2022, representing a delta of approximately 468,880 shares. On a diluted basis, the weighted average shares also rose from 109,235,376 in 2022 to 109,379,664 in 2023.\n\nThe increase in shares outstanding was primarily driven by activity within the company's equity compensation plans. According to the Consolidated Statements of Equity, the share count was influenced by 431,526 shares issued for stock awards and 968 shares from stock option exercises during 2023. Additionally, 91,179 shares were issued from treasury stock under these plans, contributing to a slight decrease in the company's treasury stock holdings from 61,661,493 shares in 2022 to 61,570,314 shares in 2023.\n\nThe share structure of Celanese Corporation consists of common stock with a par value of $0.0001 per share, with 400 million shares authorized. As of December 31, 2023, there were 170,476,740 shares issued and 108,906,426 shares outstanding. The difference between issued and outstanding shares is held as treasury stock, which was valued at cost at $5.49 billion at the end of 2023.\n\nRegarding capital management strategies, Celanese did not repurchase any common stock during the three months ended December 31, 2023. However, a significant share repurchase program remains in place. Since February 2008, the Board of Directors has authorized $6.9 billion in repurchases, and as of December 31, 2023, approximately $1.1 billion remains available for future purchases under this program.\n\n### References\n\n* [1] CELANESE CORPORATION",
+   "answer_length": 1745,
+   "context_length": 118483,
+   "context": {
+    "entities": 47,
+    "relations": 168,
+    "chunks": 10,
+    "rerank_candidates": 148,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Celanese Corporation 2009 Employee Stock Purchase Program",
+     "Common Stock",
+     "$12,564,643,206",
+     "Share Data",
+     "Dividend Income - Equity Investments",
+     "Basic Earnings Per Share",
+     "$132 Million",
+     "Verisk Analytics",
+     "Purchases Of Treasury Stock",
+     "Weighted Average Shares Outstanding",
+     "$125 Million",
+     "Results Of Operations",
+     "$146 Million",
+     "Share Repurchase Programs",
+     "$6.9 Billion Stock Repurchase Program"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 3979,
+      "text": ") Interest income 39 69 8 Dividend income - equity investments 126 133 147 Other income (expense), net 25 9 ( 5 ) Earnings (loss) from continuing operations before tax 1,183 1,421 2,248 Income tax (provision) benefit 790 489 ( 330 ) Earnings (loss) from continuing operations 1,973 1,910 1,918 Earnings (loss) from operation of discontinued operations ( 12 ) ( 9 ) ( 27 ) Income tax (provision) benef"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6020,
+      "text": "KOENIG Director February 23, 2024 Michael Koenig /s/ GANESH MOORTHY Director February 23, 2024 Ganesh Moorthy /s/ KIM K.W. RUCKER Director February 23, 2024 Kim K.W. Rucker 60 Table of Contents CELANESE CORPORATION AND SUBSIDIARIES INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page Number Report of Independent Registered Public Accounting Firm 62 Consolidated Statements of Operations for the years en"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4893,
+      "text": "affiliates, net 105 218 ( 396 ) Inventories 398 ( 253 ) ( 367 ) Other assets 277 ( 13 ) ( 80 ) Trade payables - third party and affiliates 20 ( 84 ) 353 Other liabilities ( 284 ) 412 2 Net cash provided by (used in) operating activities 1,899 1,819 1,757 Investing Activities Capital expenditures on property, plant and equipment ( 568 ) ( 543 ) ( 467 ) Acquisitions, net of cash acquired 52 ( 10,589"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6633,
+      "text": "Recordable Incident Rate (\"TRIR\") and Lost Time Incident Rate (\"LTIR\") based upon the number of incidents per 200,000 work hours of both employees and contractors. Process Safety lagging indicators follow the industry standard from API RP 754 for Tier 1 and Tier 2 events for incident count, rate, and severity. In 2023, the criteria for tracking release to the environment was enhanced to a criteria"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5749,
+      "text": "Pont Teijin Films is a leading global producer of PET and polyethylene naphthalate (\"PEN\") polyester films, which are used in a wide variety of end markets from healthcare to industrial and electronics. Mylar ® and Melinex ® brand films, known for their wide range of performance capabilities, are used in a variety of applications. DuPont Filaments. DuPont Filaments is a joint venture with Xingda f"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8334051901429866,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9584
+   }
+  }
+ }
+}

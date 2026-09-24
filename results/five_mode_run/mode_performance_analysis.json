@@ -1,0 +1,3332 @@
+{
+  "summary": {
+    "local": {
+      "avg_retrieval_time": 25.88724335483871,
+      "median_retrieval_time": 24.1353055,
+      "avg_input_tokens": 22102.031746031746,
+      "avg_output_tokens": 613.5873015873016,
+      "avg_total_tokens": 22715.619047619046,
+      "avg_context_length": 88323.38095238095,
+      "avg_answer_length": 2455.7301587301586,
+      "sample_count": 63
+    },
+    "global": {
+      "avg_retrieval_time": 27.81848838095238,
+      "median_retrieval_time": 25.68441,
+      "avg_input_tokens": 20703.634920634922,
+      "avg_output_tokens": 628.8095238095239,
+      "avg_total_tokens": 21332.444444444445,
+      "avg_context_length": 82730.11111111111,
+      "avg_answer_length": 2517.126984126984,
+      "sample_count": 63
+    },
+    "naive": {
+      "avg_retrieval_time": 15.562987936507936,
+      "median_retrieval_time": 11.214044,
+      "avg_input_tokens": 4797.936507936508,
+      "avg_output_tokens": 454.6031746031746,
+      "avg_total_tokens": 5252.539682539683,
+      "avg_context_length": 19107.285714285714,
+      "avg_answer_length": 1819.8095238095239,
+      "sample_count": 63
+    },
+    "hybrid": {
+      "avg_retrieval_time": 31.03085092063492,
+      "median_retrieval_time": 29.288456,
+      "avg_input_tokens": 27799.73015873016,
+      "avg_output_tokens": 664.063492063492,
+      "avg_total_tokens": 28463.79365079365,
+      "avg_context_length": 111114.50793650794,
+      "avg_answer_length": 2657.7619047619046,
+      "sample_count": 63
+    },
+    "mix": {
+      "avg_retrieval_time": 32.84620487301587,
+      "median_retrieval_time": 30.876814,
+      "avg_input_tokens": 27893.619047619046,
+      "avg_output_tokens": 651.4603174603175,
+      "avg_total_tokens": 28545.079365079364,
+      "avg_context_length": 111489.8253968254,
+      "avg_answer_length": 2607.5079365079364,
+      "sample_count": 63
+    }
+  },
+  "detailed_results": [
+    {
+      "local": {
+        "retrieval_time": null,
+        "input_tokens": 8572,
+        "output_tokens": 129,
+        "total_tokens": 8701,
+        "context_length": 34158,
+        "answer_length": 516,
+        "timestamp": "2026-01-19T19:01:17.039001",
+        "file_name": "7415499e.json"
+      },
+      "global": {
+        "retrieval_time": 81.151785,
+        "input_tokens": 10959,
+        "output_tokens": 238,
+        "total_tokens": 11197,
+        "context_length": 43705,
+        "answer_length": 952,
+        "timestamp": "2026-01-19T19:02:38.190786",
+        "file_name": "7415499e.json"
+      },
+      "naive": {
+        "retrieval_time": 18.929831,
+        "input_tokens": 91,
+        "output_tokens": 64,
+        "total_tokens": 155,
+        "context_length": 233,
+        "answer_length": 258,
+        "timestamp": "2026-01-19T19:02:57.120617",
+        "file_name": "7415499e.json"
+      },
+      "hybrid": {
+        "retrieval_time": 19.235065,
+        "input_tokens": 14413,
+        "output_tokens": 134,
+        "total_tokens": 14547,
+        "context_length": 57520,
+        "answer_length": 536,
+        "timestamp": "2026-01-19T19:03:16.355682",
+        "file_name": "7415499e.json"
+      },
+      "mix": {
+        "retrieval_time": 27.422314,
+        "input_tokens": 14177,
+        "output_tokens": 90,
+        "total_tokens": 14267,
+        "context_length": 56577,
+        "answer_length": 360,
+        "timestamp": "2026-01-19T19:03:43.777996",
+        "file_name": "7415499e.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 8.868779,
+        "input_tokens": 6771,
+        "output_tokens": 108,
+        "total_tokens": 6879,
+        "context_length": 26996,
+        "answer_length": 433,
+        "timestamp": "2026-01-19T19:03:52.646775",
+        "file_name": "38ae5ab1.json"
+      },
+      "global": {
+        "retrieval_time": 21.673462,
+        "input_tokens": 11218,
+        "output_tokens": 346,
+        "total_tokens": 11564,
+        "context_length": 44786,
+        "answer_length": 1387,
+        "timestamp": "2026-01-19T19:04:14.320237",
+        "file_name": "38ae5ab1.json"
+      },
+      "naive": {
+        "retrieval_time": 3.769601,
+        "input_tokens": 80,
+        "output_tokens": 61,
+        "total_tokens": 141,
+        "context_length": 233,
+        "answer_length": 247,
+        "timestamp": "2026-01-19T19:04:18.089838",
+        "file_name": "38ae5ab1.json"
+      },
+      "hybrid": {
+        "retrieval_time": 58.036955,
+        "input_tokens": 14501,
+        "output_tokens": 233,
+        "total_tokens": 14734,
+        "context_length": 57918,
+        "answer_length": 935,
+        "timestamp": "2026-01-19T19:05:16.126793",
+        "file_name": "38ae5ab1.json"
+      },
+      "mix": {
+        "retrieval_time": 66.414921,
+        "input_tokens": 14067,
+        "output_tokens": 288,
+        "total_tokens": 14355,
+        "context_length": 56183,
+        "answer_length": 1155,
+        "timestamp": "2026-01-19T19:06:22.541714",
+        "file_name": "38ae5ab1.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 14.652931,
+        "input_tokens": 7567,
+        "output_tokens": 189,
+        "total_tokens": 7756,
+        "context_length": 30193,
+        "answer_length": 757,
+        "timestamp": "2026-01-19T19:06:37.194645",
+        "file_name": "9294f77b.json"
+      },
+      "global": {
+        "retrieval_time": 31.346481,
+        "input_tokens": 11402,
+        "output_tokens": 46,
+        "total_tokens": 11448,
+        "context_length": 45533,
+        "answer_length": 187,
+        "timestamp": "2026-01-19T19:07:08.541126",
+        "file_name": "9294f77b.json"
+      },
+      "naive": {
+        "retrieval_time": 4.247462,
+        "input_tokens": 77,
+        "output_tokens": 46,
+        "total_tokens": 123,
+        "context_length": 233,
+        "answer_length": 187,
+        "timestamp": "2026-01-19T19:07:12.788588",
+        "file_name": "9294f77b.json"
+      },
+      "hybrid": {
+        "retrieval_time": 36.587916,
+        "input_tokens": 14860,
+        "output_tokens": 337,
+        "total_tokens": 15197,
+        "context_length": 59365,
+        "answer_length": 1349,
+        "timestamp": "2026-01-19T19:07:49.376504",
+        "file_name": "9294f77b.json"
+      },
+      "mix": {
+        "retrieval_time": 43.320269,
+        "input_tokens": 14519,
+        "output_tokens": 189,
+        "total_tokens": 14708,
+        "context_length": 58000,
+        "answer_length": 759,
+        "timestamp": "2026-01-19T19:08:32.696773",
+        "file_name": "9294f77b.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 29.101339,
+        "input_tokens": 19266,
+        "output_tokens": 550,
+        "total_tokens": 19816,
+        "context_length": 77003,
+        "answer_length": 2202,
+        "timestamp": "2026-01-19T19:09:01.798112",
+        "file_name": "008beea7.json"
+      },
+      "global": {
+        "retrieval_time": 26.725893,
+        "input_tokens": 23888,
+        "output_tokens": 565,
+        "total_tokens": 24453,
+        "context_length": 95491,
+        "answer_length": 2263,
+        "timestamp": "2026-01-19T19:09:28.524005",
+        "file_name": "008beea7.json"
+      },
+      "naive": {
+        "retrieval_time": 18.703561,
+        "input_tokens": 9223,
+        "output_tokens": 135,
+        "total_tokens": 9358,
+        "context_length": 36832,
+        "answer_length": 542,
+        "timestamp": "2026-01-19T19:09:47.227566",
+        "file_name": "008beea7.json"
+      },
+      "hybrid": {
+        "retrieval_time": 30.390167,
+        "input_tokens": 26894,
+        "output_tokens": 670,
+        "total_tokens": 27564,
+        "context_length": 107515,
+        "answer_length": 2680,
+        "timestamp": "2026-01-19T19:10:17.617733",
+        "file_name": "008beea7.json"
+      },
+      "mix": {
+        "retrieval_time": 31.148342,
+        "input_tokens": 28353,
+        "output_tokens": 602,
+        "total_tokens": 28955,
+        "context_length": 113349,
+        "answer_length": 2409,
+        "timestamp": "2026-01-19T19:10:48.766075",
+        "file_name": "008beea7.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 22.640327,
+        "input_tokens": 15652,
+        "output_tokens": 490,
+        "total_tokens": 16142,
+        "context_length": 62537,
+        "answer_length": 1960,
+        "timestamp": "2026-01-19T19:11:11.406402",
+        "file_name": "2e52d788.json"
+      },
+      "global": {
+        "retrieval_time": 29.076038,
+        "input_tokens": 19728,
+        "output_tokens": 912,
+        "total_tokens": 20640,
+        "context_length": 78841,
+        "answer_length": 3651,
+        "timestamp": "2026-01-19T19:11:40.482440",
+        "file_name": "2e52d788.json"
+      },
+      "naive": {
+        "retrieval_time": 10.541143,
+        "input_tokens": 76,
+        "output_tokens": 62,
+        "total_tokens": 138,
+        "context_length": 233,
+        "answer_length": 250,
+        "timestamp": "2026-01-19T19:11:51.023583",
+        "file_name": "2e52d788.json"
+      },
+      "hybrid": {
+        "retrieval_time": 30.924471,
+        "input_tokens": 22977,
+        "output_tokens": 716,
+        "total_tokens": 23693,
+        "context_length": 91836,
+        "answer_length": 2864,
+        "timestamp": "2026-01-19T19:12:21.948054",
+        "file_name": "2e52d788.json"
+      },
+      "mix": {
+        "retrieval_time": 35.885943,
+        "input_tokens": 22833,
+        "output_tokens": 739,
+        "total_tokens": 23572,
+        "context_length": 91262,
+        "answer_length": 2956,
+        "timestamp": "2026-01-19T19:12:57.833997",
+        "file_name": "2e52d788.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 22.073687,
+        "input_tokens": 29719,
+        "output_tokens": 670,
+        "total_tokens": 30389,
+        "context_length": 118780,
+        "answer_length": 2682,
+        "timestamp": "2026-01-19T19:13:19.907684",
+        "file_name": "2afcec04.json"
+      },
+      "global": {
+        "retrieval_time": 28.500542,
+        "input_tokens": 27193,
+        "output_tokens": 651,
+        "total_tokens": 27844,
+        "context_length": 108677,
+        "answer_length": 2606,
+        "timestamp": "2026-01-19T19:13:48.408226",
+        "file_name": "2afcec04.json"
+      },
+      "naive": {
+        "retrieval_time": 11.547829,
+        "input_tokens": 8395,
+        "output_tokens": 672,
+        "total_tokens": 9067,
+        "context_length": 33485,
+        "answer_length": 2688,
+        "timestamp": "2026-01-19T19:13:59.956055",
+        "file_name": "2afcec04.json"
+      },
+      "hybrid": {
+        "retrieval_time": 31.993525,
+        "input_tokens": 31580,
+        "output_tokens": 589,
+        "total_tokens": 32169,
+        "context_length": 126224,
+        "answer_length": 2356,
+        "timestamp": "2026-01-19T19:14:31.949580",
+        "file_name": "2afcec04.json"
+      },
+      "mix": {
+        "retrieval_time": 33.319335,
+        "input_tokens": 31038,
+        "output_tokens": 557,
+        "total_tokens": 31595,
+        "context_length": 124055,
+        "answer_length": 2231,
+        "timestamp": "2026-01-19T19:15:05.268915",
+        "file_name": "2afcec04.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 31.184948,
+        "input_tokens": 28328,
+        "output_tokens": 832,
+        "total_tokens": 29160,
+        "context_length": 113193,
+        "answer_length": 3328,
+        "timestamp": "2026-01-19T19:15:36.453863",
+        "file_name": "8c8c8c34.json"
+      },
+      "global": {
+        "retrieval_time": 32.063742,
+        "input_tokens": 25008,
+        "output_tokens": 883,
+        "total_tokens": 25891,
+        "context_length": 99910,
+        "answer_length": 3535,
+        "timestamp": "2026-01-19T19:16:08.517605",
+        "file_name": "8c8c8c34.json"
+      },
+      "naive": {
+        "retrieval_time": 29.242735,
+        "input_tokens": 13805,
+        "output_tokens": 800,
+        "total_tokens": 14605,
+        "context_length": 55101,
+        "answer_length": 3200,
+        "timestamp": "2026-01-19T19:16:37.760340",
+        "file_name": "8c8c8c34.json"
+      },
+      "hybrid": {
+        "retrieval_time": 33.578662,
+        "input_tokens": 28962,
+        "output_tokens": 893,
+        "total_tokens": 29855,
+        "context_length": 115728,
+        "answer_length": 3573,
+        "timestamp": "2026-01-19T19:17:11.339002",
+        "file_name": "8c8c8c34.json"
+      },
+      "mix": {
+        "retrieval_time": 33.338508,
+        "input_tokens": 29643,
+        "output_tokens": 964,
+        "total_tokens": 30607,
+        "context_length": 118452,
+        "answer_length": 3858,
+        "timestamp": "2026-01-19T19:17:44.677510",
+        "file_name": "8c8c8c34.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 25.894768,
+        "input_tokens": 29737,
+        "output_tokens": 861,
+        "total_tokens": 30598,
+        "context_length": 118874,
+        "answer_length": 3444,
+        "timestamp": "2026-01-19T19:18:10.572278",
+        "file_name": "caa865da.json"
+      },
+      "global": {
+        "retrieval_time": 31.097692,
+        "input_tokens": 26750,
+        "output_tokens": 823,
+        "total_tokens": 27573,
+        "context_length": 106925,
+        "answer_length": 3294,
+        "timestamp": "2026-01-19T19:18:41.669970",
+        "file_name": "caa865da.json"
+      },
+      "naive": {
+        "retrieval_time": 29.833944,
+        "input_tokens": 12598,
+        "output_tokens": 844,
+        "total_tokens": 13442,
+        "context_length": 50318,
+        "answer_length": 3379,
+        "timestamp": "2026-01-19T19:19:11.503914",
+        "file_name": "caa865da.json"
+      },
+      "hybrid": {
+        "retrieval_time": 35.732991,
+        "input_tokens": 32773,
+        "output_tokens": 881,
+        "total_tokens": 33654,
+        "context_length": 131018,
+        "answer_length": 3527,
+        "timestamp": "2026-01-19T19:19:47.236905",
+        "file_name": "caa865da.json"
+      },
+      "mix": {
+        "retrieval_time": 33.28304,
+        "input_tokens": 32407,
+        "output_tokens": 717,
+        "total_tokens": 33124,
+        "context_length": 129552,
+        "answer_length": 2869,
+        "timestamp": "2026-01-19T19:20:20.519945",
+        "file_name": "caa865da.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 34.657719,
+        "input_tokens": 28465,
+        "output_tokens": 702,
+        "total_tokens": 29167,
+        "context_length": 113733,
+        "answer_length": 2810,
+        "timestamp": "2026-01-19T19:20:55.177664",
+        "file_name": "3f515a80.json"
+      },
+      "global": {
+        "retrieval_time": 41.64952,
+        "input_tokens": 16077,
+        "output_tokens": 652,
+        "total_tokens": 16729,
+        "context_length": 64183,
+        "answer_length": 2609,
+        "timestamp": "2026-01-19T19:21:36.827184",
+        "file_name": "3f515a80.json"
+      },
+      "naive": {
+        "retrieval_time": 11.824244,
+        "input_tokens": 1678,
+        "output_tokens": 859,
+        "total_tokens": 2537,
+        "context_length": 6586,
+        "answer_length": 3436,
+        "timestamp": "2026-01-19T19:21:48.651428",
+        "file_name": "3f515a80.json"
+      },
+      "hybrid": {
+        "retrieval_time": 43.289676,
+        "input_tokens": 32636,
+        "output_tokens": 708,
+        "total_tokens": 33344,
+        "context_length": 130420,
+        "answer_length": 2835,
+        "timestamp": "2026-01-19T19:22:31.941104",
+        "file_name": "3f515a80.json"
+      },
+      "mix": {
+        "retrieval_time": 44.910545,
+        "input_tokens": 32636,
+        "output_tokens": 872,
+        "total_tokens": 33508,
+        "context_length": 130420,
+        "answer_length": 3489,
+        "timestamp": "2026-01-19T19:23:16.851649",
+        "file_name": "3f515a80.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 32.30927,
+        "input_tokens": 20913,
+        "output_tokens": 712,
+        "total_tokens": 21625,
+        "context_length": 83581,
+        "answer_length": 2849,
+        "timestamp": "2026-01-19T19:23:49.160919",
+        "file_name": "2fdba0b2.json"
+      },
+      "global": {
+        "retrieval_time": 30.821181,
+        "input_tokens": 24270,
+        "output_tokens": 669,
+        "total_tokens": 24939,
+        "context_length": 97008,
+        "answer_length": 2679,
+        "timestamp": "2026-01-19T19:24:19.982100",
+        "file_name": "2fdba0b2.json"
+      },
+      "naive": {
+        "retrieval_time": 19.282258,
+        "input_tokens": 6283,
+        "output_tokens": 646,
+        "total_tokens": 6929,
+        "context_length": 25060,
+        "answer_length": 2584,
+        "timestamp": "2026-01-19T19:24:39.264358",
+        "file_name": "2fdba0b2.json"
+      },
+      "hybrid": {
+        "retrieval_time": 40.569233,
+        "input_tokens": 29053,
+        "output_tokens": 727,
+        "total_tokens": 29780,
+        "context_length": 116139,
+        "answer_length": 2909,
+        "timestamp": "2026-01-19T19:25:19.833591",
+        "file_name": "2fdba0b2.json"
+      },
+      "mix": {
+        "retrieval_time": 37.104295,
+        "input_tokens": 29053,
+        "output_tokens": 698,
+        "total_tokens": 29751,
+        "context_length": 116139,
+        "answer_length": 2794,
+        "timestamp": "2026-01-19T19:25:56.937886",
+        "file_name": "2fdba0b2.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 33.242687,
+        "input_tokens": 31670,
+        "output_tokens": 682,
+        "total_tokens": 32352,
+        "context_length": 126584,
+        "answer_length": 2731,
+        "timestamp": "2026-01-19T19:26:30.180573",
+        "file_name": "c88933f5.json"
+      },
+      "global": {
+        "retrieval_time": 35.890225,
+        "input_tokens": 27761,
+        "output_tokens": 964,
+        "total_tokens": 28725,
+        "context_length": 110947,
+        "answer_length": 3857,
+        "timestamp": "2026-01-19T19:27:06.070798",
+        "file_name": "c88933f5.json"
+      },
+      "naive": {
+        "retrieval_time": 10.886195,
+        "input_tokens": 9957,
+        "output_tokens": 595,
+        "total_tokens": 10552,
+        "context_length": 39734,
+        "answer_length": 2382,
+        "timestamp": "2026-01-19T19:27:16.956993",
+        "file_name": "c88933f5.json"
+      },
+      "hybrid": {
+        "retrieval_time": 35.693762,
+        "input_tokens": 33747,
+        "output_tokens": 871,
+        "total_tokens": 34618,
+        "context_length": 134894,
+        "answer_length": 3486,
+        "timestamp": "2026-01-19T19:27:52.650755",
+        "file_name": "c88933f5.json"
+      },
+      "mix": {
+        "retrieval_time": 41.327024,
+        "input_tokens": 34490,
+        "output_tokens": 688,
+        "total_tokens": 35178,
+        "context_length": 137864,
+        "answer_length": 2754,
+        "timestamp": "2026-01-19T19:28:33.977779",
+        "file_name": "c88933f5.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 30.4132,
+        "input_tokens": 29304,
+        "output_tokens": 595,
+        "total_tokens": 29899,
+        "context_length": 117118,
+        "answer_length": 2382,
+        "timestamp": "2026-01-19T19:29:04.390979",
+        "file_name": "47703f4b.json"
+      },
+      "global": {
+        "retrieval_time": 38.509027,
+        "input_tokens": 22721,
+        "output_tokens": 555,
+        "total_tokens": 23276,
+        "context_length": 90786,
+        "answer_length": 2221,
+        "timestamp": "2026-01-19T19:29:42.900006",
+        "file_name": "47703f4b.json"
+      },
+      "naive": {
+        "retrieval_time": 10.026893,
+        "input_tokens": 8350,
+        "output_tokens": 463,
+        "total_tokens": 8813,
+        "context_length": 33305,
+        "answer_length": 1852,
+        "timestamp": "2026-01-19T19:29:52.926899",
+        "file_name": "47703f4b.json"
+      },
+      "hybrid": {
+        "retrieval_time": 40.987472,
+        "input_tokens": 33849,
+        "output_tokens": 641,
+        "total_tokens": 34490,
+        "context_length": 135299,
+        "answer_length": 2564,
+        "timestamp": "2026-01-19T19:30:33.914371",
+        "file_name": "47703f4b.json"
+      },
+      "mix": {
+        "retrieval_time": 41.037771,
+        "input_tokens": 33273,
+        "output_tokens": 707,
+        "total_tokens": 33980,
+        "context_length": 132996,
+        "answer_length": 2828,
+        "timestamp": "2026-01-19T19:31:14.952142",
+        "file_name": "47703f4b.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 36.666562,
+        "input_tokens": 24419,
+        "output_tokens": 840,
+        "total_tokens": 25259,
+        "context_length": 97575,
+        "answer_length": 3360,
+        "timestamp": "2026-01-19T19:31:51.618704",
+        "file_name": "c8c289bc.json"
+      },
+      "global": {
+        "retrieval_time": 36.763366,
+        "input_tokens": 25332,
+        "output_tokens": 780,
+        "total_tokens": 26112,
+        "context_length": 101226,
+        "answer_length": 3123,
+        "timestamp": "2026-01-19T19:32:28.382070",
+        "file_name": "c8c289bc.json"
+      },
+      "naive": {
+        "retrieval_time": 30.391126,
+        "input_tokens": 11467,
+        "output_tokens": 821,
+        "total_tokens": 12288,
+        "context_length": 45764,
+        "answer_length": 3286,
+        "timestamp": "2026-01-19T19:32:58.773196",
+        "file_name": "c8c289bc.json"
+      },
+      "hybrid": {
+        "retrieval_time": 38.60544,
+        "input_tokens": 30686,
+        "output_tokens": 855,
+        "total_tokens": 31541,
+        "context_length": 122643,
+        "answer_length": 3421,
+        "timestamp": "2026-01-19T19:33:37.378636",
+        "file_name": "c8c289bc.json"
+      },
+      "mix": {
+        "retrieval_time": 34.920805,
+        "input_tokens": 30041,
+        "output_tokens": 743,
+        "total_tokens": 30784,
+        "context_length": 120061,
+        "answer_length": 2974,
+        "timestamp": "2026-01-19T19:34:12.299441",
+        "file_name": "c8c289bc.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 30.190228,
+        "input_tokens": 24081,
+        "output_tokens": 743,
+        "total_tokens": 24824,
+        "context_length": 96223,
+        "answer_length": 2972,
+        "timestamp": "2026-01-19T19:34:42.489669",
+        "file_name": "5e5180f2.json"
+      },
+      "global": {
+        "retrieval_time": 27.613596,
+        "input_tokens": 27150,
+        "output_tokens": 789,
+        "total_tokens": 27939,
+        "context_length": 108499,
+        "answer_length": 3157,
+        "timestamp": "2026-01-19T19:35:10.103265",
+        "file_name": "5e5180f2.json"
+      },
+      "naive": {
+        "retrieval_time": 53.950337,
+        "input_tokens": 9752,
+        "output_tokens": 595,
+        "total_tokens": 10347,
+        "context_length": 38909,
+        "answer_length": 2381,
+        "timestamp": "2026-01-19T19:36:04.053602",
+        "file_name": "5e5180f2.json"
+      },
+      "hybrid": {
+        "retrieval_time": 36.267284,
+        "input_tokens": 30347,
+        "output_tokens": 706,
+        "total_tokens": 31053,
+        "context_length": 121289,
+        "answer_length": 2827,
+        "timestamp": "2026-01-19T19:36:40.320886",
+        "file_name": "5e5180f2.json"
+      },
+      "mix": {
+        "retrieval_time": 32.220703,
+        "input_tokens": 30202,
+        "output_tokens": 730,
+        "total_tokens": 30932,
+        "context_length": 120709,
+        "answer_length": 2922,
+        "timestamp": "2026-01-19T19:37:12.541589",
+        "file_name": "5e5180f2.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 29.327056,
+        "input_tokens": 21217,
+        "output_tokens": 788,
+        "total_tokens": 22005,
+        "context_length": 84730,
+        "answer_length": 3153,
+        "timestamp": "2026-01-19T19:37:41.868645",
+        "file_name": "f3a3d09b.json"
+      },
+      "global": {
+        "retrieval_time": 21.541654,
+        "input_tokens": 25624,
+        "output_tokens": 730,
+        "total_tokens": 26354,
+        "context_length": 102356,
+        "answer_length": 2923,
+        "timestamp": "2026-01-19T19:38:03.410299",
+        "file_name": "f3a3d09b.json"
+      },
+      "naive": {
+        "retrieval_time": 9.750313,
+        "input_tokens": 6632,
+        "output_tokens": 626,
+        "total_tokens": 7258,
+        "context_length": 26390,
+        "answer_length": 2505,
+        "timestamp": "2026-01-19T19:38:13.160612",
+        "file_name": "f3a3d09b.json"
+      },
+      "hybrid": {
+        "retrieval_time": 33.255678,
+        "input_tokens": 28696,
+        "output_tokens": 774,
+        "total_tokens": 29470,
+        "context_length": 114644,
+        "answer_length": 3099,
+        "timestamp": "2026-01-19T19:38:46.416290",
+        "file_name": "f3a3d09b.json"
+      },
+      "mix": {
+        "retrieval_time": 31.122049,
+        "input_tokens": 28696,
+        "output_tokens": 946,
+        "total_tokens": 29642,
+        "context_length": 114644,
+        "answer_length": 3784,
+        "timestamp": "2026-01-19T19:39:17.538339",
+        "file_name": "f3a3d09b.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 24.40599,
+        "input_tokens": 26736,
+        "output_tokens": 724,
+        "total_tokens": 27460,
+        "context_length": 106864,
+        "answer_length": 2896,
+        "timestamp": "2026-01-19T19:39:41.944329",
+        "file_name": "a2aef1d1.json"
+      },
+      "global": {
+        "retrieval_time": 38.666189,
+        "input_tokens": 10827,
+        "output_tokens": 476,
+        "total_tokens": 11303,
+        "context_length": 43228,
+        "answer_length": 1907,
+        "timestamp": "2026-01-19T19:40:20.610518",
+        "file_name": "a2aef1d1.json"
+      },
+      "naive": {
+        "retrieval_time": 6.375711,
+        "input_tokens": 79,
+        "output_tokens": 50,
+        "total_tokens": 129,
+        "context_length": 233,
+        "answer_length": 200,
+        "timestamp": "2026-01-19T19:40:26.986229",
+        "file_name": "a2aef1d1.json"
+      },
+      "hybrid": {
+        "retrieval_time": 43.194907,
+        "input_tokens": 30337,
+        "output_tokens": 692,
+        "total_tokens": 31029,
+        "context_length": 121265,
+        "answer_length": 2771,
+        "timestamp": "2026-01-19T19:41:10.181136",
+        "file_name": "a2aef1d1.json"
+      },
+      "mix": {
+        "retrieval_time": 41.850918,
+        "input_tokens": 30349,
+        "output_tokens": 708,
+        "total_tokens": 31057,
+        "context_length": 121313,
+        "answer_length": 2835,
+        "timestamp": "2026-01-19T19:41:52.032054",
+        "file_name": "a2aef1d1.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 25.928402,
+        "input_tokens": 26569,
+        "output_tokens": 551,
+        "total_tokens": 27120,
+        "context_length": 106171,
+        "answer_length": 2205,
+        "timestamp": "2026-01-19T19:42:17.960456",
+        "file_name": "95e8ffed.json"
+      },
+      "global": {
+        "retrieval_time": 28.083112,
+        "input_tokens": 29458,
+        "output_tokens": 616,
+        "total_tokens": 30074,
+        "context_length": 117728,
+        "answer_length": 2467,
+        "timestamp": "2026-01-19T19:42:46.043568",
+        "file_name": "95e8ffed.json"
+      },
+      "naive": {
+        "retrieval_time": 30.640933,
+        "input_tokens": 6904,
+        "output_tokens": 452,
+        "total_tokens": 7356,
+        "context_length": 27510,
+        "answer_length": 1809,
+        "timestamp": "2026-01-19T19:43:16.684501",
+        "file_name": "95e8ffed.json"
+      },
+      "hybrid": {
+        "retrieval_time": 33.114608,
+        "input_tokens": 31761,
+        "output_tokens": 835,
+        "total_tokens": 32596,
+        "context_length": 126938,
+        "answer_length": 3342,
+        "timestamp": "2026-01-19T19:43:49.799109",
+        "file_name": "95e8ffed.json"
+      },
+      "mix": {
+        "retrieval_time": 43.614454,
+        "input_tokens": 31617,
+        "output_tokens": 819,
+        "total_tokens": 32436,
+        "context_length": 126361,
+        "answer_length": 3278,
+        "timestamp": "2026-01-19T19:44:33.413563",
+        "file_name": "95e8ffed.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 32.480704,
+        "input_tokens": 28178,
+        "output_tokens": 979,
+        "total_tokens": 29157,
+        "context_length": 112645,
+        "answer_length": 3916,
+        "timestamp": "2026-01-19T19:45:05.894267",
+        "file_name": "74189809.json"
+      },
+      "global": {
+        "retrieval_time": 39.476027,
+        "input_tokens": 17128,
+        "output_tokens": 731,
+        "total_tokens": 17859,
+        "context_length": 68448,
+        "answer_length": 2926,
+        "timestamp": "2026-01-19T19:45:45.370294",
+        "file_name": "74189809.json"
+      },
+      "naive": {
+        "retrieval_time": 9.507932,
+        "input_tokens": 1760,
+        "output_tokens": 651,
+        "total_tokens": 2411,
+        "context_length": 6974,
+        "answer_length": 2604,
+        "timestamp": "2026-01-19T19:45:54.878226",
+        "file_name": "74189809.json"
+      },
+      "hybrid": {
+        "retrieval_time": 40.598984,
+        "input_tokens": 30559,
+        "output_tokens": 768,
+        "total_tokens": 31327,
+        "context_length": 122171,
+        "answer_length": 3072,
+        "timestamp": "2026-01-19T19:46:35.477210",
+        "file_name": "74189809.json"
+      },
+      "mix": {
+        "retrieval_time": 44.344674,
+        "input_tokens": 30863,
+        "output_tokens": 918,
+        "total_tokens": 31781,
+        "context_length": 123385,
+        "answer_length": 3675,
+        "timestamp": "2026-01-19T19:47:19.821884",
+        "file_name": "74189809.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 22.369371,
+        "input_tokens": 27174,
+        "output_tokens": 646,
+        "total_tokens": 27820,
+        "context_length": 108613,
+        "answer_length": 2585,
+        "timestamp": "2026-01-19T19:47:42.191255",
+        "file_name": "c6cb8e43.json"
+      },
+      "global": {
+        "retrieval_time": 28.823281,
+        "input_tokens": 24904,
+        "output_tokens": 583,
+        "total_tokens": 25487,
+        "context_length": 99533,
+        "answer_length": 2335,
+        "timestamp": "2026-01-19T19:48:11.014536",
+        "file_name": "c6cb8e43.json"
+      },
+      "naive": {
+        "retrieval_time": 8.840854,
+        "input_tokens": 1764,
+        "output_tokens": 283,
+        "total_tokens": 2047,
+        "context_length": 6974,
+        "answer_length": 1132,
+        "timestamp": "2026-01-19T19:48:19.855390",
+        "file_name": "c6cb8e43.json"
+      },
+      "hybrid": {
+        "retrieval_time": 31.863316,
+        "input_tokens": 30688,
+        "output_tokens": 645,
+        "total_tokens": 31333,
+        "context_length": 122668,
+        "answer_length": 2583,
+        "timestamp": "2026-01-19T19:48:51.718706",
+        "file_name": "c6cb8e43.json"
+      },
+      "mix": {
+        "retrieval_time": 30.876814,
+        "input_tokens": 30642,
+        "output_tokens": 573,
+        "total_tokens": 31215,
+        "context_length": 122484,
+        "answer_length": 2295,
+        "timestamp": "2026-01-19T19:49:22.595520",
+        "file_name": "c6cb8e43.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 38.874146,
+        "input_tokens": 25431,
+        "output_tokens": 507,
+        "total_tokens": 25938,
+        "context_length": 101636,
+        "answer_length": 2031,
+        "timestamp": "2026-01-19T19:50:01.469666",
+        "file_name": "a97d9785.json"
+      },
+      "global": {
+        "retrieval_time": 47.031384,
+        "input_tokens": 10484,
+        "output_tokens": 516,
+        "total_tokens": 11000,
+        "context_length": 41849,
+        "answer_length": 2066,
+        "timestamp": "2026-01-19T19:50:48.501050",
+        "file_name": "a97d9785.json"
+      },
+      "naive": {
+        "retrieval_time": 6.119167,
+        "input_tokens": 80,
+        "output_tokens": 64,
+        "total_tokens": 144,
+        "context_length": 233,
+        "answer_length": 257,
+        "timestamp": "2026-01-19T19:50:54.620217",
+        "file_name": "a97d9785.json"
+      },
+      "hybrid": {
+        "retrieval_time": 33.769397,
+        "input_tokens": 29238,
+        "output_tokens": 622,
+        "total_tokens": 29860,
+        "context_length": 116862,
+        "answer_length": 2490,
+        "timestamp": "2026-01-19T19:51:28.389614",
+        "file_name": "a97d9785.json"
+      },
+      "mix": {
+        "retrieval_time": 43.261722,
+        "input_tokens": 29238,
+        "output_tokens": 678,
+        "total_tokens": 29916,
+        "context_length": 116862,
+        "answer_length": 2713,
+        "timestamp": "2026-01-19T19:52:11.651336",
+        "file_name": "a97d9785.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 37.138585,
+        "input_tokens": 28085,
+        "output_tokens": 312,
+        "total_tokens": 28397,
+        "context_length": 112275,
+        "answer_length": 1249,
+        "timestamp": "2026-01-19T19:52:48.789921",
+        "file_name": "b17a4e4a.json"
+      },
+      "global": {
+        "retrieval_time": 68.616428,
+        "input_tokens": 25282,
+        "output_tokens": 393,
+        "total_tokens": 25675,
+        "context_length": 101064,
+        "answer_length": 1575,
+        "timestamp": "2026-01-19T19:53:57.406349",
+        "file_name": "b17a4e4a.json"
+      },
+      "naive": {
+        "retrieval_time": 6.671406,
+        "input_tokens": 2841,
+        "output_tokens": 176,
+        "total_tokens": 3017,
+        "context_length": 11297,
+        "answer_length": 707,
+        "timestamp": "2026-01-19T19:54:04.077755",
+        "file_name": "b17a4e4a.json"
+      },
+      "hybrid": {
+        "retrieval_time": 60.514278,
+        "input_tokens": 30808,
+        "output_tokens": 306,
+        "total_tokens": 31114,
+        "context_length": 123168,
+        "answer_length": 1227,
+        "timestamp": "2026-01-19T19:55:04.592033",
+        "file_name": "b17a4e4a.json"
+      },
+      "mix": {
+        "retrieval_time": 64.274162,
+        "input_tokens": 30594,
+        "output_tokens": 422,
+        "total_tokens": 31016,
+        "context_length": 122312,
+        "answer_length": 1691,
+        "timestamp": "2026-01-19T19:56:08.866195",
+        "file_name": "b17a4e4a.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 29.339808,
+        "input_tokens": 27135,
+        "output_tokens": 797,
+        "total_tokens": 27932,
+        "context_length": 108482,
+        "answer_length": 3191,
+        "timestamp": "2026-01-19T19:56:38.206003",
+        "file_name": "c520d0e9.json"
+      },
+      "global": {
+        "retrieval_time": 32.226693,
+        "input_tokens": 25371,
+        "output_tokens": 669,
+        "total_tokens": 26040,
+        "context_length": 101425,
+        "answer_length": 2679,
+        "timestamp": "2026-01-19T19:57:10.432696",
+        "file_name": "c520d0e9.json"
+      },
+      "naive": {
+        "retrieval_time": 10.34512,
+        "input_tokens": 4793,
+        "output_tokens": 725,
+        "total_tokens": 5518,
+        "context_length": 19114,
+        "answer_length": 2902,
+        "timestamp": "2026-01-19T19:57:20.777816",
+        "file_name": "c520d0e9.json"
+      },
+      "hybrid": {
+        "retrieval_time": 36.752219,
+        "input_tokens": 30450,
+        "output_tokens": 605,
+        "total_tokens": 31055,
+        "context_length": 121741,
+        "answer_length": 2421,
+        "timestamp": "2026-01-19T19:57:57.530035",
+        "file_name": "c520d0e9.json"
+      },
+      "mix": {
+        "retrieval_time": 48.34989,
+        "input_tokens": 30995,
+        "output_tokens": 741,
+        "total_tokens": 31736,
+        "context_length": 123922,
+        "answer_length": 2966,
+        "timestamp": "2026-01-19T19:58:45.879925",
+        "file_name": "c520d0e9.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 47.250519,
+        "input_tokens": 27509,
+        "output_tokens": 741,
+        "total_tokens": 28250,
+        "context_length": 109976,
+        "answer_length": 2967,
+        "timestamp": "2026-01-19T19:59:33.130444",
+        "file_name": "a26c0c76.json"
+      },
+      "global": {
+        "retrieval_time": 32.211597,
+        "input_tokens": 25068,
+        "output_tokens": 731,
+        "total_tokens": 25799,
+        "context_length": 100214,
+        "answer_length": 2925,
+        "timestamp": "2026-01-19T20:00:05.342041",
+        "file_name": "a26c0c76.json"
+      },
+      "naive": {
+        "retrieval_time": 13.637622,
+        "input_tokens": 7312,
+        "output_tokens": 741,
+        "total_tokens": 8053,
+        "context_length": 29187,
+        "answer_length": 2965,
+        "timestamp": "2026-01-19T20:00:18.979663",
+        "file_name": "a26c0c76.json"
+      },
+      "hybrid": {
+        "retrieval_time": 29.288456,
+        "input_tokens": 29274,
+        "output_tokens": 654,
+        "total_tokens": 29928,
+        "context_length": 117038,
+        "answer_length": 2617,
+        "timestamp": "2026-01-19T20:00:48.268119",
+        "file_name": "a26c0c76.json"
+      },
+      "mix": {
+        "retrieval_time": 30.67134,
+        "input_tokens": 30097,
+        "output_tokens": 798,
+        "total_tokens": 30895,
+        "context_length": 120330,
+        "answer_length": 3195,
+        "timestamp": "2026-01-19T20:01:18.939459",
+        "file_name": "a26c0c76.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 32.857418,
+        "input_tokens": 25947,
+        "output_tokens": 918,
+        "total_tokens": 26865,
+        "context_length": 103694,
+        "answer_length": 3674,
+        "timestamp": "2026-01-19T20:01:51.796877",
+        "file_name": "cbd456e9.json"
+      },
+      "global": {
+        "retrieval_time": 44.351444,
+        "input_tokens": 24810,
+        "output_tokens": 786,
+        "total_tokens": 25596,
+        "context_length": 99147,
+        "answer_length": 3147,
+        "timestamp": "2026-01-19T20:02:36.148321",
+        "file_name": "cbd456e9.json"
+      },
+      "naive": {
+        "retrieval_time": 13.431795,
+        "input_tokens": 1522,
+        "output_tokens": 741,
+        "total_tokens": 2263,
+        "context_length": 5994,
+        "answer_length": 2966,
+        "timestamp": "2026-01-19T20:02:49.580116",
+        "file_name": "cbd456e9.json"
+      },
+      "hybrid": {
+        "retrieval_time": 34.159517,
+        "input_tokens": 30175,
+        "output_tokens": 1008,
+        "total_tokens": 31183,
+        "context_length": 120607,
+        "answer_length": 4033,
+        "timestamp": "2026-01-19T20:03:23.739633",
+        "file_name": "cbd456e9.json"
+      },
+      "mix": {
+        "retrieval_time": 34.229077,
+        "input_tokens": 30098,
+        "output_tokens": 883,
+        "total_tokens": 30981,
+        "context_length": 120297,
+        "answer_length": 3533,
+        "timestamp": "2026-01-19T20:03:57.968710",
+        "file_name": "cbd456e9.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 29.630966,
+        "input_tokens": 27335,
+        "output_tokens": 785,
+        "total_tokens": 28120,
+        "context_length": 109293,
+        "answer_length": 3141,
+        "timestamp": "2026-01-19T20:04:27.599676",
+        "file_name": "d5641244.json"
+      },
+      "global": {
+        "retrieval_time": 36.740248,
+        "input_tokens": 18344,
+        "output_tokens": 672,
+        "total_tokens": 19016,
+        "context_length": 73330,
+        "answer_length": 2691,
+        "timestamp": "2026-01-19T20:05:04.339924",
+        "file_name": "d5641244.json"
+      },
+      "naive": {
+        "retrieval_time": 10.634082,
+        "input_tokens": 4630,
+        "output_tokens": 636,
+        "total_tokens": 5266,
+        "context_length": 18475,
+        "answer_length": 2545,
+        "timestamp": "2026-01-19T20:05:14.974006",
+        "file_name": "d5641244.json"
+      },
+      "hybrid": {
+        "retrieval_time": 36.653855,
+        "input_tokens": 31481,
+        "output_tokens": 732,
+        "total_tokens": 32213,
+        "context_length": 125879,
+        "answer_length": 2930,
+        "timestamp": "2026-01-19T20:05:51.627861",
+        "file_name": "d5641244.json"
+      },
+      "mix": {
+        "retrieval_time": 37.853263,
+        "input_tokens": 30871,
+        "output_tokens": 712,
+        "total_tokens": 31583,
+        "context_length": 123439,
+        "answer_length": 2850,
+        "timestamp": "2026-01-19T20:06:29.481124",
+        "file_name": "d5641244.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 29.668647,
+        "input_tokens": 25278,
+        "output_tokens": 447,
+        "total_tokens": 25725,
+        "context_length": 101037,
+        "answer_length": 1789,
+        "timestamp": "2026-01-19T20:06:59.149771",
+        "file_name": "df27b7cc.json"
+      },
+      "global": {
+        "retrieval_time": 37.982923,
+        "input_tokens": 21971,
+        "output_tokens": 457,
+        "total_tokens": 22428,
+        "context_length": 87810,
+        "answer_length": 1831,
+        "timestamp": "2026-01-19T20:07:37.132694",
+        "file_name": "df27b7cc.json"
+      },
+      "naive": {
+        "retrieval_time": 26.503726,
+        "input_tokens": 2646,
+        "output_tokens": 347,
+        "total_tokens": 2993,
+        "context_length": 10510,
+        "answer_length": 1391,
+        "timestamp": "2026-01-19T20:08:03.636420",
+        "file_name": "df27b7cc.json"
+      },
+      "hybrid": {
+        "retrieval_time": 33.427152,
+        "input_tokens": 29470,
+        "output_tokens": 624,
+        "total_tokens": 30094,
+        "context_length": 117807,
+        "answer_length": 2499,
+        "timestamp": "2026-01-19T20:08:37.063572",
+        "file_name": "df27b7cc.json"
+      },
+      "mix": {
+        "retrieval_time": 37.800178,
+        "input_tokens": 29429,
+        "output_tokens": 448,
+        "total_tokens": 29877,
+        "context_length": 117643,
+        "answer_length": 1795,
+        "timestamp": "2026-01-19T20:09:14.863750",
+        "file_name": "df27b7cc.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 57.386004,
+        "input_tokens": 21068,
+        "output_tokens": 303,
+        "total_tokens": 21371,
+        "context_length": 84198,
+        "answer_length": 1212,
+        "timestamp": "2026-01-19T20:10:12.249754",
+        "file_name": "5f7adf0f.json"
+      },
+      "global": {
+        "retrieval_time": 26.723923,
+        "input_tokens": 23254,
+        "output_tokens": 226,
+        "total_tokens": 23480,
+        "context_length": 92941,
+        "answer_length": 905,
+        "timestamp": "2026-01-19T20:10:38.973677",
+        "file_name": "5f7adf0f.json"
+      },
+      "naive": {
+        "retrieval_time": 6.881115,
+        "input_tokens": 3640,
+        "output_tokens": 171,
+        "total_tokens": 3811,
+        "context_length": 14487,
+        "answer_length": 685,
+        "timestamp": "2026-01-19T20:10:45.854792",
+        "file_name": "5f7adf0f.json"
+      },
+      "hybrid": {
+        "retrieval_time": 59.136256,
+        "input_tokens": 27749,
+        "output_tokens": 433,
+        "total_tokens": 28182,
+        "context_length": 110921,
+        "answer_length": 1732,
+        "timestamp": "2026-01-19T20:11:44.991048",
+        "file_name": "5f7adf0f.json"
+      },
+      "mix": {
+        "retrieval_time": 55.035059,
+        "input_tokens": 29410,
+        "output_tokens": 293,
+        "total_tokens": 29703,
+        "context_length": 117565,
+        "answer_length": 1175,
+        "timestamp": "2026-01-19T20:12:40.026107",
+        "file_name": "5f7adf0f.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 52.382154,
+        "input_tokens": 3612,
+        "output_tokens": 226,
+        "total_tokens": 3838,
+        "context_length": 14398,
+        "answer_length": 907,
+        "timestamp": "2026-01-19T20:13:32.408261",
+        "file_name": "383d8d29.json"
+      },
+      "global": {
+        "retrieval_time": 29.658763,
+        "input_tokens": 10145,
+        "output_tokens": 794,
+        "total_tokens": 10939,
+        "context_length": 40529,
+        "answer_length": 3178,
+        "timestamp": "2026-01-19T20:14:02.067024",
+        "file_name": "383d8d29.json"
+      },
+      "naive": {
+        "retrieval_time": 18.506044,
+        "input_tokens": 71,
+        "output_tokens": 61,
+        "total_tokens": 132,
+        "context_length": 233,
+        "answer_length": 245,
+        "timestamp": "2026-01-19T20:14:20.573068",
+        "file_name": "383d8d29.json"
+      },
+      "hybrid": {
+        "retrieval_time": 72.550558,
+        "input_tokens": 11021,
+        "output_tokens": 494,
+        "total_tokens": 11515,
+        "context_length": 44033,
+        "answer_length": 1979,
+        "timestamp": "2026-01-19T20:15:33.123626",
+        "file_name": "383d8d29.json"
+      },
+      "mix": {
+        "retrieval_time": 67.59602,
+        "input_tokens": 11183,
+        "output_tokens": 295,
+        "total_tokens": 11478,
+        "context_length": 44682,
+        "answer_length": 1182,
+        "timestamp": "2026-01-19T20:16:40.719646",
+        "file_name": "383d8d29.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 19.032948,
+        "input_tokens": 17463,
+        "output_tokens": 673,
+        "total_tokens": 18136,
+        "context_length": 69783,
+        "answer_length": 2692,
+        "timestamp": "2026-01-19T20:16:59.752594",
+        "file_name": "7b84589a.json"
+      },
+      "global": {
+        "retrieval_time": 25.68441,
+        "input_tokens": 24775,
+        "output_tokens": 640,
+        "total_tokens": 25415,
+        "context_length": 99030,
+        "answer_length": 2560,
+        "timestamp": "2026-01-19T20:17:25.437004",
+        "file_name": "7b84589a.json"
+      },
+      "naive": {
+        "retrieval_time": 10.231264,
+        "input_tokens": 2793,
+        "output_tokens": 712,
+        "total_tokens": 3505,
+        "context_length": 11102,
+        "answer_length": 2849,
+        "timestamp": "2026-01-19T20:17:35.668268",
+        "file_name": "7b84589a.json"
+      },
+      "hybrid": {
+        "retrieval_time": 28.762001,
+        "input_tokens": 27502,
+        "output_tokens": 729,
+        "total_tokens": 28231,
+        "context_length": 109938,
+        "answer_length": 2916,
+        "timestamp": "2026-01-19T20:18:04.430269",
+        "file_name": "7b84589a.json"
+      },
+      "mix": {
+        "retrieval_time": 34.231668,
+        "input_tokens": 28921,
+        "output_tokens": 719,
+        "total_tokens": 29640,
+        "context_length": 115615,
+        "answer_length": 2879,
+        "timestamp": "2026-01-19T20:18:38.661937",
+        "file_name": "7b84589a.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 36.660141,
+        "input_tokens": 20323,
+        "output_tokens": 350,
+        "total_tokens": 20673,
+        "context_length": 81213,
+        "answer_length": 1403,
+        "timestamp": "2026-01-19T20:19:15.322078",
+        "file_name": "44063ab3.json"
+      },
+      "global": {
+        "retrieval_time": 38.04606,
+        "input_tokens": 23456,
+        "output_tokens": 574,
+        "total_tokens": 24030,
+        "context_length": 93745,
+        "answer_length": 2298,
+        "timestamp": "2026-01-19T20:19:53.368138",
+        "file_name": "44063ab3.json"
+      },
+      "naive": {
+        "retrieval_time": 49.888769,
+        "input_tokens": 8321,
+        "output_tokens": 277,
+        "total_tokens": 8598,
+        "context_length": 33206,
+        "answer_length": 1110,
+        "timestamp": "2026-01-19T20:20:43.256907",
+        "file_name": "44063ab3.json"
+      },
+      "hybrid": {
+        "retrieval_time": 28.780558,
+        "input_tokens": 26841,
+        "output_tokens": 561,
+        "total_tokens": 27402,
+        "context_length": 107287,
+        "answer_length": 2244,
+        "timestamp": "2026-01-19T20:21:12.037465",
+        "file_name": "44063ab3.json"
+      },
+      "mix": {
+        "retrieval_time": 50.55516,
+        "input_tokens": 26841,
+        "output_tokens": 494,
+        "total_tokens": 27335,
+        "context_length": 107287,
+        "answer_length": 1978,
+        "timestamp": "2026-01-19T20:22:02.592625",
+        "file_name": "44063ab3.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 20.026499,
+        "input_tokens": 9267,
+        "output_tokens": 575,
+        "total_tokens": 9842,
+        "context_length": 36972,
+        "answer_length": 2301,
+        "timestamp": "2026-01-19T20:22:22.619124",
+        "file_name": "bba13757.json"
+      },
+      "global": {
+        "retrieval_time": 24.031926,
+        "input_tokens": 24423,
+        "output_tokens": 633,
+        "total_tokens": 25056,
+        "context_length": 97598,
+        "answer_length": 2533,
+        "timestamp": "2026-01-19T20:22:46.651050",
+        "file_name": "bba13757.json"
+      },
+      "naive": {
+        "retrieval_time": 7.895487,
+        "input_tokens": 4618,
+        "output_tokens": 237,
+        "total_tokens": 4855,
+        "context_length": 18376,
+        "answer_length": 948,
+        "timestamp": "2026-01-19T20:22:54.546537",
+        "file_name": "bba13757.json"
+      },
+      "hybrid": {
+        "retrieval_time": 30.885925,
+        "input_tokens": 27191,
+        "output_tokens": 735,
+        "total_tokens": 27926,
+        "context_length": 108670,
+        "answer_length": 2942,
+        "timestamp": "2026-01-19T20:23:25.432462",
+        "file_name": "bba13757.json"
+      },
+      "mix": {
+        "retrieval_time": 22.365957,
+        "input_tokens": 28002,
+        "output_tokens": 566,
+        "total_tokens": 28568,
+        "context_length": 111911,
+        "answer_length": 2264,
+        "timestamp": "2026-01-19T20:23:47.798419",
+        "file_name": "bba13757.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 29.30783,
+        "input_tokens": 14565,
+        "output_tokens": 413,
+        "total_tokens": 14978,
+        "context_length": 58189,
+        "answer_length": 1652,
+        "timestamp": "2026-01-19T20:24:17.106249",
+        "file_name": "642d3af4.json"
+      },
+      "global": {
+        "retrieval_time": 26.974306,
+        "input_tokens": 14145,
+        "output_tokens": 403,
+        "total_tokens": 14548,
+        "context_length": 56512,
+        "answer_length": 1614,
+        "timestamp": "2026-01-19T20:24:44.080555",
+        "file_name": "642d3af4.json"
+      },
+      "naive": {
+        "retrieval_time": 9.663696,
+        "input_tokens": 1596,
+        "output_tokens": 399,
+        "total_tokens": 1995,
+        "context_length": 6313,
+        "answer_length": 1598,
+        "timestamp": "2026-01-19T20:24:53.744251",
+        "file_name": "642d3af4.json"
+      },
+      "hybrid": {
+        "retrieval_time": 27.987461,
+        "input_tokens": 21316,
+        "output_tokens": 599,
+        "total_tokens": 21915,
+        "context_length": 85196,
+        "answer_length": 2399,
+        "timestamp": "2026-01-19T20:25:21.731712",
+        "file_name": "642d3af4.json"
+      },
+      "mix": {
+        "retrieval_time": 24.69684,
+        "input_tokens": 22301,
+        "output_tokens": 576,
+        "total_tokens": 22877,
+        "context_length": 89135,
+        "answer_length": 2307,
+        "timestamp": "2026-01-19T20:25:46.428552",
+        "file_name": "642d3af4.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 24.149001,
+        "input_tokens": 26492,
+        "output_tokens": 693,
+        "total_tokens": 27185,
+        "context_length": 105861,
+        "answer_length": 2774,
+        "timestamp": "2026-01-19T20:26:10.577553",
+        "file_name": "3eec923a.json"
+      },
+      "global": {
+        "retrieval_time": 23.430177,
+        "input_tokens": 14429,
+        "output_tokens": 455,
+        "total_tokens": 14884,
+        "context_length": 57609,
+        "answer_length": 1821,
+        "timestamp": "2026-01-19T20:26:34.007730",
+        "file_name": "3eec923a.json"
+      },
+      "naive": {
+        "retrieval_time": 9.822124,
+        "input_tokens": 4815,
+        "output_tokens": 611,
+        "total_tokens": 5426,
+        "context_length": 19155,
+        "answer_length": 2446,
+        "timestamp": "2026-01-19T20:26:43.829854",
+        "file_name": "3eec923a.json"
+      },
+      "hybrid": {
+        "retrieval_time": 22.976684,
+        "input_tokens": 30412,
+        "output_tokens": 716,
+        "total_tokens": 31128,
+        "context_length": 121543,
+        "answer_length": 2864,
+        "timestamp": "2026-01-19T20:27:06.806538",
+        "file_name": "3eec923a.json"
+      },
+      "mix": {
+        "retrieval_time": 28.884068,
+        "input_tokens": 29553,
+        "output_tokens": 877,
+        "total_tokens": 30430,
+        "context_length": 118105,
+        "answer_length": 3509,
+        "timestamp": "2026-01-19T20:27:35.690606",
+        "file_name": "3eec923a.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 22.953975,
+        "input_tokens": 22707,
+        "output_tokens": 793,
+        "total_tokens": 23500,
+        "context_length": 90756,
+        "answer_length": 3173,
+        "timestamp": "2026-01-19T20:27:58.644581",
+        "file_name": "58a5d8e7.json"
+      },
+      "global": {
+        "retrieval_time": 22.824159,
+        "input_tokens": 18791,
+        "output_tokens": 674,
+        "total_tokens": 19465,
+        "context_length": 75094,
+        "answer_length": 2696,
+        "timestamp": "2026-01-19T20:28:21.468740",
+        "file_name": "58a5d8e7.json"
+      },
+      "naive": {
+        "retrieval_time": 21.654914,
+        "input_tokens": 9473,
+        "output_tokens": 790,
+        "total_tokens": 10263,
+        "context_length": 37820,
+        "answer_length": 3163,
+        "timestamp": "2026-01-19T20:28:43.123654",
+        "file_name": "58a5d8e7.json"
+      },
+      "hybrid": {
+        "retrieval_time": 25.898895,
+        "input_tokens": 33439,
+        "output_tokens": 847,
+        "total_tokens": 34286,
+        "context_length": 133684,
+        "answer_length": 3390,
+        "timestamp": "2026-01-19T20:29:09.022549",
+        "file_name": "58a5d8e7.json"
+      },
+      "mix": {
+        "retrieval_time": 24.947097,
+        "input_tokens": 33668,
+        "output_tokens": 837,
+        "total_tokens": 34505,
+        "context_length": 134600,
+        "answer_length": 3348,
+        "timestamp": "2026-01-19T20:29:33.969646",
+        "file_name": "58a5d8e7.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 26.275146,
+        "input_tokens": 21371,
+        "output_tokens": 675,
+        "total_tokens": 22046,
+        "context_length": 85411,
+        "answer_length": 2700,
+        "timestamp": "2026-01-19T20:30:00.244792",
+        "file_name": "f54eba8e.json"
+      },
+      "global": {
+        "retrieval_time": 23.615132,
+        "input_tokens": 19711,
+        "output_tokens": 687,
+        "total_tokens": 20398,
+        "context_length": 78769,
+        "answer_length": 2750,
+        "timestamp": "2026-01-19T20:30:23.859924",
+        "file_name": "f54eba8e.json"
+      },
+      "naive": {
+        "retrieval_time": 13.963023,
+        "input_tokens": 6117,
+        "output_tokens": 549,
+        "total_tokens": 6666,
+        "context_length": 24393,
+        "answer_length": 2199,
+        "timestamp": "2026-01-19T20:30:37.822947",
+        "file_name": "f54eba8e.json"
+      },
+      "hybrid": {
+        "retrieval_time": 28.549605,
+        "input_tokens": 27254,
+        "output_tokens": 824,
+        "total_tokens": 28078,
+        "context_length": 108941,
+        "answer_length": 3296,
+        "timestamp": "2026-01-19T20:31:06.372552",
+        "file_name": "f54eba8e.json"
+      },
+      "mix": {
+        "retrieval_time": 23.671989,
+        "input_tokens": 28170,
+        "output_tokens": 646,
+        "total_tokens": 28816,
+        "context_length": 112604,
+        "answer_length": 2586,
+        "timestamp": "2026-01-19T20:31:30.044541",
+        "file_name": "f54eba8e.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 28.472399,
+        "input_tokens": 9560,
+        "output_tokens": 426,
+        "total_tokens": 9986,
+        "context_length": 38120,
+        "answer_length": 1705,
+        "timestamp": "2026-01-19T20:31:58.516940",
+        "file_name": "4d181fb3.json"
+      },
+      "global": {
+        "retrieval_time": 26.462922,
+        "input_tokens": 11210,
+        "output_tokens": 475,
+        "total_tokens": 11685,
+        "context_length": 44719,
+        "answer_length": 1903,
+        "timestamp": "2026-01-19T20:32:24.979862",
+        "file_name": "4d181fb3.json"
+      },
+      "naive": {
+        "retrieval_time": 3.634376,
+        "input_tokens": 88,
+        "output_tokens": 51,
+        "total_tokens": 139,
+        "context_length": 233,
+        "answer_length": 205,
+        "timestamp": "2026-01-19T20:32:28.614238",
+        "file_name": "4d181fb3.json"
+      },
+      "hybrid": {
+        "retrieval_time": 18.89897,
+        "input_tokens": 16284,
+        "output_tokens": 528,
+        "total_tokens": 16812,
+        "context_length": 65018,
+        "answer_length": 2113,
+        "timestamp": "2026-01-19T20:32:47.513208",
+        "file_name": "4d181fb3.json"
+      },
+      "mix": {
+        "retrieval_time": 22.247844,
+        "input_tokens": 16284,
+        "output_tokens": 552,
+        "total_tokens": 16836,
+        "context_length": 65018,
+        "answer_length": 2210,
+        "timestamp": "2026-01-19T20:33:09.761052",
+        "file_name": "4d181fb3.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 16.959485,
+        "input_tokens": 11614,
+        "output_tokens": 616,
+        "total_tokens": 12230,
+        "context_length": 46387,
+        "answer_length": 2467,
+        "timestamp": "2026-01-19T20:33:26.720537",
+        "file_name": "9bc47daa.json"
+      },
+      "global": {
+        "retrieval_time": 17.618177,
+        "input_tokens": 24406,
+        "output_tokens": 679,
+        "total_tokens": 25085,
+        "context_length": 97554,
+        "answer_length": 2717,
+        "timestamp": "2026-01-19T20:33:44.338714",
+        "file_name": "9bc47daa.json"
+      },
+      "naive": {
+        "retrieval_time": 11.081888,
+        "input_tokens": 6108,
+        "output_tokens": 638,
+        "total_tokens": 6746,
+        "context_length": 24365,
+        "answer_length": 2554,
+        "timestamp": "2026-01-19T20:33:55.420602",
+        "file_name": "9bc47daa.json"
+      },
+      "hybrid": {
+        "retrieval_time": 24.608924,
+        "input_tokens": 29772,
+        "output_tokens": 613,
+        "total_tokens": 30385,
+        "context_length": 119021,
+        "answer_length": 2454,
+        "timestamp": "2026-01-19T20:34:20.029526",
+        "file_name": "9bc47daa.json"
+      },
+      "mix": {
+        "retrieval_time": 23.172716,
+        "input_tokens": 28276,
+        "output_tokens": 789,
+        "total_tokens": 29065,
+        "context_length": 113035,
+        "answer_length": 3159,
+        "timestamp": "2026-01-19T20:34:43.202242",
+        "file_name": "9bc47daa.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 17.264292,
+        "input_tokens": 22299,
+        "output_tokens": 699,
+        "total_tokens": 22998,
+        "context_length": 89125,
+        "answer_length": 2797,
+        "timestamp": "2026-01-19T20:35:00.466534",
+        "file_name": "f2396b30.json"
+      },
+      "global": {
+        "retrieval_time": 20.167503,
+        "input_tokens": 21392,
+        "output_tokens": 691,
+        "total_tokens": 22083,
+        "context_length": 85498,
+        "answer_length": 2765,
+        "timestamp": "2026-01-19T20:35:20.634037",
+        "file_name": "f2396b30.json"
+      },
+      "naive": {
+        "retrieval_time": 11.214044,
+        "input_tokens": 2987,
+        "output_tokens": 553,
+        "total_tokens": 3540,
+        "context_length": 11877,
+        "answer_length": 2214,
+        "timestamp": "2026-01-19T20:35:31.848081",
+        "file_name": "f2396b30.json"
+      },
+      "hybrid": {
+        "retrieval_time": 27.897745,
+        "input_tokens": 30529,
+        "output_tokens": 715,
+        "total_tokens": 31244,
+        "context_length": 122048,
+        "answer_length": 2862,
+        "timestamp": "2026-01-19T20:35:59.745826",
+        "file_name": "f2396b30.json"
+      },
+      "mix": {
+        "retrieval_time": 22.447561,
+        "input_tokens": 28553,
+        "output_tokens": 711,
+        "total_tokens": 29264,
+        "context_length": 114144,
+        "answer_length": 2847,
+        "timestamp": "2026-01-19T20:36:22.193387",
+        "file_name": "f2396b30.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 14.763378,
+        "input_tokens": 27039,
+        "output_tokens": 369,
+        "total_tokens": 27408,
+        "context_length": 108106,
+        "answer_length": 1477,
+        "timestamp": "2026-01-19T20:36:36.956765",
+        "file_name": "1bacc152.json"
+      },
+      "global": {
+        "retrieval_time": 15.211587,
+        "input_tokens": 13309,
+        "output_tokens": 293,
+        "total_tokens": 13602,
+        "context_length": 53186,
+        "answer_length": 1175,
+        "timestamp": "2026-01-19T20:36:52.168352",
+        "file_name": "1bacc152.json"
+      },
+      "naive": {
+        "retrieval_time": 24.598247,
+        "input_tokens": 5434,
+        "output_tokens": 261,
+        "total_tokens": 5695,
+        "context_length": 21687,
+        "answer_length": 1046,
+        "timestamp": "2026-01-19T20:37:16.766599",
+        "file_name": "1bacc152.json"
+      },
+      "hybrid": {
+        "retrieval_time": 19.378843,
+        "input_tokens": 30097,
+        "output_tokens": 376,
+        "total_tokens": 30473,
+        "context_length": 120340,
+        "answer_length": 1504,
+        "timestamp": "2026-01-19T20:37:36.145442",
+        "file_name": "1bacc152.json"
+      },
+      "mix": {
+        "retrieval_time": 19.151139,
+        "input_tokens": 29930,
+        "output_tokens": 303,
+        "total_tokens": 30233,
+        "context_length": 119671,
+        "answer_length": 1213,
+        "timestamp": "2026-01-19T20:37:55.296581",
+        "file_name": "1bacc152.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 18.975128,
+        "input_tokens": 27508,
+        "output_tokens": 493,
+        "total_tokens": 28001,
+        "context_length": 109956,
+        "answer_length": 1973,
+        "timestamp": "2026-01-19T20:38:14.271709",
+        "file_name": "daff6a7b.json"
+      },
+      "global": {
+        "retrieval_time": 15.065994,
+        "input_tokens": 14523,
+        "output_tokens": 442,
+        "total_tokens": 14965,
+        "context_length": 58017,
+        "answer_length": 1771,
+        "timestamp": "2026-01-19T20:38:29.337703",
+        "file_name": "daff6a7b.json"
+      },
+      "naive": {
+        "retrieval_time": 20.187047,
+        "input_tokens": 1654,
+        "output_tokens": 250,
+        "total_tokens": 1904,
+        "context_length": 6542,
+        "answer_length": 1002,
+        "timestamp": "2026-01-19T20:38:49.524750",
+        "file_name": "daff6a7b.json"
+      },
+      "hybrid": {
+        "retrieval_time": 24.380361,
+        "input_tokens": 31595,
+        "output_tokens": 671,
+        "total_tokens": 32266,
+        "context_length": 126305,
+        "answer_length": 2686,
+        "timestamp": "2026-01-19T20:39:13.905111",
+        "file_name": "daff6a7b.json"
+      },
+      "mix": {
+        "retrieval_time": 26.384782,
+        "input_tokens": 31595,
+        "output_tokens": 699,
+        "total_tokens": 32294,
+        "context_length": 126305,
+        "answer_length": 2798,
+        "timestamp": "2026-01-19T20:39:40.289893",
+        "file_name": "daff6a7b.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 18.183941,
+        "input_tokens": 27052,
+        "output_tokens": 561,
+        "total_tokens": 27613,
+        "context_length": 108109,
+        "answer_length": 2244,
+        "timestamp": "2026-01-19T20:39:58.473834",
+        "file_name": "2b9ff3ae.json"
+      },
+      "global": {
+        "retrieval_time": 18.310328,
+        "input_tokens": 19850,
+        "output_tokens": 566,
+        "total_tokens": 20416,
+        "context_length": 79299,
+        "answer_length": 2266,
+        "timestamp": "2026-01-19T20:40:16.784162",
+        "file_name": "2b9ff3ae.json"
+      },
+      "naive": {
+        "retrieval_time": 32.689663,
+        "input_tokens": 1716,
+        "output_tokens": 445,
+        "total_tokens": 2161,
+        "context_length": 6764,
+        "answer_length": 1782,
+        "timestamp": "2026-01-19T20:40:49.473825",
+        "file_name": "2b9ff3ae.json"
+      },
+      "hybrid": {
+        "retrieval_time": 29.837621,
+        "input_tokens": 27492,
+        "output_tokens": 505,
+        "total_tokens": 27997,
+        "context_length": 109869,
+        "answer_length": 2021,
+        "timestamp": "2026-01-19T20:41:19.311446",
+        "file_name": "2b9ff3ae.json"
+      },
+      "mix": {
+        "retrieval_time": 20.571215,
+        "input_tokens": 29646,
+        "output_tokens": 436,
+        "total_tokens": 30082,
+        "context_length": 118483,
+        "answer_length": 1745,
+        "timestamp": "2026-01-19T20:41:39.882661",
+        "file_name": "2b9ff3ae.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 23.17634,
+        "input_tokens": 26777,
+        "output_tokens": 627,
+        "total_tokens": 27404,
+        "context_length": 107047,
+        "answer_length": 2511,
+        "timestamp": "2026-01-19T20:42:03.059001",
+        "file_name": "0d0d16d0.json"
+      },
+      "global": {
+        "retrieval_time": 21.992281,
+        "input_tokens": 11339,
+        "output_tokens": 601,
+        "total_tokens": 11940,
+        "context_length": 45295,
+        "answer_length": 2404,
+        "timestamp": "2026-01-19T20:42:25.051282",
+        "file_name": "0d0d16d0.json"
+      },
+      "naive": {
+        "retrieval_time": 10.410495,
+        "input_tokens": 3180,
+        "output_tokens": 562,
+        "total_tokens": 3742,
+        "context_length": 12657,
+        "answer_length": 2248,
+        "timestamp": "2026-01-19T20:42:35.461777",
+        "file_name": "0d0d16d0.json"
+      },
+      "hybrid": {
+        "retrieval_time": 23.651588,
+        "input_tokens": 30677,
+        "output_tokens": 768,
+        "total_tokens": 31445,
+        "context_length": 122645,
+        "answer_length": 3075,
+        "timestamp": "2026-01-19T20:42:59.113365",
+        "file_name": "0d0d16d0.json"
+      },
+      "mix": {
+        "retrieval_time": 23.414035,
+        "input_tokens": 30677,
+        "output_tokens": 691,
+        "total_tokens": 31368,
+        "context_length": 122645,
+        "answer_length": 2767,
+        "timestamp": "2026-01-19T20:43:22.527400",
+        "file_name": "0d0d16d0.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 15.400355,
+        "input_tokens": 26376,
+        "output_tokens": 635,
+        "total_tokens": 27011,
+        "context_length": 105358,
+        "answer_length": 2543,
+        "timestamp": "2026-01-19T20:43:37.927755",
+        "file_name": "d25e0880.json"
+      },
+      "global": {
+        "retrieval_time": 16.550284,
+        "input_tokens": 26850,
+        "output_tokens": 695,
+        "total_tokens": 27545,
+        "context_length": 107255,
+        "answer_length": 2780,
+        "timestamp": "2026-01-19T20:43:54.478039",
+        "file_name": "d25e0880.json"
+      },
+      "naive": {
+        "retrieval_time": 10.173646,
+        "input_tokens": 5197,
+        "output_tokens": 751,
+        "total_tokens": 5948,
+        "context_length": 20641,
+        "answer_length": 3007,
+        "timestamp": "2026-01-19T20:44:04.651685",
+        "file_name": "d25e0880.json"
+      },
+      "hybrid": {
+        "retrieval_time": 21.824314,
+        "input_tokens": 32632,
+        "output_tokens": 771,
+        "total_tokens": 33403,
+        "context_length": 130382,
+        "answer_length": 3086,
+        "timestamp": "2026-01-19T20:44:26.475999",
+        "file_name": "d25e0880.json"
+      },
+      "mix": {
+        "retrieval_time": 24.499797,
+        "input_tokens": 32910,
+        "output_tokens": 886,
+        "total_tokens": 33796,
+        "context_length": 131494,
+        "answer_length": 3545,
+        "timestamp": "2026-01-19T20:44:50.975796",
+        "file_name": "d25e0880.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 20.266938,
+        "input_tokens": 22671,
+        "output_tokens": 683,
+        "total_tokens": 23354,
+        "context_length": 90567,
+        "answer_length": 2734,
+        "timestamp": "2026-01-19T20:45:11.242734",
+        "file_name": "1c41ffb9.json"
+      },
+      "global": {
+        "retrieval_time": 21.34867,
+        "input_tokens": 25183,
+        "output_tokens": 791,
+        "total_tokens": 25974,
+        "context_length": 100617,
+        "answer_length": 3165,
+        "timestamp": "2026-01-19T20:45:32.591404",
+        "file_name": "1c41ffb9.json"
+      },
+      "naive": {
+        "retrieval_time": 18.378142,
+        "input_tokens": 11118,
+        "output_tokens": 579,
+        "total_tokens": 11697,
+        "context_length": 44357,
+        "answer_length": 2316,
+        "timestamp": "2026-01-19T20:45:50.969546",
+        "file_name": "1c41ffb9.json"
+      },
+      "hybrid": {
+        "retrieval_time": 21.086688,
+        "input_tokens": 29100,
+        "output_tokens": 724,
+        "total_tokens": 29824,
+        "context_length": 116283,
+        "answer_length": 2899,
+        "timestamp": "2026-01-19T20:46:12.056234",
+        "file_name": "1c41ffb9.json"
+      },
+      "mix": {
+        "retrieval_time": 22.519024,
+        "input_tokens": 28601,
+        "output_tokens": 621,
+        "total_tokens": 29222,
+        "context_length": 114289,
+        "answer_length": 2485,
+        "timestamp": "2026-01-19T20:46:34.575258",
+        "file_name": "1c41ffb9.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 18.855799,
+        "input_tokens": 13373,
+        "output_tokens": 917,
+        "total_tokens": 14290,
+        "context_length": 53423,
+        "answer_length": 3669,
+        "timestamp": "2026-01-19T20:46:53.431057",
+        "file_name": "6cf59e04.json"
+      },
+      "global": {
+        "retrieval_time": 17.332758,
+        "input_tokens": 15145,
+        "output_tokens": 686,
+        "total_tokens": 15831,
+        "context_length": 60514,
+        "answer_length": 2744,
+        "timestamp": "2026-01-19T20:47:10.763815",
+        "file_name": "6cf59e04.json"
+      },
+      "naive": {
+        "retrieval_time": 9.16545,
+        "input_tokens": 1927,
+        "output_tokens": 623,
+        "total_tokens": 2550,
+        "context_length": 7641,
+        "answer_length": 2493,
+        "timestamp": "2026-01-19T20:47:19.929265",
+        "file_name": "6cf59e04.json"
+      },
+      "hybrid": {
+        "retrieval_time": 21.259594,
+        "input_tokens": 18593,
+        "output_tokens": 609,
+        "total_tokens": 19202,
+        "context_length": 74303,
+        "answer_length": 2437,
+        "timestamp": "2026-01-19T20:47:41.188859",
+        "file_name": "6cf59e04.json"
+      },
+      "mix": {
+        "retrieval_time": 18.796347,
+        "input_tokens": 19859,
+        "output_tokens": 431,
+        "total_tokens": 20290,
+        "context_length": 79370,
+        "answer_length": 1724,
+        "timestamp": "2026-01-19T20:47:59.985206",
+        "file_name": "6cf59e04.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 17.277756,
+        "input_tokens": 26459,
+        "output_tokens": 844,
+        "total_tokens": 27303,
+        "context_length": 105733,
+        "answer_length": 3379,
+        "timestamp": "2026-01-19T20:48:17.262962",
+        "file_name": "99b022fd.json"
+      },
+      "global": {
+        "retrieval_time": 21.21855,
+        "input_tokens": 26202,
+        "output_tokens": 856,
+        "total_tokens": 27058,
+        "context_length": 104705,
+        "answer_length": 3425,
+        "timestamp": "2026-01-19T20:48:38.481512",
+        "file_name": "99b022fd.json"
+      },
+      "naive": {
+        "retrieval_time": 14.906272,
+        "input_tokens": 13135,
+        "output_tokens": 739,
+        "total_tokens": 13874,
+        "context_length": 52437,
+        "answer_length": 2958,
+        "timestamp": "2026-01-19T20:48:53.387784",
+        "file_name": "99b022fd.json"
+      },
+      "hybrid": {
+        "retrieval_time": 25.373607,
+        "input_tokens": 33177,
+        "output_tokens": 990,
+        "total_tokens": 34167,
+        "context_length": 132603,
+        "answer_length": 3963,
+        "timestamp": "2026-01-19T20:49:18.761391",
+        "file_name": "99b022fd.json"
+      },
+      "mix": {
+        "retrieval_time": 24.634147,
+        "input_tokens": 33190,
+        "output_tokens": 957,
+        "total_tokens": 34147,
+        "context_length": 132657,
+        "answer_length": 3829,
+        "timestamp": "2026-01-19T20:49:43.395538",
+        "file_name": "99b022fd.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 17.483253,
+        "input_tokens": 27139,
+        "output_tokens": 938,
+        "total_tokens": 28077,
+        "context_length": 108485,
+        "answer_length": 3754,
+        "timestamp": "2026-01-19T20:50:00.878791",
+        "file_name": "8ce0a122.json"
+      },
+      "global": {
+        "retrieval_time": 17.929514,
+        "input_tokens": 26668,
+        "output_tokens": 826,
+        "total_tokens": 27494,
+        "context_length": 106603,
+        "answer_length": 3304,
+        "timestamp": "2026-01-19T20:50:18.808305",
+        "file_name": "8ce0a122.json"
+      },
+      "naive": {
+        "retrieval_time": 12.44047,
+        "input_tokens": 11745,
+        "output_tokens": 636,
+        "total_tokens": 12381,
+        "context_length": 46911,
+        "answer_length": 2545,
+        "timestamp": "2026-01-19T20:50:31.248775",
+        "file_name": "8ce0a122.json"
+      },
+      "hybrid": {
+        "retrieval_time": 22.881497,
+        "input_tokens": 30716,
+        "output_tokens": 850,
+        "total_tokens": 31566,
+        "context_length": 122792,
+        "answer_length": 3401,
+        "timestamp": "2026-01-19T20:50:54.130272",
+        "file_name": "8ce0a122.json"
+      },
+      "mix": {
+        "retrieval_time": 18.748378,
+        "input_tokens": 31710,
+        "output_tokens": 775,
+        "total_tokens": 32485,
+        "context_length": 126768,
+        "answer_length": 3103,
+        "timestamp": "2026-01-19T20:51:12.878650",
+        "file_name": "8ce0a122.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 12.602814,
+        "input_tokens": 27030,
+        "output_tokens": 750,
+        "total_tokens": 27780,
+        "context_length": 108048,
+        "answer_length": 3000,
+        "timestamp": "2026-01-19T20:51:25.481464",
+        "file_name": "69c257e0.json"
+      },
+      "global": {
+        "retrieval_time": 17.105931,
+        "input_tokens": 24644,
+        "output_tokens": 772,
+        "total_tokens": 25416,
+        "context_length": 98503,
+        "answer_length": 3089,
+        "timestamp": "2026-01-19T20:51:42.587395",
+        "file_name": "69c257e0.json"
+      },
+      "naive": {
+        "retrieval_time": 17.311701,
+        "input_tokens": 8529,
+        "output_tokens": 683,
+        "total_tokens": 9212,
+        "context_length": 34043,
+        "answer_length": 2732,
+        "timestamp": "2026-01-19T20:51:59.899096",
+        "file_name": "69c257e0.json"
+      },
+      "hybrid": {
+        "retrieval_time": 18.089523,
+        "input_tokens": 30541,
+        "output_tokens": 695,
+        "total_tokens": 31236,
+        "context_length": 122090,
+        "answer_length": 2780,
+        "timestamp": "2026-01-19T20:52:17.988619",
+        "file_name": "69c257e0.json"
+      },
+      "mix": {
+        "retrieval_time": 17.434737,
+        "input_tokens": 30969,
+        "output_tokens": 522,
+        "total_tokens": 31491,
+        "context_length": 123803,
+        "answer_length": 2089,
+        "timestamp": "2026-01-19T20:52:35.423356",
+        "file_name": "69c257e0.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 16.782773,
+        "input_tokens": 29001,
+        "output_tokens": 642,
+        "total_tokens": 29643,
+        "context_length": 115918,
+        "answer_length": 2569,
+        "timestamp": "2026-01-19T20:52:52.206129",
+        "file_name": "8271ad85.json"
+      },
+      "global": {
+        "retrieval_time": 16.743823,
+        "input_tokens": 26095,
+        "output_tokens": 651,
+        "total_tokens": 26746,
+        "context_length": 104294,
+        "answer_length": 2607,
+        "timestamp": "2026-01-19T20:53:08.949952",
+        "file_name": "8271ad85.json"
+      },
+      "naive": {
+        "retrieval_time": 13.288949,
+        "input_tokens": 9955,
+        "output_tokens": 760,
+        "total_tokens": 10715,
+        "context_length": 39734,
+        "answer_length": 3041,
+        "timestamp": "2026-01-19T20:53:22.238901",
+        "file_name": "8271ad85.json"
+      },
+      "hybrid": {
+        "retrieval_time": 21.270092,
+        "input_tokens": 29213,
+        "output_tokens": 764,
+        "total_tokens": 29977,
+        "context_length": 116764,
+        "answer_length": 3058,
+        "timestamp": "2026-01-19T20:53:43.508993",
+        "file_name": "8271ad85.json"
+      },
+      "mix": {
+        "retrieval_time": 21.723055,
+        "input_tokens": 29000,
+        "output_tokens": 527,
+        "total_tokens": 29527,
+        "context_length": 115911,
+        "answer_length": 2110,
+        "timestamp": "2026-01-19T20:54:05.232048",
+        "file_name": "8271ad85.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 16.023707,
+        "input_tokens": 27361,
+        "output_tokens": 290,
+        "total_tokens": 27651,
+        "context_length": 109358,
+        "answer_length": 1160,
+        "timestamp": "2026-01-19T20:54:21.255755",
+        "file_name": "38758f5a.json"
+      },
+      "global": {
+        "retrieval_time": 20.982813,
+        "input_tokens": 22043,
+        "output_tokens": 365,
+        "total_tokens": 22408,
+        "context_length": 88087,
+        "answer_length": 1462,
+        "timestamp": "2026-01-19T20:54:42.238568",
+        "file_name": "38758f5a.json"
+      },
+      "naive": {
+        "retrieval_time": 41.664473,
+        "input_tokens": 4537,
+        "output_tokens": 229,
+        "total_tokens": 4766,
+        "context_length": 18062,
+        "answer_length": 916,
+        "timestamp": "2026-01-19T20:55:23.903041",
+        "file_name": "38758f5a.json"
+      },
+      "hybrid": {
+        "retrieval_time": 43.032083,
+        "input_tokens": 30396,
+        "output_tokens": 410,
+        "total_tokens": 30806,
+        "context_length": 121499,
+        "answer_length": 1641,
+        "timestamp": "2026-01-19T20:56:06.935124",
+        "file_name": "38758f5a.json"
+      },
+      "mix": {
+        "retrieval_time": 19.827577,
+        "input_tokens": 30396,
+        "output_tokens": 361,
+        "total_tokens": 30757,
+        "context_length": 121499,
+        "answer_length": 1445,
+        "timestamp": "2026-01-19T20:56:26.762701",
+        "file_name": "38758f5a.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 19.638036,
+        "input_tokens": 20395,
+        "output_tokens": 638,
+        "total_tokens": 21033,
+        "context_length": 81479,
+        "answer_length": 2554,
+        "timestamp": "2026-01-19T20:56:46.400737",
+        "file_name": "7fd59fe6.json"
+      },
+      "global": {
+        "retrieval_time": 19.366365,
+        "input_tokens": 21818,
+        "output_tokens": 975,
+        "total_tokens": 22793,
+        "context_length": 87172,
+        "answer_length": 3903,
+        "timestamp": "2026-01-19T20:57:05.767102",
+        "file_name": "7fd59fe6.json"
+      },
+      "naive": {
+        "retrieval_time": 10.659791,
+        "input_tokens": 5403,
+        "output_tokens": 659,
+        "total_tokens": 6062,
+        "context_length": 21511,
+        "answer_length": 2639,
+        "timestamp": "2026-01-19T20:57:16.426893",
+        "file_name": "7fd59fe6.json"
+      },
+      "hybrid": {
+        "retrieval_time": 18.678839,
+        "input_tokens": 26689,
+        "output_tokens": 699,
+        "total_tokens": 27388,
+        "context_length": 106658,
+        "answer_length": 2798,
+        "timestamp": "2026-01-19T20:57:35.105732",
+        "file_name": "7fd59fe6.json"
+      },
+      "mix": {
+        "retrieval_time": 22.951857,
+        "input_tokens": 26689,
+        "output_tokens": 754,
+        "total_tokens": 27443,
+        "context_length": 106658,
+        "answer_length": 3016,
+        "timestamp": "2026-01-19T20:57:58.057589",
+        "file_name": "7fd59fe6.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 48.921889,
+        "input_tokens": 7915,
+        "output_tokens": 846,
+        "total_tokens": 8761,
+        "context_length": 31582,
+        "answer_length": 3385,
+        "timestamp": "2026-01-19T20:58:46.979478",
+        "file_name": "49f441e1.json"
+      },
+      "global": {
+        "retrieval_time": 24.574475,
+        "input_tokens": 11228,
+        "output_tokens": 554,
+        "total_tokens": 11782,
+        "context_length": 44836,
+        "answer_length": 2217,
+        "timestamp": "2026-01-19T20:59:11.553953",
+        "file_name": "49f441e1.json"
+      },
+      "naive": {
+        "retrieval_time": 4.703439,
+        "input_tokens": 77,
+        "output_tokens": 59,
+        "total_tokens": 136,
+        "context_length": 233,
+        "answer_length": 236,
+        "timestamp": "2026-01-19T20:59:16.257392",
+        "file_name": "49f441e1.json"
+      },
+      "hybrid": {
+        "retrieval_time": 36.724906,
+        "input_tokens": 14173,
+        "output_tokens": 592,
+        "total_tokens": 14765,
+        "context_length": 56617,
+        "answer_length": 2370,
+        "timestamp": "2026-01-19T20:59:52.982298",
+        "file_name": "49f441e1.json"
+      },
+      "mix": {
+        "retrieval_time": 41.323318,
+        "input_tokens": 14173,
+        "output_tokens": 716,
+        "total_tokens": 14889,
+        "context_length": 56617,
+        "answer_length": 2867,
+        "timestamp": "2026-01-19T21:00:34.305616",
+        "file_name": "49f441e1.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 15.614212,
+        "input_tokens": 28952,
+        "output_tokens": 812,
+        "total_tokens": 29764,
+        "context_length": 115751,
+        "answer_length": 3250,
+        "timestamp": "2026-01-19T21:00:49.919828",
+        "file_name": "30418203.json"
+      },
+      "global": {
+        "retrieval_time": 16.357517,
+        "input_tokens": 25628,
+        "output_tokens": 804,
+        "total_tokens": 26432,
+        "context_length": 102455,
+        "answer_length": 3218,
+        "timestamp": "2026-01-19T21:01:06.277345",
+        "file_name": "30418203.json"
+      },
+      "naive": {
+        "retrieval_time": 14.276536,
+        "input_tokens": 9110,
+        "output_tokens": 594,
+        "total_tokens": 9704,
+        "context_length": 36383,
+        "answer_length": 2378,
+        "timestamp": "2026-01-19T21:01:20.553881",
+        "file_name": "30418203.json"
+      },
+      "hybrid": {
+        "retrieval_time": 20.915671,
+        "input_tokens": 32385,
+        "output_tokens": 859,
+        "total_tokens": 33244,
+        "context_length": 129482,
+        "answer_length": 3438,
+        "timestamp": "2026-01-19T21:01:41.469552",
+        "file_name": "30418203.json"
+      },
+      "mix": {
+        "retrieval_time": 21.094896,
+        "input_tokens": 32687,
+        "output_tokens": 994,
+        "total_tokens": 33681,
+        "context_length": 130691,
+        "answer_length": 3977,
+        "timestamp": "2026-01-19T21:02:02.564448",
+        "file_name": "30418203.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 24.12161,
+        "input_tokens": 27947,
+        "output_tokens": 514,
+        "total_tokens": 28461,
+        "context_length": 111713,
+        "answer_length": 2057,
+        "timestamp": "2026-01-19T21:02:26.686058",
+        "file_name": "d20600e5.json"
+      },
+      "global": {
+        "retrieval_time": 19.314662,
+        "input_tokens": 24901,
+        "output_tokens": 539,
+        "total_tokens": 25440,
+        "context_length": 99530,
+        "answer_length": 2159,
+        "timestamp": "2026-01-19T21:02:46.000720",
+        "file_name": "d20600e5.json"
+      },
+      "naive": {
+        "retrieval_time": 10.009011,
+        "input_tokens": 9246,
+        "output_tokens": 208,
+        "total_tokens": 9454,
+        "context_length": 36911,
+        "answer_length": 834,
+        "timestamp": "2026-01-19T21:02:56.009731",
+        "file_name": "d20600e5.json"
+      },
+      "hybrid": {
+        "retrieval_time": 15.157843,
+        "input_tokens": 30611,
+        "output_tokens": 554,
+        "total_tokens": 31165,
+        "context_length": 122369,
+        "answer_length": 2216,
+        "timestamp": "2026-01-19T21:03:11.167574",
+        "file_name": "d20600e5.json"
+      },
+      "mix": {
+        "retrieval_time": 23.510577,
+        "input_tokens": 30516,
+        "output_tokens": 531,
+        "total_tokens": 31047,
+        "context_length": 121990,
+        "answer_length": 2127,
+        "timestamp": "2026-01-19T21:03:34.678151",
+        "file_name": "d20600e5.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 27.369145,
+        "input_tokens": 21315,
+        "output_tokens": 500,
+        "total_tokens": 21815,
+        "context_length": 85176,
+        "answer_length": 2001,
+        "timestamp": "2026-01-19T21:04:02.047296",
+        "file_name": "ab124c52.json"
+      },
+      "global": {
+        "retrieval_time": 15.850735,
+        "input_tokens": 24994,
+        "output_tokens": 520,
+        "total_tokens": 25514,
+        "context_length": 99891,
+        "answer_length": 2083,
+        "timestamp": "2026-01-19T21:04:17.898031",
+        "file_name": "ab124c52.json"
+      },
+      "naive": {
+        "retrieval_time": 22.251239,
+        "input_tokens": 3177,
+        "output_tokens": 627,
+        "total_tokens": 3804,
+        "context_length": 12623,
+        "answer_length": 2510,
+        "timestamp": "2026-01-19T21:04:40.149270",
+        "file_name": "ab124c52.json"
+      },
+      "hybrid": {
+        "retrieval_time": 21.656101,
+        "input_tokens": 27890,
+        "output_tokens": 656,
+        "total_tokens": 28546,
+        "context_length": 111474,
+        "answer_length": 2624,
+        "timestamp": "2026-01-19T21:05:01.805371",
+        "file_name": "ab124c52.json"
+      },
+      "mix": {
+        "retrieval_time": 71.041582,
+        "input_tokens": 28099,
+        "output_tokens": 751,
+        "total_tokens": 28850,
+        "context_length": 112309,
+        "answer_length": 3004,
+        "timestamp": "2026-01-19T21:06:12.846953",
+        "file_name": "ab124c52.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 30.968373,
+        "input_tokens": 6380,
+        "output_tokens": 286,
+        "total_tokens": 6666,
+        "context_length": 25438,
+        "answer_length": 1145,
+        "timestamp": "2026-01-19T21:06:43.815326",
+        "file_name": "8a0f4278.json"
+      },
+      "global": {
+        "retrieval_time": 32.072183,
+        "input_tokens": 10683,
+        "output_tokens": 607,
+        "total_tokens": 11290,
+        "context_length": 42650,
+        "answer_length": 2428,
+        "timestamp": "2026-01-19T21:07:15.887509",
+        "file_name": "8a0f4278.json"
+      },
+      "naive": {
+        "retrieval_time": 8.643744,
+        "input_tokens": 78,
+        "output_tokens": 66,
+        "total_tokens": 144,
+        "context_length": 233,
+        "answer_length": 264,
+        "timestamp": "2026-01-19T21:07:24.531253",
+        "file_name": "8a0f4278.json"
+      },
+      "hybrid": {
+        "retrieval_time": 26.193205,
+        "input_tokens": 14088,
+        "output_tokens": 362,
+        "total_tokens": 14450,
+        "context_length": 56273,
+        "answer_length": 1449,
+        "timestamp": "2026-01-19T21:07:50.724458",
+        "file_name": "8a0f4278.json"
+      },
+      "mix": {
+        "retrieval_time": 28.067628,
+        "input_tokens": 13212,
+        "output_tokens": 708,
+        "total_tokens": 13920,
+        "context_length": 52769,
+        "answer_length": 2833,
+        "timestamp": "2026-01-19T21:08:18.792086",
+        "file_name": "8a0f4278.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 13.485036,
+        "input_tokens": 21075,
+        "output_tokens": 819,
+        "total_tokens": 21894,
+        "context_length": 84210,
+        "answer_length": 3279,
+        "timestamp": "2026-01-19T21:08:32.277122",
+        "file_name": "0ed7397a.json"
+      },
+      "global": {
+        "retrieval_time": 17.6194,
+        "input_tokens": 27198,
+        "output_tokens": 767,
+        "total_tokens": 27965,
+        "context_length": 108704,
+        "answer_length": 3071,
+        "timestamp": "2026-01-19T21:08:49.896522",
+        "file_name": "0ed7397a.json"
+      },
+      "naive": {
+        "retrieval_time": 12.814022,
+        "input_tokens": 3610,
+        "output_tokens": 914,
+        "total_tokens": 4524,
+        "context_length": 14352,
+        "answer_length": 3658,
+        "timestamp": "2026-01-19T21:09:02.710544",
+        "file_name": "0ed7397a.json"
+      },
+      "hybrid": {
+        "retrieval_time": 20.440244,
+        "input_tokens": 30866,
+        "output_tokens": 911,
+        "total_tokens": 31777,
+        "context_length": 123376,
+        "answer_length": 3645,
+        "timestamp": "2026-01-19T21:09:23.150788",
+        "file_name": "0ed7397a.json"
+      },
+      "mix": {
+        "retrieval_time": 19.053027,
+        "input_tokens": 30411,
+        "output_tokens": 908,
+        "total_tokens": 31319,
+        "context_length": 121555,
+        "answer_length": 3632,
+        "timestamp": "2026-01-19T21:09:42.203815",
+        "file_name": "0ed7397a.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 15.287629,
+        "input_tokens": 22649,
+        "output_tokens": 744,
+        "total_tokens": 23393,
+        "context_length": 90519,
+        "answer_length": 2979,
+        "timestamp": "2026-01-19T21:09:57.491444",
+        "file_name": "c399ba47.json"
+      },
+      "global": {
+        "retrieval_time": 20.944113,
+        "input_tokens": 18424,
+        "output_tokens": 647,
+        "total_tokens": 19071,
+        "context_length": 73619,
+        "answer_length": 2590,
+        "timestamp": "2026-01-19T21:10:18.435557",
+        "file_name": "c399ba47.json"
+      },
+      "naive": {
+        "retrieval_time": 17.151963,
+        "input_tokens": 1460,
+        "output_tokens": 311,
+        "total_tokens": 1771,
+        "context_length": 5760,
+        "answer_length": 1246,
+        "timestamp": "2026-01-19T21:10:35.587520",
+        "file_name": "c399ba47.json"
+      },
+      "hybrid": {
+        "retrieval_time": 18.428466,
+        "input_tokens": 29110,
+        "output_tokens": 533,
+        "total_tokens": 29643,
+        "context_length": 116363,
+        "answer_length": 2132,
+        "timestamp": "2026-01-19T21:10:54.015986",
+        "file_name": "c399ba47.json"
+      },
+      "mix": {
+        "retrieval_time": 22.627617,
+        "input_tokens": 29962,
+        "output_tokens": 491,
+        "total_tokens": 30453,
+        "context_length": 119771,
+        "answer_length": 1967,
+        "timestamp": "2026-01-19T21:11:16.643603",
+        "file_name": "c399ba47.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 17.360501,
+        "input_tokens": 25834,
+        "output_tokens": 691,
+        "total_tokens": 26525,
+        "context_length": 103242,
+        "answer_length": 2764,
+        "timestamp": "2026-01-19T21:11:34.004104",
+        "file_name": "eed2fffd.json"
+      },
+      "global": {
+        "retrieval_time": 20.684215,
+        "input_tokens": 24729,
+        "output_tokens": 703,
+        "total_tokens": 25432,
+        "context_length": 98823,
+        "answer_length": 2813,
+        "timestamp": "2026-01-19T21:11:54.688319",
+        "file_name": "eed2fffd.json"
+      },
+      "naive": {
+        "retrieval_time": 4.17565,
+        "input_tokens": 81,
+        "output_tokens": 47,
+        "total_tokens": 128,
+        "context_length": 233,
+        "answer_length": 188,
+        "timestamp": "2026-01-19T21:11:58.863969",
+        "file_name": "eed2fffd.json"
+      },
+      "hybrid": {
+        "retrieval_time": 22.03124,
+        "input_tokens": 31661,
+        "output_tokens": 644,
+        "total_tokens": 32305,
+        "context_length": 126553,
+        "answer_length": 2578,
+        "timestamp": "2026-01-19T21:12:20.895209",
+        "file_name": "eed2fffd.json"
+      },
+      "mix": {
+        "retrieval_time": 21.547274,
+        "input_tokens": 30388,
+        "output_tokens": 553,
+        "total_tokens": 30941,
+        "context_length": 121460,
+        "answer_length": 2214,
+        "timestamp": "2026-01-19T21:12:42.442483",
+        "file_name": "eed2fffd.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 19.949288,
+        "input_tokens": 28273,
+        "output_tokens": 954,
+        "total_tokens": 29227,
+        "context_length": 112981,
+        "answer_length": 3819,
+        "timestamp": "2026-01-19T21:13:02.391771",
+        "file_name": "775f0325.json"
+      },
+      "global": {
+        "retrieval_time": 20.967118,
+        "input_tokens": 20835,
+        "output_tokens": 809,
+        "total_tokens": 21644,
+        "context_length": 83228,
+        "answer_length": 3239,
+        "timestamp": "2026-01-19T21:13:23.358889",
+        "file_name": "775f0325.json"
+      },
+      "naive": {
+        "retrieval_time": 10.420698,
+        "input_tokens": 86,
+        "output_tokens": 118,
+        "total_tokens": 204,
+        "context_length": 233,
+        "answer_length": 472,
+        "timestamp": "2026-01-19T21:13:33.779587",
+        "file_name": "775f0325.json"
+      },
+      "hybrid": {
+        "retrieval_time": 23.515884,
+        "input_tokens": 33178,
+        "output_tokens": 795,
+        "total_tokens": 33973,
+        "context_length": 132601,
+        "answer_length": 3183,
+        "timestamp": "2026-01-19T21:13:57.295471",
+        "file_name": "775f0325.json"
+      },
+      "mix": {
+        "retrieval_time": 25.359346,
+        "input_tokens": 32841,
+        "output_tokens": 959,
+        "total_tokens": 33800,
+        "context_length": 131251,
+        "answer_length": 3837,
+        "timestamp": "2026-01-19T21:14:22.654817",
+        "file_name": "775f0325.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 13.339336,
+        "input_tokens": 26350,
+        "output_tokens": 566,
+        "total_tokens": 26916,
+        "context_length": 105331,
+        "answer_length": 2266,
+        "timestamp": "2026-01-19T21:14:35.994153",
+        "file_name": "1baac2d2.json"
+      },
+      "global": {
+        "retrieval_time": 15.826079,
+        "input_tokens": 26056,
+        "output_tokens": 703,
+        "total_tokens": 26759,
+        "context_length": 104156,
+        "answer_length": 2812,
+        "timestamp": "2026-01-19T21:14:51.820232",
+        "file_name": "1baac2d2.json"
+      },
+      "naive": {
+        "retrieval_time": 10.217416,
+        "input_tokens": 5146,
+        "output_tokens": 685,
+        "total_tokens": 5831,
+        "context_length": 20515,
+        "answer_length": 2742,
+        "timestamp": "2026-01-19T21:15:02.037648",
+        "file_name": "1baac2d2.json"
+      },
+      "hybrid": {
+        "retrieval_time": 20.106983,
+        "input_tokens": 31951,
+        "output_tokens": 531,
+        "total_tokens": 32482,
+        "context_length": 127735,
+        "answer_length": 2125,
+        "timestamp": "2026-01-19T21:15:22.144631",
+        "file_name": "1baac2d2.json"
+      },
+      "mix": {
+        "retrieval_time": 18.290486,
+        "input_tokens": 31951,
+        "output_tokens": 592,
+        "total_tokens": 32543,
+        "context_length": 127735,
+        "answer_length": 2368,
+        "timestamp": "2026-01-19T21:15:40.435117",
+        "file_name": "1baac2d2.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 23.986473,
+        "input_tokens": 19461,
+        "output_tokens": 445,
+        "total_tokens": 19906,
+        "context_length": 77760,
+        "answer_length": 1783,
+        "timestamp": "2026-01-19T21:16:04.421590",
+        "file_name": "9fd9b39f.json"
+      },
+      "global": {
+        "retrieval_time": 37.341898,
+        "input_tokens": 12519,
+        "output_tokens": 650,
+        "total_tokens": 13169,
+        "context_length": 49993,
+        "answer_length": 2602,
+        "timestamp": "2026-01-19T21:16:41.763488",
+        "file_name": "9fd9b39f.json"
+      },
+      "naive": {
+        "retrieval_time": 32.74011,
+        "input_tokens": 3168,
+        "output_tokens": 566,
+        "total_tokens": 3734,
+        "context_length": 12586,
+        "answer_length": 2265,
+        "timestamp": "2026-01-19T21:17:14.503598",
+        "file_name": "9fd9b39f.json"
+      },
+      "hybrid": {
+        "retrieval_time": 37.754604,
+        "input_tokens": 27386,
+        "output_tokens": 728,
+        "total_tokens": 28114,
+        "context_length": 109460,
+        "answer_length": 2915,
+        "timestamp": "2026-01-19T21:17:52.258202",
+        "file_name": "9fd9b39f.json"
+      },
+      "mix": {
+        "retrieval_time": 32.811329,
+        "input_tokens": 28133,
+        "output_tokens": 582,
+        "total_tokens": 28715,
+        "context_length": 112449,
+        "answer_length": 2329,
+        "timestamp": "2026-01-19T21:18:25.069531",
+        "file_name": "9fd9b39f.json"
+      }
+    },
+    {
+      "local": {
+        "retrieval_time": 43.137447,
+        "input_tokens": 6697,
+        "output_tokens": 352,
+        "total_tokens": 7049,
+        "context_length": 26706,
+        "answer_length": 1410,
+        "timestamp": "2026-01-19T21:19:08.206978",
+        "file_name": "132a45f4.json"
+      },
+      "global": {
+        "retrieval_time": 17.982487,
+        "input_tokens": 14600,
+        "output_tokens": 629,
+        "total_tokens": 15229,
+        "context_length": 58318,
+        "answer_length": 2519,
+        "timestamp": "2026-01-19T21:19:26.189465",
+        "file_name": "132a45f4.json"
+      },
+      "naive": {
+        "retrieval_time": 7.117502,
+        "input_tokens": 79,
+        "output_tokens": 64,
+        "total_tokens": 143,
+        "context_length": 233,
+        "answer_length": 259,
+        "timestamp": "2026-01-19T21:19:33.306967",
+        "file_name": "132a45f4.json"
+      },
+      "hybrid": {
+        "retrieval_time": 25.855243,
+        "input_tokens": 17641,
+        "output_tokens": 819,
+        "total_tokens": 18460,
+        "context_length": 70482,
+        "answer_length": 3278,
+        "timestamp": "2026-01-19T21:19:59.162210",
+        "file_name": "132a45f4.json"
+      },
+      "mix": {
+        "retrieval_time": 40.173402,
+        "input_tokens": 18370,
+        "output_tokens": 709,
+        "total_tokens": 19079,
+        "context_length": 73397,
+        "answer_length": 2837,
+        "timestamp": "2026-01-19T21:20:39.335612",
+        "file_name": "132a45f4.json"
+      }
+    }
+  ]
+}

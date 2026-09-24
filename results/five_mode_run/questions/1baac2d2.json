@@ -1,0 +1,465 @@
+{
+ "question_id": "1baac2d2",
+ "ticker": "MRO",
+ "question": "Succession planning for Marathon Oil execs focuses on age dist., MRO.",
+ "expected_answer": "The data shows a spread of ages among the key executives at Marathon Oil that can provide some insight into succession planning and leadership continuity. The CEO and CFO are both 62, which is on the higher end of the age spectrum and may indicate that these positions could require succession planning within the next 3 to 5 years given typical retirement age guidelines. However, having executives such as the Vice President of Operations (54) and the Executive Vice President for Corporate Development and Strategy (59) indicates that there is a blend of both more experienced and mid-career leadership. This diversification of age can be beneficial. Executives in their 50s may still have ample time to mature into higher roles if a leadership transition occurs. It would also be important for Marathon Oil to have formal succession plans in place to bridge these transitions, possibly by accelerating the development of promising mid-career leaders or by identifying internal candidates who have the potential to step into senior roles. In summary, while the data suggests that some key roles are held by executives approaching traditional retirement ages, the relatively younger executives in critical areas provide a potential internal pipeline, thus balancing the immediate need for succession planning with longer-term leadership continuity.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 526,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:14:35.994153",
+   "duration_ms": 13339,
+   "answer": "Marathon Oil Corporation (MRO) manages succession planning as a critical component of its broader human capital management and enterprise risk management strategy. The company's succession process is specifically designed to identify the necessary experiences and exposures required to prepare employees for future senior leadership roles. This planning ensures that top talent is effectively deployed into the most critical roles within the organization to maintain long-term operational success [1].\n\nThe age distribution of the current executive leadership team is a key factor in assessing the talent landscape. As of February 1, 2024, the ages of Marathon Oil's executive officers are as follows:\n*   **Lee M. Tillman** (Chairman, President and CEO): 62\n*   **Dane E. Whitehead** (Executive Vice President—CFO): 62\n*   *Patrick J. Wagner** (Executive Vice President—Corporate Development and Strategy): 59\n*   **Mike Henderson** (Executive Vice President—Operations): 54\n*   **Rob L. White** (Vice President, Controller and Chief Accounting Officer): 54\n*   **Kimberly O. Warnica** (Executive Vice President—General Counsel and Secretary): 50 [1].\n\nThe oversight of these succession and human capital strategies is shared between executive management and the Board of Directors. The Vice President of Human Resources, who reports directly to the CEO, reviews quarterly talent data with the Executive Committee to evaluate the talent landscape and ensure accountability for human capital outcomes. Additionally, the Board of Directors receives regular updates on succession planning and talent as part of the company's enterprise risk management process, ensuring that leadership readiness remains a priority at the highest level of governance [1].\n\nBeyond executive levels, the company utilizes robust talent assessment data to identify critical skill gaps and guide training. This includes the use of centralized development hubs, leadership coaching, and mentoring programs, such as the Board of Directors mentoring program which pairs senior leaders with directors to further bridge the gap between current and future leadership needs [1].\n\n### References\n\n* [1] Marathon Oil Corporation Annual Report on Form 10-K for the Fiscal Year Ended December 31, 2023",
+   "answer_length": 2266,
+   "context_length": 105331,
+   "context": {
+    "entities": 60,
+    "relations": 137,
+    "chunks": 10,
+    "rerank_candidates": 23,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Spin-Off Of Marathon Petroleum Corporation",
+     "Marathon Oil EF II LLC",
+     "Marathon E.G. Production Limited",
+     "Marathonoil.Com",
+     "March 2017",
+     "2021 Percentage Of Total Commodity Sales",
+     "March 2021",
+     "Shawn D. Williams",
+     "May 2020",
+     "Kimberly O. Warnica",
+     "Mark A. McCollum",
+     "Chadwick C. Deaton",
+     "Investor Relations Office",
+     "M. Elise Hyland",
+     "MPC Investment LLC"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.852827866718881,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8918
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:14:51.820232",
+   "duration_ms": 15826,
+   "answer": "Marathon Oil Corporation integrates succession planning as a foundational element of its corporate strategy, focusing on leadership continuity and the development of a talent pipeline to meet future demands. The company's succession process is specifically designed to identify the \"experiences and exposures\" necessary to prepare employees for success in future senior leadership roles. This strategic approach is part of a broader human capital management framework that aims to attract, engage, and deploy a dedicated workforce to achieve long-term business objectives. [1]\n\nThe oversight of these processes involves multiple levels of leadership. The Vice President of Human Resources holds primary accountability for workforce management policies and programs, reporting directly to the Chief Executive Officer (CEO). On a quarterly basis, the VP of Human Resources reviews talent data with the Executive Committee to assess the internal talent landscape and ensure accountability for human capital outcomes. Additionally, the Board of Directors provides high-level oversight of these strategies as part of the Enterprise Risk Management process, receiving regular updates on succession, talent as an enterprise risk, and employee engagement. [1]\n\nTo support its succession goals, Marathon Oil employs several development initiatives:\n*   **Leadership Development Program:** Introduced in 2023, this program targets mid-level and high-potential employees through a combination of professional coaching, behavioral assessments, and business simulations.\n*   **Mentoring Programs:** The company utilizes both an employee mentoring program to advance corporate culture and a specific Board of Directors mentoring program that pairs senior leaders with directors.\n*   **Talent Reviews:** An annual proactive risk analysis is conducted to evaluate potential talent risks over a multi-year horizon, ensuring the company is prepared for leadership transitions and macro-environmental shifts. [1]\n\nAs of February 1, 2024, the age distribution of Marathon Oil’s executive leadership team reflects a range of experienced professionals across various critical functions. The current executive officers and their respective ages are:\n*   **Lee M. Tillman (62):** Chairman, President, and Chief Executive Officer.\n*   **Dane E. Whitehead (62):** Executive Vice President and Chief Financial Officer.\n*   **Patrick J. Wagner (59):** Executive Vice President, Corporate Development and Strategy.\n*   **Mike Henderson (54):** Executive Vice President, Operations.\n*   **Kimberly O. Warnica (50):** Executive Vice President, General Counsel and Secretary.\n*   **Rob L. White (54):** Vice President, Controller, and Chief Accounting Officer. [1]\n\n### References\n\n* [1] Marathon Oil Corporation Annual Report December 31, 2023",
+   "answer_length": 2812,
+   "context_length": 104156,
+   "context": {
+    "entities": 35,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 99,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Board Of Directors",
+     "Executive Succession",
+     "Honeywell International Inc.",
+     "Succession Plan",
+     "Biogen",
+     "Succession Planning",
+     "Company",
+     "Marathon Oil",
+     "Ameriprise Financials Senior Executive Succession Plans",
+     "Succession Process",
+     "Hasbro",
+     "Leadership Changes",
+     "Future Success",
+     "Senior Management Team",
+     "Talent Identification And Development"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4943,
+      "text": "GLs and natural gas reserves have been developed by specialists, specifically petroleum engineers and geoscientists. The principal considerations for our determination that performing procedures relating to the impact of proved developed oil and condensate, NGLs and natural gas reserves on proved oil and natural gas properties, net is a critical audit matter are (i) the significant judgment by man"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6523,
+      "text": "end of 2023 but is now expected in 2024. The implementation of this proposed limit, or the promulgation of a more stringent standard in the future, may result in an increase in costs for emission controls and requirements for additional monitoring and testing, as well as a more cumbersome permitting process. Although there may be an adverse financial impact (including compliance costs, potential p"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7897016099842028,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.876
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:15:02.037648",
+   "duration_ms": 10217,
+   "answer": "Marathon Oil employs a structured approach to human capital management and succession planning, overseen by both executive leadership and the Board of Directors. This process is designed to ensure the company identifies the specific experiences and exposures necessary to prepare employees for future senior leadership roles.\n\n### Executive Officer Profile and Age Distribution\nAs of February 1, 2024, the ages of Marathon Oil’s executive officers range from 50 to 62. The leadership team includes:\n*   **Lee M. Tillman (62):** Chairman, President, and Chief Executive Officer.\n*   **Dane E. Whitehead (62):** Executive Vice President and Chief Financial Officer.\n*   **Patrick J. Wagner (59):** Executive Vice President, Corporate Development and Strategy.\n*   **Mike Henderson (54):** Executive Vice President, Operations.\n*   **Rob L. White (54):** Vice President, Controller, and Chief Accounting Officer.\n*   **Kimberly O. Warnica (50):** Executive Vice President, General Counsel, and Secretary.\n\n### Succession Planning and Talent Development\nThe succession process at Marathon Oil is integrated into a broader talent planning framework. This framework utilizes robust talent assessment data to measure both technical and leadership capabilities across the enterprise. These assessments are intended to identify critical skill gaps and ensure that top talent is deployed into the organization's most critical roles.\n\nTo support the preparation of future leaders, the company utilizes several development initiatives:\n*   **Mentoring Programs:** Marathon Oil maintains an employee mentoring program to advance its culture and a specific Board of Directors mentoring program that pairs senior leaders with directors.\n*   **Leadership Development:** In 2023, the company introduced a Leadership Development Program specifically for mid-level and high-potential employees. This program includes professional coaching, behavioral assessments, and executive-level business simulations.\n*   **Communities of Practice:** The company formalized communities of practice across six petro-technical disciplines to foster innovation and knowledge sharing.\n\n### Governance and Oversight\nThe Board of Directors provides oversight of human capital management strategies, including succession, as part of the Enterprise Risk Management process. The Vice President of Human Resources, who reports directly to the CEO, is accountable for workforce management policies. This includes reviewing quarterly talent data with the Executive Committee to assess the talent landscape and ensure accountability for human capital outcomes.\n\n### References\n\n* [1] {\"ticker\":\"MRO\",\"company\":\"Marathon Oil Corporation\",\"period\":\"December 31, 2023\",\"source\":\"MRO.html\"}",
+   "answer_length": 2742,
+   "context_length": 20515,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 3,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7610919456626749,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7974
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:15:22.144631",
+   "duration_ms": 20107,
+   "answer": "Succession planning at Marathon Oil Corporation is a structured process designed to ensure leadership continuity and prepare for future talent demands. This process focuses on identifying the specific experiences and exposures necessary to prepare high-potential employees for future senior leadership roles. The company integrates this planning with an enterprise-wide talent assessment process that identifies critical skill gaps and ensures that top talent is positioned in the most critical roles within the organization.\n\nThe age distribution of Marathon Oil’s executive leadership team provides a context for these succession efforts. As of February 1, 2024, the ages of the executive officers are as follows:\n\n*   **Lee M. Tillman** (Chairman, President, and CEO): 62\n*   **Dane E. Whitehead** (EVP and Chief Financial Officer): 62\n*   **Patrick J. Wagner** (EVP, Corporate Development and Strategy): 59\n*   **Mike Henderson** (EVP, Operations): 54\n*   **Rob L. White** (VP, Controller, and Chief Accounting Officer): 54\n*   **Kimberly O. Warnica** (EVP, General Counsel and Secretary): 50\n\nTo support the development of its leadership pipeline, Marathon Oil utilizes a variety of organizational learning tools and programs. In 2023, the company introduced a specific Leadership Development Program for mid-level and high-potential employees, which combines professional coaching, behavioral assessments, team projects, and executive-level business simulations. Additionally, the company maintains a Board of Directors mentoring program that pairs senior leaders with directors to foster communication and cultural advancement.\n\nThe Board of Directors plays a central role in overseeing these human capital management strategies. This oversight includes regular reviews of talent management, executive succession, and the development of talent pipelines to ensure a steady supply of skilled employees for future leadership positions. These efforts are intended to sustain the company's long-term strategic direction and operational excellence.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 2125,
+   "context_length": 127735,
+   "context": {
+    "entities": 53,
+    "relations": 177,
+    "chunks": 10,
+    "rerank_candidates": 150,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Spin-Off Of Marathon Petroleum Corporation",
+     "Board Of Directors",
+     "Marathon Oil EF II LLC",
+     "Executive Succession",
+     "Marathon E.G. Production Limited",
+     "Honeywell International Inc.",
+     "Marathonoil.Com",
+     "Succession Plan",
+     "March 2017",
+     "Biogen",
+     "2021 Percentage Of Total Commodity Sales",
+     "Succession Planning",
+     "March 2021",
+     "Company",
+     "Shawn D. Williams"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7504807861068223,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8305
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:15:40.435117",
+   "duration_ms": 18290,
+   "answer": "Marathon Oil Corporation maintains a structured approach to succession planning and talent development to ensure leadership continuity and preparedness for future talent demands. As of February 1, 2024, the age distribution of the company’s executive leadership team reflects a range of experience levels among its top officers:\n\n*   **Lee M. Tillman (62):** Chairman, President, and Chief Executive Officer.\n*   **Dane E. Whitehead (62):** Executive Vice President—Chief Financial Officer.\n*   **Patrick J. Wagner (59):** Executive Vice President—Corporate Development and Strategy.\n*   **Mike Henderson (54):** Executive Vice President—Operations.\n*   **Rob L. White (54):** Vice President, Controller, and Chief Accounting Officer.\n*   **Kimberly O. Warnica (50):** Executive Vice President—General Counsel and Secretary. [1]\n\nThe company’s succession process is specifically designed to identify the necessary experiences and exposures required to prepare employees for future senior leadership roles. This is part of a broader talent planning process that is aligned across the organization to ensure that high-potential talent occupies critical positions. The Board of Directors plays a central role in this oversight, reviewing executive succession strategies to maintain a continuous and capable leadership pipeline. [1]\n\nTo support this pipeline, Marathon Oil utilizes several talent development initiatives. These include an enterprise-wide talent assessment process and a centralized development hub that offers a mix of online, on-the-job, and classroom training. In 2023, the company introduced a Leadership Development Program for mid-level and high-potential employees, which incorporates professional coaching, behavioral assessments, and executive-level business simulations. [1]\n\nFurthermore, the company employs a mentoring program to advance its corporate culture through increased connection and trust. Specifically, a **Board of Directors mentoring program** pairs senior leaders with directors to facilitate professional growth and alignment with long-term corporate objectives. These efforts are intended to mitigate the risks associated with the potential loss of key executives and to ensure the company can navigate evolving strategic and operational challenges. [1]\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 2368,
+   "context_length": 127735,
+   "context": {
+    "entities": 53,
+    "relations": 177,
+    "chunks": 10,
+    "rerank_candidates": 152,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Spin-Off Of Marathon Petroleum Corporation",
+     "Board Of Directors",
+     "Marathon Oil EF II LLC",
+     "Executive Succession",
+     "Marathon E.G. Production Limited",
+     "Honeywell International Inc.",
+     "Marathonoil.Com",
+     "Succession Plan",
+     "March 2017",
+     "Biogen",
+     "2021 Percentage Of Total Commodity Sales",
+     "Succession Planning",
+     "March 2021",
+     "Company",
+     "Shawn D. Williams"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7587295180851784,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8325
+   }
+  }
+ }
+}

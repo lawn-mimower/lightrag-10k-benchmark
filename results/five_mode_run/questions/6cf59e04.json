@@ -1,0 +1,261 @@
+{
+ "question_id": "6cf59e04",
+ "ticker": "AMP",
+ "question": "cost ctrl for vendor risk mgmt & cybersecurity on balance sheet (AMP)",
+ "expected_answer": "The vendor risk management process supports cost control and balance sheet protection through two primary mechanisms. First, the use of tiered assessments means that the company allocates more resources and scrutiny to the highest risk vendors—those with access to critical systems or data—while monitoring lower-risk vendors less intensively. This targeted approach ensures that potential cybersecurity vulnerabilities are identified and mitigated before they escalate into costly breaches, thereby reducing unplanned expenditures such as breach remediation, legal fees, and regulatory fines.\n\nSecond, off-boarding reviews play a critical role in safeguarding sensitive data when a vendor relationship ends. By ensuring that data is either returned or properly destroyed, the process prevents residual risks that could lead to future breaches. This precaution further reduces exposure to costly cybersecurity incidents that might otherwise impact the company’s financial health.\n\nCombined, these elements of vendor risk management help manage and mitigate costs associated with cybersecurity risks, directly contributing to a more secure and stable balance sheet for the company.",
+ "category": "Risk",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 7993,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:46:53.431057",
+   "duration_ms": 18856,
+   "answer": "Ameriprise Financial, Inc. (AMP) manages cybersecurity and vendor risks by integrating them into its broader enterprise risk management (ERM) processes and policies. This structured approach is designed to control potential financial and operational impacts by identifying, protecting, detecting, responding to, and recovering from both known and emerging threats.\n\n### Vendor Risk Management and Oversight\nAmeriprise utilizes a formal procurement and vendor management process to evaluate and monitor third-party service providers. This system is designed to ensure that external partners maintain cybersecurity programs consistent with the company’s legal and regulatory obligations. Key components of this process include:\n\n*   **Tiered Risk Assessment:** The vendor risk management team assigns tiers to third-party providers based on the services they provide and the sensitivity of the information they access. This allows the company to focus its most detailed reviews and frequent assessments on the highest-risk providers.\n*   **Vendor Risk Management Office:** This office provides centralized oversight and support to business teams using third-party services. It acts as a conduit for management and the Board to conduct oversight and provides regular risk assessment reporting to executive leadership and internal committees.\n*   **Lifecycle Management:** Beyond initial engagement, the company sets expectations for software patching and updates for providers who control their own environments. Additionally, an off-boarding review process is used when relationships end to ensure the return or destruction of company information.\n*   **Fourth-Party Expectations:** Ameriprise generally expects its third-party providers, as well as their own sub-contractors (fourth-parties), to maintain robust cybersecurity defenses to prevent incursions through interconnected systems.\n\n### Cybersecurity Risk Management and Strategy\nTo safeguard its technology infrastructure and mitigate risks that could affect its financial condition, Ameriprise makes ongoing investments in security technology and operational capabilities. These efforts include:\n\n*   **Monitoring and Infrastructure:** The company operates a global security operations center that provides continuous monitoring of its networks and systems. Ongoing investments are made in technology infrastructure to enhance corporate security, reliability, and the user experience.\n*   **Access Controls and Training:** Security measures such as multi-factor authentication and secure messaging are provided to clients and advisors. Employees and advisors also receive ongoing security training and participate in periodic cybersecurity exercises to test their preparedness.\n*   **Vulnerability Management:** The cybersecurity team conducts regular vulnerability scanning and remediation for applications and systems, following documented expectations for software patching.\n\n### Governance and Financial Oversight\nThe Board of Directors and the Audit and Risk Committee provide central oversight of the cybersecurity risk management program. The Audit and Risk Committee receives quarterly updates and discusses the enterprise-wide risk assessment with management and the General Auditor. \n\nThese discussions cover prevailing material risks and exposures, including cybersecurity and data protection threats. By reviewing the design and effectiveness of processes and controls in light of evolving market and regulatory conditions, the committee ensures that risk mitigation strategies are aligned with the company's business needs and financial objectives.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC.",
+   "answer_length": 3669,
+   "context_length": 53423,
+   "context": {
+    "entities": 60,
+    "relations": 103,
+    "chunks": 2,
+    "rerank_candidates": 44,
+    "chunk_tickers": [
+     "AMP",
+     "HAS"
+    ],
+    "entity_names": [
+     "Third-Party Cybersecurity Risk Assessment",
+     "Third-Party Cybersecurity Risk Assessment Program",
+     "Vendor Risk Management",
+     "Third-Party Risk Management",
+     "Vendor Risk Management Office",
+     "Enterprise-Wide Risk Assessment",
+     "Third-Party Risk Program",
+     "Cybersecurity Risk Management & Strategy",
+     "Vendor Management Process",
+     "Risk Management & Strategy",
+     "System And Organization Controls (SOC) 1 Or SOC 2 Report",
+     "Cybersecurity Risk Management",
+     "ERM",
+     "Risk Management Data",
+     "Cybersecurity Risk"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7231,
+      "text": "efficiencies. We have set key goals and objectives in this area as described in our business section of this Form 10-K. Our reputation could be damaged if we fail to achieve our sustainability goals, or if we or others in our industry do not act, or are perceived not to act, responsibly with respect to the production and packaging of our products. We are involved in litigation, arbitration or regu"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7309572501837293,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8613
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:47:10.763815",
+   "duration_ms": 17333,
+   "answer": "Ameriprise Financial (AMP) integrates cybersecurity and vendor risk management directly into its enterprise risk management processes and policies to protect business operations and client data. The company maintains a formal procurement and vendor management process overseen by a specialized **Vendor Risk Management Office**. This office provides risk assessment reporting to business teams, internal committees, and executive leadership to ensure transparency and drive regulatory compliance.\n\n### Vendor Risk Management and Oversight\nThe vendor risk management process at Ameriprise involves a structured tiering system for third-party service providers. Tiers are assigned based on the specific services provided and the sensitivity of the information accessed, allowing the company to focus its most detailed reviews and frequent assessments on high-risk vendors. Third-party providers are generally expected to maintain cybersecurity defenses consistent with Ameriprise’s legal and regulatory obligations. Furthermore, the company conducts off-boarding reviews at the end of a relationship to ensure the return or destruction of proprietary information.\n\n### Cybersecurity Governance and Investment\nCybersecurity at Ameriprise is governed by the **Audit and Risk Committee**, which is a subcommittee of the Board of Directors. This committee receives quarterly updates and conducts semiannual trainings to review material risks, including cybersecurity and data protection threats. Management, led by the Chief Information Officer and the Chief Information Security Officer, oversees the daily execution of the program, which includes ongoing monitoring of external threats and regular vulnerability scanning. Ameriprise makes continuous investments in its technology infrastructure to support these cybersecurity efforts, ensuring system reliability and a secure user experience.\n\n### Impact on Financial Performance and Reporting\nWhile specific balance sheet line items for cybersecurity are not detailed, the **Cost of Doing Business** for the company includes security investments and regulatory compliance costs, which can impact overall financial performance. Internal controls are implemented to ensure the reliability and integrity of financial reporting and to mitigate operational risks. The **Chief Financial Officer** (CFO) plays a critical role in this framework by evaluating the financial impacts of cybersecurity incidents and compliance costs. These financial controls and risk management efforts are designed to protect the company's financial assets and ensure that operating results remain resilient against digital threats and market disruptions.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC.\n* [2] Hasbro, Inc.",
+   "answer_length": 2744,
+   "context_length": 60514,
+   "context": {
+    "entities": 41,
+    "relations": 60,
+    "chunks": 2,
+    "rerank_candidates": 126,
+    "chunk_tickers": [
+     "AMP",
+     "HAS"
+    ],
+    "entity_names": [
+     "Cost Of Doing Business",
+     "Security Tools And Processes",
+     "Financial Controls",
+     "Honeywell International Inc.",
+     "Legal And Regulatory Compliance",
+     "Operating Results",
+     "Chief Financial Officer",
+     "Company",
+     "Cintas Corporation",
+     "Internal Controls",
+     "Audit and Risk Committee",
+     "Cybersecurity Risk Management",
+     "Cost Allocation",
+     "U.S. Federal Contracts",
+     "Risk Assessment Reporting"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7231,
+      "text": "efficiencies. We have set key goals and objectives in this area as described in our business section of this Form 10-K. Our reputation could be damaged if we fail to achieve our sustainability goals, or if we or others in our industry do not act, or are perceived not to act, responsibly with respect to the production and packaging of our products. We are involved in litigation, arbitration or regu"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9565217391304348,
+    "answer_relevancy": 0.6646875849185265,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9053
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:47:19.929265",
+   "duration_ms": 9165,
+   "answer": "Ameriprise Financial (AMP) manages costs and risks associated with cybersecurity and third-party vendors through integrated enterprise risk management processes, strategic technology investments, and a tiered vendor oversight structure.\n\n### Cybersecurity Infrastructure and Operations\nThe company makes ongoing investments in its technology infrastructure to support cybersecurity efforts, reliability, and the user experience. These efforts include maintaining a global security operations center that provides continuous monitoring of networks and systems. To mitigate potential financial and operational impacts, Ameriprise conducts regular vulnerability scanning, remediation activities, and documented patching protocols for its software environment. Business continuity plans are also in place and regularly tested to ensure operating capabilities can be recovered in line with business expectations should an incident occur.\n\n### Vendor Risk Management and Tiering\nAmeriprise utilizes a formal procurement and vendor management process to oversee third-party service providers. To optimize the efficiency of these reviews, the vendor risk management team assigns **tiers** to providers based on the services they offer and the sensitivity of the information they access. This tiered approach allows the company to focus its most detailed reviews and frequent assessments on the highest-risk third-party providers while maintaining an appropriate level of monitoring for lower-tier vendors.\n\n### Lifecycle Oversight and Governance\nThe company’s Vendor Risk Management Office provides oversight throughout the vendor lifecycle, including:\n*   **Onboarding:** Reviewing cybersecurity risk assessments for providers of key technology and services.\n*   **Ongoing Monitoring:** Expecting third-party providers and their \"fourth-parties\" to maintain cybersecurity defenses to protect Ameriprise systems from incursions.\n*   **Off-boarding:** Conducting reviews when a relationship ends to ensure the return or destruction of company information.\n\nReporting structures facilitate transparency by providing risk assessment reports to business teams, internal risk management committees, and executive leadership. Governance is further supported by the Board of Directors and the Audit and Risk Committee, which receive quarterly updates on cybersecurity threats, mitigation actions, and the effectiveness of internal controls.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023",
+   "answer_length": 2493,
+   "context_length": 7641,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 1,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "AMP"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.7380952380952381,
+    "answer_relevancy": 0.7250264185403408,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7229
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:47:41.188859",
+   "duration_ms": 21260,
+   "answer": "Ameriprise Financial Inc. (AMP) manages costs and risks associated with cybersecurity and third-party vendors by integrating these concerns into its enterprise risk management (ERM) processes. The company makes ongoing investments in its technology infrastructure to support cybersecurity efforts, reliability, and the user experience. These efforts are guided by written policies and procedures designed to identify, protect, and recover from both known and emerging threats.\n\n### Vendor Risk Management and Resource Allocation\nTo optimize the cost and efficiency of its vendor management, Ameriprise employs a tiered risk assessment system within its formal procurement process. Third-party service providers are assigned specific tiers based on the nature of the services provided and the sensitivity of the information they can access. This structure allows the company to focus its most detailed reviews and frequent assessments on high-tier providers while maintaining a baseline level of monitoring for lower-tier vendors.\n\nThe Vendor Risk Management Office (VRMO) provides oversight for this process, supporting business teams and serving as a conduit for management and board oversight. When a relationship with a third-party provider ends, the company conducting an off-boarding review designed to ensure the destruction or return of corporate information, thereby mitigating tail-end risks.\n\n### Financial Controls and Reporting\nCybersecurity and vendor risks are reflected in the company's financial governance through regular reporting to executive leadership and the Board of Directors. The Audit and Risk Committee receives quarterly updates and discusses the enterprise-wide risk assessment with management and the General Auditor. These discussions cover the design and effectiveness of processes and controls in response to evolving market and regulatory conditions.\n\nOn the balance sheet and in consolidated financial statements, these activities relate to broader accounting practices. For instance, the company’s financial disclosures include the measurement of market risk benefits and the amortization of Deferred Acquisition Costs (DAC). Ameriprise also maintains documented expectations for software patching and updates, extending these requirements to third-party service providers to ensure operational continuity and risk mitigation.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. Document Title: AMP.html",
+   "answer_length": 2437,
+   "context_length": 74303,
+   "context": {
+    "entities": 58,
+    "relations": 133,
+    "chunks": 2,
+    "rerank_candidates": 165,
+    "chunk_tickers": [
+     "AMP",
+     "HAS"
+    ],
+    "entity_names": [
+     "Third-Party Cybersecurity Risk Assessment Program",
+     "Cost Of Doing Business",
+     "Third-Party Cybersecurity Risk Assessment",
+     "Security Tools And Processes",
+     "Third-Party Risk Management",
+     "Financial Controls",
+     "System And Organization Controls (SOC) 1 Or SOC 2 Report",
+     "Honeywell International Inc.",
+     "Accounting And Financial Disclosure",
+     "Chief Financial Officer",
+     "Third-Party Risk Program",
+     "Company",
+     "Compliance Programs",
+     "Audit and Risk Committee",
+     "47 Table Of Contents Regulations"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7231,
+      "text": "efficiencies. We have set key goals and objectives in this area as described in our business section of this Form 10-K. Our reputation could be damaged if we fail to achieve our sustainability goals, or if we or others in our industry do not act, or are perceived not to act, responsibly with respect to the production and packaging of our products. We are involved in litigation, arbitration or regu"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9545454545454546,
+    "answer_relevancy": 0.7260922042248042,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9202
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:47:59.985206",
+   "duration_ms": 18796,
+   "answer": "Ameriprise Financial, Inc. (AMP) integrates cybersecurity risk management and vendor oversight directly into its enterprise-wide risk management processes. While the provided documentation does not list a specific \"cybersecurity\" line item on the balance sheet, it characterizes cybersecurity spending as \"ongoing investments\" in technology infrastructure. These investments are designed to support corporate security capabilities, system reliability, and the client experience. The Chief Financial Officer (CFO) is specifically tasked with assessing the financial impacts of cybersecurity incidents and the associated costs of compliance.\n\nAmeriprise employs a formal procurement and vendor management process to control risks and associated costs. This process uses a tiered assessment system where third-party service providers are categorized based on the sensitivity of the information they access and the services they provide. This tiering allows the company to implement cost-effective oversight by focusing the most frequent and detailed reviews on \"highest tiered\" providers while maintaining a baseline level of monitoring for lower-tier vendors.\n\nFinancial oversight of these programs is conducted by the Vendor Risk Management Office and the Audit and Risk Committee. The Audit and Risk Committee reviews the design and effectiveness of processes and controls in response to evolving business and regulatory conditions. Furthermore, the \"cost of doing business\" for the company includes these security investments and regulatory compliance costs, which are recognized as factors that can impact overall financial performance and profitability.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023",
+   "answer_length": 1724,
+   "context_length": 79370,
+   "context": {
+    "entities": 57,
+    "relations": 153,
+    "chunks": 2,
+    "rerank_candidates": 169,
+    "chunk_tickers": [
+     "AMP",
+     "HAS"
+    ],
+    "entity_names": [
+     "Third-Party Cybersecurity Risk Assessment Program",
+     "Cost Of Doing Business",
+     "Third-Party Cybersecurity Risk Assessment",
+     "Security Tools And Processes",
+     "Third-Party Risk Management",
+     "Financial Controls",
+     "System And Organization Controls (SOC) 1 Or SOC 2 Report",
+     "Honeywell International Inc.",
+     "Third-Party Risk Program",
+     "Chief Financial Officer",
+     "Vendor Risk Management Office",
+     "Company",
+     "Vendor Risk Management",
+     "Audit and Risk Committee",
+     "Enterprise-Wide Risk Assessment"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7231,
+      "text": "efficiencies. We have set key goals and objectives in this area as described in our business section of this Form 10-K. Our reputation could be damaged if we fail to achieve our sustainability goals, or if we or others in our industry do not act, or are perceived not to act, responsibly with respect to the production and packaging of our products. We are involved in litigation, arbitration or regu"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.6979246878433204,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7638
+   }
+  }
+ }
+}

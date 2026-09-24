@@ -1,0 +1,455 @@
+{
+ "question_id": "5f7adf0f",
+ "ticker": "BIIB",
+ "question": "Impact of Robin Kramer's non-10b5-1 sale on Biogen (BIIB) insider ownership.",
+ "expected_answer": "Robin Kramer’s adoption of a non‐Rule 10b5‐1 trading arrangement means that he is setting up a plan to sell a total of 1,500 shares by the arrangement’s expiration date (11/10/2025). Although the absolute number of shares may seem small relative to Biogen’s overall market capitalization, such trading plans can affect the company’s insider ownership profile in a few ways:\n\n1. **Reduction in Insider Holdings**: When Kramer eventually sells these shares, his percentage of ownership in Biogen is likely to decrease. This reduction directly impacts the aggregate insider ownership, potentially lowering the voting power held by insiders if similar sales occur across other positions.\n\n2. **Signal to Investors**: Adopting a non‐Rule 10b5‐1 arrangement (as opposed to a preplanned 10b5‐1 plan) gives Kramer more discretion regarding the timing of sales. Such discretion sometimes raises questions among investors regarding potential information asymmetry or management’s expectations about future stock performance. While the sale might be executed over time, it could still be seen as a signal about insider confidence or personal liquidity needs.\n\n3. **Timed Over a Long Period**: The fact that the arrangement expires in November 2025 indicates that the sale is structured over a long time horizon. As these shares exit his portfolio gradually, any change in his insider stake may be incremental. Investors will need to monitor the pace of the sales to understand if insider dilution is likely to have a material impact on overall insider control.\n\nIn summary, while the sale of 1,500 shares might constitute only a minor shift in the context of Biogen’s total outstanding shares, it nevertheless reduces Kramer’s insider stake over time and introduces a discretionary element into the timing of the sale. This potential reduction in insider ownership and the discretionary nature of the sale can be a meaningful data point when assessing insider confidence and control within the company.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 604,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:10:12.249754",
+   "duration_ms": 57386,
+   "answer": "Based on the provided context, I do not have enough information to determine the impact of a non-Rule 10b5-1 sale by Robin Kramer on Biogen Inc.'s insider ownership.\n\nWhile the documents confirm that **Robin C. Kramer** is the Senior Vice President and Chief Accounting Officer of Biogen Inc. and serves as its principal accounting officer, the provided context does not contain specific data regarding any stock sales or trading activities conducted by her. The Biogen Annual Report for the fiscal year ended December 31, 2023, includes a placeholder for **Rule 10b5-1 Trading Arrangements** under Item 9B, but the specific details of any such arrangements—or the lack thereof—for individual officers are not included in the available document chunks.\n\nFurthermore, details regarding the security ownership of management and beneficial owners (Item 12), as well as compliance with **Section 16(a)** of the Exchange Act regarding insider transactions, are incorporated by reference from Biogen’s 2024 Proxy Statement. Because the Proxy Statement is not part of the provided context, the specific impact of any stock dispositions on total insider ownership cannot be determined.\n\n### References\n\n* [1] BIOGEN INC.",
+   "answer_length": 1212,
+   "context_length": 84198,
+   "context": {
+    "entities": 60,
+    "relations": 73,
+    "chunks": 10,
+    "rerank_candidates": 34,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "ROP",
+     "HON",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "10b5-1 Plans",
+     "Rule 10b5-1 Trading Arrangements",
+     "Robin C. Kramer",
+     "Cintas Corporation Insider Trading Policy",
+     "Section 16(A) Of The Exchange Act",
+     "Rule 10b5-1",
+     "Omnibus Amendment To 2016 Stock Plan For Non-Employee Directors",
+     "Amendment To The 2016 Stock Plan For Non-Employee Directors",
+     "Roper Proxy Statement",
+     "Public Company Boards",
+     "Current Report On Form 8-K (May 28, 2010)",
+     "May 8, 2008",
+     "2006 Non-Employee Directors Equity Plan",
+     "Current Report On Form 8-K (June 5, 2013)",
+     "Roper International Holding, Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5235,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number: 0-19311 BIOGEN INC. (Exact name of registrant as specified in its charter) Delaware 33-"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5770,
+      "text": "division head of Human Resources for Novartis Vaccines and Diagnostics, Novartis Consumer Health and Novartis Institutes of BioMedical Research and Novo Nordisk A/S, a pharmaceutical company, where she served as Senior Vice President, Corporate People & Organization at the company’s headquarters in Copenhagen, Denmark. Earlier in her career, Dr. Gregory held a variety of human resources generalist"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4362,
+      "text": "3.1 to our Current Report on Form 8-K filed on December 12, 2023. 4.1 Second Supplemental Indenture, dated April 30, 2020, between Biogen Inc. and U.S. Bank National Association, including the forms of Global Notes attached as Exhibit A and Exhibit B, respectively, thereto. Filed as Exhibit 4.2 to our Current Report on Form 8-K filed on April 30, 2020. 4.2 Reference is made to Exhibit 3.1 for a de"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4323,
+      "text": "of performance stock units award agreement (cash settled) under the Biogen Inc. 2017 Omnibus Equity Plan. Filed as Exhibit 10.2 to our Quarterly Report on Form 10-Q for the quarter ended March 31, 2018.",
+      "text_cut_early": true
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:10:38.973677",
+   "duration_ms": 26724,
+   "answer": "Based on the provided context, there is no information available regarding an individual named Robin Kramer or any stock sales she may have conducted. The documentation for Biogen Inc. (BIIB) mentions several executive and board-level changes in 2023—including the appointments of Jane Grogan and Adam Keeney, and updates to the Board of Directors involving Monish Patolawala, Susan Langer, and Caroline Dorsa—but Robin Kramer is not listed among these individuals.\n\nFurthermore, the context indicates that for the period ending December 31, 2023, Biogen utilized Item 9B in its regulatory filings to disclose the absence of Rule 10b5-1 trading arrangements. Because the provided records do not contain any data on Robin Kramer or specific non-Rule 10b5-1 sales attributed to her, I do not have enough information to answer this query.\n\n### References\n\n- [1] BIOGEN INC.\n- [5] Honeywell International Inc.",
+   "answer_length": 905,
+   "context_length": 92941,
+   "context": {
+    "entities": 23,
+    "relations": 60,
+    "chunks": 8,
+    "rerank_candidates": 84,
+    "chunk_tickers": [
+     "BIIB",
+     "AMP",
+     "BIIB",
+     "ROP",
+     "HAS",
+     "HON",
+     "CTAS",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Equity Trading Plan",
+     "Honeywell",
+     "Motorola Solutions",
+     "Rule 10b5-1 Trading Arrangement",
+     "Non-Rule 10b5-1 Trading Arrangement",
+     "Rule 10b5-1",
+     "Marathon Oil",
+     "Results Of Operations",
+     "Share Repurchase Programs",
+     "Item 5",
+     "Roper Technologies",
+     "Common Stock",
+     "Employee Stock Ownership Plan (ESOP)",
+     "10b5-1 Plans",
+     "Honeywell International Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6466,
+      "text": "Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 25. Retirement Plans and Profit Sharing Arrangements 160 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 161 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 162 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements ("
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6577,
+      "text": "Treadway Commission. In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. We also have audited, in accordance with the standards of the Public Company"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.0,
+    "ragas_score": 0.4444
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:10:45.854792",
+   "duration_ms": 6881,
+   "answer": "Based on the provided document, there is no information available regarding a non-10b5-1 sale of stock by Robin Kramer or any subsequent impact on Biogen's insider ownership.\n\nThe provided records identify Robin C. Kramer as the Senior Vice President and Chief Accounting Officer (principal accounting officer) of Biogen Inc. and show that she was a signatory for the company's Annual Report on Form 10-K for the year ended December 31, 2023. However, the document does not contain details of specific stock transactions, trading plans (such as 10b5-1 plans), or changes in insider ownership percentages resulting from individual sales by executives.\n\n### References\n\n* [1] BIOGEN INC.",
+   "answer_length": 685,
+   "context_length": 14487,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 3,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4323,
+      "text": "of performance stock units award agreement (cash settled) under the Biogen Inc. 2017 Omnibus Equity Plan. Filed as Exhibit 10.2 to our Quarterly Report on Form 10-Q for the quarter ended March 31, 2018.",
+      "text_cut_early": true
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9271309657105745,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4818
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:11:44.991048",
+   "duration_ms": 59136,
+   "answer": "Robin C. Kramer is the **Senior Vice President and Chief Accounting Officer** (Principal Accounting Officer) of **Biogen Inc.**, having joined the company in 2018. In her capacity, she is responsible for financial reporting and serves as a key executive signatory for the company's regulatory filings, including its 2023 Annual Report. Her professional background includes previous leadership roles at Hertz Global Holdings and Fisher Scientific International, as well as an audit partnership at Deloitte & Touche LLP.\n\nRegarding the specific query, the provided context does not contain information indicating that Robin Kramer conducted a non-Rule 10b5-1 sale. Biogen’s regulatory disclosures for the fiscal year ended December 31, 2023, explicitly state that no director or officer of the company adopted or terminated any **\"Rule 10b5-1 trading arrangement\"** or **\"non-Rule 10b5-1 trading arrangement\"** during the three months ended on that date. These arrangements refer to pre-established plans designed to comply with insider trading regulations while allowing executives to buy or sell stock.\n\nBecause the available information reports a lack of activity regarding such trading arrangements for Biogen's officers and does not record any specific equity sales by Ms. Kramer, I do not have enough information to describe an impact on Biogen's insider ownership. The documents focus on broader corporate governance, executive compensation plans, and the company's **2020 Share Repurchase Program**, which authorized the buyback of up to $5.0 billion of common stock but saw no activity during the year ended December 31, 2023.\n\n### References\n\n* [1] BIOGEN INC.\n* [2] AMERIPRISE FINANCIAL, INC.\n* [3] ROPER TECHNOLOGIES, INC.",
+   "answer_length": 1732,
+   "context_length": 110921,
+   "context": {
+    "entities": 39,
+    "relations": 132,
+    "chunks": 10,
+    "rerank_candidates": 134,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "AMP",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "ROP",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Rule 10b5-1 Trading Arrangements",
+     "Board Of Directors",
+     "10b5-1 Plans",
+     "Share Repurchase Programs",
+     "Robin C. Kramer",
+     "Results Of Operations",
+     "Rule 10b5-1",
+     "Company",
+     "Omnibus Amendment To 2016 Stock Plan For Non-Employee Directors",
+     "Investor Confidence",
+     "Cintas Corporation Insider Trading Policy",
+     "Stock Price",
+     "2006 Non-Employee Directors Equity Plan",
+     "Common Stock",
+     "Amendment To The 2016 Stock Plan For Non-Employee Directors"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6466,
+      "text": "Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 25. Retirement Plans and Profit Sharing Arrangements 160 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 161 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 162 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements ("
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5235,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number: 0-19311 BIOGEN INC. (Exact name of registrant as specified in its charter) Delaware 33-"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5770,
+      "text": "division head of Human Resources for Novartis Vaccines and Diagnostics, Novartis Consumer Health and Novartis Institutes of BioMedical Research and Novo Nordisk A/S, a pharmaceutical company, where she served as Senior Vice President, Corporate People & Organization at the company’s headquarters in Copenhagen, Denmark. Earlier in her career, Dr. Gregory held a variety of human resources generalist"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3431,
+      "text": ") Proceeds from sales of strategic investments 119.6 — 93.5 Other ( 11.3 ) 24.4 12.9 Net cash flow provided by (used in) investing activities ( 4,101.0 ) 1,576.6 ( 563.7 ) Cash flow from financing activities: Purchase of treasury stock — ( 750.0 ) ( 1,800.0 ) Payments related to issuance of stock for share-based compensation arrangements, net ( 44.3 ) ( 1.9 ) ( 0.7 ) Repayments of borrowings and p"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8636363636363636,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.4659
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:12:40.026107",
+   "duration_ms": 55035,
+   "answer": "Based on the provided context, I do not have enough information to answer your query regarding the impact of a non-Rule 10b5-1 sale by Robin C. Kramer on Biogen’s insider ownership.\n\nThe available documents and knowledge graph confirm that **Robin C. Kramer** is the **Senior Vice President and Chief Accounting Officer** of Biogen Inc., having joined the company in 2018. While the documents provide her professional background and confirm her role in financial reporting, they do not contain any records of stock sales, trading activities, or specific changes to her ownership of Biogen common stock during the reported period.\n\nFurthermore, although Biogen’s Annual Report on Form 10-K includes a section for **Item 9B (Other Information - Rule 10b5-1 Trading Arrangements)**, the provided text for that section does not disclose any specific adoptions, modifications, or terminations of trading arrangements by Biogen's executive officers. Information regarding the security ownership of management is noted as being incorporated by reference from Biogen's 2024 definitive proxy statement, which is not included in the provided context.\n\n### References\n\n* [1] BIOGEN INC.",
+   "answer_length": 1175,
+   "context_length": 117565,
+   "context": {
+    "entities": 36,
+    "relations": 159,
+    "chunks": 10,
+    "rerank_candidates": 130,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "AMP",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Robin C. Kramer",
+     "Equity Trading Plan",
+     "Biogen Inc. 2017 Omnibus Equity Plan",
+     "Honeywell",
+     "Susan H. Alexander",
+     "Motorola Solutions",
+     "May 8, 2008",
+     "Rule 10b5-1 Trading Arrangement",
+     "April 30, 2015",
+     "Non-Rule 10b5-1 Trading Arrangement",
+     "October 18, 2010",
+     "Rule 10b5-1",
+     "Biogen Therapeutics Inc.",
+     "Marathon Oil",
+     "Jay V. Ihlenfeld"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6466,
+      "text": "Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 25. Retirement Plans and Profit Sharing Arrangements 160 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 161 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 162 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements ("
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5235,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number: 0-19311 BIOGEN INC. (Exact name of registrant as specified in its charter) Delaware 33-"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5770,
+      "text": "division head of Human Resources for Novartis Vaccines and Diagnostics, Novartis Consumer Health and Novartis Institutes of BioMedical Research and Novo Nordisk A/S, a pharmaceutical company, where she served as Senior Vice President, Corporate People & Organization at the company’s headquarters in Copenhagen, Denmark. Earlier in her career, Dr. Gregory held a variety of human resources generalist"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.7142857142857143,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.5555555555555556,
+    "context_precision": 0.0,
+    "ragas_score": 0.3175
+   }
+  }
+ }
+}

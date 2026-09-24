@@ -1,0 +1,491 @@
+{
+ "question_id": "008beea7",
+ "ticker": "HAS",
+ "question": "Hasbro (HAS) FY 2023 effective interest rate & cost of capital.",
+ "expected_answer": "Step 1: Calculate the Effective Interest Expense Rate for Fiscal 2023.\n\n• Interest Expense (2023): $186.3 million\n• Net Revenues (2023): $5,003.3 million\n\nEffective Interest Expense Rate = (Interest Expense / Net Revenues) × 100\n                                   = (186.3 / 5003.3) × 100\n                                   ≈ 3.73%\n\nStep 2: Analysis of the Implication on Financial Risk and Cost of Capital Considerations\n\n• Financial Risk: \n  - An effective interest expense rate of roughly 3.73% indicates that for every dollar of revenue generated, about 3.73 cents go toward interest expense. While on the surface this might seem manageable, it is important to consider that Hasbro reported an operating loss in 2023. A relatively high interest burden in the context of declining revenues or negative operating performance can increase financial risk, as fixed financing costs may further strain profitability.\n  - Also, a higher percentage of interest expense relative to revenues can signal that the company is leveraging its debt to support operations. In times of revenue stress, these fixed costs can limit operational flexibility and exacerbate financial distress.\n\n• Cost of Capital Considerations:\n  - The effective interest rate gives us an approximation of the cost of debt financing in relation to the company’s revenue-generating capacity. If investors compare this rate with returns generated from operations, a high cost of debt could lead to a higher weighted average cost of capital (WACC).\n  - A higher WACC would mean that Hasbro must generate higher returns on its investments/projects to create shareholder value. This puts pressure on capital allocation decisions,\n    forcing the company to be cautious in taking on additional debt or making capital investments that might not generate satisfactory returns.\n  \nIn summary, the effective interest expense rate of approximately 3.73% in fiscal 2023, when viewed in light of Hasbro’s declining revenue performance and operating loss, suggests an elevated financial risk profile. It may also imply a higher cost of capital, making it more challenging for the company to finance future growth without taking on additional risk.",
+ "category": "Financials",
+ "expected_type": "Compositional",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1536,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:09:01.798112",
+   "duration_ms": 29101,
+   "answer": "For the fiscal year ended December 31, 2023, Hasbro reported using an **effective interest rate method** to amortize deferred losses related to derivatives through its Consolidated Statements of Operations. As of the end of 2023, deferred losses related to these derivatives included in accumulated other comprehensive loss totaled $14.2 million, net of tax.\n\nThe company's total interest expense for FY 2023 was **$186.3 million**, compared to $171.0 million in 2022. Supplemental cash flow information indicates that Hasbro actually paid **$179.0 million** in interest during the 2023 fiscal year. The increase in interest-related costs was driven by higher interest expenses on borrowings from the company's Term Loan Facility and Revolving Credit Facility, which contributed to a $164 million increase in \"Net Interest and Other\" expenses. These higher costs were partially offset by the paydown of outstanding borrowings on Bilateral Credit Facilities and Syndicated Revolving Credit Facilities.\n\nWhile the context does not provide a single weighted average cost of capital (WACC) percentage, it details several specific discount rates and capital metrics used for financial reporting in 2023:\n*   **Postretirement Health Care Benefits:** A discount rate of **4.92%** was used for measuring plan obligations as of December 31, 2023.\n*   **Non-U.S. Plans:** A weighted average discount rate of **4.3%** was used for measuring obligations at the end of 2023.\n*   **Return on Equity (ROE):** Hasbro reported a return on equity (excluding AOCI) of **39.9%** for 2023, a decline from 53.0% reported in 2022.\n\nIn terms of debt management, Hasbro continued a deleveraging plan in 2023. The company utilized proceeds from the sale of its eOne Film and TV business to retire its remaining floating-rate long-term debt. This included a final $250.0 million payment to retire the remaining principal balance of its Five-Year Tranche loan. At the close of the 2023 fiscal year, the company's long-term debt stood at $2,965.8 million, with an additional $500.0 million representing the current portion of long-term debt.\n\n### References\n\n- [1] Hasbro, Inc. Consolidated Financial Statements (December 31, 2023)",
+   "answer_length": 2202,
+   "context_length": 77003,
+   "context": {
+    "entities": 60,
+    "relations": 76,
+    "chunks": 10,
+    "rerank_candidates": 29,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Net Earnings Attributable To Hasbro, Inc.",
+     "Net Loss Attributable To Hasbro, Inc.",
+     "2.60% Notes Due 2022",
+     "Net Earnings (Loss) Attributable To Hasbro, Inc.",
+     "Interest And Debt Expense (Corporate & Other)",
+     "3.15% Notes Due 2021",
+     "$166.3 Million",
+     "$5,856.7 Million",
+     "$85.0 Million Intangible Amortization Costs (2021)",
+     "$203.5 Million",
+     "Cash Dividends Declared",
+     "Cost Of Sales (2021)",
+     "Results of Operations - Consolidated",
+     "$20.6 Million",
+     "$407.7 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 3344,
+      "text": "of other short-term borrowings ( 41.6 ) 141.7 ( 5.6 ) Purchases of common stock — ( 125.0 ) — Stock-based compensation transactions — 74.2 30.6 Dividends paid ( 388.0 ) ( 385.3 ) ( 374.5 ) Payments related to tax withholding for share-based compensation ( 16.8 ) ( 24.0 ) ( 13.7 ) Debt extinguishment costs — — ( 9.1 ) Other ( 14.7 ) ( 32.7 ) ( 11.4 ) Net cash utilized by financing activities ( 818."
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3452,
+      "text": "compared to the Company’s fair value estimate. /s/ KPMG LLP We have not been able to determine the specific year that we began serving as the Company’s auditor, however, we are aware that we have served as the Company’s auditor since at least 1968. Providence, Rhode Island February 28, 2024 71 Table of Contents HASBRO, INC. AND SUBSIDIARIES Consolidated Balance Sheets December 31, 2023 and Decembe"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3732,
+      "text": "0.5 ) 6.6 Net earnings (loss) attributable to Hasbro, Inc. $ ( 1,489.3 ) 203.5 428.7 Per common share Net earnings (loss) attributable to Hasbro, Inc. Basic $ (",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5315,
+      "text": ", primarily related to the British Pound. These decreases were partially offset by an increase to the liability for uncertain tax positions, primarily related to the capitalization of research and experimentation expenditures. Cash Flow The following table summarizes the changes in the consolidated statement of cash flows included in Part II, Item 8. Financial Statements , of this Form 10-K, expre"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5339,
+      "text": "underlying business. Results discussed herein include income from operations before income taxes attributable to the eOne Film and TV business sold to Lionsgate on December 27, 2023. The eOne Film and TV results were recorded to the Company's Consolidated Statements of Operations, within the Entertainment segment, through the sale transaction closing date. Assets of $1.5 billion and liabilities of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 4637,
+      "text": "by reference to Exhibit 10.6 to the Company’s Quarterly Report on Form 10-Q for the period ended March 31, 2023, File No. 1-6682.) 128 Table of Contents Exhibit (s) Hasbro, Inc. Amended and Restated Nonqualified Deferred Compensation Plan. (Incorporated by reference to Exhibit 10(aaa) to the Company’s Annual Report on Form 10-K for the Fiscal Year ended December 28, 2008, File No. 1-6682.) (t) Has"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7600657858675227,
+    "context_recall": 0.3684210526315789,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7821
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:09:28.524005",
+   "duration_ms": 26726,
+   "answer": "For the fiscal year 2023, Hasbro utilized several fixed interest rates associated with its long-term debt tranches and employed specific accounting methods to manage these obligations. The company's debt portfolio included senior unsecured notes with the following fixed interest rates: 3.00% for notes due in 2024 ($500 million), 3.55% for notes due in 2026 ($675 million), and 3.90% for notes due in 2029 ($900 million). Hasbro indicated an intention to refinance the 2024 notes during the fourth quarter of 2024.\n\nThe company's financial statements reflect significant interest-related costs for the 2023 period. Total interest expense was reported at $186.3 million, while the actual interest paid during the year amounted to $179.0 million. Additionally, Hasbro utilized the effective interest rate method to amortize deferred losses related to derivatives through its Consolidated Statements of Operations. As of December 31, 2023, there were $14.2 million in deferred losses (net of tax) in accumulated other comprehensive loss related to these derivatives.\n\nRegarding the cost of capital, Hasbro defines its weighted average cost of capital (WACC) as the average rate of return it expects to pay security holders to fund operations and growth. While the specific numerical WACC for 2023 is not explicitly provided in the documentation, the company notes that this metric is directly influenced by borrowing rates and other financial factors. Increases in these borrowing rates, influenced by macroeconomic conditions and rising interest rates, can affect the WACC and consequently impact operating cash flow growth.\n\nHasbro identified rising interest rates as a significant economic risk that could adversely affect its financial performance. The company’s indebtedness, which totaled approximately $3.5 billion in principal at the end of 2023, requires substantial cash for debt service payments, potentially limiting the availability of cash for other strategic actions.\n\n### References\n\n- [1] Hasbro, Inc.\n\n\n\n\n\n\n---\n**Note:** The provided context did not contain a specific numerical percentage for Hasbro's total Weighted Average Cost of Capital (WACC) for FY 2023, only the conceptual definition and the specific interest rates for its debt tranches.",
+   "answer_length": 2263,
+   "context_length": 95491,
+   "context": {
+    "entities": 42,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 120,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Hasbro Inc",
+     "Summary of Financial Performance",
+     "Operating Cash Flow Growth",
+     "Weighted Average Cost Of Capital",
+     "Hasbro",
+     "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+     "Discovery",
+     "Hasbro, Inc.",
+     "Investing Activities",
+     "Tax Laws",
+     "Entertainment Content",
+     "Material Costs",
+     "Restructuring Actions",
+     "Cost Of Sales",
+     "Production Financing Loans"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3344,
+      "text": "of other short-term borrowings ( 41.6 ) 141.7 ( 5.6 ) Purchases of common stock — ( 125.0 ) — Stock-based compensation transactions — 74.2 30.6 Dividends paid ( 388.0 ) ( 385.3 ) ( 374.5 ) Payments related to tax withholding for share-based compensation ( 16.8 ) ( 24.0 ) ( 13.7 ) Debt extinguishment costs — — ( 9.1 ) Other ( 14.7 ) ( 32.7 ) ( 11.4 ) Net cash utilized by financing activities ( 818."
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3452,
+      "text": "compared to the Company’s fair value estimate. /s/ KPMG LLP We have not been able to determine the specific year that we began serving as the Company’s auditor, however, we are aware that we have served as the Company’s auditor since at least 1968. Providence, Rhode Island February 28, 2024 71 Table of Contents HASBRO, INC. AND SUBSIDIARIES Consolidated Balance Sheets December 31, 2023 and Decembe"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6144,
+      "text": "under the Company’s commercial paper program. The Company also has other uncommitted lines from various banks, of which approximately $9.3 million was utilized in the form of letters of credit, at December 31, 2023. During November 2019, in conjunction with the Company's acquisition of eOne, the Company issued an aggregate of $2.4 billion of senior unsecured debt securities (collectively, the \"Not"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5786,
+      "text": "of net revenues, the cost of 54 Table of Contents sales increase was primarily the result of higher inventory obsolescence charges, primarily within the Consumer Products segment, partially offset by the mix of net revenues during 2023 compared to 2022. In 2022, Cost of sales decreased 1% to $1,911.8 million, or 32.6% of net revenues, for the year ended December 25, 2022 compared to $1,927.5 milli"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9615384615384616,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.8888888888888888,
+    "context_precision": 0.0,
+    "ragas_score": 0.4626
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:09:47.227566",
+   "duration_ms": 18704,
+   "answer": "Based on the provided context, there is no information available regarding Hasbro's FY 2023 effective interest rate or its cost of capital.\n\nThe documents include details on net revenues, operating losses, impairment charges, and cash flow activities—such as the retirement of remaining floating-rate long-term debt and payments toward a Five-Year Tranche loan—but they do not specify the effective interest rate for the 2023 fiscal year or the company's weighted average cost of capital.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023",
+   "answer_length": 542,
+   "context_length": 36832,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 7,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3732,
+      "text": "0.5 ) 6.6 Net earnings (loss) attributable to Hasbro, Inc. $ ( 1,489.3 ) 203.5 428.7 Per common share Net earnings (loss) attributable to Hasbro, Inc. Basic $ (",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5315,
+      "text": ", primarily related to the British Pound. These decreases were partially offset by an increase to the liability for uncertain tax positions, primarily related to the capitalization of research and experimentation expenditures. Cash Flow The following table summarizes the changes in the consolidated statement of cash flows included in Part II, Item 8. Financial Statements , of this Form 10-K, expre"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5339,
+      "text": "underlying business. Results discussed herein include income from operations before income taxes attributable to the eOne Film and TV business sold to Lionsgate on December 27, 2023. The eOne Film and TV results were recorded to the Company's Consolidated Statements of Operations, within the Entertainment segment, through the sale transaction closing date. Assets of $1.5 billion and liabilities of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.1111111111111111,
+    "context_precision": 0.0,
+    "ragas_score": 0.2778
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:10:17.617733",
+   "duration_ms": 30390,
+   "answer": "Based on the provided context, Hasbro (HAS) utilized specific financial methodologies and recorded various interest-related figures for fiscal year 2023, though a single consolidated \"effective interest rate\" or numerical \"weighted average cost of capital\" (WACC) figure for the entire company was not explicitly stated.\n\n### **Interest Expense and Debt Components**\nFor the fiscal year ended December 31, 2023, Hasbro reported a total **interest expense of $186.3 million**. The company's supplemental financial information indicates that the actual **interest paid during the year was $179.0 million**. As of the end of 2023, the company's long-term debt, including the current portion, totaled approximately $3.46 billion ($2,965.8 million in long-term debt and $500.0 million in the current portion).\n\nThe company's long-term debt is comprised of several senior unsecured notes issued in 2019 with the following fixed interest rates:\n*   **3.00%** on $500 million of notes due in 2024.\n*   **3.55%** on $675 million of notes due in 2026.\n*   **3.90%** on $900 million of notes due in 2029.\n\nHasbro also utilized other borrowing facilities in 2023, including a commercial paper program, uncommitted lines of credit, and production financing for its Entertainment segment. However, the production financing loans were assumed by Lionsgate following the sale of the eOne Film and TV business in the fourth quarter of 2023.\n\n### **Effective Interest Rate Methodology**\nWhile a total company effective rate is not provided, Hasbro applies the **effective interest rate method** to amortize deferred losses within Accumulated Other Comprehensive Loss. These losses, which totaled $14.2 million (net of tax) at the end of 2023, are related to derivatives associated with the issuance of debt and are amortized through the Consolidated Statements of Operations over the life of the related debt.\n\n### **Cost of Capital Considerations**\nThe provided documents define **Weighted Average Cost of Capital (WACC)** as the average rate of return a company expects to pay its security holders to fund operations and growth. This metric is influenced by the company's borrowing rates and macroeconomic conditions. Although a specific WACC percentage is not listed, the company notes that increases in borrowing rates and other financial factors directly impact this cost of financing, which in turn influences operating cash flow growth. Additionally, the company's cost of capital is affected by its tax environment, such as the increase in the UK corporate income tax rate from 19% to 25% that became effective in April 2023.\n\n### References\n\n- [1] Hasbro, Inc. December 31, 2023 (HAS.html)",
+   "answer_length": 2680,
+   "context_length": 107515,
+   "context": {
+    "entities": 56,
+    "relations": 135,
+    "chunks": 10,
+    "rerank_candidates": 126,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Net Earnings Attributable To Hasbro, Inc.",
+     "Hasbro Inc",
+     "Net Loss Attributable To Hasbro, Inc.",
+     "Summary of Financial Performance",
+     "2.60% Notes Due 2022",
+     "Operating Cash Flow Growth",
+     "Net Earnings (Loss) Attributable To Hasbro, Inc.",
+     "Weighted Average Cost Of Capital",
+     "Interest And Debt Expense (Corporate & Other)",
+     "Hasbro",
+     "3.15% Notes Due 2021",
+     "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+     "$166.3 Million",
+     "Discovery",
+     "$5,856.7 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3344,
+      "text": "of other short-term borrowings ( 41.6 ) 141.7 ( 5.6 ) Purchases of common stock — ( 125.0 ) — Stock-based compensation transactions — 74.2 30.6 Dividends paid ( 388.0 ) ( 385.3 ) ( 374.5 ) Payments related to tax withholding for share-based compensation ( 16.8 ) ( 24.0 ) ( 13.7 ) Debt extinguishment costs — — ( 9.1 ) Other ( 14.7 ) ( 32.7 ) ( 11.4 ) Net cash utilized by financing activities ( 818."
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3452,
+      "text": "compared to the Company’s fair value estimate. /s/ KPMG LLP We have not been able to determine the specific year that we began serving as the Company’s auditor, however, we are aware that we have served as the Company’s auditor since at least 1968. Providence, Rhode Island February 28, 2024 71 Table of Contents HASBRO, INC. AND SUBSIDIARIES Consolidated Balance Sheets December 31, 2023 and Decembe"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6144,
+      "text": "under the Company’s commercial paper program. The Company also has other uncommitted lines from various banks, of which approximately $9.3 million was utilized in the form of letters of credit, at December 31, 2023. During November 2019, in conjunction with the Company's acquisition of eOne, the Company issued an aggregate of $2.4 billion of senior unsecured debt securities (collectively, the \"Not"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5786,
+      "text": "of net revenues, the cost of 54 Table of Contents sales increase was primarily the result of higher inventory obsolescence charges, primarily within the Consumer Products segment, partially offset by the mix of net revenues during 2023 compared to 2022. In 2022, Cost of sales decreased 1% to $1,911.8 million, or 32.6% of net revenues, for the year ended December 25, 2022 compared to $1,927.5 milli"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8148148148148148,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.16666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.4954
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:10:48.766075",
+   "duration_ms": 31148,
+   "answer": "For the fiscal year ended December 31, 2023, Hasbro, Inc. utilized specific accounting methodologies and financial instruments that define its effective interest costs and broader cost of capital.\n\n### Effective Interest Rate Method and Derivatives\nHasbro employs the **effective interest rate method** to amortize deferred losses related to derivatives through its Consolidated Statements of Operations. These derivatives are associated with the issuance of debt and are amortized over the life of the related debt obligations. As of December 31, 2023, Hasbro reported deferred losses, net of tax, totaling **$14.2 million** within Accumulated Other Comprehensive Loss specifically related to these derivatives [1].\n\n### Cost of Debt and Specific Interest Rates\nThe company's cost of capital is heavily influenced by its fixed-rate senior unsecured debt securities. As of the end of 2023, Hasbro’s long-term debt profile included several tranches with specific fixed interest rates:\n*   **3.00% Notes:** $500 million due in 2024 (classified as a current portion of long-term debt as of year-end 2023).\n*   **3.55% Notes:** $675 million due in 2026.\n*   **3.90% Notes:** $900 million due in 2029.\n\nHasbro indicated an intention to refinance all or a portion of the 3.00% Notes during the fourth quarter of 2024 [1]. Additionally, the company managed production financing loans during 2023, which were assumed by Lionsgate following the sale of the eOne Film and TV business [1].\n\n### Weighted Average Cost of Capital (WACC)\nHasbro defines its **Weighted Average Cost of Capital (WACC)** as the average rate of return it expects to pay its security holders to fund operations and growth. This metric is a critical factor in evaluating operating cash flow growth and is directly impacted by prevailing borrowing rates and other financial market conditions. Increases in borrowing rates or changes in the company's financial risk profile can lead to fluctuations in the WACC, thereby influencing the company's valuation and investment strategies [1].\n\n### FY 2023 Interest Expenses\nIn terms of actual cash outlays for the fiscal year 2023, Hasbro paid **$179.0 million in interest**, an increase from the $161.7 million paid in 2022. The total interest expense reported on the Consolidated Statement of Operations for 2023 was **$186.3 million** [1].\n\n### References\n\n* [1] Hasbro, Inc. Period: December 31, 2023",
+   "answer_length": 2409,
+   "context_length": 113349,
+   "context": {
+    "entities": 43,
+    "relations": 163,
+    "chunks": 10,
+    "rerank_candidates": 119,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "2.60% Notes Due 2022",
+     "Cost Of Sales",
+     "Net Earnings Attributable To Hasbro, Inc.",
+     "Hasbro",
+     "3.15% Notes Due 2021",
+     "Hasbro Inc",
+     "Hasbro Gaming Portfolio",
+     "Summary of Financial Performance",
+     "2023 Year-End",
+     "Discovery",
+     "$20.6 Million",
+     "Hasbro, Inc.",
+     "$166.3 Million",
+     "Entertainment Content",
+     "2022 Highlights"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3344,
+      "text": "of other short-term borrowings ( 41.6 ) 141.7 ( 5.6 ) Purchases of common stock — ( 125.0 ) — Stock-based compensation transactions — 74.2 30.6 Dividends paid ( 388.0 ) ( 385.3 ) ( 374.5 ) Payments related to tax withholding for share-based compensation ( 16.8 ) ( 24.0 ) ( 13.7 ) Debt extinguishment costs — — ( 9.1 ) Other ( 14.7 ) ( 32.7 ) ( 11.4 ) Net cash utilized by financing activities ( 818."
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3452,
+      "text": "compared to the Company’s fair value estimate. /s/ KPMG LLP We have not been able to determine the specific year that we began serving as the Company’s auditor, however, we are aware that we have served as the Company’s auditor since at least 1968. Providence, Rhode Island February 28, 2024 71 Table of Contents HASBRO, INC. AND SUBSIDIARIES Consolidated Balance Sheets December 31, 2023 and Decembe"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6144,
+      "text": "under the Company’s commercial paper program. The Company also has other uncommitted lines from various banks, of which approximately $9.3 million was utilized in the form of letters of credit, at December 31, 2023. During November 2019, in conjunction with the Company's acquisition of eOne, the Company issued an aggregate of $2.4 billion of senior unsecured debt securities (collectively, the \"Not"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5786,
+      "text": "of net revenues, the cost of 54 Table of Contents sales increase was primarily the result of higher inventory obsolescence charges, primarily within the Consumer Products segment, partially offset by the mix of net revenues during 2023 compared to 2022. In 2022, Cost of sales decreased 1% to $1,911.8 million, or 32.6% of net revenues, for the year ended December 25, 2022 compared to $1,927.5 milli"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8260869565217391,
+    "answer_relevancy": 0.8120846727184775,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.0,
+    "ragas_score": 0.604
+   }
+  }
+ }
+}

@@ -1,0 +1,444 @@
+{
+ "question_id": "f54eba8e",
+ "ticker": "CTAS",
+ "question": "Impact of repurchase timing on Cintas' (CTAS) capital allocation strategies.",
+ "expected_answer": "The data shows that Cintas executed share repurchases on at least two distinct dates—with transactions in July 2021 and July 2022—and at different average prices. This staggered timing indicates a deliberate approach to capital allocation. By repurchasing shares when market conditions allowed (even if prices varied), the company appears to have balanced tactical execution with strategic objectives. For example, the earlier buyback (July 2021) at an average price of $535.21 in one set (versus a lower figure in the comparable 2023 column) versus the later transaction in July 2022 at $673.78 suggests that management was willing to deploy excess cash both when share prices were relatively attractive and when other strategic considerations (such as meeting tax-related obligations, as evidenced by share acquisitions for taxes due) dictated timing. This multi-date, multi-price strategy can help mitigate market timing risk and leverage fluctuations in share prices, ultimately aiming to optimize the overall cost of capital, enhance earnings per share, and return value to shareholders. In sum, the execution across different periods and prices reflects a measured approach to capital allocation—one that responds to prevailing market valuations, internal liquidity considerations, and tax implications—thus reinforcing the company’s overall strategy of efficient and opportunistic deployment of excess capital.",
+ "category": "Shareholder return",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 528,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:30:00.244792",
+   "duration_ms": 26275,
+   "answer": "Cintas Corporation (CTAS) manages its capital allocation strategy by balancing growth investments with returning capital to shareholders through dividends and share buybacks. In fiscal 2024, net cash used in financing activities increased to $1,253.5 million, compared to $1,172.8 million in fiscal 2023. This rise was specifically attributed to increased share buyback activity and higher dividend payments.\n\n### Execution of Share Buyback Programs\nThe timing and scale of Cintas' share repurchases are governed by board-authorized programs. Cintas completed a **$1.5 billion share buyback program** (authorized in July 2021) during the fourth quarter of fiscal 2024. Under this program, the company purchased a total of 3.6 million shares at an average price of $421.77 per share. \n\nFollowing the completion of the first program, Cintas began repurchasing shares under a **$1.0 billion program** authorized in July 2022. As of May 31, 2024, less than 0.1 million shares had been purchased under this new plan at an average price of $673.78. However, buyback activity accelerated significantly in the subsequent period; between May 31, 2024, and July 25, 2024, Cintas purchased an additional 0.7 million shares at an average price of $693.58, totaling $473.6 million in that short window.\n\n### Specific Repurchase Timing and Tax Satisfaction\nRepurchase timing is also dictated by the need to satisfy **employee-partner payroll taxes** related to exercised options and vested restricted stock awards. For example:\n*   **March 2024:** 15,215 shares were purchased at an average price of $660.27 to satisfy tax obligations.\n*   **April 2024:** 9,375 shares were purchased at an average price of $676.21 for the same purpose.\n*   **May 2024:** The company purchased 312,396 shares total, of which 282,812 were part of the publicly announced plan and 29,584 were for tax satisfaction.\n\n### Integration with Dividend Policy and Debt Covenants\nCintas’ capital allocation strategy integrates these buybacks with a consistent dividend policy. The Board declared total dividends of **$5.20 per share** in fiscal 2024, a significant increase from the **$4.40 per share** declared in fiscal 2023. \n\nThe execution of these capital returns is managed within the constraints of Cintas' debt agreements. These covenants require the company to maintain certain financial health metrics, including **debt to consolidated EBITDA** and interest coverage ratios. As of May 31, 2024, Cintas remained in compliance with all such covenants, allowing it to continue its strategy of maximizing long-term shareholder value through aggressive capital return.\n\n### References\n\n- [1] Cintas Corporation May 31, 2024 10-K Document",
+   "answer_length": 2700,
+   "context_length": 85411,
+   "context": {
+    "entities": 60,
+    "relations": 92,
+    "chunks": 9,
+    "rerank_candidates": 56,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Dividend Income - Equity Investments",
+     "Earnings Per Share (EPS)",
+     "Total Shareholder Returns",
+     "Purchase Of Treasury Stock",
+     "Common Stock Dividend",
+     "Equity Structure",
+     "3.6 Million Shares",
+     "Share Buyback Program",
+     "Earnings (Loss) Per Share",
+     "$1.0 Billion Share Buyback Program",
+     "Repurchase Of Common Stock",
+     "$804 Million Share Repurchases",
+     "Cash Dividends Declared Per Share",
+     "Item 5: Market For Registrants Common Equity, Related Stockholder Matters And Issuer Purchases Of Equity Securities",
+     "Dividend Policy"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4446,
+      "text": "2012).",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6650,
+      "text": ", 2024, the Company's insurance reserve was $176.8 million. As described in Note 1 to the Company’s consolidated financial statements, the Company’s insurance reserve represents the estimated ultimate cost of all asserted and unasserted (incurred but not reported) claims primarily related to workers' compensation, auto liability and other general liability exposure. The unasserted (incurred but no"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6530,
+      "text": "ements with Accountants on Accounting and Financial Disclosure 122 Item 9A. Controls and Procedures 122 Item 9B. Other Information 124 Item 9 C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 124 PART III Item 10. Directors, Executive Officers and Corporate Governance 125 Item 11. Executive Compensation 125 Item 12. Security Ownership of Certain Beneficial Owners and Managemen"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.717179076148768,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.846
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:30:23.859924",
+   "duration_ms": 23615,
+   "answer": "Cintas Corporation (CTAS) manages its capital allocation strategy by balancing share repurchases, dividend payments, capital expenditures, and strategic acquisitions. The timing and scaling of share repurchases have a significant impact on the company’s financing cash flows and its overall ability to return value to shareholders while supporting operational growth.\n\n### Share Repurchase Activity and Timing\nCintas significantly increased its share buyback activity in fiscal 2024 compared to the previous year. During fiscal 2024, the company purchased 941,000 shares under its authorized programs for a total purchase price of $515.4 million, more than doubling the $218.3 million spent on 550,000 shares in fiscal 2023. This increased activity was a primary driver for the rise in net cash used in financing activities, which grew to $1,253.5 million in fiscal 2024. Furthermore, in the brief period between May 31, 2024, and July 25, 2024, the company aggressively continued this strategy, purchasing an additional 0.7 million shares for approximately $473.6 million.\n\nThe timing of these repurchases is dictated by Board-authorized programs. Cintas completed its $1.5 billion share buyback program (authorized in July 2021) during the fourth quarter of fiscal 2024. Following this, the company began utilizing a new $1.0 billion program authorized in July 2022, which has no expiration date.\n\n### Integration with Capital Allocation Strategies\nThe timing of intensified share repurchases has been integrated with other capital allocation priorities:\n*   **Dividends:** The increase in cash used for financing in 2024 was driven by both repurchases and higher dividend payments, which totaled $5.20 per share in fiscal 2024 compared to $4.40 per share in 2023.\n*   **Debt Management:** The cash requirements for increased buybacks and dividends were partially offset by a decrease in payments for debt and commercial paper during fiscal 2024.\n*   **Growth Investments:** Despite the heavy allocation to repurchases, Cintas increased its capital expenditures to $409.5 million in fiscal 2024 (up from $331.1 million in 2023) to support revenue growth, equipment purchases, and SAP implementation.\n*   **Acquisitions:** The company also utilized cash for strategic acquisitions, spending $186.8 million in fiscal 2024 compared to $46.4 million in the prior year.\n\nAdditionally, Cintas utilizes share repurchases to satisfy employee-partner payroll taxes related to stock options and restricted stock awards. In fiscal 2024, the company acquired 331,000 shares for $184.6 million for this purpose, a slight increase in total cost compared to the $180.6 million spent in fiscal 2023.\n\n### References\n\n* [1] Cintas Corporation May 31, 2024 CTAS.html",
+   "answer_length": 2750,
+   "context_length": 78769,
+   "context": {
+    "entities": 38,
+    "relations": 60,
+    "chunks": 6,
+    "rerank_candidates": 116,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "HAS",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Financial Condition",
+     "Share Repurchase Programs",
+     "Future Capital Requirements",
+     "Board Of Directors",
+     "Future Cash Flow",
+     "Pipeline Development",
+     "Corporate Strategies",
+     "Reinvestment Activities",
+     "Results Of Operations",
+     "Access To Capital",
+     "Capital Spending Budget",
+     "Capital Availability",
+     "Company",
+     "Purchases and Orders",
+     "Business And Market Conditions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6530,
+      "text": "ements with Accountants on Accounting and Financial Disclosure 122 Item 9A. Controls and Procedures 122 Item 9B. Other Information 124 Item 9 C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 124 PART III Item 10. Directors, Executive Officers and Corporate Governance 125 Item 11. Executive Compensation 125 Item 12. Security Ownership of Certain Beneficial Owners and Managemen"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6934,
+      "text": "decide to consolidate or co-locate certain aspects of our business operations or dispose of one or more of our properties, some of which may be located in markets that are experiencing high vacancy rates and decreasing property values. If we determine that the fair value of any of our owned properties is lower than their book value, we may not realize the full investment in these properties and in"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.975609756097561,
+    "answer_relevancy": 0.8609263447836195,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7925
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:30:37.822947",
+   "duration_ms": 13963,
+   "answer": "Cintas Corporation (CTAS) utilizes share buyback programs as a core component of its capital allocation strategy, aimed at achieving its principal objective of maximizing long-term value for shareholders and working partners. The timing of these repurchases is dictated by Board authorizations and the completion of existing programs. For instance, a $1.5 billion share buyback program authorized on July 27, 2021, was completed during the fourth quarter of fiscal 2024. Throughout the life of that program, Cintas purchased 3.6 million shares at an average price of $421.77 per share.\n\nFollowing the conclusion of the 2021 program, Cintas transitioned to a new $1.0 billion share buyback program authorized on July 26, 2022. This program does not have an expiration date, allowing the company flexibility in its timing. As of May 31, 2024, Cintas had purchased less than 0.1 million shares under this newer authorization at an average price of $673.78 per share, representing a total purchase price of $57.1 million.\n\nRecent repurchase activity highlights how timing and stock price impact the remaining authorized funds. In May 2024, Cintas purchased 312,396 shares at an average price of $689.81. Of these, 282,812 shares were part of the publicly announced plan, leaving approximately $942.9 million available for future purchases under the 2022 program. The higher average price of recent purchases (compared to the $421.77 average of the 2021 program) reflects how market timing influences the volume of shares the company can retire with a fixed dollar authorization.\n\nBeyond strategic buybacks, the timing of share acquisitions is also influenced by internal obligations. In March and April 2024, Cintas acquired 15,215 and 9,375 shares, respectively, specifically to satisfy employee-partner payroll taxes due on exercised options and vested restricted stock awards. These transactions were executed at average prices of $660.27 and $676.21, respectively. These tactical acquisitions, while separate from the primary buyback plan, are consistent with the company's broader framework of managing equity and delivering shareholder value.\n\n### References\n\n* [1] Cintas Corporation\n\n\n\n\n\n\n\n\n<br>",
+   "answer_length": 2199,
+   "context_length": 24393,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 4,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "HAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6284,
+      "text": "to three fiscal years and $297.3 million in the next four to five fiscal years. Future contributions to the defined benefit plans are expected to be $5.1 million in the next fiscal year, $4.7 million in the next two to three fiscal years and $4.7 million in the next four to five fiscal years. Other Commitments Amount of Commitment Expiration per Period (In thousands) Total One year or less Two to "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6530,
+      "text": "ements with Accountants on Accounting and Financial Disclosure 122 Item 9A. Controls and Procedures 122 Item 9B. Other Information 124 Item 9 C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 124 PART III Item 10. Directors, Executive Officers and Corporate Governance 125 Item 11. Executive Compensation 125 Item 12. Security Ownership of Certain Beneficial Owners and Managemen"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7525823582813093,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8131
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:31:06.372552",
+   "duration_ms": 28550,
+   "answer": "Cintas Corporation (CTAS) utilizes share buyback programs as a central component of its capital allocation strategy to manage share count and return capital to shareholders. The timing of these repurchases is dictated by Board authorizations, capital availability, results of operations, and the company's overall financial condition. Cintas coordinates these activities alongside other capital uses, such as dividends, capital expenditures, and strategic acquisitions.\n\n### Execution and Timing of Buyback Programs\nThe impact of timing is evident in the execution of Cintas’ two most recent major buyback initiatives:\n\n*   **July 27, 2021 Program:** This $1.5 billion program was completed during the fourth quarter of fiscal 2024. Over the life of this program, Cintas purchased 3.6 million shares at an average price of $421.77 per share.\n*   **July 26, 2022 Program:** This $1.0 billion program has no expiration date. As of May 31, 2024, the program had seen limited activity, with less than 0.1 million shares purchased at an average price of $673.78 per share. However, the company significantly accelerated its repurchase timing immediately following the end of the 2024 fiscal year. Between June 1, 2024, and July 25, 2024, Cintas repurchased approximately 0.7 million additional shares under this plan at an average price of $693.58, totaling $473.6 million in just under two months.\n\n### Impact on Financial Strategy and Cash Flows\nThe timing of share repurchases directly influences Cintas' cash flow and financing activities. In fiscal 2024, net cash used in financing activities increased to $1,253.5 million (up from $1,172.8 million in fiscal 2023), driven specifically by the increase in share buyback activity and higher dividend payments. These repurchases are reported as part of the company's financing activities and result in the acquisition of treasury stock, which reduces the total number of shares outstanding and impacts total equity.\n\nCintas also executes smaller, specifically timed repurchases to satisfy employee-partner payroll taxes related to the exercise of options and the vesting of restricted stock awards. For instance, between March and May 2024, Cintas spent approximately $36.7 million on such repurchases:\n*   **March 2024:** 15,215 shares at $660.27 per share.\n*   **April 2024:** 9,375 shares at $676.21 per share.\n*   **May 2024:** 29,584 shares at $688.62 per share (excluding shares bought under the publicly announced plan).\n\n### Integration with Broader Capital Allocation\nShare repurchases are balanced against other reinvestment activities and capital requirements. During fiscal 2024, while Cintas accelerated its buyback activity, it also increased its capital expenditures to $409.5 million (up from $331.1 million in 2023) to support revenue growth and equipment upgrades. Additionally, the company significantly increased its cash spend on business acquisitions to $186.8 million in fiscal 2024, compared to only $46.4 million in the previous year. This multi-faceted approach ensures that Cintas maintains liquidity for operations and strategic growth while consistently returning value to shareholders through both buybacks and a growing dividend, which totaled $530.9 million in fiscal 2024.\n\n### References\n\n*   [1] Cintas Corporation",
+   "answer_length": 3296,
+   "context_length": 108941,
+   "context": {
+    "entities": 60,
+    "relations": 134,
+    "chunks": 10,
+    "rerank_candidates": 168,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas Corporation Compensation Recoupment Policy",
+     "Future Capital Requirements",
+     "Cintas Corporation Insider Trading Policy",
+     "Share Repurchase Programs",
+     "Purchase Of Treasury Stock",
+     "Financial Condition",
+     "Cintas No. 2 (Corp. 2)",
+     "Capital Availability",
+     "Total Shareholder Returns",
+     "Board Of Directors",
+     "Dividend Policy",
+     "Corporate Strategies",
+     "Total Shares Purchased",
+     "Reinvestment Activities",
+     "Cintas Corporation No. 2"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4446,
+      "text": "2012).",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5173,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number 0-11399 Cintas Corporation (Exact name of registrant as specified in its charter) Washingto"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4140,
+      "text": "guarantors thereto and Wachovia Bank, National Association, as trustee (Incorporated by reference to Exhibit 4.1 to Cintas' Annual Report on Form 10-K for the year ended May 31, 2002). 4.2 Form of 6.15% Senior Note due 2036 (Incorporated by reference to Exhibit 4.3 to Cintas' Current Report on Form 8-K filed on August 21, 2006). 4.3 Form of 3.700% Senior Notes due 2027 (Incorporated by reference t"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7832442145163413,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7791
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:31:30.044541",
+   "duration_ms": 23672,
+   "answer": "Cintas Corporation (CTAS) utilizes share repurchase programs as a core component of its capital allocation strategy to manage share count and return value to shareholders. The timing and execution of these repurchases are strategically managed through multi-billion-dollar authorizations from the Board of Directors. For instance, Cintas recently completed a $1.5 billion share buyback program, which was authorized on July 27, 2021, and reached completion during the fourth quarter of fiscal 2024. Under this specific program, the company purchased a total of 3.6 million shares at an average price of $421.77 per share.\n\nThe company maintains continuity in its buyback strategy by overlapping authorizations. While the 2021 program was nearing completion, Cintas authorized a new $1.0 billion share buyback program on July 26, 2022, which carries no expiration date. The timing of activity under this new plan has accelerated recently; between May 31, 2024, and July 25, 2024, Cintas purchased an additional 0.7 million shares for approximately $473.6 million. This opportunistic timing is balanced against other financing activities, such as dividend payments and debt management, which collectively resulted in a net cash usage for financing activities of $1,253.5 million in fiscal 2024.\n\nBeyond large-scale strategic buybacks, the timing of Cintas' equity purchases is also dictated by internal compensation cycles. The company regularly repurchases shares to satisfy employee-partner payroll taxes related to the exercise of options and the vesting of restricted stock awards. In the final months of fiscal 2024, this resulted in the acquisition of 15,215 shares in March, 9,375 shares in April, and 29,584 shares in May. These transactions are distinct from the publicly announced buyback plans but represent a consistent drain on cash reserves allocated for equity management.\n\nThe pace and timing of these capital allocation decisions remain subject to the discretion of the Board of Directors. Future repurchases and dividends are contingent upon Cintas' consolidated results of operations, financial condition, and anticipated capital requirements for strategic transactions or debt service. While the company has historically maintained access to commercial paper and long-term debt markets to support its liquidity, the Board continually evaluates market conditions and contractual restrictions to ensure that share repurchases do not impair the company's operational stability or compliance with debt covenants.\n\n### References\n\n* [1] Cintas Corporation May 31, 2024 10-K",
+   "answer_length": 2586,
+   "context_length": 112604,
+   "context": {
+    "entities": 60,
+    "relations": 145,
+    "chunks": 10,
+    "rerank_candidates": 177,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Total Shareholder Returns",
+     "Future Capital Requirements",
+     "Purchase Of Treasury Stock",
+     "Share Repurchase Programs",
+     "Dividend Income - Equity Investments",
+     "Financial Condition",
+     "Dividend Policy",
+     "Capital Availability",
+     "Equity Structure",
+     "Board Of Directors",
+     "Share Buyback Program",
+     "Corporate Strategies",
+     "Return Of Capital To Shareholders",
+     "Reinvestment Activities",
+     "$1.0 Billion Share Buyback Program"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6284,
+      "text": "to three fiscal years and $297.3 million in the next four to five fiscal years. Future contributions to the defined benefit plans are expected to be $5.1 million in the next fiscal year, $4.7 million in the next two to three fiscal years and $4.7 million in the next four to five fiscal years. Other Commitments Amount of Commitment Expiration per Period (In thousands) Total One year or less Two to "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4446,
+      "text": "2012).",
+      "text_cut_early": true
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9696969696969697,
+    "answer_relevancy": 0.8264354982286344,
+    "context_recall": 0.16666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7407
+   }
+  }
+ }
+}

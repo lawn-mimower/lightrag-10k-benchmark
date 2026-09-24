@@ -1,0 +1,197 @@
+{
+ "question_id": "7415499e",
+ "ticker": "CE",
+ "question": "Hedging efficacy of Constellation Energy (CE) plays a crucial role in mitigating commodity risk, ensuring stable earnings generation.",
+ "expected_answer": "The provided reference indicates that Constellation Energy Corporation actively manages the commodity risks associated with its owned and contracted generation through a comprehensive hedging program. This program includes sales to retail customers, trades on commodity exchanges, and sales to wholesale counterparties, with the primary objective of obtaining low-cost energy supply needed for physical delivery. Although specific quantitative metrics or performance figures are not provided, the overall description suggests that the hedging program is designed to reduce exposure to adverse commodity price movements. Consequently, by mitigating price volatility, the program supports the company's ability to maintain consistent margins and earnings stability. In summary, while detailed calculations are not available from the provided information, the hedging strategy is an integral risk management tool that plays an important role in smoothing out fluctuations in earnings due to commodity price risks.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 6140,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:01:17.039001",
+   "duration_ms": null,
+   "answer": "I do not have enough information in the provided context to answer your request regarding the hedging efficacy of Constellation Energy (CE). The provided context contains detailed information about the hedging activities and commodity risk management strategies of other entities, such as Honeywell International Inc., Ameriprise Financial, Inc., and Marathon Oil, but it does not mention Constellation Energy.\n\n### References\n* No relevant references available for Constellation Energy (CE) in the provided context.",
+   "answer_length": 516,
+   "context_length": 34158,
+   "context": {
+    "entities": 60,
+    "relations": 96,
+    "chunks": 0,
+    "rerank_candidates": 54,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Commodity Price Risk Management",
+     "Commodity Hedges",
+     "Revenue And Operating Expense Hedging",
+     "Oil And Natural Gas Price Volatility",
+     "Commodity Price Volatility",
+     "Natural Gas Hedging",
+     "Revenue And Operating Expense Hedging Program",
+     "Commodity Price Risk",
+     "Natural Gas Liquid",
+     "Energy And Specialized Markets",
+     "Derivatives and Hedging Activities",
+     "Hedging Program",
+     "Commodity Price Fluctuations",
+     "Crude Oil Hedging",
+     "NGL Hedging"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:02:38.190786",
+   "duration_ms": 81152,
+   "answer": "I do not have enough information in the provided context to answer your query regarding the hedging efficacy of **Constellation Energy (CE)**. The provided Knowledge Graph and document data do not contain any information, references, or data points related to Constellation Energy or its specific financial strategies.\n\nThe available context focuses on the risk management and hedging activities of other entities, such as **Marathon Oil Corporation**, **Honeywell International Inc.**, **Ameriprise Financial**, and **Motorola Solutions**. While the context describes how these organizations utilize financial derivatives—including swaps, futures, forwards, and options—to mitigate commodity price volatility and stabilize cash flows, these details cannot be attributed to Constellation Energy based on the provided information.\n\n### References\n\n* I do not have enough information to provide specific document references for Constellation Energy (CE).",
+   "answer_length": 952,
+   "context_length": 43705,
+   "context": {
+    "entities": 52,
+    "relations": 60,
+    "chunks": 0,
+    "rerank_candidates": 134,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Commodity Price Risk Management",
+     "Hedging Arrangements",
+     "Commodity Price Risk",
+     "Financial Derivatives",
+     "Swaps",
+     "Futures",
+     "Forwards",
+     "Hedging Strategies",
+     "Raw Materials",
+     "Options",
+     "Foreign Currency Options",
+     "Revenue And Operating Expense Hedging Program",
+     "Hedging Activity",
+     "Motorola Solutions",
+     "Equity Futures"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.5
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:02:57.120617",
+   "duration_ms": 18930,
+   "answer": "I do not have enough information in the provided context to answer your query regarding Constellation Energy's hedging efficacy or its role in mitigating commodity risk. The context section does not contain any document chunks or facts related to this topic.",
+   "answer_length": 258,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:03:16.355682",
+   "duration_ms": 19235,
+   "answer": "I do not have enough information in the provided context to answer your query regarding the hedging efficacy of Constellation Energy (CE). The available documents and data focus on the commodity price risk management and hedging strategies of other entities, such as Honeywell International Inc., Marathon Oil Corporation, Ameriprise Financial, Inc., and Motorola Solutions, but do not contain information specific to Constellation Energy.\n\n### References\n\n* No relevant documents found in the provided context for Constellation Energy.",
+   "answer_length": 536,
+   "context_length": 57520,
+   "context": {
+    "entities": 69,
+    "relations": 129,
+    "chunks": 0,
+    "rerank_candidates": 144,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Commodity Price Risk Management",
+     "Energy And Specialized Markets",
+     "Hedging Arrangements",
+     "Commodity Hedges",
+     "Commodity Price Risk",
+     "Revenue And Operating Expense Hedging",
+     "Financial Derivatives",
+     "Oil And Natural Gas Price Volatility",
+     "Swaps",
+     "Energy And Sustainability Solutions",
+     "Futures",
+     "Natural Gas Hedging",
+     "Forwards",
+     "Derivatives and Hedging Activities",
+     "Hedging Strategies"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:03:43.777996",
+   "duration_ms": 27422,
+   "answer": "I do not have enough information in the provided context to answer your query regarding the hedging efficacy of Constellation Energy (CE). The available information focuses on other entities such as Honeywell International Inc., Marathon Oil Corporation, Motorola Solutions, and Ameriprise Financial, but does not contain data specific to Constellation Energy.",
+   "answer_length": 360,
+   "context_length": 56577,
+   "context": {
+    "entities": 66,
+    "relations": 125,
+    "chunks": 0,
+    "rerank_candidates": 141,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Commodity Price Risk Management",
+     "Commodity Hedges",
+     "Hedging Arrangements",
+     "Energy And Specialized Markets",
+     "Commodity Price Risk",
+     "Oil And Natural Gas Price Volatility",
+     "Financial Derivatives",
+     "Revenue And Operating Expense Hedging",
+     "Swaps",
+     "Derivatives and Hedging Activities",
+     "Futures",
+     "Natural Gas Hedging",
+     "Forwards",
+     "Debt, Derivatives And Hedging Activities",
+     "Hedging Strategies"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.6,
+    "context_precision": 0.0,
+    "ragas_score": 0.4
+   }
+  }
+ }
+}

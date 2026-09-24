@@ -1,0 +1,483 @@
+{
+ "question_id": "c88933f5",
+ "ticker": "HON",
+ "question": "Impact of Honeywell's (HON) cybersecurity investments on ops disruptions & profit sustainability.",
+ "expected_answer": "Honeywell’s investment in its global enterprise security team and mandatory cybersecurity training programs plays a critical role in mitigating cybersecurity risks, which in turn helps reduce operational disruptions and safeguard long-term profitability. By maintaining a large, skilled security team responsible for infrastructure defense, incident response, and ongoing risk management, Honeywell is better positioned to prevent or quickly address cyber threats. This proactive approach minimizes downtime, protects sensitive customer, employee, and proprietary data, and reduces the likelihood of costly data breaches or service interruptions.\n\nMoreover, the comprehensive cybersecurity training ensures that all employees are aware of security protocols, reducing the risk of human error—one of the common causes of cyber incidents. In the long term, these measures not only protect revenue streams by avoiding the financial losses associated with cyber incidents (such as legal fees, regulatory fines, and remediation costs) but also enhance stakeholder confidence in the company’s ability to manage risk. While no specific financial calculations are provided in the data, the qualitative benefits point to reduced risk premiums, lower incident costs, and improved overall operational resilience, all of which are vital for maintaining sustainable profitability over time.",
+ "category": "Risk",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 7844,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:26:30.180573",
+   "duration_ms": 33243,
+   "answer": "Honeywell International Inc. (HON) integrates cybersecurity into its broader enterprise risk management program to mitigate operational disruptions and ensure long-term profit sustainability. The company’s cybersecurity strategy is a critical component of its governance, overseen by the Board of Directors and the Audit Committee. This structure includes a Cybersecurity Disclosure Committee and a Security Governance Council, which meet regularly to review the emerging threat landscape, manage risk processes, and monitor the status of projects intended to strengthen the company’s information security posture.\n\nTo minimize operational disruptions, Honeywell employs a threat intelligence-driven approach that leverages the NIST Cyber Security Framework and ISO 22301 standards for business continuity. The global enterprise security team, led by the Chief Information Security Officer, manages infrastructure defense, security controls, and vulnerability assessments. These investments include identity and access controls, continuous network monitoring, and backup systems designed to deter and detect threats. Additionally, Honeywell periodically conducts cyber crisis response table-top simulations to assess its ability to adapt to security-related threats and maintain the integrity of its 194 manufacturing sites and 715 total locations.\n\nHoneywell’s profit sustainability is directly linked to the protection of its intellectual property and the value of its research, development, and engineering (R&D&E) investments. A material cybersecurity incident could lead to the theft of trade secrets, reputational damage, and the diminution of the value of these investments, which in turn could impact the company's competitiveness. Furthermore, as Honeywell increasingly delivers products with Internet of Things (IoT) capabilities, maintaining robust security in product design is essential to avoid financial loss, legal claims, or regulatory fines that could arise if these interconnected device networks are compromised.\n\nWhile Honeywell has experienced various cyber threats and incidents, none to date have had a material impact on its business operations, strategy, or financial condition. However, profit sustainability faces ongoing pressure from the rising costs of compliance. Evolving global cybersecurity laws and increasingly stringent standards mandated by customers, including the U.S. government, require the company to incur additional expenses. Honeywell also manages potential financial risks through cybersecurity insurance, though it acknowledges that such coverage may not be adequate for all liabilities actually incurred.\n\n### References\n\n* [1] Honeywell International Inc. Document Title: HON.html",
+   "answer_length": 2731,
+   "context_length": 126584,
+   "context": {
+    "entities": 60,
+    "relations": 181,
+    "chunks": 10,
+    "rerank_candidates": 44,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Honeywells Global Security Organization",
+     "Honeywells Information Security Organization",
+     "Safety and Productivity Solutions",
+     "Honeywells Enterprise Risk Management Program",
+     "Cybersecurity Insurance Policy",
+     "Productivity, Sensing, Safety, and Security Technologies",
+     "Honeywell.Com",
+     "Fire, Security, Safety, Healthcare, Energy Efficiency Standards",
+     "Information Technology Cybersecurity Threats",
+     "Cybersecurity Concerns",
+     "Cybersecurity Disclosure Committee",
+     "Cybersecurity Policies and Procedures",
+     "Governance, Risk, And Compliance Team",
+     "Threat Intelligence-Driven Approach",
+     "Information Technology (IT)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6903,
+      "text": ", including cloud providers. Our customers, including the U.S. government, are increasingly requiring cybersecurity protections and mandating cybersecurity standards in our products, and we may incur additional costs to comply with such demands. While we have experienced, and expect to continue to experience, these types of threats and incidents, none of them to date have been material to the Comp"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7243,
+      "text": "vii) achieve sufficient return on investment for new products introduced based on capital expenditures and research and development spending; (viii) respond to changes in overall trends related to end market demand; and (ix) attract, develop, and retain individuals with the requisite technical expertise and understanding of customers’ needs to develop new technologies and introduce new products. C"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7105,
+      "text": "foreign currency exchange rates, antitrust regulations, employment regulations, foreign investment laws, import, export, and other trade restrictions (such as sanctions and embargoes), differing levels of protection of intellectual property, acts of industrial espionage, violations by our employees of anti-corruption laws (despite our efforts to mitigate such risk), changes in regulations regardin"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6573,
+      "text": "parties, we do not anticipate having to bear significantly more than our proportional share in multi-party situations taken as a whole. We do not believe that federal, state, and local provisions regulating the discharge of materials into the environment, or otherwise relating to the protection of the environment, or any existing or pending climate change legislation, regulation, or international "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8679245283018868,
+    "answer_relevancy": 0.8067267971306898,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.877
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:27:06.070798",
+   "duration_ms": 35890,
+   "answer": "Honeywell International Inc. (HON) maintains a comprehensive cybersecurity risk management program designed to protect its information technology (IT) infrastructure, products, and global business operations. These investments are integrated into the company’s broader enterprise risk management framework to ensure that digital threats do not undermine operational continuity or long-term financial performance.\n\n### Cybersecurity Governance and Infrastructure\nHoneywell’s cybersecurity strategy is overseen by a structured corporate hierarchy. The Board of Directors delegates primary oversight to the Audit Committee, which is composed of independent members with experience in cybersecurity issues. This committee receives regular updates from the Security Governance Council and the Cybersecurity Disclosure Committee on the emerging threat landscape, risk management processes, and the status of projects intended to strengthen the company’s security posture.\n\nThe operational execution of this program is led by a Chief Security Officer and a Chief Information Security Officer, supported by an organization of more than 300 experts specializing in areas such as incident response, threat intelligence, and security engineering. The program utilizes a threat intelligence-driven approach and leverages international standards, specifically ISO 22301 for business continuity and the NIST Cybersecurity Framework (800-171), to measure readiness against evolving threats.\n\n### Mitigating Operational Disruptions\nHoneywell’s investments focus on deterring a wide range of threats—including ransomware, phishing, and advanced persistent threats—that could cause the misappropriation, destruction, or unavailability of critical data. Key operational safeguards include:\n*   **Proactive Monitoring:** Continuous monitoring of IT networks, vulnerability assessments, and identity/access controls.\n*   **Workforce Preparedness:** Mandatory cybersecurity and data privacy training for all employees with network access, alongside cyber crisis response simulations to test the company’s adaptability.\n*   **Third-Party Oversight:** A dedicated risk management program for vendors and cloud providers to ensure that subcontractors and suppliers implement adequate safeguards, as failures in these third-party systems could lead to financial harm or operational performance issues.\n*   **IoT Security:** Because an increasing number of Honeywell's products feature Internet of Things (IoT) capabilities, the company invests in software designs less susceptible to attacks to prevent production downtime and legal claims.\n\n### Sustainability of Profits and Competitive Advantage\nCybersecurity is directly linked to Honeywell’s profit sustainability and competitive standing. A material cybersecurity incident could result in direct financial losses, theft of intellectual property, and significant fines from government agencies. Furthermore, the company identifies that such incidents could lead to a \"diminution in the value\" of its substantial investments in research, development, and engineering.\n\nTo date, Honeywell reports that no cybersecurity threats or incidents have materially affected its business, results of operations, or financial condition. However, the company acknowledges that the cost of doing business may increase due to rising customer demands for cybersecurity protections—particularly from the U.S. government—and the need to comply with increasingly complex global regulations. Additionally, the emergence of more sophisticated AI-driven attacks and geopolitical tensions (such as the Russia-Ukraine and Israel-Hamas conflicts) require ongoing investment to prevent future incidents that could otherwise disrupt the company's ability to meet its financial and contractual obligations.\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 3857,
+   "context_length": 110947,
+   "context": {
+    "entities": 28,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 87,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Cybersecurity Incidents",
+     "Research And Development",
+     "Cyberattacks",
+     "International Operations",
+     "Business Strategy",
+     "Cybersecurity Threats",
+     "Material Operational Harm",
+     "Cybersecurity Attacks",
+     "Honeywell International Inc.",
+     "Strategic Initiatives",
+     "Cybersecurity Risks",
+     "Operational Risks",
+     "Loss Of Competitive Advantage",
+     "Operational Technology Cybersecurity Threats",
+     "Cybersecurity Concerns"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6903,
+      "text": ", including cloud providers. Our customers, including the U.S. government, are increasingly requiring cybersecurity protections and mandating cybersecurity standards in our products, and we may incur additional costs to comply with such demands. While we have experienced, and expect to continue to experience, these types of threats and incidents, none of them to date have been material to the Comp"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7243,
+      "text": "vii) achieve sufficient return on investment for new products introduced based on capital expenditures and research and development spending; (viii) respond to changes in overall trends related to end market demand; and (ix) attract, develop, and retain individuals with the requisite technical expertise and understanding of customers’ needs to develop new technologies and introduce new products. C"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7105,
+      "text": "foreign currency exchange rates, antitrust regulations, employment regulations, foreign investment laws, import, export, and other trade restrictions (such as sanctions and embargoes), differing levels of protection of intellectual property, acts of industrial espionage, violations by our employees of anti-corruption laws (despite our efforts to mitigate such risk), changes in regulations regardin"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7477138605851595,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8953
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:27:16.956993",
+   "duration_ms": 10886,
+   "answer": "Honeywell integrates its cybersecurity investments primarily through its **Honeywell Forge** software solutions, which serve as a critical component in protecting global operations and ensuring business continuity. These capabilities are designed to identify risks and respond to cyber-related incidents, which directly enables improved operations while protecting the company’s processes, personnel, and physical assets. In the industrial environment, these solutions provide a holistic view of operations, allowing data to be turned into actions that maximize productivity and efficiency.\n\nIn terms of mitigating operational disruptions, Honeywell’s cybersecurity and digital tools are used to automate processes, which reduces downtime and associated safety costs. For example, within the Honeywell Building Technologies segment, Forge solutions enable owners to protect facilities from incoming security threats while managing building performance. Furthermore, Honeywell’s acquisition of **SCADAfence** in 2023 highlights its strategic focus on strengthening its cybersecurity portfolio to align with broader megatrends like automation and digitization.\n\nThe sustainability of Honeywell’s profits is supported by its \"Honeywell Accelerator\" operating model and a focus on digitization, which underpins the company's core growth areas: automation, the future of aviation, and the energy transition. Digital threads and information technology platforms are being implemented across the value chain to provide data that improves business performance. These digital solutions also serve as mitigation strategies for macroeconomic volatility, helping the company manage supply chain shortages and inflationary pressures.\n\nFinancially, these operational and digital efficiencies contributed to Honeywell's performance in 2023. While the company faced approximately $0.8 billion in higher labor and material costs, these were partially offset by roughly $0.3 billion in productivity improvements within the cost of products and services sold. Additionally, higher productivity contributed $0.2 billion to offsetting labor costs in selling, general, and administrative expenses. Overall, the company’s focus on margin expansion and revenue growth resulted in a gross margin increase to 37.3% in 2023, up from 37.0% the previous year.\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 2382,
+   "context_length": 39734,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 6,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6525,
+      "text": "Sales to the U.S. Department of Defense $ 2,933 $ 2,886 $ 3,219 Sales to other U.S. government departments and agencies 508 546 703 Total sales to the U.S. government $ 3,441 $ 3,432 $ 3,922 7 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL INTERNATIONAL OPERATIONS We engage in manufacturing, sales, service, and research and development globally. U.S. exports and non-U.S. manufactur"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9523809523809523,
+    "answer_relevancy": 0.7797801094944562,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.433
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:27:52.650755",
+   "duration_ms": 35694,
+   "answer": "Honeywell International Inc. (HON) maintains a comprehensive cybersecurity risk management program that is integrated into its broader enterprise risk management (ERM) framework. This program is designed to identify, assess, and govern material risks from cybersecurity threats that could lead to operational disruptions or harm the company’s financial condition. To date, Honeywell reports that no cybersecurity threats or previous incidents have materially affected its business strategy, results of operations, or financial condition [1].\n\n### Management of Operational Disruptions\nTo ensure operational resilience, Honeywell employs a threat intelligence-driven approach, utilizing application controls and security monitoring to mitigate risks. The company leverages international standards, specifically ISO 22301 for business continuity and the NIST Cyber Security Framework (NIST 800-171), to measure its readiness to respond to threats [1]. Within its industrial segments, the \"Honeywell Forge\" platform provides specific cybersecurity capabilities to help identify risks and act on incidents, thereby protecting physical assets, processes, and personnel [1].\n\nThe company also manages a third-party risk management program to assess vulnerabilities from vendors and suppliers that provide critical infrastructure and supply chain services. To further safeguard operations, Honeywell maintains business continuity and disaster recovery plans, conducts mandatory employee training, and performs periodic cyber crisis response table-top simulations to test the organization's adaptability to evolving threats [1].\n\n### Impact on Profit Sustainability\nThe sustainability of Honeywell’s profits is tied to its ability to prevent the high costs associated with successful cyberattacks, which can include financial loss, reputational damage, litigation, and government fines. A material incident could result in a \"diminution in the value\" of Honeywell’s significant investments in research, development, and engineering [1]. Furthermore, the company faces increasing costs of doing business due to evolving global cybersecurity laws and the sophisticated nature of threats, such as those exacerbated by geopolitical conflicts or the rise of advanced artificial intelligence used by malicious actors [1].\n\nTo mitigate these financial risks, Honeywell maintains a cybersecurity insurance policy, though it acknowledges that such coverage may not be adequate for all liabilities incurred [1]. Additionally, the company is subject to increasing demands from customers—including the U.S. government—who mandate specific cybersecurity standards. While meeting these requirements ensures continued market access and competitive standing, it also necessitates ongoing investment and potential compliance costs [1].\n\n### Governance and Oversight\nHoneywell’s cybersecurity efforts are governed by a multi-layered corporate structure. The Audit Committee of the Board of Directors oversees risks related to data protection, trade secrets, and cloud security, receiving regular updates from the Security Governance Council and the Chief Security Officer [1]. Additionally, a Cybersecurity Disclosure Committee, which includes the Chief Information Security Officer and representatives from finance, legal, and investor relations, monitors incidents for potential material impacts on the company's financial performance [1].\n\n### References\n\n- [1] Honeywell International Inc. Document Title One",
+   "answer_length": 3486,
+   "context_length": 134894,
+   "context": {
+    "entities": 51,
+    "relations": 166,
+    "chunks": 10,
+    "rerank_candidates": 139,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Honeywells Global Security Organization",
+     "Cybersecurity Incidents",
+     "Honeywells Information Security Organization",
+     "Research And Development",
+     "Cybersecurity Insurance Policy",
+     "Cybersecurity Threats",
+     "Honeywells Enterprise Risk Management Program",
+     "Material Operational Harm",
+     "Business Continuity And Disaster Recovery Plans",
+     "Results of Operations",
+     "Information Technology Cybersecurity Threats",
+     "Information Technology Systems",
+     "Safety and Productivity Solutions",
+     "Cybersecurity Attacks",
+     "Cybersecurity Risk Management and Strategy"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6903,
+      "text": ", including cloud providers. Our customers, including the U.S. government, are increasingly requiring cybersecurity protections and mandating cybersecurity standards in our products, and we may incur additional costs to comply with such demands. While we have experienced, and expect to continue to experience, these types of threats and incidents, none of them to date have been material to the Comp"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7243,
+      "text": "vii) achieve sufficient return on investment for new products introduced based on capital expenditures and research and development spending; (viii) respond to changes in overall trends related to end market demand; and (ix) attract, develop, and retain individuals with the requisite technical expertise and understanding of customers’ needs to develop new technologies and introduce new products. C"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7105,
+      "text": "foreign currency exchange rates, antitrust regulations, employment regulations, foreign investment laws, import, export, and other trade restrictions (such as sanctions and embargoes), differing levels of protection of intellectual property, acts of industrial espionage, violations by our employees of anti-corruption laws (despite our efforts to mitigate such risk), changes in regulations regardin"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9846153846153847,
+    "answer_relevancy": 0.8090239088313624,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9067
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:28:33.977779",
+   "duration_ms": 41327,
+   "answer": "Honeywell (HON) manages its cybersecurity through a comprehensive risk management program integrated into its broader enterprise risk management (ERM) framework. These investments are designed to mitigate operational disruptions by employing a threat intelligence-driven approach, application controls, and continuous security monitoring. The program leverages the National Institute of Standards and Technology (NIST) Cyber Security Framework (NIST 800-171) to measure readiness and ISO 22301 standards to ensure business continuity. This infrastructure is supported by a specialized information security organization of over 300 members with expertise in areas such as incident response, vulnerability management, and security architecture.\n\nTo protect its operations from disruption, Honeywell utilizes various defensive layers, including identity and access controls, data protection, and regular vulnerability assessments. The company maintains business continuity and disaster recovery plans to safeguard against the unavailability of critical data or the theft of funds. Additionally, Honeywell conducts periodic cyber crisis response table-top simulations to assess its adaptability to security-related threats. These measures are critical for preventing production downtimes and ensuring that software solutions, particularly those involving the Internet of Things (IoT), work as intended without compromise.\n\nThe sustainability of Honeywell's profits is closely tied to these security investments. Potential consequences of a material cybersecurity incident include significant financial loss, reputational damage, litigation, and government fines. Furthermore, such incidents can lead to a \"diminution in the value\" of the company’s investment in research, development, and engineering. As customers—including the U.S. government—increasingly mandate specific cybersecurity standards, Honeywell’s ability to comply with these demands is essential for maintaining its competitive standing and achieving a sufficient return on investment for new products.\n\nGovernance and oversight further support the long-term financial stability of the company. The Audit Committee of the Board of Directors oversees risks related to the protection of customer and employee data, proprietary information, and cloud security. This committee receives regular updates from the Security Governance Council and the Chief Security Officer regarding the emerging threat landscape and projects to strengthen the company’s security posture. To date, Honeywell reports that no risks from cybersecurity threats or previous incidents have materially affected its business, results of operations, or financial condition.\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 2754,
+   "context_length": 137864,
+   "context": {
+    "entities": 50,
+    "relations": 180,
+    "chunks": 10,
+    "rerank_candidates": 142,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Honeywells Global Security Organization",
+     "Cybersecurity Incidents",
+     "Honeywells Information Security Organization",
+     "Research And Development",
+     "Business Continuity And Disaster Recovery Plans",
+     "Cybersecurity Threats",
+     "Cybersecurity Insurance Policy",
+     "Material Operational Harm",
+     "Safety and Productivity Solutions",
+     "Results of Operations",
+     "Information Technology Cybersecurity Threats",
+     "Information Technology Systems",
+     "Cybersecurity Concerns",
+     "Cybersecurity Attacks",
+     "Honeywells Enterprise Risk Management Program"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6903,
+      "text": ", including cloud providers. Our customers, including the U.S. government, are increasingly requiring cybersecurity protections and mandating cybersecurity standards in our products, and we may incur additional costs to comply with such demands. While we have experienced, and expect to continue to experience, these types of threats and incidents, none of them to date have been material to the Comp"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7243,
+      "text": "vii) achieve sufficient return on investment for new products introduced based on capital expenditures and research and development spending; (viii) respond to changes in overall trends related to end market demand; and (ix) attract, develop, and retain individuals with the requisite technical expertise and understanding of customers’ needs to develop new technologies and introduce new products. C"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7105,
+      "text": "foreign currency exchange rates, antitrust regulations, employment regulations, foreign investment laws, import, export, and other trade restrictions (such as sanctions and embargoes), differing levels of protection of intellectual property, acts of industrial espionage, violations by our employees of anti-corruption laws (despite our efforts to mitigate such risk), changes in regulations regardin"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9591836734693877,
+    "answer_relevancy": 0.745211324175321,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9261
+   }
+  }
+ }
+}

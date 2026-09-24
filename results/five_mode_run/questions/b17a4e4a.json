@@ -1,0 +1,459 @@
+{
+ "question_id": "b17a4e4a",
+ "ticker": "VRSK",
+ "question": "Verisk Analytics (VRSK) Rule 10b5-1 durations & end date rationale.",
+ "expected_answer": "The newly adopted Rule 10b5-1 trading plans have the following durations:\n\n• CEO, Lee M. Shavel: February effective date with the first trade scheduled on or after March 15, 2024, and the plan is valid until December 31, 2024.\n• CFO, Elizabeth D. Mann: Similarly, with the first trade beginning on or after March 15, 2024 and the plan valid until December 31, 2024.\n• Controller/Chief Accounting Officer, David J. Grover: The first trade is set for on or after March 15, 2024 and the plan expires earlier on April 1, 2024.\n\nRegarding the differing end dates – while the CEO and CFO’s plans extend until the end of 2024, the Controller’s plan terminates earlier (April 1, 2024) – the provided data does not supply additional context or information to explain these differences. No significant reasons for this variation are disclosed within the reference; the dates appear to be determined by individual or position-specific trading strategies as permitted under the company’s Insider Trading Policy.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1665,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:52:48.789921",
+   "duration_ms": 37139,
+   "answer": "Verisk Analytics, Inc. (VRSK) provides disclosures regarding the trading arrangements of its directors and officers in compliance with SEC regulations. According to the provided documentation for the fiscal year ending December 31, 2023, the company tracks both Rule 10b5-1 and non-Rule 10b5-1 trading arrangements as defined in Item 408 of Regulation S-K.\n\n### Rule 10b5-1 Trading Arrangements\nFor the period ending December 31, 2023, no director or officer of Verisk Analytics, Inc. adopted or terminated any Rule 10b5-1 trading arrangements. These arrangements are typically pre-established trading plans designed to allow insiders to buy or sell company stock while complying with insider trading regulations.\n\n### Durations and End Date Rationale\nBecause no Rule 10b5-1 or non-Rule 10b5-1 trading arrangements were adopted or terminated by directors or officers during the fourth quarter of 2023, the provided context does not contain specific information regarding the durations of such plans or the rationale for any end dates. The company’s reporting for this period indicates a lack of activity concerning the initiation or conclusion of these specific trading arrangements.\n\n### References\n\n- [1] Verisk Analytics, Inc. - December 31, 2023",
+   "answer_length": 1249,
+   "context_length": 112275,
+   "context": {
+    "entities": 60,
+    "relations": 184,
+    "chunks": 10,
+    "rerank_candidates": 39,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "HAS",
+     "VRSK",
+     "MRO",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Verisk Analytics, Inc. 2009 Equity Incentive Plan",
+     "Verisk Analytics, Inc. 2013 Equity Incentive Plan",
+     "Verisk Analytics, Inc. 2021 Equity Incentive Plan",
+     "Verisk Analytics Equity Incentive Plan (2009)",
+     "Verisk Analytics, Inc. Senior Executive Severance Benefits Plan",
+     "Investor.Verisk.Com",
+     "10b5-1 Plans",
+     "Amendment No. 3 To The Verisk Analytics, Inc. 2012 Employee Stock Purchase Plan",
+     "Rule 10b5-1 Trading Arrangements",
+     "Description of Securities",
+     "Verisk Analytics",
+     "VRSK",
+     "Verisk Analytics Inc",
+     "401(k) Savings Plan",
+     "Verisk Analytics, Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6577,
+      "text": "Treadway Commission. In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. We also have audited, in accordance with the standards of the Public Company"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5074,
+      "text": ",110) (26,514) Future development costs (a) (6,848) (54) (6,902) Future income tax expenses (7,516) (284) (7,800) Future net cash flows $ 40,479 $ 830 $ 41,309 10% annual discount for timing of cash flows (18,807) (279) (19,086) Standardized measure of discounted future net cash flows $ 21,672 $ 551 $ 22,223 Year Ended December 31, 2021 Future cash inflows $ 46,172 $ 1,734 $ 47,906 Future producti"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7395848580980283,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4349
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:53:57.406349",
+   "duration_ms": 68616,
+   "answer": "Based on the provided context, I do not have enough information to provide the specific durations and end date rationales for Verisk Analytics' Rule 10b5-1 trading arrangements. \n\nThe available documentation indicates that for the quarterly period ended December 31, 2023, no director or officer of Verisk Analytics, Inc. adopted or terminated any \"Rule 10b5-1 trading arrangement\" or \"non-Rule 10b5-1 trading arrangement.\" Because no such arrangements were initiated or ended during this period, the company's filings do not specify durations or rationales for plan end dates.\n\nVerisk Analytics, Inc. (VRSK) maintains a disclosure framework where such information is typically reported under Item 9B (\"Other Information\") of the Form 10-K, in compliance with Item 408 of Regulation S-K. Management, including the Chief Executive Officer and Chief Financial Officer, is responsible for evaluating these disclosure controls and procedures. For the fiscal year ended December 31, 2023, these controls were determined to be effective, though the specific section regarding trading plans noted the absence of new or terminated arrangements for the final quarter.\n\nWhile the company did disclose other financial exhibits, such as a \"Fixed Dollar Accelerated Share Repurchase Transaction\" dated March 7, 2023, and various equity incentive plans (including the 2013 and 2021 Equity Incentive Plans), these entries do not provide the duration or termination rationale for individual director or officer trading plans.\n\n### References\n\n* [1] Verisk Analytics, Inc. (December 31, 2023)",
+   "answer_length": 1575,
+   "context_length": 101064,
+   "context": {
+    "entities": 20,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 75,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "HAS",
+     "MRO",
+     "VRSK",
+     "VRSK",
+     "CTAS",
+     "AMP",
+     "VRSK",
+     "ROP"
+    ],
+    "entity_names": [
+     "Motorola Solutions",
+     "Rule 10b5-1 Trading Arrangement",
+     "Item 9B",
+     "Marathon Oil",
+     "Honeywell",
+     "Rule 10b5-1",
+     "Company",
+     "Management",
+     "Ameriprise Financial",
+     "Ameriprise Financial, Inc.",
+     "Non-Rule 10b5-1 Trading Arrangement",
+     "10b5-1 Plans",
+     "Honeywell International Inc.",
+     "Rules 13a-15(f) And 15d-15(f)",
+     "Verisk Analytics, Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6577,
+      "text": "Treadway Commission. In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. We also have audited, in accordance with the standards of the Public Company"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5074,
+      "text": ",110) (26,514) Future development costs (a) (6,848) (54) (6,902) Future income tax expenses (7,516) (284) (7,800) Future net cash flows $ 40,479 $ 830 $ 41,309 10% annual discount for timing of cash flows (18,807) (279) (19,086) Standardized measure of discounted future net cash flows $ 21,672 $ 551 $ 22,223 Year Ended December 31, 2021 Future cash inflows $ 46,172 $ 1,734 $ 47,906 Future producti"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6466,
+      "text": "Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 25. Retirement Plans and Profit Sharing Arrangements 160 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 161 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 162 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements ("
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "ROP",
+      "chars": 6354,
+      "text": "Act Rules 13a-15(f) and 15d-15(f). Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in Internal Control—Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:54:04.077755",
+   "duration_ms": 6671,
+   "answer": "Based on the provided document, there is no information regarding Verisk Analytics' Rule 10b5-1 trading plan durations or the rationale for their end dates.\n\nThe provided context includes an overview of the company's business strategy, competitive advantages, and a list of exhibits such as the 2009 Equity Incentive Plan and various supplemental indentures. While the Table of Contents indicates that Item 9B (Other Information) and Item 10 (Directors, Executive Officers and Corporate Governance) are part of the annual report—sections where such disclosures might typically be found—the specific details for those items are not included in the provided text.\n\n### References\n\n* [1] Verisk Analytics, Inc.",
+   "answer_length": 707,
+   "context_length": 11297,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.6923076923076923,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.1731
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:55:04.592033",
+   "duration_ms": 60514,
+   "answer": "Based on the provided context, I do not have enough information to provide specific durations or the end date rationale for any Rule 10b5-1 trading arrangements specifically for **Verisk Analytics, Inc. (VRSK)**.\n\nHowever, the documentation for the fiscal year ended December 31, 2023, indicates that there were no reported adoptions or terminations of Rule 10b5-1 trading arrangements by the company's directors or officers during the fourth quarter of 2023. This information is typically disclosed under **Item 9B (\"Other Information\")** of the Form 10-K to comply with SEC regulations and transparency requirements regarding pre-planned equity trading.\n\nIn a broader context within the provided data, other organizations such as Hasbro, Inc., Marathon Oil Corporation, and Ameriprise Financial, Inc. also reported a similar absence of Rule 10b5-1 or non-Rule 10b5-1 trading arrangements for the same reporting period. Because no such arrangements were adopted or terminated for Verisk Analytics during the period ending December 31, 2023, the context contains no specific durations or rationales for plan expirations or changes.\n\n### References\n\n* [1] Verisk Analytics, Inc.\n* [2] Hasbro, Inc.\n* [3] Marathon Oil Corporation",
+   "answer_length": 1227,
+   "context_length": 123168,
+   "context": {
+    "entities": 31,
+    "relations": 179,
+    "chunks": 10,
+    "rerank_candidates": 108,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "HAS",
+     "VRSK",
+     "MRO",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Verisk Analytics, Inc. 2009 Equity Incentive Plan",
+     "Motorola Solutions",
+     "Verisk Analytics, Inc. 2013 Equity Incentive Plan",
+     "Rule 10b5-1 Trading Arrangement",
+     "Verisk Analytics, Inc. 2021 Equity Incentive Plan",
+     "Item 9B",
+     "Verisk Analytics Equity Incentive Plan (2009)",
+     "Marathon Oil",
+     "Verisk Analytics, Inc. Senior Executive Severance Benefits Plan",
+     "Honeywell",
+     "Investor.Verisk.Com",
+     "Rule 10b5-1",
+     "10b5-1 Plans",
+     "Company",
+     "Amendment No. 3 To The Verisk Analytics, Inc. 2012 Employee Stock Purchase Plan"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6577,
+      "text": "Treadway Commission. In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. We also have audited, in accordance with the standards of the Public Company"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5074,
+      "text": ",110) (26,514) Future development costs (a) (6,848) (54) (6,902) Future income tax expenses (7,516) (284) (7,800) Future net cash flows $ 40,479 $ 830 $ 41,309 10% annual discount for timing of cash flows (18,807) (279) (19,086) Standardized measure of discounted future net cash flows $ 21,672 $ 551 $ 22,223 Year Ended December 31, 2021 Future cash inflows $ 46,172 $ 1,734 $ 47,906 Future producti"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2188
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:56:08.866195",
+   "duration_ms": 64274,
+   "answer": "Based on the provided context, Verisk Analytics, Inc. (VRSK) is a Delaware-incorporated provider of data analytics and technology solutions. As a large accelerated filer, the company is subject to the reporting requirements of the Securities Exchange Act of 1934 and regularly files annual reports on Form 10-K with the SEC. Verisk maintains several legal frameworks for stock-based compensation and equity awards, including the 2009, 2013, and 2021 Equity Incentive Plans, as well as the 2012 Employee Stock Purchase Plan.\n\nRegarding Rule 10b5-1 trading arrangements—which are pre-established plans designed to comply with insider trading regulations—the company addresses these disclosures in Item 9B of its Form 10-K. For the reporting period ended December 31, 2023, the documentation indicates that no director or officer of the company adopted or terminated any Rule 10b5-1 trading arrangement or non-Rule 10b5-1 trading arrangement, as defined by Item 408 of Regulation S-K.\n\nThe provided context does not contain specific information regarding the durations or the rationales for the end dates of any Rule 10b5-1 trading arrangements for Verisk Analytics. While the company has engaged in other financial strategies, such as a \"Fixed Dollar Accelerated Share Repurchase Transaction\" confirmed in March 2023, the specific internal logic or timeframes for director and officer trading plans are not detailed in the available records. The reporting for the most recent fiscal year primarily confirms the absence of new or terminated arrangements during that period.\n\n### References\n\n* [1] Verisk Analytics, Inc.\n* [2] Hasbro, Inc.\n* [3] Marathon Oil Corporation\n* [4] Cintas Corporation",
+   "answer_length": 1691,
+   "context_length": 122312,
+   "context": {
+    "entities": 27,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 98,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "HAS",
+     "VRSK",
+     "MRO",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Rule 10b5-1 Trading Arrangements",
+     "Motorola Solutions",
+     "Verisk Analytics, Inc. 2009 Equity Incentive Plan",
+     "Rule 10b5-1 Trading Arrangement",
+     "Verisk Analytics, Inc. 2013 Equity Incentive Plan",
+     "Item 9B",
+     "Rule 10b5-1",
+     "Marathon Oil",
+     "Verisk Analytics, Inc. Senior Executive Severance Benefits Plan",
+     "Honeywell",
+     "Verisk Analytics, Inc. 2021 Equity Incentive Plan",
+     "Investor.Verisk.Com",
+     "Management",
+     "10b5-1 Plans",
+     "Ameriprise Financial"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6577,
+      "text": "Treadway Commission. In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. We also have audited, in accordance with the standards of the Public Company"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5074,
+      "text": ",110) (26,514) Future development costs (a) (6,848) (54) (6,902) Future income tax expenses (7,516) (284) (7,800) Future net cash flows $ 40,479 $ 830 $ 41,309 10% annual discount for timing of cash flows (18,807) (279) (19,086) Standardized measure of discounted future net cash flows $ 21,672 $ 551 $ 22,223 Year Ended December 31, 2021 Future cash inflows $ 46,172 $ 1,734 $ 47,906 Future producti"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7451659798211644,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4363
+   }
+  }
+ }
+}

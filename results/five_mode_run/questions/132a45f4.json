@@ -1,0 +1,239 @@
+{
+ "question_id": "132a45f4",
+ "ticker": "MRO",
+ "question": "Governance, risk, and growth are impacted by MRO insider trading arrangements, MRO.",
+ "expected_answer": "The data indicates that during the three‐month period ending December 31, 2023, there were no modifications to the trading arrangements used by directors and officers. Maintaining these existing insider trading arrangements tends to signal stability in corporate governance. Investors might interpret the unchanged state of these arrangements as an indication that the company’s leadership is confident in its current policies and practices related to risk management. From a corporate governance perspective, this consistency reduces uncertainty about the company's internal controls and insider activities, which can positively influence perceptions about the management’s alignment with shareholder interests.\n\nFurthermore, in terms of risk management, not altering the arrangements may suggest that the company is not facing any immediate pressures, such as liquidity issues or shifts in strategic direction, that would compel adjustments in how insiders buy or sell shares. This stability can be perceived as a sign of well-managed risk, enhancing a belief in the company’s ability to navigate operational challenges and market volatility. \n\nFinally, with regard to long‐term growth potential, investors tend to favor companies with predictable governance structures and risk management processes. The absence of changes in insider trading practices might reinforce the notion that the company is on a steady course with its strategic priorities. This reliable approach could further support the view that Marathon Oil Corporation is positioning itself for sustainable long‐term performance, as drastic shifts in insider trading policies might otherwise raise concerns about underlying business uncertainties.\n\nOverall, the lack of changes in insider trading arrangements is likely to be viewed positively by investors, reflecting confidence in current governance, risk management, and the company’s long‐term stability and growth potential.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 225,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:19:08.206978",
+   "duration_ms": 43137,
+   "answer": "I do not have enough information to provide a comprehensive answer regarding how insider trading arrangements for **MRO** impact its governance, risk, and growth.\n\nThe provided context identifies **MRO** as the trading symbol for **Marathon Oil** common stock on the New York Stock Exchange (NYSE). It also specifies that the company’s corporate governance disclosures and investor information are hosted on its official website, **Marathonoil.com**. However, there are no details within the context concerning Marathon Oil's specific insider trading arrangements or the impact of such arrangements on its corporate governance, risk management, or growth trajectories.\n\nAdditionally, while the term **MRO** is commonly used as an acronym for **Maintenance, Repair, and Overhaul**—a sector mentioned in the context as contributing significantly to higher organic sales for **Honeywell's Commercial Aviation Aftermarket** in 2023—the provided materials do not link these service activities to insider trading arrangements.\n\nFurthermore, although an **Insider Trading Policy** is explicitly mentioned for **Cintas Corporation** to regulate practices among its executives and directors, no similar policy or regulatory impact is described for Marathon Oil or the aviation MRO sector.\n\n### References\n\n* [No relevant document chunks or reference titles were provided in the context to support these specific facts.]",
+   "answer_length": 1410,
+   "context_length": 26706,
+   "context": {
+    "entities": 60,
+    "relations": 80,
+    "chunks": 0,
+    "rerank_candidates": 47,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Trading Symbol 'MRO'",
+     "Cma",
+     "2023 Acquisitions",
+     "MUFG Bank, Ltd.",
+     "Mizuho Bank, Ltd.",
+     "Mobility & Materials Business",
+     "RoperTech.com",
+     "MHRA",
+     "Mobility & Materials Business (M&M Business)",
+     "Cintas Corporation Insider Trading Policy",
+     "Rf IDEAS",
+     "Roper T2 LLC",
+     "RoperTech",
+     "Roper Technologies, Inc. Compensation Clawback Policy",
+     "rf IDEAS"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.1818
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:19:26.189465",
+   "duration_ms": 17982,
+   "answer": "Marathon Oil Corporation (MRO) maintains a structured corporate governance framework designed to oversee its strategic, financial, and operational decisions. The **Board of Directors** serves as the primary governing body, responsible for overseeing corporate governance, risk management, and strategic decision-making. Supporting this structure, the **Audit and Finance Committee** specifically monitors MRO’s cybersecurity risk management and enterprise risk processes. The company’s governance also includes the administration of executive benefit programs and incentive-based compensation plans to align the interests of leadership with those of the shareholders.\n\nRisk management at Marathon Oil is integrated into its core operations, focusing on both digital and environmental threats. The company implements an enterprise risk management program that includes cybersecurity controls to defend its information systems and data from unauthorized access or breaches. Beyond digital security, MRO emphasizes **Environmental, Social, and Governance (ESG)** performance. This involves managing regulatory risks, compliance costs, and litigation risks associated with greenhouse gas emissions and climate change. The company also monitors legislative and regulatory developments to mitigate potential impacts on its operations and costs.\n\nThe growth strategy of Marathon Oil is centered on \"differentiated execution\" within its primary U.S. resource plays, including the **Eagle Ford, Bakken, STACK/SCOOP, and Permian basins**. Rather than focusing solely on production expansion, MRO adheres to a disciplined capital allocation framework that limits capital expenditures relative to expected cash flow. This strategy prioritizes:\n*   Delivering sustainable, long-term cash returns to shareholders.\n*   Retiring outstanding debt.\n*   Maintaining a competitive cost structure resilient to commodity price cycles.\n\nWhile the provided text identifies directors and executive officers as \"affiliates\" for the purpose of calculating aggregate market value, specific details regarding individual insider trading arrangements are generally governed by the broader corporate governance policies and SEC disclosure requirements. These frameworks ensure transparency and financial integrity, as evidenced by the company’s compliance with internal controls over financial reporting and regular audits by independent firms like PricewaterhouseCoopers LLP.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 2519,
+   "context_length": 58318,
+   "context": {
+    "entities": 35,
+    "relations": 60,
+    "chunks": 2,
+    "rerank_candidates": 99,
+    "chunk_tickers": [
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Audit And Risk Committee",
+     "Board Of Directors",
+     "Audit and Finance Committee",
+     "Marathon Oil",
+     "Cybersecurity Risk Management Program",
+     "Corporate Governance",
+     "Marathon Oil Corporation",
+     "Audit Committee",
+     "Cybersecurity And Data Privacy",
+     "Cyber Risk Governance",
+     "Risk Committee Of The Board",
+     "Audit and Risk Committee",
+     "Board of Directors",
+     "Governance, Risk, And Compliance Team",
+     "Honeywell"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9661016949152542,
+    "answer_relevancy": 0.6407885572258188,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4017
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:19:33.306967",
+   "duration_ms": 7118,
+   "answer": "I do not have enough information in the provided context to answer your query regarding how governance, risk, and growth are impacted by MRO insider trading arrangements. The document chunks provided are empty and do not contain any information on this topic.",
+   "answer_length": 259,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:19:59.162210",
+   "duration_ms": 25855,
+   "answer": "Marathon Oil Corporation (MRO) maintains a structured corporate governance framework designed to oversee its strategic, financial, and operational decisions. The **Board of Directors** serves as the primary governing body, responsible for financial reporting, internal controls, and ensuring regulatory compliance. Within this structure, the **Audit and Finance Committee**, composed of independent directors, is specifically tasked with monitoring the company’s enterprise risk processes and internal controls, including the management of cybersecurity risks. Governance documents, including corporate principles and committee charters, are made transparently available to stakeholders through the company’s investor website.\n\n### Risk Management and Regulatory Compliance\nThe company's risk profile is managed through an enterprise-wide approach that addresses various operational and external threats. Key risks identified by management include cybersecurity breaches of information technology systems, supply chain disruptions, and the impacts of global climate change regulations. The Audit and Finance Committee plays a critical role in overseeing these risks, particularly those related to data protection and financial integrity. Furthermore, MRO is subject to legal and regulatory risks, such as potential impacts from the Inflation Reduction Act (IRA) and litigation involving environmental matters or greenhouse gas emissions.\n\n### Growth and Capital Allocation\nMarathon Oil's growth strategy is centered on its core U.S. resource plays, including the **Eagle Ford**, **Bakken**, **STACK/SCOOP**, and **Permian Basin** shale formations, as well as international operations in regions like Equatorial Guinea. The company utilizes a disciplined capital allocation framework that prioritizes free cash flow generation, the retirement of outstanding debt, and the replenishment of inventory. This framework aims to deliver sustainable long-term returns to shareholders through dividends and share repurchase programs, ensuring that capital expenditures remain limited relative to expected cash flow from operations.\n\n### Executive Oversight and Alignment\nThe governance of MRO is further supported by the alignment of leadership performance with shareholder interests through incentive-based compensation and executive benefit programs. As a publicly traded entity on the New York Stock Exchange, the company provides detailed disclosures regarding its directors and executive officers in its annual filings. For regulatory and financial computation purposes, such as determining the aggregate market value of common stock, these individuals are classified as affiliates. Information regarding the governance structure, including the roles and conduct of these officers, is detailed in specific sections of the company’s SEC filings, such as Items 10 through 14 of the Form 10-K.\n\n### References\n\n* [1] Marathon Oil Corporation\n\n***Note:*** *The provided context mentions an \"Insider Trading Policy\" specifically for Cintas Corporation, but does not provide the specific text of an insider trading policy for Marathon Oil Corporation. Information regarding MRO's executive governance is drawn from its general corporate governance and regulatory disclosure descriptions.*",
+   "answer_length": 3278,
+   "context_length": 70482,
+   "context": {
+    "entities": 43,
+    "relations": 140,
+    "chunks": 2,
+    "rerank_candidates": 150,
+    "chunk_tickers": [
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Trading Symbol 'MRO'",
+     "Audit And Risk Committee",
+     "Cma",
+     "Board Of Directors",
+     "2023 Acquisitions",
+     "Corporate Governance",
+     "MUFG Bank, Ltd.",
+     "Marathon Oil Corporation",
+     "Mizuho Bank, Ltd.",
+     "Governance, Risk, And Compliance Team",
+     "Mobility & Materials Business",
+     "Honeywell",
+     "RoperTech.com",
+     "Management",
+     "MHRA"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9672131147540983,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2418
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:20:39.335612",
+   "duration_ms": 40173,
+   "answer": "Marathon Oil Corporation (MRO) manages its governance, risk, and growth through a structured corporate framework overseen by its **Board of Directors** and senior management. The Board is responsible for strategic and operational oversight, including corporate governance, capital allocation, and shareholder return strategies such as dividends and share repurchases. For regulatory and reporting purposes, the company deems its executive officers and directors to be **affiliates**, ensuring their actions and holdings are governed by internal controls and transparency requirements.\n\n### Governance and Oversight\nMRO’s governance is supported by the **Audit and Finance Committee**, which consists of independent directors. This committee provides critical oversight of the company’s enterprise risk processes and **cybersecurity risk management**. Governance materials, including the **Code of Business Conduct** and any related amendments or waivers, are maintained on the company’s investor relations website to ensure accountability and ethical standards. Management is tasked with establishing and assessing internal controls over financial reporting to maintain the integrity of MRO’s consolidated financial statements.\n\n### Risk Management\nThe company faces a diverse range of risks, including operational hazards, regulatory shifts, and security threats. MRO implements **enterprise risk management (ERM)** programs to identify and mitigate material risks, such as **cybersecurity threats** to its information technology systems and infrastructure. Additionally, MRO must navigate evolving legal and regulatory landscapes, including:\n*   **Environmental and Climate Risks:** Litigation related to greenhouse gas (GHG) emissions and climate change, as well as compliance with emissions controls and waste disposal regulations.\n*   **Regulatory Compliance:** Impact from the Inflation Reduction Act (IRA) and changes in safety, health, tax, and water management requirements.\n*   **Operational Risks:** Security breaches, supply chain disruptions, and the potential non-performance of third-party contractors.\n\n### Growth and Capital Strategy\nMRO’s growth strategy focuses on delivering sustainable, long-term cash returns that remain resilient across commodity price cycles. This is executed through a disciplined **capital allocation framework** that prioritizes free cash flow generation and shareholder returns while managing reinvestment in high-quality U.S. resource plays. The company’s core operations are concentrated in the **Eagle Ford**, **Bakken**, **STACK/SCOOP**, and **Permian** basins. Future growth is also dependent on the performance of acquired assets and the company’s ability to meet environmental, social, and governance (ESG) ambitions.\n\n### References\n\n* [1] Marathon Oil Corporation (December 31, 2023)",
+   "answer_length": 2837,
+   "context_length": 73397,
+   "context": {
+    "entities": 52,
+    "relations": 131,
+    "chunks": 2,
+    "rerank_candidates": 149,
+    "chunk_tickers": [
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Governance And Compliance",
+     "Audit And Risk Committee",
+     "Governance Matters",
+     "Board Of Directors",
+     "Regulatory Oversight",
+     "Audit and Finance Committee",
+     "Compliance And Fraud Detection",
+     "Marathon Oil",
+     "Governance, Risk, And Compliance Team",
+     "Cybersecurity Risk Management Program",
+     "Business - Regulation",
+     "Corporate Governance",
+     "Legal, Regulatory And Compliance Risks",
+     "Marathon Oil Corporation",
+     "Investors - Corporate Governance"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9661016949152542,
+    "answer_relevancy": 0.7286099512399379,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4237
+   }
+  }
+ }
+}

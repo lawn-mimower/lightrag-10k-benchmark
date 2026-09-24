@@ -1,0 +1,383 @@
+{
+ "question_id": "a97d9785",
+ "ticker": "VRSK",
+ "question": "Verisk Analytics (VRSK) faces long-term debt refinancing risks impacting capital planning.",
+ "expected_answer": "Based on the data provided, several key points can be highlighted regarding potential refinancing risks and capital planning challenges for Verisk Analytics:\n\n1. **Maturity Concentration**: Although the long-term debt instruments have staggered maturities—from as early as 2025 (e.g., the 4.000% senior notes maturing on 6/15/2025) to as late as 2050 (e.g., the 3.625% senior notes maturing on 5/15/2050)—the nearer‐term maturities (such as the one due in 2025) might require refinancing within the near future. Refinancing a debt instrument on a large scale if several are approaching maturity in a clustered timeframe can increase risk if favorable market conditions are not available.\n\n2. **Interest Rate Environment**: The debt instruments carry fixed interest rates (ranging from 3.625% to 5.750%). However, if the current environment shifts and interest rates rise, refinancing these instruments at maturity could be more costly, potentially affecting the company’s earnings and cash flow.\n\n3. **Access to Credit Markets**: The maturity details of the credit facilities (which are labeled as ‘Various’) suggest flexibility in timing but also uncertainty in terms of the duration the revolving facilities will remain available. This uncertainty may pose challenges if market conditions tighten or if Verisk Analytics faces a reduction in borrowing capacity. The company will need sound capital planning strategies to ensure it maintains access to these facilities.\n\n4. **Liquidity Planning**: The upcoming maturity of the debt in the near term (such as the debt due in 2025) requires stringent liquidity management. This includes ensuring that sufficient cash flows or access to refinancing sources are available to meet debt service obligations without disrupting operational funding or forcing asset sales at inopportune times.\n\nIn summary, while the staggered debt maturities do provide some diversification from a refinancing viewpoint, the near-term maturities and external factors such as rising interest rates and market conditions create identifiable refinancing risks. Verisk Analytics must continue to monitor its liquidity position, maintain robust relationships with creditors, and remain prepared to adjust its capital allocation strategy in response to evolving market conditions.",
+ "category": "Financials",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1860,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:50:01.469666",
+   "duration_ms": 38874,
+   "answer": "Verisk Analytics (VRSK) maintains a significant debt profile that is a central component of its financial leverage and capital planning. As of December 31, 2023, the company reported long-term debt of $2,852.2 million, up from $2,343.2 million at the end of 2022. Notably, the short-term debt and current portion of long-term debt saw a substantial decrease, falling from $1,392.9 million in 2022 to $14.5 million in 2023. This shift in the debt maturity profile often reflects refinancing activities, such as the Third Supplemental Indenture entered into on March 7, 2023, involving Computershare Trust Company as the successor trustee [1].\n\nThe company’s capital planning is governed by a strategy of disciplined capital allocation. Verisk prioritizes three main areas for its capital: organic reinvestment in the business to drive high internal returns, selective strategic acquisitions to expand data assets and insurance industry reach, and the return of excess capital to shareholders. Throughout 2023, Verisk returned capital through $196.8 million in cash dividends and continued its share repurchase program, which has repurchased a total of 86,204,465 shares since its initial public offering. These activities are balanced against the goal of maintaining a strong balance sheet to ensure liquidity and financial resilience [1].\n\nManaging the risks associated with this leverage is a key focus for Verisk's management. Total debt is monitored as a measure of financial leverage and associated risk, with the company’s Senior Notes requiring semi-annual interest payments. To support its liquidity and working capital needs, Verisk maintains a Syndicated Credit Facility with a borrowing capacity of $1,000.0 million. The company acknowledges in its regulatory filings that various risk factors could impact its financial position and cause actual results to differ from its forward-looking projections regarding financial performance and growth [1].\n\n### References\n\n* [1] Verisk Analytics, Inc. Document Title: VRSK.html",
+   "answer_length": 2031,
+   "context_length": 101636,
+   "context": {
+    "entities": 60,
+    "relations": 188,
+    "chunks": 10,
+    "rerank_candidates": 27,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Investor.Verisk.Com",
+     "Verisk Financial Services",
+     "VRSK",
+     "Verisk Analytics",
+     "Financial Services Business",
+     "Verisk Analytics, Inc.",
+     "Verisk Analytics, Inc. 2013 Equity Incentive Plan",
+     "Equifax Inc.",
+     "Verisk Marketing Solutions",
+     "Gartner, Inc.",
+     "Verisk Analytics, Inc. Senior Executive Severance Benefits Plan",
+     "Fair Isaac Corp.",
+     "MSCI Inc.",
+     "Verisk Analytics, Inc. 2021 Equity Incentive Plan",
+     "Verisk Analytics, Inc. 2009 Equity Incentive Plan"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3103,
+      "text": ",374 shares transferred from treasury stock) - - 5.6 0.5 - - 6.1 - 6.1 Balance as of December 31, 2021 544,003,038 0.1 2,608.7 ( 4,638.1 ) 5,240.4 ( 394.6 ) 2,816.5 26.00 2,842.5 Net income - - - - 953.9 - 953.9 0.4 954.3 Other comprehensive income - - - - - ( 335.5 ) ( 335.5 ) ( 1.4 ) ( 336.9 ) Investment in noncontrolling interests - - ( 0.5 ) - - ( 1.1 ) ( 1.6 ) ( 6.6 ) ( 8.2 ) Common stock div"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9655172413793104,
+    "answer_relevancy": 0.8173198724126677,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6957
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:50:48.501050",
+   "duration_ms": 47031,
+   "answer": "Verisk Analytics Inc. has recorded a significant amount of **Long-Term Debt**, which increased from $2,343.2 million as of December 31, 2022, to **$2,852.2 million** as of December 31, 2023. This level of indebtedness requires careful capital planning, as the company must manage the periodic need to refinance its obligations to maintain liquidity and avoid the risk of **Default**.\n\nThe process of **Refinancing** existing indebtedness involves replacing current debt with new financing, often under different terms. However, this strategy is subject to various risks, including the company's credit ratings and prevailing market conditions. For instance, a downgrade in credit ratings can limit the options available for refinancing and lead to higher borrowing costs. Furthermore, volatility in the **Capital and Credit Markets** can impact the availability of the external financing necessary for both operations and debt service.\n\nMacroeconomic factors, particularly fluctuations in **Interest Rates**, also play a critical role in the company's financial strategy. Rising interest rates can increase the costs associated with long-term funding, thereby reducing financial flexibility and impacting future capital requirements. Because the availability and terms of future **Borrowings** are often uncertain, the company’s ability to successfully navigate its debt repayment schedule is heavily dependent on its business performance and its ability to generate sufficient cash flow.\n\nFailure to meet financial obligations or to refinance debt under favorable terms could adversely affect the company's financial condition and disrupt its business operations. Consequently, the management of long-term debt remains a central component of the company's broader financial stability and capital allocation framework.\n\n### References\n\n* [1] Knowledge Graph Data: Long-Term Debt\n* [2] Knowledge Graph Data: Refinancing\n* [3] Knowledge Graph Data: Capital And Credit Markets\n* [4] Knowledge Graph Data: Interest Rates\n* [5] Knowledge Graph Data: Existing Indebtedness",
+   "answer_length": 2066,
+   "context_length": 41849,
+   "context": {
+    "entities": 37,
+    "relations": 60,
+    "chunks": 0,
+    "rerank_candidates": 106,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Existing Indebtedness",
+     "Refinancing",
+     "Capital And Credit Markets",
+     "Debt Service",
+     "Borrowings",
+     "Company",
+     "Debt",
+     "Repayment Of Debt",
+     "Financial Stability",
+     "Global Economy",
+     "Default",
+     "Business Performance",
+     "Deleveraging Plan",
+     "Debt Repayment Schedule",
+     "Roper Technologies"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.56,
+    "answer_relevancy": 0.8597611074159962,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7549
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:50:54.620217",
+   "duration_ms": 6119,
+   "answer": "I do not have enough information to answer your query because no document context was provided. To provide an accurate response regarding Verisk Analytics (VRSK) and its debt refinancing risks, I require the relevant document chunks and reference materials.",
+   "answer_length": 257,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:51:28.389614",
+   "duration_ms": 33769,
+   "answer": "Verisk Analytics, Inc. (VRSK) manages a significant debt structure that directly influences its capital planning and operational flexibility. As of December 31, 2023, the company reported long-term debt of $2,852.2 million, an increase from $2,343.2 million at the end of 2022. Managing this existing indebtedness involves a reliance on refinancing, which is subject to various internal and external risks.\n\n### Refinancing Risks and Market Conditions\nRefinancing existing indebtedness is a core component of Verisk’s financial strategy, but its success depends heavily on credit ratings and market conditions. Credit ratings are critical because a downgrade could limit refinancing options or result in less favorable terms. Furthermore, the global economy and volatility in capital and credit markets influence the company's ability to manage debt effectively. Disruptions in these markets can impair Verisk’s ability to secure necessary financing for operations or strategic growth, making the availability and terms of future borrowings uncertain.\n\n### Impact on Capital Planning and Allocation\nVerisk’s capital allocation strategy focuses on organic reinvestment, selective strategic acquisitions, and returning excess capital to shareholders through dividends and share repurchases. However, debt financing costs—including interest and fees—reduce the cash flow available for these activities. For instance, in 2023, Verisk reported a net interest expense of $115.5 million. This financial burden limits operational planning and financial flexibility, as a portion of the company's cash flow must be dedicated to debt service requirements.\n\n### Deleveraging and Liquidity Management\nTo mitigate these risks, Verisk utilizes a Deleveraging Plan, which involves repaying and reducing outstanding debt using operational cash flow and proceeds from asset sales, such as the divestiture of its Energy business in early 2023. The success of this plan is contingent upon the company's business performance and broader macroeconomic conditions. To support short-term liquidity and working capital needs, Verisk maintains a Syndicated Credit Facility with a borrowing capacity of $1,000.0 million. While the company's subscription-based revenue model often results in a working capital deficit due to prepaid services, it also generates significant cash flows that assist in managing its leverage and financial stability.\n\n### References\n\n- [1] Verisk Analytics, Inc. Document Title: VRSK.html",
+   "answer_length": 2490,
+   "context_length": 116862,
+   "context": {
+    "entities": 56,
+    "relations": 190,
+    "chunks": 10,
+    "rerank_candidates": 153,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Investor.Verisk.Com",
+     "Existing Indebtedness",
+     "Verisk Financial Services",
+     "Refinancing",
+     "VRSK",
+     "Business Operations",
+     "Verisk Analytics",
+     "Default",
+     "Financial Services Business",
+     "Borrowings",
+     "Verisk Analytics, Inc.",
+     "Company",
+     "Verisk Analytics, Inc. 2013 Equity Incentive Plan",
+     "Cash Flows",
+     "Equifax Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3103,
+      "text": ",374 shares transferred from treasury stock) - - 5.6 0.5 - - 6.1 - 6.1 Balance as of December 31, 2021 544,003,038 0.1 2,608.7 ( 4,638.1 ) 5,240.4 ( 394.6 ) 2,816.5 26.00 2,842.5 Net income - - - - 953.9 - 953.9 0.4 954.3 Other comprehensive income - - - - - ( 335.5 ) ( 335.5 ) ( 1.4 ) ( 336.9 ) Investment in noncontrolling interests - - ( 0.5 ) - - ( 1.1 ) ( 1.6 ) ( 6.6 ) ( 8.2 ) Common stock div"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9782608695652174,
+    "answer_relevancy": 0.851468919394339,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8324
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:52:11.651336",
+   "duration_ms": 43262,
+   "answer": "Verisk Analytics, Inc. (VRSK) maintains a significant debt profile that directly influences its strategic financial planning. As of December 31, 2023, the company reported long-term debt of $2,852.2 million, an increase from $2,343.2 million at the end of 2022. Managing this indebtedness is a critical component of the company's financial condition, as interest expenses and the eventual need to refinance these obligations can impact overall liquidity and the capital available for business growth.\n\n### Refinancing Challenges and Market Risks\nThe ability to refinance existing indebtedness under favorable terms is subject to several external factors, including credit ratings, market conditions, and the state of the global economy. Disruptions in the capital and credit markets can limit the availability of external financing or increase borrowing costs. Furthermore, a downgrade in Verisk's credit ratings could restrict refinancing options, making it more difficult to replace existing debt with new financing at manageable rates. The company's variable rate debt, such as borrowings under its credit facility, is also sensitive to interest rate fluctuations, which can directly affect cash flows and financial strategy.\n\n### Impact on Capital Allocation and Flexibility\nVerisk’s debt obligations require a substantial portion of its cash flow to be dedicated to debt service, encompassing both interest and principal payments. This allocation can reduce the company's financial flexibility, potentially limiting its ability to fund operational needs, capital expenditures, or strategic initiatives. The company's \"Deleveraging Plan\" aims to reduce outstanding debt through operational cash flow and proceeds from asset sales, such as the divestiture of its Energy business and Financial Services segment in 2022 and 2023. However, the success of this plan remains dependent on sustained business performance and favorable macroeconomic conditions.\n\n### Strategic Priorities and Liquidity\nDespite these risks, Verisk focuses on a disciplined capital allocation strategy that prioritizes organic reinvestment, followed by selective strategic acquisitions and the return of excess capital to shareholders via dividends and share repurchases. The company’s liquidity is supported by a subscription-based revenue model, which historically generates strong cash flow from operations, and a syndicated credit facility providing $1,000.0 million in borrowing capacity. Nevertheless, the company must balance these priorities against its long-term funding requirements and the potential for a working capital deficit inherent in its prepaid service model.\n\n### References\n\n- [1] Verisk Analytics, Inc. - VRSK.html",
+   "answer_length": 2713,
+   "context_length": 116862,
+   "context": {
+    "entities": 56,
+    "relations": 190,
+    "chunks": 10,
+    "rerank_candidates": 158,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Investor.Verisk.Com",
+     "Existing Indebtedness",
+     "Verisk Financial Services",
+     "Refinancing",
+     "VRSK",
+     "Business Operations",
+     "Verisk Analytics",
+     "Default",
+     "Financial Services Business",
+     "Borrowings",
+     "Verisk Analytics, Inc.",
+     "Company",
+     "Verisk Analytics, Inc. 2013 Equity Incentive Plan",
+     "Cash Flows",
+     "Equifax Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3103,
+      "text": ",374 shares transferred from treasury stock) - - 5.6 0.5 - - 6.1 - 6.1 Balance as of December 31, 2021 544,003,038 0.1 2,608.7 ( 4,638.1 ) 5,240.4 ( 394.6 ) 2,816.5 26.00 2,842.5 Net income - - - - 953.9 - 953.9 0.4 954.3 Other comprehensive income - - - - - ( 335.5 ) ( 335.5 ) ( 1.4 ) ( 336.9 ) Investment in noncontrolling interests - - ( 0.5 ) - - ( 1.1 ) ( 1.6 ) ( 6.6 ) ( 8.2 ) Common stock div"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9761904761904762,
+    "answer_relevancy": 0.8452681232760297,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8554
+   }
+  }
+ }
+}

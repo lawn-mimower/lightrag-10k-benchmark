@@ -1,0 +1,4103 @@
+{
+ "timestamp": "2026-01-20T02:33:43.859366",
+ "evaluations_completed": 315,
+ "evaluations_total": 315,
+ "is_complete": true,
+ "results": [
+  {
+   "question_id": "008beea7",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7600657858675227,
+    "context_recall": 0.3684210526315789,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7821,
+   "file": "test_results_CTAS_question_008beea7.json"
+  },
+  {
+   "question_id": "008beea7",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9615384615384616,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.8888888888888888,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4626,
+   "file": "test_results_CTAS_question_008beea7.json"
+  },
+  {
+   "question_id": "008beea7",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.1111111111111111,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2778,
+   "file": "test_results_CTAS_question_008beea7.json"
+  },
+  {
+   "question_id": "008beea7",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8148148148148148,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.16666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.4954,
+   "file": "test_results_CTAS_question_008beea7.json"
+  },
+  {
+   "question_id": "008beea7",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8260869565217391,
+    "answer_relevancy": 0.8120846727184775,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.604,
+   "file": "test_results_CTAS_question_008beea7.json"
+  },
+  {
+   "question_id": "0d0d16d0",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9743589743589743,
+    "answer_relevancy": 0.7339103971963796,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6771,
+   "file": "test_results_CTAS_question_0d0d16d0.json"
+  },
+  {
+   "question_id": "0d0d16d0",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.14814814814814814,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.537,
+   "file": "test_results_CTAS_question_0d0d16d0.json"
+  },
+  {
+   "question_id": "0d0d16d0",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_0d0d16d0.json"
+  },
+  {
+   "question_id": "0d0d16d0",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9310344827586207,
+    "answer_relevancy": 0.7334603209294145,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6661,
+   "file": "test_results_CTAS_question_0d0d16d0.json"
+  },
+  {
+   "question_id": "0d0d16d0",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9555555555555556,
+    "answer_relevancy": 0.7162701219803497,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.668,
+   "file": "test_results_CTAS_question_0d0d16d0.json"
+  },
+  {
+   "question_id": "0ed7397a",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8133889949047249,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8533,
+   "file": "test_results_CTAS_question_0ed7397a.json"
+  },
+  {
+   "question_id": "0ed7397a",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9830508474576272,
+    "answer_relevancy": 0.7548635792484019,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8845,
+   "file": "test_results_CTAS_question_0ed7397a.json"
+  },
+  {
+   "question_id": "0ed7397a",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7502408949059157,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9376,
+   "file": "test_results_CTAS_question_0ed7397a.json"
+  },
+  {
+   "question_id": "0ed7397a",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7760639854340671,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.944,
+   "file": "test_results_CTAS_question_0ed7397a.json"
+  },
+  {
+   "question_id": "0ed7397a",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9487179487179487,
+    "answer_relevancy": 0.7665643796202039,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9288,
+   "file": "test_results_CTAS_question_0ed7397a.json"
+  },
+  {
+   "question_id": "132a45f4",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.1818,
+   "file": "test_results_CTAS_question_132a45f4.json"
+  },
+  {
+   "question_id": "132a45f4",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9661016949152542,
+    "answer_relevancy": 0.6407885572258188,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4017,
+   "file": "test_results_CTAS_question_132a45f4.json"
+  },
+  {
+   "question_id": "132a45f4",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_132a45f4.json"
+  },
+  {
+   "question_id": "132a45f4",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9672131147540983,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2418,
+   "file": "test_results_CTAS_question_132a45f4.json"
+  },
+  {
+   "question_id": "132a45f4",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9661016949152542,
+    "answer_relevancy": 0.7286099512399379,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4237,
+   "file": "test_results_CTAS_question_132a45f4.json"
+  },
+  {
+   "question_id": "1baac2d2",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.852827866718881,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8918,
+   "file": "test_results_CTAS_question_1baac2d2.json"
+  },
+  {
+   "question_id": "1baac2d2",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7897016099842028,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.876,
+   "file": "test_results_CTAS_question_1baac2d2.json"
+  },
+  {
+   "question_id": "1baac2d2",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7610919456626749,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7974,
+   "file": "test_results_CTAS_question_1baac2d2.json"
+  },
+  {
+   "question_id": "1baac2d2",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7504807861068223,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8305,
+   "file": "test_results_CTAS_question_1baac2d2.json"
+  },
+  {
+   "question_id": "1baac2d2",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7587295180851784,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8325,
+   "file": "test_results_CTAS_question_1baac2d2.json"
+  },
+  {
+   "question_id": "1bacc152",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7375728199438507,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8719,
+   "file": "test_results_CTAS_question_1bacc152.json"
+  },
+  {
+   "question_id": "1bacc152",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7759445876059482,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8815,
+   "file": "test_results_CTAS_question_1bacc152.json"
+  },
+  {
+   "question_id": "1bacc152",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9444444444444444,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2361,
+   "file": "test_results_CTAS_question_1bacc152.json"
+  },
+  {
+   "question_id": "1bacc152",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7016687585229997,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8629,
+   "file": "test_results_CTAS_question_1bacc152.json"
+  },
+  {
+   "question_id": "1bacc152",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.715614146905482,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8664,
+   "file": "test_results_CTAS_question_1bacc152.json"
+  },
+  {
+   "question_id": "1c41ffb9",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8024719297913842,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9506,
+   "file": "test_results_CTAS_question_1c41ffb9.json"
+  },
+  {
+   "question_id": "1c41ffb9",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.975,
+    "answer_relevancy": 0.8135334312951267,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9471,
+   "file": "test_results_CTAS_question_1c41ffb9.json"
+  },
+  {
+   "question_id": "1c41ffb9",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.7994368240128823,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9332,
+   "file": "test_results_CTAS_question_1c41ffb9.json"
+  },
+  {
+   "question_id": "1c41ffb9",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8581213730297593,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9645,
+   "file": "test_results_CTAS_question_1c41ffb9.json"
+  },
+  {
+   "question_id": "1c41ffb9",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8225785568394541,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9556,
+   "file": "test_results_CTAS_question_1c41ffb9.json"
+  },
+  {
+   "question_id": "2afcec04",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.95,
+    "answer_relevancy": 0.5908636135394598,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6352,
+   "file": "test_results_CTAS_question_2afcec04.json"
+  },
+  {
+   "question_id": "2afcec04",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9795918367346939,
+    "answer_relevancy": 0.7239127638100976,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4259,
+   "file": "test_results_CTAS_question_2afcec04.json"
+  },
+  {
+   "question_id": "2afcec04",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9384615384615385,
+    "answer_relevancy": 0.6940722469128938,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4081,
+   "file": "test_results_CTAS_question_2afcec04.json"
+  },
+  {
+   "question_id": "2afcec04",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9555555555555556,
+    "answer_relevancy": 0.6347419205989624,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6476,
+   "file": "test_results_CTAS_question_2afcec04.json"
+  },
+  {
+   "question_id": "2afcec04",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5844572476588107,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6461,
+   "file": "test_results_CTAS_question_2afcec04.json"
+  },
+  {
+   "question_id": "2b9ff3ae",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8331452335965593,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9083,
+   "file": "test_results_CTAS_question_2b9ff3ae.json"
+  },
+  {
+   "question_id": "2b9ff3ae",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8347239795193482,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8587,
+   "file": "test_results_CTAS_question_2b9ff3ae.json"
+  },
+  {
+   "question_id": "2b9ff3ae",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2321,
+   "file": "test_results_CTAS_question_2b9ff3ae.json"
+  },
+  {
+   "question_id": "2b9ff3ae",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8260324056055799,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9565,
+   "file": "test_results_CTAS_question_2b9ff3ae.json"
+  },
+  {
+   "question_id": "2b9ff3ae",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8334051901429866,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9584,
+   "file": "test_results_CTAS_question_2b9ff3ae.json"
+  },
+  {
+   "question_id": "2e52d788",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7369621063418429,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8985,
+   "file": "test_results_CTAS_question_2e52d788.json"
+  },
+  {
+   "question_id": "2e52d788",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7521379998200807,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8666,
+   "file": "test_results_CTAS_question_2e52d788.json"
+  },
+  {
+   "question_id": "2e52d788",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_2e52d788.json"
+  },
+  {
+   "question_id": "2e52d788",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.967741935483871,
+    "answer_relevancy": 0.741958323968419,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.856,
+   "file": "test_results_CTAS_question_2e52d788.json"
+  },
+  {
+   "question_id": "2e52d788",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9487179487179487,
+    "answer_relevancy": 0.8012723243058169,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8661,
+   "file": "test_results_CTAS_question_2e52d788.json"
+  },
+  {
+   "question_id": "2fdba0b2",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7978127552118722,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9495,
+   "file": "test_results_CTAS_question_2fdba0b2.json"
+  },
+  {
+   "question_id": "2fdba0b2",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7814984442184049,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9454,
+   "file": "test_results_CTAS_question_2fdba0b2.json"
+  },
+  {
+   "question_id": "2fdba0b2",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8361586758214751,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.909,
+   "file": "test_results_CTAS_question_2fdba0b2.json"
+  },
+  {
+   "question_id": "2fdba0b2",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7731498907041757,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9433,
+   "file": "test_results_CTAS_question_2fdba0b2.json"
+  },
+  {
+   "question_id": "2fdba0b2",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8080388523512015,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.952,
+   "file": "test_results_CTAS_question_2fdba0b2.json"
+  },
+  {
+   "question_id": "30418203",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9047619047619048,
+    "answer_relevancy": 0.7789226521390024,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4209,
+   "file": "test_results_CTAS_question_30418203.json"
+  },
+  {
+   "question_id": "30418203",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9649122807017544,
+    "answer_relevancy": 0.7421771936877425,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4268,
+   "file": "test_results_CTAS_question_30418203.json"
+  },
+  {
+   "question_id": "30418203",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8157894736842105,
+    "answer_relevancy": 0.791573774805046,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4018,
+   "file": "test_results_CTAS_question_30418203.json"
+  },
+  {
+   "question_id": "30418203",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7777977721032214,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4444,
+   "file": "test_results_CTAS_question_30418203.json"
+  },
+  {
+   "question_id": "30418203",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8805970149253731,
+    "answer_relevancy": 0.7348252019656302,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4039,
+   "file": "test_results_CTAS_question_30418203.json"
+  },
+  {
+   "question_id": "383d8d29",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_383d8d29.json"
+  },
+  {
+   "question_id": "383d8d29",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.5837130151027838,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.3709,
+   "file": "test_results_CTAS_question_383d8d29.json"
+  },
+  {
+   "question_id": "383d8d29",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.15,
+   "file": "test_results_CTAS_question_383d8d29.json"
+  },
+  {
+   "question_id": "383d8d29",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2,
+   "file": "test_results_CTAS_question_383d8d29.json"
+  },
+  {
+   "question_id": "383d8d29",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2333,
+   "file": "test_results_CTAS_question_383d8d29.json"
+  },
+  {
+   "question_id": "38758f5a",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8545510362890356,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9636,
+   "file": "test_results_CTAS_question_38758f5a.json"
+  },
+  {
+   "question_id": "38758f5a",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.8244136417534609,
+    "context_recall": 1.0,
+    "context_precision": null
+   },
+   "ragas_score": 0.8998,
+   "file": "test_results_CTAS_question_38758f5a.json"
+  },
+  {
+   "question_id": "38758f5a",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2,
+   "file": "test_results_CTAS_question_38758f5a.json"
+  },
+  {
+   "question_id": "38758f5a",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7778615891990612,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9445,
+   "file": "test_results_CTAS_question_38758f5a.json"
+  },
+  {
+   "question_id": "38758f5a",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7383829620866207,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9346,
+   "file": "test_results_CTAS_question_38758f5a.json"
+  },
+  {
+   "question_id": "38ae5ab1",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.5,
+   "file": "test_results_CTAS_question_38ae5ab1.json"
+  },
+  {
+   "question_id": "38ae5ab1",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9523809523809523,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.4881,
+   "file": "test_results_CTAS_question_38ae5ab1.json"
+  },
+  {
+   "question_id": "38ae5ab1",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_38ae5ab1.json"
+  },
+  {
+   "question_id": "38ae5ab1",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.4808,
+   "file": "test_results_CTAS_question_38ae5ab1.json"
+  },
+  {
+   "question_id": "38ae5ab1",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.5,
+   "file": "test_results_CTAS_question_38ae5ab1.json"
+  },
+  {
+   "question_id": "3eec923a",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8250054202856014,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8938,
+   "file": "test_results_CTAS_question_3eec923a.json"
+  },
+  {
+   "question_id": "3eec923a",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9310344827586207,
+    "answer_relevancy": 0.9151479251725672,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7115,
+   "file": "test_results_CTAS_question_3eec923a.json"
+  },
+  {
+   "question_id": "3eec923a",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8260262770408177,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8565,
+   "file": "test_results_CTAS_question_3eec923a.json"
+  },
+  {
+   "question_id": "3eec923a",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9591836734693877,
+    "answer_relevancy": 0.8041632840126137,
+    "context_recall": 0.875,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9096,
+   "file": "test_results_CTAS_question_3eec923a.json"
+  },
+  {
+   "question_id": "3eec923a",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9830508474576272,
+    "answer_relevancy": 0.8235573973243854,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9517,
+   "file": "test_results_CTAS_question_3eec923a.json"
+  },
+  {
+   "question_id": "3f515a80",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8857142857142857,
+    "answer_relevancy": 0.8079609635027146,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8401,
+   "file": "test_results_CTAS_question_3f515a80.json"
+  },
+  {
+   "question_id": "3f515a80",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9428571428571428,
+    "answer_relevancy": 0.7716112042635137,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8453,
+   "file": "test_results_CTAS_question_3f515a80.json"
+  },
+  {
+   "question_id": "3f515a80",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8493728735421663,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4623,
+   "file": "test_results_CTAS_question_3f515a80.json"
+  },
+  {
+   "question_id": "3f515a80",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9696969696969697,
+    "answer_relevancy": 0.7945702070748034,
+    "context_recall": 0.14285714285714285,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7268,
+   "file": "test_results_CTAS_question_3f515a80.json"
+  },
+  {
+   "question_id": "3f515a80",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9642857142857143,
+    "answer_relevancy": 0.725177312289257,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8599,
+   "file": "test_results_CTAS_question_3f515a80.json"
+  },
+  {
+   "question_id": "44063ab3",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.9320614220200287,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7183,
+   "file": "test_results_CTAS_question_44063ab3.json"
+  },
+  {
+   "question_id": "44063ab3",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.5555555555555556,
+    "answer_relevancy": 0.9046875879175561,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.3651,
+   "file": "test_results_CTAS_question_44063ab3.json"
+  },
+  {
+   "question_id": "44063ab3",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.7647058823529411,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.1912,
+   "file": "test_results_CTAS_question_44063ab3.json"
+  },
+  {
+   "question_id": "44063ab3",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8751260609163246,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4688,
+   "file": "test_results_CTAS_question_44063ab3.json"
+  },
+  {
+   "question_id": "44063ab3",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.92,
+    "answer_relevancy": 0.8914613543068128,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4529,
+   "file": "test_results_CTAS_question_44063ab3.json"
+  },
+  {
+   "question_id": "47703f4b",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9787234042553191,
+    "answer_relevancy": 0.6819216872883503,
+    "context_recall": 0.08333333333333333,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.686,
+   "file": "test_results_CTAS_question_47703f4b.json"
+  },
+  {
+   "question_id": "47703f4b",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9393939393939394,
+    "answer_relevancy": 0.7614552778033334,
+    "context_recall": 0.45454545454545453,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.5388,
+   "file": "test_results_CTAS_question_47703f4b.json"
+  },
+  {
+   "question_id": "47703f4b",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7653086970672964,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4413,
+   "file": "test_results_CTAS_question_47703f4b.json"
+  },
+  {
+   "question_id": "47703f4b",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7841155709666419,
+    "context_recall": 0.09090909090909091,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7188,
+   "file": "test_results_CTAS_question_47703f4b.json"
+  },
+  {
+   "question_id": "47703f4b",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7286375799362464,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6822,
+   "file": "test_results_CTAS_question_47703f4b.json"
+  },
+  {
+   "question_id": "49f441e1",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8421052631578947,
+    "answer_relevancy": 0.6815859797428603,
+    "context_recall": 0.2857142857142857,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4524,
+   "file": "test_results_CTAS_question_49f441e1.json"
+  },
+  {
+   "question_id": "49f441e1",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8518518518518519,
+    "answer_relevancy": 0.6814286189764043,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.5262,
+   "file": "test_results_CTAS_question_49f441e1.json"
+  },
+  {
+   "question_id": "49f441e1",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.0833,
+   "file": "test_results_CTAS_question_49f441e1.json"
+  },
+  {
+   "question_id": "49f441e1",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.918918918918919,
+    "answer_relevancy": 0.6959695027344147,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7609,
+   "file": "test_results_CTAS_question_49f441e1.json"
+  },
+  {
+   "question_id": "49f441e1",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.04,
+    "answer_relevancy": 0.7903035346414976,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6004,
+   "file": "test_results_CTAS_question_49f441e1.json"
+  },
+  {
+   "question_id": "4d181fb3",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.799602873779858,
+    "context_recall": 0.2,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4999,
+   "file": "test_results_CTAS_question_4d181fb3.json"
+  },
+  {
+   "question_id": "4d181fb3",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.7399458698995672,
+    "context_recall": 0.2,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7194,
+   "file": "test_results_CTAS_question_4d181fb3.json"
+  },
+  {
+   "question_id": "4d181fb3",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_4d181fb3.json"
+  },
+  {
+   "question_id": "4d181fb3",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.85,
+    "answer_relevancy": 0.7251965869020928,
+    "context_recall": 0.4,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4938,
+   "file": "test_results_CTAS_question_4d181fb3.json"
+  },
+  {
+   "question_id": "4d181fb3",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8536585365853658,
+    "answer_relevancy": 0.678860849263752,
+    "context_recall": 0.4,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7331,
+   "file": "test_results_CTAS_question_4d181fb3.json"
+  },
+  {
+   "question_id": "58a5d8e7",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.7855043820223826,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9236,
+   "file": "test_results_CTAS_question_58a5d8e7.json"
+  },
+  {
+   "question_id": "58a5d8e7",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.851063829787234,
+    "answer_relevancy": 0.7845409013661806,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9089,
+   "file": "test_results_CTAS_question_58a5d8e7.json"
+  },
+  {
+   "question_id": "58a5d8e7",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9565217391304348,
+    "answer_relevancy": 0.6704413176647964,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9067,
+   "file": "test_results_CTAS_question_58a5d8e7.json"
+  },
+  {
+   "question_id": "58a5d8e7",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9852941176470589,
+    "answer_relevancy": 0.8561247618100912,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9604,
+   "file": "test_results_CTAS_question_58a5d8e7.json"
+  },
+  {
+   "question_id": "58a5d8e7",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.8454329076335894,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9405,
+   "file": "test_results_CTAS_question_58a5d8e7.json"
+  },
+  {
+   "question_id": "5e5180f2",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6542690821425702,
+    "context_recall": 0.8947368421052632,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8873,
+   "file": "test_results_CTAS_question_5e5180f2.json"
+  },
+  {
+   "question_id": "5e5180f2",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9180327868852459,
+    "answer_relevancy": 0.7159616670906997,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6585,
+   "file": "test_results_CTAS_question_5e5180f2.json"
+  },
+  {
+   "question_id": "5e5180f2",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.96875,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2422,
+   "file": "test_results_CTAS_question_5e5180f2.json"
+  },
+  {
+   "question_id": "5e5180f2",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7203441926022399,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6801,
+   "file": "test_results_CTAS_question_5e5180f2.json"
+  },
+  {
+   "question_id": "5e5180f2",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9782608695652174,
+    "answer_relevancy": 0.6532324869018324,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6579,
+   "file": "test_results_CTAS_question_5e5180f2.json"
+  },
+  {
+   "question_id": "5f7adf0f",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_5f7adf0f.json"
+  },
+  {
+   "question_id": "5f7adf0f",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4444,
+   "file": "test_results_CTAS_question_5f7adf0f.json"
+  },
+  {
+   "question_id": "5f7adf0f",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9271309657105745,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4818,
+   "file": "test_results_CTAS_question_5f7adf0f.json"
+  },
+  {
+   "question_id": "5f7adf0f",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8636363636363636,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.4659,
+   "file": "test_results_CTAS_question_5f7adf0f.json"
+  },
+  {
+   "question_id": "5f7adf0f",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.7142857142857143,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.5555555555555556,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.3175,
+   "file": "test_results_CTAS_question_5f7adf0f.json"
+  },
+  {
+   "question_id": "642d3af4",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7907983529891074,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.906,
+   "file": "test_results_CTAS_question_642d3af4.json"
+  },
+  {
+   "question_id": "642d3af4",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.8508987324453333,
+    "context_recall": 0.8888888888888888,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.6657,
+   "file": "test_results_CTAS_question_642d3af4.json"
+  },
+  {
+   "question_id": "642d3af4",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7570803890267318,
+    "context_recall": 0.08333333333333333,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4601,
+   "file": "test_results_CTAS_question_642d3af4.json"
+  },
+  {
+   "question_id": "642d3af4",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.96875,
+    "answer_relevancy": 0.7862266495820532,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8137,
+   "file": "test_results_CTAS_question_642d3af4.json"
+  },
+  {
+   "question_id": "642d3af4",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7933446533748865,
+    "context_recall": 0.4166666666666667,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8025,
+   "file": "test_results_CTAS_question_642d3af4.json"
+  },
+  {
+   "question_id": "69c257e0",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.8119074699492784,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9302,
+   "file": "test_results_CTAS_question_69c257e0.json"
+  },
+  {
+   "question_id": "69c257e0",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9069767441860465,
+    "answer_relevancy": 0.8666448992075955,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9434,
+   "file": "test_results_CTAS_question_69c257e0.json"
+  },
+  {
+   "question_id": "69c257e0",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8846153846153846,
+    "answer_relevancy": 0.8320223493800132,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6792,
+   "file": "test_results_CTAS_question_69c257e0.json"
+  },
+  {
+   "question_id": "69c257e0",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8960513240451607,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.974,
+   "file": "test_results_CTAS_question_69c257e0.json"
+  },
+  {
+   "question_id": "69c257e0",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8760257376630548,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.969,
+   "file": "test_results_CTAS_question_69c257e0.json"
+  },
+  {
+   "question_id": "6cf59e04",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7309572501837293,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8613,
+   "file": "test_results_CTAS_question_6cf59e04.json"
+  },
+  {
+   "question_id": "6cf59e04",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9565217391304348,
+    "answer_relevancy": 0.6646875849185265,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9053,
+   "file": "test_results_CTAS_question_6cf59e04.json"
+  },
+  {
+   "question_id": "6cf59e04",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.7380952380952381,
+    "answer_relevancy": 0.7250264185403408,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7229,
+   "file": "test_results_CTAS_question_6cf59e04.json"
+  },
+  {
+   "question_id": "6cf59e04",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9545454545454546,
+    "answer_relevancy": 0.7260922042248042,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9202,
+   "file": "test_results_CTAS_question_6cf59e04.json"
+  },
+  {
+   "question_id": "6cf59e04",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.6979246878433204,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7638,
+   "file": "test_results_CTAS_question_6cf59e04.json"
+  },
+  {
+   "question_id": "7415499e",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_7415499e.json"
+  },
+  {
+   "question_id": "7415499e",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.5,
+   "file": "test_results_CTAS_question_7415499e.json"
+  },
+  {
+   "question_id": "7415499e",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_7415499e.json"
+  },
+  {
+   "question_id": "7415499e",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7,
+   "file": "test_results_CTAS_question_7415499e.json"
+  },
+  {
+   "question_id": "7415499e",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.6,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4,
+   "file": "test_results_CTAS_question_7415499e.json"
+  },
+  {
+   "question_id": "74189809",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9565217391304348,
+    "answer_relevancy": 0.7806366027901568,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9343,
+   "file": "test_results_CTAS_question_74189809.json"
+  },
+  {
+   "question_id": "74189809",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.7466263084814874,
+    "context_recall": 0.7,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8438,
+   "file": "test_results_CTAS_question_74189809.json"
+  },
+  {
+   "question_id": "74189809",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8780487804878049,
+    "answer_relevancy": 0.8065020394288989,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8656,
+   "file": "test_results_CTAS_question_74189809.json"
+  },
+  {
+   "question_id": "74189809",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9361702127659575,
+    "answer_relevancy": 0.8153335958790141,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9379,
+   "file": "test_results_CTAS_question_74189809.json"
+  },
+  {
+   "question_id": "74189809",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.812589992802551,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9531,
+   "file": "test_results_CTAS_question_74189809.json"
+  },
+  {
+   "question_id": "775f0325",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9722222222222222,
+    "answer_relevancy": 0.8132974150222881,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8964,
+   "file": "test_results_CTAS_question_775f0325.json"
+  },
+  {
+   "question_id": "775f0325",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7128964174619202,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8282,
+   "file": "test_results_CTAS_question_775f0325.json"
+  },
+  {
+   "question_id": "775f0325",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_775f0325.json"
+  },
+  {
+   "question_id": "775f0325",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7366637312349024,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9342,
+   "file": "test_results_CTAS_question_775f0325.json"
+  },
+  {
+   "question_id": "775f0325",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9142857142857143,
+    "answer_relevancy": 0.7296501197811507,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.911,
+   "file": "test_results_CTAS_question_775f0325.json"
+  },
+  {
+   "question_id": "7b84589a",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.972972972972973,
+    "answer_relevancy": 0.6980626992788808,
+    "context_recall": 0.2222222222222222,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7233,
+   "file": "test_results_CTAS_question_7b84589a.json"
+  },
+  {
+   "question_id": "7b84589a",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9761904761904762,
+    "answer_relevancy": 0.7854355822108309,
+    "context_recall": 0.5555555555555556,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8293,
+   "file": "test_results_CTAS_question_7b84589a.json"
+  },
+  {
+   "question_id": "7b84589a",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9574468085106383,
+    "answer_relevancy": 0.6993552527307632,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7475,
+   "file": "test_results_CTAS_question_7b84589a.json"
+  },
+  {
+   "question_id": "7b84589a",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7494298602129691,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7707,
+   "file": "test_results_CTAS_question_7b84589a.json"
+  },
+  {
+   "question_id": "7b84589a",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8004068377848119,
+    "context_recall": 0.2222222222222222,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7557,
+   "file": "test_results_CTAS_question_7b84589a.json"
+  },
+  {
+   "question_id": "7fd59fe6",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8205128205128205,
+    "answer_relevancy": 0.6481830654617585,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7422,
+   "file": "test_results_CTAS_question_7fd59fe6.json"
+  },
+  {
+   "question_id": "7fd59fe6",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.7101734192150227,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7775,
+   "file": "test_results_CTAS_question_7fd59fe6.json"
+  },
+  {
+   "question_id": "7fd59fe6",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.12195121951219512,
+    "answer_relevancy": 0.7349790874807853,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.5892,
+   "file": "test_results_CTAS_question_7fd59fe6.json"
+  },
+  {
+   "question_id": "7fd59fe6",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8909090909090909,
+    "answer_relevancy": 0.7292170047751041,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.78,
+   "file": "test_results_CTAS_question_7fd59fe6.json"
+  },
+  {
+   "question_id": "7fd59fe6",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6860975673355406,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7773,
+   "file": "test_results_CTAS_question_7fd59fe6.json"
+  },
+  {
+   "question_id": "8271ad85",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6549807679992005,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8304,
+   "file": "test_results_CTAS_question_8271ad85.json"
+  },
+  {
+   "question_id": "8271ad85",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.975609756097561,
+    "answer_relevancy": 0.7085258063120655,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8377,
+   "file": "test_results_CTAS_question_8271ad85.json"
+  },
+  {
+   "question_id": "8271ad85",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7256661473237803,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8481,
+   "file": "test_results_CTAS_question_8271ad85.json"
+  },
+  {
+   "question_id": "8271ad85",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7615063679814541,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9404,
+   "file": "test_results_CTAS_question_8271ad85.json"
+  },
+  {
+   "question_id": "8271ad85",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6978137340821592,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9245,
+   "file": "test_results_CTAS_question_8271ad85.json"
+  },
+  {
+   "question_id": "8a0f4278",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_8a0f4278.json"
+  },
+  {
+   "question_id": "8a0f4278",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9761904761904762,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.244,
+   "file": "test_results_CTAS_question_8a0f4278.json"
+  },
+  {
+   "question_id": "8a0f4278",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_8a0f4278.json"
+  },
+  {
+   "question_id": "8a0f4278",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8787878787878788,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2197,
+   "file": "test_results_CTAS_question_8a0f4278.json"
+  },
+  {
+   "question_id": "8a0f4278",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8936170212765957,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2234,
+   "file": "test_results_CTAS_question_8a0f4278.json"
+  },
+  {
+   "question_id": "8c8c8c34",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7684081515159961,
+    "context_recall": 0.2857142857142857,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7635,
+   "file": "test_results_CTAS_question_8c8c8c34.json"
+  },
+  {
+   "question_id": "8c8c8c34",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.7726359512844824,
+    "context_recall": 0.14285714285714285,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7142,
+   "file": "test_results_CTAS_question_8c8c8c34.json"
+  },
+  {
+   "question_id": "8c8c8c34",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8004320785143868,
+    "context_recall": 0.2857142857142857,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7715,
+   "file": "test_results_CTAS_question_8c8c8c34.json"
+  },
+  {
+   "question_id": "8c8c8c34",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8120215336442556,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9173,
+   "file": "test_results_CTAS_question_8c8c8c34.json"
+  },
+  {
+   "question_id": "8c8c8c34",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7057235003493493,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.855,
+   "file": "test_results_CTAS_question_8c8c8c34.json"
+  },
+  {
+   "question_id": "8ce0a122",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9574468085106383,
+    "answer_relevancy": 0.7660622199663111,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6809,
+   "file": "test_results_CTAS_question_8ce0a122.json"
+  },
+  {
+   "question_id": "8ce0a122",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.96,
+    "answer_relevancy": 0.7913901990459188,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6878,
+   "file": "test_results_CTAS_question_8ce0a122.json"
+  },
+  {
+   "question_id": "8ce0a122",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8345030823885494,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7086,
+   "file": "test_results_CTAS_question_8ce0a122.json"
+  },
+  {
+   "question_id": "8ce0a122",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.953125,
+    "answer_relevancy": 0.7861843449524994,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6848,
+   "file": "test_results_CTAS_question_8ce0a122.json"
+  },
+  {
+   "question_id": "8ce0a122",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.925,
+    "answer_relevancy": 0.7308009050677092,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.914,
+   "file": "test_results_CTAS_question_8ce0a122.json"
+  },
+  {
+   "question_id": "9294f77b",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_9294f77b.json"
+  },
+  {
+   "question_id": "9294f77b",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.1667,
+   "file": "test_results_CTAS_question_9294f77b.json"
+  },
+  {
+   "question_id": "9294f77b",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_9294f77b.json"
+  },
+  {
+   "question_id": "9294f77b",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2188,
+   "file": "test_results_CTAS_question_9294f77b.json"
+  },
+  {
+   "question_id": "9294f77b",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_9294f77b.json"
+  },
+  {
+   "question_id": "95e8ffed",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8258633534087063,
+    "context_recall": 0.125,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7377,
+   "file": "test_results_CTAS_question_95e8ffed.json"
+  },
+  {
+   "question_id": "95e8ffed",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.8734759832427713,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7838,
+   "file": "test_results_CTAS_question_95e8ffed.json"
+  },
+  {
+   "question_id": "95e8ffed",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6719,
+   "file": "test_results_CTAS_question_95e8ffed.json"
+  },
+  {
+   "question_id": "95e8ffed",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9259259259259259,
+    "answer_relevancy": 0.8875017061177802,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8909,
+   "file": "test_results_CTAS_question_95e8ffed.json"
+  },
+  {
+   "question_id": "95e8ffed",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6875,
+   "file": "test_results_CTAS_question_95e8ffed.json"
+  },
+  {
+   "question_id": "99b022fd",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.84,
+    "answer_relevancy": 0.8836880031955948,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8893,
+   "file": "test_results_CTAS_question_99b022fd.json"
+  },
+  {
+   "question_id": "99b022fd",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.919611652150258,
+    "context_recall": 0.9166666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9382,
+   "file": "test_results_CTAS_question_99b022fd.json"
+  },
+  {
+   "question_id": "99b022fd",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8069610786204805,
+    "context_recall": 0.9166666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9309,
+   "file": "test_results_CTAS_question_99b022fd.json"
+  },
+  {
+   "question_id": "99b022fd",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9743589743589743,
+    "answer_relevancy": 0.9062387670282295,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9285,
+   "file": "test_results_CTAS_question_99b022fd.json"
+  },
+  {
+   "question_id": "99b022fd",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": null,
+    "answer_relevancy": 0.8764443677725166,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9033,
+   "file": "test_results_CTAS_question_99b022fd.json"
+  },
+  {
+   "question_id": "9bc47daa",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8648648648648649,
+    "answer_relevancy": 0.6982662916288539,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6408,
+   "file": "test_results_CTAS_question_9bc47daa.json"
+  },
+  {
+   "question_id": "9bc47daa",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6879168433037247,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.672,
+   "file": "test_results_CTAS_question_9bc47daa.json"
+  },
+  {
+   "question_id": "9bc47daa",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.88,
+    "answer_relevancy": 0.6966884016115378,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6442,
+   "file": "test_results_CTAS_question_9bc47daa.json"
+  },
+  {
+   "question_id": "9bc47daa",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6929069757468005,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8732,
+   "file": "test_results_CTAS_question_9bc47daa.json"
+  },
+  {
+   "question_id": "9bc47daa",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8936170212765957,
+    "answer_relevancy": 0.6526738650939347,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8366,
+   "file": "test_results_CTAS_question_9bc47daa.json"
+  },
+  {
+   "question_id": "9fd9b39f",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9583333333333334,
+    "answer_relevancy": 0.7659048433254402,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6811,
+   "file": "test_results_CTAS_question_9fd9b39f.json"
+  },
+  {
+   "question_id": "9fd9b39f",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.7619047619047619,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6071,
+   "file": "test_results_CTAS_question_9fd9b39f.json"
+  },
+  {
+   "question_id": "9fd9b39f",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_9fd9b39f.json"
+  },
+  {
+   "question_id": "9fd9b39f",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7639548108313018,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8854,
+   "file": "test_results_CTAS_question_9fd9b39f.json"
+  },
+  {
+   "question_id": "9fd9b39f",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9523809523809523,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.4881,
+   "file": "test_results_CTAS_question_9fd9b39f.json"
+  },
+  {
+   "question_id": "a26c0c76",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8313415334815253,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9162,
+   "file": "test_results_CTAS_question_a26c0c76.json"
+  },
+  {
+   "question_id": "a26c0c76",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9772727272727273,
+    "answer_relevancy": 0.8733237627153322,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8793,
+   "file": "test_results_CTAS_question_a26c0c76.json"
+  },
+  {
+   "question_id": "a26c0c76",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9534883720930233,
+    "answer_relevancy": 0.8351701965277343,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9472,
+   "file": "test_results_CTAS_question_a26c0c76.json"
+  },
+  {
+   "question_id": "a26c0c76",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8455235716342565,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9197,
+   "file": "test_results_CTAS_question_a26c0c76.json"
+  },
+  {
+   "question_id": "a26c0c76",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9423076923076923,
+    "answer_relevancy": 0.8783917218465676,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9552,
+   "file": "test_results_CTAS_question_a26c0c76.json"
+  },
+  {
+   "question_id": "a2aef1d1",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8338324113952448,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7918,
+   "file": "test_results_CTAS_question_a2aef1d1.json"
+  },
+  {
+   "question_id": "a2aef1d1",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.857056058185225,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4643,
+   "file": "test_results_CTAS_question_a2aef1d1.json"
+  },
+  {
+   "question_id": "a2aef1d1",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_a2aef1d1.json"
+  },
+  {
+   "question_id": "a2aef1d1",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.967741935483871,
+    "answer_relevancy": 0.8850819219773362,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9007,
+   "file": "test_results_CTAS_question_a2aef1d1.json"
+  },
+  {
+   "question_id": "a2aef1d1",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9302325581395349,
+    "answer_relevancy": 0.8356649347502,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8998,
+   "file": "test_results_CTAS_question_a2aef1d1.json"
+  },
+  {
+   "question_id": "a97d9785",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9655172413793104,
+    "answer_relevancy": 0.8173198724126677,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6957,
+   "file": "test_results_CTAS_question_a97d9785.json"
+  },
+  {
+   "question_id": "a97d9785",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.56,
+    "answer_relevancy": 0.8597611074159962,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7549,
+   "file": "test_results_CTAS_question_a97d9785.json"
+  },
+  {
+   "question_id": "a97d9785",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_a97d9785.json"
+  },
+  {
+   "question_id": "a97d9785",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9782608695652174,
+    "answer_relevancy": 0.851468919394339,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8324,
+   "file": "test_results_CTAS_question_a97d9785.json"
+  },
+  {
+   "question_id": "a97d9785",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9761904761904762,
+    "answer_relevancy": 0.8452681232760297,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8554,
+   "file": "test_results_CTAS_question_a97d9785.json"
+  },
+  {
+   "question_id": "ab124c52",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.90625,
+    "answer_relevancy": 0.7897022932984527,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.424,
+   "file": "test_results_CTAS_question_ab124c52.json"
+  },
+  {
+   "question_id": "ab124c52",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9705882352941176,
+    "answer_relevancy": 0.7850786606535736,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4389,
+   "file": "test_results_CTAS_question_ab124c52.json"
+  },
+  {
+   "question_id": "ab124c52",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9655172413793104,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2414,
+   "file": "test_results_CTAS_question_ab124c52.json"
+  },
+  {
+   "question_id": "ab124c52",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.7995946223008036,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4186,
+   "file": "test_results_CTAS_question_ab124c52.json"
+  },
+  {
+   "question_id": "ab124c52",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9302325581395349,
+    "answer_relevancy": 0.7430231586231115,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4183,
+   "file": "test_results_CTAS_question_ab124c52.json"
+  },
+  {
+   "question_id": "b17a4e4a",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7395848580980283,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4349,
+   "file": "test_results_CTAS_question_b17a4e4a.json"
+  },
+  {
+   "question_id": "b17a4e4a",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_b17a4e4a.json"
+  },
+  {
+   "question_id": "b17a4e4a",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.6923076923076923,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.1731,
+   "file": "test_results_CTAS_question_b17a4e4a.json"
+  },
+  {
+   "question_id": "b17a4e4a",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2188,
+   "file": "test_results_CTAS_question_b17a4e4a.json"
+  },
+  {
+   "question_id": "b17a4e4a",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7451659798211644,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4363,
+   "file": "test_results_CTAS_question_b17a4e4a.json"
+  },
+  {
+   "question_id": "bba13757",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7974376012557226,
+    "context_recall": 0.5,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.5744,
+   "file": "test_results_CTAS_question_bba13757.json"
+  },
+  {
+   "question_id": "bba13757",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.762264938359718,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4406,
+   "file": "test_results_CTAS_question_bba13757.json"
+  },
+  {
+   "question_id": "bba13757",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 1.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.5,
+   "file": "test_results_CTAS_question_bba13757.json"
+  },
+  {
+   "question_id": "bba13757",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.975609756097561,
+    "answer_relevancy": 0.7874598990047236,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.4408,
+   "file": "test_results_CTAS_question_bba13757.json"
+  },
+  {
+   "question_id": "bba13757",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8780487804878049,
+    "answer_relevancy": 0.8056260908302314,
+    "context_recall": 0.5,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.5459,
+   "file": "test_results_CTAS_question_bba13757.json"
+  },
+  {
+   "question_id": "c399ba47",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8678231946916789,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.917,
+   "file": "test_results_CTAS_question_c399ba47.json"
+  },
+  {
+   "question_id": "c399ba47",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8379499109833163,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9595,
+   "file": "test_results_CTAS_question_c399ba47.json"
+  },
+  {
+   "question_id": "c399ba47",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.5,
+   "file": "test_results_CTAS_question_c399ba47.json"
+  },
+  {
+   "question_id": "c399ba47",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8641652528430961,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.841,
+   "file": "test_results_CTAS_question_c399ba47.json"
+  },
+  {
+   "question_id": "c399ba47",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.896977479046091,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.955,
+   "file": "test_results_CTAS_question_c399ba47.json"
+  },
+  {
+   "question_id": "c520d0e9",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7057749808188526,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8639,
+   "file": "test_results_CTAS_question_c520d0e9.json"
+  },
+  {
+   "question_id": "c520d0e9",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7177233484237372,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8669,
+   "file": "test_results_CTAS_question_c520d0e9.json"
+  },
+  {
+   "question_id": "c520d0e9",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.7068965517241379,
+    "answer_relevancy": 0.8346010336266131,
+    "context_recall": 0.25,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6979,
+   "file": "test_results_CTAS_question_c520d0e9.json"
+  },
+  {
+   "question_id": "c520d0e9",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.6990649964640401,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8498,
+   "file": "test_results_CTAS_question_c520d0e9.json"
+  },
+  {
+   "question_id": "c520d0e9",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9722222222222222,
+    "answer_relevancy": 0.7309317108576926,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9258,
+   "file": "test_results_CTAS_question_c520d0e9.json"
+  },
+  {
+   "question_id": "c6cb8e43",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8738558086550023,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9685,
+   "file": "test_results_CTAS_question_c6cb8e43.json"
+  },
+  {
+   "question_id": "c6cb8e43",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9534883720930233,
+    "answer_relevancy": 0.8672188843134295,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9552,
+   "file": "test_results_CTAS_question_c6cb8e43.json"
+  },
+  {
+   "question_id": "c6cb8e43",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8447560962518673,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9612,
+   "file": "test_results_CTAS_question_c6cb8e43.json"
+  },
+  {
+   "question_id": "c6cb8e43",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.89389851425284,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9735,
+   "file": "test_results_CTAS_question_c6cb8e43.json"
+  },
+  {
+   "question_id": "c6cb8e43",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9772727272727273,
+    "answer_relevancy": 0.8796348153157872,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9642,
+   "file": "test_results_CTAS_question_c6cb8e43.json"
+  },
+  {
+   "question_id": "c88933f5",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8679245283018868,
+    "answer_relevancy": 0.8067267971306898,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.877,
+   "file": "test_results_CTAS_question_c88933f5.json"
+  },
+  {
+   "question_id": "c88933f5",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7477138605851595,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8953,
+   "file": "test_results_CTAS_question_c88933f5.json"
+  },
+  {
+   "question_id": "c88933f5",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9523809523809523,
+    "answer_relevancy": 0.7797801094944562,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.433,
+   "file": "test_results_CTAS_question_c88933f5.json"
+  },
+  {
+   "question_id": "c88933f5",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9846153846153847,
+    "answer_relevancy": 0.8090239088313624,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9067,
+   "file": "test_results_CTAS_question_c88933f5.json"
+  },
+  {
+   "question_id": "c88933f5",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9591836734693877,
+    "answer_relevancy": 0.745211324175321,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9261,
+   "file": "test_results_CTAS_question_c88933f5.json"
+  },
+  {
+   "question_id": "c8c289bc",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8162696905816129,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9184,
+   "file": "test_results_CTAS_question_c8c289bc.json"
+  },
+  {
+   "question_id": "c8c289bc",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8387096774193549,
+    "answer_relevancy": 0.7511288447413023,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8975,
+   "file": "test_results_CTAS_question_c8c289bc.json"
+  },
+  {
+   "question_id": "c8c289bc",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7732813137287496,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8362,
+   "file": "test_results_CTAS_question_c8c289bc.json"
+  },
+  {
+   "question_id": "c8c289bc",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.967741935483871,
+    "answer_relevancy": 0.7759803007841551,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9359,
+   "file": "test_results_CTAS_question_c8c289bc.json"
+  },
+  {
+   "question_id": "c8c289bc",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9830508474576272,
+    "answer_relevancy": 0.8276599418751718,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9527,
+   "file": "test_results_CTAS_question_c8c289bc.json"
+  },
+  {
+   "question_id": "caa865da",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9777777777777777,
+    "answer_relevancy": 0.6502661839398912,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7999,
+   "file": "test_results_CTAS_question_caa865da.json"
+  },
+  {
+   "question_id": "caa865da",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.967741935483871,
+    "answer_relevancy": 0.8596014931272662,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9568,
+   "file": "test_results_CTAS_question_caa865da.json"
+  },
+  {
+   "question_id": "caa865da",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7406848492973385,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9352,
+   "file": "test_results_CTAS_question_caa865da.json"
+  },
+  {
+   "question_id": "caa865da",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.7765458783635343,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9108,
+   "file": "test_results_CTAS_question_caa865da.json"
+  },
+  {
+   "question_id": "caa865da",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7013032596866647,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8628,
+   "file": "test_results_CTAS_question_caa865da.json"
+  },
+  {
+   "question_id": "cbd456e9",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9782608695652174,
+    "answer_relevancy": 0.7979092704938604,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8607,
+   "file": "test_results_CTAS_question_cbd456e9.json"
+  },
+  {
+   "question_id": "cbd456e9",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9787234042553191,
+    "answer_relevancy": 0.8464505850826499,
+    "context_recall": 0.2222222222222222,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7618,
+   "file": "test_results_CTAS_question_cbd456e9.json"
+  },
+  {
+   "question_id": "cbd456e9",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9736842105263158,
+    "answer_relevancy": 0.7885140336872775,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.5239,
+   "file": "test_results_CTAS_question_cbd456e9.json"
+  },
+  {
+   "question_id": "cbd456e9",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.753118332481218,
+    "context_recall": 0.5555555555555556,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8272,
+   "file": "test_results_CTAS_question_cbd456e9.json"
+  },
+  {
+   "question_id": "cbd456e9",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.96,
+    "answer_relevancy": 0.7780390648542648,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8512,
+   "file": "test_results_CTAS_question_cbd456e9.json"
+  },
+  {
+   "question_id": "d20600e5",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6108560339783936,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6335,
+   "file": "test_results_CTAS_question_d20600e5.json"
+  },
+  {
+   "question_id": "d20600e5",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7861114025929159,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8465,
+   "file": "test_results_CTAS_question_d20600e5.json"
+  },
+  {
+   "question_id": "d20600e5",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.225,
+   "file": "test_results_CTAS_question_d20600e5.json"
+  },
+  {
+   "question_id": "d20600e5",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.817386326479617,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9543,
+   "file": "test_results_CTAS_question_d20600e5.json"
+  },
+  {
+   "question_id": "d20600e5",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8235294117647058,
+    "answer_relevancy": 0.7524595099952198,
+    "context_recall": 0.2,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.694,
+   "file": "test_results_CTAS_question_d20600e5.json"
+  },
+  {
+   "question_id": "d25e0880",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7063699926801436,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9266,
+   "file": "test_results_CTAS_question_d25e0880.json"
+  },
+  {
+   "question_id": "d25e0880",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6618428428395282,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9155,
+   "file": "test_results_CTAS_question_d25e0880.json"
+  },
+  {
+   "question_id": "d25e0880",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6162137881749551,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9041,
+   "file": "test_results_CTAS_question_d25e0880.json"
+  },
+  {
+   "question_id": "d25e0880",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9482758620689655,
+    "answer_relevancy": 0.6867584266024934,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9088,
+   "file": "test_results_CTAS_question_d25e0880.json"
+  },
+  {
+   "question_id": "d25e0880",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9696969696969697,
+    "answer_relevancy": 0.6835824496457318,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9133,
+   "file": "test_results_CTAS_question_d25e0880.json"
+  },
+  {
+   "question_id": "d5641244",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9803921568627451,
+    "answer_relevancy": 0.8054076985639537,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9464,
+   "file": "test_results_CTAS_question_d5641244.json"
+  },
+  {
+   "question_id": "d5641244",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8874195015951333,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9719,
+   "file": "test_results_CTAS_question_d5641244.json"
+  },
+  {
+   "question_id": "d5641244",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.95,
+    "answer_relevancy": 0.8736652897658507,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9559,
+   "file": "test_results_CTAS_question_d5641244.json"
+  },
+  {
+   "question_id": "d5641244",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8027950345844834,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9507,
+   "file": "test_results_CTAS_question_d5641244.json"
+  },
+  {
+   "question_id": "d5641244",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.799442312861418,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9499,
+   "file": "test_results_CTAS_question_d5641244.json"
+  },
+  {
+   "question_id": "daff6a7b",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7889122140812628,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8758,
+   "file": "test_results_CTAS_question_daff6a7b.json"
+  },
+  {
+   "question_id": "daff6a7b",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.6774193548387096,
+    "answer_relevancy": 0.89926569871088,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8942,
+   "file": "test_results_CTAS_question_daff6a7b.json"
+  },
+  {
+   "question_id": "daff6a7b",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_daff6a7b.json"
+  },
+  {
+   "question_id": "daff6a7b",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.8271721095083612,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9068,
+   "file": "test_results_CTAS_question_daff6a7b.json"
+  },
+  {
+   "question_id": "daff6a7b",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9454545454545454,
+    "answer_relevancy": 0.8621025684447794,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9519,
+   "file": "test_results_CTAS_question_daff6a7b.json"
+  },
+  {
+   "question_id": "df27b7cc",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8120259101583821,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8905,
+   "file": "test_results_CTAS_question_df27b7cc.json"
+  },
+  {
+   "question_id": "df27b7cc",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8600520955215437,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.965,
+   "file": "test_results_CTAS_question_df27b7cc.json"
+  },
+  {
+   "question_id": "df27b7cc",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_df27b7cc.json"
+  },
+  {
+   "question_id": "df27b7cc",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8650301546089211,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9663,
+   "file": "test_results_CTAS_question_df27b7cc.json"
+  },
+  {
+   "question_id": "df27b7cc",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8279900033639483,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.957,
+   "file": "test_results_CTAS_question_df27b7cc.json"
+  },
+  {
+   "question_id": "eed2fffd",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.8978494351359511,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8108,
+   "file": "test_results_CTAS_question_eed2fffd.json"
+  },
+  {
+   "question_id": "eed2fffd",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9594594594594594,
+    "answer_relevancy": 0.7699787499560397,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.6824,
+   "file": "test_results_CTAS_question_eed2fffd.json"
+  },
+  {
+   "question_id": "eed2fffd",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.25,
+   "file": "test_results_CTAS_question_eed2fffd.json"
+  },
+  {
+   "question_id": "eed2fffd",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.86,
+    "answer_relevancy": 0.7981780305530046,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8788,
+   "file": "test_results_CTAS_question_eed2fffd.json"
+  },
+  {
+   "question_id": "eed2fffd",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.918918918918919,
+    "answer_relevancy": 0.7616468083862005,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8844,
+   "file": "test_results_CTAS_question_eed2fffd.json"
+  },
+  {
+   "question_id": "f2396b30",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9722222222222222,
+    "answer_relevancy": 0.7679409664500086,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8725,
+   "file": "test_results_CTAS_question_f2396b30.json"
+  },
+  {
+   "question_id": "f2396b30",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9591836734693877,
+    "answer_relevancy": 0.7357405952491969,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8612,
+   "file": "test_results_CTAS_question_f2396b30.json"
+  },
+  {
+   "question_id": "f2396b30",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": null,
+    "answer_relevancy": 0.6766602064634138,
+    "context_recall": 0.0,
+    "context_precision": 0.0
+   },
+   "ragas_score": 0.2256,
+   "file": "test_results_CTAS_question_f2396b30.json"
+  },
+  {
+   "question_id": "f2396b30",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7106546892629515,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9277,
+   "file": "test_results_CTAS_question_f2396b30.json"
+  },
+  {
+   "question_id": "f2396b30",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8186138148392789,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9547,
+   "file": "test_results_CTAS_question_f2396b30.json"
+  },
+  {
+   "question_id": "f3a3d09b",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8311880280687323,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9578,
+   "file": "test_results_CTAS_question_f3a3d09b.json"
+  },
+  {
+   "question_id": "f3a3d09b",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7822081681290175,
+    "context_recall": 0.6363636363636364,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8546,
+   "file": "test_results_CTAS_question_f3a3d09b.json"
+  },
+  {
+   "question_id": "f3a3d09b",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9761904761904762,
+    "answer_relevancy": 0.7751373998332992,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9378,
+   "file": "test_results_CTAS_question_f3a3d09b.json"
+  },
+  {
+   "question_id": "f3a3d09b",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6964907416261488,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9241,
+   "file": "test_results_CTAS_question_f3a3d09b.json"
+  },
+  {
+   "question_id": "f3a3d09b",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6702577563051695,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.9176,
+   "file": "test_results_CTAS_question_f3a3d09b.json"
+  },
+  {
+   "question_id": "f54eba8e",
+   "mode": "local",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.717179076148768,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.846,
+   "file": "test_results_CTAS_question_f54eba8e.json"
+  },
+  {
+   "question_id": "f54eba8e",
+   "mode": "global",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.975609756097561,
+    "answer_relevancy": 0.8609263447836195,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7925,
+   "file": "test_results_CTAS_question_f54eba8e.json"
+  },
+  {
+   "question_id": "f54eba8e",
+   "mode": "naive",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7525823582813093,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.8131,
+   "file": "test_results_CTAS_question_f54eba8e.json"
+  },
+  {
+   "question_id": "f54eba8e",
+   "mode": "hybrid",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7832442145163413,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7791,
+   "file": "test_results_CTAS_question_f54eba8e.json"
+  },
+  {
+   "question_id": "f54eba8e",
+   "mode": "mix",
+   "status": "success",
+   "metrics": {
+    "faithfulness": 0.9696969696969697,
+    "answer_relevancy": 0.8264354982286344,
+    "context_recall": 0.16666666666666666,
+    "context_precision": 0.9999999999
+   },
+   "ragas_score": 0.7407,
+   "file": "test_results_CTAS_question_f54eba8e.json"
+  }
+ ]
+}

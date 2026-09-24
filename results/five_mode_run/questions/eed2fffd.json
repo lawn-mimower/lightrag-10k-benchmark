@@ -1,0 +1,445 @@
+{
+ "question_id": "eed2fffd",
+ "ticker": "MRO",
+ "question": "Impact on growth & competitive positioning from Marathon Oil's new tech in cybersecurity, MRO.",
+ "expected_answer": "Marathon Oil’s detailed investments in cybersecurity controls and new technology are designed to mitigate operational, reputational, and financial risks, which in turn can bolster future growth potential and improve competitive positioning. Specifically, by implementing robust cyber risk management processes—including risk quantification, continuous monitoring, tabletop exercises, and rigorous third-party assessments—the company reduces the likelihood and impact of cyber incidents such as ransomware attacks, data breaches, and other IT-related disruptions. This risk mitigation helps ensure uninterrupted operations and protects intellectual property, all of which are vital for sustaining long-term growth.\n\nFurthermore, strong cybersecurity measures build investor and stakeholder confidence, which is critical in securing capital for further technology investments and expansion. As the operational environment becomes increasingly digital and exposed to evolving cyber threats, having a proactive cybersecurity strategy gives Marathon Oil a competitive edge by enabling safer adoption of emerging digital technologies. This positions the company well for innovative operational improvements, cost efficiencies, and enhanced overall resilience in a risk-prone environment.\n\nIn summary, by reducing potential losses and operational disruptions and by enabling the secure incorporation of advanced digital technologies, these cybersecurity investments support Marathon Oil’s future growth and competitive market positioning.",
+ "category": "Risk",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 5367,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:11:34.004104",
+   "duration_ms": 17361,
+   "answer": "Marathon Oil (MRO) integrates cybersecurity technology and strategy as a foundational component of its operational resilience and risk management, which indirectly supports its growth and competitive positioning in a digitally dependent industry. By implementing structured controls and leveraging new technologies, the company protects its business operations from disruptions that could otherwise negatively impact revenue and profitability.\n\n### Impact on Growth and Operational Stability\nMarathon Oil’s cybersecurity strategy is designed to protect against threats such as intellectual property theft, fraud, and operational disruptions. The company utilizes a \"Cyber Risk Quantification\" assessment to estimate the potential financial impact of significant threats like ransomware, allowing for better-informed investments in protective capabilities. By maintaining a robust cybersecurity incident response plan and redundant computing operations, MRO ensures it can recover from incidents without the material losses that would hinder financial growth. Furthermore, the company’s capital allocation process ensures that initiatives—including those for technology and innovation—are appropriately funded to support long-term sustainability and free cash flow generation.\n\n### Competitive Positioning Through Technology Governance\nThe company’s competitive positioning is bolstered by its rigorous approach to adopting new technologies. The **Information Technology Steering Committee** oversees a formal process for approving system upgrades and new implementations, which includes a \"rigorous third-party risk assessment.\" This ensures that MRO can innovate and deploy new tools while mitigating cyber risks associated with new suppliers or technologies before they are integrated into the network. This disciplined approach aligns with the company's broader goal of maintaining a competitive cost structure and navigating a volatile commodity price environment.\n\n### Supply Chain and Third-Party Risk Management\nMRO utilizes specialized monitoring technology to maintain a competitive edge in supply chain reliability. The company employs **continuous monitoring technology** that provides real-time updates on the cybersecurity posture of its suppliers. This proactive stance allows MRO to be alerted to significant changes caused by cyber events or technological shifts at third-party partners. By requiring ongoing certification of data protection standards from its providers, the company reduces the likelihood of supply chain disruptions, which is critical in the highly competitive oil and gas industry where MRO faces pressure from larger competitors.\n\n### References\n* [1] Marathon Oil Corporation - Form 10-K for the period ended December 31, 2023",
+   "answer_length": 2764,
+   "context_length": 103242,
+   "context": {
+    "entities": 60,
+    "relations": 105,
+    "chunks": 10,
+    "rerank_candidates": 44,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Senior Vice President, Technology and Innovation and CIO",
+     "Security Threats",
+     "Executive Vice President Of Technology And Chief Information Officer",
+     "Cybersecurity Training",
+     "Energy And Sustainability Solutions",
+     "Cybersecurity Risk Management and Strategy",
+     "Managed Service Provider",
+     "Information Technology Cybersecurity Threats",
+     "Safety and Productivity Solutions",
+     "Corporate Health, Environment, Safety And Security Organization",
+     "Honeywells Global Security Organization",
+     "Cybersecurity Team",
+     "Equipment Failures Or Accidents",
+     "Cybersecurity Steering Committee",
+     "Energy and Sustainability Solutions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7100,
+      "text": "(“ROMS”), which is a comprehensive operations integrity management system. This training includes stop work authority which is extended to all employees and contractors in the event of a potential safety risk or environmental impacts. We also have established Life Critical Expectations that focus on important protective measures for employees and contractors performing higher-risk activities, and "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4265,
+      "text": "* Consent of Independent Registered Public Accounting Firm 118 Table of Contents Exhibit Number Incorporated by Reference (File No. 001-05153, unless otherwise indicated) Exhibit Description Form Exhibit Filing Date 23.2* Consent of Ryder Scott Company, L.P., independent petroleum engineers and geologists 23.3* Consent of Netherland, Sewell & Associates, Inc., independent petroleum engineers and g"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7126,
+      "text": "internet and other public networks for communications, services and storage, including “cloud” computing, exposes us and our users to cybersecurity risks. There is no guarantee that our security measures will provide absolute security. We may not be able to anticipate, detect or prevent cyberattacks, particularly because the methodologies used by attackers change frequently or may not be recognize"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6523,
+      "text": "end of 2023 but is now expected in 2024. The implementation of this proposed limit, or the promulgation of a more stringent standard in the future, may result in an increase in costs for emission controls and requirements for additional monitoring and testing, as well as a more cumbersome permitting process. Although there may be an adverse financial impact (including compliance costs, potential p"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.8978494351359511,
+    "context_recall": 0.42857142857142855,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8108
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:11:54.688319",
+   "duration_ms": 20684,
+   "answer": "Marathon Oil Corporation, an independent exploration and production company, operates in a highly competitive industry where growth and market position are increasingly tied to the adoption of new technologies and the management of associated risks. The company’s overall business strategy focuses on delivering sustainable shareholder returns through disciplined capital allocation across its U.S. resource plays—such as the Eagle Ford, Bakken, STACK/SCOOP, and Permian Basin—and its international operations in Equatorial Guinea. To maintain its market position, the company must navigate competitive pressures that force oil and gas firms to adopt costly new technologies or risk facing operational and financial disadvantages.\n\nThe adoption of new technologies serves as a critical driver for future growth and product differentiation. However, these investments carry inherent risks of operational or commercialization difficulties, including construction delays, cost overruns, or the emergence of superior competing technologies that could render existing innovations obsolete. If internal development projects fail or are delayed, the company may experience a heightened reliance on external development opportunities, such as acquisitions, to achieve its expansion goals. Furthermore, the company’s financial condition—a holistic measure of its solvency, liquidity, and operational stability—can be strained by the scaling costs of these technological advancements or by broader macroeconomic factors like the current inflationary environment, which increases the costs of materials and labor.\n\nCybersecurity is a pivotal technological frontier that directly impacts Marathon Oil's competitive advantage. Cybersecurity threats, including data breaches, ransomware, and advanced persistent threats, target the confidentiality and availability of the company's information technology (IT) and operational technology (OT) systems. A significant security failure or breach could lead to a loss of competitive advantage by hindering innovation and efficiency or exposing sensitive company data. Such incidents can result in severe business disruption, financial losses, and legal liabilities, which directly impair the company’s revenue and profits.\n\nTo mitigate these risks, the company must invest in robust security tools and processes. While these investments increase the overall cost of doing business, they are essential for safeguarding against operational disruptions and maintaining the trust of customers and stakeholders. Failure to effectively manage cybersecurity vulnerabilities or adapt to emerging technological trends could lead to material adverse effects on the company's results of operations and long-term sustainability.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023",
+   "answer_length": 2813,
+   "context_length": 98823,
+   "context": {
+    "entities": 57,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 146,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Competition",
+     "Products And Systems Integration",
+     "Financial Condition",
+     "Market Share",
+     "Digital Gaming Business",
+     "New Technology",
+     "Operational Or Commercialization Difficulties",
+     "Artificial Intelligence Adoption",
+     "Revenue And Profits",
+     "Future Cash Flow",
+     "Pipeline Development",
+     "Cost Of Doing Business",
+     "Security Tools And Processes",
+     "EBITDA Margin",
+     "New Solutions And Businesses"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4956,
+      "text": "Other comprehensive income — — — — — 9 9 Dividends paid ($ 0.18 per share) — — — — ( 141 ) — ( 141 ) December 31, 2021 Balance $ — $ 937 $ ( 4,825 ) $ 7,221 $ 7,271 $ 82 $ 10,686 Shares repurchased under buyback programs — — ( 2,754 ) — — — ( 2,754 ) Stock-based compensation — — 67 ( 18 ) — — 49 Net income — — — — 3,612 — 3,612 Other comprehensive income — — — — — 24 24 Dividends paid ($ 0.32 per "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4641,
+      "text": "to long-term debt issues have been omitted where the amount of securities authorized under such instruments does not exceed 10% of the total consolidated assets of Marathon Oil. Marathon Oil hereby agrees to furnish a copy of any such instrument to the Securities and Exchange Commission upon its request 10-K 4.2 2/28/2014 4.2* Description of Registrants Securities 10 Material Contracts 10.1 Amende"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4431,
+      "text": "Marathon Oil Corporation 2019 Incentive Compensation Plan Performance Unit Award Agreement 2021 - 2023 Performance Cycle for Section 16 Officers 10-Q 10.3 5/6/2021 10.18† 2021 Form of Marathon Oil Corporation 2019 Incentive Compensation Plan Restricted Stock Unit Award Agreement for Non-Employee Directors 10-K 10.9 2/23/2021 10.19† Marathon Oil Corporation 2019 Incentive Compensation Plan DEF 14A "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4943,
+      "text": "GLs and natural gas reserves have been developed by specialists, specifically petroleum engineers and geoscientists. The principal considerations for our determination that performing procedures relating to the impact of proved developed oil and condensate, NGLs and natural gas reserves on proved oil and natural gas properties, net is a critical audit matter are (i) the significant judgment by man"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9594594594594594,
+    "answer_relevancy": 0.7699787499560397,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6824
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:11:58.863969",
+   "duration_ms": 4176,
+   "answer": "I do not have enough information in the provided context to answer your query regarding the impact of Marathon Oil's new cybersecurity technology on its growth and competitive positioning.",
+   "answer_length": 188,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:12:20.895209",
+   "duration_ms": 22031,
+   "answer": "Marathon Oil (MRO) manages its growth and competitive positioning through a structured cybersecurity risk management strategy integrated into its broader enterprise risk management framework. The program is overseen by the Senior Vice President, Technology and Innovation and CIO, who utilizes over 35 years of experience to manage large-scale system environments and their associated cybersecurity risks. This strategy is strictly aligned with the U.S. National Institute of Standards and Technology (NIST) framework to identify, detect, protect against, respond to, and recover from digital threats.\n\nThe company’s growth is protected by a formal governance process for the adoption of new technologies. The Information Technology Steering Committee is responsible for approving the implementation of new systems and upgrades through a rigorous third-party risk assessment. This process ensures that cyber risks associated with any new technology or supplier are evaluated and mitigated before deployment. Additionally, MRO employs continuous monitoring technology that provides real-time updates on the cybersecurity posture of its suppliers, alerting the company to any significant changes caused by technological shifts or cyber events.\n\nIn terms of competitive positioning, Marathon Oil utilizes advanced methodologies to quantify and mitigate potential damage. In 2023, the company engaged a third party to perform a \"Cyber Risk Quantification\" assessment, which estimated the potential financial impact of widespread ransomware attacks within its network. By understanding these financial exposures, the company can better allocate resources to its security tools and processes. While these investments contribute to the overall cost of doing business, they are vital for preventing the loss of competitive advantage that could arise from intellectual property theft, operational disruptions, or reputational harm.\n\nThe company further strengthens its operational resilience through mandatory cybersecurity training for employees and contractors to enhance awareness and readiness. This human capital effort is supported by a specialized cybersecurity team holding certifications from organizations such as CISA, EC-Council, and GIAC. These combined technical and organizational measures are designed to safeguard the company’s financial condition and results of operations against evolving security threats, ensuring that Marathon Oil maintains its market position in the highly competitive oil and gas industry.\n\n### References\n\n* [1] Marathon Oil Corporation MRO.html",
+   "answer_length": 2578,
+   "context_length": 126553,
+   "context": {
+    "entities": 74,
+    "relations": 162,
+    "chunks": 10,
+    "rerank_candidates": 149,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Senior Vice President, Technology and Innovation and CIO",
+     "Competition",
+     "Cybersecurity Training",
+     "Products And Systems Integration",
+     "Security Threats",
+     "Financial Condition",
+     "Marathon Oil EF II LLC",
+     "Market Share",
+     "Honeywells Global Security Organization",
+     "New Technology",
+     "Executive Vice President Of Technology And Chief Information Officer",
+     "Operational Or Commercialization Difficulties",
+     "Marathonoil.Com",
+     "Digital Gaming Business",
+     "Cybersecurity Team"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4431,
+      "text": "Marathon Oil Corporation 2019 Incentive Compensation Plan Performance Unit Award Agreement 2021 - 2023 Performance Cycle for Section 16 Officers 10-Q 10.3 5/6/2021 10.18† 2021 Form of Marathon Oil Corporation 2019 Incentive Compensation Plan Restricted Stock Unit Award Agreement for Non-Employee Directors 10-K 10.9 2/23/2021 10.19† Marathon Oil Corporation 2019 Incentive Compensation Plan DEF 14A "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.86,
+    "answer_relevancy": 0.7981780305530046,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8788
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:12:42.442483",
+   "duration_ms": 21547,
+   "answer": "Marathon Oil Corporation integrates cybersecurity as a core component of its enterprise risk management to safeguard its growth and maintain its competitive position within the oil and gas industry. The company's cybersecurity strategy is aligned with the U.S. National Institute of Standards and Technology (NIST) framework, focusing on the identification, detection, and mitigation of threats that could otherwise lead to operational disruptions, intellectual property theft, or a loss of competitive advantage.\n\nTo ensure that the adoption of new technologies does not introduce vulnerabilities, Marathon Oil utilizes an Information Technology Steering Committee. This committee oversees a formal approval process for implementing new technologies and system upgrades, which includes a rigorous third-party risk assessment. This vetting process is designed to evaluate and mitigate cyber risks associated with new technologies or suppliers before they are deployed within the company’s infrastructure.\n\nFurthermore, Marathon Oil employs advanced continuous monitoring technology to maintain a resilient supply chain. This technology provides real-time updates on the cybersecurity posture of the company’s third-party providers, alerting management to significant changes caused by cyber events or technological shifts. In its contractual processes, the company requires initial and ongoing certification of cybersecurity and data protection standards from these providers to protect against disruptions to its information technology and facilities.\n\nWhile the investment in these security tools and processes increases the overall cost of doing business, it is considered essential for maintaining financial stability and protecting the company's results of operations. In 2023, the company further refined its strategy by engaging a third party to conduct a Cyber Risk Quantification assessment. This assessment estimated the potential financial impact and likelihood of widespread ransomware attacks, allowing the company to better align its planned cybersecurity capabilities with its long-term financial and operational goals.\n\n### References\n\n* [1] Marathon Oil Corporation Annual Report December 31, 2023",
+   "answer_length": 2214,
+   "context_length": 121460,
+   "context": {
+    "entities": 72,
+    "relations": 150,
+    "chunks": 10,
+    "rerank_candidates": 166,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Senior Vice President, Technology and Innovation and CIO",
+     "Competition",
+     "Cybersecurity Training",
+     "Products And Systems Integration",
+     "Security Threats",
+     "Financial Condition",
+     "Cybersecurity Risk Management and Strategy",
+     "Market Share",
+     "Executive Vice President Of Technology And Chief Information Officer",
+     "Digital Gaming Business",
+     "Investment",
+     "New Technology",
+     "Energy And Sustainability Solutions",
+     "Operational Or Commercialization Difficulties",
+     "Growth Opportunities"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5879,
+      "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54 Item 8. Financial Statements and Supplementary Data 55 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 112 Item 9A. Controls and Procedures 112 Item 9B. Other Information 112 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 112 PART III Item 10. Directors,"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4956,
+      "text": "Other comprehensive income — — — — — 9 9 Dividends paid ($ 0.18 per share) — — — — ( 141 ) — ( 141 ) December 31, 2021 Balance $ — $ 937 $ ( 4,825 ) $ 7,221 $ 7,271 $ 82 $ 10,686 Shares repurchased under buyback programs — — ( 2,754 ) — — — ( 2,754 ) Stock-based compensation — — 67 ( 18 ) — — 49 Net income — — — — 3,612 — 3,612 Other comprehensive income — — — — — 24 24 Dividends paid ($ 0.32 per "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.918918918918919,
+    "answer_relevancy": 0.7616468083862005,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8844
+   }
+  }
+ }
+}

@@ -1,0 +1,425 @@
+{
+ "question_id": "1bacc152",
+ "ticker": "CTAS",
+ "question": "Cintas (CTAS) 2024 capex total & segment breakdown.",
+ "expected_answer": "The total capital expenditures for fiscal 2024 were $409.5 million. According to the data, $261.2 million of this amount was allocated to the Uniform Rental and Facility Services reportable operating segment and $100.0 million to the First Aid and Safety Services reportable operating segment. The remaining balance of approximately $48.3 million (calculated as $409.5 million - [$261.2 million + $100.0 million]) is attributed to investments in the Fire Protection Services operating segment, which is included in the All Other category. This allocation supports investments aimed at continued revenue growth, increased equipment purchases (notably trucks due to vendor backlogs), and spending related to the SAP implementation in the Fire Protection Services operating segment.",
+ "category": "Footnotes",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1557,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:36:36.956765",
+   "duration_ms": 14763,
+   "answer": "For the fiscal year ended May 31, 2024, Cintas Corporation (CTAS) recorded total capital expenditures of **$409.5 million**. This represented a significant increase compared to the $331.1 million invested in fiscal 2023. These expenditures are part of the company's net cash used in investing activities, which totaled $608.6 million for the 2024 fiscal year.\n\nThe company's capital expenditures for fiscal 2024 were primarily allocated across its reportable operating segments as follows:\n\n*   **Uniform Rental and Facility Services:** $261.2 million\n*   **First Aid and Safety Services:** $100.0 million\n*   **All Other:** The remaining balance included expenditures for the Fire Protection Services operating segment and the Uniform Direct Sale operating segment.\n\nThe increase in capital spending from the previous year was driven by several strategic factors. A major portion of the investment was directed toward supporting continued revenue growth within the reportable segments. Additionally, Cintas saw an increase in equipment purchases, specifically trucks, as vendors cleared backlogged orders. \n\nFurthermore, the \"All Other\" category included specific spending associated with the implementation of SAP software within the Fire Protection Services operating segment. Cintas funds these operating and capital expenditures primarily through its operational cash flow and existing cash resources.\n\n### References\n\n* [1] Cintas Corporation Annual Report (May 31, 2024)",
+   "answer_length": 1477,
+   "context_length": 108106,
+   "context": {
+    "entities": 60,
+    "relations": 157,
+    "chunks": 10,
+    "rerank_candidates": 51,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Note 14: Operating Segment Information",
+     "Capital Expenditures By Segment",
+     "$7,465.2 Million",
+     "$6,897.1 Million",
+     "8.2%",
+     "7.4%",
+     "$261.2 Million",
+     "Operating Segment Information",
+     "Item 1: Business Overview",
+     "Capital Expenditures (2022)",
+     "Cintas Corp No. 2",
+     "Cintas Corporation No. 2",
+     "$2,010 Million U.S. Segment Capital Expenditures (2023)",
+     "Uniform Rental And Facility Services",
+     "$2,033 Million Capital Expenditures (2023)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5725,
+      "text": "7,465.2 million compared to $6,897.1 million in fiscal 2023. Organic revenue growth for this reportable operating segment was 7.4%. Revenue growth was positively impacted by 0.4% due to acquisitions and 0.4% due to one more workday in fiscal 2024 compared to fiscal 2023. Revenue growth was a result of new business, the penetration of additional products and services into existing customers and pri"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7375728199438507,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8719
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:36:52.168352",
+   "duration_ms": 15212,
+   "answer": "For fiscal year 2024, Cintas Corporation reported total capital expenditures of **$409.5 million**. This represented an increase from the $331.1 million recorded in fiscal year 2023. These expenditures were a significant component of the $608.6 million in net cash used for investing activities during the period.\n\nThe allocation of capital expenditures across Cintas' reportable operating segments for fiscal 2024 is as follows:\n\n*   **Uniform Rental and Facility Services:** $261.2 million.\n*   **First Aid and Safety Services:** $100.0 million.\n*   **All Other:** This category includes spending associated with SAP implementation in the **Fire Protection Services** operating segment.\n\nThe increase in capital expenditures from the previous year was driven by several factors. These included strategic investments to support continued revenue growth and an increase in equipment purchases—primarily trucks—as vendors worked through backlogged orders. Additionally, the company directed funds toward the SAP implementation within its Fire Protection Services operations.\n\n### References\n\n* [1] Cintas Corporation\n\n\n\n\n\n\n\n\nCintas (CTAS) 2024 capex total & segment breakdown.",
+   "answer_length": 1175,
+   "context_length": 53186,
+   "context": {
+    "entities": 31,
+    "relations": 60,
+    "chunks": 2,
+    "rerank_candidates": 102,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "2023 Operating Costs",
+     "Corporate And Other Segment",
+     "Capital Expenditures By Segment",
+     "United States Segment",
+     "Annual Net Revenues",
+     "Roper",
+     "Capital Expenditures",
+     "Marathon Oil Corporation",
+     "Celanese Corporation",
+     "Investing Activities",
+     "Motorola Solutions Inc",
+     "3E Segment",
+     "Financial Services Segment",
+     "2022 Operating Costs",
+     "Cash Flow"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7759445876059482,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8815
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:37:16.766599",
+   "duration_ms": 24598,
+   "answer": "I do not have enough information to answer the query regarding Cintas Corporation's (CTAS) 2024 total capital expenditures (capex) and segment breakdown.\n\nThe provided context contains detailed financial information for the fiscal year ended May 31, 2024, including revenue figures for each reportable segment, data on share buyback programs, dividend schedules, and outstanding debt obligations. However, the specific dollar amounts for capital expenditures are not disclosed in the provided document chunks.\n\nThe available segment data for 2024 is limited to **Total Revenue**, which is broken down as follows:\n*   **Uniform Rental and Facility Services:** $7,465,199,000\n*   **First Aid and Safety Services:** $1,067,334,000\n*   **All Other:** $1,064,082,000\n\nWhile the documents mention that Cintas operates 467 operational facilities and 12 distribution centers as of May 31, 2024, they do not provide the corresponding capital expenditure figures for these operations or for the company as a whole.\n\n### References\n\n* [1] Cintas Corporation",
+   "answer_length": 1046,
+   "context_length": 21687,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 4,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4446,
+      "text": "2012).",
+      "text_cut_early": true
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9444444444444444,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2361
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:37:36.145442",
+   "duration_ms": 19379,
+   "answer": "For the fiscal year ended May 31, 2024, Cintas Corporation (CTAS) reported total capital expenditures of **$409.5 million**. This represented a significant increase compared to the $331.1 million spent in fiscal 2023. These expenditures are categorized as a component of the company's net cash used in investing activities, which totaled $608.6 million for the 2024 fiscal year.\n\n### Segment Breakdown\nThe capital expenditures for fiscal 2024 were allocated across Cintas' operating segments as follows:\n\n*   **Uniform Rental and Facility Services:** $261.2 million\n*   **First Aid and Safety Services:** $100.0 million\n*   **All Other:** The remaining balance included spending associated with an SAP implementation within the Fire Protection Services operating segment.\n\n### Drivers of Expenditure Increase\nThe increase in capital investment from the previous year was primarily driven by the need to support continued revenue growth across reportable segments. Specific factors included a rise in equipment purchases, particularly vehicles (trucks), as vendors cleared backlogged orders. Additionally, Cintas invested in technology, specifically the SAP implementation for the Fire Protection Services segment. \n\nBeyond operational growth, Cintas also allocated approximately $1.7 million in fiscal 2024 toward capital expenditures specifically intended to limit or monitor hazardous substances to comply with environmental regulations.\n\n### References\n\n- [1] Cintas Corporation May 31, 2024 CTAS.html",
+   "answer_length": 1504,
+   "context_length": 120340,
+   "context": {
+    "entities": 49,
+    "relations": 166,
+    "chunks": 10,
+    "rerank_candidates": 144,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas No. 2 (Corp. 2)",
+     "Capital Expenditures By Segment",
+     "Cintas Corp No. 2",
+     "United States Segment",
+     "Cintas Corporation No. 2",
+     "Capital Expenditures",
+     "7.4%",
+     "Marathon Oil Corporation",
+     "6800 Cintas Boulevard",
+     "Annual Net Revenues",
+     "$7,465.2 Million",
+     "Roper",
+     "$6,897.1 Million",
+     "2023 Operating Costs",
+     "8.2%"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6607,
+      "text": "intas' ability to find qualified suppliers who meet its standards and to access products in a timely and efficient manner, is subject to ongoing market risks. For a discussion of the risks associated with sourcing that may materially impact Cintas, please see \" Item 1A: Risk Factors - Risks Relating to Business Strategy and Operations .\" Government Laws and Regulations Cintas is subject to a wide "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4446,
+      "text": "2012).",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6284,
+      "text": "to three fiscal years and $297.3 million in the next four to five fiscal years. Future contributions to the defined benefit plans are expected to be $5.1 million in the next fiscal year, $4.7 million in the next two to three fiscal years and $4.7 million in the next four to five fiscal years. Other Commitments Amount of Commitment Expiration per Period (In thousands) Total One year or less Two to "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7016687585229997,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8629
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:37:55.296581",
+   "duration_ms": 19151,
+   "answer": "For fiscal year 2024, Cintas Corporation reported total capital expenditures of **$409.5 million**, a significant increase from the $331.1 million spent in fiscal 2023 [1]. These expenditures are a component of the net cash used in investing activities, which totaled $608.6 million for the same period [1].\n\nThe 2024 capital expenditure breakdown by reportable segment is as follows:\n*   **Uniform Rental and Facility Services**: $261.2 million [1].\n*   **First Aid and Safety Services**: $100.0 million [1].\n*   **All Other**: The remaining balance included spending associated with SAP implementation in the Fire Protection Services operating segment [1].\n\nThe overall increase in capital expenditures from the previous year was attributed to several strategic and operational factors. These included direct investments in reportable segments to support continued revenue growth and a notable increase in equipment purchases, primarily trucks, as vendors cleared backlogged orders [1]. Additionally, Cintas continued to allocate funds toward technology, such as the aforementioned SAP implementation in its Fire Protection Services business [1].\n\n### References\n\n* [1] Cintas Corporation May 31, 2024 CTAS.html",
+   "answer_length": 1213,
+   "context_length": 119671,
+   "context": {
+    "entities": 44,
+    "relations": 161,
+    "chunks": 10,
+    "rerank_candidates": 143,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas No. 2 (Corp. 2)",
+     "Capital Expenditures By Segment",
+     "Cintas Corp No. 2",
+     "United States Segment",
+     "Cintas Corporation No. 2",
+     "Capital Expenditures",
+     "Cintas Vehicles",
+     "Marathon Oil Corporation",
+     "6800 Cintas Boulevard",
+     "Annual Net Revenues",
+     "7.4%",
+     "Roper",
+     "$7,465.2 Million",
+     "2023 Operating Costs",
+     "$6,897.1 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5725,
+      "text": "7,465.2 million compared to $6,897.1 million in fiscal 2023. Organic revenue growth for this reportable operating segment was 7.4%. Revenue growth was positively impacted by 0.4% due to acquisitions and 0.4% due to one more workday in fiscal 2024 compared to fiscal 2023. Revenue growth was a result of new business, the penetration of additional products and services into existing customers and pri"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.715614146905482,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8664
+   }
+  }
+ }
+}

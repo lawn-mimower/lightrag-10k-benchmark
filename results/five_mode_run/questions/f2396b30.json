@@ -1,0 +1,448 @@
+{
+ "question_id": "f2396b30",
+ "ticker": "CTAS",
+ "question": "Cintas' (CTAS) liquidity sources include operating CF vs debt capacity.",
+ "expected_answer": "Cintas Corporation primarily relies on internally generated operating cash flows as its main source of liquidity. The company’s financial data indicates that net cash provided by operating activities increased by approximately 30% from fiscal 2023 to fiscal 2024, underscoring the strength and reliability of these cash flows as they finance operating needs, capital expenditures, expansion activities, dividends, and share repurchases. In addition to this robust operating cash flow, Cintas has access to a $2.0 billion revolving credit facility, which adds an external liquidity source, providing further financial flexibility and a buffer for managing short-term cash needs and strategic investments. Together, these components form a comprehensive liquidity strategy that ensures sufficient funds for both current operations and future growth opportunities.",
+ "category": "Financials",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 4124,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:35:00.466534",
+   "duration_ms": 17264,
+   "answer": "Cintas Corporation (CTAS) maintains a strong liquidity position primarily through its core operating cash flows and significant debt capacity provided by its credit facilities and access to capital markets.\n\n### Operating Cash Flow Performance\nCintas' primary source of liquidity is the cash generated from its business operations. For the fiscal year ended May 31, 2024, net cash provided by operating activities reached approximately $2.08 billion, a significant increase from $1.60 billion in fiscal 2023 and $1.54 billion in fiscal 2022 [1]. This growth was largely driven by increased sales volume, new business acquisitions, and higher penetration of products and services into existing customer accounts [1]. In fiscal 2024, the **Uniform Rental and Facility Services** segment, which is the company's largest, generated $7.47 billion in revenue, reflecting an 8.2% total growth and 7.4% organic growth [1].\n\n### Debt Capacity and Credit Facilities\nIn addition to internal cash generation, Cintas maintains substantial debt capacity through a $2.0 billion revolving credit facility that supports its commercial paper program. This agreement includes an accordion feature allowing the company to request increases of up to an additional $500.0 million [1]. As of May 31, 2024, Cintas had no outstanding commercial paper and no borrowings on the revolving credit facility, which matures on March 23, 2027 [1].\n\nThe company's ability to access debt markets is supported by favorable credit ratings. As of May 31, 2024, Cintas held long-term debt ratings of **A-** from Standard & Poor’s and **A3** from Moody’s Investors Service, both with a stable outlook [1].\n\n### Debt Structure and Covenants\nCintas manages its leverage through the issuance of senior notes. As of May 31, 2024, **Cintas Corporation No. 2 (Corp. 2)**, the company's principal operating subsidiary, had $2.49 billion in aggregate principal amount of senior notes outstanding [1]. These notes are unconditionally guaranteed by Cintas Corporation and its domestic subsidiaries. \n\nTo maintain its financial health and access to capital, Cintas must comply with specific debt covenants. These covenants require the company to maintain certain financial metrics, including:\n*   **Debt to EBITDA Ratio**: This evaluates leverage by comparing total debt to earnings before interest, taxes, depreciation, and amortization [1].\n*   **Interest Coverage Ratios**: These measure the company's ability to meet interest payment obligations using its earnings [1].\n\nAs of the latest reporting period, Cintas was in compliance with all debt covenants and does not anticipate difficulty in obtaining future financing based on its historical experience in the debt markets [1].\n\n### References\n\n* [1] Cintas Corporation May 31, 2024 CTAS.html",
+   "answer_length": 2797,
+   "context_length": 89125,
+   "context": {
+    "entities": 60,
+    "relations": 106,
+    "chunks": 10,
+    "rerank_candidates": 46,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas No. 2 (Corp. 2)",
+     "Cintas Corp No. 2",
+     "Debt To EBITDA Ratio",
+     "Cintas Corporation No. 2",
+     "Cash Flow From Operating Activities",
+     "$6,897.1 Million",
+     "Cash Provided By Operating Activities From Continuing Operations",
+     "$7,465.2 Million",
+     "CTAS",
+     "Net Cash Flow Provided By Operating Activities",
+     "Operating Cash Provided By (Used In) Discontinued Operations",
+     "$1.547.2 Million Net Cash Flow From Operations",
+     "Cash Flows Provided By (Used For) Operating Activities",
+     "$2.0 Billion Operating Cash Flow",
+     "Diluted Income From Continuing Operations Per Share"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5173,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number 0-11399 Cintas Corporation (Exact name of registrant as specified in its charter) Washingto"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4446,
+      "text": "2012).",
+      "text_cut_early": true
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9722222222222222,
+    "answer_relevancy": 0.7679409664500086,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8725
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:35:20.634037",
+   "duration_ms": 20168,
+   "answer": "Cintas Corporation (CTAS) maintains a robust liquidity position primarily supported by its core business operations and its strategic access to debt markets. The company relies on its ability to generate significant cash flow from operating activities to fund its short-term and long-term liquidity needs, including capital expenditures, acquisitions, and shareholder returns. In fiscal 2024, Cintas reported a net income of $1,571.6 million, a 16.6% increase from the previous year, which underscores the strength of its internal cash generation.\n\n### Operating Cash Flow and Internal Funding\nCintas utilizes cash flow from operations as its primary engine for financial stability and growth. These funds are used to cover essential cash requirements, such as capital expenditures—which totaled $409.5 million in fiscal 2024 to support revenue growth and equipment purchases—as well as business acquisitions, which accounted for $186.8 million in the same period. Additionally, the company’s strong cash flow supports its dividend program and share buyback initiatives. In fiscal 2024, Cintas completed a $1.5 billion share buyback program and paid out $530.9 million in dividends.\n\n### Debt Capacity and Market Access\nBeyond internal cash generation, Cintas maintains significant debt capacity through its access to capital and credit markets. As of May 31, 2024, Cintas Corporation No. 2, the company's principal operating subsidiary, had $2,486.6 million in aggregate principal amount of senior notes outstanding. To manage its liquidity effectively, the company monitors its capacity for long-term financing using metrics such as the ratio of total debt to EBITDA. Cintas’ debt capacity is further supported by investment-grade credit ratings:\n*   **Standard & Poor’s:** A-2 (Commercial Paper) and A- (Long-term Debt) with a Stable outlook.\n*   **Moody’s Investors Service:** P-2 (Commercial Paper) and A3 (Long-term Debt) with a Stable outlook.\n\n### Liquidity Management and Financial Flexibility\nThe company's investment-grade ratings are critical for maintaining low funding costs and ensuring continued access to debt markets. Any substantial lowering of these ratings could adversely affect Cintas' ability to access financing or increase its cost of funds. Cintas also utilizes a variety of other liquidity resources, including an unsecured revolving committed credit facility and commercial paper programs, to manage working capital and provide discretionary funding capacity. This multi-faceted approach, balancing high-performing operating cash flows with structured debt capacity, allows the company to meet its contractual obligations and support ongoing strategic expansions.\n\n### References\n\n* [1] Cintas Corporation\n* [2] Marathon Oil Corporation",
+   "answer_length": 2765,
+   "context_length": 85498,
+   "context": {
+    "entities": 26,
+    "relations": 60,
+    "chunks": 8,
+    "rerank_candidates": 80,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "MRO"
+    ],
+    "entity_names": [
+     "Data Analytics Provider",
+     "Liquidity",
+     "Availability Of Short-Term And Long-Term Funding",
+     "Financial Condition",
+     "Company",
+     "Liquidity And Capital Resources",
+     "Cash Flow",
+     "Capital Market Transactions",
+     "Insurance Company",
+     "Liquidity Needs",
+     "Cash Requirements",
+     "Capital And Credit Markets",
+     "Working Capital",
+     "Cash Flows",
+     "Variable Rate Debt"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6734,
+      "text": "in print to any shareholder who requests a copy by writing or calling Cintas as set forth on the Investor Information page under the FAQs. The content on any website referred to in this Annual Report on Form 10-K is not incorporated herein by reference unless expressly noted. Sustainability In fiscal 2024, Cintas published its fourth annual sustainability report and reported on Cintas’ continued s"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6607,
+      "text": "intas' ability to find qualified suppliers who meet its standards and to access products in a timely and efficient manner, is subject to ongoing market risks. For a discussion of the risks associated with sourcing that may materially impact Cintas, please see \" Item 1A: Risk Factors - Risks Relating to Business Strategy and Operations .\" Government Laws and Regulations Cintas is subject to a wide "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5725,
+      "text": "7,465.2 million compared to $6,897.1 million in fiscal 2023. Organic revenue growth for this reportable operating segment was 7.4%. Revenue growth was positively impacted by 0.4% due to acquisitions and 0.4% due to one more workday in fiscal 2024 compared to fiscal 2023. Revenue growth was a result of new business, the penetration of additional products and services into existing customers and pri"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9591836734693877,
+    "answer_relevancy": 0.7357405952491969,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8612
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:35:31.848081",
+   "duration_ms": 11214,
+   "answer": "Cintas Corporation (Cintas) maintains its liquidity and financial flexibility through its operational performance and its capacity to access debt markets. For the fiscal year ended May 31, 2024, Cintas reported total revenue of approximately $9.60 billion, up from $8.82 billion in 2023. The Obligor Group, which includes the primary operating subsidiary Cintas Corporation No. 2, generated a net income of $1.48 billion and operating income of $1.96 billion during the same period.\n\nThe company's debt capacity and access to capital markets are supported by its investment-grade credit ratings. As of the reporting period, Standard & Poor’s assigned a stable outlook with ratings of A-2 for commercial paper and A- for long-term debt. Moody’s Investors Service also maintained a stable outlook with ratings of P-2 and A3, respectively. Cintas monitors its capacity for long-term financing by evaluating various factors, most notably the ratio of total debt to EBITDA. For this calculation, debt is defined as the sum of short-term borrowings, long-term debt (including portions due within one year), and standby letters of credit.\n\nMaintaining these credit ratings is critical to Cintas' liquidity strategy. A substantial lowering or withdrawal of these ratings could adversely affect the company's ability to access debt markets and increase the cost of funds for new issues of commercial paper and long-term debt. As of May 31, 2024, Cintas had $2.486.6 million in aggregate principal amount of senior notes outstanding. These notes are issued by Cintas Corporation No. 2 and are unconditionally guaranteed by Cintas Corporation and its domestic subsidiaries.\n\nCintas manages significant cash obligations, with total contractual debt payments amounting to approximately $2.49 billion. Of this amount, $450 million is due within one year or less, while $1.04 billion is due after five years. Additionally, the company is committed to interest payments totaling $563.1 million over the life of the debt and maintains operating lease obligations and future contributions to employee benefit plans.\n\n### References\n\n* [1] {\"ticker\":\"CTAS\",\"company\":\"Cintas Corporation\",\"period\":\"May 31, 2024\",\"source\":\"CTAS.html\"}",
+   "answer_length": 2214,
+   "context_length": 11877,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": null,
+    "answer_relevancy": 0.6766602064634138,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2256
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:35:59.745826",
+   "duration_ms": 27898,
+   "answer": "Cintas Corporation (Cintas) maintains a robust liquidity profile primarily supported by significant cash flow generated from core business operations and substantial access to debt and capital markets. In fiscal 2024, Cintas reported a net increase in cash and cash equivalents of $217.9 million, bringing the total cash and cash equivalents at the end of the year to $342.0 million.\n\n### Operating Cash Flow Performance\nCash flow from operating activities serves as a primary internal source of liquidity for Cintas. For the fiscal year ended May 31, 2024, net cash provided by operating activities reached $2,079.8 million, a significant increase from $1,597.8 million in fiscal 2023. This growth was largely driven by improvements in uniforms and other rental items in service and accounts receivable. These gains were partially offset by unfavorable shifts in working capital, specifically regarding current liabilities and deferred income taxes.\n\n### Debt Capacity and Credit Facilities\nCintas utilizes various debt instruments to manage its capital resources, including a commercial paper program and senior notes. A key component of its debt capacity is a revolving credit facility with a capacity of $2.0 billion, which matures on March 23, 2027. This facility features an accordion feature allowing for potential increases of up to $500.0 million. As of May 31, 2024, Cintas had no outstanding commercial paper or borrowings on this revolving credit facility.\n\nThe company's outstanding debt also includes several tranches of senior notes. As of May 31, 2024, total debt due after one year was approximately $2,025.9 million. This includes:\n*   $1,000.0 million in 3.70% senior notes maturing in 2027.\n*   $800.0 million in 4.00% senior notes maturing in 2032.\n*   $236.6 million in 6.15% senior notes maturing in 2037.\n*   Approximately $450.0 million in debt due within one year, consisting of 3.11% and 3.45% senior notes maturing in 2025.\n\n### Market Access and Financial Covenants\nLiquidity is further supported by Cintas' favorable ratings in the debt markets. As of May 31, 2024, Standard & Poor’s assigned a \"Stable\" outlook with ratings of A-2 (commercial paper) and A- (long-term debt), while Moody’s Investors Service assigned a \"Stable\" outlook with ratings of P-2 and A3. Maintaining investment-grade ratings is critical for Cintas to access funding at favorable interest rates.\n\nCintas' debt agreements include specific financial covenants that require the maintenance of certain debt-to-EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) and interest coverage ratios. Cintas was in compliance with all debt covenants for all periods presented. However, a default on these covenants could lead to an acceleration of indebtedness and impaired liquidity.\n\n### References\n\n- [1] Cintas Corporation May 31, 2024 CTAS.html",
+   "answer_length": 2862,
+   "context_length": 122048,
+   "context": {
+    "entities": 54,
+    "relations": 176,
+    "chunks": 10,
+    "rerank_candidates": 152,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas Corp No. 2",
+     "Data Analytics Provider",
+     "Cintas No. 2 (Corp. 2)",
+     "Liquidity",
+     "Cintas Corporation No. 2",
+     "Company",
+     "Debt To EBITDA Ratio",
+     "Liquidity And Capital Resources",
+     "CTAS",
+     "Cash Flow",
+     "Cintas Corporation Compensation Recoupment Policy",
+     "Cash Requirements",
+     "Peer Group",
+     "Availability Of Short-Term And Long-Term Funding",
+     "$6,897.1 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6734,
+      "text": "in print to any shareholder who requests a copy by writing or calling Cintas as set forth on the Investor Information page under the FAQs. The content on any website referred to in this Annual Report on Form 10-K is not incorporated herein by reference unless expressly noted. Sustainability In fiscal 2024, Cintas published its fourth annual sustainability report and reported on Cintas’ continued s"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7106546892629515,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9277
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:36:22.193387",
+   "duration_ms": 22448,
+   "answer": "Cintas Corporation (CTAS) maintains a robust liquidity position by balancing internally generated cash flows from its business operations with significant external debt capacity through credit facilities and access to capital markets. This multi-faceted approach allows the company to fund its operational needs, capital expenditures, strategic acquisitions, and shareholder returns, such as dividends and share repurchases.\n\n### Operating Cash Flows\nCintas' primary source of liquidity is the cash generated from its core business operations. In fiscal 2024, the company reported a significant increase in net cash provided by operating activities, totaling approximately $2,079.8 million, compared to $1,597.8 million in fiscal 2023. This growth was driven by higher net income and improvements in working capital management, particularly regarding uniforms and other rental items in service and accounts receivable. While operating cash flow is the foundation of the company's liquidity, it is occasionally offset by unfavorable changes in current liabilities and deferred income taxes.\n\n### Debt Capacity and Credit Facilities\nTo supplement its operating cash, Cintas maintains substantial debt capacity through a commercial paper program and a revolving credit facility. The key components of its debt capacity include:\n*   **Revolving Credit Facility:** Cintas has a $2.0 billion revolving credit facility that supports its commercial paper program. This agreement includes an \"accordion\" feature, allowing the company to request an increase in borrowing commitments by up to an additional $500 million. The facility is set to mature on March 23, 2027.\n*   **Commercial Paper:** Historically, Cintas has used the commercial paper and long-term debt markets as reliable sources of liquidity. As of May 31, 2024, the company had no commercial paper outstanding and no borrowings on its revolving credit facility.\n*   **Credit Ratings:** The company’s ability to access these markets at favorable interest rates depends on its credit ratings. As of May 31, 2024, Cintas held investment-grade ratings, including an A- (Stable) from Standard & Poor’s and an A3 (Stable) from Moody’s Investors Service.\n\n### Debt Covenants and Financial Health\nCintas' liquidity and continued access to capital are also tied to its compliance with specific debt covenants. These agreements require the company to maintain certain financial ratios, specifically the **debt to EBITDA ratio** and **interest coverage ratios**. Cintas was in compliance with all such covenants for the periods presented. A default on these covenants could result in the acceleration of indebtedness maturity, which would significantly impair the company's liquidity and its ability to raise future capital.\n\n### References\n\n- [1] Cintas Corporation (ticker: CTAS), Period: May 31, 2024",
+   "answer_length": 2847,
+   "context_length": 114144,
+   "context": {
+    "entities": 36,
+    "relations": 140,
+    "chunks": 10,
+    "rerank_candidates": 134,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Debt To EBITDA Ratio",
+     "Company",
+     "Cintas Corp No. 2",
+     "Liquidity And Capital Resources",
+     "Cintas Corporation No. 2",
+     "Data Analytics Provider",
+     "Cintas No. 2 (Corp. 2)",
+     "Liquidity",
+     "Interest Coverage Ratios",
+     "Cash Flow",
+     "Cash Generated From Operations",
+     "Cash Flow From Operating Activities",
+     "Cash Flows Provided By (Used For) Operating Activities",
+     "Cash Requirements",
+     "Global Working Capital"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6731,
+      "text": "and other taxes we collect on behalf of governmental authorities. Shipping and handling costs charged to customers are treated as fulfillment activities and are recorded in both revenue and cost of sales at the time control is transferred to the customer. Certain of our customer contracts include pricing terms and conditions that include components of variable consideration. The variable considera"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8186138148392789,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9547
+   }
+  }
+ }
+}

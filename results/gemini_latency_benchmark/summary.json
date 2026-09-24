@@ -1,0 +1,150 @@
+{
+ "configuration": {
+  "model": "gemini-3-flash-preview",
+  "sample_size": 10,
+  "timestamp": "2026-01-20T21:05:18.583657",
+  "total_time": 1934.5022447109222
+ },
+ "statistics": {
+  "local": {
+   "sample_count": 10,
+   "success_rate": 100.0,
+   "response_time": {
+    "mean": 27.95162718296051,
+    "median": 27.393757581710815,
+    "min": 22.89350175857544,
+    "max": 32.88302993774414,
+    "stdev": 3.7254072519763093
+   },
+   "input_tokens": {
+    "mean": 23159,
+    "median": 25131.0,
+    "min": 15160,
+    "max": 26605
+   },
+   "output_tokens": {
+    "mean": 543.2,
+    "median": 597.5,
+    "min": 133,
+    "max": 791
+   },
+   "total_tokens": {
+    "mean": 24760.3,
+    "median": 26212.0,
+    "sum": 247603
+   }
+  },
+  "global": {
+   "sample_count": 10,
+   "success_rate": 100.0,
+   "response_time": {
+    "mean": 59.788667392730716,
+    "median": 28.94361972808838,
+    "min": 18.894127368927002,
+    "max": 355.4883453845978,
+    "stdev": 103.98668756409973
+   },
+   "input_tokens": {
+    "mean": 17192.5,
+    "median": 18592.0,
+    "min": 8699,
+    "max": 22065
+   },
+   "output_tokens": {
+    "mean": 481.9,
+    "median": 536.0,
+    "min": 209,
+    "max": 721
+   },
+   "total_tokens": {
+    "mean": 24858.4,
+    "median": 20212.5,
+    "sum": 248584
+   }
+  },
+  "naive": {
+   "sample_count": 10,
+   "success_rate": 100.0,
+   "response_time": {
+    "mean": 9.249714827537536,
+    "median": 10.320285081863403,
+    "min": 2.1209468841552734,
+    "max": 13.632271528244019,
+    "stdev": 3.2485835407143755
+   },
+   "input_tokens": {
+    "mean": 2986.5,
+    "median": 2811.5,
+    "min": 109,
+    "max": 6393
+   },
+   "output_tokens": {
+    "mean": 374.1,
+    "median": 439.0,
+    "min": 39,
+    "max": 685
+   },
+   "total_tokens": {
+    "mean": 4265.8,
+    "median": 4328.0,
+    "sum": 42658
+   }
+  },
+  "hybrid": {
+   "sample_count": 10,
+   "success_rate": 100.0,
+   "response_time": {
+    "mean": 32.07148499488831,
+    "median": 30.010669350624084,
+    "min": 23.344138145446777,
+    "max": 63.197774171829224,
+    "stdev": 11.229416612958246
+   },
+   "input_tokens": {
+    "mean": 26475.3,
+    "median": 27102.5,
+    "min": 19821,
+    "max": 28387
+   },
+   "output_tokens": {
+    "mean": 576,
+    "median": 636.0,
+    "min": 180,
+    "max": 775
+   },
+   "total_tokens": {
+    "mean": 28620.1,
+    "median": 28626.5,
+    "sum": 286201
+   }
+  },
+  "mix": {
+   "sample_count": 10,
+   "success_rate": 100.0,
+   "response_time": {
+    "mean": 61.88794574737549,
+    "median": 29.60866415500641,
+    "min": 22.84871196746826,
+    "max": 362.35131430625916,
+    "stdev": 105.63515301446621
+   },
+   "input_tokens": {
+    "mean": 26623.6,
+    "median": 26950.5,
+    "min": 19821,
+    "max": 28222
+   },
+   "output_tokens": {
+    "mean": 540.9,
+    "median": 563.0,
+    "min": 179,
+    "max": 828
+   },
+   "total_tokens": {
+    "mean": 34461.4,
+    "median": 28603.0,
+    "sum": 344614
+   }
+  }
+ }
+}

@@ -1,0 +1,383 @@
+{
+ "question_id": "a2aef1d1",
+ "ticker": "VRSK",
+ "question": "Impact of Verisk Analytics' asset reduction on capex strategy & inv. outlook, VRSK.",
+ "expected_answer": "The data indicates that long-lived assets fell from $6,036 million in 2022 to $3,556 million in 2023—a reduction of approximately 41%. This dramatic decrease, notably in the U.K. (from $2,428.9 million to $597.9 million) and Other Countries (from $730.6 million to $502.4 million), suggests that the company has undertaken significant divestitures or asset sales. In the context of Verisk Analytics' strategic disclosures, the divestiture of segments such as Energy and Specialized Markets and Financial Services is a clear factor driving this reduction.\n\nKey inferences regarding the company’s capital allocation strategy and future investment outlook include:\n\n1. Focus on Core Business: The disposal of non-core segments indicates a deliberate move to concentrate resources on the core Insurance segment, which appears to be the sole remaining operating/reportable segment. This highlights a strategic effort to streamline operations and focus on what the company perceives as its primary revenue and profit driver.\n\n2. Optimized Capital Allocation: By divesting asset-heavy segments, the company is likely aiming to release capital tied up in long-lived assets that may have lower returns or do not fit its long-term strategic vision. The reallocation of these funds could be used for strategic investments in technology, underwriting, or enhanced data analytics in the Insurance space.\n\n3. Improved Balance Sheet and Operational Efficiency: Reducing long-lived assets, particularly in regions like the U.K. and Other Countries, could lead to a leaner balance sheet. This strategy may improve the overall capital efficiency and financial flexibility, allowing the company to better manage debt or invest in growth opportunities with higher expected returns.\n\n4. Future Investment Outlook: With freed-up capital and a more focused operational scope, Verisk Analytics may be better positioned to invest in growth initiatives that enhance its competitive positioning. Investments may include further technological enhancements, innovation in risk assessment models, or other strategic acquisitions that align with the core business. Additionally, the firm’s use of EBITDA as a key measure suggests that they are seeking to preserve high-margin operational performance, implying that any future investments will likely be geared towards maintaining or enhancing EBITDA margins.\n\nIn summary, the sharp reduction in long-lived assets reflects a strategic decision to exit non-core business areas, streamline operations to focus on the high-value Insurance segment, and reallocate capital towards investments and initiatives that support long-term growth and improved operational efficiency.",
+ "category": "Footnotes",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 9408,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:39:41.944329",
+   "duration_ms": 24406,
+   "answer": "Verisk Analytics has significantly reduced its asset base and operational complexity through a series of strategic divestitures. In 2022, the company sold its Financial Services and Specialized Markets businesses. This was followed by the sale of its Energy business (Wood Mackenzie) on February 1, 2023, which was classified as a discontinued operation. These actions were intended to reduce \"asset intensity\"—the proportion of assets required to generate revenue—allowing the company to focus exclusively on its Insurance segment. In 2023, the net assets sold as part of these dispositions, net of cash, totaled $3,211.8 million [1].\n\n### Impact on Capital Expenditure (Capex) Strategy\n\nThe reduction in assets has enabled a more disciplined and focused capital allocation strategy. Verisk's current capex strategy prioritizes organic reinvestment in its core insurance business, which typically yields high internal returns. These investments are largely directed toward developing and enhancing solutions through internal-use software, cloud technology, and advanced analytical methods, including machine learning and artificial intelligence (AI). The company aims to balance these high-return capital investments with efforts to drive operating efficiency and profitability [1].\n\nBeyond organic growth, Verisk’s capital strategy includes selective, strategic acquisitions designed to expand its proprietary data assets and reach within the global insurance industry. For instance, the company recently acquired Data Driven Safety, LLC, and Opta Information Intelligence Corp to bolster its underwriting and net revenues. The overarching goal is to maintain a strong balance sheet while ensuring that capital is directed toward the highest-return opportunities [1].\n\n### Investment Outlook\n\nThe investment outlook for Verisk is now centered on driving consistent and predictable growth within the insurance ecosystem. By narrowing its focus to a single segment, the company leverages its proprietary data assets and deep industry expertise to provide predictive analytics and decision support solutions. Verisk's subscription-based business model provides a stable revenue stream and strong cash flow, which supports its ongoing investment in innovation and technology [1].\n\nFurthermore, Verisk remains committed to returning excess capital to its shareholders. In 2023, the company paid $196.8 million in cash dividends and continued its extensive share repurchase program. Since its initial public offering, Verisk has repurchased over 86 million shares. This combination of disciplined capital allocation, organic growth in the Insurance segment, and consistent shareholder returns defines the company's financial and investment trajectory following its recent asset reductions [1].\n\n### References\n\n* [1] Verisk Analytics, Inc. (VRSK) Form 10-K for the fiscal year ended December 31, 2023",
+   "answer_length": 2896,
+   "context_length": 106864,
+   "context": {
+    "entities": 60,
+    "relations": 188,
+    "chunks": 10,
+    "rerank_candidates": 34,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Verisk Financial Services",
+     "Verisk Analytics",
+     "Financial Services Business",
+     "Investor.Verisk.Com",
+     "Verisk",
+     "$292.7 Million",
+     "$280.3 Million",
+     "$302.7 Million",
+     "Verisk Analytics, Inc.",
+     "Verisk Marketing Solutions",
+     "Fair Isaac Corp.",
+     "MSCI Inc.",
+     "Verisk Analytics Inc",
+     "Verisk Analytics, Inc. 2009 Equity Incentive Plan",
+     "VRSK"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6742,
+      "text": "institutions; the Drivers Privacy Protection Act, which prohibits the public disclosure, use, or resale by any state’s department of motor vehicles of personal information about an individual that was obtained by the department in connection with a motor vehicle record, except for a “permissible purpose”; and various other federal, state, and local laws and regulations. Those laws generally restri"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8338324113952448,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7918
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:40:20.610518",
+   "duration_ms": 38666,
+   "answer": "Verisk Analytics Inc. has experienced a notable reduction in its capital expenditures (CapEx) over the last few years, which plays a significant role in shaping its investment outlook and financial strategy. CapEx represents the funds a company allocates toward the acquisition, maintenance, or improvement of long-term physical assets, including technology, infrastructure, and equipment. For Verisk Analytics, these expenditures were reported at $230.0 million in 2023, marking a decline from $274.7 million in 2022 and $268.4 million in 2021.\n\nThis downward trend in capital spending suggests a shift in how the company manages its financial resources and strategic priorities. CapEx is vital for operational expansion and competitive advantage, as it supports the development of assets that enhance productivity and efficiency. Reductions in these outlays may be driven by various factors, such as debt obligations, cash flow constraints, or specific accounting adjustments. Because CapEx is capitalized and depreciated over time, fluctuations in these figures directly influence the company’s balance sheet and long-term value.\n\nThe reduction in CapEx also has implications for the company's future financial performance and liquidity. Management of these funds is essential for meeting regulatory compliance and supporting strategic growth initiatives. In broader market contexts, a company’s capital spending budget is often sensitive to its access to capital and prevailing market conditions. Consequently, Verisk’s decreased expenditure levels may reflect a more cautious or refined investment strategy aimed at balancing growth with financial stability and existing debt constraints.\n\n### References\n\n* [1] Knowledge Graph Data: Capital Expenditures\n* [2] Knowledge Graph Data: Financial Performance\n* [3] Knowledge Graph Data: Market Conditions\n* [4] Knowledge Graph Data: Capital Spending Budget",
+   "answer_length": 1907,
+   "context_length": 43228,
+   "context": {
+    "entities": 43,
+    "relations": 60,
+    "chunks": 0,
+    "rerank_candidates": 123,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Future Cash Flow",
+     "Pipeline Development",
+     "EBITDA Margin",
+     "New Solutions And Businesses",
+     "Access To Capital",
+     "Capital Spending Budget",
+     "Capital Expenditures",
+     "Commodity Prices",
+     "Energy Costs",
+     "Price Increases",
+     "Equity Price Risk",
+     "Strategic Investment Portfolio",
+     "Cost Reduction Programs",
+     "Financial Performance",
+     "MS Business Decline"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.857056058185225,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4643
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:40:26.986229",
+   "duration_ms": 6376,
+   "answer": "I do not have enough information to answer this query. The provided context does not contain any information regarding Verisk Analytics' asset reduction, its capex strategy, or its investment outlook.",
+   "answer_length": 200,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:41:10.181136",
+   "duration_ms": 43195,
+   "answer": "Verisk Analytics, Inc. (VRSK) has undergone a significant strategic transformation through the reduction of its asset portfolio, moving from a multi-segment organization to a focused provider within the insurance ecosystem. This asset reduction primarily involved the divestiture of its Financial Services segment in April 2022 and the Specialized Markets business (3E Company) in March 2022. Additionally, the company completed the sale of its Energy business (Wood Mackenzie) on February 1, 2023. These moves represent a strategic shift intended to concentrate resources on the company's core insurance data, analytics, and technology solutions.\n\n### Impact on Capital Expenditure (CapEx) Strategy\nThe divestiture of these non-core assets has influenced a downward trend in capital expenditures. Verisk’s CapEx was reported at $230.0 million in 2023, representing a decrease from $274.7 million in 2022 and $268.4 million in 2021. The company's current CapEx strategy is governed by a \"Disciplined Capital Allocation\" framework, which prioritizes the following areas:\n\n*   **Organic Reinvestment:** The primary focus is on internal investments that produce high returns, particularly in the development and enhancement of solutions through internal-use software.\n*   **Technological Modernization:** Capital is directed toward advancing core solutions using cloud technology and advanced analytical methods, including machine learning and artificial intelligence (AI).\n*   **Operating Efficiency:** Investments are aimed at driving core operating leverage and productivity enhancements through a global talent workforce and advanced technology.\n\n### Investment and Strategic Outlook\nWith the consolidation into a single Insurance segment, Verisk’s investment outlook is centered on driving \"consistent and predictable growth\" within the global insurance industry. The company seeks to leverage its long-standing relationships with the top 100 U.S. property and casualty (P&C) insurers to extend its reach into adjacent markets, such as life insurance, marketing, and specialty business solutions.\n\nFuture investments are expected to focus on selective, strategic acquisitions that expand data assets and capabilities, such as the recent acquisitions of Morning Data, Mavera, and Krug. Furthermore, the asset reduction strategy has enabled the company to focus on returning excess capital to shareholders through consistent dividends and share repurchase programs, supported by strong operational cash flow. Despite the narrowed focus, Verisk continues to face competitive pressures, requiring ongoing investment in system upgrades and new solution development to maintain its market position.\n\n### References\n\n* [1] Verisk Analytics, Inc. 2023 Annual Report (VRSK.html)",
+   "answer_length": 2771,
+   "context_length": 121265,
+   "context": {
+    "entities": 59,
+    "relations": 191,
+    "chunks": 10,
+    "rerank_candidates": 135,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Investor.Verisk.Com",
+     "Future Cash Flow",
+     "Verisk Financial Services",
+     "Pipeline Development",
+     "Verisk Analytics",
+     "EBITDA Margin",
+     "Financial Services Business",
+     "New Solutions And Businesses",
+     "VRSK",
+     "Capital Expenditures",
+     "Verisk",
+     "Commodity Prices",
+     "Verisk Marketing Solutions",
+     "Equity Price Risk",
+     "Verisk Analytics, Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6742,
+      "text": "institutions; the Drivers Privacy Protection Act, which prohibits the public disclosure, use, or resale by any state’s department of motor vehicles of personal information about an individual that was obtained by the department in connection with a motor vehicle record, except for a “permissible purpose”; and various other federal, state, and local laws and regulations. Those laws generally restri"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.967741935483871,
+    "answer_relevancy": 0.8850819219773362,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9007
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:41:52.032054",
+   "duration_ms": 41851,
+   "answer": "Verisk Analytics has significantly reshaped its asset portfolio through the divestiture of major business segments, transitioning to a focused provider of data and analytics specifically for the insurance ecosystem. This asset reduction involved the sale of the Specialized Markets business (3E) in March 2022, the Financial Services segment in April 2022, and the completion of the Energy business (Wood Mackenzie) sale on February 1, 2023. These dispositions were part of a strategic shift to prioritize the insurance industry, where Verisk maintains a core competitive advantage through proprietary data assets and long-standing industry relationships.\n\n### Impact on Capital Expenditure (CapEx) Strategy\nThe reduction in business segments has been accompanied by a shift in capital expenditure levels. Verisk’s CapEx was $230.0 million in 2023, reflecting a decrease from $274.7 million in 2022 and $268.4 million in 2021. The company's current CapEx strategy is heavily weighted toward developing and enhancing internal-use software to support its insurance solutions. Despite this focused approach, Verisk notes that its level of indebtedness could potentially limit its ability to fund all necessary capital expenditures required for continued growth and asset improvement.\n\n### Investment Outlook and Capital Allocation Framework\nVerisk’s investment outlook is governed by a \"Disciplined Capital Allocation\" framework that prioritizes three key areas following its segment reductions:\n\n*   **Organic Reinvestment:** The primary focus is on internal investments that produce high returns, particularly in modernizing core solutions using cloud technology, machine learning, and artificial intelligence.\n*   **Selective Strategic Acquisitions:** The company continues to seek acquisitions that can expand its proprietary data assets and reach within the insurance industry. An example of this is the acquisition of Data Driven Safety, LLC, which contributes to the insurance segment's net revenues.\n*   **Return of Capital to Shareholders:** Verisk intends to return excess capital to shareholders through dividends and share repurchases while maintaining a strong balance sheet. In 2023, the company paid $196.8 million in cash dividends and continued its long-term share repurchase plan, which has seen over 86 million shares repurchased since its IPO.\n\nThe company’s ability to generate strong cash flow from its subscription-based business model—where clients often prepay for services—supports this outlook by providing liquidity and reducing reliance on accounts receivable. This financial structure is intended to drive consistent and predictable growth despite the reduced overall asset base following the divestiture of non-insurance segments.\n\n### References\n\n* [1] Verisk Analytics, Inc. 2023 Annual Report (Form 10-K)",
+   "answer_length": 2835,
+   "context_length": 121313,
+   "context": {
+    "entities": 56,
+    "relations": 191,
+    "chunks": 10,
+    "rerank_candidates": 161,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Verisk Financial Services",
+     "Future Cash Flow",
+     "Verisk Analytics",
+     "Pipeline Development",
+     "Financial Services Business",
+     "EBITDA Margin",
+     "Investor.Verisk.Com",
+     "New Solutions And Businesses",
+     "Verisk",
+     "Access To Capital",
+     "$292.7 Million",
+     "Capital Spending Budget",
+     "$280.3 Million",
+     "Capital Expenditures",
+     "$302.7 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6742,
+      "text": "institutions; the Drivers Privacy Protection Act, which prohibits the public disclosure, use, or resale by any state’s department of motor vehicles of personal information about an individual that was obtained by the department in connection with a motor vehicle record, except for a “permissible purpose”; and various other federal, state, and local laws and regulations. Those laws generally restri"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4922,
+      "text": "10.3 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 10.4 Form of Master License Agreement and Participation Supplement, incorporated herein by reference to Exhibit 10.4 to Amendment No. 1 to the Company’s Registration Statement on Form S-1 dated October 7, 2008. 100 Table of Contents Exhibit Number Description 10.5 Schedule of Master License Agreement"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9302325581395349,
+    "answer_relevancy": 0.8356649347502,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8998
+   }
+  }
+ }
+}

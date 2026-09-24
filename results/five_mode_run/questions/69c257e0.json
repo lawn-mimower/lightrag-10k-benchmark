@@ -1,0 +1,483 @@
+{
+ "question_id": "69c257e0",
+ "ticker": "AMP",
+ "question": "Liquidity vs short-term obligations for Ameriprise Financial (AMP) in 2024.",
+ "expected_answer": "Ameriprise Financial has disclosed a range of liquidity sources that are intended to cover its short‐term contractual obligations for 2024. Specifically, the obligations include investment certificate maturities of approximately $12.3 billion and estimated insurance/annuity benefits of about $2.2 billion (along with other short‐term items such as maturing long‐term debt of $550 million). On the liquidity side, as of December 31, 2023, the company held $7.5 billion of cash and cash equivalents on a consolidated basis (excluding certain restricted amounts) and additional cash, cash equivalents, and unencumbered liquid securities of $544 million at the parent level. Moreover, management has estimated that the parent company would have approximately $1.8 billion in liquidity under stressed conditions. In addition to these cash balances, the firm has access to a variety of borrowing facilities: a line of credit with an affiliate (up to $727 million), an unsecured revolving committed credit facility (up to $1.0 billion, potentially expandable to $1.25 billion with meeting certain requirements), and significant borrowing capacities via FHLB facilities (estimated up to $8.6 billion with only a small portion drawn) and the Federal Reserve (an estimated capacity of $12.3 billion). The company also holds demand payable accounts via banking and brokerage deposits totaling $23.9 billion. All of these sources combined indicate that while the contractually due short‐term obligations (totaling roughly $15.05 billion when summing investment certificates, insurance/annuity benefits, and the maturing debt) represent significant liabilities, Ameriprise Financial is leveraging a diversified and robust liquidity infrastructure to ensure these obligations can be met. Essentially, the available cash resources, combined with readily accessible external funding—supported by strong borrowing capacities and liquid deposit balances—provide the necessary flexibility to manage and fund these short‐term commitments.",
+ "category": "Financials",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 5655,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:51:25.481464",
+   "duration_ms": 12603,
+   "answer": "Ameriprise Financial (AMP) manages its liquidity and short-term obligations through a combination of cash holdings, liquid securities, and extensive credit facilities. As of December 31, 2023, the parent company held $544 million in cash, cash equivalents, and unencumbered liquid securities, the latter of which predominantly consist of U.S. government agency mortgage-backed securities. Management estimates that the total liquidity available to the parent company—including cash, liquid securities, a line of credit with an affiliate, and a portion of its committed credit facility—amounted to approximately $1.8 billion.\n\n### Liquidity Resources and Credit Facilities\nThe company maintains several layers of liquidity to fund its operations and meet stress requirements:\n*   **Committed Credit Facility:** An unsecured revolving facility providing up to $1.0 billion (with the potential to increase to $1.25 billion). As of late 2023, there were no outstanding borrowings against this facility, with only $1 million utilized for letters of credit.\n*   **Affiliate Line of Credit:** A line of credit with an affiliate provides up to $727 million in additional liquidity.\n*   **Collateralized Borrowing:** Through its subsidiaries, RiverSource Life Insurance Company and Ameriprise Bank, the company has access to the Federal Home Loan Bank (FHLB) of Des Moines. The estimated maximum borrowing capacity under FHLB facilities was $8.6 billion as of December 31, 2023, with $201 million currently outstanding. \n*   **Federal Reserve Access:** Ameriprise Bank maintains access to Federal Reserve borrowings collateralized by mortgage-backed and corporate debt securities. The estimated capacity from this source was $12.3 billion at the end of 2023, with no outstanding obligations.\n\n### 2024 Short-Term Obligations\nAmeriprise faces several significant contractual obligations and liquidity needs for the 2024 calendar year. These include $12.3 billion in investment certificate maturities and approximately $2.2 billion in estimated insurance and annuity benefits. Additionally, the company must address $550 million in long-term debt that reaches maturity in October 2024. Beyond these fixed dates, the company holds $23.9 billion in banking and brokerage deposits that are payable on demand, representing a substantial short-term liquidity consideration.\n\n### Management Outlook\nDespite the scale of these obligations, management maintains that its current financial position is sufficient to meet both short-term and long-term needs. Funding is expected to be sourced from operating activity cash flows, available cash balances, internal and external borrowing capacities, access to debt markets, and dividends from subsidiaries. The company's ability to meet these requirements depends heavily on the receipt of dividends or capital returns from its primary operating subsidiaries, such as RiverSource Life and Ameriprise Bank.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023",
+   "answer_length": 3000,
+   "context_length": 108048,
+   "context": {
+    "entities": 60,
+    "relations": 164,
+    "chunks": 10,
+    "rerank_candidates": 37,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Ameriprise Financials Cash",
+     "1 Index Ameriprise Financial",
+     "13 Index Ameriprise Financial",
+     "Ameriprise Holdings, Inc.",
+     "Ameriprise Financial, Inc. Stock Price",
+     "60 Index Ameriprise Financial, Inc. Corporate Debt Securities",
+     "Ameriprise Advisor Capital, LLC",
+     "$14.7 Billion",
+     "Ameriprise Financial, Inc. Asset Management Segment",
+     "Parent Company",
+     "Ameriprise Financial, Inc. Employees",
+     "2023 Annual Report To Shareholders",
+     "Ameriprise Financial, Inc. 2023 Annual Report To Shareholders",
+     "Ameriprise Financial, Inc. Retirement & Protection Solutions Segment",
+     "Cash Positions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 5891,
+      "text": ", respectively, in cash and cash equivalents excluding CIEs and other restricted cash on a consolidated basis. At December 31, 2023 and 2022, the parent company had $544 million and $389 million, respectively, in cash, cash equivalents, and unencumbered liquid securities. Liquid securities predominantly include U.S. government agency mortgage back securities. Additional sources of liquidity includ"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "273,963 $ 3,474,380,514 Employee transactions (2) 1,613 $ 321.01 N/A N/A November 1, 2023 to November 30, 2023 Share repurchase program (1) 475,133 $ 346.37 475,133 $ 3,309,808,008 Employee transactions (2) 18,664 $ 344.13 N/A N/A December 1, 2023 to December 31, 2023 Share repurchase program (1) 516,544 $ 369.23 516,544 $ 3,119,083,448 Employee transactions (2) 92,825 $ 370.31 N/A N/A Totals Shar"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6663,
+      "text": "Operations 32 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 65 Item 8. Financial Statements and Supplementary Data 71 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 170 Item 9A. Controls and Procedures 170 Item 9B. Other Information 170 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 170 PART III 171 I"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5217,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Transition Period from___to___ Commission File No. 1-32525 AMER"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5097,
+      "text": "for Long-Duration Contracts , management no longer excludes adjustments for deferred acquisition costs (“DAC”), deferred sales inducement costs (“DSIC”) and unearned revenue amortization from adjusted operating earnings measures. Amortization of DAC, DSIC, and unearned revenue is no longer impacted by markets and is now amortized on a constant-level basis in accordance with GAAP. It is management’"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6427,
+      "text": "share repurchase program does not require the purchase of any minimum number of shares, and depending on market conditions and other factors, these purchases may be commenced or suspended at any time without prior notice. Acquisitions under the share repurchase program may be made in the open market, through privately negotiated transactions or block trades or other means. During the year ended De"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4500,
+      "text": "the LDTI standard and for determining the transition date and transition period adjustments, (ii) testing the relevance and reliability of the external data used by management to develop the discount rate curve, (iii) testing the completeness and accuracy of the data used by management to develop and update the significant market risk benefit assumptions, and (iv) the use of professionals with spe"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6783,
+      "text": "hedge these benefits and the “spread” income generated on our deposit products, fixed insurance, the fixed portion of variable annuities and variable insurance contracts and fixed deferred annuities. We have been operating in a historically low interest rate environment but have recently experienced a substantial increase in rates with uncertainty about where rates will go in the future. A higher "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.8119074699492784,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9302
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:51:42.587395",
+   "duration_ms": 17106,
+   "answer": "For fiscal year 2024, Ameriprise Financial (AMP) maintains a significant liquidity position designed to address substantial short-term contractual obligations and potential demand-driven outflows. Management estimates that its multi-tiered liquidity strategy—comprising cash reserves, operating cash flows, and extensive credit facilities—is sufficient to meet these requirements under both normal and stressed conditions.\n\n### Available Liquidity Resources\nAs of December 31, 2023, Ameriprise reported **$7.5 billion** in consolidated cash and cash equivalents (excluding consolidated investment entities and restricted cash). At the parent company level specifically, the organization held **$544 million** in cash, cash equivalents, and unencumbered liquid securities, such as U.S. government agency mortgage-backed securities.\n\nTo supplement these reserves, the company maintains several robust external funding sources:\n*   **Parent Company Liquidity Estimate:** Management estimates total available parent company liquidity at **$1.8 billion**, which includes cash on hand, an affiliate line of credit (up to $727 million), and a portion of a $1.0 billion unsecured revolving credit facility.\n*   **FHLB and Federal Reserve Access:** The company's subsidiaries, RiverSource Life and Ameriprise Bank, have access to collateralized borrowings through the Federal Home Loan Bank (FHLB) of Des Moines and the Federal Reserve. As of late 2023, the estimated borrowing capacity was **$8.6 billion** from the FHLB and **$12.3 billion** from the Federal Reserve.\n*   **Subsidiary Dividends:** As a holding company, Ameriprise relies significantly on the receipt of dividends and returns of capital from its subsidiaries (such as RiverSource Life and Ameriprise Bank) to meet its own cash requirements.\n\n### Short-Term Obligations for 2024\nAmeriprise faces several billion dollars in contractual and demand-based obligations due within the 2024 calendar year. These include:\n*   **Investment Certificate Maturities:** Approximately **$12.3 billion** in certificates are scheduled to mature.\n*   **Insurance and Annuity Benefits:** Estimated benefits of **$2.2 billion** are expected to be paid out.\n*   **Maturing Long-Term Debt:** The company has **$550 million** in long-term debt maturing in October 2024.\n*   **Demand Deposits:** The company holds **$23.9 billion** in banking and brokerage deposits that are payable on demand, requiring immediate liquidity availability.\n\n### Strategic Sufficiency\nManagement has expressed confidence that its current financial standing is adequate to cover these 2024 needs. This assessment is based on a combination of existing cash balances, anticipated cash flows from operating activities, and continued access to debt markets. Furthermore, the company remains in compliance with all financial covenants related to its credit facilities, ensuring these backup lines remains available if needed to address \"stress requirements\" or unexpected volatility in the economic environment.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. Document Title One",
+   "answer_length": 3089,
+   "context_length": 98503,
+   "context": {
+    "entities": 23,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 74,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "MRO",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Availability Of Short-Term And Long-Term Funding",
+     "Financial Condition",
+     "Company",
+     "Liquidity And Capital Resources",
+     "Data Analytics Provider",
+     "Liquidity",
+     "Cash Flows",
+     "Financial Condition, Liquidity And Capital Resources",
+     "Net Cash Flow From Operations",
+     "Managements Discussion And Analysis Of Financial Condition",
+     "Cash Requirements",
+     "Business Operations",
+     "Cash Flow",
+     "Debt Financing Costs",
+     "Long-Term Debt"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 5891,
+      "text": ", respectively, in cash and cash equivalents excluding CIEs and other restricted cash on a consolidated basis. At December 31, 2023 and 2022, the parent company had $544 million and $389 million, respectively, in cash, cash equivalents, and unencumbered liquid securities. Liquid securities predominantly include U.S. government agency mortgage back securities. Additional sources of liquidity includ"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "273,963 $ 3,474,380,514 Employee transactions (2) 1,613 $ 321.01 N/A N/A November 1, 2023 to November 30, 2023 Share repurchase program (1) 475,133 $ 346.37 475,133 $ 3,309,808,008 Employee transactions (2) 18,664 $ 344.13 N/A N/A December 1, 2023 to December 31, 2023 Share repurchase program (1) 516,544 $ 369.23 516,544 $ 3,119,083,448 Employee transactions (2) 92,825 $ 370.31 N/A N/A Totals Shar"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5828,
+      "text": "3 billion of liquidity consisting of $155 million in cash and cash equivalents and $2.1 billion available under our Revolving Credit Facility. Pursuant to our commercial paper program, we may issue unsecured notes in a maximum aggregate face amount of $2.5 billion outstanding at any time, with maturities up to 365 days from the date of issuance. Our $2.5 billion commercial paper program is backed "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4430,
+      "text": ") losses of consolidated investment entities 23 17 ( 20 ) Changes in operating assets and liabilities Restricted and segregated investments ( 8 ) ( 96 ) 25 Deferred acquisition costs 64 67 ( 8 ) Policyholder account balances, future policy benefits and claims, and market risk benefits, net 3,071 623 1,090 Derivatives, net of collateral ( 624 ) 315 ( 570 ) Receivables 276 39 ( 568 ) Brokerage depos"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6427,
+      "text": "share repurchase program does not require the purchase of any minimum number of shares, and depending on market conditions and other factors, these purchases may be commenced or suspended at any time without prior notice. Acquisitions under the share repurchase program may be made in the open market, through privately negotiated transactions or block trades or other means. During the year ended De"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6867,
+      "text": "may not be aligned with the hedging impacts. Further, the cost of hedging our liability for these guarantees has increased as a result of broad-based market and regulatory-driven changes in the collateral requirements of hedge trading counterparties. Changes in interest rates may affect our results of operations and financial condition. Certain of our insurance, annuity, investment products, wrap "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4500,
+      "text": "the LDTI standard and for determining the transition date and transition period adjustments, (ii) testing the relevance and reliability of the external data used by management to develop the discount rate curve, (iii) testing the completeness and accuracy of the data used by management to develop and update the significant market risk benefit assumptions, and (iv) the use of professionals with spe"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 3814,
+      "text": "policy benefits and claims $ 37,545 $ 34,132 Market risk benefits 1,762 2,118 Separate account liabilities 77,457 73,962 Customer deposits 37,321 30,775 Short-term borrowings 201 201 Long-term debt 3,399 2,821 Debt of consolidated investment entities, at fair value 2,155 2,363 Accounts payable and accrued expenses 2,603 2,242 Other liabilities 7,974 6,316 Other liabilities of consolidated investme"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9069767441860465,
+    "answer_relevancy": 0.8666448992075955,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9434
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:51:59.899096",
+   "duration_ms": 17312,
+   "answer": "Ameriprise Financial (AMP) manages its liquidity primarily through a holding company structure, where the parent company’s ability to meet its cash requirements—including shareholder dividends and debt obligations—depends on the receipt of dividends or capital returns from its subsidiaries. As of December 31, 2023, the company reported **$7.477 billion** in cash and cash equivalents, with a total of **$8.620 billion** when including restricted and segregated amounts.\n\n### Liquidity Sources and Subsidiary Capital\nThe company’s liquidity is heavily influenced by the performance and regulatory standing of its primary subsidiaries, such as RiverSource Life, Ameriprise Bank, and its broker-dealer entities. In 2023, these subsidiaries provided a net total of **$2.778 billion** in dividends and capital returns to the parent holding company. \n\nRegulatory capital requirements act as a significant factor in the movement of these funds. For example:\n*   **RiverSource Life:** Held $3.093 billion in actual capital against a regulatory requirement of $512 million as of year-end 2023.\n*   **Ameriprise Bank:** Maintained $1.715 billion in actual capital against a regulatory requirement of $1.153 billion.\n*   **Broker-Dealers:** Entities like Ameriprise Financial Services, LLC (AFS) and American Enterprise Investment Services, Inc. (AEIS) are subject to net capital rules that restrict capital withdrawals if they fall below certain thresholds.\n\n### Short-Term Obligations and Commitments for 2024\nAmeriprise enters 2024 with several identified short-term liabilities and capital commitments:\n*   **Short-Term Borrowings:** The company reported $201 million in short-term borrowings as of December 31, 2023.\n*   **Customer Deposits:** A significant liquidity consideration includes $37.321 billion in customer deposits held at Ameriprise Bank.\n*   **Accounts Payable and Accrued Expenses:** These totaled $2.603 billion at the end of 2023.\n*   **Shareholder Dividends:** In January 2024, the company announced a quarterly dividend of **$1.35 per common share**, which was scheduled for payment on February 27, 2024, to shareholders of record as of February 9, 2024.\n*   **Share Repurchases:** As of December 31, 2023, the company had **$3.1 billion** remaining under its current share repurchase authorization, which extends through September 30, 2025. These repurchases are intended to be funded via existing working capital and future earnings.\n\nThe company continuously evaluates its strategy for subsidiary payments to the parent company by considering the overall health of the business, risk management, and existing capital levels to ensure all 2024 obligations are met.\n\n### References\n\n- [1] AMERIPRISE FINANCIAL, INC.",
+   "answer_length": 2732,
+   "context_length": 34043,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 6,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6663,
+      "text": "Operations 32 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 65 Item 8. Financial Statements and Supplementary Data 71 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 170 Item 9A. Controls and Procedures 170 Item 9B. Other Information 170 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 170 PART III 171 I"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4500,
+      "text": "the LDTI standard and for determining the transition date and transition period adjustments, (ii) testing the relevance and reliability of the external data used by management to develop the discount rate curve, (iii) testing the completeness and accuracy of the data used by management to develop and update the significant market risk benefit assumptions, and (iv) the use of professionals with spe"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5775,
+      "text": "aries Ameriprise Financial is primarily a parent holding company for the operations carried out by our wholly-owned subsidiaries. Because of our holding company structure, our ability to meet our cash requirements, including the payment of dividends on our common stock, substantially depends upon the receipt of dividends or return of capital from our subsidiaries, particularly our life insurance s"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5720,
+      "text": ". (2) Regulatory capital requirement is based on the applicable regulatory requirement, calculated as of December 31, 2023 and 2022. (3) Actual capital is determined on an adjusted GAAP basis. (4) ACC is required to hold capital in compliance with the Minnesota Department of Commerce and SEC capital requirements. (5) Actual capital and regulatory capital requirements are determined in accordance w"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5548,
+      "text": "of an investment that resulted in a realized gain and an increase to amortized cost — — 17 December 31, 2023 2022 (in millions) Reconciliation of cash and cash equivalents, including amounts restricted: Cash and cash equivalents $ 7,477 $ 6,964 Cash of consolidated investment entities 87 133 Restricted and segregated cash, cash equivalents and investments 1,635 2,229 Less: Restricted and segregate"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5164,
+      "text": "267 Fair value of hedging instruments (166) (287) Debt issuance costs (245) (233) Total borrowings $ 20,443 $ 19,570 A primary source of liquidity is our ability to access the corporate bond markets. Through these markets, we issue a variety of long-term fixed rate notes, in a variety of currencies, to manage our overall funding costs. Another primary source of liquidity is our ability to access t"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8846153846153846,
+    "answer_relevancy": 0.8320223493800132,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6792
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:52:17.988619",
+   "duration_ms": 18090,
+   "answer": "Ameriprise Financial (AMP) maintains a robust liquidity position to meet its diverse short-term financial obligations for 2024. As of December 31, 2023, the company reported consolidated cash and cash equivalents of $7.5 billion, excluding consolidated investment entities (CIEs) and other restricted cash. At the parent company level, management estimated available liquidity to be approximately $1.8 billion. This liquidity pool is comprised of cash, cash equivalents, unencumbered liquid securities (primarily U.S. government agency mortgage-backed securities), a $727 million line of credit with an affiliate, and a portion of its $1.0 billion unsecured revolving credit facility.\n\n### Liquidity Sources and Borrowing Capacity\nBeyond immediate cash reserves, Ameriprise utilizes several credit and borrowing facilities to support its operational stability. The company's $1.0 billion revolving credit facility, which expires in June 2026, can be increased to $1.25 billion upon meeting specific requirements; as of year-end 2023, there were no outstanding borrowings against it. Additionally, the company leverages collateralized borrowing capacities through the Federal Home Loan Bank (FHLB) and the Federal Reserve:\n\n*   **FHLB Facilities:** Subsidiaries such as RiverSource Life Insurance Company and Ameriprise Bank have a maximum borrowing capacity of $8.6 billion, with $201 million outstanding as of December 31, 2023.\n*   **Federal Reserve:** Ameriprise Bank maintains an estimated borrowing capacity of $12.3 billion, collateralized by mortgage-backed and corporate debt securities, with no outstanding obligations at the end of 2023.\n\n### 2024 Short-Term Obligations\nThe company faces significant contractual obligations and cash requirements throughout 2024. These short-term needs include:\n*   **Investment Certificate Maturities:** $12.3 billion.\n*   **Insurance and Annuity Benefits:** An estimated $2.2 billion.\n*   **Maturing Long-Term Debt:** $550 million due in October 2024.\n*   **Demand Deposits:** $23.9 billion in banking and brokerage deposits that are payable on demand.\n\n### Funding Strategy and Outlook\nAmeriprise management believes that its current financial resources are sufficient to fund both short-term and long-term operating liquidity needs. The funding strategy relies on a combination of cash flows from operating activities, available cash balances, and access to debt markets. Because Ameriprise Financial, Inc. operates as a parent holding company, its ability to meet these requirements—including paying shareholder dividends—is heavily dependent on receiving dividends or returns of capital from its subsidiaries, such as RiverSource Life and Ameriprise Bank.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. Document Title: AMP.html",
+   "answer_length": 2780,
+   "context_length": 122090,
+   "context": {
+    "entities": 39,
+    "relations": 177,
+    "chunks": 10,
+    "rerank_candidates": 125,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "MRO",
+     "AMP"
+    ],
+    "entity_names": [
+     "Ameriprise Financials Cash",
+     "Data Analytics Provider",
+     "60 Index Ameriprise Financial, Inc. Corporate Debt Securities",
+     "Liquidity",
+     "13 Index Ameriprise Financial",
+     "Availability Of Short-Term And Long-Term Funding",
+     "1 Index Ameriprise Financial",
+     "Financial Condition",
+     "Ameriprise Financial, Inc. Stock Price",
+     "Financial Condition, Liquidity And Capital Resources",
+     "Ameriprise Holdings, Inc.",
+     "Net Cash Flow From Operations",
+     "Ameriprise Advisor Capital, LLC",
+     "Cash Flows",
+     "Parent Company"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 5891,
+      "text": ", respectively, in cash and cash equivalents excluding CIEs and other restricted cash on a consolidated basis. At December 31, 2023 and 2022, the parent company had $544 million and $389 million, respectively, in cash, cash equivalents, and unencumbered liquid securities. Liquid securities predominantly include U.S. government agency mortgage back securities. Additional sources of liquidity includ"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "273,963 $ 3,474,380,514 Employee transactions (2) 1,613 $ 321.01 N/A N/A November 1, 2023 to November 30, 2023 Share repurchase program (1) 475,133 $ 346.37 475,133 $ 3,309,808,008 Employee transactions (2) 18,664 $ 344.13 N/A N/A December 1, 2023 to December 31, 2023 Share repurchase program (1) 516,544 $ 369.23 516,544 $ 3,119,083,448 Employee transactions (2) 92,825 $ 370.31 N/A N/A Totals Shar"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6663,
+      "text": "Operations 32 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 65 Item 8. Financial Statements and Supplementary Data 71 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 170 Item 9A. Controls and Procedures 170 Item 9B. Other Information 170 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 170 PART III 171 I"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5080,
+      "text": "Related Transactions, and Director Independence The information under the captions “Corporate Governance-Board Composition-Director Independence,” “Corporate Governance-Board Composition-Independence of Committee Members” and “Certain Transactions” in the Proxy Statement is incorporated herein by reference. Item 14. Principal Accountant Fees and Services The information set forth under the heading"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5217,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Transition Period from___to___ Commission File No. 1-32525 AMER"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5097,
+      "text": "for Long-Duration Contracts , management no longer excludes adjustments for deferred acquisition costs (“DAC”), deferred sales inducement costs (“DSIC”) and unearned revenue amortization from adjusted operating earnings measures. Amortization of DAC, DSIC, and unearned revenue is no longer impacted by markets and is now amortized on a constant-level basis in accordance with GAAP. It is management’"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5828,
+      "text": "3 billion of liquidity consisting of $155 million in cash and cash equivalents and $2.1 billion available under our Revolving Credit Facility. Pursuant to our commercial paper program, we may issue unsecured notes in a maximum aggregate face amount of $2.5 billion outstanding at any time, with maturities up to 365 days from the date of issuance. Our $2.5 billion commercial paper program is backed "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4430,
+      "text": ") losses of consolidated investment entities 23 17 ( 20 ) Changes in operating assets and liabilities Restricted and segregated investments ( 8 ) ( 96 ) 25 Deferred acquisition costs 64 67 ( 8 ) Policyholder account balances, future policy benefits and claims, and market risk benefits, net 3,071 623 1,090 Derivatives, net of collateral ( 624 ) 315 ( 570 ) Receivables 276 39 ( 568 ) Brokerage depos"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8960513240451607,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.974
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:52:35.423356",
+   "duration_ms": 17435,
+   "answer": "As of December 31, 2023, Ameriprise Financial (AMP) maintains a substantial liquidity position to address its 2024 obligations. On a consolidated basis, the company held $7.5 billion in cash and cash equivalents (excluding consolidated investment entities and restricted cash). At the parent company level, liquid resources totaled $544 million, consisting of cash, cash equivalents, and unencumbered liquid securities, the latter of which are predominantly U.S. government agency mortgage-backed securities.\n\nTo supplement these cash balances, Ameriprise utilizes several diversified funding sources. Management estimates the total liquidity available to the parent company to be approximately $1.8 billion, which includes cash on hand, a $727 million line of credit with an affiliate, and a portion of its $1.0 billion unsecured revolving committed credit facility. Furthermore, the company maintains significant borrowing capacity through the Federal Home Loan Bank (FHLB) and the Federal Reserve, with estimated capacities of $8.6 billion and $12.3 billion, respectively.\n\nAmeriprise faces several significant short-term contractual obligations and potential cash demands throughout 2024. These include:\n*   **Investment Certificate Maturities:** Approximately $12.3 billion.\n*   **Insurance and Annuity Benefits:** Estimated at $2.2 billion.\n*   **Maturing Long-Term Debt:** $550 million due in October 2024.\n*   **Demand Deposits:** Banking and brokerage deposits totaling $23.9 billion that are payable on demand.\n\nDespite these large requirements, management believes its financial resources are adequate. The company expects that cash flows from operating activities, existing cash balances, access to debt markets, and dividends from subsidiaries will be sufficient to fund both short-term and long-term operating liquidity needs and stress requirements. As a parent holding company, Ameriprise remains dependent on these subsidiary dividends and returns of capital to meet its global cash requirements.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. Period: December 31, 2023",
+   "answer_length": 2089,
+   "context_length": 123803,
+   "context": {
+    "entities": 39,
+    "relations": 181,
+    "chunks": 10,
+    "rerank_candidates": 126,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "MRO",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Ameriprise Financials Cash",
+     "Data Analytics Provider",
+     "60 Index Ameriprise Financial, Inc. Corporate Debt Securities",
+     "Liquidity",
+     "13 Index Ameriprise Financial",
+     "Availability Of Short-Term And Long-Term Funding",
+     "Ameriprise Financial, Inc. Asset Management Segment",
+     "Financial Condition",
+     "1 Index Ameriprise Financial",
+     "Cash Flows",
+     "Ameriprise Advisor Capital, LLC",
+     "Managements Discussion And Analysis Of Financial Condition",
+     "Ameriprise Financial, Inc. Stock Price",
+     "Cash Requirements",
+     "Parent Company"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 5891,
+      "text": ", respectively, in cash and cash equivalents excluding CIEs and other restricted cash on a consolidated basis. At December 31, 2023 and 2022, the parent company had $544 million and $389 million, respectively, in cash, cash equivalents, and unencumbered liquid securities. Liquid securities predominantly include U.S. government agency mortgage back securities. Additional sources of liquidity includ"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "273,963 $ 3,474,380,514 Employee transactions (2) 1,613 $ 321.01 N/A N/A November 1, 2023 to November 30, 2023 Share repurchase program (1) 475,133 $ 346.37 475,133 $ 3,309,808,008 Employee transactions (2) 18,664 $ 344.13 N/A N/A December 1, 2023 to December 31, 2023 Share repurchase program (1) 516,544 $ 369.23 516,544 $ 3,119,083,448 Employee transactions (2) 92,825 $ 370.31 N/A N/A Totals Shar"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6663,
+      "text": "Operations 32 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 65 Item 8. Financial Statements and Supplementary Data 71 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 170 Item 9A. Controls and Procedures 170 Item 9B. Other Information 170 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 170 PART III 171 I"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5217,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Transition Period from___to___ Commission File No. 1-32525 AMER"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5097,
+      "text": "for Long-Duration Contracts , management no longer excludes adjustments for deferred acquisition costs (“DAC”), deferred sales inducement costs (“DSIC”) and unearned revenue amortization from adjusted operating earnings measures. Amortization of DAC, DSIC, and unearned revenue is no longer impacted by markets and is now amortized on a constant-level basis in accordance with GAAP. It is management’"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5828,
+      "text": "3 billion of liquidity consisting of $155 million in cash and cash equivalents and $2.1 billion available under our Revolving Credit Facility. Pursuant to our commercial paper program, we may issue unsecured notes in a maximum aggregate face amount of $2.5 billion outstanding at any time, with maturities up to 365 days from the date of issuance. Our $2.5 billion commercial paper program is backed "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4430,
+      "text": ") losses of consolidated investment entities 23 17 ( 20 ) Changes in operating assets and liabilities Restricted and segregated investments ( 8 ) ( 96 ) 25 Deferred acquisition costs 64 67 ( 8 ) Policyholder account balances, future policy benefits and claims, and market risk benefits, net 3,071 623 1,090 Derivatives, net of collateral ( 624 ) 315 ( 570 ) Receivables 276 39 ( 568 ) Brokerage depos"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6427,
+      "text": "share repurchase program does not require the purchase of any minimum number of shares, and depending on market conditions and other factors, these purchases may be commenced or suspended at any time without prior notice. Acquisitions under the share repurchase program may be made in the open market, through privately negotiated transactions or block trades or other means. During the year ended De"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8760257376630548,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.969
+   }
+  }
+ }
+}

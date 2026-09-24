@@ -1,0 +1,490 @@
+{
+ "question_id": "c8c289bc",
+ "ticker": "HON",
+ "question": "Impact of Honeywell's (HON) R&D & Forge expansion on competitive positioning and revenue sustainability.",
+ "expected_answer": "The information provided indicates that Honeywell International Inc. is strategically investing in research and development (R&D) to drive profitable growth and innovation. Investments in R&D are enhancing competitive positioning by enabling the company to develop innovative products with technological excellence. This improves the overall quality of its offerings and supports its ability to address complex challenges in performance, sustainability, and cybersecurity. Concurrently, the expansion of the Honeywell Forge platform—which offers connected solutions for aircraft, buildings, plants, and workers—strengthens the company’s competitive edge by integrating advanced industrial software into its portfolio. Honeywell Forge helps clients optimize operations, improve processes, and drive productivity, which positions the company as a leader in digital industrial transformation. This dual approach not only boosts market differentiation but also contributes to sustainable revenue growth through increased customer adoption of high-value solutions, enhanced operational efficiencies, and the creation of recurring revenue streams. These strategic efforts align with broader initiatives such as margin expansion and disciplined capital allocation, further underpinning long-term growth and shareholder value.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1663,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:31:51.618704",
+   "duration_ms": 36667,
+   "answer": "Honeywell International Inc. has strategically positioned its research, development, and engineering (R&D&E) and digital expansion through the Honeywell Forge platform to enhance its competitive standing and ensure long-term revenue sustainability. Following a six-year \"Great Integration\" period, the company has transformed into an integrated operating company focused on three primary megatrends: automation, the future of aviation, and energy transition. These efforts are underpinned by the Honeywell Accelerator operating model, which seeks to standardize operations across business units to drive growth, margin expansion, and cash generation.\n\n### R&D and Product Innovation\nHoneywell conducts global research and development to drive product innovation, which is essential for maintaining a competitive edge against rivals such as RTX Corporation, ABB, and Emerson Electric. These R&D efforts are aimed at complying with evolving regulations and meeting customer demands for cost-effective, high-quality products. For example, in the Performance Materials and Technologies segment, R&D is critical for developing reduced and low global warming potential materials and process technologies for refining and petrochemicals. However, these investments face risks, including the high cost of developing AI-based analytics and the potential for cybersecurity incidents to diminish the value of intellectual property.\n\n### Impact of Honeywell Forge on Business Segments\nThe expansion of Honeywell Forge—a suite of software solutions that blends physical products with digital connectivity—serves as a primary growth enabler across all reportable segments:\n\n*   **Aerospace:** Forge enables predictive maintenance and analytics, allowing customers to improve fleet management and flight operation efficiency.\n*   **Building Automation:** The platform connects data from various building assets to enable smart maintenance, improve performance, and protect against security threats.\n*   **Industrial Automation:** Forge facilitates integration and connectivity in industrial environments, turning data into clear actions to maximize productivity and efficiency.\n*   **Safety and Productivity Solutions:** It automates processes to reduce downtime and safety costs while improving warehouse accuracy and predictability.\n\n### Competitive Positioning and Revenue Sustainability\nHoneywell’s competitive positioning is defined by factors such as performance, applied technology, product innovation, and reliability. While the company faces intense price competition, its ability to integrate software like Forge with physical hardware allows it to maintain a significant market position. This technological differentiation is a key driver of the company's $31.8 billion backlog as of December 31, 2023. \n\nThe sustainability of Honeywell's revenue is further supported by its diverse customer base and its role as a major contractor for the U.S. Department of Defense. In 2023, the company reported full-year revenue of $36.7 billion, a 3% increase from the previous year. This growth, supported by a robust backlog and the standardization provided by Accelerator 3.0, provides a strong foundation for future capital deployment and continued growth across its core business models.\n\n### References\n\n* [1] Honeywell International Inc. 2023 Annual Report on Form 10-K",
+   "answer_length": 3360,
+   "context_length": 97575,
+   "context": {
+    "entities": 60,
+    "relations": 91,
+    "chunks": 10,
+    "rerank_candidates": 35,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Honeywell.Com",
+     "Safety and Productivity Solutions",
+     "About Honeywell",
+     "Honeywell UOP",
+     "Honeywells Global Security Organization",
+     "Energy and Sustainability Solutions",
+     "Honeywells Information Security Organization",
+     "Materials And Technologies",
+     "Honeywell Website",
+     "Ken West",
+     "Research, Development, And Engineering",
+     "Research And Development (R&D)",
+     "Fire, Security, Safety, Healthcare, Energy Efficiency Standards",
+     "Productivity, Sensing, Safety, and Security Technologies",
+     "Energy And Sustainability Solutions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 3766,
+      "text": "Consolidated Statements of Cash Flows, (v) Consolidated Statements of Shareowners' Equity and (vi) Notes to Consolidated Financial Statements, tagged as blocks of text and including detailed tags (filed herewith) 101.SCH iXBRL Taxonomy Extension Schema (filed herewith) 101.CAL iXBRL Taxonomy Extension Calculation Linkbase (filed herewith) 101.DEF iXBRL Taxonomy Extension Definition Linkbase (filed"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8162696905816129,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9184
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:32:28.382070",
+   "duration_ms": 36763,
+   "answer": "Honeywell International Inc. (HON) leverages its research and development (R&D) initiatives and the expansion of its **Honeywell Forge** software platform to maintain its standing as a significant competitor in diverse global markets. The company's strategy focuses on blending physical products with advanced software to serve industries such as aerospace, building technologies, and performance materials.\n\n### Competitive Positioning through Innovation\nHoneywell's competitive position is driven by factors such as performance, applied technology, product innovation, and quality. The company is a significant competitor in all its major product and service areas, facing rivals like Garmin and L3 Harris in Aerospace, and 3M and Zebra Technologies in Safety and Productivity Solutions. The **Honeywell Forge** platform is central to this positioning; it enables integration and connectivity in industrial environments, turning data into clear actions to maximize productivity. Forge also supports emerging market needs, such as providing sensors for battery safety in the \"electric future\" and delivering solutions for \"Net Zero\" pathways, including near real-time emissions reporting.\n\nFurthermore, Forge enhances competitive differentiation by:\n*   **Improving Efficiency:** Digitally automating processes to reduce downtime and safety costs in warehouse and workflow operations.\n*   **Cybersecurity:** Identifying risks and acting on cyber-related incidents to protect processes and assets, which is critical as cybersecurity threats can diminish the value of R&D investments.\n*   **Sustainability:** Controlling health and safety factors to ensure compliance with changing building standards and environmental regulations.\n\n### Revenue Sustainability and Financial Impact\nRevenue sustainability at Honeywell is supported by consistent investment in R&D and a robust backlog of firm contracts. In 2023, the company reported R&D expenses of $1,456 million, following $1,478 million in 2022. This continuous investment feeds the development of new products, which is essential for maintaining competitiveness in segments like **Engineered Materials**. The company’s financial health is further anchored by a backlog of $31,777 million as of December 31, 2023, with approximately 60% of this expected to be recognized as revenue in 2024.\n\nHowever, several factors pose risks to long-term revenue sustainability:\n*   **Market Acceptance:** Economic returns from R&D are heavily dependent on successful product launches and widespread customer adoption.\n*   **Regulatory Pressures:** New legal requirements, particularly regarding ESG (Environmental, Social, and Governance) matters and potential PFAS legislation, could impose significant operational restrictions or impact the sale of certain advanced materials.\n*   **Technological Competition:** The wider adoption of artificial intelligence (AI) in product development by competitors could accelerate rivalry, potentially reducing demand for existing products and impacting future profitability.\n\n### References\n\n- [1] Honeywell International Inc. Document Title One",
+   "answer_length": 3123,
+   "context_length": 101226,
+   "context": {
+    "entities": 53,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 150,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "EBITDA Margin",
+     "New Solutions And Businesses",
+     "Competition",
+     "Products And Systems Integration",
+     "Financial Condition",
+     "Market Share",
+     "Geographic Expansion Plans",
+     "Product Sales",
+     "Artificial Intelligence Adoption",
+     "Revenue And Profits",
+     "Future Cash Flow",
+     "Pipeline Development",
+     "Digital Gaming Business",
+     "External Development Opportunities",
+     "Internal Development Projects"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 3766,
+      "text": "Consolidated Statements of Cash Flows, (v) Consolidated Statements of Shareowners' Equity and (vi) Notes to Consolidated Financial Statements, tagged as blocks of text and including detailed tags (filed herewith) 101.SCH iXBRL Taxonomy Extension Schema (filed herewith) 101.CAL iXBRL Taxonomy Extension Calculation Linkbase (filed herewith) 101.DEF iXBRL Taxonomy Extension Definition Linkbase (filed"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5864,
+      "text": "Report and disclosures regarding compensation committee interlocks and insider participation will be contained in the Proxy Statement, and such information is incorporated herein by reference. 118 Honeywell International Inc. TABLE OF CONTENTS SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS Information relating to security ownership of certain benefic"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4538,
+      "text": "Honeywell's Form 10-K for the year ended December 31, 2022)",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8387096774193549,
+    "answer_relevancy": 0.7511288447413023,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8975
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:32:58.773196",
+   "duration_ms": 30391,
+   "answer": "Honeywell International Inc. (HON) utilizes research and development (R&D) and its digital software suite, Honeywell Forge, to strengthen its competitive positioning across four primary business segments: Aerospace, Building Technologies, Performance Materials and Technologies (PMT), and Safety and Productivity Solutions (SPS). The company is currently focused on aligning its operations with three distinct global megatrends—automation, the future of aviation, and the energy transition—all of which are underpinned by digitization.\n\n### Integration of Honeywell Forge and Competitive Positioning\nHoneywell Forge serves as a critical differentiator in the company's product and service offerings by transforming data into actionable insights across its various business units. In the **Aerospace** segment, Forge enables customers to utilize predictive maintenance and analytics for more efficient fleet management. In **Building Technologies**, it allows for the digital management of buildings, connecting data from diverse assets to improve performance and protect against security threats. \n\nThe **PMT** and **SPS** segments leverage Forge to provide a holistic view of industrial operations and automate processes. These capabilities identify cyber-related risks and reduce downtime and safety costs, helping Honeywell maintain its status as a significant competitor in its major markets. Honeywell competes against major firms such as Garmin and RTX Corporation in Aerospace, and Siemens and Schneider Electric in Building Technologies, by focusing on factors such as applied technology, product innovation, and reliability.\n\n### R&D and Operating Model Strategy\nWhile R&D expenses remained flat in 2023 compared to 2022, Honeywell has focused on the \"Great Integration,\" transforming into an integrated operating company. Through the \"Honeywell Accelerator\" operating model, the company is standardizing its organization across four main business models: products, aftermarket services, projects, and software. This standardization is intended to facilitate the transfer of best practices and drive margin expansion and growth. To support this, Honeywell is completing a full suite of information technology platforms and implementing \"digital threads\" to provide data that improves overall business performance.\n\n### Revenue Sustainability and Future Growth\nThe sustainability of Honeywell's revenue is supported by a robust backlog, which reached $31.8 billion as of December 31, 2023—an increase from $29.6 billion the previous year. This backlog provides a strong foundation for future growth and capital deployment. In 2023, the company reported total sales of $36.7 billion, representing a 3% growth led by strong demand in Commercial Aviation, Defense and Space, and Process Solutions.\n\nTo further ensure long-term revenue sustainability, Honeywell announced a business realignment effective in 2024. This change will form two new reportable segments: **Industrial Automation** and **Energy and Sustainability Solutions**. This strategic shift is designed to better align the company's internal structure with its core megatrends, positioning Honeywell to capture high-return opportunities in evolving global markets.\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 3286,
+   "context_length": 45764,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 7,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6525,
+      "text": "Sales to the U.S. Department of Defense $ 2,933 $ 2,886 $ 3,219 Sales to other U.S. government departments and agencies 508 546 703 Total sales to the U.S. government $ 3,441 $ 3,432 $ 3,922 7 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL INTERNATIONAL OPERATIONS We engage in manufacturing, sales, service, and research and development globally. U.S. exports and non-U.S. manufactur"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7732813137287496,
+    "context_recall": 0.5714285714285714,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8362
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:33:37.378636",
+   "duration_ms": 38605,
+   "answer": "Honeywell International Inc. (HON) leverages its Research and Development (R&D) and the Honeywell Forge software suite to maintain its competitive position as an integrated operating company. By blending physical products with advanced software, the company aligns its portfolio with three primary megatrends: **automation**, the **future of aviation**, and **energy transition**, all of which are underpinned by digitization.\n\n### Competitive Positioning via Honeywell Forge\nThe expansion of **Honeywell Forge** is a central component of the company's competitive strategy across its four reportable business segments. By providing data-driven solutions, Forge allows Honeywell to differentiate itself from competitors such as RTX Corporation, Johnson Controls, and ABB based on applied technology and product innovation.\n\n*   **Aerospace:** Forge enables predictive maintenance and analytics, allowing customers to improve fleet management and flight operation efficiency.\n*   **Honeywell Building Technologies:** The software connects data from various assets to facilitate smart maintenance, improve building performance, and protect against security threats.\n*   **Performance Materials and Technologies:** Forge provides a holistic view of industrial operations to maximize productivity while identifying and acting on cyber-related incidents.\n*   **Safety and Productivity Solutions:** The suite digitally automates processes to improve efficiency while reducing downtime and safety costs.\n\n### R&D and Innovation Strategy\nHoneywell’s R&D initiatives are critical for developing high-quality performance chemicals, aerospace systems, and sensing technologies. These efforts are designed to meet evolving customer demands and comply with increasingly stringent environmental and health standards. However, the company acknowledges that R&D investments are subject to risks, including cybersecurity incidents that could diminish the value of technological advancements and regulatory changes, such as potential PFAS legislation, that may impact product sales.\n\nTo maintain its competitive edge, Honeywell utilizes the **Honeywell Accelerator** operating model, which standardizes best practices across its business models—products, aftermarket services, projects, and software. This system includes over 22,000 virtual learning modules to ensure common knowledge and operational excellence across the enterprise.\n\n### Revenue Sustainability and Growth\nRevenue sustainability is supported by a robust financial foundation and a significant **backlog of $31.8 billion** as of December 31, 2023. Honeywell expects to recognize approximately 60% of this backlog as revenue in 2024. The company's focus on \"revenue growth, margin expansion, and improved working capital turnover\" is intended to maximize operating cash flows, which reached $5.3 billion in 2023.\n\nStrategic growth is further pursued through **mergers and acquisitions** (M&A) that align with its core megatrends. Recent examples include the acquisitions of Compressor Controls Corporation and SCADAfence, as well as the agreement to acquire Carrier Global Corporation’s Global Access Solutions business. These investments, combined with R&D, are intended to accelerate growth and ensure long-term shareholder value despite intense price competition and macroeconomic volatility.\n\n### References\n\n* [1] Honeywell International Inc. Document Title: HON.html",
+   "answer_length": 3421,
+   "context_length": 122643,
+   "context": {
+    "entities": 72,
+    "relations": 138,
+    "chunks": 10,
+    "rerank_candidates": 166,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "About Honeywell",
+     "EBITDA Margin",
+     "Honeywell.Com",
+     "New Solutions And Businesses",
+     "Safety and Productivity Solutions",
+     "Competition",
+     "Honeywell UOP",
+     "Products And Systems Integration",
+     "Honeywells Global Security Organization",
+     "Geographic Expansion Plans",
+     "Materials And Technologies",
+     "Product Sales",
+     "Research And Development (R&D)",
+     "Financial Condition",
+     "Energy and Sustainability Solutions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.967741935483871,
+    "answer_relevancy": 0.7759803007841551,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9359
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:34:12.299441",
+   "duration_ms": 34921,
+   "answer": "Honeywell International Inc. (HON) leverages substantial investments in Research and Development (R&D) and the expansion of its Forge software solutions to enhance its competitive positioning and ensure long-term revenue sustainability. In 2023, Honeywell invested $1,456 million in R&D, a core component of its corporate strategy to innovate and qualify products that meet evolving customer demands and regulatory standards. This innovation engine is supported by the Honeywell Accelerator operating model, which standardizes best practices across the organization's business models to drive growth and margin expansion.\n\nThe expansion of Honeywell Forge solutions significantly strengthens the company's competitive edge by blending physical products with advanced digital capabilities across its diverse segments:\n\n*   **Aerospace:** Forge enables customers to utilize predictive maintenance and analytics, allowing for more efficient flight operations and enhanced fleet management.\n*   **Honeywell Building Technologies:** The platform allows for the digital management of buildings, connecting data from various assets to improve energy efficiency, building performance, and security threat protection.\n*   **Performance Materials and Technologies:** Forge provides integration and connectivity to turn industrial data into actionable insights, maximizing productivity while offering cybersecurity capabilities to protect people and assets.\n*   **Safety and Productivity Solutions:** The solutions digitally automate processes to improve warehouse and workflow efficiency while reducing downtime and safety-related costs.\n\nThrough these technological advancements, Honeywell maintains a significant competitive position against major rivals such as RTX Corporation, Johnson Controls, and ABB, competing on factors including applied technology, product innovation, and reliability.\n\nRevenue sustainability is underpinned by a robust backlog, which reached $31.8 billion at the end of 2023. This backlog provides a foundation for future growth and enables the company to continue deploying capital toward high-return opportunities. Honeywell's strategic alignment with global megatrends—specifically automation, the future of aviation, and energy transition—positions its portfolio to capture demand in high-growth sectors. \n\nHowever, maintaining this trajectory involves balancing investments with profitability. While R&D and new solutions are vital for growth, investments in new businesses can sometimes offset potential EBITDA margin expansion. Additionally, revenue sustainability faces risks from macroeconomic volatility, global supply chain constraints, and shifting regulatory landscapes, such as evolving Environmental, Social, and Governance (ESG) reporting requirements and potential legislation regarding per/polyfluoroalkyl substances (PFAS) that could impact specific business units.\n\n### References\n\n* [1] Honeywell International Inc. Document Title One",
+   "answer_length": 2974,
+   "context_length": 120061,
+   "context": {
+    "entities": 71,
+    "relations": 149,
+    "chunks": 10,
+    "rerank_candidates": 154,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Honeywell.Com",
+     "EBITDA Margin",
+     "Safety and Productivity Solutions",
+     "New Solutions And Businesses",
+     "About Honeywell",
+     "Competition",
+     "Honeywell UOP",
+     "Products And Systems Integration",
+     "Honeywells Global Security Organization",
+     "Financial Condition",
+     "Energy and Sustainability Solutions",
+     "Market Share",
+     "Honeywells Information Security Organization",
+     "Geographic Expansion Plans",
+     "Materials And Technologies"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 3766,
+      "text": "Consolidated Statements of Cash Flows, (v) Consolidated Statements of Shareowners' Equity and (vi) Notes to Consolidated Financial Statements, tagged as blocks of text and including detailed tags (filed herewith) 101.SCH iXBRL Taxonomy Extension Schema (filed herewith) 101.CAL iXBRL Taxonomy Extension Calculation Linkbase (filed herewith) 101.DEF iXBRL Taxonomy Extension Definition Linkbase (filed"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9830508474576272,
+    "answer_relevancy": 0.8276599418751718,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9527
+   }
+  }
+ }
+}

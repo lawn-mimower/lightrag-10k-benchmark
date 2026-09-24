@@ -1,0 +1,461 @@
+{
+ "question_id": "ab124c52",
+ "ticker": "MSI",
+ "question": "Capex for Motorola Solutions (MSI) from 2021 to 2023 shows distinct trends in spending.",
+ "expected_answer": "The total capital expenditure for Motorola Solutions, Inc. in 2023 is $253 million. In comparison, the company's capital expenditures were $256 million in 2022 and $243 million in 2021. This represents a slight decrease of $3 million from 2022 to 2023 (a decline of approximately 1.2%), and an increase of $10 million from 2021 to 2023 (an increase of about 4.1%).",
+ "category": "Footnotes",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 400,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:04:02.047296",
+   "duration_ms": 27369,
+   "answer": "Motorola Solutions (MSI) demonstrated a consistent commitment to investment in its technology and business expansion between 2021 and 2023, with significant capital allocation toward acquisitions and internal development. In 2022, the company recorded capital expenditures of $1,480 million. This was part of a broader investment strategy that year which included $3,177 million spent on acquisitions to enhance its portfolio.\n\n### **Research and Development Trends**\nA prominent trend in MSI’s spending is the steady increase in research and development (R&D) expenditures. The company's R&D investment grew annually over the three-year period:\n*   **2021:** $734 million\n*   **2022:** $779 million (a 6% year-over-year increase)\n*   **2023:** $858 million\n\nThe growth in R&D spending has been attributed to investments in core technologies, support for acquired businesses, and share-based compensation. Throughout this period, the company noted that compliance with emerging regulations—including those related to artificial intelligence, biometrics, and telecommunications—did not have a material effect on its capital expenditures.\n\n### **Capital Management and Future Outlook**\nIn addition to capital expenditures, MSI utilized its financial resources to return value to shareholders. In 2023, the company returned approximately $1.4 billion through $804 million in share repurchases and $589 million in dividends. By the end of 2023, the company reported having used approximately $15.5 billion of its authorized share repurchase authority, with $2.5 billion remaining for future use.\n\nThe company maintains a \"people first\" philosophy and continues to invest in its workforce and infrastructure. As of the end of 2023, MSI expressed confidence in its internal resources, stating it has adequate cash and liquidity to meet expected capital expenditure and working capital requirements for the foreseeable future.\n\n### References\n\n- [1] MOTOROLA SOLUTIONS, INC. Annual Report On Form 10-K (2023)",
+   "answer_length": 2001,
+   "context_length": 85176,
+   "context": {
+    "entities": 60,
+    "relations": 65,
+    "chunks": 10,
+    "rerank_candidates": 19,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "2023 Net Sales",
+     "250,781 Shares",
+     "51,386 Shares",
+     "113,878 Shares",
+     "416,045 Shares",
+     "Contract Assets",
+     "Net Sales From Products",
+     "Early 2022",
+     "Net Sales From Services",
+     "Costs Of Products Sales",
+     "Costs Of Services Sales",
+     "166,132,981",
+     "2021-2023 Performance Measures",
+     "2023-2025 Performance Measures",
+     "2022-2024 Performance Measures"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5268,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ FORM 10-K ___ ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission File n"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4434,
+      "text": "). 106",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7144,
+      "text": "the net sales of the total segment in 2023. Video Our Video technology includes video management infrastructure, AI-powered security cameras including fixed and certain mobile video equipment as well as on-premise and cloud-based access control solutions. We deploy video security and access control solutions to thousands of government and enterprise customers around the world, including schools, t"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4696,
+      "text": "Stock Units Award between Motorola Solutions, Inc. and its non-employee directors under the Motorola Solutions Omnibus Incentive Plan of 2006 or any successor plan for grants on or after January 1, 2012 (incorporated by reference to Exhibit 10.40 to Motorola Solutions, Inc.’s Annual Report on Form 10-K for the fiscal year ended December 31, 2011). 10.55 Form of Motorola Solutions Deferred Stock Un"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.90625,
+    "answer_relevancy": 0.7897022932984527,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.424
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:04:17.898031",
+   "duration_ms": 15851,
+   "answer": "Capital expenditures (CapEx) for Motorola Solutions represent funds allocated for long-term investments in infrastructure, technologies, and acquisitions. These investments are central to the company’s strategy of evolving its Land Mobile Radio (LMR) focus and expanding its safety and security ecosystem, which includes Video Security, Access Control, and Command Center solutions. CapEx is categorized as part of the net cash used in investing activities on the company's financial statements.\n\n### Annual Spending Trends (2021–2023)\nBetween 2021 and 2023, Motorola Solutions demonstrated a consistent upward trend in its capital spending. The specific expenditures reported were:\n*   **2023:** $68.0 million\n*   **2022:** $40.1 million\n*   **2021:** $28.5 million\n\nThese funds support organic growth through the development of new products and technologies, as well as the maintenance and improvement of physical assets. Despite the increasing investment levels, the company noted that compliance with various regulations—including those governing telecommunications, artificial intelligence, and biometrics—did not have a material effect on capital expenditures during this three-year period.\n\n### Strategic Allocation and Funding\nThe company's capital expenditures are critical for supporting strategic initiatives and product development. Motorola Solutions relies on its internal resources, as well as continued access to capital markets, to fund these requirements. Access to these markets allows the company to raise necessary capital for operations, growth, and the repayment of debt.\n\nManagement evaluates the adequacy of internal resources to fund expected working capital and capital expenditure needs as part of its broader financial planning. Additionally, the company manages the repatriation of funds to balance global liquidity and cost, ensuring that sufficient capital is available to support its various business segments, including \"Products and Systems Integration\" and \"Software and Services.\"\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. December 31, 2023",
+   "answer_length": 2083,
+   "context_length": 99891,
+   "context": {
+    "entities": 39,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 112,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Capital Expenditure",
+     "Motorola Solutions",
+     "Capital Markets",
+     "Costs Of Services Sales",
+     "Motorola Solutions, Inc.",
+     "Capital Expenditures",
+     "Motorola Solutions Inc",
+     "Costs Of Products Sales",
+     "Business",
+     "Capital Markets Access",
+     "Management Resources",
+     "Information By Segment And Geographic Region",
+     "Net Sales From Products",
+     "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+     "Repatriation Of Funds"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4434,
+      "text": "). 106",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9705882352941176,
+    "answer_relevancy": 0.7850786606535736,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4389
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:04:40.149270",
+   "duration_ms": 22251,
+   "answer": "Based on the provided documents, there is no specific mention of historical capital expenditure (Capex) dollar amounts for the years 2021, 2022, and 2023. Consequently, I do not have enough information to answer your query regarding the specific trends in Capex spending for those years.\n\nHowever, the documentation does provide detailed information on other significant spending and investment trends for Motorola Solutions (MSI) during the 2021 to 2023 period, including shareholder returns and strategic technology investments.\n\n**Shareholder Returns and Cash Utilization**\nMotorola Solutions demonstrated a consistent trend in returning value to shareholders through dividends and share repurchases between 2021 and 2023:\n*   **Dividends:** Cash dividends paid to common stock holders increased annually, from $482 million in 2021 to $530 million in 2022, and reaching $589 million in 2023.\n*   **Share Repurchases:** Spending on share repurchases fluctuated over the period. The company spent $528 million in 2021, which increased to $836 million in 2022, and was $804 million in 2023. As of December 31, 2023, approximately $2.5 billion remained available for future repurchases under the authorized program.\n\n**Strategic Investments**\nThe company’s investment strategy focuses on evolving its core technologies—Land Mobile Radio (LMR) Communications, Video, and Command Center—both organically and through acquisitions. Motorola Solutions intends to use its available cash, investments, and debt facilities to support and invest in its existing products and technologies while seeking new acquisition opportunities related to strategic growth.\n\n**Future Spending Commitments**\nAs of December 31, 2023, the company reported material cash requirements for the short-term (within 12 months) and long-term. These include:\n*   **Purchase Obligations:** Firm, non-cancelable commitments totaling $131 million in the short term and $338 million in the long term. These include license agreements and agreements with contract manufacturers.\n*   **Lease Obligations:** Total obligations of $145 million in the short term and $446 million in the long term for office, factory, and warehouse space.\n\nMotorola Solutions expects to fund these requirements, alongside future capital expenditures, using a combination of operating cash flows, existing cash balances, and potential borrowings.\n\n### References\n\n* [1] {\"ticker\":\"MSI\",\"company\":\"MOTOROLA SOLUTIONS, INC.\",\"period\":\"December 31, 2023\",\"source\":\"MSI.html\"}",
+   "answer_length": 2510,
+   "context_length": 12623,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9655172413793104,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2414
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:05:01.805371",
+   "duration_ms": 21656,
+   "answer": "Motorola Solutions (MSI) maintains a strategic approach to capital allocation, utilizing capital expenditures (CapEx) to fund the acquisition, maintenance, and improvement of physical assets, technology development, and infrastructure. These investments are critical for supporting the company's long-term growth and operational capabilities across its business segments, specifically \"Products and Systems Integration\" and \"Software and Services.\"\n\n### Annual Capital Expenditure Trends\nFor the fiscal years 2021 through 2023, Motorola Solutions reported a consistent upward trend in direct capital expenditures related to property, plant, and equipment. The spending for each year was as follows:\n*   **2021:** $29 million (reported as a $28.5 million outflow)\n*   **2022:** $40 million (reported as a $40.1 million outflow)\n*   **2023:** $68 million (reported as a $68.0 million outflow)\n\nThis progression reflects an increased allocation of funds toward the acquisition or improvement of long-term physical assets and infrastructure required to support its global mission-critical communication technologies.\n\n### Acquisitions and Strategic Investments\nBeyond traditional property and equipment, Motorola Solutions heavily allocates capital toward acquisitions and investments to expand its technological ecosystem, including Land Mobile Radio (LMR) Communications, Video Security, and Command Center solutions. Unlike the steady rise in direct physical CapEx, strategic investment spending showed significant volatility during this period:\n*   **2021:** $521 million\n*   **2022:** $1.2 billion (recorded as $1,177 million)\n*   **2023:** $180 million\n\nThe sharp increase in 2022 was driven by strategic moves such as the acquisition of 911 Datamaster, Inc. and Openpath Security. In contrast, 2023 saw a substantial decrease in investment spending as the company focused on integrating existing acquisitions and managing its $14.3 billion backlog.\n\n### Strategic Objectives and Funding\nManagement uses these resources to drive innovation in AI-powered security cameras, cloud-based access control, and Next-Generation 911 services. These expenditures are often financed through a combination of cash on hand and financing activities, such as the 2021 Motorola Solutions Credit Agreement. While the company expects to maintain access to capital markets for future funding, it manages its CapEx in the context of broader financial obligations, including debt repayment and returning capital to shareholders through dividends and share repurchases.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. December 31, 2023 MSI.html",
+   "answer_length": 2624,
+   "context_length": 111474,
+   "context": {
+    "entities": 56,
+    "relations": 118,
+    "chunks": 10,
+    "rerank_candidates": 152,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "250,781 Shares",
+     "Capital Markets",
+     "2023 Net Sales",
+     "Motorola Solutions",
+     "166,132,981",
+     "Capital Expenditure",
+     "51,386 Shares",
+     "Business",
+     "113,878 Shares",
+     "Costs Of Services Sales",
+     "Early 2022",
+     "Motorola Solutions, Inc.",
+     "2023-2025 Performance Measures",
+     "Information By Segment And Geographic Region",
+     "2022-2024 Performance Measures"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5268,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ FORM 10-K ___ ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission File n"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.7995946223008036,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4186
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:06:12.846953",
+   "duration_ms": 71042,
+   "answer": "Motorola Solutions (MSI) has demonstrated a distinct upward trend in capital allocation and strategic investment from 2021 through 2023, specifically focusing on research and development (R&D), infrastructure, and tactical acquisitions to expand its safety and security ecosystem.\n\n### Trends in Research and Development and Capital Spending\nMotorola Solutions prioritizes investment in its three core technologies: Land Mobile Radio (LMR) Communications, Video Security and Access Control, and Command Center software. Research and development expenditures have increased steadily over the three-year period:\n*   **2023:** $858 million\n*   **2022:** $779 million\n*   **2021:** $734 million\n\nThe 6% increase in R&D spending in 2022 was primarily driven by investments in new solutions, the integration of acquired businesses, and higher share-based compensation. These expenditures support a workforce where approximately 40% of employees—around 8,000 personnel—are dedicated to R&D activities. In addition to R&D, the company allocates capital expenditures for the acquisition, maintenance, and improvement of physical assets and infrastructure, which are vital for operational expansion and meeting regulatory requirements.\n\n### Strategic Acquisitions and Portfolio Expansion\nA significant portion of MSI’s capital is deployed through strategic acquisitions aimed at evolving its LMR focus and expanding its presence in the safety and security market. Notable investments include:\n*   **Openpath Security:** Acquired to drive growth in both the Products and Systems Integration and Software and Services segments.\n*   **IPVideo Corporation:** Acquired in late 2023, involving the issuance of $5 million in common stock to former shareholders.\n*   **Impact on Revenue:** In 2023, acquisitions contributed approximately $15 million in revenue to the Products and Systems Integration segment and $83 million to the Software and Services segment.\n\nThese investments allow MSI to integrate technologies—such as panic buttons, AI-powered camera systems, and emergency response software—into a unified \"safer\" ecosystem.\n\n### Funding and Capital Management\nMotorola Solutions funds its capital expenditures and R&D through robust internal resources. In 2023, the company generated $2.0 billion in operating cash flow, up from $1.8 billion in 2022. To maintain liquidity and support these investments, the company utilizes the **2021 Motorola Solutions Credit Agreement**, a $2.25 billion syndicated, unsecured revolving credit facility. \n\nThe company also maintains an investment-grade credit rating (upgraded by Moody's to Baa2 in 2023), which facilitates access to capital markets for long-term debt or equity-backed securities. While focusing on growth, MSI also maintains a disciplined approach to shareholder returns, returning $1.4 billion to shareholders in 2023 through $804 million in share repurchases and $589 million in dividends.\n\n### References\n* [1] MOTOROLA SOLUTIONS, INC. (December 31, 2023)",
+   "answer_length": 3004,
+   "context_length": 112309,
+   "context": {
+    "entities": 54,
+    "relations": 118,
+    "chunks": 10,
+    "rerank_candidates": 146,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "2023 Net Sales",
+     "Capital Markets",
+     "250,781 Shares",
+     "Motorola Solutions",
+     "Contract Assets",
+     "Capital Expenditure",
+     "51,386 Shares",
+     "Business",
+     "Net Sales From Products",
+     "Costs Of Services Sales",
+     "416,045 Shares",
+     "Motorola Solutions, Inc.",
+     "113,878 Shares",
+     "Information By Segment And Geographic Region",
+     "Net Sales From Services"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5268,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ FORM 10-K ___ ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission File n"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9302325581395349,
+    "answer_relevancy": 0.7430231586231115,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4183
+   }
+  }
+ }
+}

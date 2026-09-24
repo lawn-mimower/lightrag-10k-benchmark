@@ -1,0 +1,453 @@
+{
+ "question_id": "cbd456e9",
+ "ticker": "BIIB",
+ "question": "Biogen manages legal liabs vs LT growth as it faces patent expirations and reg challenges, BIIB.",
+ "expected_answer": "Investors should approach Biogen’s financial landscape by considering both the near-term risks from legal expenses and loss contingencies alongside the company’s long-term growth drivers. In the short term, ongoing and potential litigation—including patent disputes, regulatory inquiries, and derivative actions—could lead to cash outlays, increased liabilities, and volatility in the financial statements. However, many of these legal matters are in early or evolving stages (with some cases dismissed, stayed, or pending further development), and in some instances, outcomes might result in settlements or partial insurance recoveries. This suggests that the immediate legal expenses, while important, may be non‐cash charges or contingent liabilities that do not necessarily impair current operations.\n\nOn the long-term side, Biogen’s growth prospects depend largely on its strong product pipeline, established market position, and strategies to navigate patent expirations and competitive pressures. Even with pending patent expirations and regulatory challenges, the company’s focus on innovation and future product launches might continue to drive revenue growth and shareholder value over time.\n\nBalancing these factors means investors must perform a risk–reward analysis: they should monitor how potential legal liabilities are managed and whether these issues might impair cash flow or affect capital allocation in the near term. In contrast, they should weigh the potential for sustained innovation and market competitiveness in the long term. Essentially, short-term legal and regulatory risks should be seen as one facet of risk that, if effectively managed or resolved in a timely fashion, might not overshadow the underlying long-term growth prospects driven by Biogen’s core business strategy and product development initiatives.",
+ "category": "Legal",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 8876,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:01:51.796877",
+   "duration_ms": 32857,
+   "answer": "Biogen Inc. is currently navigating a complex transition, balancing the management of significant legal and competitive liabilities against a strategic push for long-term growth. The company is facing substantial pressure from patent expirations and the entry of generic and biosimilar competitors, which has necessitated a dual approach of aggressive intellectual property enforcement and operational restructuring.\n\n### Addressing Patent Expirations and Competition\nThe company's revenue is heavily impacted by the decline of its legacy Multiple Sclerosis (MS) franchise. **TECFIDERA** has seen a sharp decrease in demand due to multiple generic entrants in North America, Brazil, and several European Union (E.U.) countries. To manage this, Biogen is actively seeking to enforce its regulatory marketing protection in the E.U., which it believes should last until at least February 2025. Additionally, Biogen continues to enforce its EP 2 653 873 patent for TECFIDERA, which does not expire until 2028.\n\nOther key products are also facing competitive hurdles:\n*   **TYSABRI:** Revenue has declined due to increased competition and pricing pressure in the U.S. A biosimilar version of TYSABRI was approved in the U.S. and E.U. in late 2023, which is expected to further adversely affect future sales.\n*   **Anti-CD20 Programs:** Pre-tax profits from collaborations involving Rituxan, Gazyva, and Lunsumio are declining due to biosimilar competition.\n*   **SPINRAZA:** This SMA treatment faces increased competition and unfavorable foreign currency exchange, leading to a decrease in rest-of-world revenue.\n\n### Regulatory and Legal Challenges\nBiogen is closely monitoring and assessing the impact of the **Inflation Reduction Act (IRA)** of 2022 in the United States. The IRA introduces substantial drug pricing reforms, including the potential for the Centers for Medicare & Medicaid Services (CMS) to negotiate maximum fair prices for high-priced single-source Medicare drugs. This, along with drug inflationary rebate requirements and the redesign of Medicare Part D, may adversely impact Biogen’s sales, particularly for products heavily reliant on Medicare reimbursement.\n\n### Strategic Initiatives for Long-Term Growth\nTo counter these liabilities, Biogen is focusing on new product launches and strategic acquisitions to diversify its portfolio into neurology, specialized immunology, and rare diseases:\n*   **Acquisition of Reata Pharmaceuticals:** In 2023, Biogen acquired Reata, adding **SKYCLARYS** to its portfolio. SKYCLARYS is the first and only drug approved in the U.S. and E.U. for Friedreich's Ataxia, contributing to a growth in rare disease revenue during the fourth quarter of 2023.\n*   **Alzheimer’s Disease (LEQEMBI):** Through a collaboration with Eisai, Biogen is commercializing LEQEMBI. Following traditional FDA approval in July 2023, the product received broader CMS coverage, though it remains in the early stages of launch.\n*   **Operational Efficiency:** Biogen initiated the **\"Fit for Growth\"** program in 2023. This initiative aims to generate $1.0 billion in gross operating expense savings by 2025 through a headcount reduction of approximately 1,000 employees and other efficiency measures.\n\nBiogen also continues to invest in its manufacturing capabilities. Its large-scale biologics facility in **Solothurn, Switzerland**, which became operational for its second manufacturing suite in January 2024, is designed to support the production of biologic assets like LEQEMBI and ADUHELM, ensuring the company can meet near- to mid-term supply needs.\n\n### References\n\n* [1] BIOGEN INC. Annual Report for the period ended December 31, 2023",
+   "answer_length": 3674,
+   "context_length": 103694,
+   "context": {
+    "entities": 60,
+    "relations": 172,
+    "chunks": 10,
+    "rerank_candidates": 37,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen Therapeutics Inc.",
+     "Global Biogen Biosimilars Unit",
+     "Pre-Tax Profits",
+     "Banner Life Sciences",
+     "Biologic Assets",
+     "Biogen Inc",
+     "BIIB104",
+     "Reata Pharmaceuticals Inc",
+     "TG Therapeutics, Inc.",
+     "Sanofi Genzyme",
+     "BIIB121",
+     "Biosimilar Entrant",
+     "Biogen MA Inc.",
+     "Novartis AG",
+     "Potential Milestones"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4362,
+      "text": "3.1 to our Current Report on Form 8-K filed on December 12, 2023. 4.1 Second Supplemental Indenture, dated April 30, 2020, between Biogen Inc. and U.S. Bank National Association, including the forms of Global Notes attached as Exhibit A and Exhibit B, respectively, thereto. Filed as Exhibit 4.2 to our Current Report on Form 8-K filed on April 30, 2020. 4.2 Reference is made to Exhibit 3.1 for a de"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9782608695652174,
+    "answer_relevancy": 0.7979092704938604,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8607
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:02:36.148321",
+   "duration_ms": 44351,
+   "answer": "Biogen Inc. (BIIB) manages the tension between legal liabilities and long-term growth by balancing its dependence on core product revenue with strategic investments in its drug development pipeline and manufacturing infrastructure. The company’s financial stability is heavily reliant on continued sales of its existing portfolio and financial rights from anti-CD20 therapeutic programs, both of which face significant pressure from generic and biosimilar competition [1].\n\n### Legal and Competitive Challenges\nBiogen faces substantial risks from patent expirations and the introduction of competing products. For example, revenue for **TECFIDERA** has declined significantly due to the entry of multiple generic versions in North America, Brazil, and certain European Union countries [1]. Similarly, sales of **RITUXAN** and **GAZYVA** have been adversely affected by biosimilar products, which impacts Biogen's pre-tax profits [1]. The company also manages ongoing legal matters, including patent litigation and other proceedings, which are documented as material risks to its financial condition and results of operations [1].\n\n### Regulatory Pressures and the Inflation Reduction Act\nThe regulatory landscape, particularly in the United States, presents ongoing challenges to Biogen’s pricing and reimbursement strategies. The **Inflation Reduction Act (IRA)** of 2022 introduced several provisions that impact the biopharmaceutical industry, including:\n*   **Drug Price Negotiation:** Potential for the U.S. government to negotiate maximum fair prices for certain high-cost Medicare drugs [1].\n*   **Medicare Redesign:** Changes to Medicare Part D that may require higher contributions from manufacturers [1].\n*   **Inflationary Rebates:** Requirements that penalize companies for raising drug prices faster than the rate of inflation [1].\n\nAdditionally, new environmental laws, such as the California Climate Corporate Data Accountability Act (CCDAA) and the Climate-Related Financial Risk Act (CRFRA), are expected to impose additional compliance costs and reporting requirements starting in 2026 [1].\n\n### Strategies for Long-Term Growth\nTo mitigate these risks and ensure long-term sustainability, Biogen focuses on advancing its pipeline in neurology, specialized immunology, and rare diseases. A key component of this strategy is the expansion of manufacturing capacity, such as the large-scale biologics facility in **Solothurn, Switzerland**. This facility, which became fully operational with its second manufacturing suite in January 2024, is designed to support future growth and the production of biologic assets like **LEQEMBI** [1].\n\nGrowth is further supported through strategic acquisitions and collaborations. The 2023 acquisition of **Reata Pharmaceuticals** allowed Biogen to market **SKYCLARYS**, the first treatment approved in the U.S. and E.U. for Friedreich's Ataxia [1]. Furthermore, Biogen maintains critical partnerships with **Eisai** for Alzheimer’s therapies and **Genentech** for anti-CD20 programs to diversify its revenue streams and share the costs of drug development [1].\n\n### References\n\n* [1] BIOGEN INC.",
+   "answer_length": 3147,
+   "context_length": 99147,
+   "context": {
+    "entities": 33,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 93,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biopharmaceutical Industry",
+     "Patent Litigation",
+     "Biogen",
+     "Drug Price Negotiation",
+     "Biogen Inc",
+     "New Laws",
+     "Risk Factors",
+     "Judicial Decisions",
+     "Biosimilars",
+     "Intellectual Property Challenges",
+     "Biotechnology Products",
+     "Rituxan",
+     "Financial Condition",
+     "Third-Party Biopharmaceutical Company",
+     "Inflation Reduction Act (IRA)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3431,
+      "text": ") Proceeds from sales of strategic investments 119.6 — 93.5 Other ( 11.3 ) 24.4 12.9 Net cash flow provided by (used in) investing activities ( 4,101.0 ) 1,576.6 ( 563.7 ) Cash flow from financing activities: Purchase of treasury stock — ( 750.0 ) ( 1,800.0 ) Payments related to issuance of stock for share-based compensation arrangements, net ( 44.3 ) ( 1.9 ) ( 0.7 ) Repayments of borrowings and p"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5902,
+      "text": "Kline in Germany, Canada, France and, latterly, the U.S. as president of its North American pharmaceutical division. Mr. Viehbacher began his career with PricewaterhouseCoopers LLP and qualified as a chartered accountant. Mr. Viehbacher previously served on the board of directors of Vedanta Biosciences, Inc. as chair, BEFORE Brands, Inc., and Crossover Health. He is also a trustee of Northeastern "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5770,
+      "text": "division head of Human Resources for Novartis Vaccines and Diagnostics, Novartis Consumer Health and Novartis Institutes of BioMedical Research and Novo Nordisk A/S, a pharmaceutical company, where she served as Senior Vice President, Corporate People & Organization at the company’s headquarters in Copenhagen, Denmark. Earlier in her career, Dr. Gregory held a variety of human resources generalist"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9787234042553191,
+    "answer_relevancy": 0.8464505850826499,
+    "context_recall": 0.2222222222222222,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7618
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:02:49.580116",
+   "duration_ms": 13432,
+   "answer": "Biogen (BIIB) is navigating a period of regulatory challenges and patent expirations by aggressively defending its existing market protections while implementing a large-scale operational restructuring to fund future growth. The company’s strategy involves legal enforcement in international markets and a significant cost-reduction program known as \"Fit for Growth.\"\n\n### Regulatory and Patent Protections\nBiogen is actively working to maintain market exclusivity for its products, particularly **TECFIDERA** in the European Union. Following a decision by the Court of Justice of the European Union (CJEU) and a May 2023 determination by the European Commission (EC), Biogen believes TECFIDERA is entitled to regulatory marketing protection until at least February 2, 2025. Although the EC revoked centralized marketing authorizations for generic versions in December 2023, some generics remain in certain markets, and Biogen is working to enforce their removal. Furthermore, the company continues to enforce its EP 2 653 873 patent for TECFIDERA, which is set to expire in 2028 [1].\n\n### Operational Efficiency: \"Fit for Growth\"\nTo improve long-term financial health and operating efficiency, Biogen initiated the **Fit for Growth** program in 2023. This program is designed to reduce operating costs and generate approximately $1.0 billion in gross operating expense savings ($800.0 million net) by 2025. Achieving these targets involves significant restructuring, including:\n*   Net headcount reductions of approximately 1,000 employees.\n*   Estimated restructuring charges ranging from $260.0 million to $280.0 million.\nA portion of the savings generated through this program is intended for reinvestment into various corporate initiatives to drive future growth [1].\n\n### Strategic Growth and Pipeline Development\nBiogen is focusing its long-term growth efforts on its neurology and rare disease pipelines, specifically targeting Alzheimer's disease and Spinal Muscular Atrophy (SMA). Key developments in 2023 include:\n*   **LEQEMBI (lecanemab):** Approved in Japan in September 2023 for slowing the progression of mild cognitive impairment and mild dementia. New data suggests continued benefits at 24 months of treatment, even after the removal of amyloid plaques.\n*   **BIIB080:** An investigational therapy targeting tau in Alzheimer's disease, which has shown favorable trends in cognition and activities of daily living in Phase 1b clinical studies.\n*   **SPINRAZA:** Ongoing clinical evaluation through the Phase 4 RESPOND study to assess safety and clinical outcomes in infants and toddlers with SMA [1].\n\nIn addition to these developments, Biogen has refreshed its leadership and oversight, appointing new executive vice presidents for Research and Corporate Development, and undergoing several changes to its Board of Directors, including the appointment of a new Chair in June 2023 [1].\n\n### References\n\n- [1] BIOGEN INC. December 31, 2023 BIIB.html",
+   "answer_length": 2966,
+   "context_length": 5994,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 1,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "BIIB"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9736842105263158,
+    "answer_relevancy": 0.7885140336872775,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.0,
+    "ragas_score": 0.5239
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:03:23.739633",
+   "duration_ms": 34160,
+   "answer": "Biogen Inc. manages a complex balance between mitigating legal and financial liabilities and pursuing long-term growth as it faces significant pressure from patent expirations and regulatory shifts. In 2023, the company reported a 3.3% decrease in total revenue, primarily driven by a 14.1% decline in Multiple Sclerosis (MS) revenue. This downturn is largely attributed to the entry of generic competitors for **TECFIDERA** in North America, Brazil, and the European Union, as well as increased competition and pricing pressure for **TYSABRI** and **SPINRAZA**. To counter these losses, Biogen is refocusing its portfolio through strategic acquisitions and internal research and development prioritization.\n\n### Strategic Growth and Acquisitions\nTo ensure long-term sustainability, Biogen has pursued high-value acquisitions and facility expansions. A key development in 2023 was the acquisition of **Reata Pharmaceuticals**, which added **SKYCLARYS**—the first approved treatment for Friedreich's Ataxia—to its rare disease portfolio. Additionally, the company is ramping up its manufacturing capabilities at its large-scale biologics facility in Solothurn, Switzerland. This facility, which became operational for its second manufacturing suite in early 2024, is approved by the FDA to manufacture **ADUHELM** and **LEQEMBI**, the latter being a critical component of Biogen’s Alzheimer’s disease collaboration with Eisai.\n\nBiogen’s growth strategy also involves the \"Fit for Growth\" program initiated in 2023, which aims to achieve operational improvements and cost savings. This includes refocusing R&D investments, such as evaluating alternative uses for its gene therapy manufacturing facility in North Carolina, and exploring strategic options for its biosimilars business. Despite these efforts, the company remains dependent on the successful launch and market acceptance of new products like **LEQEMBI**, **QALSODY**, and **ZURZUVAE** to offset the declining revenue from its legacy MS business.\n\n### Regulatory and Legislative Challenges\nThe **Inflation Reduction Act (IRA)** of 2022 represents a significant regulatory challenge impacting Biogen’s long-term financial planning. The act introduces drug pricing reforms, including Medicare price negotiations for high-cost single-source drugs and inflationary rebate requirements. Biogen is currently assessing the IRA's potential adverse impacts on its sales, particularly for products heavily reliant on Medicare reimbursement. Furthermore, the IRA imposes a 15% corporate alternative minimum tax and a 1% excise tax on stock repurchases, which influences the company's capital allocation and share buyback strategies.\n\nEnvironmental and geopolitical factors also contribute to Biogen's risk profile. The company is preparing for compliance with new California climate legislation (CCDAA and CRFRA), which will require extensive reporting on greenhouse gas emissions and climate-related financial risks starting in 2026. While geopolitical conflicts in Ukraine and the Middle East currently account for less than 2% of total revenue, Biogen continues to monitor these regions for potential disruptions to its supply chain and operations.\n\n### Legal Liabilities and Intellectual Property\nLegal proceedings and intellectual property challenges are central to Biogen’s operational risks. The company is frequently involved in **patent litigation** to protect its proprietary rights and market exclusivity for biotechnology products. Decisions in these cases, along with judicial interpretations of new laws, can materially affect financial results. For instance, the loss of patent exclusivity allows competitors to introduce lower-cost biosimilars or generics, directly impacting the company's future cash flows. Biogen also faces potential liabilities from product liability suits and the need to maintain a positive reputation among healthcare providers and patients regarding its pricing and reimbursement decisions.\n\n### References\n\n- [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 4033,
+   "context_length": 120607,
+   "context": {
+    "entities": 39,
+    "relations": 174,
+    "chunks": 10,
+    "rerank_candidates": 114,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen Therapeutics Inc.",
+     "Biogen",
+     "Pre-Tax Profits",
+     "Drug Price Negotiation",
+     "Global Biogen Biosimilars Unit",
+     "Biogen Inc",
+     "New Laws",
+     "Generic And Biosimilar Competition",
+     "Risk Factors",
+     "Potential Milestones",
+     "Biopharmaceutical Industry",
+     "Rare Diseases",
+     "Patent Litigation",
+     "Banner Life Sciences",
+     "Judicial Decisions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.753118332481218,
+    "context_recall": 0.5555555555555556,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8272
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:03:57.968710",
+   "duration_ms": 34229,
+   "answer": "Biogen Inc. manages a complex balance between mitigating legal and regulatory liabilities and pursuing long-term growth as its core product portfolio faces significant competitive pressure. The company's financial performance has been impacted by patent expirations and the entry of generic competition, particularly for **TECFIDERA** in North America, Brazil, and the European Union. Additionally, **TYSABRI** revenue has declined due to increased competition and pricing pressure in the U.S., with a biosimilar entrant approved in both the U.S. and E.U. in late 2023 expected to further impact future sales [1].\n\nTo manage these challenges, Biogen utilizes a multi-faceted legal and operational strategy:\n\n### Legal and Regulatory Risk Management\nBiogen actively monitors and manages **contingent liabilities** arising from lawsuits, tax deficiencies, and government investigations. The company relies on internal and external counsel to assess these risks, which are accrued when losses are deemed probable and estimable [1]. A critical component of its legal strategy involves protecting its **intellectual property (IP)**. For example, the company is currently seeking to enforce regulatory marketing protection for TECFIDERA in the E.U. until at least February 2025 and continues to litigate to protect patents such as EP 2 653 873, which expires in 2028 [1].\n\nFurthermore, Biogen is navigating new regulatory hurdles introduced by the **Inflation Reduction Act (IRA) of 2022**. This legislation introduces drug price negotiations, inflationary rebates, and Medicare Part D redesigns, which may adversely affect revenue for products heavily reliant on Medicare reimbursement. The company is also preparing for evolving environmental and climate-related disclosure requirements, such as the **Climate Corporate Data Accountability Act** [1].\n\n### Strategies for Long-Term Growth\nTo offset revenue declines in its multiple sclerosis (MS) portfolio, Biogen is focused on strategic acquisitions and collaborative partnerships:\n*   **Acquisitions:** The 2023 acquisition of **Reata Pharmaceuticals** integrated **SKYCLARYS**—the first approved treatment for Friedreich's Ataxia—into its portfolio, contributing to a modest increase in rare disease revenue [1].\n*   **Collaborations:** Biogen maintains critical partnerships with **Eisai** for the commercialization of **LEQEMBI** (Alzheimer’s disease) and **Sage Therapeutics** for **ZURZUVAE** (postpartum depression). It also holds significant financial rights in anti-CD20 therapeutic programs through collaborations with **Genentech**, including **RITUXAN** and **OCREVUS** [1].\n*   **Manufacturing and Pipeline:** The company has expanded its large-scale biologics manufacturing facility in **Solothurn, Switzerland**, to support the production of biologic assets like **ADUHELM** and **LEQEMBI**. This facility is essential for supporting Biogen's future drug development pipeline in neurology, specialized immunology, and rare diseases [1].\n\n### Operational Efficiency\nTo fund these growth initiatives, Biogen initiated the **\"Fit for Growth\"** program in 2023. This initiative aims to generate approximately $1.0 billion in gross operating expense savings by 2025 through headcount reductions and improved operational efficiency. A portion of these savings is earmarked for reinvestment in the company's R&D pipeline and new product launches, such as **QALSODY** for ALS [1].\n\n### References\n\n* [1] BIOGEN INC. ANNUAL REPORT ON FORM 10-K For the Year Ended December 31, 2023",
+   "answer_length": 3533,
+   "context_length": 120297,
+   "context": {
+    "entities": 70,
+    "relations": 176,
+    "chunks": 10,
+    "rerank_candidates": 126,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen Therapeutics Inc.",
+     "Biopharmaceutical Industry",
+     "Pre-Tax Profits",
+     "Patent Litigation",
+     "Global Biogen Biosimilars Unit",
+     "Biosimilars",
+     "Generic And Biosimilar Competition",
+     "Intellectual Property Challenges",
+     "Biotechnology Products",
+     "Biogen Inc",
+     "Biogen",
+     "Drug Price Negotiation",
+     "Patent Exclusivity",
+     "Future Growth Prospects",
+     "U.S. Patent Litigation"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5235,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number: 0-19311 BIOGEN INC. (Exact name of registrant as specified in its charter) Delaware 33-"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.96,
+    "answer_relevancy": 0.7780390648542648,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8512
+   }
+  }
+ }
+}

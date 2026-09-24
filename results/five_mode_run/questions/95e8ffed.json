@@ -1,0 +1,471 @@
+{
+ "question_id": "95e8ffed",
+ "ticker": "VRSK",
+ "question": "Verisk Analytics (VRSK) board oversight of risk committee on cybersecurity’s impact on valuation multiples.",
+ "expected_answer": "The provided information clearly outlines the robust cybersecurity governance structure at Verisk Analytics, Inc., highlighting active Board oversight and the formation of a dedicated Risk Committee. These measures are significant for investors because they demonstrate the company's proactive approach to mitigating cybersecurity risks. Specifically:\n\n1. Enhanced Risk Management: The active involvement of the Board and the Risk Committee ensures that cybersecurity threats are proactively identified, assessed, and managed. This reduces the likelihood of unexpected losses from cyber incidents, contributing to operational stability.\n\n2. Improved Transparency and Accountability: Regular reporting to the Board and the Risk Committee on cybersecurity matters boosts transparency. Investors can see that cybersecurity risks are an institutional priority, thereby reducing uncertainty about potential future losses related to security breaches.\n\n3. Lower Operational and Reputational Risk: By centralizing risk management efforts and adhering to proven standards (like the NIST Cybersecurity Framework), the company minimizes its exposure to disruptive cyberattacks that could otherwise tarnish its reputation and erode customer trust. This dependable risk management framework reduces perceived operational risk among investors.\n\n4. Positive Impact on Valuation Multiples: With reduced perceived risks, investors might require a lower risk premium when valuing the company. A well-governed cybersecurity strategy can lead to lower discount rates in valuation models, which can drive higher valuation multiples. Essentially, improved risk management can lead to enhanced investor confidence and, indirectly, a more favorable cost of capital.\n\n5. Strategic Alignment with Industry Standards and Regulatory Requirements: The adoption of globally recognized standards (e.g., ISO 27001) and compliance with various regulation requirements further minimizes compliance-related risks. This adherence improves the company’s competitive positioning, contributing positively to its long-term valuation prospects.\n\nIn summary, the Board’s active oversight and the Risk Committee not only mitigate potential cybersecurity-related operational and reputational risks but also foster greater investor confidence. This dual effect can improve the company's valuation multiples by reducing required risk premiums, stabilizing expected cash flows, and ultimately supporting a higher market valuation.",
+ "category": "Risk",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 6917,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:42:17.960456",
+   "duration_ms": 25928,
+   "answer": "Verisk Analytics, Inc. (VRSK) manages its cybersecurity risk through a structured strategy that involves board-level oversight, primarily through its Audit Committee. The company's Internal Audit Department is responsible for providing reports to the Audit Committee regarding the effectiveness of security control designs and the implementation of cybersecurity measures. This oversight is supported by independent assessors who perform external audits and penetration tests to ensure the integrity of the company's Information Security Management System, which has earned ISO 27001:2013 certification.\n\nThe company’s cybersecurity strategy is comprehensive, spanning prevention, protection, monitoring, detection, and incident response. Key control functions include risk assessment, supply chain risk management, identity and access management, and endpoint security. To bolster these efforts, Verisk engages strategic providers, such as a Managed Security Service Provider for its security operations center, and consultants specializing in threat intelligence and dark web monitoring.\n\nRegarding the impact on financial performance and valuation, Verisk states that, to date, cybersecurity threats have not materially affected its business strategy, results of operations, or financial condition. Furthermore, the company does not currently expect such risks to have a material impact in the near term. However, the company acknowledges that cybersecurity threats are rapidly evolving. In its regulatory filings, Verisk identifies cybersecurity breaches as a significant risk factor that could potentially lead to liabilities, disruptions, and an adverse effect on the company's financial position and stock price.\n\nWhile the provided documentation does not explicitly use the term \"valuation multiples,\" it notes that any future material cybersecurity incident could negatively affect the company’s financial health. Verisk monitors its market performance and stockholder return by comparing itself to the S&P 500 index and a specific group of proxy peers, including companies like Equifax Inc., Fair Isaac Corp., and MSCI Inc.\n\n### References\n\n* [1] Verisk Analytics, Inc. Document Title: VRSK.html",
+   "answer_length": 2205,
+   "context_length": 106171,
+   "context": {
+    "entities": 60,
+    "relations": 187,
+    "chunks": 10,
+    "rerank_candidates": 49,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Global Risk Analytics",
+     "Investor.Verisk.Com",
+     "Cyber Risk Quantification",
+     "Cyber Risk Quantification Assessment",
+     "Risk Quantification Solutions",
+     "Verisk Analytics",
+     "Verisk Marketing Solutions",
+     "Verisk Analytics, Inc.",
+     "Verisk",
+     "Verisk Financial Services",
+     "Financial Services Business",
+     "Insurance Industry Knowledge",
+     "VRSK",
+     "Insurance-Focused Data",
+     "Gartner, Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3103,
+      "text": ",374 shares transferred from treasury stock) - - 5.6 0.5 - - 6.1 - 6.1 Balance as of December 31, 2021 544,003,038 0.1 2,608.7 ( 4,638.1 ) 5,240.4 ( 394.6 ) 2,816.5 26.00 2,842.5 Net income - - - - 953.9 - 953.9 0.4 954.3 Other comprehensive income - - - - - ( 335.5 ) ( 335.5 ) ( 1.4 ) ( 336.9 ) Investment in noncontrolling interests - - ( 0.5 ) - - ( 1.1 ) ( 1.6 ) ( 6.6 ) ( 8.2 ) Common stock div"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8258633534087063,
+    "context_recall": 0.125,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7377
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:42:46.043568",
+   "duration_ms": 28083,
+   "answer": "At Verisk Analytics, cybersecurity is managed through a comprehensive framework that includes cyber risk governance, risk identification, prevention, monitoring, and recovery planning. This framework is an integral component of the company's broader enterprise risk management (ERM) strategy and adheres to industry standards, such as the National Institute of Standards and Technology (NIST) Cybersecurity Framework.\n\n### Board and Risk Committee Oversight\nThe Board of Directors provides the ultimate oversight of cybersecurity management and risk mitigation strategies. To strengthen this oversight, the Board established a dedicated **Risk Committee of the Board**, which held its first meeting in February 2024. This committee is responsible for coordinating with other Board committees to oversee risk assessments and management strategies specifically related to cyber, technology, and information security risks.\n\nThe Risk Committee serves as a critical link between management and the full Board. It is responsible for reporting material cybersecurity risks to the Board and receives regular updates from the Chief Information Security Officer (CISO) and the cybersecurity team. These quarterly reports cover the health of the cybersecurity program, third-party assessments, and updates on mitigation strategies.\n\n### Operational Integration and Reporting\nManagement, including the CISO, leads the Cybersecurity and Information Risk Management functions, partnering with various business units to ensure that risk strategies are implemented effectively. The Executive Risk Management Committee (ERMC), which comprises top corporate executives, provides guidance and enforces the cybersecurity framework, including determining the materiality of security incidents and reinforcing the corporate risk appetite.\n\nWhile the provided documentation outlines the governance structure and the Board's role in risk oversight, there is no specific information regarding the impact of these cybersecurity oversight practices on **valuation multiples**. The company notes that, to date, cybersecurity threats have not materially affected its business strategy, results of operations, or financial condition. Performance is tracked through cumulative total stockholder return compared to the S&P 500 and a designated group of proxy peers, but the context does not explicitly link these valuations to cybersecurity governance.\n\n### References\n\n* [1] Verisk Analytics, Inc.",
+   "answer_length": 2467,
+   "context_length": 117728,
+   "context": {
+    "entities": 38,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 100,
+    "chunk_tickers": [
+     "VRSK",
+     "HAS",
+     "VRSK",
+     "AMP",
+     "MSI",
+     "MRO",
+     "VRSK",
+     "CE",
+     "BIIB",
+     "HON"
+    ],
+    "entity_names": [
+     "Board Of Directors",
+     "Cybersecurity Risk Management Program",
+     "Board of Directors",
+     "Cybersecurity Risk Governance",
+     "Audit and Risk Committee",
+     "Board",
+     "Cybersecurity And Data Privacy Committee",
+     "Cybersecurity Policies and Procedures",
+     "Cybersecurity Governance",
+     "Roper",
+     "Cybersecurity",
+     "Audit and Finance Committee",
+     "Marathon Oil",
+     "Cyber Risk Governance",
+     "Risk Committee Of The Board"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7231,
+      "text": "efficiencies. We have set key goals and objectives in this area as described in our business section of this Form 10-K. Our reputation could be damaged if we fail to achieve our sustainability goals, or if we or others in our industry do not act, or are perceived not to act, responsibly with respect to the production and packaging of our products. We are involved in litigation, arbitration or regu"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7219,
+      "text": "review ongoing internal information security investigations. We assess the effectiveness of our cybersecurity program using self-assessments and independent third-party analyses, and evaluate our program using frameworks such as the National Institute of Standards and Technology (“NIST”) Cybersecurity Framework. In addition to these independent third-party analyses, third-parties also provide serv"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6993,
+      "text": "Board of Directors to increase the number of outstanding shares to thwart a takeover attempt; • prohibit cumulative voting in the election of directors, which would otherwise allow holders of less than a majority of the stock to elect some directors; • require that vacancies on the Board of Directors, including newly created directorships, be filled only by a majority vote of directors then in off"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6875,
+      "text": "Notes and the guarantee of Celanese U.S.'s obligations under the Senior Notes and the Credit Agreements by Celanese. As holding companies, Celanese and Celanese U.S. conduct substantially all of their operations through their subsidiaries, which own substantially all of our consolidated assets. Consequently, the principal source of cash to pay Celanese and Celanese U.S.'s obligations, including ob"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6369,
+      "text": "initiate the escalation and other steps called for by our plan. All incidents that are initially assessed by the cybersecurity incident response team as potentially high-risk are escalated promptly to our CISO. Our CISO, Chief Legal Officer and Chief Financial Officer, will determine whether and what elements of our cybersecurity crisis response and management plan should be activated, including e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.8734759832427713,
+    "context_recall": 0.3333333333333333,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7838
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:43:16.684501",
+   "duration_ms": 30641,
+   "answer": "Verisk Analytics, Inc. (VRSK) manages cybersecurity risks through its Audit Committee, which receives regular reports from the company's Internal Audit Department. The Internal Audit Department acts as an independent assessor, providing the committee with information regarding the effectiveness of security control designs and implementation. The company’s broader cybersecurity strategy involves the use of strategic providers and independent assessors to identify cyber threats and conduct external audits and penetration tests. These security efforts have resulted in the ISO 27001:2013 Certification for Verisk's core Enterprise Risk Management (ERM) centrally provided cybersecurity services.\n\nThe company’s security measures encompass various control functions, including risk assessment, supply chain risk management, and security audit logging. Verisk utilizes strategic providers, such as a Managed Security Service Provider for its security operations center and other providers for threat intelligence and dark web monitoring, to supplement its internal processes. According to the company's reporting as of late 2023, cybersecurity threats have not materially affected Verisk’s business strategy, results of operations, or financial condition.\n\nRegarding the specific impact of board oversight or risk committee activities on valuation multiples, the provided documents do not contain enough information to provide an answer. While the records detail the company’s market information—including its ticker symbol (VRSK), cash dividends, share repurchase plans, and a performance graph comparing stockholder returns to the S&P 500 and proxy peers—they do not explicitly discuss or quantify the impact of cybersecurity governance on valuation multiples.\n\n### References\n\n- [1] Verisk Analytics, Inc.",
+   "answer_length": 1809,
+   "context_length": 27510,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 4,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "VRSK",
+     "MSI",
+     "BIIB",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7219,
+      "text": "review ongoing internal information security investigations. We assess the effectiveness of our cybersecurity program using self-assessments and independent third-party analyses, and evaluate our program using frameworks such as the National Institute of Standards and Technology (“NIST”) Cybersecurity Framework. In addition to these independent third-party analyses, third-parties also provide serv"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6369,
+      "text": "initiate the escalation and other steps called for by our plan. All incidents that are initially assessed by the cybersecurity incident response team as potentially high-risk are escalated promptly to our CISO. Our CISO, Chief Legal Officer and Chief Financial Officer, will determine whether and what elements of our cybersecurity crisis response and management plan should be activated, including e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6719
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:43:49.799109",
+   "duration_ms": 33115,
+   "answer": "Verisk Analytics, Inc. (VRSK) maintains a structured governance framework where the Board of Directors provides ultimate oversight of cybersecurity risk as a core component of the company's enterprise risk management (ERM) program. This oversight is designed to guide company priorities, resource allocations, and strategic decision-making to ensure long-term sustainability and the protection of digital assets.\n\n### Board and Committee Oversight\nThe Board delegates specific oversight of cybersecurity and data privacy to the **Cybersecurity and Data Privacy Committee** (also referred to as the **Cybersecurity Committee**). This committee is responsible for:\n*   **Ongoing Program Reviews:** Conducting regular evaluations of the company’s cybersecurity program, including threat identification and response planning.\n*   **Strategic Roadmap Progress:** Monitoring management’s progress on the cybersecurity strategic roadmap and enhancements to security detection capabilities.\n*   **Direct Reporting:** Receiving quarterly reports from the **Chief Information Security Officer (CISO)**, who is responsible for developing and implementing the information security program.\n*   **Expert Consultation:** Engaging third-party cybersecurity firms to advise on industry trends, best practices, and to perform independent assessments of the company’s programs.\n\nAdditionally, the company utilizes an internal **Cybersecurity and Data Privacy Steering Committee**, which includes members of the Executive Leadership Team, and an **Enterprise Risk Management team** to assess and incorporate cybersecurity risks into broader ERM reports reviewed by the Board.\n\n### Risk Management Framework\nVerisk’s cybersecurity strategy is built on a layered approach focusing on prevention, detection, and mitigation. The program leverages industry standards, such as the **National Institute of Standards and Technology (NIST)** and the **Center for Internet Security (CIS)** framework. Key control functions include risk assessments, asset management, and supply chain risk management. The company has also achieved **ISO 27001:2013 Certification** for its core centrally provided cybersecurity services, demonstrating a commitment to international best practices in information security management.\n\n### Impact on Business Strategy and Financials\nThe provided documentation states that, to date, risks from cybersecurity threats have not materially affected Verisk’s business strategy, results of operations, or financial condition. The company recognizes that while its processes are designed to mitigate potential incidents, the rapidly evolving nature of cyber threats means future incidents could potentially impact the business materially.\n\nRegarding **valuation multiples**, the provided context does not explicitly mention \"valuation multiples\" or provide data on how cybersecurity oversight specifically influences them. However, it notes that the company's business strategy is focused on driving \"consistent and predictable growth\" and \"operating efficiency,\" which are factors typically relevant to market performance. The company also monitors its **cumulative total stockholder return** in comparison to the S&P 500 index and a group of proxy peers to evaluate its performance.\n\n### References\n\n* [1] Verisk Analytics, Inc.\n* [2] Hasbro, Inc.",
+   "answer_length": 3342,
+   "context_length": 126938,
+   "context": {
+    "entities": 53,
+    "relations": 186,
+    "chunks": 10,
+    "rerank_candidates": 134,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "HAS",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Global Risk Analytics",
+     "Board Of Directors",
+     "Cyber Risk Quantification",
+     "Cybersecurity Risk Management Program",
+     "Cyber Risk Quantification Assessment",
+     "Board of Directors",
+     "Risk Quantification Solutions",
+     "Cybersecurity Risk Governance",
+     "Investor.Verisk.Com",
+     "Audit and Risk Committee",
+     "Verisk Analytics, Inc.",
+     "Board",
+     "Verisk Analytics",
+     "Cybersecurity And Data Privacy Committee",
+     "Verisk"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7231,
+      "text": "efficiencies. We have set key goals and objectives in this area as described in our business section of this Form 10-K. Our reputation could be damaged if we fail to achieve our sustainability goals, or if we or others in our industry do not act, or are perceived not to act, responsibly with respect to the production and packaging of our products. We are involved in litigation, arbitration or regu"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3103,
+      "text": ",374 shares transferred from treasury stock) - - 5.6 0.5 - - 6.1 - 6.1 Balance as of December 31, 2021 544,003,038 0.1 2,608.7 ( 4,638.1 ) 5,240.4 ( 394.6 ) 2,816.5 26.00 2,842.5 Net income - - - - 953.9 - 953.9 0.4 954.3 Other comprehensive income - - - - - ( 335.5 ) ( 335.5 ) ( 1.4 ) ( 336.9 ) Investment in noncontrolling interests - - ( 0.5 ) - - ( 1.1 ) ( 1.6 ) ( 6.6 ) ( 8.2 ) Common stock div"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9259259259259259,
+    "answer_relevancy": 0.8875017061177802,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8909
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:44:33.413563",
+   "duration_ms": 43614,
+   "answer": "At Verisk Analytics (VRSK), the Board of Directors maintains ultimate oversight of cybersecurity risks, integrating this responsibility into the company’s enterprise risk management program. To ensure specialized focus, the Board has established the Cybersecurity and Data Privacy Committee (also referred to as the Cybersecurity Committee). This board-level committee is responsible for the ongoing review of the cybersecurity program, including threat assessments, strategic roadmaps, and incident response readiness.\n\n### Board and Committee Oversight\nThe Board and the Cybersecurity Committee are actively involved in regular discussions regarding the evolving cybersecurity landscape. The committee meets periodically throughout the year to review:\n*   Critical cyber incidents and industry-related events.\n*   The effectiveness of the company’s security detection and response capabilities.\n*   Alignment with internal information security frameworks.\n*   Management's progress on the cybersecurity strategic roadmap.\n\nA third-party cybersecurity firm also advises the committee on industry trends and best practices while independently evaluating Verisk’s programs. Furthermore, the Risk Committee of the Board coordinates with the Executive Risk Management Committee (ERMC) to oversee risk management strategies and report material cybersecurity risks to the full Board.\n\n### Management and Strategy Execution\nManagement-level execution is led by the Chief Information Security Officer (CISO) and the Chief Information Officer (CIO). The CISO is responsible for implementing the information security program and providing quarterly reports on cybersecurity matters to both the Board and the Cybersecurity Committee. The CIO serves as an executive sponsor of the program. Verisk’s strategy utilizes layered defenses based on prevention, detection, and mitigation, adhering to industry standards such as the NIST and Center for Internet Security (CIS) frameworks. \n\nThe company also incorporates cybersecurity risks into its broader Enterprise Risk Management (ERM) reports. These reports are reviewed internally and discussed with the Board to ensure cybersecurity is a priority in resource allocation and strategic decision-making. Verisk also performs regular technical simulations, penetration tests, and annual risk assessments to evaluate its defenses.\n\n### Financial and Valuation Impact\nRegarding the impact on valuation multiples, the provided documents do not contain specific information or analysis on how board oversight of cybersecurity affects Verisk’s valuation multiples (such as P/E or EV/EBITDA). However, the company reports that, to date, risks from cybersecurity threats have not materially affected its business strategy, results of operations, or financial condition. Verisk provides financial transparency through its Form 10-K, which includes consolidated statements of operations and comprehensive income, and it compares its stockholder return against the S&P 500 index and a group of proxy peers to evaluate performance.\n\n### References\n\n* [1] {\"ticker\":\"VRSK\",\"company\":\"Verisk Analytics, Inc.\",\"period\":\"December 31, 2023\",\"source\":\"VRSK.html\"}\n* [2] {\"ticker\":\"HAS\",\"company\":\"Hasbro, Inc.\",\"period\":\"December 31, 2023\",\"source\":\"HAS.html\"}",
+   "answer_length": 3278,
+   "context_length": 126361,
+   "context": {
+    "entities": 53,
+    "relations": 187,
+    "chunks": 10,
+    "rerank_candidates": 137,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "HAS",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Global Risk Analytics",
+     "Board Of Directors",
+     "Investor.Verisk.Com",
+     "Cybersecurity Risk Management Program",
+     "Cyber Risk Quantification",
+     "Board of Directors",
+     "Cyber Risk Quantification Assessment",
+     "Cybersecurity Risk Governance",
+     "Risk Quantification Solutions",
+     "Audit and Risk Committee",
+     "Verisk Analytics",
+     "Board",
+     "Verisk Marketing Solutions",
+     "Cybersecurity And Data Privacy Committee",
+     "Verisk Analytics, Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3103,
+      "text": ",374 shares transferred from treasury stock) - - 5.6 0.5 - - 6.1 - 6.1 Balance as of December 31, 2021 544,003,038 0.1 2,608.7 ( 4,638.1 ) 5,240.4 ( 394.6 ) 2,816.5 26.00 2,842.5 Net income - - - - 953.9 - 953.9 0.4 954.3 Other comprehensive income - - - - - ( 335.5 ) ( 335.5 ) ( 1.4 ) ( 336.9 ) Investment in noncontrolling interests - - ( 0.5 ) - - ( 1.1 ) ( 1.6 ) ( 6.6 ) ( 8.2 ) Common stock div"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7231,
+      "text": "efficiencies. We have set key goals and objectives in this area as described in our business section of this Form 10-K. Our reputation could be damaged if we fail to achieve our sustainability goals, or if we or others in our industry do not act, or are perceived not to act, responsibly with respect to the production and packaging of our products. We are involved in litigation, arbitration or regu"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6875
+   }
+  }
+ }
+}

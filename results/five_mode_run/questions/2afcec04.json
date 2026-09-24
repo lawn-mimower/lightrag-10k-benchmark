@@ -1,0 +1,477 @@
+{
+ "question_id": "2afcec04",
+ "ticker": "HAS",
+ "question": "Growth in IP licensing and revenue recognition enhances competitive positioning for Hasbro (HAS).",
+ "expected_answer": "Based on the provided data, we can analyze that Hasbro’s revenue recognition policies for its intellectual property licenses—right‐to‐access licenses for brands and right‐to‐use licenses for content—affect long‐term growth potential and competitive positioning in several ways:\n\n1. Revenue Timing & Predictability: \n   • Right‐to‐access licenses (for brands) typically generate revenue ratably over the term of the license. This leads to a more predictable and steady revenue stream, aiding in forecasting, cash flow management, and risk mitigation.\n   • In contrast, right‐to‐use licenses (for content) often record revenue at the commencement of the license period. This can result in more upfront or lump‐sum revenue recognition, which may be subject to variability depending on contract terms and fulfillment of performance obligations.\n\n2. Alignment with Value Delivered: \n   • The incremental recognition for brand licensing closely mirrors how value is delivered over time, which might boost investor confidence in the sustainability of recurring revenue streams.\n   • Meanwhile, the recognition upon commencement for content licensing reflects a different risk and reward dynamic. This can highlight short‐term engagements and may come with different performance risks if market demand fluctuates.\n\n3. Impact on Financial Metrics and Investor Perception:\n   • The steady, subscription-type recognition from brand licenses can favorably impact long-term growth metrics and signal resilience, enhancing Hasbro’s competitive positioning in an environment where stable cash flows are prized.\n   • The variability inherent in content licensing may indicate higher short-term revenue volatility. However, if managed well, it can also reflect agility in capturing market opportunities, albeit with different financial risks.\n\n4. Diversification & Risk Management:\n   • By employing distinct recognition methods for different types of intellectual property, Hasbro can diversify its revenue streams. This blend supports robust capital allocation strategies and risk spreading, which are essential for competitive positioning in both consumer products and media content sectors.\n\nIn summary, while the underlying revenue recognition approaches do not drive the intrinsic growth of the business, they effectively shape the timing and stability of reported revenues. This, in turn, influences Hasbro’s ability to manage cash flows, forecast future performance, and present a balanced risk profile to investors—all of which are critical aspects of long-term growth potential and competitive positioning.",
+ "category": "Accounting",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 6351,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:13:19.907684",
+   "duration_ms": 22074,
+   "answer": "Hasbro’s competitive positioning is heavily influenced by its \"Blueprint 2.0\" strategy, which aims to transform its core brands into story-led and play-led consumer franchises. This approach focuses on maximizing the value of intellectual property (IP) by delivering expansive brand experiences across multiple platforms, including digital games, toys, licensing, and entertainment content. By prioritizing \"fewer, bigger, more profitable brands,\" such as *MAGIC: THE GATHERING*, *DUNGEONS & DRAGONS*, and *MONOPOLY*, the company seeks to drive long-term sustainable growth and enhance shareholder value.\n\nA critical component of this growth strategy is the out-licensing of Hasbro’s brands to third-party partners. This includes high-profile digital adaptations like *Monopoly Go!* (developed by Scopely) and *Baldur’s Gate 3* (developed by Larian Studios), as well as licensing for apparel, publishing, and theme park attractions. These partnerships allow Hasbro to activate its brands in digital and location-based spaces, driving community engagement and generating high-margin royalty revenue. Simultaneously, Hasbro maintains a strong presence in the \"Partner Brands\" category, developing toy and game products for major third-party franchises like Disney’s *Marvel* and *Star Wars*.\n\nThe company's revenue recognition patterns are closely tied to the timing of entertainment releases and seasonal consumer demand. While Hasbro faces risks such as seasonality—where the second half of the year typically accounts for more than half of annual net revenues—it has implemented an \"Operational Excellence Program\" to improve its financial health. This transformation office is tasked with driving operational efficiency, reducing supply chain costs, and right-sizing the company's cost structure. For instance, in 2023, Hasbro focused on improving its inventory position and de-leveraging its balance sheet by selling non-core assets, such as the Entertainment One (eOne) film and television business.\n\nDespite facing market headwinds in 2023, which led to a decline in net revenues from $5,856.7 million in 2022 to $5,003.3 million, Hasbro’s gaming portfolio remains a cornerstone of its competitive strength. *MAGIC: THE GATHERING* reached \"billion-dollar brand\" status, supported by successful set releases. The integration of digital gaming through platforms like *Magic: The Gathering Arena* and the acquisition of *D&D Beyond* further illustrates how Hasbro is evolving into a brand-driven toy and game company that leverages direct-to-consumer relationships and data analytics to maintain its market leadership.\n\n### References\n\n* [1] Hasbro, Inc. Period: December 31, 2023",
+   "answer_length": 2682,
+   "context_length": 118780,
+   "context": {
+    "entities": 60,
+    "relations": 141,
+    "chunks": 10,
+    "rerank_candidates": 47,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Hasbro SA",
+     "Subsidiaries Of Hasbro Inc",
+     "Hasbro",
+     "2024 Brand Architecture",
+     "Non-Hasbro Branded Film And TV",
+     "Tim Kilpin",
+     "Toy And Game Companies",
+     "Non-Hasbro Branded Film and TV",
+     "Hasbro, Inc. And Subsidiaries",
+     "Toy, Game, And Other Consumer Product Licensing Fees",
+     "Hasbro Transformation Office (HTO)",
+     "Entertainment One Film And Television Business",
+     "Licensed Consumer Products",
+     "HAS",
+     "Hasbro Gaming Portfolio"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6797,
+      "text": ", the Company announced additional strategic steps to position the business for future growth, including additional headcount reductions under the Operational Excellence Program, and a revised organizational structure whereby aspects of certain corporate functions are anticipated to be supported by a third-party outsourcing provider. The Company’s organizational structure changes will result in th"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6723,
+      "text": ", and cash flows for each of the years in the three-year period ended December 31, 2023, and the related notes and financial statement schedule II - valuation and qualifying accounts (collectively, the consolidated financial statements). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5249,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended Commission file number 1-6682 Hasbro, Inc. (Exact Name of Registrant As Specified in its Charter) Rhode Island 05-0155090 (State of Incorporation) (I.R.S. Employer Identification No.) 102"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5881,
+      "text": "fair values are based on inputs that are supported by little or no market activity and that are significant to the fair value of the assets or liabilities. There have been no transfers between levels within the fair value hierarchy. 104 Table of Contents HASBRO, INC. AND SUBSIDIARIES Notes to Consolidated Financial Statements — (Continued) (15) Stock Options, Other Stock Awards and Warrants 105 Ta"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.95,
+    "answer_relevancy": 0.5908636135394598,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6352
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:13:48.408226",
+   "duration_ms": 28501,
+   "answer": "Hasbro (HAS) maintains its competitive positioning by executing a \"Blueprint 2.0\" strategy that focuses on its most profitable brands and a franchise-first approach. This strategy leverages intellectual property (IP) through licensing, digital gaming, and entertainment to create story-led consumer franchises. By delivering brand experiences across multiple platforms—including board games, trading cards, and digital media—the Company aims to drive market share in key focus categories such as games, preschool, and action brands.\n\n### IP Licensing and Digital Growth\nRevenue growth is significantly driven by the out-licensing of Hasbro’s IP to third parties and the development of internal digital products. In 2023, the Wizards of the Coast and Digital Gaming segment saw a 10% increase in net revenues, largely due to the success of digital licensing for titles like *Monopoly Go!* and the release of the video game *Baldur’s Gate 3*. Additionally, licensing non-core brands for use in apparel, publishing, and theme park attractions allows the Company to generate higher-margin revenue from assets that are more profitable under licensing arrangements than direct production.\n\n### Revenue Recognition and Segment Performance\nThe Company generates revenue through the sale of physical products, digital game distribution, and entertainment content production. While the Consumer Products and Entertainment segments faced challenges in 2023—such as a 31% decline in Entertainment net revenue due to industry strikes—the Wizards of the Coast and Digital Gaming segment provided a critical offset. For example, *MAGIC: THE GATHERING* became the Company’s first billion-dollar brand in 2022, demonstrating the scalability of its core IP when successfully integrated into tabletop and digital formats.\n\n### Competitive Positioning and Risks\nHasbro operates in a highly competitive environment, contending with large toy manufacturers, digital game developers, and major film studios. Its competitive position is heavily dependent on consumer acceptance of its entertainment properties. The success of movies or television series based on Hasbro IP directly impacts the demand for associated merchandise and gaming products. However, this positioning is subject to risks, including the potential for high royalty expenses for partner brands like *STAR WARS* and *MARVEL*, the rapid pace of technological change (such as the adoption of artificial intelligence), and the necessity of renewing critical third-party licenses on favorable terms.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023 (HAS.html)",
+   "answer_length": 2606,
+   "context_length": 108677,
+   "context": {
+    "entities": 36,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 111,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Intellectual Property Licenses",
+     "Intellectual Property Litigation",
+     "Competition",
+     "Products And Systems Integration",
+     "Acquisitions",
+     "Products And Systems Integration Segment",
+     "Digital Gaming Business",
+     "Market Share",
+     "Strategic Risks",
+     "Third-Party Licenses",
+     "EBITDA Margin",
+     "New Solutions And Businesses",
+     "Licensing Agreements",
+     "Royalty Expense",
+     "Business Results"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6609,
+      "text": "for executing the strategy and presenting our DE&I progress to the Board at least annually. Employees As of year-end 2023, we employed approximately 5,502 people worldwide, with approximately 53% of our employees in North America (47% in the United States; 6% in Canada), 22% in Europe, 19% in Asia Pacific, and 6% in Latin America (includes Mexico). As of year-end, approximately 50% of our global w"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7081,
+      "text": ", although certain products also use electronic components. All of these materials are readily available but may be subject to significant fluctuations in price. There are certain chemicals (including phthalates and BPA) that national, state and local governments have restricted or are seeking to restrict or limit the use of; however, we do not believe these restrictions have or will materially im"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6614,
+      "text": "compared to 2022, reflecting enterprise-wide efforts to reduce retail inventory levels while improving the quality of inventory on hand. Inventory management efforts included inventory scrap and obsolescence write-downs for excess or obsolete inventory, most notably in the U.S. and Europe and within the Consumer Products and Wizards of the Coast tabletop gaming businesses, in addition to increases"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5786,
+      "text": "of net revenues, the cost of 54 Table of Contents sales increase was primarily the result of higher inventory obsolescence charges, primarily within the Consumer Products segment, partially offset by the mix of net revenues during 2023 compared to 2022. In 2022, Cost of sales decreased 1% to $1,911.8 million, or 32.6% of net revenues, for the year ended December 25, 2022 compared to $1,927.5 milli"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6446,
+      "text": "communities and our planet include: Focus Area: Climate and Sustainability Carbon Reduction: • We recognize the impact our business can have on the environment and are working to reduce our footprint. We view sustainability challenges as opportunities to innovate and to continuously improve our product design and operational efficiencies. We believe the long-term viability of our operations and ou"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5364,
+      "text": "favorable $21.8 million foreign currency translation, most notably from the Company's Latin American markets and to a lesser extent, from markets across Europe. Within the Consumer Products segment, net revenues declined in the Franchise Brands, Partner Brands and Portfolio Brands categories during 2023 compared to 2022. The net revenue decrease was driven by lower sales of Partner Brands products"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6302,
+      "text": "Harley Davidson, Ms. Goetter served in senior leadership roles at Tyson Foods, Inc. from 2019 to 2020 and General Mills, Inc. from 1998 to 2019. (3) Prior to joining Hasbro in 2023, Mr. Kilpin served as Executive Chairman and Chief Executive Officer of PlayMonster Group, LLC from 2020 to 2023. Prior thereto, Mr. Kilpin held senior leadership positions within the toy and entertainment industry at c"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7132,
+      "text": "is potentially even greater than for our other products and this pace of change is expected to accelerate as artificial intelligence is further incorporated into the development of games. If a digital game fails to gain consumer acceptance early in its life cycle, there are limited opportunities to gain such acceptance through secondary launches or distribution through alternative platforms. This "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6774,
+      "text": "and television production costs, recoverability of goodwill, intangible assets, income taxes and business combinations. Additionally, the Company identified the valuation of the Company’s equity method investment in Discovery Family Channel as a significant accounting estimate. Film and Television Production Costs The Company incurs certain costs in connection with the production of television pro"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9795918367346939,
+    "answer_relevancy": 0.7239127638100976,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4259
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:13:59.956055",
+   "duration_ms": 11548,
+   "answer": "Hasbro’s competitive positioning is centered on its \"Blueprint 2.0\" strategy, which aims to transform its brands into story-led and play-led consumer franchises. A key pillar of this strategy is a \"franchise-first\" approach that leverages intellectual property (IP) through licensing, digital games, and entertainment. By focusing on fewer, bigger, and more profitable brands, Hasbro seeks to drive market share and create multi-generational brand experiences across various platforms, including theme parks, toy companies, and digital media [1].\n\nThe company generates revenue and enhances its financial stability through diverse licensing arrangements. For instance, Hasbro promotes its brands by out-licensing trademarks and characters to third parties for use in apparel, publishing, and home goods. These contracts typically involve sales-based or usage-based royalties, and in some instances, minimum guaranteed amounts or fixed fees over the license term. Out-licensing is also utilized for non-core brands or specific product lines where third-party development is more effective and profitable than in-house production, such as the relaunch of the *LITTLES PET SHOP* brand through a partnership with Basic Fun! [1].\n\nDigital gaming represents a significant area of growth and IP activation. Hasbro collaborates with third-party developers to transform its IP into successful digital experiences, such as the 2023 release of *Baldur’s Gate 3* (developed by Larian Studios) and the mobile game *Monopoly Go!* (released by Scopely). These licensing relationships, alongside internal developments like *Magic: The Gathering Arena*, help unlock the full value of Hasbro’s brands and establish direct relationships with fans. This digital expansion complements the company’s core strength in physical toys and games, creating multiple categories of consumer engagement that optimize overall economics [1].\n\nFurthermore, Hasbro has taken strategic steps to streamline its operations and focus on core IP to improve profitability. This includes the sale of the non-core eOne Film and TV business to Lionsgate in late 2023, which is expected to reduce the costs and volatility associated with large-scale film production. Through its Operational Excellence Program, the company is also implementing supply chain transformations and headcount reductions to reinvest in high-growth areas. These efforts, combined with a disciplined investment in franchise brands like *MAGIC: THE GATHERING* and *DUNGEONS & DRAGONS*, position Hasbro to drive long-term, sustainable growth [1].\n\n### References\n\n* [1] {\"ticker\":\"HAS\",\"company\":\"Hasbro, Inc.\",\"period\":\"December 31, 2023\",\"source\":\"HAS.html\"}",
+   "answer_length": 2688,
+   "context_length": 33485,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 5,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6797,
+      "text": ", the Company announced additional strategic steps to position the business for future growth, including additional headcount reductions under the Operational Excellence Program, and a revised organizational structure whereby aspects of certain corporate functions are anticipated to be supported by a third-party outsourcing provider. The Company’s organizational structure changes will result in th"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6172,
+      "text": "subsidiary, Wizards of the Coast (“Wizards”), is a critical part of our gaming business, driving innovation and growth through its popular role-playing and fantasy card-collecting games such as MAGIC: THE GATHERING, Hasbro's first billion-dollar brand which benefited from multiple tentpole set releases exceeding $100.0 million per set during 2023, and DUNGEONS & DRAGONS. Our iconic game brands inc"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9384615384615385,
+    "answer_relevancy": 0.6940722469128938,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4081
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:14:31.949580",
+   "duration_ms": 31994,
+   "answer": "Hasbro, Inc. (HAS) strengthens its competitive positioning by executing a \"franchise-first\" strategy known as **Blueprint 2.0**, which focuses on transforming its intellectual property (IP) into story-led and play-led franchises across multiple platforms [1]. By leveraging in-house capabilities, Hasbro creates various categories of consumer engagement—including digital gaming, traditional toys, and entertainment—which helps optimize the company’s economics and differentiates it as a purpose-driven business [1, KG].\n\nGrowth in IP licensing serves as a primary driver for scaling Hasbro's brands through a global network of partners, including theme park operators and other toy and game companies [1]. This strategy is particularly evident in the digital gaming sector, where out-licensing proprietary IP for titles such as **Monopoly Go!** and **Baldur’s Gate 3** generated significant revenue in 2023 [1, KG]. Additionally, the company utilizes out-licensing for non-core brands and lifestyle categories like apparel and publishing, which can be more profitable under third-party management than through internal production [1, KG].\n\nHasbro’s revenue recognition is diversified across product sales, royalties, and entertainment content [1]. Major franchises like **Magic: The Gathering** have achieved \"billion-dollar brand\" status, supported by record sales from high-value set releases [1, KG]. The development and distribution of branded entertainment content, such as films and television programs, further enhance competitive positioning by driving product sales, increasing licensing revenues, and expanding overall brand awareness for global audiences [1].\n\nMaintaining a strong competitive position is heavily dependent on the protection of **critical intellectual property rights**, including trademarks and patents [KG]. Failure to adequately safeguard these rights could enable competitors to develop similar products, which would adversely impact Hasbro’s market share [KG]. Consequently, Hasbro continues to invest in its **Operational Excellence Program** to drive efficiency and reinvest in its most profitable franchises while focusing on attracting the talent necessary to innovate in the evolving gaming and entertainment landscape [1, KG].\n\n### References\n\n- [1] Hasbro, Inc. Form 10-K for the fiscal year ended December 31, 2023",
+   "answer_length": 2356,
+   "context_length": 126224,
+   "context": {
+    "entities": 50,
+    "relations": 155,
+    "chunks": 10,
+    "rerank_candidates": 137,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Hasbro SA",
+     "Intellectual Property Licenses",
+     "Subsidiaries Of Hasbro Inc",
+     "Intellectual Property Litigation",
+     "2024 Brand Architecture",
+     "Strategic Risks",
+     "Non-Hasbro Branded Film And TV",
+     "Third-Party Licenses",
+     "Toy And Game Companies",
+     "Licensing Agreements",
+     "Tim Kilpin",
+     "Royalty Expense",
+     "Hasbro",
+     "Intellectual Property",
+     "Hasbro, Inc. And Subsidiaries"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6797,
+      "text": ", the Company announced additional strategic steps to position the business for future growth, including additional headcount reductions under the Operational Excellence Program, and a revised organizational structure whereby aspects of certain corporate functions are anticipated to be supported by a third-party outsourcing provider. The Company’s organizational structure changes will result in th"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6723,
+      "text": ", and cash flows for each of the years in the three-year period ended December 31, 2023, and the related notes and financial statement schedule II - valuation and qualifying accounts (collectively, the consolidated financial statements). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5249,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended Commission file number 1-6682 Hasbro, Inc. (Exact Name of Registrant As Specified in its Charter) Rhode Island 05-0155090 (State of Incorporation) (I.R.S. Employer Identification No.) 102"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3452,
+      "text": "compared to the Company’s fair value estimate. /s/ KPMG LLP We have not been able to determine the specific year that we began serving as the Company’s auditor, however, we are aware that we have served as the Company’s auditor since at least 1968. Providence, Rhode Island February 28, 2024 71 Table of Contents HASBRO, INC. AND SUBSIDIARIES Consolidated Balance Sheets December 31, 2023 and Decembe"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9555555555555556,
+    "answer_relevancy": 0.6347419205989624,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6476
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:15:05.268915",
+   "duration_ms": 33319,
+   "answer": "Hasbro, Inc. (HAS) has implemented a strategic plan known as **Blueprint 2.0**, which focuses on driving long-term, sustainable growth by transforming its brands into story-led and play-led franchises. A central pillar of this strategy is the expansion of intellectual property (IP) through licensing, digital gaming, and entertainment. By focusing on \"fewer, bigger, more profitable brands,\" Hasbro aims to increase its market share in key categories such as board games, trading cards, and role-playing games [1].\n\nThe company's competitive positioning is significantly enhanced by its out-licensing model, particularly in the digital gaming sector. In 2023, Hasbro saw substantial revenue contributions from licensed digital titles, such as **Monopoly Go!** (licensed to Scopely) and **Baldur’s Gate 3** (based on the *Dungeons & Dragons* IP). These successes, alongside the performance of **MAGIC: THE GATHERING**, which achieved billion-dollar brand status for the second consecutive year in 2023, underscore the value of leveraging proprietary IP across multiple platforms [1].\n\nHasbro's revenue recognition from licensing agreements often includes minimum guaranteed amounts or fixed fees, providing a degree of financial stability. Furthermore, the company’s \"franchise-first\" approach ensures that entertainment releases—such as the theatrical films *Dungeons & Dragons: Honor Among Thieves* and *Transformers: Rise of the Beasts*—directly drive consumer product sales and licensing revenues. This integrated ecosystem allows Hasbro to optimize its economics by creating multiple categories of engagement for a single brand [1].\n\nTo further sharpen its competitive edge and focus on core profitability, Hasbro recently divested its non-core **Entertainment One (eOne)** film and television business to Lionsgate. This move allows the company to concentrate its entertainment investments specifically on Hasbro-owned IP that aligns with its toy and game business. Additionally, the company is undergoing an **Operational Excellence Program** to create supply chain efficiencies and reduce costs, reinvesting these savings into its most valuable franchises [1].\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023 HAS.html",
+   "answer_length": 2231,
+   "context_length": 124055,
+   "context": {
+    "entities": 49,
+    "relations": 155,
+    "chunks": 10,
+    "rerank_candidates": 144,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Hasbro SA",
+     "Intellectual Property Licenses",
+     "Subsidiaries Of Hasbro Inc",
+     "Intellectual Property Litigation",
+     "Tim Kilpin",
+     "Competition",
+     "Non-Hasbro Branded Film And TV",
+     "Products And Systems Integration",
+     "2024 Brand Architecture",
+     "Acquisitions",
+     "Hasbro",
+     "Products And Systems Integration Segment",
+     "Toy And Game Companies",
+     "Digital Gaming Business",
+     "Non-Hasbro Branded Film and TV"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6797,
+      "text": ", the Company announced additional strategic steps to position the business for future growth, including additional headcount reductions under the Operational Excellence Program, and a revised organizational structure whereby aspects of certain corporate functions are anticipated to be supported by a third-party outsourcing provider. The Company’s organizational structure changes will result in th"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6723,
+      "text": ", and cash flows for each of the years in the three-year period ended December 31, 2023, and the related notes and financial statement schedule II - valuation and qualifying accounts (collectively, the consolidated financial statements). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 3452,
+      "text": "compared to the Company’s fair value estimate. /s/ KPMG LLP We have not been able to determine the specific year that we began serving as the Company’s auditor, however, we are aware that we have served as the Company’s auditor since at least 1968. Providence, Rhode Island February 28, 2024 71 Table of Contents HASBRO, INC. AND SUBSIDIARIES Consolidated Balance Sheets December 31, 2023 and Decembe"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5844572476588107,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6461
+   }
+  }
+ }
+}

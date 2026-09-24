@@ -1,0 +1,197 @@
+{
+ "question_id": "383d8d29",
+ "ticker": "ROP",
+ "question": "Total labor cost calc: $80K (ROP) x 16.8K employees.",
+ "expected_answer": "The total annual labor cost can be calculated by multiplying the number of employees by the average annual cost per employee. With 16,800 employees and a cost of $80,000 per employee, the calculation is:\n\n16,800 employees × $80,000 per employee = $1,344,000,000.\n\nThus, the total annual labor cost is $1.344 billion.",
+ "category": "Company overview",
+ "expected_type": "Multiplication",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1570,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:13:32.408261",
+   "duration_ms": 52382,
+   "answer": "I do not have enough information to answer this query. The provided **Context** does not contain data regarding the number of employees (16.8K) or the average labor cost per employee ($80K) for Roper (ROP). \n\nThe available information in the Knowledge Graph for Roper focuses on its capital deployment and acquisition strategy. Specifically, Roper has deployed a total of $6,550 million in capital over the last three years toward acquisitions. These transactions include the acquisition of Frontline for $3,750 million in 2022, Syntellis Performance Solutions for $1,380 million in 2023, and the announced purchase of Procare Solutions for $1,860 million in January 2024. \n\nBecause the provided Knowledge Graph Data and Document Chunks do not include the specific metrics for labor costs or employee headcounts, the requested calculation cannot be performed or verified using only the provided information.",
+   "answer_length": 907,
+   "context_length": 14398,
+   "context": {
+    "entities": 60,
+    "relations": 26,
+    "chunks": 0,
+    "rerank_candidates": 19,
+    "chunk_tickers": [],
+    "entity_names": [
+     "$530.9 Million",
+     "$186.8 Million",
+     "$450.0 Million",
+     "$6,420.4 Million",
+     "$1,860 Acquisition",
+     "$3,750 Acquisition",
+     "$1,380 Acquisition",
+     "$225.76 Average Price",
+     "$1,253.5 Million",
+     "$196.8 Million",
+     "$409.5 Million",
+     "$1,172.8 Million",
+     "$172.50",
+     "$2,886.4 Million",
+     "$4.6 Million"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:14:02.067024",
+   "duration_ms": 29659,
+   "answer": "Labor and personnel costs represent a significant portion of the operating expenses for major data analytics, service, and biotechnology firms. These costs are primarily driven by salaries, employee benefits, incentive compensation, and the complexities of managing a global workforce under varying regulatory and inflationary environments.\n\n### Verisk Analytics Inc.\nFor Verisk Analytics Inc., personnel expenses are a dominant component of their cost structure, accounting for approximately 57% and 59% of total operating expenses in 2023 and 2022, respectively. These expenses include salaries, benefits, commissions, and recruitment costs. In the Insurance segment specifically, the cost of revenues reached $876.5 million in 2023, reflecting a 12.1% increase from the previous year. A significant portion of this increase was attributed to salaries and employee benefits, which contributed $51.0 million to the rise in cost of revenues. Total operating expenses for the company were reported at $1,549.7 million in 2023.\n\n### Cintas Corporation\nCintas operates with a large workforce of approximately 46,500 employee-partners. The company has identified rising labor costs—specifically wages and healthcare benefits—as factors that may increase overall operational expenses. In fiscal 2024, the cost of uniform rental and facility services rose to approximately $3.87 billion, driven by sales volume and material costs, though efficiency initiatives helped manage these expenses as a percentage of revenue. Furthermore, Cintas is sensitive to changes in employment laws, such as overtime requirements and minimum wage mandates, which directly impact labor expenses and compliance costs.\n\n### Biogen Inc.\nAt Biogen Inc., labor and personnel costs are deeply embedded in its massive investment in Research and Development (R&D) and production. In 2023, Biogen allocated $2,462.0 million to R&D, an 11% increase from 2022, highlighting the high cost of specialized personnel required for innovation. The company's cost of sales also grew by 11.2% in 2023, reaching $2,533.4 million (excluding amortization and impairment). These increases reflect broader trends in the pharmaceutical sector where high-skill labor and operational disruptions can significantly influence the total cost and expense, which for Biogen totaled $8,538.8 million in 2023.\n\n### Broader Industry Drivers\nAcross these organizations, management plays a critical role in estimating and projecting labor-related costs for long-term and system contracts. Management must account for variables such as labor productivity, anticipated labor agreements, and subcontractor performance. External factors like the inflationary environment also exert pressure; for instance, Ameriprise Financial has noted that inflation increases wage sensitivity, making recruitment and retention more complex. Similarly, rising labor costs and availability trends are recognized as potential risks to the financial position and operational flexibility of large industrial entities.\n\n### References\n\n* [1] Cost Of Revenues\n* [2] Personnel Expenses\n* [3] Salaries And Employee Benefits\n* [4] Cintas\n* [5] Research And Development",
+   "answer_length": 3178,
+   "context_length": 40529,
+   "context": {
+    "entities": 41,
+    "relations": 60,
+    "chunks": 0,
+    "rerank_candidates": 113,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Cost Of Revenues",
+     "Personnel Expenses",
+     "Cost Of Revenue",
+     "Salaries And Employee Benefits",
+     "Data Analytics Provider",
+     "Company",
+     "Estimated Costs To Complete System Contracts",
+     "Total Operating Expenses",
+     "Anticipated Labor Agreements",
+     "Management",
+     "Research And Development",
+     "Total Cost And Expense",
+     "Cost Estimates",
+     "Actuarial Assumptions",
+     "Labor Productivity"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.5837130151027838,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.3709
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:14:20.573068",
+   "duration_ms": 18506,
+   "answer": "I do not have enough information in the provided context to answer your query. The document chunks and reference list provided are empty, and I am restricted to using only the information explicitly stated in the context to formulate a response.",
+   "answer_length": 245,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.15
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:15:33.123626",
+   "duration_ms": 72551,
+   "answer": "I do not have enough information to verify or perform the specific labor cost calculation of $80,000 per employee for 16,800 employees at Roper Technologies (ROP). The provided context does not contain data regarding an employee count of 16,800 for any organization, nor does it specify an average labor cost of $80,000 per employee.\n\nThe context provides several pieces of financial and operational data for Roper Technologies, but these focus primarily on its acquisition strategy and cost of sales. Roper is noted to have deployed $6.55 billion in capital over three years for various acquisitions, including Procare Solutions ($1.86 billion), Frontline ($3.75 billion), and Syntellis Performance Solutions ($1.38 billion). While the cost of sales for Roper Technologies Inc. is reported as $1,870.6 million in 2023, $1,619.0 million in 2022, and $1,426.2 million in 2021, these figures are not tied to a specific headcount of 16,800.\n\nRegarding general labor and personnel data available in the context:\n* **Personnel Expenses:** For the leading data analytics provider mentioned, personnel expenses (including salaries, benefits, and commissions) constitute a major component of operating costs, representing approximately 57% and 59% of total operating expenses for 2023 and 2022, respectively.\n* **Workforce Size:** Cintas is documented to have a workforce of approximately 46,500 employee-partners globally.\n* **Labor Cost Drivers:** Labor costs for various companies are influenced by factors such as anticipated labor agreements, overtime wages, healthcare benefits, and labor productivity assumptions used in calculating retirement benefit obligations.\n\nBecause the specific figures required for your calculation are not present in the provided Knowledge Graph or Document Chunks, I cannot confirm the \"Total labor cost calc\" presented in the query.\n\n### References\n\n* [1] Roper\n* [2] Cost Of Sales\n* [3] $6,550 Capital Deployment\n* [4] Personnel Expenses\n* [5] Cintas",
+   "answer_length": 1979,
+   "context_length": 44033,
+   "context": {
+    "entities": 59,
+    "relations": 86,
+    "chunks": 0,
+    "rerank_candidates": 133,
+    "chunk_tickers": [],
+    "entity_names": [
+     "$530.9 Million",
+     "Data Analytics Provider",
+     "$186.8 Million",
+     "Personnel Expenses",
+     "$450.0 Million",
+     "Cost Of Revenue",
+     "$6,420.4 Million",
+     "Salaries And Employee Benefits",
+     "$1,860 Acquisition",
+     "Cost Of Revenues",
+     "$3,750 Acquisition",
+     "Anticipated Labor Agreements",
+     "$1,380 Acquisition",
+     "Management",
+     "$225.76 Average Price"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:16:40.719646",
+   "duration_ms": 67596,
+   "answer": "I do not have enough information in the provided context to verify or confirm the total labor cost calculation based on the specific figures of $80,000 and 16,800 employees for Roper Technologies (ROP). The provided Knowledge Graph and Document Chunks do not contain data regarding employee headcount or specific average labor costs per individual for this entity.\n\nThe context does provide several financial details for Roper Technologies Inc., including its cost of sales, which was reported as $1,870.6 million in 2023, $1,619.0 million in 2022, and $1,426.2 million in 2021. Additionally, the company has engaged in significant capital deployment for acquisitions, such as Procare Solutions for $1,860 million in January 2024, Syntellis Performance Solutions for $1,380 million in 2023, and Frontline for $3,750 million in 2022.\n\nWhile the context mentions that personnel expenses are a major component of operating costs for certain entities—representing approximately 57% to 59% of total operating expenses for a \"Data Analytics Provider\"—this data is not attributed to Roper Technologies, nor does it provide the specific headcount of 16.8K employees mentioned in your query.",
+   "answer_length": 1182,
+   "context_length": 44682,
+   "context": {
+    "entities": 66,
+    "relations": 86,
+    "chunks": 0,
+    "rerank_candidates": 129,
+    "chunk_tickers": [],
+    "entity_names": [
+     "$530.9 Million",
+     "Data Analytics Provider",
+     "$186.8 Million",
+     "Personnel Expenses",
+     "$450.0 Million",
+     "Company",
+     "$6,420.4 Million",
+     "Estimated Costs To Complete System Contracts",
+     "$1,860 Acquisition",
+     "Actuarial Assumptions",
+     "$3,750 Acquisition",
+     "Labor Productivity",
+     "$1,380 Acquisition",
+     "Management",
+     "$225.76 Average Price"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2333
+   }
+  }
+ }
+}

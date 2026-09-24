@@ -1,0 +1,465 @@
+{
+ "question_id": "d25e0880",
+ "ticker": "AMP",
+ "question": "Ameriprise (AMP) has a culture and workforce that significantly influence its competitive positioning and contribute to long-term investor success.",
+ "expected_answer": "Ameriprise Financial's emphasis on client focus, integrity, excellence, and respect, combined with its robust human capital—represented by around 13,800 global employees and 8,400 non-employee advisors—supports its competitive positioning. This values-oriented approach not only fosters a high-performing and diverse workforce but also ensures the company is well-equipped to meet varied client needs, thereby helping secure long-term success.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": true,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 909,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:43:37.927755",
+   "duration_ms": 15400,
+   "answer": "Ameriprise Financial maintains a values-driven culture and a diverse workforce of approximately 13,800 global employees, including corporate staff and employee financial advisors. In addition to its internal workforce, the company has approximately 8,400 non-employee advisors affiliated through its franchise advisor group. This human capital is central to the company’s \"Wealth Management\" strategy, where long-term personal relationships between clients and advisors drive business results.\n\nThe company’s culture is built upon four core values: being client-focused, maintaining integrity, pursuing excellence, and showing respect for individuals and communities. Ameriprise measures the strength of this culture through an annual engagement survey, which in 2023 saw a 94% participation rate and an engagement score of 85%. This score exceeds industry benchmarks, particularly in categories such as integrity, leader effectiveness, and client focus.\n\nProfessional development is a high priority, with 96% of employees participating in training programs. The company offers an extensive curriculum that includes a core curriculum for new hires, a Transformational Leader Program for officers, and various online courses, workshops, mentoring, and peer-to-peer programs. This investment in development contributes to high retention rates; in 2023, Ameriprise retained 95% of its high-performing employees, and the retention rate for affiliated advisors with more than 10 years of tenure remained strong at 94%.\n\nAmeriprise’s commitment to diversity, equity, and inclusion (DEI) is another key component of its workforce strategy. The global workforce is 40% women, and 21% of its U.S.-based employees are ethnically diverse. The company utilizes an \"Inclusion Index\" to measure progress, achieving a score of 85% in 2023. This strategy is overseen by the Chairman and CEO and reviewed by the Board of Directors, supported by 13 business resource networks that engage over 21,000 participants globally to foster cultural awareness and community involvement.\n\nTo attract and motivate its talent, Ameriprise utilizes a \"Total Rewards\" approach that aligns compensation with both individual goal achievement and leadership performance. This comprehensive program includes base salaries, annual cash awards, and long-term incentives. Furthermore, the company focuses on a holistic benefits strategy addressing physical, social, emotional, and financial wellness to ensure a competitive employee value proposition.\n\n### References\n\n* [1] AMP.html",
+   "answer_length": 2543,
+   "context_length": 105358,
+   "context": {
+    "entities": 60,
+    "relations": 131,
+    "chunks": 10,
+    "rerank_candidates": 24,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Ameriprise Advisor Group",
+     "Ameriprise Financials Mentoring Opportunities",
+     "Ameriprise Financials High-Performing Employees",
+     "Ameriprise Financials Physical, Social, Emotional, And Financial Wellness",
+     "Investment Professionals",
+     "Ameriprise Financial Franchise",
+     "Ameriprise Financials Global Workforce",
+     "Ameriprise Financials Core Curriculum For New Hires",
+     "Ameriprise Financial Advisor Network",
+     "Ameriprise Financials Peer-To-Peer Programs",
+     "Ameriprise Financials Senior Executive Succession Plans",
+     "Ameriprise Financial, Inc. Employees",
+     "Financial Advisor Productivity",
+     "Ameriprise Financials Well-Being Programs",
+     "1 Index Ameriprise Financial"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6810,
+      "text": "our people. This includes approximately 13,800 global 8 Index Ameriprise Financial, Inc. employees, including our corporate employees and employee financial advisors. We have approximately 8,400 non-employee advisors who choose to affiliate with us through our franchise advisor group. Leadership and training are core to our culture and history, and we offer an extensive employee development curric"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6663,
+      "text": "Operations 32 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 65 Item 8. Financial Statements and Supplementary Data 71 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 170 Item 9A. Controls and Procedures 170 Item 9B. Other Information 170 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 170 PART III 171 I"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6775,
+      "text": "claims and persistency experience. In line with the market, we have pursued nationwide premium rate increases for many years and expect to continue to pursue rate increases over the next several years. In general, since very little of our LTC business is subject to rate stability regulation, we have historically followed a policy of pursuing smaller, more frequent increases in order to align polic"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6427,
+      "text": "share repurchase program does not require the purchase of any minimum number of shares, and depending on market conditions and other factors, these purchases may be commenced or suspended at any time without prior notice. Acquisitions under the share repurchase program may be made in the open market, through privately negotiated transactions or block trades or other means. During the year ended De"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "273,963 $ 3,474,380,514 Employee transactions (2) 1,613 $ 321.01 N/A N/A November 1, 2023 to November 30, 2023 Share repurchase program (1) 475,133 $ 346.37 475,133 $ 3,309,808,008 Employee transactions (2) 18,664 $ 344.13 N/A N/A December 1, 2023 to December 31, 2023 Share repurchase program (1) 516,544 $ 369.23 516,544 $ 3,119,083,448 Employee transactions (2) 92,825 $ 370.31 N/A N/A Totals Shar"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5159,
+      "text": "and other benefits for employees (other than employees directly related to distribution, such as financial advisors), professional and consultant fees, information technology, facilities and equipment, advertising and promotion, legal and regulatory and corporate related expenses. Economic Environment Global equity market conditions and fluctuations affect our results of operations and financial c"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5983,
+      "text": "MEA from 2014 to 2016 for BMO Global Asset Management. He has worked in the financial services industry since 1994 and earned a B.A. in accounting and economics and is a member of the Institute of Chartered Accountants in Scotland. *William F. (Ted) Truscott-CEO-Global Asset Management Mr. Truscott (63) has been our CEO - Global Asset Management since September 2012. Prior to that time, Mr. Trusco"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6679,
+      "text": "legislation, as well as in the other markets in which we operate, to ensure that we comply with all applicable legal requirements, including EU directives applicable to financial institutions as implemented in the various member states. Because of the mix of business activities we conduct, we assess the impact of, and monitor our status under, the EU Financial Conglomerates Directive, which contem"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 7036,
+      "text": "of our Consolidated Financial Statements. The accounting and reporting policies and estimates we have identified as fundamental to a full understanding of our consolidated results of operations and financial condition are described below. See Note 2 to our Consolidated Financial Statements for further information about our accounting policies. Valuation of Investments The most significant componen"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7063699926801436,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9266
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:43:54.478039",
+   "duration_ms": 16550,
+   "answer": "Ameriprise Financial, Inc. (AMP) maintains a values-driven and inclusive corporate culture that serves as the foundation for its business operations and client interactions. This culture is defined by four core values: being client-focused, maintaining integrity, pursuing excellence in all endeavors, and showing respect for individuals and the communities where the company operates. This cultural framework is designed to align the efforts of the workforce with the company’s broader strategic objectives and long-term success.\n\nThe company’s workforce consists of approximately 13,800 global employees, including corporate staff and employee financial advisors, supported by an additional 8,400 non-employee advisors affiliated through a franchise group. Human capital management at Ameriprise is a strategic priority focused on attracting, retaining, and developing a diverse, high-performing team. In 2023, the company reported that women comprise 40% of its global workforce, and 21% of its U.S.-based employees are ethnically diverse. Progress in fostering an inclusive environment is tracked through an Inclusion Index, which reached a score of 85% in 2023, exceeding industry benchmarks.\n\nProfessional development and leadership training are central to the Ameriprise culture. The company provides an extensive development curriculum, including a \"Transformational Leader Program\" for officers and specialized training for new and long-tenured employees. In 2023, 96% of employees participated in professional development training. This commitment to growth is paired with a \"total rewards\" approach to compensation, which includes base salary, annual cash awards, and long-term incentives designed to motivate and retain talent.\n\nThe effectiveness of these human capital strategies is reflected in high engagement and retention metrics. Ameriprise achieved an employee engagement score of 85% in 2023, with nearly the entire workforce (94%) participating in the annual survey. Furthermore, the company successfully retained 95% of its high-performing employees and maintained a 94% retention rate among affiliated advisors with more than 10 years of experience.\n\nGovernance of the company’s culture and talent strategy is managed through active oversight by the Board of Directors and the Compensation and Benefits Committee. These bodies annually review senior executive succession plans, DEI (Diversity, Equity, and Inclusion) strategies, and talent development status. Additionally, senior management collaborates with the Board to address enterprise-wide risks, including the monitoring of cybersecurity threats and the implementation of operational controls to ensure financial integrity and regulatory compliance.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC.",
+   "answer_length": 2780,
+   "context_length": 107255,
+   "context": {
+    "entities": 37,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 101,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Corporate Culture",
+     "Management",
+     "Cintas",
+     "Honeywell International Inc",
+     "Training And Leadership Development",
+     "Company",
+     "Diversity, Equity, And Inclusion",
+     "Human Capital Management",
+     "Marathon Oil",
+     "Company Success",
+     "Senior Management",
+     "Environmental, Social, And Governance (ESG)",
+     "Human Capital",
+     "Board Of Directors",
+     "Diversity"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6810,
+      "text": "our people. This includes approximately 13,800 global 8 Index Ameriprise Financial, Inc. employees, including our corporate employees and employee financial advisors. We have approximately 8,400 non-employee advisors who choose to affiliate with us through our franchise advisor group. Leadership and training are core to our culture and history, and we offer an extensive employee development curric"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6775,
+      "text": "claims and persistency experience. In line with the market, we have pursued nationwide premium rate increases for many years and expect to continue to pursue rate increases over the next several years. In general, since very little of our LTC business is subject to rate stability regulation, we have historically followed a policy of pursuing smaller, more frequent increases in order to align polic"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6783,
+      "text": "hedge these benefits and the “spread” income generated on our deposit products, fixed insurance, the fixed portion of variable annuities and variable insurance contracts and fixed deferred annuities. We have been operating in a historically low interest rate environment but have recently experienced a substantial increase in rates with uncertainty about where rates will go in the future. A higher "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6466,
+      "text": "Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 25. Retirement Plans and Profit Sharing Arrangements 160 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 161 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 162 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements ("
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5159,
+      "text": "and other benefits for employees (other than employees directly related to distribution, such as financial advisors), professional and consultant fees, information technology, facilities and equipment, advertising and promotion, legal and regulatory and corporate related expenses. Economic Environment Global equity market conditions and fluctuations affect our results of operations and financial c"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5983,
+      "text": "MEA from 2014 to 2016 for BMO Global Asset Management. He has worked in the financial services industry since 1994 and earned a B.A. in accounting and economics and is a member of the Institute of Chartered Accountants in Scotland. *William F. (Ted) Truscott-CEO-Global Asset Management Mr. Truscott (63) has been our CEO - Global Asset Management since September 2012. Prior to that time, Mr. Trusco"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6234,
+      "text": "the fourth quarter of 2022. Net realized gains for 2021 included net realized gains of $561 million on Available-for-Sale securities and a $58 million net gain related to commercial mortgage loans primarily due to the sale of securities and loans to the reinsurer as a result of the fixed deferred and payout annuity reinsurance transaction that closed in the third quarter 2021, as well as a $15 mil"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6068,
+      "text": "and its affiliates to ensure compliance with pre-established credit guidelines at the time we enter into a transaction which would potentially increase our credit risk. These guidelines and oversight of credit risk are managed through a comprehensive enterprise risk management program that includes members of senior management. 69 Index Ameriprise Financial, Inc. We manage the risk of credit-relat"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6875,
+      "text": "to our Consolidated Financial Statements. Sources of Revenues and Expenses Management and Financial Advice Fees Management and financial advice fees relate primarily to fees earned from managing mutual funds, private funds, separate account and wrap account assets and institutional investments, as well as fees earned from providing financial advice, administrative services (including transfer agen"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6618428428395282,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9155
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:44:04.651685",
+   "duration_ms": 10174,
+   "answer": "Ameriprise Financial maintains a workforce of approximately 13,800 global employees, including corporate staff and employee financial advisors. This internal team is supplemented by about 8,400 non-employee advisors who affiliate with the company through its franchise advisor group. In total, Ameriprise operates one of the top branded advisor platforms in the U.S. market, with more than 10,000 advisors who provide financial planning and brokerage services to retail and institutional clients.\n\n### **Culture and Employee Development**\nLeadership and training are central to the Ameriprise culture. The company offers a comprehensive development curriculum that supports both new and long-tenured employees, including a \"Transformational Leader Program\" for officers and various workshops, mentoring, and peer-to-peer programs. In 2023, approximately 96% of employees participated in professional development training. This commitment to human capital is managed through a framework that includes competitive compensation, well-being programs focusing on physical, social, emotional, and financial health, and a work environment designed to align rewards with both individual goal achievement and leadership performance.\n\nThe effectiveness of this culture is reflected in high engagement and retention metrics:\n*   **Employee Engagement:** The company achieved an 85% engagement score in 2023, exceeding industry benchmarks, with 94% of employees participating in the annual survey.\n*   **Retention:** Ameriprise retained 95% of its high-performing employees and maintained a 94% retention rate among affiliated advisors who have been with the firm for more than 10 years.\n*   **Recruitment:** The firm continues to attract experienced talent, with 412 experienced advisors moving their practices to Ameriprise in 2023 alone.\n\n### **Diversity, Equity, and Inclusion (DEI)**\nAmeriprise integrates DEI into its broader corporate strategy, overseen by the Chairman, CEO, and the Board of Directors. As of the end of 2023, the global workforce was comprised of 40% women, and 21% of U.S.-based employees were ethnically diverse. The company utilizes an \"Inclusion Index\" to measure progress, achieving a score of 85% in 2023. Additionally, 13 business resource networks engage more than 21,000 participants globally to promote cultural awareness and provide career development resources.\n\n### **Governance and Strategic Impact**\nThe Board of Directors and the Compensation and Benefits Committee take an active role in human capital management, regularly reviewing executive succession plans, talent development, and DEI strategy. This top-down focus on organizational stewardship and leadership excellence is intended to ensure a highly competitive employee value proposition. By fostering a values-based, inclusive culture, Ameriprise aims to execute its business plans and deliver solid performance within a highly competitive financial services industry.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC.",
+   "answer_length": 3007,
+   "context_length": 20641,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 3,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6810,
+      "text": "our people. This includes approximately 13,800 global 8 Index Ameriprise Financial, Inc. employees, including our corporate employees and employee financial advisors. We have approximately 8,400 non-employee advisors who choose to affiliate with us through our franchise advisor group. Leadership and training are core to our culture and history, and we offer an extensive employee development curric"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6483,
+      "text": "investment solutions and to develop new solutions that are responsive to client demand in an increasingly complex and competitive marketplace. History and Development Our company has provided solutions to help clients confidently achieve their financial objectives for nearly 130 years. Our earliest predecessor company, Investors Syndicate, was founded in 1894 to provide face-amount certificates to"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6897,
+      "text": "lending and cash management solutions help clients establish financial flexibility while planning for both short and long- 3 Index Ameriprise Financial, Inc. term needs. As part of our goal-based approach to financial advice, our advisors help clients actively manage investing, saving and spending so they have a more complete picture of their financial life. A significant portion of revenues in th"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6162137881749551,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9041
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:44:26.475999",
+   "duration_ms": 21824,
+   "answer": "Ameriprise Financial, Inc. maintains a values-driven and inclusive corporate culture that serves as the foundation for its operations and strategic execution. The company’s core values—being client-focused, maintaining integrity, pursuing excellence, and showing respect for individuals and communities—are central to its goal of helping clients achieve their financial objectives. This culture is reflected in high employee engagement levels; in 2023, the company reported an 85% engagement score, which exceeds industry benchmarks, and saw a 94% participation rate in its annual engagement survey.\n\nThe company’s workforce consists of approximately 13,800 global employees, including corporate staff and employee financial advisors, supported by roughly 8,400 non-employee franchise advisors. To sustain its competitive position, Ameriprise invests heavily in human capital management, offering an extensive development curriculum that includes a core curriculum for new hires, a Transformational Leader Program for officers, and various mentoring and peer-to-peer learning opportunities. In 2023, 96% of employees participated in professional development training, underscoring the company's commitment to continuous growth and leadership excellence.\n\nDiversity, Equity, and Inclusion (DEI) are also integrated into the company’s broader business strategy. The global workforce is comprised of 40% women, with 21% of U.S.-based employees identifying as ethnically diverse. These initiatives are guided by a comprehensive DEI strategy approved by the Chairman and CEO and reviewed by the Board of Directors. The company also utilizes 13 business resource networks to promote cultural awareness and provide career development resources, contributing to an Inclusion Index score of 85% in 2023.\n\nFrom a competitive standpoint, Ameriprise’s ability to attract and retain high-performing talent is a critical driver of its success. The company retained 95% of its high-performing employees in 2023 and maintained a 94% retention rate among affiliated advisors with more than 10 years of tenure. Additionally, the company continues to attract experienced talent, with 412 productive advisors moving their practices to Ameriprise in 2023 alone. This robust advisor force is supported by integrated technology, marketing, and leadership programs, which strengthen the company’s value proposition in the Wealth Management and Asset Management sectors.\n\nThe Board of Directors and the Compensation and Benefits Committee play active roles in overseeing these human capital efforts. This includes annual reviews of senior executive succession plans and frequent discussions regarding talent development, recruiting initiatives, and company culture. By aligning its \"total rewards\" approach—which includes base salary, cash awards, and long-term incentives—with both individual and leadership performance, Ameriprise ensures that its workforce remains motivated to drive long-term business results and shareholder value.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. Document Title: AMP.html",
+   "answer_length": 3086,
+   "context_length": 130382,
+   "context": {
+    "entities": 61,
+    "relations": 185,
+    "chunks": 10,
+    "rerank_candidates": 168,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Ameriprise Financials Physical, Social, Emotional, And Financial Wellness",
+     "Corporate Culture",
+     "Ameriprise Financials Senior Executive Succession Plans",
+     "Management",
+     "Investment Professionals",
+     "Cintas",
+     "Financial Advisor Productivity",
+     "Honeywell International Inc",
+     "Ameriprise Financials High-Performing Employees",
+     "Training And Leadership Development",
+     "Ameriprise Responsible Business Report",
+     "Company",
+     "Ameriprise Financials Mentoring Opportunities",
+     "Diversity, Equity, And Inclusion",
+     "Ameriprise Financials Core Curriculum For New Hires"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6810,
+      "text": "our people. This includes approximately 13,800 global 8 Index Ameriprise Financial, Inc. employees, including our corporate employees and employee financial advisors. We have approximately 8,400 non-employee advisors who choose to affiliate with us through our franchise advisor group. Leadership and training are core to our culture and history, and we offer an extensive employee development curric"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6663,
+      "text": "Operations 32 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 65 Item 8. Financial Statements and Supplementary Data 71 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 170 Item 9A. Controls and Procedures 170 Item 9B. Other Information 170 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 170 PART III 171 I"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6775,
+      "text": "claims and persistency experience. In line with the market, we have pursued nationwide premium rate increases for many years and expect to continue to pursue rate increases over the next several years. In general, since very little of our LTC business is subject to rate stability regulation, we have historically followed a policy of pursuing smaller, more frequent increases in order to align polic"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6427,
+      "text": "share repurchase program does not require the purchase of any minimum number of shares, and depending on market conditions and other factors, these purchases may be commenced or suspended at any time without prior notice. Acquisitions under the share repurchase program may be made in the open market, through privately negotiated transactions or block trades or other means. During the year ended De"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "273,963 $ 3,474,380,514 Employee transactions (2) 1,613 $ 321.01 N/A N/A November 1, 2023 to November 30, 2023 Share repurchase program (1) 475,133 $ 346.37 475,133 $ 3,309,808,008 Employee transactions (2) 18,664 $ 344.13 N/A N/A December 1, 2023 to December 31, 2023 Share repurchase program (1) 516,544 $ 369.23 516,544 $ 3,119,083,448 Employee transactions (2) 92,825 $ 370.31 N/A N/A Totals Shar"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6466,
+      "text": "Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 25. Retirement Plans and Profit Sharing Arrangements 160 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 161 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements (Continued) 162 Index Ameriprise Financial, Inc. Notes to Consolidated Financial Statements ("
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5159,
+      "text": "and other benefits for employees (other than employees directly related to distribution, such as financial advisors), professional and consultant fees, information technology, facilities and equipment, advertising and promotion, legal and regulatory and corporate related expenses. Economic Environment Global equity market conditions and fluctuations affect our results of operations and financial c"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5983,
+      "text": "MEA from 2014 to 2016 for BMO Global Asset Management. He has worked in the financial services industry since 1994 and earned a B.A. in accounting and economics and is a member of the Institute of Chartered Accountants in Scotland. *William F. (Ted) Truscott-CEO-Global Asset Management Mr. Truscott (63) has been our CEO - Global Asset Management since September 2012. Prior to that time, Mr. Trusco"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4500,
+      "text": "the LDTI standard and for determining the transition date and transition period adjustments, (ii) testing the relevance and reliability of the external data used by management to develop the discount rate curve, (iii) testing the completeness and accuracy of the data used by management to develop and update the significant market risk benefit assumptions, and (iv) the use of professionals with spe"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9482758620689655,
+    "answer_relevancy": 0.6867584266024934,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9088
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:44:50.975796",
+   "duration_ms": 24500,
+   "answer": "Ameriprise Financial (AMP) maintains a values-driven and inclusive corporate culture that serves as the foundation for its business operations and competitive strategy. This culture is centered on four primary values: remaining client-focused, maintaining integrity always, achieving excellence in all endeavors, and respecting individuals and the communities where the company operates. This cultural framework is a key driver of the company’s resilience and its ability to deliver solid performance in a highly competitive industry.\n\n### Workforce Composition and Engagement\nThe Ameriprise workforce is comprised of approximately 13,800 global employees, including corporate staff and employee financial advisors. Additionally, the company maintains relationships with approximately 8,400 non-employee franchise advisors. The company reports exceptionally high engagement levels, with 94% of employees participating in annual surveys and an overall engagement score of 85%, which exceeds industry benchmarks. Specifically, employees rated the company highly in metrics related to integrity, leader effectiveness, respect, and client focus.\n\n### Talent Development and Retention\nLeadership and training are core to the company’s history. Ameriprise offers an extensive development curriculum that supports both new hires and long-tenured employees. In 2023, 96% of employees participated in professional development training. Resources for growth include:\n*   **Core Curriculums:** Specialized training for new hires and a Transformational Leader Program for officers.\n*   **Learning Resources:** Online courses, workshops, mentoring opportunities, networking events, and peer-to-peer programs.\n*   **Executive Oversight:** The Board of Directors and the Compensation and Benefits Committee frequently review talent development, company culture, and senior executive succession plans to ensure alignment with corporate strategy.\n\nThe effectiveness of these programs is reflected in high retention rates. Ameriprise retained 95% of its high-performing employees in 2023. Furthermore, the retention rate for affiliated advisors who have been with the company for more than 10 years remained strong at 94%.\n\n### Diversity, Equity, and Inclusion (DEI)\nAmeriprise prioritizes fostering an inclusive culture where every individual can grow and contribute. The global workforce is 40% women, and 21% of its U.S.-based employees are ethnically diverse. The company’s DEI strategy is approved by the Chairman and CEO and reviewed by the Board of Directors. A primary component of this strategy is the operation of 13 business resource networks, which engage more than 21,000 participants globally to promote cultural awareness and community involvement while providing wellness and career development resources.\n\n### Competitive Positioning\nAmeriprise's advisor force is one of the largest in the industry and serves as the primary channel for its wealth management activities. The company’s ability to attract and retain experienced, productive advisors is a major competitive advantage. In 2023, 412 experienced advisors moved their practices to Ameriprise, bringing the five-year total to approximately 1,734. The company supports these advisors with integrated technology platforms, marketing programs, and leadership training, creating a compelling value proposition that differentiates Ameriprise from other financial institutions, such as wirehouses and regional broker-dealers.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023",
+   "answer_length": 3545,
+   "context_length": 131494,
+   "context": {
+    "entities": 55,
+    "relations": 184,
+    "chunks": 10,
+    "rerank_candidates": 156,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Financial Advisor Productivity",
+     "Financial Condition",
+     "Investment Professionals",
+     "Market Share",
+     "Ameriprise Financials High-Performing Employees",
+     "Company",
+     "Ameriprise Advisor Group",
+     "Market Trends",
+     "Ameriprise Financials Physical, Social, Emotional, And Financial Wellness",
+     "Corporate Culture",
+     "Ameriprise Financials Core Curriculum For New Hires",
+     "Management",
+     "Ameriprise Financials Peer-To-Peer Programs",
+     "Board Of Directors",
+     "Ameriprise Financials Mentoring Opportunities"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6810,
+      "text": "our people. This includes approximately 13,800 global 8 Index Ameriprise Financial, Inc. employees, including our corporate employees and employee financial advisors. We have approximately 8,400 non-employee advisors who choose to affiliate with us through our franchise advisor group. Leadership and training are core to our culture and history, and we offer an extensive employee development curric"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5790,
+      "text": "Audit and Risk Committee discusses with management, the General Auditor, and others the company’s enterprise-wide risk assessment and risk management processes. These updates to the Audit and Risk Committee include a review of prevailing material risks and exposures, including cybersecurity and data protection threats and risks, the actions taken to address these threats and mitigate these risks, "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6663,
+      "text": "Operations 32 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 65 Item 8. Financial Statements and Supplementary Data 71 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 170 Item 9A. Controls and Procedures 170 Item 9B. Other Information 170 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 170 PART III 171 I"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6775,
+      "text": "claims and persistency experience. In line with the market, we have pursued nationwide premium rate increases for many years and expect to continue to pursue rate increases over the next several years. In general, since very little of our LTC business is subject to rate stability regulation, we have historically followed a policy of pursuing smaller, more frequent increases in order to align polic"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6427,
+      "text": "share repurchase program does not require the purchase of any minimum number of shares, and depending on market conditions and other factors, these purchases may be commenced or suspended at any time without prior notice. Acquisitions under the share repurchase program may be made in the open market, through privately negotiated transactions or block trades or other means. During the year ended De"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5159,
+      "text": "and other benefits for employees (other than employees directly related to distribution, such as financial advisors), professional and consultant fees, information technology, facilities and equipment, advertising and promotion, legal and regulatory and corporate related expenses. Economic Environment Global equity market conditions and fluctuations affect our results of operations and financial c"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5983,
+      "text": "MEA from 2014 to 2016 for BMO Global Asset Management. He has worked in the financial services industry since 1994 and earned a B.A. in accounting and economics and is a member of the Institute of Chartered Accountants in Scotland. *William F. (Ted) Truscott-CEO-Global Asset Management Mr. Truscott (63) has been our CEO - Global Asset Management since September 2012. Prior to that time, Mr. Trusco"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 4500,
+      "text": "the LDTI standard and for determining the transition date and transition period adjustments, (ii) testing the relevance and reliability of the external data used by management to develop the discount rate curve, (iii) testing the completeness and accuracy of the data used by management to develop and update the significant market risk benefit assumptions, and (iv) the use of professionals with spe"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6679,
+      "text": "legislation, as well as in the other markets in which we operate, to ensure that we comply with all applicable legal requirements, including EU directives applicable to financial institutions as implemented in the various member states. Because of the mix of business activities we conduct, we assess the impact of, and monitor our status under, the EU Financial Conglomerates Directive, which contem"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6068,
+      "text": "and its affiliates to ensure compliance with pre-established credit guidelines at the time we enter into a transaction which would potentially increase our credit risk. These guidelines and oversight of credit risk are managed through a comprehensive enterprise risk management program that includes members of senior management. 69 Index Ameriprise Financial, Inc. We manage the risk of credit-relat"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9696969696969697,
+    "answer_relevancy": 0.6835824496457318,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9133
+   }
+  }
+ }
+}

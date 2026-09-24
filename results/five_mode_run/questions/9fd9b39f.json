@@ -1,0 +1,399 @@
+{
+ "question_id": "9fd9b39f",
+ "ticker": "MRO",
+ "question": "Impact on liquidity & working capital from 30-day payment terms at Marathon Oil (MRO).",
+ "expected_answer": "The 30‐day payment due period can have several impacts on liquidity and working capital management for Marathon Oil Corporation. First, because revenue is recognized when the commodity control transfers to the customer rather than when cash is received, the company records an accounts receivable entry. This delay between revenue recognition and cash collection means that although the sales are recorded, cash isn’t immediately available, which requires more rigorous working capital management to ensure that operational needs are met.\n\nSecond, this payment period influences liquidity in that Marathon Oil must bridge the gap between recording revenue and collecting cash. During this period, the company may need to rely on cash reserves or short-term financing options, thereby increasing scrutiny on its liquidity positions. Effective management of accounts receivable is essential to minimize potential liquidity risks. Moreover, any delays in customer payments beyond the 30-day period could further strain working capital, magnifying the need for diligent credit management and collection practices.\n\nLastly, given that shipping, handling, and other fulfillment costs are incurred before control transfers (and hence before revenue is recognized), the company must manage these cash outflows carefully. The 30-day period provides a window where working capital might be temporarily stressed if the outflows are high relative to the delayed inflow, underscoring the importance of aligning operational cash needs with expected collection patterns.",
+ "category": "Accounting",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1066,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:16:04.421590",
+   "duration_ms": 23986,
+   "answer": "Marathon Oil Corporation (MRO) manages its liquidity and working capital through a disciplined capital allocation framework, which prioritizes shareholder returns, debt reduction, and the maintenance of a competitive cost structure. As of December 31, 2023, the company reported approximately $2.3 billion in total liquidity. This was comprised of $155 million in cash and cash equivalents and $2.1 billion available under its unsecured Revolving Credit Facility. The company also utilizes a $2.5 billion commercial paper program, backed by the revolving facility, to manage short-term liquidity and borrowings [1].\n\nWorking capital trends at Marathon Oil are reflected in the changes to current assets and liabilities within its operating cash flows. In 2023, net cash provided by operating activities was $4,087 million, a 25% decrease from the $5,428 million generated in 2022. This decrease was primarily driven by lower realized commodity prices. Specific working capital movements in 2023 included a $10 million decrease in current accounts payable and accrued liabilities, a $21 million impact from changes in current receivables, and a $64 million impact from changes in inventories [1].\n\nThe timing of these cash flows is influenced by standard payment terms. In North America, where Marathon Oil’s primary resource plays are located (including the Eagle Ford, Bakken, STACK, SCOOP, and Permian basins), payment terms typically range from 30 to 45 days from the invoice date. These terms dictate the cycle of customer payment receipts and supplier obligations, directly affecting the company's net cash flow from operations and its overall liquidity position at the end of each reporting period [1].\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 1783,
+   "context_length": 77760,
+   "context": {
+    "entities": 60,
+    "relations": 72,
+    "chunks": 9,
+    "rerank_candidates": 45,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Accounts Payable and Accrued Liabilities",
+     "Customer Payment Receipts",
+     "10% of Total Consolidated Assets",
+     "$45 Million",
+     "70% Audit Requirement",
+     "Other Current Assets And Liabilities",
+     "Payment Terms",
+     "Regions Outside North America",
+     "Cash Generated From Operations",
+     "$325 Million",
+     "Accounts Receivable For 2022",
+     "Third Quarter Of 2023",
+     "$407 Million",
+     "Contractual Cash Obligations",
+     "Payments Of Commercial Paper"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4641,
+      "text": "to long-term debt issues have been omitted where the amount of securities authorized under such instruments does not exceed 10% of the total consolidated assets of Marathon Oil. Marathon Oil hereby agrees to furnish a copy of any such instrument to the Securities and Exchange Commission upon its request 10-K 4.2 2/28/2014 4.2* Description of Registrants Securities 10 Material Contracts 10.1 Amende"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4444,
+      "text": "December 4, 2020, to the Amended and Restated Credit Agreement dated as of May 28, 2014, as amended by the First Amendment, dated as of May 5, 2015, the Second Amendment, dated as of June 22, 2017, the Third Amendment, dated as of October 18, 2018, and the Fourth Amendment, dated as of September 24, 2019 and as supplemented by the Incremental Commitments Supplement, dated as of March 4, 2016 and I"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9583333333333334,
+    "answer_relevancy": 0.7659048433254402,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6811
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:16:41.763488",
+   "duration_ms": 37342,
+   "answer": "Based on the provided context, there is no specific information regarding the impact of \"30-day payment terms\" at Marathon Oil (MRO). However, the documents provide extensive details on the company's broader liquidity management and the factors that influence its working capital.\n\n### **Liquidity Sources and Management**\nMarathon Oil manages its liquidity through several primary channels, including internally generated cash flow from operations, cash and cash equivalents, and access to capital markets. As of December 31, 2023, the company held $155 million in cash and cash equivalents and had approximately $2.1 billion available under its Revolving Credit Facility. [1] Additionally, the company maintains a commercial paper program with a maximum capacity of $2.5 billion to provide further financial flexibility. [1] These resources are utilized to fund capital expenditures, debt repayments, dividend payments, and share repurchases. [1]\n\n### **Factors Influencing Working Capital**\nWorking capital and operating cash flows at Marathon Oil are most significantly impacted by commodity prices, which influence revenue and the amount of capital available for investment. [1] In 2023, net cash provided by operating activities was $4,087 million, a 25% decrease from the previous year, primarily due to lower realized commodity prices. [1] \n\nThe company's working capital is also affected by payment obligations and timing differences. General corporate data indicates that changes in trade payables—which reflect payment obligations to suppliers—directly impact operating cash flows. Furthermore, changes in components such as accounts receivable, inventories, and accrued liabilities are key drivers of the net cash provided by operating activities. For Marathon Oil, capital expenditures also play a role in liquidity needs, with 2023 investments totaling $2.033 billion, driven in part by inflationary pressures on labor, drilling materials, and equipment. [1]\n\n### **Strategic Use of Cash and Capital Resources**\nThe company utilizes its liquidity to meet various contractual and commercial commitments. In 2023, uses of cash included $1.5 billion for share repurchases, $251 million for dividends, and significant debt repayments, including $300 million toward a Term Loan Facility and the settlement of senior notes. [1] Management believes that its current liquidity levels and ability to access capital markets provide sufficient flexibility to fund the business across a wide range of commodity price environments. [1]\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023",
+   "answer_length": 2602,
+   "context_length": 49993,
+   "context": {
+    "entities": 35,
+    "relations": 60,
+    "chunks": 1,
+    "rerank_candidates": 103,
+    "chunk_tickers": [
+     "MRO"
+    ],
+    "entity_names": [
+     "Company",
+     "Global Working Capital",
+     "Liquidity And Capital Resources",
+     "Business Operations",
+     "Default",
+     "Availability Of Short-Term And Long-Term Funding",
+     "Financial Condition",
+     "Cash Flows",
+     "Variable Rate Debt",
+     "Cash Flow",
+     "Data Analytics Provider",
+     "Energy Business",
+     "Working Capital",
+     "Liquidity",
+     "Capital And Credit Markets"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.7619047619047619,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6071
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:17:14.503598",
+   "duration_ms": 32740,
+   "answer": "I do not have enough information to answer the specific query regarding the impact of 30-day payment terms on Marathon Oil’s (MRO) liquidity and working capital, as the provided context does not mention specific payment terms for vendors, suppliers, or customers.\n\nHowever, the provided documents contain detailed information regarding the company's overall liquidity, capital resources, and the factors that impact its cash flow.\n\n### Overview of Liquidity and Capital Resources\nAs of December 31, 2023, Marathon Oil maintained a total liquidity of approximately **$2.3 billion**. This liquidity consisted of:\n*   **$155 million** in cash and cash equivalents [1].\n*   **$2.1 billion** available under an unsecured Revolving Credit Facility [1].\n\nThe company also utilizes a **commercial paper program** with a maximum aggregate face amount of $2.5 billion. This program, which is backed by the Revolving Credit Facility, allows the company to issue unsecured notes with maturities of up to 365 days [1]. Management believes that this level of liquidity, combined with cash flow from operations, provides the flexibility necessary to fund the business across varying commodity price environments [1].\n\n### Factors Impacting Cash Flow and Working Capital\nMarathon Oil's financial condition and operating cash flows are primarily influenced by **commodity prices**, which management identifies as the most significant factor affecting revenues and profitability [1]. In 2023, the company generated **$4,087 million** in net cash from operating activities, a 25% decrease from the $5,428 million generated in 2022. This reduction was primarily attributed to lower realized commodity prices, though the impact was partially offset by higher production volumes from the acquisition of Ensign's Eagle Ford assets [1].\n\n### Primary Uses of Cash\nDuring 2023, the company's uses of cash that impacted its overall liquidity included:\n*   **Capital Expenditures:** $2,033 million [1].\n*   **Share Repurchases:** $1,473 million [1].\n*   **Debt Repayments:** $701 million, which included the repayment of senior notes and $300 million in outstanding borrowings under a Term Loan Facility [1].\n*   **Dividends:** $251 million [1].\n\n### References\n\n* [1] Marathon Oil Corporation",
+   "answer_length": 2265,
+   "context_length": 12586,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6789,
+      "text": "2021 Percentage of Total Commodity Sales Marathon Petroleum Corporation 22 % 22 % 17 % Trafigura Groupe Pte. Ltd. 12 % 10 % N/A Valero Marketing and Supply 11 % 12 % 10 % 12 Table of Contents Gross Delivery Commitments We have commitments to customers to deliver gross quantities of crude oil and condensate and natural gas under a variety of contracts. As of December 31, 2023, the contracts for fix"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:17:52.258202",
+   "duration_ms": 37755,
+   "answer": "Based on the provided financial data for Marathon Oil Corporation (MRO), the company’s liquidity and working capital are significantly influenced by the timing of its cash flows from operations and the management of its current assets and liabilities. In North America, where MRO has substantial operations in resource plays such as Eagle Ford and Bakken, payment terms typically range from 30 to 45 days. These terms dictate the speed at which the company converts its accounts receivable into cash and manages its obligations to suppliers.\n\n### **Liquidity and Capital Resources**\nAs of December 31, 2023, Marathon Oil maintained a total liquidity level of approximately $2.3 billion. This liquidity consisted of $155 million in cash and cash equivalents and $2.1 billion available under its Revolving Credit Facility. The company’s liquidity is further supported by its $2.5 billion commercial paper program and its ability to access capital markets. Management believes this level of liquidity, combined with internally generated cash flow, provides the necessary flexibility to fund business operations across varying commodity price environments.\n\n### **Working Capital Dynamics**\nWorking capital is a critical indicator of MRO’s short-term financial stability and is directly impacted by changes in receivables, inventories, and payables. For the fiscal year 2023, Marathon Oil reported several adjustments to its working capital components that affected its net cash provided by operating activities:\n*   **Current Receivables:** There was a $21 million change in current receivables, which represents an adjustment to reconcile net income to cash provided by operations.\n*   **Inventories:** Inventory levels accounted for a $64 million change in the cash flow statement.\n*   **Accounts Payable and Accrued Liabilities:** These saw a $10 million decrease in 2023, compared to a $101 million increase in the previous year.\n\n### **Impact of Payment Terms and Operational Factors**\nThe typical 30- to 45-day payment terms in North America influence the timing of cash inflows from customers and outflows to vendors. While these terms are standard, MRO’s overall cash generation is highly sensitive to commodity prices, which remain the most significant factor impacting its revenues and operating cash flows. In 2023, net cash provided by operating activities was $4,087 million, a 25% decrease from the $5,428 million generated in 2022, primarily due to lower realized commodity prices.\n\nEffective management of these working capital cycles is essential for MRO to fund its disciplined capital allocation framework, which prioritizes shareholder returns (such as $1.5 billion in share repurchases in 2023), debt reduction (repaying $501 million of long-term debt in 2023), and its $1.9 billion to $2.1 billion capital budget for 2024.\n\n### References\n\n* [1] Marathon Oil Corporation Period: December 31, 2023",
+   "answer_length": 2915,
+   "context_length": 109460,
+   "context": {
+    "entities": 55,
+    "relations": 116,
+    "chunks": 10,
+    "rerank_candidates": 152,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Accounts Receivable For 2022",
+     "Company",
+     "Accounts Payable and Accrued Liabilities",
+     "Global Working Capital",
+     "$45 Million",
+     "Liquidity And Capital Resources",
+     "Customer Payment Receipts",
+     "Business Operations",
+     "$325 Million",
+     "Default",
+     "Accounts Receivable, Net",
+     "Capital And Credit Markets",
+     "Regions Outside North America",
+     "Working Capital",
+     "$407 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4641,
+      "text": "to long-term debt issues have been omitted where the amount of securities authorized under such instruments does not exceed 10% of the total consolidated assets of Marathon Oil. Marathon Oil hereby agrees to furnish a copy of any such instrument to the Securities and Exchange Commission upon its request 10-K 4.2 2/28/2014 4.2* Description of Registrants Securities 10 Material Contracts 10.1 Amende"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4943,
+      "text": "GLs and natural gas reserves have been developed by specialists, specifically petroleum engineers and geoscientists. The principal considerations for our determination that performing procedures relating to the impact of proved developed oil and condensate, NGLs and natural gas reserves on proved oil and natural gas properties, net is a critical audit matter are (i) the significant judgment by man"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4444,
+      "text": "December 4, 2020, to the Amended and Restated Credit Agreement dated as of May 28, 2014, as amended by the First Amendment, dated as of May 5, 2015, the Second Amendment, dated as of June 22, 2017, the Third Amendment, dated as of October 18, 2018, and the Fourth Amendment, dated as of September 24, 2019 and as supplemented by the Incremental Commitments Supplement, dated as of March 4, 2016 and I"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7126,
+      "text": "internet and other public networks for communications, services and storage, including “cloud” computing, exposes us and our users to cybersecurity risks. There is no guarantee that our security measures will provide absolute security. We may not be able to anticipate, detect or prevent cyberattacks, particularly because the methodologies used by attackers change frequently or may not be recognize"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7639548108313018,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8854
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:18:25.069531",
+   "duration_ms": 32811,
+   "answer": "Based on the provided context, there is no specific information detailing the direct impact of 30-day payment terms on the liquidity and working capital of Marathon Oil Corporation (MRO). The context provides a general standard for North American payment terms but does not explicitly link these to MRO's specific financial results. However, the context does provide a detailed overview of the company's current liquidity and the factors affecting its working capital.\n\n### Liquidity and Capital Resources\nAs of December 31, 2023, Marathon Oil reported a total liquidity position of approximately **$2.3 billion**. This liquidity is composed of:\n*   **$155 million** in cash and cash equivalents.\n*   **$2.1 billion** available under its unsecured Revolving Credit Facility.\n\nThe company also maintains a **$2.5 billion commercial paper program**, which is backed by the $2.6 billion Revolving Credit Facility. Management believes that its current liquidity, combined with internally generated cash flow from operations and access to capital markets, provides the necessary flexibility to fund business operations across various commodity price environments.\n\n### Working Capital and Cash Flow Drivers\nIn 2023, Marathon Oil’s net cash provided by operating activities was **$4.087 billion**, a 25% decrease from the $5.428 billion generated in 2022. This decline was primarily attributed to lower realized commodity prices, which were partially offset by higher production volumes following the acquisition of Eagle Ford assets.\n\nChanges in working capital components during 2023 included:\n*   **Current Receivables:** A decrease of **$21 million**.\n*   **Inventories:** A decrease of **$64 million**.\n*   **Current Accounts Payable and Accrued Liabilities:** A decrease of **$10 million**.\n\nThese fluctuations in current assets and liabilities are adjustments used to reconcile net income to net cash provided by operating activities. While the context mentions that payment terms in North America typically range from **30 to 45 days**, and regions outside North America generally do not exceed 90 days, it does not provide a specific analysis of how a 30-day cycle specifically impacts MRO's liquidity or working capital beyond these reported figures.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 2329,
+   "context_length": 112449,
+   "context": {
+    "entities": 55,
+    "relations": 124,
+    "chunks": 10,
+    "rerank_candidates": 157,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Accounts Payable and Accrued Liabilities",
+     "Company",
+     "Accounts Receivable For 2022",
+     "Global Working Capital",
+     "Customer Payment Receipts",
+     "Liquidity And Capital Resources",
+     "$45 Million",
+     "Business Operations",
+     "$325 Million",
+     "Default",
+     "10% of Total Consolidated Assets",
+     "Capital And Credit Markets",
+     "Other Current Assets And Liabilities",
+     "Working Capital",
+     "Regions Outside North America"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4641,
+      "text": "to long-term debt issues have been omitted where the amount of securities authorized under such instruments does not exceed 10% of the total consolidated assets of Marathon Oil. Marathon Oil hereby agrees to furnish a copy of any such instrument to the Securities and Exchange Commission upon its request 10-K 4.2 2/28/2014 4.2* Description of Registrants Securities 10 Material Contracts 10.1 Amende"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4444,
+      "text": "December 4, 2020, to the Amended and Restated Credit Agreement dated as of May 28, 2014, as amended by the First Amendment, dated as of May 5, 2015, the Second Amendment, dated as of June 22, 2017, the Third Amendment, dated as of October 18, 2018, and the Fourth Amendment, dated as of September 24, 2019 and as supplemented by the Incremental Commitments Supplement, dated as of March 4, 2016 and I"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6789,
+      "text": "2021 Percentage of Total Commodity Sales Marathon Petroleum Corporation 22 % 22 % 17 % Trafigura Groupe Pte. Ltd. 12 % 10 % N/A Valero Marketing and Supply 11 % 12 % 10 % 12 Table of Contents Gross Delivery Commitments We have commitments to customers to deliver gross quantities of crude oil and condensate and natural gas under a variety of contracts. As of December 31, 2023, the contracts for fix"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9523809523809523,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.4881
+   }
+  }
+ }
+}

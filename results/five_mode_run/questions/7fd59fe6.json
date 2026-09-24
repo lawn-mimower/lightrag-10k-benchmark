@@ -1,0 +1,369 @@
+{
+ "question_id": "7fd59fe6",
+ "ticker": "MSI",
+ "question": "Audit oversight & cybersecurity impact on valuation, stakeholder confidence, capital allocation, MSI.",
+ "expected_answer": "The detailed cybersecurity risk management and oversight procedures described indicate that regular reviews by the Audit Committee and senior cybersecurity executives can have several positive impacts. First, such robust governance and transparency elevate stakeholder confidence because investors, customers, and partners see that the company is proactively managing its cybersecurity risks. This oversight reduces uncertainty about potential cybersecurity incidents, which in turn can lower the risk premium demanded by investors and positively influence the company’s valuation. Secondly, by institutionalizing repeated and systematic risk assessments (through mechanisms such as the ERM framework and regular Audit Committee meetings), the company demonstrates effective risk mitigation and accountability. This stability in risk management supports a stable capital allocation strategy as management can make more informed decisions regarding investments and expenditures, supported by a clearer understanding of the cyber risk landscape. Ultimately, effective governance can lead to lower costs of capital and potentially improve market valuation given that the company is better prepared to handle adverse cybersecurity events.",
+ "category": "Risk",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 9947,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:56:46.400737",
+   "duration_ms": 19638,
+   "answer": "At Motorola Solutions, Inc. (MSI), cybersecurity risk oversight is a specialized function of the Audit Committee, which operates under the delegation of the Board of Directors. The Vice President of Cybersecurity & Information Technology Infrastructure is responsible for providing the Audit Committee with periodic reports on information security and current threats. Furthermore, the committee receives annual presentations from a cross-functional leadership team, including the Chief Information Officer, the Corporate Vice President of Cybersecurity Services, and the Lead Counsel and Senior Director of Data Privacy. These sessions ensure the committee and the full Board remain informed about data privacy and cybersecurity risk topics.\n\nThe impact of cybersecurity on MSI’s valuation and financial health is significant, as a major breach could disrupt the company’s ability to manage its business and adversely affect its results of operations. Successful or even attempted attacks can result in substantial costs for repairing or replacing information technology systems, legal fees for defending against claims, and the potential loss of critical data. Furthermore, such incidents can lead to reputational damage, which may negatively influence investor confidence and the demand for the company’s securities.\n\nCapital allocation and strategic priorities at MSI are informed by the annual Enterprise Risk Management (ERM) assessment. This assessment, reviewed by the Vice President of Audit Services with the Audit Committee, identifies and prioritizes principal risks, including cybersecurity. The Board uses this framework to guide resource allocation and ensure that mitigation efforts are aligned with the company’s velocity of potential risks. To further protect its financial position, MSI maintains a broad portfolio of cybersecurity insurance to provide an additional layer of protection against the financial consequences of system vulnerabilities or unauthorized access.\n\nBroader stakeholder confidence is increasingly tied to how companies manage and disclose risks. Stakeholders, including investors and regulators, are exerting heightened scrutiny over governance matters and reporting standards. Failure to effectively manage cybersecurity risks or meet evolving expectations can lead to adverse publicity and a loss of customer or investor trust, which may ultimately impact a company's share price and long-term valuation.\n\n### References\n\n- [1] MOTOROLA SOLUTIONS, INC.\n- [4] Cintas Corporation\n- [2] AMERIPRISE FINANCIAL, INC.",
+   "answer_length": 2554,
+   "context_length": 81479,
+   "context": {
+    "entities": 60,
+    "relations": 102,
+    "chunks": 6,
+    "rerank_candidates": 41,
+    "chunk_tickers": [
+     "AMP",
+     "MRO",
+     "CTAS",
+     "MSI",
+     "BIIB",
+     "MSI"
+    ],
+    "entity_names": [
+     "Cybersecurity And Data Privacy",
+     "Cybersecurity Risk Management & Strategy",
+     "Enterprise-Wide Risk Assessment",
+     "Cyber-Security Risks",
+     "Governance, Risk, And Compliance Team",
+     "Cybersecurity Risk Management and Strategy",
+     "Cyber Security Risk Management",
+     "Item 1A – Risk Factors",
+     "Corporate Sustainability Reporting",
+     "Cybersecurity Risk",
+     "Information Technology Cybersecurity Threats",
+     "Compliance Programs",
+     "Governance And Compliance",
+     "Cybersecurity Disclosure Committee",
+     "Risk Management & Strategy"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7219,
+      "text": "review ongoing internal information security investigations. We assess the effectiveness of our cybersecurity program using self-assessments and independent third-party analyses, and evaluate our program using frameworks such as the National Institute of Standards and Technology (“NIST”) Cybersecurity Framework. In addition to these independent third-party analyses, third-parties also provide serv"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6369,
+      "text": "initiate the escalation and other steps called for by our plan. All incidents that are initially assessed by the cybersecurity incident response team as potentially high-risk are escalated promptly to our CISO. Our CISO, Chief Legal Officer and Chief Financial Officer, will determine whether and what elements of our cybersecurity crisis response and management plan should be activated, including e"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6791,
+      "text": ", in part resulting from the fact that we retained almost all of the U.S. pension liabilities and a major portion of our non-U.S. pension liabilities following our past divestitures. The funding position of our pension plans is affected by the performance of the financial markets, particularly the equity and debt markets, and the interest rates used to calculate our pension obligations for funding"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8205128205128205,
+    "answer_relevancy": 0.6481830654617585,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7422
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:57:05.767102",
+   "duration_ms": 19366,
+   "answer": "At Motorola Solutions, Inc. (MSI), the Board of Directors has delegated the primary responsibility for overseeing risks related to cybersecurity threats to the Audit Committee. This committee plays a pivotal role in ensuring that cybersecurity is integrated into the company’s broader enterprise risk management (ERM) framework. The oversight process involves receiving periodic cybersecurity and information security reports from the Vice President of Cybersecurity & Information Technology Infrastructure. Additionally, senior leadership—including the Chief Information Officer, the Corporate Vice President of Cybersecurity Services, and the Lead Counsel and Senior Director of Data Privacy—present to the Audit Committee at least once a year regarding data privacy and cybersecurity risk topics.\n\n### Impact on Valuation and Financial Condition\nCybersecurity risks have a direct and potentially significant impact on the company’s valuation and financial health. Motorola Solutions notes that any significant cybersecurity breach or damage to its IT systems could result in an interruption of business operations, which may materially affect its results of operations and financial condition. Potential financial consequences include:\n*   **Operational Costs:** Expenses related to repairing or replacing damaged IT systems and the loss of critical data.\n*   **Legal Liabilities:** Costs associated with defending against breach of contract, tort, and other civil claims, particularly when adequate indemnification from suppliers is unavailable.\n*   **Direct Losses:** Financial impacts stemming from the inability of customers or the company to perform critical functions.\n\nThe company utilizes the National Institute of Standards and Technology (NIST) Cybersecurity Framework to assess and evaluate the effectiveness of its program, aiming to maintain the confidentiality and integrity of customer and internal information to protect its enterprise value.\n\n### Stakeholder Confidence and Transparency\nTo maintain stakeholder confidence, MSI emphasizes a transparent governance structure where the full Board is regularly informed about cybersecurity risks through Audit Committee reports and presentations. The company maintains a global incident response procedure designed to quickly detect, respond to, and recover from malicious attacks. Furthermore, the company monitors for critical vulnerabilities and threat actor activity to provide a unified view of its critical infrastructure protection. Transparency is also reinforced through third-party assessments, penetration testing, and participation in commercial information security threat-sharing networks, which demonstrate a commitment to rigorous security standards.\n\n### Capital Allocation and Credit Considerations\nCybersecurity and operational risks are intrinsically linked to the company's capital allocation strategies and access to financing. MSI maintains a broad portfolio of insurance coverage to mitigate the financial impact of potential cyber incidents. However, the company’s broader financial stability is subject to its credit ratings. A downgrade in credit ratings—which could be triggered by significant operational or financial setbacks—would limit the company's ability to:\n*   Access capital markets or bank credit markets on favorable terms.\n*   Issue commercial paper or sell receivables.\n*   Fund foreign affiliates or obtain favorable trade terms with suppliers.\n\nMoreover, MSI may avoid strategic actions that would otherwise benefit stockholders, such as certain acquisitions or stock repurchases, if those actions are perceived to negatively impact its credit rating. Consequently, the effective management of cybersecurity by the Audit Committee is essential for preserving the company’s investment-grade status and its ability to return value to shareholders.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC.",
+   "answer_length": 3903,
+   "context_length": 87172,
+   "context": {
+    "entities": 38,
+    "relations": 60,
+    "chunks": 6,
+    "rerank_candidates": 99,
+    "chunk_tickers": [
+     "AMP",
+     "MRO",
+     "CTAS",
+     "MSI",
+     "BIIB",
+     "MSI"
+    ],
+    "entity_names": [
+     "Audit Committee",
+     "Information Technology",
+     "Audit and Finance Committee",
+     "Marathon Oil",
+     "Audit and Risk Committee",
+     "General Auditor",
+     "Cybersecurity And Data Privacy",
+     "Security Governance Council",
+     "Cybersecurity Risk Management",
+     "Audit And Finance Committee",
+     "Internal Audit",
+     "Cybersecurity And Data Privacy Committee",
+     "Multinational Corporation",
+     "Cybersecurity Program",
+     "Audit And Risk Committee"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7219,
+      "text": "review ongoing internal information security investigations. We assess the effectiveness of our cybersecurity program using self-assessments and independent third-party analyses, and evaluate our program using frameworks such as the National Institute of Standards and Technology (“NIST”) Cybersecurity Framework. In addition to these independent third-party analyses, third-parties also provide serv"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6369,
+      "text": "initiate the escalation and other steps called for by our plan. All incidents that are initially assessed by the cybersecurity incident response team as potentially high-risk are escalated promptly to our CISO. Our CISO, Chief Legal Officer and Chief Financial Officer, will determine whether and what elements of our cybersecurity crisis response and management plan should be activated, including e"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6791,
+      "text": ", in part resulting from the fact that we retained almost all of the U.S. pension liabilities and a major portion of our non-U.S. pension liabilities following our past divestitures. The funding position of our pension plans is affected by the performance of the financial markets, particularly the equity and debt markets, and the interest rates used to calculate our pension obligations for funding"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.7101734192150227,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7775
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:57:16.426893",
+   "duration_ms": 10660,
+   "answer": "At Motorola Solutions, Inc. (MSI), the Board of Directors has delegated the responsibility of overseeing cybersecurity risks to the Audit Committee. This oversight is integrated into the company’s Enterprise Risk Management (ERM) assessment, which is conducted annually by the audit services department. The ERM process is designed to identify, prioritize, and monitor principal risks—including cybersecurity—by evaluating their probability, impact, and velocity. The results of these assessments help management maintain acceptable risk levels and inform audit engagements across financial, operational, and compliance areas over a two-year horizon.\n\nThe governance structure involves regular reporting and cross-functional collaboration. The Vice President of Audit Services reports directly to the Audit Committee and the Chief Financial Officer, meeting regularly with the committee and its chairperson. Additionally, an internal cross-functional team, led by the Vice President of Audit Services and the Vice President of Ethics & Compliance, meets regularly to discuss mitigation efforts for key risks. The Audit Committee also receives periodic cybersecurity and information security reports from the Vice President of Cybersecurity & IT Infrastructure, with additional annual presentations from a group of senior leaders including the Chief Information Officer and the Corporate Vice President of Cybersecurity Services.\n\nCybersecurity incidents have the potential to significantly impact MSI’s valuation, financial condition, and stakeholder confidence. While MSI reported no material attacks since the beginning of 2023, the company acknowledges that future successful or unsuccessful attacks could damage its reputation and lead to substantial costs. These costs may include repairing or replacing IT systems, loss of critical data, delays in critical functions, and defending against legal claims or breach of contract. Such disruptions could adversely affect the company’s business strategy and results of operations.\n\nTo manage the potential financial impact and protect capital, MSI maintains a broad portfolio of insurance coverage specifically related to cybersecurity risks. This strategy leverages products from multiple companies to ensure appropriate protection against potential damage, unauthorized access, or system interruptions. Furthermore, the company employs a third-party cybersecurity risk assessment program to evaluate outsource partners and suppliers before engagement, ensuring that supply chain risks are monitored and remediated.\n\n### References\n\n* [2] MOTOROLA SOLUTIONS, INC. Document Title: MSI.html",
+   "answer_length": 2639,
+   "context_length": 21511,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 3,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "AMP",
+     "MSI",
+     "BIIB"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7219,
+      "text": "review ongoing internal information security investigations. We assess the effectiveness of our cybersecurity program using self-assessments and independent third-party analyses, and evaluate our program using frameworks such as the National Institute of Standards and Technology (“NIST”) Cybersecurity Framework. In addition to these independent third-party analyses, third-parties also provide serv"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6369,
+      "text": "initiate the escalation and other steps called for by our plan. All incidents that are initially assessed by the cybersecurity incident response team as potentially high-risk are escalated promptly to our CISO. Our CISO, Chief Legal Officer and Chief Financial Officer, will determine whether and what elements of our cybersecurity crisis response and management plan should be activated, including e"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.12195121951219512,
+    "answer_relevancy": 0.7349790874807853,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.5892
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:57:35.105732",
+   "duration_ms": 18679,
+   "answer": "At Motorola Solutions (MSI), the Board of Directors has delegated the primary responsibility for overseeing cybersecurity risks to the Audit Committee. This oversight is supported by periodic reports from the Vice President of Cybersecurity & Information Technology Infrastructure and the cybersecurity services business. Furthermore, the Vice President of Audit Services reviews the results of the annual Enterprise Risk Management (ERM) assessment with the Audit Committee, ensuring that cybersecurity is tracked as a principal risk. This governance structure ensures that the full Board remains informed through regular reports and presentations regarding data privacy and security topics.\n\nThe impact of cybersecurity on a company's valuation and financial condition is significant. While MSI reported no material attacks since the beginning of 2023, the company acknowledges that significant future breaches could damage reputation and adversely affect business strategy, results of operations, and overall financial health. Potential financial consequences include costs for repairing or replacing IT systems, loss of critical data, and delays in critical functions. Additionally, the lack of adequate indemnification from suppliers against tort and civil claims stemming from breaches could further increase financial exposure.\n\nStakeholder confidence is increasingly tied to a corporation's ability to manage cybersecurity and data privacy as part of its broader Environmental, Social, and Governance (ESG) performance. There is heightened scrutiny from investors, customers, and regulators regarding how companies handle data protection and workplace rights. A failure, or even a perceived failure, to satisfy these evolving expectations and reporting standards can lead to adverse publicity, reputational harm, and a loss of investor confidence. This loss of confidence can negatively impact a company's share price and the demand for its securities.\n\nTo protect capital and maintain operational continuity, companies integrate cybersecurity risk management into their broader enterprise risk processes. For example, MSI utilizes a third-party cybersecurity risk assessment program to evaluate outsource partners and suppliers before engagement, which is foundational to managing and monitoring its supply chain. Similarly, other organizations like Ameriprise and Marathon Oil make ongoing investments in technology infrastructure and conduct regular vulnerability scans, penetration testing, and annual tabletop exercises to verify that their business continuity plans can recover operating capabilities in line with business needs.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC.\n* [2] AMERIPRISE FINANCIAL, INC.\n* [3] Marathon Oil Corporation\n* [4] Cintas Corporation\n* [5] BIOGEN INC.",
+   "answer_length": 2798,
+   "context_length": 106658,
+   "context": {
+    "entities": 54,
+    "relations": 142,
+    "chunks": 6,
+    "rerank_candidates": 146,
+    "chunk_tickers": [
+     "AMP",
+     "MRO",
+     "CTAS",
+     "MSI",
+     "BIIB",
+     "MSI"
+    ],
+    "entity_names": [
+     "Cybersecurity And Data Privacy",
+     "Audit Committee",
+     "Compliance Programs",
+     "Information Technology",
+     "47 Table Of Contents Regulations",
+     "Audit and Finance Committee",
+     "Cyber-Security Risks",
+     "Marathon Oil",
+     "Compliance And Fraud Detection",
+     "Audit and Risk Committee",
+     "Data Privacy And Security Regulations",
+     "General Auditor",
+     "Governance, Risk, And Compliance Team",
+     "Cybersecurity Risk",
+     "Security Governance Council"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7219,
+      "text": "review ongoing internal information security investigations. We assess the effectiveness of our cybersecurity program using self-assessments and independent third-party analyses, and evaluate our program using frameworks such as the National Institute of Standards and Technology (“NIST”) Cybersecurity Framework. In addition to these independent third-party analyses, third-parties also provide serv"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6369,
+      "text": "initiate the escalation and other steps called for by our plan. All incidents that are initially assessed by the cybersecurity incident response team as potentially high-risk are escalated promptly to our CISO. Our CISO, Chief Legal Officer and Chief Financial Officer, will determine whether and what elements of our cybersecurity crisis response and management plan should be activated, including e"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6791,
+      "text": ", in part resulting from the fact that we retained almost all of the U.S. pension liabilities and a major portion of our non-U.S. pension liabilities following our past divestitures. The funding position of our pension plans is affected by the performance of the financial markets, particularly the equity and debt markets, and the interest rates used to calculate our pension obligations for funding"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8909090909090909,
+    "answer_relevancy": 0.7292170047751041,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.78
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:57:58.057589",
+   "duration_ms": 22952,
+   "answer": "At Motorola Solutions, Inc. (MSI), the Board of Directors delegates the specific responsibility of overseeing cybersecurity and information security risks to the Audit Committee. This committee receives periodic reports from the Vice President of Cybersecurity & Information Technology Infrastructure, who leads the company's cybersecurity program. These reports are supplemented by annual presentations to the Audit Committee from a cross-functional group of leaders, including the Chief Information Officer, the Corporate Vice President of Cybersecurity Services, and the Lead Counsel and Senior Director of Data Privacy [1].\n\nThe audit oversight process is deeply integrated with MSI’s Enterprise Risk Management (ERM) framework. The Audit Services department conducts an annual ERM assessment to identify, prioritize, and monitor principal risks, with cybersecurity specifically tracked as a principal risk. These assessments look at potential risks over a two-year time horizon and provide the Audit Committee with an objective view of risk management activities and the velocity of potential threats [1]. This structured oversight ensures that cybersecurity is not viewed merely as a technical issue but as a core component of corporate governance.\n\nCybersecurity posture and potential incidents have a direct impact on the company’s valuation and financial condition. MSI acknowledges that while it is consistently subject to system compromise attempts, no material attacks have occurred since early 2023. However, future successful attacks could result in significant costs, including repairing or replacing IT systems, loss of critical data, and legal claims. Such disruptions can adversely affect the company's business strategy and results of operations, thereby impacting the overall valuation of the firm [1].\n\nStakeholder confidence is also linked to the effective management of these risks. Increasing scrutiny from investors, regulators, and customers regarding Environmental, Social, and Governance (ESG) matters—which encompass data privacy and security—means that any perceived failure to meet reporting standards can result in reputational harm and a loss of investor confidence [4]. This loss of confidence can lead to a decline in share price and reduced demand for the company’s securities [4].\n\nFinally, cybersecurity risks influence capital allocation and financial strategy. To maintain its investment-grade credit rating and ensure continued access to capital markets, MSI may avoid taking certain actions, such as stock repurchases or specific acquisitions, if those actions might negatively impact its credit standing [1]. Furthermore, companies like MSI must allocate significant resources to maintaining a broad portfolio of cybersecurity insurance and investing in infrastructure to detect and recover from malicious attacks [1].\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC.\n* [4] Cintas Corporation\n* [3] Marathon Oil Corporation\n* [5] BIOGEN INC.\n* [2] AMERIPRISE FINANCIAL, INC.",
+   "answer_length": 3016,
+   "context_length": 106658,
+   "context": {
+    "entities": 54,
+    "relations": 142,
+    "chunks": 6,
+    "rerank_candidates": 146,
+    "chunk_tickers": [
+     "AMP",
+     "MRO",
+     "CTAS",
+     "MSI",
+     "BIIB",
+     "MSI"
+    ],
+    "entity_names": [
+     "Cybersecurity And Data Privacy",
+     "Audit Committee",
+     "Compliance Programs",
+     "Information Technology",
+     "47 Table Of Contents Regulations",
+     "Audit and Finance Committee",
+     "Cyber-Security Risks",
+     "Marathon Oil",
+     "Compliance And Fraud Detection",
+     "Audit and Risk Committee",
+     "Data Privacy And Security Regulations",
+     "General Auditor",
+     "Governance, Risk, And Compliance Team",
+     "Cybersecurity Risk",
+     "Security Governance Council"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 7264,
+      "text": "-payment contracts, measurement of market risk benefits and amortization of DAC. See Note 3 to our Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K for additional information on recent accounting pronouncements. Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Risk Management and Strategy Cybersecurity is a key part of our business and"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 7301,
+      "text": "subject matter of such litigation may include releases of hazardous substances from our facilities, privacy laws, contract disputes, title disputes, royalty disputes or any other laws or regulations that apply to our operations. In some cases the plaintiff or plaintiffs seek alleged damages involving large classes of potential litigants and may allege damages relating to extended periods of time o"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7219,
+      "text": "review ongoing internal information security investigations. We assess the effectiveness of our cybersecurity program using self-assessments and independent third-party analyses, and evaluate our program using frameworks such as the National Institute of Standards and Technology (“NIST”) Cybersecurity Framework. In addition to these independent third-party analyses, third-parties also provide serv"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6369,
+      "text": "initiate the escalation and other steps called for by our plan. All incidents that are initially assessed by the cybersecurity incident response team as potentially high-risk are escalated promptly to our CISO. Our CISO, Chief Legal Officer and Chief Financial Officer, will determine whether and what elements of our cybersecurity crisis response and management plan should be activated, including e"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6791,
+      "text": ", in part resulting from the fact that we retained almost all of the U.S. pension liabilities and a major portion of our non-U.S. pension liabilities following our past divestitures. The funding position of our pension plans is affected by the performance of the financial markets, particularly the equity and debt markets, and the interest rates used to calculate our pension obligations for funding"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6860975673355406,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7773
+   }
+  }
+ }
+}

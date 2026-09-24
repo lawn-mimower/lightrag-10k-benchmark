@@ -1,0 +1,471 @@
+{
+ "question_id": "2fdba0b2",
+ "ticker": "HON",
+ "question": "Net sales & segment profit trends by biz unit for Honeywell over 3Y, HON.",
+ "expected_answer": "Over the three years under review, the net sales and segment profit data for Honeywell’s core reportable business segments reveal distinct growth trajectories:\n\n1. Aerospace:\n   • Net Sales: Grew steadily from $11,026 million in 2021 to $11,827 million in 2022, reaching $13,624 million in 2023. This represents a consistent upward trend in revenue.\n   • Segment Profit: Increased from $3,051 million in 2021 to $3,228 million in 2022, and to $3,741 million in 2023. The strong profit expansion mirrors the revenue growth, indicating robust operational performance in this segment.\n\n2. Honeywell Building Technologies:\n   • Net Sales: Showed modest growth moving from $5,539 million in 2021 to $6,000 million in 2022, and barely increasing to $6,031 million in 2023. The revenue trend is relatively flat with slight improvement over the period.\n   • Segment Profit: Similarly, profit improved gradually from $1,238 million in 2021 to $1,439 million in 2022 and then to $1,505 million in 2023. This modest growth suggests stable performance but not a strong acceleration in profitability.\n\n3. Performance Materials and Technologies:\n   • Net Sales: Increased from $10,013 million in 2021 to $10,727 million in 2022 and further to $11,506 million in 2023. This steady increase indicates a healthy growth trajectory in sales.\n   • Segment Profit: Rose in tandem with net sales, from $2,120 million in 2021 to $2,354 million in 2022, and then to $2,549 million in 2023, reflecting consistent profitability improvement.\n\n4. Safety and Productivity Solutions:\n   • Net Sales: Experienced a decline, starting at $7,814 million in 2021, dropping to $6,907 million in 2022, and falling further to $5,489 million in 2023. The downward revenue trend signals challenges or a strategic contraction in this unit.\n   • Segment Profit: While there was a slight increase from $1,029 million in 2021 to $1,080 million in 2022, the profit then fell to $901 million in 2023, in line with the declining sales. This suggests that the segment’s profitability is also being adversely affected.\n\nOverall, Aerospace and Performance Materials and Technologies have shown strong and consistent growth in both sales and profit, indicating robust and expanding operations. Honeywell Building Technologies is stable with modest growth, while Safety and Productivity Solutions shows a declining trend in both revenue and profit, which may warrant a closer review of its strategic direction or operational efficiency.",
+ "category": "Footnotes",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 5965,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:23:49.160919",
+   "duration_ms": 32309,
+   "answer": "Honeywell International Inc. demonstrated a period of varied performance across its four primary business segments from 2021 through 2023. Overall, the company leveraged its \"Honeywell Accelerator\" operating model to drive a total sales growth of 3% in 2023, reaching $36.7 billion, supported by a robust order backlog of $31.8 billion at the end of the year.\n\n### Aerospace\nThe Aerospace segment showed consistent growth in both net sales and profitability over the three-year period. In 2023, net sales reached $13,624 million, a 15% increase from $11,827 million in 2022, which itself was a 7% increase from $11,026 million in 2021. Segment profit followed a similar upward trajectory, rising from $3,051 million in 2021 to $3,228 million in 2022, and reaching $3,741 million in 2023. This growth was primarily driven by higher sales volumes in the Commercial Aviation Aftermarket due to increased flight hours, as well as higher volumes in Defense and Space and Commercial Aviation Original Equipment.\n\n### Honeywell Building Technologies\nHoneywell Building Technologies maintained stable revenue and profit growth. Net sales grew from $5,539 million in 2021 to $6,000 million in 2022 (an 8% increase), and remained nearly flat at $6,031 million in 2023. Despite the flat sales in the final year, segment profit increased by 5% in 2023 to $1,505 million, up from $1,439 million in 2022 and $1,238 million in 2021. The 2023 performance was characterized by increased pricing in building projects and services, which helped expand the segment margin to 25.0%.\n\n### Performance Materials and Technologies\nThe Performance Materials and Technologies (PMT) segment experienced steady expansion. Net sales rose from $10,013 million in 2021 to $10,727 million in 2022, and reached $11,506 million in 2023. Segment profit also climbed steadily, from $2,120 million in 2021 to $2,354 million in 2022, and $2,549 million in 2023. The 2023 growth was largely attributed to organic sales increases in Process Solutions, driven by demand for projects and lifecycle services, and in UOP, driven by gas processing and refining catalyst shipments.\n\n### Safety and Productivity Solutions\nThe Safety and Productivity Solutions (SPS) segment faced significant headwinds, particularly in 2023. Net sales declined from $7,814 million in 2021 to $6,907 million in 2022, and dropped sharply to $5,489 million in 2023. Segment profit saw a slight increase from $1,029 million in 2021 to $1,080 million in 2022, but then fell to $901 million in 2023. The 2023 decline was primarily due to lower demand for projects in Warehouse and Workflow Solutions and lower product demand in Productivity Solutions and Services. However, the segment margin improved to 16.4% in 2023, up from 15.6% in 2022.\n\n### References\n* [1] Honeywell International Inc. December 31, 2023 HON.html",
+   "answer_length": 2849,
+   "context_length": 83581,
+   "context": {
+    "entities": 60,
+    "relations": 75,
+    "chunks": 10,
+    "rerank_candidates": 33,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Five-Year Cumulative Total Return Graph",
+     "$5.3 Billion",
+     "Segment Profit",
+     "$1,313 Million",
+     "2021 Segment Margin Percentage",
+     "$36.7 Billion",
+     "$2,733 Million",
+     "$5,267 Million",
+     "$7,814 Million",
+     "$3,583 Million",
+     "$3,653 Million",
+     "2023 Net Sales",
+     "2021 Segment Profit",
+     "$6,907 Million",
+     "2022 Segment Margin Percentage"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4606,
+      "text": "1 Change 2022 vs. 2021 Net sales $ 6,031 $ 6,000 1 % $ 5,539 8 % Cost of products and services sold 3,264 3,275 3,045 Selling, general and administrative and other expenses 1,262 1,286 1,256 Segment profit $ 1,505 $ 1,439 5 % $ 1,238 16 % Factors Contributing to Year-Over-Year Change 2023 vs. 2022 2022 vs. 2021 Net Sales Segment Profit Net Sales Segment Profit Organic 2 % 5 % 14 % 23 % Foreign cur"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4997,
+      "text": "2023 compared with 2022 Selling, general and administrative expenses were flat due to the following: • Higher productivity of approximately $0.2 billion or 4%, • Partially offset by higher labor costs of approximately $0.2 billion or 4%. 22 Honeywell International Inc. TABLE OF CONTENTS MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS Other (Income) Expense 202"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4267,
+      "text": "5 ( 8 ) ( 3 ) Cash flow hedges recognized in other comprehensive income (loss) 60 71 17 Less: Reclassification adjustment for gains included in net income 49 56 20 Changes in fair value of cash flow hedges 11 15 ( 3 ) Other comprehensive income (loss), net of tax ( 665 ) ( 598 ) 482 Comprehensive income 5,007 4,369 6,092 Less: Comprehensive income (loss) attributable to the noncontrolling interest"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5173,
+      "text": "cash flows from operating, investing, and financing activities, as reflected in the Consolidated Statement of Cash Flows, are summarized as follows: Years Ended December 31, 2023 2022 Change 2023 vs. 2022 2021 Change 2022 vs. 2021 Cash and cash equivalents at beginning of period $ 9,627 $ 10,959 $ (1,332) $ 14,275 $ (3,316) Operating activities Net income attributable to Honeywell 5,658 4,966 692 "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7978127552118722,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9495
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:24:19.982100",
+   "duration_ms": 30821,
+   "answer": "Honeywell International Inc. reported total net sales of **$36,662 million** in 2023, representing a steady increase from **$35,466 million** in 2022 and **$34,392 million** in 2021. The company manages its operations through four primary reportable segments: Aerospace, Honeywell Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.\n\n### Aerospace Segment\nThe Aerospace segment demonstrated consistent growth in both revenue and profitability over the three-year period. Net sales rose from **$11,026 million** in 2021 to **$11,827 million** in 2022, reaching **$13,624 million** in 2023. Correspondingly, segment profit increased from **$3,051 million** in 2021 to **$3,741 million** by 2023. This performance was largely driven by higher sales volumes in the Commercial Aviation Aftermarket due to increased flight hours, as well as growth in the Defense and Space and Commercial Aviation Original Equipment units.\n\n### Performance Materials and Technologies (PMT)\nThe PMT segment also saw a continuous upward trend. Net sales grew from **$10,013 million** in 2021 to **$10,727 million** in 2022, and reached **$11,506 million** in 2023. Segment profit improved from **$2,120 million** in 2021 to **$2,549 million** in 2023. Growth in 2023 was specifically attributed to increased demand for projects and lifecycle solutions in Process Solutions and higher refining catalyst shipments within UOP.\n\n### Honeywell Building Technologies (HBT)\nThe HBT segment showed relative stability and modest growth over the period. Net sales were **$5,539 million** in 2021, **$6,000 million** in 2022, and **$6,031 million** in 2023. Segment profit increased from **$1,238 million** in 2021 to **$1,505 million** in 2023. The 2023 results were bolstered by organic sales growth in Building Solutions, driven by increased pricing in building projects and services, which helped offset lower sales volumes in the Products business unit.\n\n### Safety and Productivity Solutions (SPS)\nIn contrast to the other segments, Safety and Productivity Solutions experienced a decline in net sales over the three years. Sales dropped from **$7,814 million** in 2021 to **$6,907 million** in 2022, and further decreased to **$5,489 million** in 2023. Segment profit, which was **$1,029 million** in 2021 and peaked at **$1,080 million** in 2022, fell to **$901 million** in 2023. The 2023 decline was primarily due to lower demand for projects in Warehouse and Workflow Solutions and reduced demand for products in Productivity Solutions and Services.\n\n### References\n\n- [1] Honeywell International Inc. Document Title: HON.html (Period: December 31, 2023)",
+   "answer_length": 2679,
+   "context_length": 97008,
+   "context": {
+    "entities": 27,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 89,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "International Segment",
+     "Price/Volume Analysis",
+     "United States Segment",
+     "Net Sales",
+     "Product Sales",
+     "3E Segment",
+     "Financial Services Segment",
+     "Ameriprise Financial, Inc.",
+     "Results Of Operations By Segment",
+     "Economic Activity",
+     "Results Of Operations",
+     "Consolidated Statement Of Operations",
+     "Honeywell",
+     "Service Sales",
+     "Operating Income"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4606,
+      "text": "1 Change 2022 vs. 2021 Net sales $ 6,031 $ 6,000 1 % $ 5,539 8 % Cost of products and services sold 3,264 3,275 3,045 Selling, general and administrative and other expenses 1,262 1,286 1,256 Segment profit $ 1,505 $ 1,439 5 % $ 1,238 16 % Factors Contributing to Year-Over-Year Change 2023 vs. 2022 2022 vs. 2021 Net Sales Segment Profit Net Sales Segment Profit Organic 2 % 5 % 14 % 23 % Foreign cur"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4997,
+      "text": "2023 compared with 2022 Selling, general and administrative expenses were flat due to the following: • Higher productivity of approximately $0.2 billion or 4%, • Partially offset by higher labor costs of approximately $0.2 billion or 4%. 22 Honeywell International Inc. TABLE OF CONTENTS MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS Other (Income) Expense 202"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4267,
+      "text": "5 ( 8 ) ( 3 ) Cash flow hedges recognized in other comprehensive income (loss) 60 71 17 Less: Reclassification adjustment for gains included in net income 49 56 20 Changes in fair value of cash flow hedges 11 15 ( 3 ) Other comprehensive income (loss), net of tax ( 665 ) ( 598 ) 482 Comprehensive income 5,007 4,369 6,092 Less: Comprehensive income (loss) attributable to the noncontrolling interest"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7814984442184049,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9454
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:24:39.264358",
+   "duration_ms": 19282,
+   "answer": "Honeywell’s business segments exhibited diverse financial trends between 2021 and 2023, with growth in the performance materials and building technologies sectors contrasting with a decline in the safety and productivity segment.\n\n### Performance Materials and Technologies (PMT)\nThe PMT segment showed consistent growth in both revenue and profitability over the three-year period:\n*   **2023:** Net sales reached **$11,506 million** with a segment profit of **$2,549 million**.\n*   **2022:** Net sales were **$10,727 million** with a segment profit of **$2,354 million**.\n*   **2021:** Net sales were **$10,013 million** with a segment profit of **$2,120 million**.\nThe 2023 growth was primarily driven by organic sales increases in Process Solutions and UOP, specifically through higher demand in projects, lifecycle solutions, and gas processing [1].\n\n### Honeywell Building Technologies (HBT)\nHBT also maintained a positive growth trajectory from 2021 to 2023:\n*   **2023:** Net sales were **$6,031 million** with a segment profit of **$1,505 million**.\n*   **2022:** Net sales were **$6,000 million** with a segment profit of **$1,439 million**.\n*   **2021:** Net sales were **$5,539 million** with a segment profit of **$1,238 million**.\nThe 2023 results were bolstered by higher organic sales growth in Building Solutions due to increased pricing for projects and services, though this was partially offset by unfavorable foreign currency translation [1].\n\n### Safety and Productivity Solutions (SPS)\nIn contrast to other segments, SPS experienced a decline in net sales over the three years, though profit levels fluctuated:\n*   **2023:** Net sales dropped to **$5,489 million** with a segment profit of **$901 million**.\n*   **2022:** Net sales were **$6,907 million** with a segment profit of **$1,080 million**.\n*   **2021:** Net sales were **$7,814 million** with a segment profit of **$1,029 million**.\nThe decrease in 2023 was attributed to lower demand for projects in Warehouse and Workflow Solutions and lower product demand in Productivity Solutions and Services [1].\n\n### Aerospace\nWhile detailed three-year profit tables for the Aerospace segment were not included in the provided text, the segment reported total 2023 revenue of **$13,624 million**. This revenue was generated from three primary business units:\n*   **Commercial Aviation Aftermarket:** $6,241 million.\n*   **Defense and Space:** $4,986 million.\n*   **Commercial Aviation Original Equipment:** $2,397 million [1].\n\n### References\n\n* [1] Honeywell International Inc. - December 31, 2023 - HON.html",
+   "answer_length": 2584,
+   "context_length": 25060,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 4,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 4606,
+      "text": "1 Change 2022 vs. 2021 Net sales $ 6,031 $ 6,000 1 % $ 5,539 8 % Cost of products and services sold 3,264 3,275 3,045 Selling, general and administrative and other expenses 1,262 1,286 1,256 Segment profit $ 1,505 $ 1,439 5 % $ 1,238 16 % Factors Contributing to Year-Over-Year Change 2023 vs. 2022 2022 vs. 2021 Net Sales Segment Profit Net Sales Segment Profit Organic 2 % 5 % 14 % 23 % Foreign cur"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6525,
+      "text": "Sales to the U.S. Department of Defense $ 2,933 $ 2,886 $ 3,219 Sales to other U.S. government departments and agencies 508 546 703 Total sales to the U.S. government $ 3,441 $ 3,432 $ 3,922 7 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL INTERNATIONAL OPERATIONS We engage in manufacturing, sales, service, and research and development globally. U.S. exports and non-U.S. manufactur"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8361586758214751,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.909
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:25:19.833591",
+   "duration_ms": 40569,
+   "answer": "Honeywell International Inc. reported a steady increase in consolidated net sales over the three-year period ending December 31, 2023. Total net sales grew from **$34,392 million in 2021** to **$35,466 million in 2022**, and reached **$36,662 million in 2023** [1]. This growth was primarily driven by strong performance in the Aerospace and Performance Materials and Technologies segments, which offset a notable decline in the Safety and Productivity Solutions segment [1].\n\n### Aerospace Segment\nThe Aerospace segment, Honeywell's largest business unit, showed consistent growth in both revenue and profitability. Net sales increased from **$11,026 million in 2021** to **$11,827 million in 2022**, and jumped to **$13,624 million in 2023** [1]. Segment profit followed this upward trend, rising from **$3,051 million in 2021** to **$3,741 million in 2023** [1]. The 2023 performance was particularly bolstered by a $1,148 million organic sales growth in the Commercial Aviation Aftermarket, driven by higher flight hours, as well as increased shipments in Defense and Space [1].\n\n### Honeywell Building Technologies (HBT)\nHoneywell Building Technologies experienced stable growth over the three years. Net sales rose from **$5,539 million in 2021** to **$6,000 million in 2022**, and reached **$6,031 million in 2023** [1]. Segment profit increased from **$1,238 million in 2021** to **$1,505 million in 2023** [1]. The 2023 growth was primarily attributed to the Building Solutions unit, which saw a $145 million organic sales increase due to higher pricing in projects and services, though this was partially offset by lower volumes in the Products business unit [1].\n\n### Performance Materials and Technologies (PMT)\nThe PMT segment reported a continuous rise in financial metrics. Net sales grew from **$10,013 million in 2021** to **$11,506 million in 2023** [1]. During the same period, segment profit increased from **$2,120 million to $2,549 million** [1]. The 2023 revenue boost of $779 million was largely driven by Process Solutions, which saw high demand for lifecycle solutions and services, and UOP, which benefited from growth in gas processing and refining catalyst shipments [1].\n\n### Safety and Productivity Solutions (SPS)\nUnlike the other segments, Safety and Productivity Solutions faced a downward trend in net sales, falling from **$7,814 million in 2021** to **$6,907 million in 2022**, and further declining to **$5,489 million in 2023** [1]. Segment profit fluctuated, rising from **$1,029 million in 2021** to **$1,080 million in 2022** before dropping to **$901 million in 2023** [1]. The decline in 2023 was primarily due to lower demand for projects in Warehouse and Workflow Solutions (down $866 million) and reduced product demand in Productivity Solutions and Services (down $426 million) [1].\n\n### References\n\n* [1] Honeywell International Inc. December 31, 2023 HON.html",
+   "answer_length": 2909,
+   "context_length": 116139,
+   "context": {
+    "entities": 39,
+    "relations": 144,
+    "chunks": 10,
+    "rerank_candidates": 131,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Five-Year Cumulative Total Return Graph",
+     "Price/Volume Analysis",
+     "$36.7 Billion",
+     "United States Segment",
+     "Segment Profit",
+     "International Segment",
+     "$5.3 Billion",
+     "Net Sales",
+     "2023 Net Sales",
+     "Product Sales",
+     "2021 Segment Margin Percentage",
+     "3E Segment",
+     "$5,267 Million",
+     "Financial Services Segment",
+     "$2,733 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4606,
+      "text": "1 Change 2022 vs. 2021 Net sales $ 6,031 $ 6,000 1 % $ 5,539 8 % Cost of products and services sold 3,264 3,275 3,045 Selling, general and administrative and other expenses 1,262 1,286 1,256 Segment profit $ 1,505 $ 1,439 5 % $ 1,238 16 % Factors Contributing to Year-Over-Year Change 2023 vs. 2022 2022 vs. 2021 Net Sales Segment Profit Net Sales Segment Profit Organic 2 % 5 % 14 % 23 % Foreign cur"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4997,
+      "text": "2023 compared with 2022 Selling, general and administrative expenses were flat due to the following: • Higher productivity of approximately $0.2 billion or 4%, • Partially offset by higher labor costs of approximately $0.2 billion or 4%. 22 Honeywell International Inc. TABLE OF CONTENTS MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS Other (Income) Expense 202"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7731498907041757,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9433
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:25:56.937886",
+   "duration_ms": 37104,
+   "answer": "Honeywell International Inc. reported total net sales of $36,662 million in 2023, reflecting a 3% increase from $35,466 million in 2022 and $34,392 million in 2021. This growth was primarily driven by strong demand in the Aerospace and Performance Materials and Technologies segments, alongside pricing actions that helped mitigate inflationary pressures. The company manages its operations through four reportable business segments: Aerospace, Honeywell Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.\n\n### Aerospace Segment\nThe Aerospace segment demonstrated a consistent upward trend in both revenue and profitability over the three-year period. Net sales increased from $11,026 million in 2021 to $11,827 million in 2022, reaching $13,624 million in 2023. This performance was bolstered by a 15% organic sales increase in 2023, driven by higher flight hours in the Commercial Aviation Aftermarket and increased shipments in Defense and Space. Segment profit followed a similar growth trajectory, rising from $3,051 million in 2021 to $3,741 million in 2023.\n\n### Honeywell Building Technologies (HBT)\nThe HBT segment showed steady growth, with net sales rising from $5,539 million in 2021 to $6,000 million in 2022, and slightly further to $6,031 million in 2023. In 2023, sales were supported by increased pricing in building projects and services, although this was partially offset by lower volumes in products. Segment profit grew from $1,238 million in 2021 to $1,505 million in 2023, with the segment margin percentage expanding to 25.0% in the most recent fiscal year.\n\n### Performance Materials and Technologies (PMT)\nPMT experienced sustained growth over the three years, with net sales of $10,013 million in 2021, $10,727 million in 2022, and $11,506 million in 2023. The 2023 increase was largely attributed to high demand for projects and lifecycle solutions in Process Solutions, which contributed $5,267 million to the segment's total revenue. Segment profit increased from $2,120 million in 2021 to $2,549 million in 2023, maintaining a margin of 22.2% in the final year.\n\n### Safety and Productivity Solutions (SPS)\nIn contrast to the other segments, SPS experienced a decline in performance over the three-year period. Net sales dropped from $7,814 million in 2021 to $6,907 million in 2022, and further to $5,489 million in 2023. This 21% decrease in 2023 was primarily due to lower demand for projects in Warehouse and Workflow Solutions and reduced demand for products in Productivity Solutions and Services. Consequently, segment profit decreased from $1,029 million in 2021 and a peak of $1,080 million in 2022 to $901 million in 2023.\n\n### References\n\n- [1] Honeywell International Inc. December 31, 2023 HON.html",
+   "answer_length": 2794,
+   "context_length": 116139,
+   "context": {
+    "entities": 39,
+    "relations": 144,
+    "chunks": 10,
+    "rerank_candidates": 133,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Five-Year Cumulative Total Return Graph",
+     "Price/Volume Analysis",
+     "$36.7 Billion",
+     "United States Segment",
+     "Segment Profit",
+     "International Segment",
+     "$5.3 Billion",
+     "Net Sales",
+     "2023 Net Sales",
+     "Product Sales",
+     "2021 Segment Margin Percentage",
+     "3E Segment",
+     "$5,267 Million",
+     "Financial Services Segment",
+     "$2,733 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4606,
+      "text": "1 Change 2022 vs. 2021 Net sales $ 6,031 $ 6,000 1 % $ 5,539 8 % Cost of products and services sold 3,264 3,275 3,045 Selling, general and administrative and other expenses 1,262 1,286 1,256 Segment profit $ 1,505 $ 1,439 5 % $ 1,238 16 % Factors Contributing to Year-Over-Year Change 2023 vs. 2022 2022 vs. 2021 Net Sales Segment Profit Net Sales Segment Profit Organic 2 % 5 % 14 % 23 % Foreign cur"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4997,
+      "text": "2023 compared with 2022 Selling, general and administrative expenses were flat due to the following: • Higher productivity of approximately $0.2 billion or 4%, • Partially offset by higher labor costs of approximately $0.2 billion or 4%. 22 Honeywell International Inc. TABLE OF CONTENTS MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS Other (Income) Expense 202"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8080388523512015,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.952
+   }
+  }
+ }
+}

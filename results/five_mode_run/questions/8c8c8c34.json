@@ -1,0 +1,507 @@
+{
+ "question_id": "8c8c8c34",
+ "ticker": "HAS",
+ "question": "Hasbro (HAS) 2023 one-time charges impact on operating profitability vs historical trends and cap allocation implications.",
+ "expected_answer": "In 2023, Hasbro’s operating result turned from a profit in prior years (407.7 million in 2022 and 763.3 million in 2021) to an operating loss of 1,538.8 million. A key driver behind this swing was the introduction of significant one‐time charges – a goodwill impairment of 1,191.2 million and a loss on the disposal of a business of 539.0 million – which together total approximately 1,730.2 million. If we conceptually net out these non‐recurring charges, the operating performance in 2023 would have been considerably closer to prior profitable levels. This contrast suggests that the core business may not be as weak as the 2023 operating loss might imply when viewed on a pro forma basis excluding one‐time items.\n\nFrom a capital allocation perspective, the management may consider these one‐time charges as non‐recurring events that do not necessarily reflect the ongoing earning potential of the business. As a result, moving forward, Hasbro might use this insight to reallocate capital in ways that strengthen their core operations—such as investing in product development or operational improvements—while also possibly returning capital to shareholders through dividends or buybacks. However, retaining adequate liquidity to support any further transformation or to improve the quality of assets (as indicated by inventory management and other balance sheet initiatives) might also be an ongoing priority.",
+ "category": "Financials",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 3,
+ "finder_reference_chars": 5905,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:15:36.453863",
+   "duration_ms": 31185,
+   "answer": "Hasbro Inc. (HAS) experienced a significant downturn in operating profitability in 2023, largely driven by substantial one-time charges and strategic shifts under its \"Blueprint 2.0\" initiative. The company reported an operating loss of $1,538.8 million for the fiscal year 2023, representing 30.8% of net revenues. This marks a stark contrast to historical performance, as Hasbro recorded operating profits of $407.7 million (7.0% of revenues) in 2022 and $763.3 million (11.9% of revenues) in 2021.\n\n### Impact of One-Time Charges on Profitability\nThe 2023 operating loss was primarily the result of massive non-cash impairment charges and costs related to the company's transformation strategy. Key charges included:\n*   **Goodwill and Asset Impairments:** A total of $1,307.2 million in non-cash charges was recorded within the Entertainment segment. This included a $960.0 million impairment of the Family Brands business and $231.2 million related to the eOne Film & TV business. Additionally, impairments were taken for the eOne Trademark ($65.0 million) and the PJ Masks intangible asset ($51.0 million).\n*   **Blueprint 2.0 Implementation:** Hasbro incurred $453.7 million in charges related to its strategic shift, dominated by a $419.7 million loss on the disposal of the non-core eOne Film and TV business sold to Lionsgate.\n*   **Operational Excellence Program:** The company spent $55.6 million on restructuring, including $28.6 million in severance and employee charges and $27.0 million for consultant and transformation office expenses.\n\n### Historical Trends and Segment Performance\nThe decline in 2023 followed a downward trend in net revenues, which fell 15% year-over-year to $5,003.3 million. This follows a 9% decline in 2022. Segment-level profitability also saw significant volatility:\n*   **Consumer Products:** Shifted from an operating profit of $217.3 million in 2022 to an operating loss of $64.7 million in 2023.\n*   **Wizards of the Coast and Digital Gaming:** Remained the most stable segment, though operating profit declined slightly by 2% to $525.7 million.\n*   **Entertainment:** Operating losses expanded massively to $1,911.5 million due to the aforementioned impairments and the impact of industry-wide worker strikes which disrupted production deliveries.\n\n### Capital Allocation Implications\nHasbro’s capital allocation in 2023 reflected a focus on maintaining shareholder returns while managing a de-leveraging plan following the eOne divestiture. Despite the reported net loss of $1,489.3 million, the company paid $388.0 million in dividends during 2023, a slight increase from $385.3 million in 2022. However, Hasbro did not repurchase any common stock in 2023, leaving $241.6 million available under its existing share repurchase authorization.\n\nThe sale of the eOne Film and TV business for approximately $329.6 million in net proceeds was a critical component of Hasbro’s strategy to reduce debt and exit non-core, high-volatility businesses. Moving forward, the company's capital allocation and brand architecture will focus on \"fewer, bigger, more profitable brands,\" such as MAGIC: THE GATHERING, DUNGEONS & DRAGONS, and TRANSFORMERS, while removing the \"Non-Hasbro Branded Film & TV\" category entirely in 2024.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023 (HAS.html)",
+   "answer_length": 3328,
+   "context_length": 113193,
+   "context": {
+    "entities": 60,
+    "relations": 141,
+    "chunks": 10,
+    "rerank_candidates": 58,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Results of Operations - Consolidated",
+     "2022 Highlights",
+     "2023 Highlights",
+     "Corporate and Other",
+     "Summary of Financial Performance",
+     "Net Earnings Attributable To Hasbro, Inc.",
+     "Hasbro Inc",
+     "$407.7 Million",
+     "2017 Annual Meeting Of Shareholders",
+     "Net Loss Attributable To Hasbro, Inc.",
+     "Net Earnings (Loss) Attributable To Hasbro, Inc.",
+     "$14.9 Million Incremental Asset Charges",
+     "Hasbro, Inc.",
+     "$539.0 Million Loss On Disposal",
+     "Cost Of Sales (2021)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 5339,
+      "text": "underlying business. Results discussed herein include income from operations before income taxes attributable to the eOne Film and TV business sold to Lionsgate on December 27, 2023. The eOne Film and TV results were recorded to the Company's Consolidated Statements of Operations, within the Entertainment segment, through the sale transaction closing date. Assets of $1.5 billion and liabilities of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7684081515159961,
+    "context_recall": 0.2857142857142857,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7635
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:16:08.517605",
+   "duration_ms": 32064,
+   "answer": "In 2023, Hasbro, Inc. underwent a significant strategic transformation that resulted in substantial one-time charges, shifting the company from historical operating profitability to a significant operating loss. The company reported an operating loss of $1,538.8 million (30.8% of net revenues) for the fiscal year ended December 31, 2023. This performance was a stark departure from 2022, which saw an operating profit of $407.7 million (7.0% of net revenues), and 2021, which yielded an operating profit of $763.3 million (11.9% of net revenues).\n\n### 2023 One-Time Charges and Profitability Impact\nThe 2023 operating loss was primarily driven by non-cash goodwill and asset impairment charges totaling $1,307.2 million. These charges were largely concentrated within the Entertainment segment and included:\n*   **Family Brands Impairment:** A $960.0 million non-cash goodwill impairment charge related to the company’s Family Brands business.\n*   **eOne Film & TV Divestiture:** A $231.2 million goodwill impairment and a $419.7 million loss on the disposal of the non-core eOne Film and TV business, which was sold to Lionsgate in December 2023.\n*   **Intangible Assets:** Significant impairments to definite-lived intangible assets, including $65.0 million for the eOne Trademark and $51.0 million for the PJ MASKS brand.\n*   **Blueprint 2.0 & Operational Excellence:** The company incurred $453.7 million in implementation charges for its \"Blueprint 2.0\" strategy and $55.6 million in \"Operational Excellence\" program charges, which included severance and transformation office expenses.\n\n### Historical Trends and Financial Volatility\nComparing these results to previous years highlights the impact of Hasbro's shifting strategy. In 2022, the company had already begun recording charges related to Blueprint 2.0, including $231.9 million in asset impairments (notably a partial impairment of the Power Rangers brand) and $12.4 million in inventory and asset write-offs from product cancellations. In 2021, one-time charges were comparatively smaller, such as a $116.1 million charge related to the sale of the eOne Music business and a $41.3 million impairment associated with the investment in the Discovery Family Channel. The massive escalation of impairments in 2023 reflects a more aggressive move to exit non-core businesses and align with a new entertainment strategy.\n\n### Capital Allocation and Strategic Implications\nThe heavy losses in 2023 have significant implications for Hasbro’s capital allocation and future operational model. By selling the eOne Film and TV business, Hasbro de-consolidated approximately $1.5 billion in assets and $542.0 million in liabilities. This move facilitates a transition to an \"asset-lite, partner-led model,\" where Hasbro will focus on its core \"Franchise Brands\" while outsourcing significant production and distribution risks to third parties.\n\nRegarding cash returns to shareholders, Hasbro declared $393.7 million in dividends during 2023. However, the company did not perform any share repurchases during the year, despite having $110.6 million remaining under its current authorization. Capital was instead directed toward debt management and operational restructuring. Furthermore, the company made a concerted effort to improve its balance sheet by reducing inventory levels by 51% compared to 2022, aiming to mitigate the obsolescence risks and warehousing costs that had pressured margins in previous years.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023 (HAS.html)",
+   "answer_length": 3535,
+   "context_length": 99910,
+   "context": {
+    "entities": 45,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 99,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Discovery",
+     "Hasbro, Inc.",
+     "Hasbro Inc",
+     "Summary of Financial Performance",
+     "Closeout Sales",
+     "Hasbro",
+     "Results of Operations - Consolidated",
+     "Entertainment Content",
+     "Fourth Quarter 2021",
+     "Operating Activities",
+     "Wizards of the Coast and Digital Gaming Segment",
+     "Second Half Revenue Concentration",
+     "Restructuring Actions",
+     "Material Costs",
+     "Consumer Acceptance"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 5339,
+      "text": "underlying business. Results discussed herein include income from operations before income taxes attributable to the eOne Film and TV business sold to Lionsgate on December 27, 2023. The eOne Film and TV results were recorded to the Company's Consolidated Statements of Operations, within the Entertainment segment, through the sale transaction closing date. Assets of $1.5 billion and liabilities of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.7726359512844824,
+    "context_recall": 0.14285714285714285,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7142
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:16:37.760340",
+   "duration_ms": 29243,
+   "answer": "Hasbro's operating profitability in 2023 was significantly impacted by substantial non-cash charges and restructuring costs, leading to a major shift from historical profit trends to a significant operating loss. The company reported an operating loss of $1,538.8 million, or 30.8% of net revenues, for the fiscal year ended December 31, 2023. This represents a sharp decline from an operating profit of $407.7 million (7.0% margin) in 2022 and $763.3 million (11.9% margin) in 2021 [1].\n\n### 2023 One-Time Charges and Their Impact\nThe 2023 operating performance was primarily weighed down by $1,307.2 million in non-cash goodwill and asset impairment charges. These charges were largely concentrated in the Entertainment segment and included:\n*   **$960.0 million** related to the goodwill impairment of the Family Brands reporting unit [1].\n*   **$231.2 million** for goodwill impairment of the eOne Film & TV business [1].\n*   **$116.0 million** combined for impairments of the eOne Trademark and the PJ MASKS intangible asset [1].\n\nBeyond impairments, Hasbro incurred $453.7 million in Blueprint 2.0 implementation charges. This total includes a $419.7 million loss on the disposal of the eOne Film and TV business, which was sold to Lionsgate on December 27, 2023. Additionally, the company recorded $55.6 million in charges related to its \"Operational Excellence\" program, which involved severance, consultant fees, and transformation office expenses aimed at long-term cost savings [1].\n\n### Historical Profitability Trends\nThe transition to an operating loss in 2023 continues a downward trend in profitability over the last three years. Net revenues have declined from $6,420.4 million in 2021 to $5,003.3 million in 2023. While the Wizards of the Coast and Digital Gaming segment remained a strong performer with a 36.1% operating profit margin in 2023, the Entertainment segment's operating loss widened to $1,911.5 million due to the aforementioned impairments and strike-related delays. The Consumer Products segment also swung to an operating loss of $64.7 million in 2023, driven by a challenging discretionary environment and high inventory obsolescence charges [1].\n\n### Capital Allocation and Strategic Implications\nHasbro’s capital allocation in 2023 prioritized debt reduction and shareholder returns through dividends over share repurchases. Following the sale of the eOne Film and TV business for $375 million, Hasbro utilized the proceeds to retire its remaining floating rate long-term debt. Specifically, the company paid $310.0 million in 2023 to retire the remaining principal of its Five-Year Tranche loan as part of a broader deleveraging plan [1].\n\nRegarding shareholder returns, Hasbro paid $388.0 million in dividends during 2023, a slight increase from $385.3 million in 2022. However, there were no repurchases of common stock in 2023, compared to $125.0 million in repurchases during 2022. The company's current strategy focuses on \"fewer, bigger, more profitable brands\" and driving operational savings to reinvest in core IP like MAGIC: THE GATHERING and DUNGEONS & DRAGONS [1].\n\n### References\n\n- [1] Hasbro, Inc. Form 10-K for the period ended December 31, 2023",
+   "answer_length": 3200,
+   "context_length": 55101,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 10,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 5339,
+      "text": "underlying business. Results discussed herein include income from operations before income taxes attributable to the eOne Film and TV business sold to Lionsgate on December 27, 2023. The eOne Film and TV results were recorded to the Company's Consolidated Statements of Operations, within the Entertainment segment, through the sale transaction closing date. Assets of $1.5 billion and liabilities of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5315,
+      "text": ", primarily related to the British Pound. These decreases were partially offset by an increase to the liability for uncertain tax positions, primarily related to the capitalization of research and experimentation expenditures. Cash Flow The following table summarizes the changes in the consolidated statement of cash flows included in Part II, Item 8. Financial Statements , of this Form 10-K, expre"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5983,
+      "text": "May 18, 2023. Ms. Goetter joined Hasbro from Harley Davidson, Inc., where she served as Chief Financial Officer. Prior to her time at Harley Davidson, Inc., Ms. Goetter served in senior leadership roles at Tyson Foods, Inc. and General Mills, Inc., where she was responsible for leading the turnaround of those businesses. Ms. Goetter succeeded Deborah Thomas, who retired from the Company after 24 y"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5364,
+      "text": "favorable $21.8 million foreign currency translation, most notably from the Company's Latin American markets and to a lesser extent, from markets across Europe. Within the Consumer Products segment, net revenues declined in the Franchise Brands, Partner Brands and Portfolio Brands categories during 2023 compared to 2022. The net revenue decrease was driven by lower sales of Partner Brands products"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5034,
+      "text": ": THE GATHERING products, due to record sales from set releases that included: Kamigawa: Neon Dynasty , Commander Legends: Battle for Baldur's Gate , Double Masters, and others, reflecting momentum in the brand, and elevating MAGIC: THE GATHERING to the Company's first billion-dollar brand. In addition, the Franchise Brands portfolio benefited from higher sales of PEPPA PIG products, driven by the"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5303,
+      "text": "2023. 2023 Net Revenues % Change 2022 Net Revenues % Change 2021 Net Revenues Film and TV $ 575.5 -31 % $ 837.6 -10 % $ 932.5 Family Brands 83.8 6 % 79.4 -40 % 132.9 Music and Other — -100 % 42.1 -51 % 86.8 Net Revenues $ 659.3 -31 % $ 959.1 -17 % $ 1,152.2 *Music and Other category net revenues for the period ended December 26, 2021 includes $65.2 million from eOne Music, which was sold by the Co"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8004320785143868,
+    "context_recall": 0.2857142857142857,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7715
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:17:11.339002",
+   "duration_ms": 33579,
+   "answer": "In 2023, Hasbro, Inc. experienced a significant downturn in operating profitability, shifting from an operating profit of $407.7 million in 2022 to an operating loss of $1,538.8 million. This decline was primarily driven by substantial one-time, non-cash charges and restructuring costs associated with the company’s \"Blueprint 2.0\" strategy and the divestiture of non-core assets.\n\n### Impact of 2023 One-Time Charges\nThe most significant impact on 2023 operating results came from **$1,307.2 million in non-cash goodwill and asset impairment charges** recorded within the Entertainment segment. These charges included:\n*   **$231.2 million** related to the goodwill of the eOne Film & TV business.\n*   **$960.0 million** related to the goodwill impairment of the Family Brands business to align with changes in entertainment strategy.\n*   **$65.0 million** for the eOne Trademark and **$51.0 million** for the PJ MASKS intangible asset.\n\nAdditionally, Hasbro recorded **$453.7 million in Blueprint 2.0 implementation charges**, which included a $419.7 million loss on the disposal of the eOne Film and TV business sold to Lionsgate. The company also incurred **$55.6 million** in \"Operational Excellence\" program charges, consisting of severance and transformation office expenses, and **$48.8 million** in intangible amortization costs related to the eOne acquisition.\n\n### Historical Profitability Trends\nThe 2023 operating loss of $1,538.8 million represents a sharp departure from the previous two years. In 2021, Hasbro reported an operating profit of **$763.3 million** (11.9% of net revenues), which declined to **$407.7 million** (7.0% of net revenues) in 2022. \n\nThe downward trend in profitability was exacerbated by declining revenues across several segments. Consumer Products saw operating profit drop from $401.4 million in 2021 to an operating loss of $64.7 million in 2023. While the Wizards of the Coast and Digital Gaming segment remained a strong performer with an operating profit of $525.7 million in 2023, this was still a slight 2% decline from 2022 levels. In contrast, the Entertainment segment's operating loss widened from $22.7 million in 2022 to $1,911.5 million in 2023 due to the massive impairment charges mentioned above.\n\n### Capital Allocation Implications\nHasbro’s capital allocation in 2023 reflected its strategic transformation and the need to manage cash amidst significant losses:\n*   **Dividends and Share Repurchases:** Despite the net loss of $1,489.3 million, Hasbro maintained its commitment to returning capital through dividends, although it did not conduct any share repurchases in 2023. As of the end of 2023, $41.6 million remained available under its current share repurchase authorization.\n*   **Divestitures and De-leveraging:** The sale of the eOne Film and TV business resulted in the de-consolidation of $1.5 billion in assets and $542.0 million in liabilities. This move is part of a shift toward an \"asset-lite\" model, reducing the company's exposure to the volatility and high costs of film and TV production.\n*   **Inventory and Supply Chain:** Hasbro successfully reduced its inventory levels by 51% in 2023 compared to 2022, focusing on improving inventory quality and clearing excess supply through closeout sales.\n*   **Strategic Reinvestment:** Capital is being reallocated toward \"fewer, bigger, more profitable brands\" and high-growth areas like digital gaming, as evidenced by the success of *Baldur’s Gate 3* and *Monopoly Go!* in 2023.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023 (HAS.html)",
+   "answer_length": 3573,
+   "context_length": 115728,
+   "context": {
+    "entities": 63,
+    "relations": 144,
+    "chunks": 10,
+    "rerank_candidates": 115,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Future Operating Margins",
+     "Discovery",
+     "EBITDA Growth",
+     "Hasbro, Inc.",
+     "Summary of Financial Performance",
+     "Hasbro Inc",
+     "Operating Profitability",
+     "Adjusted Operating Measures",
+     "2023 Highlights",
+     "Earnings Per Share (EPS)",
+     "2022 Highlights",
+     "Net Cash Flow From Operations",
+     "Closeout Sales",
+     "Current And Historical Performance",
+     "Hasbro"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 5339,
+      "text": "underlying business. Results discussed herein include income from operations before income taxes attributable to the eOne Film and TV business sold to Lionsgate on December 27, 2023. The eOne Film and TV results were recorded to the Company's Consolidated Statements of Operations, within the Entertainment segment, through the sale transaction closing date. Assets of $1.5 billion and liabilities of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8120215336442556,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9173
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:17:44.677510",
+   "duration_ms": 33339,
+   "answer": "In 2023, Hasbro Inc. underwent a significant strategic transformation characterized by substantial one-time charges that resulted in a shift from historical profitability to a major operating loss. These charges were primarily driven by asset impairments and the execution of the \"Blueprint 2.0\" strategy, which included the divestiture of non-core assets to focus on high-margin franchise brands.\n\n### 2023 One-Time Charges and Profitability Impact\nFor the fiscal year ended December 31, 2023, Hasbro reported an operating loss of $1,538.8 million, a sharp decline from the operating profits of $407.7 million in 2022 and $763.3 million in 2021 [1]. The 2023 results were heavily impacted by several significant charges:\n\n*   **Non-Cash Impairments:** The company recorded $1,307.2 million in goodwill and asset impairment charges within the Entertainment segment. This included a $960.0 million charge related to the Family Brands business and $231.2 million related to the eOne Film and TV business [1].\n*   **Blueprint 2.0 Implementation:** Hasbro incurred $453.7 million in charges related to its \"Blueprint 2.0\" strategy. A major component was a $419.7 million loss on the disposal of the non-core eOne Film and TV business, which was sold to Lionsgate in December 2023 [1].\n*   **Operational Excellence Program:** To improve efficiency and reduce costs, the company launched an Operational Excellence program, incurring $55.6 million in charges during 2023 for consultants, transformation office expenses, and employee severance [1].\n*   **Inventory Management:** Efforts to reduce retail inventory by 51% compared to 2022 led to inventory scrap and obsolescence write-downs, as the company prioritized clearing excess supply to mitigate future risk [1].\n\n### Historical Trends (2021–2022)\nThe scale of charges in 2023 followed a trend of increasing restructuring costs that began in 2021. In 2022, Hasbro incurred $253.0 million in charges associated with the initial shift to Blueprint 2.0, including a $215.2 million impairment of the Power Rangers intangible asset [1]. In 2021, charges were comparatively lower but included $116.1 million related to the sale of the eOne Music business and a $41.3 million impairment associated with the investment in Discovery Family Channel [1].\n\nWhile net revenues have steadily declined from $6,420.4 million in 2021 to $5,003.3 million in 2023, the 2023 operating margin of -30.8% represents a significant departure from the 7.0% margin in 2022 and 11.9% in 2021, largely due to the concentration of these non-cash and restructuring charges [1].\n\n### Capital Allocation and Strategic Implications\nHasbro’s capital allocation in 2023 focused on deleveraging and maintaining shareholder returns despite the reported net loss. Key implications include:\n\n*   **Debt Reduction:** The sale of the eOne Film and TV business generated $329.6 million in net proceeds, which Hasbro utilized as part of its deleveraging plan to retire floating-rate long-term debt. Furthermore, Lionsgate assumed approximately $542.0 million in liabilities as part of the transaction [1].\n*   **Shareholder Returns:** Hasbro continued to prioritize dividends, paying $388.4 million in 2023. However, the company did not repurchase any common stock during the year, despite having $241.6 million remaining under its current authorization [1].\n*   **Strategic Reinvestment:** The company is shifting toward an \"asset-lite, partner-led\" model. Capital is being reallocated toward \"Franchise Brands\" such as *Magic: The Gathering*, *Dungeons & Dragons*, and *Monopoly*. This includes expanding digital gaming through internal development and high-profile licensing agreements, such as *Monopoly Go!* and *Baldur’s Gate 3* [1].\n\n### References\n\n* [1] {\"ticker\":\"HAS\",\"company\":\"Hasbro, Inc.\",\"period\":\"December 31, 2023\",\"source\":\"HAS.html\"}",
+   "answer_length": 3858,
+   "context_length": 118452,
+   "context": {
+    "entities": 53,
+    "relations": 146,
+    "chunks": 10,
+    "rerank_candidates": 85,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Results of Operations - Consolidated",
+     "Discovery",
+     "Net Earnings Attributable To Hasbro, Inc.",
+     "Hasbro, Inc.",
+     "Net Earnings (Loss) Attributable To Hasbro, Inc.",
+     "Hasbro Inc",
+     "Consolidated Statements Of Comprehensive Earnings",
+     "Summary of Financial Performance",
+     "Corporate and Other",
+     "Closeout Sales",
+     "Hasbro",
+     "Corporate And Other Segment",
+     "Earnings Per Share (EPS)",
+     "Entertainment Content",
+     "$407.7 Million"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 5339,
+      "text": "underlying business. Results discussed herein include income from operations before income taxes attributable to the eOne Film and TV business sold to Lionsgate on December 27, 2023. The eOne Film and TV results were recorded to the Company's Consolidated Statements of Operations, within the Entertainment segment, through the sale transaction closing date. Assets of $1.5 billion and liabilities of"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5068,
+      "text": "net revenues in 2021. ◦ Operating Profit in the Wizards of the Coast and Digital Gaming segment decreased 2% to $538.3 million; Consumer Products segment operating profit decreased 46% to $217.3 million; Entertainment segment operating losses increased greater than 100% to $22.7 million; and Corporate and Other operating losses increased greater than 100% to $370.6 million. • Net earnings attribut"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6518,
+      "text": "Cinema Party , featuring ten never-seen-before PEPPA PIG episodes and five all-new sing along songs, premiering in February 2024. 12 Table of Contents Partner Brands Includes those brands we license from other parties for which we develop toy and game products. Partner brand revenues fluctuate based primarily on the entertainment releases around these brands in any given year. Key Brands include: "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5087,
+      "text": "$231.9 million, or $1.67 per diluted share, of which $215.2 million, or $1.55 per diluted share relates to the partial impairment of the Company's definite-lived Power Rangers intangible asset, $12.4 million, or $0.09 per diluted share, of incurred incremental asset charges related to product cancellations, consisting of inventory and asset write offs, and $4.3 million, or $0.03 per diluted share,"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5369,
+      "text": "ues % Change 2021 Net Revenues Franchise Brands $ 3,256.5 -3 % $ 3,350.8 -5 % $ 3,541.9 Partner Brands 687.8 -35 % 1,052.0 -9 % 1,161.0 Portfolio Brands 521.3 -17 % 625.2 -13 % 719.8 Non-Hasbro Branded Film & TV 537.7 -35 % 828.7 -17 % 997.7 Total $ 5,003.3 $ 5,856.7 $ 6,420.4 2023 versus 2022 Net revenues declined in all brand portfolios in 2023 compared to 2022. Franchise Brands: The Franchise B"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7057235003493493,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.855
+   }
+  }
+ }
+}

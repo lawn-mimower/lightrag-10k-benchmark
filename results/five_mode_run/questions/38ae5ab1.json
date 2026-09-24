@@ -1,0 +1,197 @@
+{
+ "question_id": "38ae5ab1",
+ "ticker": "CE",
+ "question": "Constellation Energy's (CE) cash flow credit targets affect its fin. health & valuation.",
+ "expected_answer": "The company's approach of first using available cash flow to meet its investment grade credit targets before allocating additional capital for growth and shareholder returns is a clear signal of its commitment to maintaining strong financial health and a conservative balance sheet. By prioritizing credit targets, the business ensures that it remains within safe financial parameters—minimizing borrowing costs and maintaining access to capital during volatile market conditions. This strategy reflects a disciplined capital allocation framework where financial stability is paramount. The emphasis on preserving the credit rating reinforces investor confidence and enhances the company's valuation by signaling lower risk, sustainable operations, and a long-term focus on profitability. In essence, the model aligns growth investments and shareholder distributions with the company’s capacity to support its debt obligations and risk management objectives, balancing operational investment with financial resilience.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 4160,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:03:52.646775",
+   "duration_ms": 8869,
+   "answer": "I do not have enough information to answer your query regarding Constellation Energy's (CE) cash flow credit targets and their impact on the company's financial health and valuation. The provided context contains financial data and operational details for several other organizations—including Marathon Oil, Honeywell, Ameriprise Financial, and Motorola Solutions—but does not include specific information about Constellation Energy.",
+   "answer_length": 433,
+   "context_length": 26996,
+   "context": {
+    "entities": 60,
+    "relations": 67,
+    "chunks": 0,
+    "rerank_candidates": 46,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Cash Resources",
+     "Energy And Specialized Markets",
+     "Contractual, Operational, Economic, and Political Conditions",
+     "Condensed Consolidated Statements of Cash Flows",
+     "Cash Flow From Operations",
+     "Consolidated Statements of Cash Flow",
+     "Energy Usage Efficiency",
+     "Consolidated Statements Of Cash Flow",
+     "Commercial And Financing Market Conditions",
+     "Energy Expense",
+     "Projected Revenue Growth Rates",
+     "Business Performance",
+     "Discounted Future Net Cash Flows",
+     "U.S. Term Loan Credit Agreement",
+     "U.S. Term Loan Credit Agreements"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.5
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:04:14.320237",
+   "duration_ms": 21673,
+   "answer": "Based on the provided context, there is no information regarding Constellation Energy (CE) or its specific cash flow credit targets. The context focuses on several other entities, including:\n\n*   **Verisk Analytics:** Which sold its **Energy Business** to Veritas Capital in 2023, impacting its cash flow from operating and investing activities.\n*   **Honeywell International Inc.:** Which monitors **operating cash flows** as its primary liquidity source and utilizes price increases to offset rising **energy costs**.\n*   **Marathon Oil Corporation:** An independent oil and gas company that prioritizes **free cash flow** for shareholder returns and debt reduction within an inflationary environment.\n*   **Celanese Corporation:** Whose **Engineered Materials** segment saw significant growth in 2023, influenced by restructuring and acquisitions.\n*   **Cintas:** Which noted that price increases and lower **energy expenses** as a percentage of revenue contributed to gross margin improvements in fiscal 2024.\n\nBecause Constellation Energy is not mentioned in the provided Knowledge Graph or document data, I do not have enough information to answer how its cash flow credit targets affect its financial health and valuation.\n\n### References\n\n* [1] Energy Business\n* [2] Honeywell International Inc.\n* [3] Marathon Oil Corporation\n* [4] Price Increases\n* [5] Fuel And Energy Industry",
+   "answer_length": 1387,
+   "context_length": 44786,
+   "context": {
+    "entities": 34,
+    "relations": 60,
+    "chunks": 0,
+    "rerank_candidates": 112,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Future Cash Flow",
+     "Pipeline Development",
+     "Energy Business",
+     "Working Capital",
+     "Data Analytics Provider",
+     "Liquidity",
+     "Cash Flow",
+     "Company",
+     "Entertainment Business",
+     "Liquidity And Capital Resources",
+     "Multiple Sclerosis (MS) Business",
+     "Consolidated Financial Condition",
+     "Fuel And Energy Industry",
+     "Cash Flow From Operating Activities",
+     "Global Working Capital"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.9523809523809523,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.4881
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:04:18.089838",
+   "duration_ms": 3770,
+   "answer": "I do not have enough information to answer your query about Constellation Energy's cash flow credit targets and their impact on the company's financial health and valuation, as there were no document chunks provided in the context.\n\n### References",
+   "answer_length": 247,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:05:16.126793",
+   "duration_ms": 58037,
+   "answer": "I do not have enough information to answer your query regarding Constellation Energy (CE) or its cash flow credit targets. The provided context contains financial and operational data for several other organizations—including **Honeywell International Inc.**, **Verisk Analytics**, **Celanese Corporation**, and **Ameriprise Financial, Inc.**—but it does not mention Constellation Energy. \n\nAccording to the provided Knowledge Graph, the term \"Company\" is used to refer to entities such as **Hasbro Inc.** and an unspecified pharmaceutical firm, while the \"Energy Business\" mentioned in the text refers specifically to a segment of **Verisk Analytics** that was sold to Veritas Capital in 2023. There is no data available in the context concerning the credit targets or valuation metrics of Constellation Energy.\n\n### References\n\n* No relevant documents were found in the provided context to support an answer for Constellation Energy.",
+   "answer_length": 935,
+   "context_length": 57918,
+   "context": {
+    "entities": 55,
+    "relations": 129,
+    "chunks": 0,
+    "rerank_candidates": 168,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Energy And Specialized Markets",
+     "Future Cash Flow",
+     "Cash Resources",
+     "Pipeline Development",
+     "Condensed Consolidated Statements of Cash Flows",
+     "Energy Business",
+     "Cash Flow From Operations",
+     "Working Capital",
+     "Consolidated Statements Of Cash Flow",
+     "Data Analytics Provider",
+     "Commercial And Financing Market Conditions",
+     "Liquidity",
+     "Consolidated Statements of Cash Flow",
+     "Cash Flow",
+     "Contractual, Operational, Economic, and Political Conditions"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.4808
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:06:22.541714",
+   "duration_ms": 66415,
+   "answer": "I do not have enough information in the provided context to answer your query regarding Constellation Energy (CE). The Knowledge Graph and document chunks do not contain any mentions of Constellation Energy, its specific cash flow credit targets, or its financial valuation.\n\nThe provided information focuses on other entities and their respective financial conditions:\n*   **Honeywell International Inc.**, which manages liquidity through operating cash flows and revolving credit agreements.\n*   **Verisk Analytics**, which recently sold its Energy Business segment to Veritas Capital.\n*   **Ameriprise Financial, Inc.**, which monitors cash flows related to investment management and advisory services.\n*   **Celanese Corporation**, which experienced increased demands on its cash resources following the M&M Acquisition due to higher interest expenses.\n*   **Motorola Solutions**, which manages debt and credit facilities, including compliance with specific financial covenants.\n\nBecause Constellation Energy is not included in the provided data, I cannot provide a comprehensive analysis of its financial health or valuation based on these materials.",
+   "answer_length": 1155,
+   "context_length": 56183,
+   "context": {
+    "entities": 55,
+    "relations": 122,
+    "chunks": 0,
+    "rerank_candidates": 168,
+    "chunk_tickers": [],
+    "entity_names": [
+     "Cash Resources",
+     "Future Cash Flow",
+     "Energy And Specialized Markets",
+     "Pipeline Development",
+     "Contractual, Operational, Economic, and Political Conditions",
+     "Energy Business",
+     "Condensed Consolidated Statements of Cash Flows",
+     "Working Capital",
+     "Cash Flow From Operations",
+     "Data Analytics Provider",
+     "Consolidated Statements of Cash Flow",
+     "Liquidity",
+     "Energy Usage Efficiency",
+     "Cash Flow",
+     "Consolidated Statements Of Cash Flow"
+    ],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.5
+   }
+  }
+ }
+}

@@ -1,0 +1,483 @@
+{
+ "question_id": "5e5180f2",
+ "ticker": "HON",
+ "question": "Honeywell (HON) contract assets & liabilities impact rev & earnings, raising quality & risk concerns.",
+ "expected_answer": "The provided data offers several insights into changes in contract assets and liabilities that can help assess future revenue realization and earnings quality. Here are some key observations and the risks/opportunities they may present:\n\n1. Decrease in Contract Assets (especially unbilled contract assets):\n   • The unbilled contract assets decreased from $2,294 million at the beginning of the period to $2,013 million at year-end. This decline may indicate that the Company is more promptly billing its long-term contracts. In turn, this reduces the lag between work performed and invoicing, potentially improving cash flow.\n   • Opportunity: More efficient billing can lead to improved short-term liquidity and enhanced transparency about revenue recognition, which may support earnings quality by reducing uncertainty about when revenue will be recognized.\n   • Risk: However, if the reduction in unbilled amounts results from changes in contract terms or delays in initiating billing cycles rather than improved efficiency, it may mask issues in project execution or in meeting contractual milestones. This could signal future challenges in revenue realization if contracts are being modified or delayed.\n\n2. Changes in Contract Liabilities (Deferred Revenue):\n   • The contract liabilities have decreased (for example, from $4,583 million at the beginning of the period to $4,326 million at year-end), partly reflecting revenue that was recognized against previously deferred amounts.\n   • Opportunity: A decrease in deferred revenue, as liabilities become recognized as revenue, can signal that projects are progressing as expected. If the recognition of previously deferred revenue continues to be smooth, future earnings may appear more robust.\n   • Risk: On the flip side, if the decline in contract liabilities outpaces new contract acquisition or if future performance obligations are not well secured, this could result in less revenue cushion for future periods. It also raises a risk of revenue volatility if current recognized revenue represents a front-loading effect rather than a steady stream over time.\n\n3. Overall Implications on Revenue Realization and Earnings Quality:\n   • Improved billing efficiency (as indicated by lower unbilled contract assets) can present an opportunity for better matching of revenue with performance, thereby enhancing earnings quality. More timely invoicing can lead to more predictable revenue flows, which is positive for both management forecasting and investor expectations.\n   • However, both the reduction in unbilled assets and contract liabilities need to be monitored closely. A significant decrease in these accounts might signal that the company is either accelerating revenue recognition or that future revenue could be lower if new contracts do not offset this decline. This introduces a potential risk that the current period’s earnings might include a catch-up from previous periods rather than reflecting a sustainable trend.\n\nIn summary, while the observed changes offer an opportunity to improve liquidity and provide more transparent revenue recognition, they also come with the risk that accelerated recognition might not be sustainable. Investors should consider whether these changes reflect operational improvements or merely a timing shift in revenue and billing practices that could affect future earnings predictability.",
+ "category": "Accounting",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 12969,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:34:42.489669",
+   "duration_ms": 30190,
+   "answer": "Honeywell International Inc. recognizes revenue from long-term contracts over time as performance obligations are satisfied and control of goods or services is continuously transferred to the customer. This process primarily utilizes the **cost-to-cost input method**, where progress is measured by comparing costs incurred to date against the total estimated costs at completion. Because these contracts often span several years, the estimation of total revenue and costs requires significant management judgment, impacting the company's reported earnings and financial position.\n\n### Impact on Revenue and Earnings\nThe financial results of Honeywell's long-term contracts are heavily dependent on the accuracy of cost estimates. Management must account for various factors, including:\n*   **Negotiated price and quantities:** Modified by assumptions regarding contract options and incentive provisions.\n*   **Cost components:** These include labor, materials, subcontracting, and inflationary trends.\n*   **Cumulative catch-up adjustments:** Changes in revenue or cost estimates are recognized in the period they occur, affecting both current and prior period financials on a cumulative basis.\n*   **Immediate Loss Recognition:** If it becomes evident that contract costs will exceed revenues, the company recognizes anticipated losses immediately.\n\nFor the fiscal year ended December 31, 2023, the company reported that system contracts—long-term agreements accounted for over time—generated approximately **$1.9 billion in net sales**.\n\n### Risks and Quality of Earnings Concerns\nThe subjectivity involved in estimating costs for long-term contracts has been identified as a **Critical Audit Matter** by independent auditors. The complexity arises from the need to predict technical and schedule risks, asset utilization, and potential labor agreements over the life of a contract. Inaccurate estimations can lead to significant fluctuations in gross margins and earnings quality.\n\nBeyond operational contract risks, Honeywell faces substantial contingent liabilities that could impact its financial condition. As detailed in **Note 19 Commitments and Contingencies**, the company manages significant liabilities related to:\n*   **Asbestos-Related Claims:** Specifically linked to a predecessor company, Bendix Friction Materials, with epidemiological projections extending through 2059.\n*   **Environmental Matters:** Including potential legislation regarding per/polyfluoroalkyl substances (PFAS) and other health standards.\n*   **Litigation and Investigations:** Arising from commercial transactions, government contracts, and prior divestitures.\n\nHoneywell manages these risks through financial controls over contract pricing and the estimation process, as well as maintaining insurance coverage, though there is no guarantee that insurance will be adequate to cover all potential liabilities.\n\n### References\n\n- [1] Honeywell International Inc. Document Title One",
+   "answer_length": 2972,
+   "context_length": 96223,
+   "context": {
+    "entities": 60,
+    "relations": 79,
+    "chunks": 10,
+    "rerank_candidates": 56,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Revenue Recognition And Contracts With Customers",
+     "Revenue From Contracts With Customers",
+     "Sales Recognition On Long-Term Contracts",
+     "Note 1",
+     "Anticipated Losses On Long-Term Contracts",
+     "Projected Revenue Growth Rates",
+     "Valuation And Qualifying Accounts",
+     "New Accounting Pronouncements",
+     "Summary of Financial Performance",
+     "Contractual, Operational, Economic, and Political Conditions",
+     "Management's Report on Internal Control over Financial Reporting",
+     "Gains/Losses Related To Dispositions",
+     "Results of Operations - Consolidated",
+     "Changes In Operating Assets And Liabilities",
+     "Fixed Assets in Accounts Payable"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7075,
+      "text": "and operating effectiveness of internal control based on the assessed risk. Our audits also included performing such other procedures as we considered necessary in the circumstances. We believe that our audits provide a reasonable basis for our opinions. Definition and Limitations of Internal Control over Financial Reporting A company’s internal control over financial reporting is a process design"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7078,
+      "text": "189 90 90 (311) Total $ 13,734 $ 175 $ 175 $ (616) 1 Asset or (liability). 2 A potential change in fair value of interest rate sensitive instruments based on a hypothetical immediate one percentage point decrease in interest rates across all maturities and a potential change in fair value of foreign exchange rate sensitive instruments based on a 10% strengthening of the U.S. dollar versus local cu"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6542690821425702,
+    "context_recall": 0.8947368421052632,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8873
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:35:10.103265",
+   "duration_ms": 27614,
+   "answer": "Honeywell International Inc. manages a complex portfolio of long-term contracts and financial obligations that significantly influence its revenue recognition and overall earnings quality. The company recognizes revenue from long-term contracts incrementally over time as control of goods or services is transferred to the customer. This process relies heavily on management’s critical accounting estimates and judgments, particularly regarding the estimation of total costs at completion. To mitigate the risk of contract losses, Honeywell implements financial controls that monitor customer qualification, contract pricing, and the accuracy of these estimations.\n\nAs of December 31, 2023, Honeywell reported a substantial backlog of $31,777 million, representing the estimated remaining value of work to be performed under firm contracts. Net sales for the year reached $36,662 million, driven by both product sales ($25,773 million) and service sales ($10,889 million). However, the reliance on long-term and government-related contracts introduces specific financial risks. Government audits, for instance, can lead to recommendations for downward price adjustments or the requirement of voluntary refunds, directly impacting reported results.\n\nOperational risks further complicate the company's financial stability. Honeywell faces volatility in the cost of raw materials—such as copper, nickel, and titanium—and rising labor costs, which can increase production expenses and pressure margins. While the company utilizes productivity actions, long-term supplier contracts, and hedging activities to offset these costs, any failure to successfully execute these strategies can lead to a material adverse effect on consolidated results. Additionally, discrepancies between actual and anticipated returns on pension plan assets can result in significant non-cash actuarial gains or losses, affecting the company's financial condition.\n\nThe company's risk profile is also shaped by significant contingent and tax liabilities. As of 2023, Honeywell recorded $1,490 million in asbestos-related liabilities, primarily linked to a predecessor company, Bendix Friction Materials. Environmental remediation and legal claims regarding product liability and commercial transactions also present ongoing financial exposure. Furthermore, tax liabilities remain volatile due to evolving global tax laws, such as digital services taxation and minimum tax frameworks, as well as uncertainties in the timing of tax payments.\n\nFinally, Honeywell’s digital and physical infrastructure is subject to cybersecurity risks. While no previous incidents have materially affected the business to date, the company acknowledges that successful attacks on its IT infrastructure or products could harm its reputation and financial performance. To manage this, the company invests in security tools and processes, which increases the overall cost of doing business but is essential for protecting proprietary data and meeting the stringent cybersecurity standards mandated by government and commercial customers.\n\n### References\n\n* [1] Honeywell International Inc. Document Title One",
+   "answer_length": 3157,
+   "context_length": 108499,
+   "context": {
+    "entities": 32,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 96,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Consolidated Statement Of Operations",
+     "Honeywell International Inc.",
+     "Financial Controls",
+     "Honeywell",
+     "Long-Term Contracts",
+     "Fair Value Measurements",
+     "Tax Liabilities",
+     "Deferred Tax Liabilities",
+     "Changes In Assets And Liabilities",
+     "Motorola Solutions Inc",
+     "Actual Asset Returns",
+     "Critical Accounting Estimates",
+     "Honeywell International Inc",
+     "Income Taxes",
+     "Revenue Recognition And Contracts With Customers"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4267,
+      "text": "5 ( 8 ) ( 3 ) Cash flow hedges recognized in other comprehensive income (loss) 60 71 17 Less: Reclassification adjustment for gains included in net income 49 56 20 Changes in fair value of cash flow hedges 11 15 ( 3 ) Other comprehensive income (loss), net of tax ( 665 ) ( 598 ) 482 Comprehensive income 5,007 4,369 6,092 Less: Comprehensive income (loss) attributable to the noncontrolling interest"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7243,
+      "text": "vii) achieve sufficient return on investment for new products introduced based on capital expenditures and research and development spending; (viii) respond to changes in overall trends related to end market demand; and (ix) attract, develop, and retain individuals with the requisite technical expertise and understanding of customers’ needs to develop new technologies and introduce new products. C"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9180327868852459,
+    "answer_relevancy": 0.7159616670906997,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6585
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:36:04.053602",
+   "duration_ms": 53950,
+   "answer": "I do not have enough information to answer the specific query regarding how Honeywell’s contract assets and liabilities impact its revenue and earnings, or the specific quality and risk concerns associated with them. The provided documents do not explicitly mention \"contract assets\" or \"contract liabilities.\"\n\nHowever, the context provides information regarding Honeywell’s financial results, backlog, and general risk factors that impact its revenue and earnings:\n\n**Financial Performance and Backlog**\nHoneywell reported a 3% increase in net sales for 2023, totaling $36.7 billion [1]. This growth was primarily driven by increased pricing, though it was partially offset by unfavorable foreign currency translation [1]. As of December 31, 2023, the company maintained a robust backlog of $31.8 billion, which it views as a foundation for future growth and sustained capital deployment [1].\n\n**Earnings and Cash Flow Drivers**\nThe company's gross margin increased to 37.3% in 2023 [1]. Management is focused on increasing operating cash flows, which were $5.3 billion in 2023, by leveraging revenue growth, margin expansion, and improved working capital turnover [1]. Additionally, Honeywell reported repositioning charges, with cash spending for these actions totaling $294 million in 2023, funded through operating cash flows [1].\n\n**Risk Factors Affecting Results**\nHoneywell identifies several macroeconomic and industry-specific risks that can cause actual results to vary from anticipated future results. These include:\n*   **Supply Chain and Inflation:** The company continues to monitor supply chain disruptions and inflationary pressures. Mitigation strategies include pricing actions, new supplier development, and direct engagement with key suppliers [1].\n*   **Segment-Specific Risks:** The Aerospace business is impacted by customer buying patterns, supplier stability, and global supply chain capacity constraints [1]. Performance Materials and Technologies may be adversely affected by downturns in capacity utilization and volatility in oil and natural gas prices [1].\n*   **International Operations:** More than half of the company's sales are derived from international operations, which are subject to risks such as exchange rate fluctuations, trade restrictions, and differing regulatory environments [1].\n\n### References\n\n- [1] Honeywell International Inc.",
+   "answer_length": 2381,
+   "context_length": 38909,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 6,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6525,
+      "text": "Sales to the U.S. Department of Defense $ 2,933 $ 2,886 $ 3,219 Sales to other U.S. government departments and agencies 508 546 703 Total sales to the U.S. government $ 3,441 $ 3,432 $ 3,922 7 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL INTERNATIONAL OPERATIONS We engage in manufacturing, sales, service, and research and development globally. U.S. exports and non-U.S. manufactur"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.96875,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2422
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:36:40.320886",
+   "duration_ms": 36267,
+   "answer": "Honeywell International Inc. utilizes a revenue recognition process for long-term contracts that relies heavily on management judgment and estimation, which directly affects its reported earnings and financial stability. Revenue is typically recognized over time as performance obligations are satisfied, using either input or output methods—most notably the cost-to-cost input method, which aligns revenue recognition with the incurrence of costs. This process requires management to develop complex estimates for total net sales and costs at completion. Any changes in these estimates are recognized on a cumulative catch-up basis, meaning prior-period financials are adjusted in the period the change is identified.\n\nThe company’s backlog, which represents the estimated remaining value of work to be performed under firm contracts, stood at $31,777 million as of December 31, 2023. While this provides a pipeline for future revenue, the quality of these earnings is subject to various risks. For instance, anticipated losses on long-term contracts must be recognized immediately when it becomes evident that total contract costs will exceed revenues. Additionally, Honeywell manages significant contingent liabilities, including asbestos-related claims from its predecessor, Bendix, and environmental liabilities estimated at $641 million, which can necessitate substantial cash outflows and impact financial reporting accuracy.\n\nOperational risks such as inflation, raw material price fluctuations, and labor shortages pose significant threats to contract profitability. In segments like Aerospace and Performance Materials and Technologies, where a majority of the raw material supply base is under contract, the inability to offset rising costs through price increases, productivity actions, or hedging can adversely affect results of operations. Furthermore, supply chain disruptions and the inability of single-source suppliers to meet delivery requirements can lead to contract penalties, terminations, and damage to customer relationships.\n\nHoneywell’s reliance on international operations and government contracts introduces further layers of risk. With over half of its sales originating outside the U.S., the company is exposed to foreign currency exchange volatility and varying regulatory environments. As a significant contractor for the U.S. government, Honeywell faces risks including termination for convenience, rigorous audits that may recommend downward price adjustments, and uncertainties in federal funding. Geopolitical conflicts, such as the ongoing war between Russia and Ukraine, have also created uncertainty regarding the estimation of losses and the ability to fulfill remaining contractual obligations in affected regions.\n\n### References\n\n* [1] Honeywell International Inc. Document Title One",
+   "answer_length": 2827,
+   "context_length": 121289,
+   "context": {
+    "entities": 57,
+    "relations": 124,
+    "chunks": 10,
+    "rerank_candidates": 139,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Revenue Recognition And Contracts With Customers",
+     "Honeywell International Inc.",
+     "Revenue From Contracts With Customers",
+     "Long-Term Contracts",
+     "Revenue Recognition Process",
+     "Consolidated Statement Of Operations",
+     "Payment Contracts",
+     "Honeywell",
+     "Contractholder Behavior",
+     "Financial Controls",
+     "Anticipated Losses On Long-Term Contracts",
+     "Derivative Contracts",
+     "Operating Assets And Liabilities",
+     "Net Sales",
+     "Contractual, Operational, Economic, and Political Conditions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4267,
+      "text": "5 ( 8 ) ( 3 ) Cash flow hedges recognized in other comprehensive income (loss) 60 71 17 Less: Reclassification adjustment for gains included in net income 49 56 20 Changes in fair value of cash flow hedges 11 15 ( 3 ) Other comprehensive income (loss), net of tax ( 665 ) ( 598 ) 482 Comprehensive income 5,007 4,369 6,092 Less: Comprehensive income (loss) attributable to the noncontrolling interest"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7105,
+      "text": "foreign currency exchange rates, antitrust regulations, employment regulations, foreign investment laws, import, export, and other trade restrictions (such as sanctions and embargoes), differing levels of protection of intellectual property, acts of industrial espionage, violations by our employees of anti-corruption laws (despite our efforts to mitigate such risk), changes in regulations regardin"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7203441926022399,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6801
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:37:12.541589",
+   "duration_ms": 32221,
+   "answer": "Honeywell International Inc. manages its revenue and earnings through a rigorous framework for revenue recognition, particularly regarding long-term contracts and the management of associated assets and liabilities. The company recognizes revenue as performance obligations are satisfied, typically over time for long-term agreements using input or output methods, such as the cost-to-cost input method. This process requires significant management judgment regarding cost estimation and progress toward completion. As of December 31, 2023, Honeywell’s backlog—representing the estimated remaining value of work under firm contracts—stood at $31,777 million, highlighting the scale of these future obligations.\n\n### Financial Performance and Operational Impact\nIn 2023, Honeywell reported net sales of $36,662 million, a slight increase from $35,466 million in 2022. This total comprised $25,773 million in product sales and $10,889 million in service sales. The company’s financial health is closely tied to its ability to maximize operating cash flows, which reached $5.3 billion in 2023. These cash flows are driven by revenue growth, margin expansion, and improved working capital turnover. However, the balance sheet also reflects substantial liabilities, including $7,809 million in accrued liabilities and $1,490 million in asbestos-related liabilities, the latter of which stems from predecessor companies like Bendix Friction Materials.\n\n### Quality and Risk Concerns\nThe reliance on long-term contracts introduces specific risks to earnings quality and financial stability. Because revenue is recognized based on estimates, any changes in those estimates are accounted for on a cumulative catch-up basis, which can result in significant adjustments to current-period financials. Management also employs \"Critical Accounting Estimates\" for complex assessments, such as impairment tests for acquired assets and pension fund valuations. For instance, pension obligations are highly sensitive to discount rates; a 0.25 percentage point decrease in the discount rate could increase the projected benefit obligation by approximately $292 million.\n\nOperational and external risks further complicate Honeywell’s financial outlook. Rising labor and material costs, particularly in the Aerospace and Performance Materials and Technologies segments, threaten profitability. While Honeywell uses the \"Honeywell Accelerator\" operating model and productivity actions to offset these pressures, supply chain disruptions and the inability of key suppliers to meet delivery requirements remain significant threats. Additionally, the company faces \"Contingent Liabilities\" from ongoing lawsuits, government investigations, and environmental regulations, such as potential PFAS legislation, which could impact future results of operations and cash flows.\n\n### References\n\n- [1] Honeywell International Inc. Document Title: HON.html",
+   "answer_length": 2922,
+   "context_length": 120709,
+   "context": {
+    "entities": 47,
+    "relations": 121,
+    "chunks": 10,
+    "rerank_candidates": 136,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Revenue Recognition And Contracts With Customers",
+     "Consolidated Statement Of Operations",
+     "Revenue From Contracts With Customers",
+     "Honeywell International Inc.",
+     "Sales Recognition On Long-Term Contracts",
+     "Long-Term Contracts",
+     "$5.3 Billion",
+     "Honeywell",
+     "$1,313 Million",
+     "Fair Value Measurements",
+     "Note 1",
+     "Financial Controls",
+     "Contract Assets",
+     "Deferred Tax Liabilities",
+     "Changes In Operating Assets And Liabilities"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4267,
+      "text": "5 ( 8 ) ( 3 ) Cash flow hedges recognized in other comprehensive income (loss) 60 71 17 Less: Reclassification adjustment for gains included in net income 49 56 20 Changes in fair value of cash flow hedges 11 15 ( 3 ) Other comprehensive income (loss), net of tax ( 665 ) ( 598 ) 482 Comprehensive income 5,007 4,369 6,092 Less: Comprehensive income (loss) attributable to the noncontrolling interest"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7105,
+      "text": "foreign currency exchange rates, antitrust regulations, employment regulations, foreign investment laws, import, export, and other trade restrictions (such as sanctions and embargoes), differing levels of protection of intellectual property, acts of industrial espionage, violations by our employees of anti-corruption laws (despite our efforts to mitigate such risk), changes in regulations regardin"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6374,
+      "text": ". 2023 Full-year revenue of $6,031 million 2023 Full-year revenue by business unit $3,583 million $2,448 million Products Building Solutions 5 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL PERFORMANCE MATERIALS AND TECHNOLOGIES Performance Materials and Technologies is a leading global provider in developing and manufacturing high-quality performance chemicals and materials, proce"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9782608695652174,
+    "answer_relevancy": 0.6532324869018324,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6579
+   }
+  }
+ }
+}

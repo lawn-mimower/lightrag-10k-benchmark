@@ -1,0 +1,435 @@
+{
+ "question_id": "d5641244",
+ "ticker": "BIIB",
+ "question": "Review of climate risk measures by Biogen, BIIB.",
+ "expected_answer": "The provided data indicates that Biogen has implemented a comprehensive approach to managing and mitigating climate-related risks within its Enterprise Risk Management (ERM) framework. Specifically:\n\n1. Integrated Climate Risk Assessment: The ERM framework is designed to ensure that climate-related risks and opportunities are incorporated into the overall business strategy. This involves monitoring strategic climate-related risks across all areas of the company.\n\n2. Use of Climate Scenarios: The ERM team employs climate scenarios to assess both physical and transitional risks, offering a forward-looking perspective on potential challenges.\n\n3. Evaluation Process: The ERM team evaluates identified risks by engaging leaders from across the company, ensuring that assessments are thorough and involve relevant stakeholders.\n\n4. Oversight and Review: The results of these assessments, along with the broader ESG strategy, are reviewed regularly. Specifically, the Board of Directors reviews the ESG strategy and its short-and long-term goals annually. Additionally, the Executive Committee is responsible for evaluating the impact of climate change and overseeing the actions taken to mitigate these risks.\n\nThrough these measures, Biogen’s ERM framework actively monitors and manages climate-related risks and opportunities, ensuring that they remain aligned with the company’s overall strategy and operational objectives.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1641,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:04:27.599676",
+   "duration_ms": 29631,
+   "answer": "Biogen Inc. manages climate-related risks through a comprehensive Environmental, Social, and Governance (ESG) strategy that is integrated into its broader business operations. The company’s Board of Directors and Executive Committee hold primary responsibility for evaluating the impact of climate change and overseeing actions to mitigate the company's adverse environmental footprint. This strategy is reviewed annually to ensure that environmental commitments remain aligned with business performance, supply chain challenges, and rising costs.\n\n### Risk Management Framework\nBiogen utilizes an **Enterprise Risk Management (ERM)** framework to identify and integrate climate-related risks and opportunities into its overall business strategy. The ERM team is responsible for monitoring strategic climate risks across all business segments, utilizing climate scenarios to assess potential vulnerabilities. Identified material risks are reported directly to the Executive Committee and the Board of Directors. The company categorizes these risks into two primary types:\n\n*   **Physical Risks:** These include losses arising from the direct physical impacts of climate change, such as damage to assets or loss of productivity caused by the increased frequency and intensity of storms, droughts, fires, and floods.\n*   **Transition Risks:** These involve financial impacts resulting from shifts in policy, technology, and market preferences. Examples include carbon pricing policies, the transition from fossil fuels to renewable energy, and potential regulatory changes that could disadvantage the use of specific materials like Per- and Polyfluoroalkyl Substances (PFAS).\n\n### Compliance with New Legislation\nThe company is currently preparing for increased transparency requirements mandated by new environmental disclosure laws. In October 2023, California enacted the **Climate Corporate Data Accountability Act (CCDAA)** and the **Climate-Related Financial Risk Act (CRFRA)**. Biogen expects to incur additional costs to implement and update existing controls to meet these mandates.\n\nBeginning in 2026, the CCDAA will require Biogen to disclose Scope 1 and Scope 2 Greenhouse Gas (GHG) emissions, with Scope 3 disclosures following in 2027. Simultaneously, the CRFRA will require biennial reports starting in January 2026, detailing the company's climate-related financial risks and the mitigation measures adopted to reduce them.\n\n### Operational and Financial Implications\nClimate change poses potential disruptions to Biogen’s supply chain and may shift customer expectations, particularly in the biosimilars market. The company acknowledges that failure to manage ESG matters effectively could negatively impact its reputation and business results. To drive accountability, Biogen ties a portion of compensation for its employees and executive officers to the advancement of its ESG efforts. While the company strives to comply with all environmental laws, it notes that future costs associated with remediation and compliance remain difficult to predict with total accuracy.\n\n### References\n\n* [1] BIOGEN INC. - December 31, 2023",
+   "answer_length": 3141,
+   "context_length": 109293,
+   "context": {
+    "entities": 60,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 61,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen Inc",
+     "Biogen Therapeutics Inc.",
+     "Biogen",
+     "Global Biogen Biosimilars Unit",
+     "Climate Change Risk Disclosures",
+     "2023 Environmental, Social And Governance Report",
+     "Biogen Idec Inc.",
+     "Biogen Inc Subsidiaries",
+     "Biotechnology Market Sentiment",
+     "Potential Milestones",
+     "Biogen MA Inc.",
+     "ESG (Environmental, Social, And Governance)",
+     "Biogen Inc. 2017 Omnibus Equity Plan",
+     "TCFD Report",
+     "Global Risk Intelligence"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4362,
+      "text": "3.1 to our Current Report on Form 8-K filed on December 12, 2023. 4.1 Second Supplemental Indenture, dated April 30, 2020, between Biogen Inc. and U.S. Bank National Association, including the forms of Global Notes attached as Exhibit A and Exhibit B, respectively, thereto. Filed as Exhibit 4.2 to our Current Report on Form 8-K filed on April 30, 2020. 4.2 Reference is made to Exhibit 3.1 for a de"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5770,
+      "text": "division head of Human Resources for Novartis Vaccines and Diagnostics, Novartis Consumer Health and Novartis Institutes of BioMedical Research and Novo Nordisk A/S, a pharmaceutical company, where she served as Senior Vice President, Corporate People & Organization at the company’s headquarters in Copenhagen, Denmark. Earlier in her career, Dr. Gregory held a variety of human resources generalist"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9803921568627451,
+    "answer_relevancy": 0.8054076985639537,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9464
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:05:04.339924",
+   "duration_ms": 36740,
+   "answer": "Biogen Inc. (BIIB) manages climate-related risks through a structured framework that identifies these risks as potential losses arising from both physical and transition factors. **Physical risks** refer to the direct damage to physical assets or impacts on their productivity caused by the increased frequency and intensity of environmental events such as storms, droughts, fires, and floods. **Transition risks** involve changes in policy, regulations, technology, and market preferences, such as carbon pricing or shifts from fossil fuels to renewable energy, which could alter the value of the company's assets and business model.\n\n### Governance and Risk Strategy\nThe company’s climate risk management is integrated into its broader Enterprise Risk Management (ERM) framework. The **ERM Team** is responsible for monitoring strategic climate risks across the business and utilizes climate scenarios to perform its assessments. This team engages leaders across the organization to evaluate identified physical and transitional risks. The findings are reported to the **Executive Committee**, which is responsible for evaluating climate change impacts and overseeing mitigation actions, and the **Board of Directors**, which reviews the company’s Environmental, Social, and Governance (ESG) strategy and goals annually.\n\n### Regulatory Compliance and Legislation\nBiogen is actively preparing for emerging regulatory requirements, particularly new environmental disclosure laws in California:\n*   **Climate Corporate Data Accountability Act (CCDAA):** Starting in 2026, Biogen will be required to disclose Scope 1 and Scope 2 greenhouse gas (GHG) emissions, with Scope 3 disclosures following in 2027.\n*   **Climate-Related Financial Risk Act (CRFRA):** This law requires the company to prepare biennial reports disclosing climate-related financial risks and the mitigation measures adopted to reduce them, with the first report due by January 1, 2026.\n\nThe company anticipates incurring additional costs to implement the controls, procedures, and third-party assurance necessary to comply with these acts.\n\n### Operational Integration\nTo advance its ESG efforts, Biogen has tied a portion of employee and executive officer compensation to progress in these areas. The company also reviews its environmental commitments in the context of rising costs and supply chain challenges. While Biogen strives to comply with all environmental laws and regulations, it acknowledges that an inability to meet the evolving expectations of investors, regulators, and society regarding ESG matters could negatively impact its reputation and business.\n\n### References\n\n- [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 2691,
+   "context_length": 73330,
+   "context": {
+    "entities": 41,
+    "relations": 60,
+    "chunks": 5,
+    "rerank_candidates": 110,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Climate Change Risks",
+     "Company",
+     "Climate Change",
+     "Global Insurance Industry",
+     "Risk Factor",
+     "Climate Change Regulations",
+     "Environmental Regulations",
+     "ERM Team",
+     "Climate-Related Risk",
+     "Financial And Operational Impact",
+     "Physical And Transition Risks",
+     "Operations",
+     "Resilience and Sustainability",
+     "Verisk Analytics",
+     "TCFD Report"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8874195015951333,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9719
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:05:14.974006",
+   "duration_ms": 10634,
+   "answer": "Biogen (BIIB) manages climate risk through a structured governance and oversight framework integrated into its long-term global strategy. The company’s Board of Directors and its Executive Committee are responsible for reviewing ESG strategy and overseeing actions to limit adverse environmental impacts. The Executive Committee specifically evaluates the impact of climate change on the business. Biogen utilizes an Enterprise Risk Management (ERM) framework to ensure that climate-related risks and opportunities are integrated into the overall business strategy. The ERM team monitors these risks across all business aspects using climate scenarios and identifies both physical and transitional risks by engaging leaders across the organization.\n\nThe company categorizes climate risk into two primary areas:\n*   **Physical Risk:** This includes the potential for loss arising from the direct impacts of climate change, such as the increased frequency and intensity of fires, floods, storms, and droughts, which can damage physical assets or impact their productivity.\n*   **Transition Risk:** This involves risks stemming from shifts in policy, regulations, technology, and market preferences. Specifically, Biogen monitors potential shifts in the regulatory environment regarding the use of fossil fuels, PFAS, or other materials, as well as changing customer expectations in the biosimilars market.\n\nTo drive accountability, Biogen ties a portion of its employees' and executive officers' compensation to the advancement of ESG efforts. The company also monitors its environmental commitments against business performance and supply chain challenges. While Biogen strives for compliance with environmental laws, it notes that such compliance is not currently expected to require significant capital expenditures or have a material adverse effect on its competitive position.\n\nFurthermore, Biogen is preparing for compliance with new California climate legislation. This includes the Climate Corporate Data Accountability Act (CCDAA), which will require disclosure of Scope 1 and 2 greenhouse gas (GHG) emissions starting in 2026 and Scope 3 emissions in 2027. Additionally, the company is preparing for the Climate-Related Financial Risk Act (CRFRA), which requires biennial reports disclosing climate-related financial risks and adopted mitigation measures starting in 2026. Biogen expects to incur additional costs to implement the controls, procedures, and third-party assurance required by these laws.\n\n### References\n\n* [1] BIOGEN INC.",
+   "answer_length": 2545,
+   "context_length": 18475,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 3,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5770,
+      "text": "division head of Human Resources for Novartis Vaccines and Diagnostics, Novartis Consumer Health and Novartis Institutes of BioMedical Research and Novo Nordisk A/S, a pharmaceutical company, where she served as Senior Vice President, Corporate People & Organization at the company’s headquarters in Copenhagen, Denmark. Earlier in her career, Dr. Gregory held a variety of human resources generalist"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.95,
+    "answer_relevancy": 0.8736652897658507,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9559
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:05:51.627861",
+   "duration_ms": 36654,
+   "answer": "Biogen Inc. manages climate-related risks through a structured **Enterprise Risk Management (ERM)** framework designed to integrate environmental challenges and opportunities into the company’s overall business strategy. The company categorizes climate risk into two primary areas: **physical risk** and **transition risk**. Physical risk involves direct damage to assets or loss of productivity caused by the increased frequency and intensity of environmental events such as storms, fires, and floods. Transition risk pertains to the financial impact of shifting policies, regulations, and market preferences, such as carbon pricing or movements away from fossil fuels, which could alter the value of the company’s assets or disrupt its supply chain.\n\n### Governance and Strategic Oversight\nThe **Executive Committee** holds the primary responsibility for evaluating the impact of climate change on Biogen's operations and overseeing actions to limit its environmental footprint. The **ERM team** supports this by monitoring strategic climate risks across all business segments and utilizing various climate scenarios as part of its assessment process. Identified material risks are reported to both the Executive Committee and the **Board of Directors**. Furthermore, Biogen has integrated its sustainability goals into its corporate culture by tying a portion of executive and employee compensation to the advancement of its **Environmental, Social, and Governance (ESG)** efforts.\n\n### Regulatory Compliance and Future Obligations\nBiogen is currently preparing for increased reporting obligations driven by new environmental legislation, specifically in California. The company expects to comply with the following:\n*   **Climate Corporate Data Accountability Act (CCDAA):** Beginning in 2026, Biogen will be required to publicly disclose Scope 1 and Scope 2 greenhouse gas (GHG) emissions, with Scope 3 disclosures following in 2027.\n*   **Climate-Related Financial Risk Act (CRFRA):** This law requires the preparation of biennial reports disclosing climate-related financial risks and the specific mitigation measures adopted to reduce them, with the first report due by January 1, 2026.\n\n### Operational Resilience\nBeyond regulatory compliance, Biogen reviews its environmental commitments in the context of rising costs and supply chain challenges. The company aims to ensure its operational systems are resilient to disruptions, such as changing customer expectations in the biosimilars market or potential regulatory shifts that might disadvantage the use of certain materials. While future costs for remediation and compliance are difficult to predict, Biogen currently does not expect environmental compliance to require significant capital expenditures that would materially adversely affect its competitive position.\n\n### References\n\n- [1] BIOGEN INC. Annual Report on Form 10-K for the year ended December 31, 2023",
+   "answer_length": 2930,
+   "context_length": 125879,
+   "context": {
+    "entities": 51,
+    "relations": 174,
+    "chunks": 10,
+    "rerank_candidates": 137,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen Inc",
+     "Climate Change Risks",
+     "Climate Change Risk Disclosures",
+     "Company",
+     "Biogen",
+     "Climate Change",
+     "Biogen Therapeutics Inc.",
+     "Global Insurance Industry",
+     "TCFD Report",
+     "Risk Factor",
+     "Climate-Related Disclosures",
+     "Climate Change Regulations",
+     "Global Biogen Biosimilars Unit",
+     "Environmental Regulations",
+     "Climate-Related Reporting Obligations"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4362,
+      "text": "3.1 to our Current Report on Form 8-K filed on December 12, 2023. 4.1 Second Supplemental Indenture, dated April 30, 2020, between Biogen Inc. and U.S. Bank National Association, including the forms of Global Notes attached as Exhibit A and Exhibit B, respectively, thereto. Filed as Exhibit 4.2 to our Current Report on Form 8-K filed on April 30, 2020. 4.2 Reference is made to Exhibit 3.1 for a de"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5770,
+      "text": "division head of Human Resources for Novartis Vaccines and Diagnostics, Novartis Consumer Health and Novartis Institutes of BioMedical Research and Novo Nordisk A/S, a pharmaceutical company, where she served as Senior Vice President, Corporate People & Organization at the company’s headquarters in Copenhagen, Denmark. Earlier in her career, Dr. Gregory held a variety of human resources generalist"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8027950345844834,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9507
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:06:29.481124",
+   "duration_ms": 37853,
+   "answer": "Biogen Inc. manages climate-related risks through a structured governance and Enterprise Risk Management (ERM) framework designed to integrate environmental concerns into its broader business strategy. The company’s Board of Directors conducts annual reviews of its Environmental, Social, and Governance (ESG) strategy and goals, while the Executive Committee is specifically responsible for evaluating the impact of climate change on the business. To ensure accountability, Biogen ties a portion of the compensation for its executive officers and employees to the advancement of its ESG efforts.\n\n### Risk Assessment and Management Framework\nThe company’s ERM team is tasked with monitoring strategic climate-related risks across all business operations. This team utilizes climate scenarios to evaluate both physical and transition risks. Physical risks involve direct damage to assets or loss of productivity due to the increased frequency of extreme weather events such as storms, floods, and fires. Transition risks include potential losses resulting from shifts in policy, technology, or market preferences, such as carbon pricing or regulatory changes that disadvantage fossil fuel usage.\n\nBiogen identifies specific vulnerabilities within its value chain, including potential supply chain disruptions and changing customer expectations in the biosimilars market. The ERM team reports identified material risks and opportunities to both the Executive Committee and the Board of Directors to coordinate mitigation measures. Additionally, the company fosters employee engagement in climate initiatives through its \"ourIMPACT\" Employee Resource Network, which focuses on advancing climate, health, and equity within the organization and the community.\n\n### Compliance with Evolving Regulations\nBiogen is actively preparing for increased regulatory requirements, particularly those emerging from California's 2023 environmental disclosure laws. The company expects to comply with the Climate Corporate Data Accountability Act (CCDAA) and the Climate-Related Financial Risk Act (CRFRA). Under these mandates:\n*   **CCDAA:** Starting in 2026, Biogen will be required to disclose Scope 1 and Scope 2 greenhouse gas (GHG) emissions, with Scope 3 disclosures beginning in 2027.\n*   **CRFRA:** By January 1, 2026, the company must begin preparing biennial reports detailing its climate-related financial risks and the mitigation strategies it has adopted.\n\nWhile Biogen anticipates incurring additional costs related to implementing data collection controls and securing third-party assurance for these disclosures, it does not currently expect environmental compliance to have a material adverse effect on its overall operations or competitive position.\n\n### References\n\n* [1] BIOGEN INC. Annual Report on Form 10-K for the year ended December 31, 2023",
+   "answer_length": 2850,
+   "context_length": 123439,
+   "context": {
+    "entities": 50,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 140,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Biogen Inc",
+     "Climate Change Risks",
+     "Biogen Therapeutics Inc.",
+     "Company",
+     "Biogen",
+     "Climate Change",
+     "Climate Change Risk Disclosures",
+     "Global Insurance Industry",
+     "Global Biogen Biosimilars Unit",
+     "Risk Factor",
+     "2023 Environmental, Social And Governance Report",
+     "Climate Change Regulations",
+     "Potential Milestones",
+     "Environmental Regulations",
+     "Biogen Idec Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6242,
+      "text": "leaders to increase influence and impact. • Executive Leadership Retreat: Immersing leaders in topics designed to help them shape culture and build resilience. • The Partnership, Inc's BioDiversity Fellows Program: To continue to bolster our talent pipeline with a diverse mix of leaders, high potential, mid-career, underrepresented minorities participate in this program, which we helped create. • "
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4362,
+      "text": "3.1 to our Current Report on Form 8-K filed on December 12, 2023. 4.1 Second Supplemental Indenture, dated April 30, 2020, between Biogen Inc. and U.S. Bank National Association, including the forms of Global Notes attached as Exhibit A and Exhibit B, respectively, thereto. Filed as Exhibit 4.2 to our Current Report on Form 8-K filed on April 30, 2020. 4.2 Reference is made to Exhibit 3.1 for a de"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6804,
+      "text": ". This plan includes the strategy to build our talent and strengthen our leadership, improve health outcomes for underserved communities in the disease areas we treat and contribute to the communities impacting our employees and patients. We plan to create greater awareness and capability in our organization through leadership accountability and transparency. We are honored to be recognized as an "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.799442312861418,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9499
+   }
+  }
+ }
+}

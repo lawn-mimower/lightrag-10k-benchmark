@@ -1,0 +1,453 @@
+{
+ "question_id": "38758f5a",
+ "ticker": "MSI",
+ "question": "Q4-23 avg price for share repurchase volume was reported for Motorola Solutions (MSI).",
+ "expected_answer": "The company repurchased a total of 416,045 shares during the quarter ended December 31, 2023. This figure is the sum of the shares repurchased in each period (250,781 shares from 09/30/2023 to 10/25/2023, 113,878 shares from 10/26/2023 to 11/20/2023, and 51,386 shares from 11/21/2023 to 12/27/2023). The overall average price per share paid was $282.14, as reported in the Total row of the table.",
+ "category": "Shareholder return",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1759,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:54:21.255755",
+   "duration_ms": 16024,
+   "answer": "For the fourth quarter ended December 31, 2023 (Q4 2023), Motorola Solutions (MSI) reported a total share repurchase volume of 416,045 shares at an overall **average price of $282.14** per share. These repurchases were part of the company's publicly announced share repurchase program, which had its authorized amount increased by $2.0 billion in November 2023.\n\nThe average price paid per share fluctuated across different periods within the fourth quarter:\n*   **September 30 to October 25, 2023:** 250,781 shares were purchased at an average price of **$278.61**.\n*   **October 26 to November 20, 2023:** 113,878 shares were purchased at an average price of **$276.74**.\n*   **November 21 to December 27, 2023:** 51,386 shares were purchased at an average price of **$311.34**.\n\nAs of December 31, 2023, the company had utilized approximately $15.5 billion of its $18.0 billion total repurchase authority since the program's inception in 2011. The reported average prices for these transactions exclude broker commissions and the 1% excise tax enacted by the Inflation Reduction Act of 2022.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. December 31, 2023",
+   "answer_length": 1160,
+   "context_length": 109358,
+   "context": {
+    "entities": 60,
+    "relations": 172,
+    "chunks": 10,
+    "rerank_candidates": 34,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Motorola Solutions Inc.",
+     "Motorola Inc",
+     "Motorola Marks Modifications",
+     "Products and Systems Integration",
+     "Motorola Solutions UK Ltd.",
+     "Motorola Mobility Holdings, Inc.",
+     "Software and Services",
+     "Motorola Solutions, Inc. Amended and Restated Bylaws",
+     "Motorola Solutions, Inc. Restated Certificate of Incorporation",
+     "Motorola Mobility, Inc.",
+     "Motorola Solutions Inc",
+     "Command Center Software And Services",
+     "LMR Communications Products",
+     "Motorola Solutions Code of Business Conduct",
+     "Motorola Trademark Holdings, LLC (MTH)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6175,
+      "text": "identify patterns and accelerate investigations, and corrections officers who oversee jail and inmate management. Additionally, to help ensure that individuals within the public safety workflow can work as efficiently, effectively and safely as possible, we believe it’s important that individuals within enterprise settings and communities can communicate and collaborate directly with public safety"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8545510362890356,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9636
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:54:42.238568",
+   "duration_ms": 20983,
+   "answer": "For the fourth quarter of 2023, Motorola Solutions (MSI) reported an average price paid per share of **$282.14** for its common stock repurchases. During this three-month period ending December 31, 2023, the company repurchased a total of **416,045 shares** as part of its publicly announced share repurchase program.\n\nThe share repurchase activity for the quarter was broken down into the following periods:\n*   **September 30 to October 25, 2023:** 250,781 shares were purchased at an average price of $278.61.\n*   **October 26 to November 20, 2023:** 113,878 shares were purchased at an average price of $276.74.\n*   **November 21 to December 27, 2023:** 51,386 shares were purchased at an average price of $311.34.\n\nThe average prices reported exclude broker commissions and the 1% excise tax enacted by the Inflation Reduction Act of 2022. For the full fiscal year 2023, Motorola Solutions repurchased 2.9 million shares at an average price of $278.56, representing a total expenditure of $804 million.\n\nAs of December 31, 2023, the company had used approximately $15.5 billion of its total $18.0 billion board-authorized capacity for share repurchases. This authorization was increased by $2.0 billion in November 2023, leaving approximately $2.5 billion available for future repurchases. The program does not have a set expiration date and is funded through available cash, investments, and debt facilities.\n\n### References\n\n- [1] MOTOROLA SOLUTIONS, INC.",
+   "answer_length": 1462,
+   "context_length": 88087,
+   "context": {
+    "entities": 21,
+    "relations": 60,
+    "chunks": 8,
+    "rerank_candidates": 69,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Fourth Quarter Of 2023",
+     "Share Repurchase Program",
+     "2020 Share Repurchase Program",
+     "Repurchase Of Common Stock",
+     "Results Of Operations",
+     "Share Repurchase Programs",
+     "Share Repurchase Plan",
+     "Verisk",
+     "Biogen Inc.",
+     "Honeywell",
+     "December 31, 2023",
+     "Honeywell International Inc.",
+     "Open Market Transactions",
+     "Motorola Solutions",
+     "Publicly Announced Share Repurchase Plans"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6329,
+      "text": "Part 1. Item 1A. Risk Factors\" of this Form 10-K for a discussion of the risks and uncertainties associated with the CMA's remedies order. 7 Recent Acquisitions Technology Segment Acquisition Description Purchase Price Date of Acquisition Video Security and Access Control Products and Systems Integration IPVideo Corporation Creator of a multifunctional safety and security device. $170 million and "
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4224,
+      "text": "OLDERS’ EQUITY (DEFICIT) Current portion of long-term debt $ 1,313 $ 1 Accounts payable 881 1,062 Contract liabilities 2,037 1,859 Accrued liabilities 1,504 1,638 Current liabilities held for disposition 1 — Total current liabilities 5,736 4,560 Long-term debt 4,705 6,013 Operating lease liabilities 407 419 Other liabilities 1,741 1,691 Non-current liabilities held for disposition 8 — Preferred st"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5293,
+      "text": "graph below include both the prior and the new indices of peer companies. The new peer issuers used for this graph are Black Knight, Inc., Nasdaq Inc., CoStar Group Inc., Equifax Inc., Fair Isaac Corp., Gartner, Inc., Global Payments, Inc., Clarivate PLC, Intercontinental Exchange, Inc., Jack Henry & Associates Inc., Moody’s Corporation, MSCI Inc., S&P Global, and TransUnion. The old peer issuers "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.8244136417534609,
+    "context_recall": 1.0,
+    "context_precision": null,
+    "ragas_score": 0.8998
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:55:23.903041",
+   "duration_ms": 41664,
+   "answer": "Based on the provided documents, there is no specific information regarding the average price for share repurchases for Motorola Solutions (MSI) during the **fourth quarter of 2023 (Q4-23)**. The context only provides a summary of share repurchase activity for the full fiscal years.\n\nFor the full year ended December 31, 2023, Motorola Solutions reported the following share repurchase data:\n*   **Shares Repurchased:** 2.9 million\n*   **Average Price Paid per Share:** $278.56\n*   **Total Amount:** $804 million\n\nAs of December 31, 2023, Motorola Solutions had used approximately $15.5 billion of its authorized share repurchase authority, leaving approximately $2.5 billion available for future repurchases. The company's board of directors increased the authorized amount by $2.0 billion in November 2023, bringing the aggregate authorized amount to $18.0 billion.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC.",
+   "answer_length": 916,
+   "context_length": 18062,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 3,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "VRSK"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5293,
+      "text": "graph below include both the prior and the new indices of peer companies. The new peer issuers used for this graph are Black Knight, Inc., Nasdaq Inc., CoStar Group Inc., Equifax Inc., Fair Isaac Corp., Gartner, Inc., Global Payments, Inc., Clarivate PLC, Intercontinental Exchange, Inc., Jack Henry & Associates Inc., Moody’s Corporation, MSCI Inc., S&P Global, and TransUnion. The old peer issuers "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.2
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:56:06.935124",
+   "duration_ms": 43032,
+   "answer": "Motorola Solutions (MSI) reported that for the fourth quarter of 2023, specifically for the period ending December 31, 2023, the average price paid per share for its share repurchase volume was **$282.14**. This figure represents the total average price for 416,045 shares repurchased during that quarter as part of its publicly announced plans or programs. The average price excludes commissions paid to brokers and excise taxes.\n\nThe share repurchase activity for the fourth quarter was executed in the following monthly increments:\n*   **September 30 to October 25, 2023:** 250,781 shares were repurchased at an average price of $278.61.\n*   **October 26 to November 20, 2023:** 113,878 shares were repurchased at an average price of $276.74.\n*   **November 21 to December 27, 2023:** 51,386 shares were repurchased at an average price of $311.34.\n\nAs of December 31, 2023, Motorola Solutions has a board-authorized share repurchase program with a cumulative limit of up to $18.0 billion and no expiration date. This authorization was increased by $2.0 billion in November 2023. At the end of the fourth quarter of 2023, the company had utilized approximately $15.5 billion of this authority, leaving approximately $2.5 billion remaining for future repurchases.\n\nIn the broader context of the full 2023 fiscal year, Motorola Solutions repurchased a total of 2.9 million shares at an average price of $278.56, representing a total expenditure of $804 million. This was a decrease from 2022, when the company spent $836 million to repurchase 3.7 million shares at an average price of $225.00.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC.",
+   "answer_length": 1641,
+   "context_length": 121499,
+   "context": {
+    "entities": 35,
+    "relations": 165,
+    "chunks": 10,
+    "rerank_candidates": 114,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Motorola Solutions Inc.",
+     "Fourth Quarter Of 2023",
+     "Motorola Inc",
+     "Share Repurchase Program",
+     "Motorola Marks Modifications",
+     "2020 Share Repurchase Program",
+     "Products and Systems Integration",
+     "Repurchase Of Common Stock",
+     "Motorola Solutions UK Ltd.",
+     "Results Of Operations",
+     "Motorola Mobility Holdings, Inc.",
+     "Share Repurchase Programs",
+     "Software and Services",
+     "Share Repurchase Plan",
+     "Motorola Solutions, Inc. Amended and Restated Bylaws"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7778615891990612,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9445
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:56:26.762701",
+   "duration_ms": 19828,
+   "answer": "During the fourth quarter of 2023, Motorola Solutions (MSI) repurchased a total of **416,045 shares** of its common stock under its publicly announced share repurchase program. The average price paid per share for these transactions was **$282.14**, excluding commissions and excise taxes.\n\nThe repurchases during the quarter were executed in three distinct periods:\n*   **September 30 to October 25:** 250,781 shares were purchased at an average price of $278.61.\n*   **October 26 to November 20:** 113,878 shares were purchased at an average price of $276.74.\n*   **November 21 to December 27:** 51,386 shares were purchased at an average price of $311.34.\n\nAs of January 1, 2023, the company’s share repurchases in excess of issuances became subject to a 1% excise tax under the Inflation Reduction Act of 2022. For the full year of 2023, Motorola Solutions repurchased approximately 2.9 million shares at an average price of $278.56, totaling $804 million.\n\nThe company's Board of Directors has authorized a cumulative share repurchase amount of up to **$18.0 billion**, which includes a $2.0 billion increase approved during the fourth quarter of 2023. As of December 31, 2023, Motorola Solutions had utilized approximately $15.5 billion of this authority, leaving roughly **$2.5 billion** available for future repurchases. The program does not have a fixed expiration date.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. December 31, 2023",
+   "answer_length": 1445,
+   "context_length": 121499,
+   "context": {
+    "entities": 35,
+    "relations": 165,
+    "chunks": 10,
+    "rerank_candidates": 117,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Motorola Solutions Inc.",
+     "Fourth Quarter Of 2023",
+     "Motorola Inc",
+     "Share Repurchase Program",
+     "Motorola Marks Modifications",
+     "2020 Share Repurchase Program",
+     "Products and Systems Integration",
+     "Repurchase Of Common Stock",
+     "Motorola Solutions UK Ltd.",
+     "Results Of Operations",
+     "Motorola Mobility Holdings, Inc.",
+     "Share Repurchase Programs",
+     "Software and Services",
+     "Share Repurchase Plan",
+     "Motorola Solutions, Inc. Amended and Restated Bylaws"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4647,
+      "text": ".7 % 286 3.5 % Operating earnings 2,294 23.0 % 1,661 18.2 % 1,667 20.4 % Other income (expense): Interest expense, net (216) (2.2) % (226) (2.5) % (208) (2.5) % Gains on sales of investments and businesses, net — — % 3 — % 1 — % Other, net 68 0.7 % 77 0.8 % 92 1.1 % Total other expense (148) (1.5) % (146) (1.6) % (115) (1.4) % Net earnings before income taxes 2,146 21.5 % 1,515 16.6 % 1,552 19.0 %"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6862,
+      "text": "and marketed. Based on growing demands for broadband, regulators continue to consider repurposing narrowband spectrum to broadband. Telecommunications Regulations Certain of our offerings include telecommunications or other communications services that are or may be subject to regulation in various federal, state, and international jurisdictions. For example, we are a provider of selective routing"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7383829620866207,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9346
+   }
+  }
+ }
+}

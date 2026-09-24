@@ -1,0 +1,319 @@
+{
+ "question_id": "2e52d788",
+ "ticker": "HAS",
+ "question": "board committees - ESG & brand strategy impact on shareholder value - HAS",
+ "expected_answer": "The provided data clearly explains how Hasbro’s board committees support transparency and the successful execution of both ESG priorities and cross-platform brand activation. Specifically, the Governance Committee is tasked with reviewing and making recommendations on ESG issues such as climate, human rights, and Diversity, Equity and Inclusion (DE&I) – ensuring that such performance metrics are closely monitored. The Audit Committee plays a critical role in overseeing SEC and public disclosures, which includes areas like sustainability and conflict minerals. This ensures that the company remains transparent and accountable in its external reporting. Additionally, the Compensation Committee incorporates ESG performance into executive compensation decisions, further aligning leadership incentives with the company’s strategic priorities. Collectively, these board committees help ensure that strategic decisions—ranging from ESG initiatives to the activation of Hasbro’s multi-platform brand strategy—are not only efficiently executed but also that the outcomes, such as enhanced operational performance and sustainable growth, contribute to long-term shareholder value. This governance structure facilitates appropriate risk management and reinforces a commitment to both transparency and strategic alignment, ultimately supporting the company’s mission and financial success.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 2,
+ "finder_reference_chars": 15888,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:11:11.406402",
+   "duration_ms": 22640,
+   "answer": "At Hasbro, Inc., Environment, Social, and Governance (ESG) governance is a multi-layered structure led by the Board of Directors, which receives regular updates on the company's progress. Primary oversight is handled by the **Nominating, Governance and Social Responsibility Committee** (the \"Governance Committee\"), which reviews topics such as climate, environment, human rights, and Diversity, Equity, and Inclusion (DE&I). Other board committees play specialized roles: the **Audit Committee** oversees public disclosures related to climate, sustainability, and conflict minerals, while the **Compensation Committee** considers ESG performance when determining the performance and compensation of senior executives.\n\nAt the management level, the **ESG Committee**, comprised of the Executive Leadership Team (ELT) and the global corporate sustainability team, meets several times a year to manage the company's ESG strategy and ensure its integration across the organization and supply chain. Additionally, a **DE&I Steering Committee**, chaired by the CEO and Chief People Officer, is responsible for setting and reviewing the company's DE&I strategy. The execution of this strategy is presented to the Board at least annually by the Senior Vice President of DE&I and Purpose.\n\nHasbro views ESG as a critical framework for translating the company's purpose into action and delivering sustainable, long-term value for both the company and its stakeholders. The company maintains that strong ESG performance is a direct driver of long-term value creation. Specifically, ESG is treated as a strategic priority that links DE&I initiatives directly to business success and brand growth. By integrating these factors into the business strategy, Hasbro aims to foster an inclusive culture that enhances its ability to build impactful brands and expand its leadership in the entertainment and play industries.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023",
+   "answer_length": 1960,
+   "context_length": 62537,
+   "context": {
+    "entities": 60,
+    "relations": 89,
+    "chunks": 4,
+    "rerank_candidates": 48,
+    "chunk_tickers": [
+     "HAS",
+     "CTAS",
+     "HAS",
+     "MSI"
+    ],
+    "entity_names": [
+     "ESG (Environmental, Social, And Governance)",
+     "Environmental, Social And Governance",
+     "Environmental, Social, And Governance (ESG) Factors",
+     "ESG Strategy",
+     "Environmental, Social, And Governance (ESG) Practices",
+     "Environmental, Social, and Governance (ESG) Matters",
+     "Environmental, Social, And Governance (ESG) Matters",
+     "ESG Practices",
+     "ESG Excellence",
+     "ESG And Sustainability Practices",
+     "Environmental, Social, and Governance (ESG) Opportunities",
+     "ESG Report",
+     "Environmental, Social, And Governance (ESG)",
+     "ESG Matters",
+     "Social Responsibility"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 7081,
+      "text": ", although certain products also use electronic components. All of these materials are readily available but may be subject to significant fluctuations in price. There are certain chemicals (including phthalates and BPA) that national, state and local governments have restricted or are seeking to restrict or limit the use of; however, we do not believe these restrictions have or will materially im"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6446,
+      "text": "communities and our planet include: Focus Area: Climate and Sustainability Carbon Reduction: • We recognize the impact our business can have on the environment and are working to reduce our footprint. We view sustainability challenges as opportunities to innovate and to continuously improve our product design and operational efficiencies. We believe the long-term viability of our operations and ou"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6815,
+      "text": "to publicly disclose, as we have disclosed in the past, that we are not currently able to determine if the products we manufactured are DRC conflict-free, which could harm our reputation. Once a business activity is outsourced we may be contractually prohibited from or may not practically be able to bring such activity back within the Company or move it to another outsource partner. The actions of"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7369621063418429,
+    "context_recall": 0.8571428571428571,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8985
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:11:40.482440",
+   "duration_ms": 29076,
+   "answer": "At Hasbro, Inc., corporate governance and strategic initiatives are heavily integrated with Environmental, Social, and Governance (ESG) principles, which the company believes are essential for driving long-term value for both the business and its stakeholders.\n\n### Board Committee Oversight\nThe **Board of Directors** maintains primary oversight of Hasbro’s ESG performance, with specific responsibilities delegated to three key committees:\n*   **Nominating, Governance and Social Responsibility Committee (Governance Committee):** This committee provides specific oversight of ESG topics, including climate and environment, human rights, and Diversity, Equity, and Inclusion (DE&I). It analyzes these issues and provides recommendations to the full Board.\n*   **Audit Committee:** This committee is responsible for overseeing public and SEC disclosures related to specific ESG risks, such as conflict minerals, climate, sustainability, and broader enterprise risk management.\n*   **Compensation Committee:** This committee integrates ESG performance and priorities into the determination of performance-based compensation for senior executives.\n\nIn addition to Board-level oversight, management-level committees such as the **ESG Committee** (comprised of the Executive Leadership Team and the global corporate sustainability team) and the **DE&I Steering Committee** ensure the integration of these strategies throughout the organization’s supply chain and operations.\n\n### Brand Strategy and ESG Integration\nHasbro views ESG as a framework for translating its corporate purpose into action. The company integrates ESG across its business segments—Consumer Products, Wizards of the Coast and Digital Gaming, and Entertainment—to deliver sustainable value. Brand-driven storytelling and product experiences are central to Hasbro’s competitive strategy. The company aims to leverage its inclusive culture to build impactful brands and expand its leadership in play and entertainment. For example, its human rights and ethical sourcing programs, which have been in place for over 30 years, are designed to ensure that the facilities producing its toys and games meet high ethical standards, thereby protecting the integrity of its brand portfolio.\n\n### Impact on Shareholder Value\nHasbro explicitly states that strong ESG performance is a driver of long-term value creation. Failure to meet ESG aspirations or evolving stakeholder expectations can have direct negative financial consequences, including:\n*   **Reputational Damage:** Perceived failures in environmental stewardship or social responsibility can lead to adverse publicity and a loss of customer or investor confidence.\n*   **Investor Divestment:** Institutional investors and advocacy groups increasingly scrutinize ESG practices. If they are unsatisfied with Hasbro's progress, they may reconsider their investments, which could adversely impact the share price and demand for the company’s securities.\n*   **Operational Risks:** Regulatory changes related to climate change and greenhouse gas (GHG) emissions may result in increased production costs or additional taxes.\n\nTo further support shareholder value, the Board manages capital allocation through dividends and share repurchases. In May 2018, the Board authorized a **$500 million share repurchase program**, of which $241.6 million remained available as of December 31, 2023. These repurchases are used to offset dilution from equity compensation and are executed when management believes they represent a good use of cash.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023\n* [3] MOTOROLA SOLUTIONS, INC. December 31, 2023",
+   "answer_length": 3651,
+   "context_length": 78841,
+   "context": {
+    "entities": 30,
+    "relations": 60,
+    "chunks": 5,
+    "rerank_candidates": 99,
+    "chunk_tickers": [
+     "HAS",
+     "CTAS",
+     "HAS",
+     "HAS",
+     "MSI"
+    ],
+    "entity_names": [
+     "ESG Matters",
+     "Social Responsibility",
+     "Management",
+     "The Company",
+     "Board Of Directors",
+     "Human Capital Management",
+     "Share Repurchase Programs",
+     "Verisk",
+     "Board of Directors",
+     "Company",
+     "ESG Strategy",
+     "Stakeholders",
+     "Climate Change",
+     "Environmental, Social, And Governance (ESG)",
+     "Environmental Stewardship"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 7081,
+      "text": ", although certain products also use electronic components. All of these materials are readily available but may be subject to significant fluctuations in price. There are certain chemicals (including phthalates and BPA) that national, state and local governments have restricted or are seeking to restrict or limit the use of; however, we do not believe these restrictions have or will materially im"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6446,
+      "text": "communities and our planet include: Focus Area: Climate and Sustainability Carbon Reduction: • We recognize the impact our business can have on the environment and are working to reduce our footprint. We view sustainability challenges as opportunities to innovate and to continuously improve our product design and operational efficiencies. We believe the long-term viability of our operations and ou"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6815,
+      "text": "to publicly disclose, as we have disclosed in the past, that we are not currently able to determine if the products we manufactured are DRC conflict-free, which could harm our reputation. Once a business activity is outsourced we may be contractually prohibited from or may not practically be able to bring such activity back within the Company or move it to another outsource partner. The actions of"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7521379998200807,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8666
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:11:51.023583",
+   "duration_ms": 10541,
+   "answer": "I do not have enough information to answer this query. The provided context does not contain any document chunks or reference materials related to Hasbro's (HAS) board committees, ESG initiatives, brand strategy, or their impact on shareholder value.",
+   "answer_length": 250,
+   "context_length": 233,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 0,
+    "rerank_candidates": 10,
+    "chunk_tickers": [],
+    "entity_names": [],
+    "chunk_excerpts": []
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:12:21.948054",
+   "duration_ms": 30924,
+   "answer": "Hasbro, Inc. (HAS) integrates Environmental, Social, and Governance (ESG) principles into its core business strategy, viewing strong ESG performance as a primary driver of long-term value creation for the company and its stakeholders. The company utilizes a framework to translate its corporate purpose into action, aiming to deliver sustainable value while making a positive impact on employees, consumers, and investors.\n\n### Board Committee Oversight\nThe Board of Directors at Hasbro maintains oversight of ESG topics through three specific committees:\n*   **Nominating, Governance and Social Responsibility Committee (Governance Committee):** This committee provides specific oversight for ESG governance. It regularly analyzes issues such as climate and environment, human rights, and Diversity, Equity and Inclusion (DE&I), subsequently making recommendations to the full Board.\n*   **Audit Committee:** This committee is responsible for overseeing public and SEC disclosures. Its focus includes specific areas such as climate, sustainability, enterprise risk, and conflict minerals.\n*   **Compensation Committee:** The Board utilizes this committee to integrate ESG performance and priorities into the determination of performance and compensation for senior executives.\n\n### Management-Level Governance\nBeyond Board-level oversight, Hasbro's Executive Leadership Team (ELT) and CEO regularly review ESG progress and opportunities. The **ESG Committee**, which comprises the ELT and members of the global corporate sustainability team, meets several times a year to manage the company's ESG strategy and ensure its integration throughout the organization and the supply chain. Additionally, a **DE&I Steering Committee**, chaired by the CEO and Chief People Officer, is responsible for setting and reviewing the company's diversity strategy and performance.\n\n### Impact on Shareholder Value and Brand Strategy\nESG is considered a strategic priority that links DE&I to business success and brand growth. Hasbro's brand strategy relies on \"brand-driven storytelling\" to compete for consumer attention and spending. Maintaining a strong brand reputation is critical, as failure to meet ESG standards or satisfy reporting requirements can result in reputational harm and a loss of stakeholder trust.\n\nFurthermore, shareholder value is directly influenced by ESG perceptions. Increasing scrutiny from investors and institutional advocacy groups means that dissatisfaction with a company’s ESG practices can lead to divestment or a reconsideration of investment. Perceived failures in meeting ESG aspirations or targets—such as the goal to achieve Net Zero greenhouse gas emissions by 2050—can adversely affect the company's share price and the demand for its securities.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023\n* [2] Cintas Corporation May 31, 2024",
+   "answer_length": 2864,
+   "context_length": 91836,
+   "context": {
+    "entities": 43,
+    "relations": 120,
+    "chunks": 5,
+    "rerank_candidates": 137,
+    "chunk_tickers": [
+     "HAS",
+     "CTAS",
+     "HAS",
+     "HAS",
+     "MSI"
+    ],
+    "entity_names": [
+     "ESG (Environmental, Social, And Governance)",
+     "ESG Matters",
+     "ESG Strategy",
+     "Social Responsibility",
+     "Environmental, Social And Governance",
+     "Management",
+     "Environmental, Social, and Governance (ESG) Matters",
+     "The Company",
+     "Environmental, Social, And Governance (ESG) Factors",
+     "Board Of Directors",
+     "Environmental, Social, And Governance (ESG) Practices",
+     "Human Capital Management",
+     "Environmental, Social, And Governance (ESG) Matters",
+     "Share Repurchase Programs",
+     "Environmental, Social, and Governance (ESG) Opportunities"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 7081,
+      "text": ", although certain products also use electronic components. All of these materials are readily available but may be subject to significant fluctuations in price. There are certain chemicals (including phthalates and BPA) that national, state and local governments have restricted or are seeking to restrict or limit the use of; however, we do not believe these restrictions have or will materially im"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6446,
+      "text": "communities and our planet include: Focus Area: Climate and Sustainability Carbon Reduction: • We recognize the impact our business can have on the environment and are working to reduce our footprint. We view sustainability challenges as opportunities to innovate and to continuously improve our product design and operational efficiencies. We believe the long-term viability of our operations and ou"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6815,
+      "text": "to publicly disclose, as we have disclosed in the past, that we are not currently able to determine if the products we manufactured are DRC conflict-free, which could harm our reputation. Once a business activity is outsourced we may be contractually prohibited from or may not practically be able to bring such activity back within the Company or move it to another outsource partner. The actions of"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.967741935483871,
+    "answer_relevancy": 0.741958323968419,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.856
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:12:57.833997",
+   "duration_ms": 35886,
+   "answer": "At Hasbro, Inc. (HAS), the Board of Directors and its specialized committees are responsible for overseeing the integration of Environmental, Social, and Governance (ESG) performance and brand strategy to drive long-term shareholder value. The company views ESG as a strategic framework that translates its corporate purpose into sustainable value for stakeholders.\n\n### Board Committee Oversight of ESG\nThe Board of Directors maintains ultimate responsibility for ESG, with specific oversight duties delegated to several key committees:\n*   **Nominating, Governance and Social Responsibility Committee (Governance Committee):** This committee has primary oversight of ESG focus areas, including climate change, environmental sustainability, human rights, and Diversity, Equity, and Inclusion (DE&I). It analyzes these topics during regular meetings and provides recommendations to the full Board.\n*   **Audit Committee:** This committee oversees public and SEC-related disclosures regarding sustainability, climate, enterprise risk, and conflict minerals.\n*   **Compensation Committee:** To align leadership incentives with corporate responsibility, this committee considers ESG performance and priorities when determining compensation for senior executives.\n\n### Management and Strategic Integration\nBeyond board-level governance, the **Executive Leadership Team (ELT)** and a dedicated **ESG Committee** manage the company's daily ESG strategy. The ESG Committee, which includes members of the ELT and the global corporate sustainability team, ensures that ESG goals—such as carbon reduction and ethical sourcing—are integrated throughout the organization and the supply chain. For example, Hasbro has set science-based targets (SBTi) to reduce greenhouse gas emissions by 2030 and reach net-zero by 2050.\n\n### Brand Strategy and Shareholder Value\nHasbro’s brand strategy is centered on \"brand-driven storytelling\" and creating immersive play experiences to compete for consumer attention and spending. The company believes that strong ESG performance supports this strategy by enhancing brand reputation and meeting the evolving preferences of consumers and investors.\n\nTo directly impact shareholder value, the Board of Directors manages capital allocation through dividends and share repurchases. In February 2024, the Board declared a quarterly dividend of $0.70 per share. Additionally, the Board previously authorized a $500 million share repurchase program to offset dilution from equity compensation; as of December 31, 2023, approximately $241.6 million remained available under this authorization. However, management notes that failure to meet ESG expectations or reporting standards could result in reputational damage, loss of investor confidence, and a negative impact on the company's share price.\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023\n* [2] Cintas Corporation May 31, 2024\n* [3] MOTOROLA SOLUTIONS, INC. December 31, 2023",
+   "answer_length": 2956,
+   "context_length": 91262,
+   "context": {
+    "entities": 43,
+    "relations": 123,
+    "chunks": 5,
+    "rerank_candidates": 140,
+    "chunk_tickers": [
+     "HAS",
+     "CTAS",
+     "HAS",
+     "HAS",
+     "MSI"
+    ],
+    "entity_names": [
+     "ESG (Environmental, Social, And Governance)",
+     "ESG Matters",
+     "Environmental, Social And Governance",
+     "Social Responsibility",
+     "Environmental, Social, and Governance (ESG) Matters",
+     "Board Of Directors",
+     "ESG Strategy",
+     "Share Repurchase Programs",
+     "Environmental, Social, And Governance (ESG) Factors",
+     "Board of Directors",
+     "ESG Practices",
+     "Company",
+     "Environmental, Social, And Governance (ESG) Practices",
+     "Human Capital Management",
+     "ESG Excellence"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 7081,
+      "text": ", although certain products also use electronic components. All of these materials are readily available but may be subject to significant fluctuations in price. There are certain chemicals (including phthalates and BPA) that national, state and local governments have restricted or are seeking to restrict or limit the use of; however, we do not believe these restrictions have or will materially im"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 7140,
+      "text": "with acquisitions, we can give no assurance that locations that have been acquired or leased have been operated in compliance with environmental laws and regulations during prior periods or that future uses or conditions will not make us liable under these laws or expose us to third-party actions, including tort suits. Increased global focus on climate change may result in the imposition of new or"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6446,
+      "text": "communities and our planet include: Focus Area: Climate and Sustainability Carbon Reduction: • We recognize the impact our business can have on the environment and are working to reduce our footprint. We view sustainability challenges as opportunities to innovate and to continuously improve our product design and operational efficiencies. We believe the long-term viability of our operations and ou"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6815,
+      "text": "to publicly disclose, as we have disclosed in the past, that we are not currently able to determine if the products we manufactured are DRC conflict-free, which could harm our reputation. Once a business activity is outsourced we may be contractually prohibited from or may not practically be able to bring such activity back within the Company or move it to another outsource partner. The actions of"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9487179487179487,
+    "answer_relevancy": 0.8012723243058169,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8661
+   }
+  }
+ }
+}

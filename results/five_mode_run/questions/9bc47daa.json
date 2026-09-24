@@ -1,0 +1,429 @@
+{
+ "question_id": "9bc47daa",
+ "ticker": "CTAS",
+ "question": "Cintas Corp (CTAS) net rev presentation & its influence on op margins.",
+ "expected_answer": "By presenting revenue net of sales and other taxes, Cintas Corporation ensures that the revenue figures reflect only amounts that are truly attributable to its core operations. This treatment excludes any pass‐through amounts (such as taxes collected on behalf of governmental authorities) that aren’t part of the company’s economic performance. Consequently, when analyzing operating margins and overall profitability, analysts are considering revenue that directly reflects the company’s service and product performance, without distortion from transient items like tax collections. This ensures that operating margins are calculated based on amounts the company actually earns and can control, leading to a clearer view of its core operational efficiency. It’s also important to note that comparisons with companies that report gross revenue might require adjustments to make a like‑for‑like evaluation.",
+ "category": "Accounting",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 2183,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:33:26.720537",
+   "duration_ms": 16959,
+   "answer": "Cintas Corporation (CTAS) presents its net revenue through two primary reportable operating segments, with the remaining business activities grouped into an \"All Other\" category. The reportable segments are **Uniform Rental and Facility Services** and **First Aid and Safety Services**. In fiscal 2024, Cintas reported total revenue of approximately $9.60 billion, an increase of 8.9% over the previous year. This revenue growth was largely driven by an 8.0% organic increase resulting from higher sales volume, new business, and price increases.\n\n### Segment Revenue Breakdown\nThe presentation of revenue for the fiscal years ended May 31 is categorized as follows:\n\n*   **Uniform Rental and Facility Services:** This segment remains the largest contributor, accounting for 77.8% of total revenue in 2024 ($7.47 billion). It includes the rental and servicing of uniforms, mats, mops, and restroom supplies.\n*   **First Aid and Safety Services:** This segment accounted for 11.1% of total revenue in 2024 ($1.07 billion), focusing on first aid and safety products and services.\n*   **All Other:** Comprising Fire Protection Services and Uniform Direct Sale, this category also accounted for 11.1% of total revenue in 2024 ($1.06 billion).\n\n### Influence on Operating Margins\nThe company’s revenue growth and cost management directly influenced its operating margins, which improved across the board in fiscal 2024. Total operating income as a percentage of revenue rose to **21.6%** in 2024, up from 20.4% in 2023.\n\nThe **First Aid and Safety Services** segment saw a significant expansion in profitability. Its operating income margin increased from 19.0% in 2023 to **22.4%** in 2024. This improvement was driven by a substantial rise in gross margin (from 50.7% to 55.5%), which was aided by a reduction in energy expenses as a percentage of revenue and various sourcing and productivity initiatives.\n\nIn the **Uniform Rental and Facility Services** segment, the operating income margin increased to **22.2%** from 21.4% the prior year. This was supported by a decrease in the cost of sales as a percentage of revenue (from 52.7% to 51.8%), reflecting improved operational efficiency. Despite these gains, total selling and administrative expenses for the company increased slightly as a percentage of revenue (from 26.9% to 27.3%), partially offsetting some of the gross margin improvements.\n\n### References\n\n* [1] Cintas Corporation (ticker: CTAS), May 31, 2024.",
+   "answer_length": 2467,
+   "context_length": 46387,
+   "context": {
+    "entities": 60,
+    "relations": 76,
+    "chunks": 3,
+    "rerank_candidates": 50,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Operating Profitability",
+     "Results Of Operations By Segment",
+     "Results of Operations - Consolidated",
+     "Quarterly Results Of Operations",
+     "Net Operating Profit",
+     "Future Operating Margins",
+     "Projected Revenue Growth Rates",
+     "Summary of Financial Performance",
+     "EBITDA Growth",
+     "Results of Operations by Segment",
+     "Net Cash Flow From Operations",
+     "Net Revenues Management And Financial Fees",
+     "Information By Segment And Geographic Region",
+     "Operating Segment Information",
+     "Item 6: Selected Financial Data"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8648648648648649,
+    "answer_relevancy": 0.6982662916288539,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6408
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:33:44.338714",
+   "duration_ms": 17618,
+   "answer": "Cintas Corporation (CTAS) presents its net revenue through three primary reportable segments: **Uniform Rental and Facility Services**, **First Aid and Safety Services**, and **All Other**. The \"All Other\" category aggregates the Fire Protection Services and Uniform Direct Sale operating segments. For the fiscal year ended May 31, 2024, Cintas reported total revenue of approximately $9.60 billion, a significant increase from $8.82 billion in 2023 and $7.85 billion in 2022. The Uniform Rental and Facility Services segment remains the dominant revenue driver, accounting for $7.47 billion of the total 2024 revenue.\n\n### Segment Performance and Margin Influence\nThe presentation of revenue by segment highlights the varying influence each division has on the company’s operating margins. In fiscal 2024, the Uniform Rental and Facility Services segment demonstrated strong operational leverage; while its revenue grew by 8.2% ($568.1 million), its income before income taxes grew by a higher rate of 12.2% ($180.7 million). This margin expansion was driven by improvements in gross margin resulting from efficiency gains in energy usage and effective inventory management.\n\nOperating margins are also heavily influenced by the costs associated with \"Uniforms and other rental items in service.\" These assets are valued at cost less amortization, which is calculated using the straight-line method over periods ranging from 8 to 60 months. Specifically, uniforms are typically amortized over 18 to 30 months, while other items like mats and mops may extend up to 60 months. These amortization rates, based on wear tests and industry experience, are critical factors in determining the cost of facility services and the resulting operating income.\n\n### Consolidated Profitability and External Factors\nOn a consolidated basis, Cintas reported operating income of $2.07 billion for fiscal 2024, up from $1.80 billion in 2023. The company’s revenue recognition policies contribute to stable margin reporting, as most performance periods correspond with monthly invoice periods and variable consideration in customer contracts is generally considered immaterial. \n\nFurthermore, Cintas' consolidated results of operations have remained resilient in the face of inflation due to various mitigation strategies. However, management notes that factors such as changes in tax laws, interest rates, and sourcing risks related to qualified suppliers can impact overall profitability. The company maintains a robust system of internal controls to ensure the accuracy of financial reporting, which supports the management's assessment of operational trends and results.\n\n### References\n\n- [1] Cintas Corporation 10-K May 31, 2024",
+   "answer_length": 2717,
+   "context_length": 97554,
+   "context": {
+    "entities": 27,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 81,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas Corporation",
+     "Consolidated Statements Of Income",
+     "Note 14: Operating Segment Information",
+     "Consolidated Statements Of Cash Flows",
+     "Cintas",
+     "Net Cash Provided By Operating Activities",
+     "Stock Performance Graph",
+     "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+     "Consolidated Statements of Operations",
+     "Verisk Analytics",
+     "Consolidated Statement Of Operations",
+     "Honeywell",
+     "Uniform Rental And Facility Services",
+     "Consolidated Statements Of Earnings",
+     "Roper Technologies Inc"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5173,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number 0-11399 Cintas Corporation (Exact name of registrant as specified in its charter) Washingto"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6731,
+      "text": "and other taxes we collect on behalf of governmental authorities. Shipping and handling costs charged to customers are treated as fulfillment activities and are recorded in both revenue and cost of sales at the time control is transferred to the customer. Certain of our customer contracts include pricing terms and conditions that include components of variable consideration. The variable considera"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6879168433037247,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.672
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:33:55.420602",
+   "duration_ms": 11082,
+   "answer": "Cintas Corporation (CTAS) categorizes its revenue presentation into two primary reportable operating segments and a catch-all category for its remaining operations. The primary segments are **Uniform Rental and Facility Services** and **First Aid and Safety Services**, while the **All Other** category includes Fire Protection Services and Uniform Direct Sale operations.\n\n### Revenue Breakdown and Growth\nFor the fiscal year ended May 31, 2024, Cintas reported total revenue of approximately $9.60 billion, representing an 8.9% increase over fiscal 2023. This growth was largely driven by an 8.0% organic increase resulting from higher sales volume, new business, and increased penetration of products and services among existing customers. The revenue distribution among the segments in 2024 was as follows:\n\n*   **Uniform Rental and Facility Services:** $7.47 billion (77.8% of total revenue).\n*   **First Aid and Safety Services:** $1.07 billion (11.1% of total revenue).\n*   **All Other:** $1.06 billion (11.1% of total revenue).\n\n### Influence on Operating Margins\nThe increase in revenue and shift in costs significantly influenced the company's operating margins. In fiscal 2024, the total operating income margin for Cintas was **21.6%**, an improvement from 20.4% in the previous year. This margin expansion was supported by a decrease in the total cost of sales, which fell from 52.7% of revenue in 2023 to 51.2% in 2024. Consequently, the total gross margin increased from 47.3% to 48.8% over the same period.\n\nThe influence of revenue on operating margins varied by segment during fiscal 2024:\n*   **Uniform Rental and Facility Services:** Operating margin reached **22.2%** (up from 21.4% in 2023). This segment benefited from a gross margin increase to 48.2%.\n*   **First Aid and Safety Services:** This segment saw the most significant margin improvement, with operating income rising to **22.4%** of revenue, compared to 19.0% in 2023. This was driven by a sharp decrease in cost of sales (from 49.3% to 44.5%) and a resulting gross margin increase to 55.5%.\n*   **All Other:** Operating margin for the remaining business lines improved to **16.0%**, up from 14.8% in the prior year.\n\nCintas evaluates the performance of these segments based on both revenue and operating income, utilizing its distribution system and strong customer relationships to launch additional services and maximize long-term shareholder value.\n\n### References\n\n* [1] {\"ticker\":\"CTAS\",\"company\":\"Cintas Corporation\",\"period\":\"May 31, 2024\",\"source\":\"CTAS.html\"}",
+   "answer_length": 2554,
+   "context_length": 24365,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 4,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6607,
+      "text": "intas' ability to find qualified suppliers who meet its standards and to access products in a timely and efficient manner, is subject to ongoing market risks. For a discussion of the risks associated with sourcing that may materially impact Cintas, please see \" Item 1A: Risk Factors - Risks Relating to Business Strategy and Operations .\" Government Laws and Regulations Cintas is subject to a wide "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5321,
+      "text": "broaden our customer base through geographic expansion. Finally, we evaluate strategic acquisitions as opportunities arise. Results of Operations This Management’s Discussion and Analysis of Financial Condition and Results of Operations section focuses on discussion of fiscal 2024 results compared to fiscal 2023 results and should be read in conjunction with our consolidated financial statements a"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.88,
+    "answer_relevancy": 0.6966884016115378,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6442
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:34:20.029526",
+   "duration_ms": 24609,
+   "answer": "Cintas Corporation (CTAS) presents its revenue through three primary reportable segments: **Uniform Rental and Facility Services**, **First Aid and Safety Services**, and **All Other**. The \"All Other\" category aggregates smaller business lines, specifically Fire Protection Services and Uniform Direct Sales. For the fiscal year ended May 31, 2024, Cintas reported total revenue of approximately $9.597 billion, a significant increase from $8.816 billion in 2023. The Uniform Rental and Facility Services segment remains the company's primary revenue driver, contributing $7.465 billion in fiscal 2024, followed by First Aid and Safety Services at $1.067 billion.\n\nThe company's net revenue presentation is grounded in standardized accounting policies where revenue is recognized as services are rendered or when control of products is transferred to the customer. Most revenue is generated within the United States, though Cintas also operates in Canada and Latin America. Management monitors performance through several lenses, including organic revenue growth—which for the primary Uniform Rental segment was 7.4% in fiscal 2024—and total segment growth, which reached 8.2% for the same period.\n\nOperating income and margins are heavily influenced by the performance of these core segments and the company's ability to manage operational costs. In fiscal 2024, consolidated operating income rose to approximately $2.069 billion, up from $1.803 billion in 2023. This growth was particularly evident in the Uniform Rental and Facility Services segment, which saw a 12.2% increase in income before income taxes. A critical factor in this margin improvement was the enhancement of gross margins, driven by efficiency gains in areas such as energy usage and inventory management.\n\nFurthermore, Cintas utilizes its Management’s Discussion and Analysis (MD&A) and Note 14 (Operating Segment Information) to provide transparency into how these revenue streams translate into profitability. The company maintains a robust financial governance structure, including internal controls over financial reporting that were assessed as effective as of May 31, 2024. These controls ensure that the revenue and margin data presented in SEC filings, such as the Form 10-K, accurately reflect the company's operational efficiency and core business profitability.\n\n### References\n\n- [1] Cintas Corporation Annual Report on Form 10-K for the fiscal year ended May 31, 2024",
+   "answer_length": 2454,
+   "context_length": 119021,
+   "context": {
+    "entities": 40,
+    "relations": 166,
+    "chunks": 10,
+    "rerank_candidates": 103,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Cintas Corp No. 2",
+     "Cintas Corporation",
+     "Cintas Corporation No. 2",
+     "Consolidated Statements Of Income",
+     "Cintas No. 2 (Corp. 2)",
+     "Note 14: Operating Segment Information",
+     "8.2%",
+     "Consolidated Statements Of Cash Flows",
+     "7.4%",
+     "Cintas",
+     "Stock Performance Graph",
+     "Operating Segment Information",
+     "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+     "Peer Group",
+     "Net Cash Provided By Operating Activities"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5173,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number 0-11399 Cintas Corporation (Exact name of registrant as specified in its charter) Washingto"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6731,
+      "text": "and other taxes we collect on behalf of governmental authorities. Shipping and handling costs charged to customers are treated as fulfillment activities and are recorded in both revenue and cost of sales at the time control is transferred to the customer. Certain of our customer contracts include pricing terms and conditions that include components of variable consideration. The variable considera"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6929069757468005,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8732
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:34:43.202242",
+   "duration_ms": 23173,
+   "answer": "Cintas Corporation (CTAS) presents its net revenue through a structured segment-based approach that highlights its diverse service offerings. The company’s total revenue for fiscal 2024 reached approximately $9.60 billion, up from $8.82 billion in 2023 and $7.85 billion in 2022. This revenue is primarily derived from three reporting categories: **Uniform Rental and Facility Services**, **First Aid and Safety Services**, and **All Other** (which includes Fire Protection Services and Uniform Direct Sale).\n\n### Revenue Segmentation and Growth\nThe **Uniform Rental and Facility Services** segment is the company’s largest revenue driver, accounting for $7.47 billion in fiscal 2024, an 8.2% increase over the previous year. The **First Aid and Safety Services** segment followed with $1.07 billion, while the **All Other** category contributed $1.06 billion. This growth is driven by a strategy focused on increasing penetration at existing customer sites and broadening the customer base through geographic expansion and strategic acquisitions.\n\n### Influence on Operating Margins and Profitability\nThe presentation of these segments reveals distinct impacts on Cintas' operating margins:\n\n*   **Uniform Rental and Facility Services:** This segment demonstrated significant operational leverage in fiscal 2024, with income before income taxes increasing by 12.2%—outpacing its revenue growth of 8.2%. This margin expansion was primarily attributed to improvements in gross margin resulting from efficiency gains in energy usage and enhanced inventory management.\n*   **First Aid and Safety Services:** Operating margins in this segment were positively influenced by sourcing and productivity initiatives. Additionally, a reduction in energy expenses as a percentage of revenue contributed to gross margin improvements during fiscal 2024.\n*   **Consolidated Results:** For the Obligor Group (Cintas and its domestic subsidiary guarantors), operating income rose to $1.96 billion in 2024 from $1.74 billion in 2023. On a consolidated basis, Cintas reported operating income of $2.07 billion in 2024, compared to $1.80 billion in 2023 and $1.59 billion in 2022.\n\n### Factors Affecting Financial Presentation\nThe accuracy of Cintas' operating margins is closely tied to its accounting for \"Uniforms and other rental items in service.\" These items are valued at cost less amortization, with uniforms typically amortized over 18 to 30 months and other rental items (such as mats and mops) amortized over 8 to 60 months. These amortization rates are critical to determining the cost of facility services presented in the consolidated financial statements. \n\nFurthermore, while Cintas operates internationally, foreign-denominated revenue and operating income account for less than 10% of the consolidated totals, meaning currency fluctuations have a relatively limited impact on overall operating margins. Profitability is also subject to external factors such as tax legislation, inflation, and interest rate changes, though the company utilizes mitigation strategies to manage these risks.\n\n### References\n\n* [1] Cintas Corporation (CTAS) May 31, 2024 Form 10-K",
+   "answer_length": 3159,
+   "context_length": 113035,
+   "context": {
+    "entities": 45,
+    "relations": 130,
+    "chunks": 10,
+    "rerank_candidates": 132,
+    "chunk_tickers": [
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS",
+     "CTAS"
+    ],
+    "entity_names": [
+     "Operating Profitability",
+     "Cintas Corporation",
+     "Results Of Operations By Segment",
+     "Consolidated Statements Of Income",
+     "Results of Operations - Consolidated",
+     "Note 14: Operating Segment Information",
+     "Quarterly Results Of Operations",
+     "Consolidated Statements Of Cash Flows",
+     "Net Operating Profit",
+     "Cintas",
+     "Future Operating Margins",
+     "Net Cash Provided By Operating Activities",
+     "Projected Revenue Growth Rates",
+     "Stock Performance Graph",
+     "Summary of Financial Performance"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CTAS",
+      "chars": 6208,
+      "text": "9A. Controls and Procedures 66 Item 9B. Other Information 66 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 66 Part III Item 10. Directors, Executive Officers and Corporate Governance 67 Item 11. Executive Compensation 67 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 67 Item 13. Certain Relationships and Relate"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4618,
+      "text": "35,658 ) 16,194 Uniforms and other rental items in service ( 22,815 ) ( 98,252 ) ( 111,332 ) Prepaid expenses and other current assets and capitalized contract costs ( 117,674 ) ( 132,173 ) ( 28,581 ) Accounts payable 36,896 53,369 22,697 Accrued compensation and related liabilities ( 27,013 ) 2,711 ( 3,625 ) Accrued liabilities and other 97,750 41,314 ( 9,241 ) Income taxes, current 6,220 34,248 "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4561,
+      "text": "and other rental items in service and accounts receivable, net. These improvements were partially offset by unfavorable changes in working capital, primarily current liabilities and deferred income taxes. Net cash used in investing activities was $608.6 million in fiscal 2024, compared to $388.7 million in fiscal 2023. Net cash used in investing activities includes capital expenditures, purchases "
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 4811,
+      "text": ".95 $ 97.7 July 26, 2022 August 15, 2022 September 15, 2022 1.15 117.3 October 25, 2022 November 15, 2022 December 15, 2022 1.15 117.4 January 10, 2023 February 15, 2023 March 15, 2023 1.15 117.5 Total $ 4.40 $ 449.9 Accrued Dividends As of May 31, 2024 April 9, 2024 (1) May 15, 2024 June 14, 2024 $ 1.35 $ 137.6 As of May 31, 2023 April 11, 2023 (1) May 15, 2023 June 15, 2023 $ 1.15 $ 117.6 (1) Th"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5254,
+      "text": ": Rating Agency Outlook Commercial Paper Long-term Debt Standard & Poor’s Stable A-2 A- Moody’s Investors Service Stable P-2 A3 In the event that the ratings of our commercial paper or our outstanding long-term debt issues were substantially lowered or withdrawn for any reason, or if the ratings assigned to any new issue of long-term debt securities were significantly lower than those noted above,"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5554,
+      "text": "defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934 (the Exchange Act) as of May 31, 2024. Based on such evaluation, Cintas' management, including Cintas' President and Chief Executive Officer, Chief Financial Officer, General Counsel and Controllers, have concluded that Cintas' disclosure controls and procedures were effective as of May 31, 2024, in ensuring (i) inf"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5736,
+      "text": "amark, Rollins, Inc. and UniFirst Corporation. Total shareholder return was based on the increase in the price of the common stock and assumed reinvestment of all dividends. Furthermore, total return was weighted according to market capitalization of each company. The companies in the peer group are not necessarily the same as those considered by the Compensation Committee of the Board of Director"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5173,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number 0-11399 Cintas Corporation (Exact name of registrant as specified in its charter) Washingto"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 5453,
+      "text": "Cincinnati, Ohio, provides centrally located administrative functions including accounting, finance, IT and marketing. Cintas operates rental processing plants that house administrative, sales and service personnel and the necessary equipment involved in the cleaning of uniforms and bulk items, such as entrance mats and shop towels. Branch operations provide administrative, sales and service funct"
+     },
+     {
+      "ticker": "CTAS",
+      "chars": 6731,
+      "text": "and other taxes we collect on behalf of governmental authorities. Shipping and handling costs charged to customers are treated as fulfillment activities and are recorded in both revenue and cost of sales at the time control is transferred to the customer. Certain of our customer contracts include pricing terms and conditions that include components of variable consideration. The variable considera"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8936170212765957,
+    "answer_relevancy": 0.6526738650939347,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8366
+   }
+  }
+ }
+}

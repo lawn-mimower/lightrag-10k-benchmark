@@ -1,0 +1,487 @@
+{
+ "question_id": "d20600e5",
+ "ticker": "MSI",
+ "question": "Motorola Solutions (MSI) performance obligation allocation ESP data inputs.",
+ "expected_answer": "Motorola Solutions allocates the total estimated consideration among distinct performance obligations by applying the estimated selling price (ESP) as the best estimate of a standalone selling price for each obligation. The ESP is determined by collecting a broad range of data, primarily including historical sales data, cost and margin analyses, and other inputs guided by their normal pricing and discounting practices. In addition, adjustments are made for market conditions and company-specific factors. Furthermore, the data is often stratified by key factors such as major product or service categories, the types of customers, geographic markets, and sales volumes. This detailed and data-driven approach ensures that each performance obligation is properly valued according to its contribution to the overall contract.",
+ "category": "Accounting",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 3234,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:02:26.686058",
+   "duration_ms": 24122,
+   "answer": "Based on the provided documents, there is no explicit mention of the acronym \"**ESP**\" or the specific term \"**Estimated Selling Price**.\" However, the context provides detailed information regarding the data inputs and significant judgments used by management for **performance obligation allocation** and revenue recognition, particularly for system contracts.\n\n### Revenue Recognition and Performance Obligation Estimates\nFor system contracts, Motorola Solutions applies significant judgment in determining the **estimates of total net sales** and **Estimated Costs at Completion**. These estimates are central to the revenue recognition process and are assessed on a contract-by-contract basis. The determination of these figures is considered a critical audit matter due to the high degree of subjectivity and judgment required by management [1].\n\n### Key Data Inputs for Allocation and Recognition\nThe primary inputs and factors used to develop and evaluate these performance-related estimates include:\n*   **Estimated Costs at Completion:** This is a vital data input used to measure progress toward satisfying performance obligations over time [1].\n*   **Historical Forecasting Accuracy:** Management’s previous ability to accurately forecast costs and sales is analyzed to validate the reliability of current estimations [1].\n*   **Contract-Specific Assumptions:** Judgments are tailored to the unique parameters of individual system contracts [1].\n*   **Supporting Evidence:** Management relies on verifiable evidence to support the assumptions used in calculating total net sales and project costs [1].\n*   **Modification Identification:** The process includes the timely identification of changing circumstances that may necessitate a modification to a previously established estimate [1].\n\nThe audit of these inputs involves testing the effectiveness of controls within the revenue recognition process and ensuring the consistent application of accounting policies across different contracts [1].\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC.",
+   "answer_length": 2057,
+   "context_length": 111713,
+   "context": {
+    "entities": 60,
+    "relations": 162,
+    "chunks": 10,
+    "rerank_candidates": 51,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Software and Services",
+     "Products and Systems Integration",
+     "Motorola Solutions Inc.",
+     "Revenue From Contracts With Customers",
+     "Motorola Solutions Inc",
+     "Command Center Software And Services",
+     "Professional And Commercial Radio (PCR)",
+     "Motorola Solutions, Inc. Restated Certificate of Incorporation",
+     "Software And Services",
+     "Productivity Solutions And Services",
+     "Motorola Inc",
+     "LMR Communications Software and Services",
+     "Motorola Solutions UK Ltd.",
+     "Products And Systems Integration",
+     "Motorola Solutions, Inc. Amended and Restated Bylaws"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4434,
+      "text": "). 106",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4696,
+      "text": "Stock Units Award between Motorola Solutions, Inc. and its non-employee directors under the Motorola Solutions Omnibus Incentive Plan of 2006 or any successor plan for grants on or after January 1, 2012 (incorporated by reference to Exhibit 10.40 to Motorola Solutions, Inc.’s Annual Report on Form 10-K for the fiscal year ended December 31, 2011). 10.55 Form of Motorola Solutions Deferred Stock Un"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5556,
+      "text": "S-K. Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections Not applicable. 101 PART III Item 10. Directors, Executive Officers and Corporate Governance The response to this Item with respect to directors is incorporated herein by reference to the information under the caption “Our Board - Who We Are” of our Proxy Statement; with respect to executive officers, is contained in"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6108560339783936,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6335
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:02:46.000720",
+   "duration_ms": 19315,
+   "answer": "Motorola Solutions (MSI) utilizes **Estimated Selling Price (ESP)** to recognize revenue for direct customers when standalone sales data for performance obligations is unavailable. A performance obligation represents a promise in a contract to transfer distinct goods or services to a customer, and revenue is recognized as the company progresses toward the completion of these obligations.\n\n### Data Inputs and Estimation for System Contracts\nFor system contracts, revenue recognition relies heavily on management's development of estimates for total net sales and **Estimated Costs at Completion (EAC)**. Because these contracts often involve complex integrations, management must exercise significant judgment on a contract-by-contract basis. The primary data inputs and factors evaluated in this process include:\n\n*   **Historical Forecasting Accuracy:** Management and auditors review the company's past performance in predicting costs and sales to validate the reliability of current estimates.\n*   **Evidence Supporting Assumptions:** Specific judgments and assumptions regarding the remaining work and expected costs must be supported by relevant internal and external evidence.\n*   **Consistency of Accounting Policies:** The company ensures that accounting policies are applied uniformly across different contracts and reporting periods.\n*   **Timely Modification Identification:** Management must identify and incorporate changes in circumstances that require an update to a previous estimate, such as unexpected shifts in material costs or labor.\n\n### Auditor Evaluation and Judgment\nThe allocation of the transaction price to performance obligations for system contracts is considered a critical audit matter due to the high degree of subjectivity involved. Auditors test the effectiveness of internal controls over the revenue recognition process and evaluate whether the assumptions used by management are reasonable. This involves scrutinizing the process for developing total net sales and EAC estimates to ensure they accurately reflect the economic reality of the contracts.\n\n### References\n\n- [1] MOTOROLA SOLUTIONS, INC. December 31, 2023",
+   "answer_length": 2159,
+   "context_length": 99530,
+   "context": {
+    "entities": 33,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 100,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Motorola Solutions",
+     "Revenue From Contracts With Customers",
+     "Costs Of Services Sales",
+     "Motorola Solutions, Inc.",
+     "Net Sales From Products",
+     "Net Sales From Services",
+     "Costs Of Products Sales",
+     "ESN Services Contract",
+     "Home Office",
+     "Valuation And Qualifying Accounts",
+     "Contract Assets",
+     "Information By Segment And Geographic Region",
+     "Competition And Markets Authority",
+     "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+     "Software And Services"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5841,
+      "text": "Reserved] 30 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 31 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 53 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 101 Item 9A. Controls and Procedures 101 Item 9B. Other Information 101"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4434,
+      "text": "). 106",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4696,
+      "text": "Stock Units Award between Motorola Solutions, Inc. and its non-employee directors under the Motorola Solutions Omnibus Incentive Plan of 2006 or any successor plan for grants on or after January 1, 2012 (incorporated by reference to Exhibit 10.40 to Motorola Solutions, Inc.’s Annual Report on Form 10-K for the fiscal year ended December 31, 2011). 10.55 Form of Motorola Solutions Deferred Stock Un"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7861114025929159,
+    "context_recall": 0.6,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8465
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:02:56.009731",
+   "duration_ms": 10009,
+   "answer": "Based on the provided documents, there is no information available regarding Motorola Solutions' (MSI) specific data inputs for Estimated Selling Price (ESP) or the detailed methodology used for the allocation of performance obligations.\n\nThe provided text focuses on the company's business segments (Products and Systems Integration, and Software and Services), its primary technologies (LMR Communications, Video, and Command Center), research and development expenditures, and general financial results such as net sales and operating earnings. While it mentions that revenue is recognized for various services and products, it does not detail the accounting inputs or the specific process for allocating the transaction price to performance obligations using ESP.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. Document Title One",
+   "answer_length": 834,
+   "context_length": 36911,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 6,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4696,
+      "text": "Stock Units Award between Motorola Solutions, Inc. and its non-employee directors under the Motorola Solutions Omnibus Incentive Plan of 2006 or any successor plan for grants on or after January 1, 2012 (incorporated by reference to Exhibit 10.40 to Motorola Solutions, Inc.’s Annual Report on Form 10-K for the fiscal year ended December 31, 2011). 10.55 Form of Motorola Solutions Deferred Stock Un"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6329,
+      "text": "Part 1. Item 1A. Risk Factors\" of this Form 10-K for a discussion of the risks and uncertainties associated with the CMA's remedies order. 7 Recent Acquisitions Technology Segment Acquisition Description Purchase Price Date of Acquisition Video Security and Access Control Products and Systems Integration IPVideo Corporation Creator of a multifunctional safety and security device. $170 million and "
+     },
+     {
+      "ticker": "MSI",
+      "chars": 7144,
+      "text": "the net sales of the total segment in 2023. Video Our Video technology includes video management infrastructure, AI-powered security cameras including fixed and certain mobile video equipment as well as on-premise and cloud-based access control solutions. We deploy video security and access control solutions to thousands of government and enterprise customers around the world, including schools, t"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5541,
+      "text": "-based compensation of $1 million October 29, 2021 Video Security and Access Control Products and Systems Integration Software and Services Openpath Security, Inc. Provider of cloud-based mobile access control. $298 million and share-based compensation of $29 million July 15, 2021 35 Climate Change Regulations We expect that our operations and supply chain will become increasingly subject to feder"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.225
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:03:11.167574",
+   "duration_ms": 15158,
+   "answer": "Motorola Solutions (MSI) manages revenue recognition by identifying performance obligations, which are defined as promises within a contract to transfer distinct goods or services to a customer. Revenue for these obligations is generally recognized based on the company's progress toward completion.\n\n### Performance Obligation Allocation and ESP\nFor certain contracts, particularly those involving direct customers, MSI relies on the **Estimated Selling Price (ESP)** for revenue recognition and the allocation of the transaction price. This approach is necessitated by a lack of observable standalone sales data for specific offerings. The use of ESP allows the company to estimate the value of individual performance obligations when they are not sold separately in the open market.\n\n### Key Data Inputs and Management Judgments\nThe allocation of the transaction price and the subsequent recognition of revenue involve several critical data inputs and management judgments:\n\n*   **Estimated Costs at Completion:** For system contracts, management must develop detailed estimates of the total costs required to fulfill the contract. These estimates are a primary driver in determining the timing and amount of revenue recognized.\n*   **Total Net Sales Estimates:** Management utilizes significant judgment on a contract-by-contract basis to estimate the total net sales associated with complex systems and services.\n*   **Contract Options:** These include additional terms or clauses in long-term agreements that can influence the recognition of revenue for performance obligations, thereby affecting the overall revenue and cost estimates for a project.\n\n### Audit and Oversight of Estimates\nBecause these estimates involve a high degree of subjectivity, they are considered critical audit matters. Auditors evaluate MSI’s data inputs by scrutinizing historical forecasting accuracy and the evidence supporting management’s assumptions. They also monitor for the timely identification of any circumstances that might require modifications to previous estimates, ensuring that the consistent application of accounting policies is maintained.\n\n### References\n\n- [1] MOTOROLA SOLUTIONS, INC. Document Title: MSI.html",
+   "answer_length": 2216,
+   "context_length": 122369,
+   "context": {
+    "entities": 52,
+    "relations": 167,
+    "chunks": 10,
+    "rerank_candidates": 97,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Software and Services",
+     "Motorola Solutions",
+     "Products and Systems Integration",
+     "Revenue From Contracts With Customers",
+     "Motorola Solutions Inc.",
+     "Costs Of Services Sales",
+     "Motorola Solutions, Inc.",
+     "Motorola Solutions Inc",
+     "Net Sales From Products",
+     "Command Center Software And Services",
+     "Net Sales From Services",
+     "Professional And Commercial Radio (PCR)",
+     "Costs Of Products Sales",
+     "Motorola Solutions, Inc. Restated Certificate of Incorporation",
+     "ESN Services Contract"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5841,
+      "text": "Reserved] 30 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 31 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 53 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 101 Item 9A. Controls and Procedures 101 Item 9B. Other Information 101"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4434,
+      "text": "). 106",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.817386326479617,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9543
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:03:34.678151",
+   "duration_ms": 23511,
+   "answer": "Motorola Solutions (MSI) utilizes significant management judgment and specific data inputs to manage the recognition and allocation of revenue for its performance obligations, particularly within its \"Products and Systems Integration\" and \"Software and Services\" segments. For complex system contracts, the company relies on estimates of **total net sales** and **Estimated Costs at Completion** to determine how revenue is recorded over time.\n\nAccording to the company's financial disclosures, several key factors and data inputs influence the allocation and recognition of revenue:\n\n*   **Contract-Specific Estimates:** Management develops estimates for total net sales and costs on a contract-by-contract basis. This process requires significant judgment and assumptions regarding the scope and fulfillment of the contract.\n*   **Contract Options:** The presence of contract options is a critical factor that influences the recognition of revenue for performance obligations. These options can directly impact both the total estimated revenue and the cost estimates associated with a specific agreement.\n*   **Historical Performance Data:** To ensure the reasonableness of these estimates, management and auditors evaluate the company's **historical forecasting accuracy**. This involves assessing whether past judgments and assumptions aligned with actual outcomes and if circumstances requiring modifications to previous estimates were identified in a timely manner.\n*   **Supportive Evidence:** Estimates are further grounded in evidence that supports relevant judgments and assumptions, ensuring consistent application of accounting policies across different system contracts.\n\nMotorola Solutions continues to invest organically and through acquisitions in its three core technologies—Land Mobile Radio (LMR) Communications, Video, and Command Center—to evolve its safety and security offerings. These technologies often involve integrated solutions where the accurate allocation of performance obligations is essential to financial reporting.\n\n### References\n\n* [1] MOTOROLA SOLUTIONS, INC. (December 31, 2023) MSI.html",
+   "answer_length": 2127,
+   "context_length": 121990,
+   "context": {
+    "entities": 51,
+    "relations": 167,
+    "chunks": 10,
+    "rerank_candidates": 95,
+    "chunk_tickers": [
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI",
+     "MSI"
+    ],
+    "entity_names": [
+     "Software and Services",
+     "Motorola Solutions",
+     "Products and Systems Integration",
+     "Revenue From Contracts With Customers",
+     "Motorola Solutions Inc.",
+     "Costs Of Services Sales",
+     "Motorola Solutions, Inc.",
+     "Motorola Solutions Inc",
+     "Net Sales From Products",
+     "Command Center Software And Services",
+     "Net Sales From Services",
+     "Professional And Commercial Radio (PCR)",
+     "Costs Of Products Sales",
+     "Motorola Solutions, Inc. Restated Certificate of Incorporation",
+     "Information By Segment And Geographic Region"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MSI",
+      "chars": 6307,
+      "text": "program”). The share repurchase program does not have an expiration date. As of December 31, 2023, the Company had used approximately $15.5 billion, including transaction costs, to repurchase shares, leaving approximately $2.5 billion of authority available for future repurchases. 28 Performance Graph The following graph compares the five-year cumulative total shareholder returns of Motorola Solut"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6302,
+      "text": "asing shares, (k) the impact and success of our business strategy and portfolio, (l) future payments, charges, and use of accruals associated with our reorganization of business programs and employee separation costs, (m) future exit costs related to our exit of the Emergency Services Network contract with the Home Office of the United Kingdom, (n) our ability and cost to repatriate funds, (o) the"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5351,
+      "text": ", Antitrust & Intellectual Property from April 2020 to January 2023; Corporate Vice President, Lead Counsel, Commercial Law, Litigation & Antitrust from May 2019 to April 2020; and Corporate Vice President, Lead Counsel, Americas, Sales & Product Operations from January 2017 to May 2019. Mahesh Saptharishi; age 46; Executive Vice President and Chief Technology Officer since November 18, 2021; Seni"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5403,
+      "text": "under our share repurchase program in 2022 compared to $528 million in 2021; and • $530 million cash used for the payment of dividends in 2022 compared to $482 million in 2021; partially offset by • $595 million net proceeds in 2022 from the issuance of $600 million of 5.6% senior notes due 2032, of which a portion was subsequently used to repurchase $275 million principal amount of our 4.0% senio"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5841,
+      "text": "Reserved] 30 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 31 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 53 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 101 Item 9A. Controls and Procedures 101 Item 9B. Other Information 101"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 6583,
+      "text": "of currency fluctuations on cash flows. Our policy prohibits speculation in financial instruments for profit on exchange rate price fluctuations, trading in currencies for which there are no underlying exposures, or entering into transactions for any currency to intentionally increase the underlying exposure. Our strategy related to foreign exchange exposure management is to offset the gains or lo"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5887,
+      "text": "credit rating changes. We must comply with certain customary covenants including a maximum leverage ratio, as defined in the 2021 Motorola Solutions Credit Agreement. We were in compliance with our financial covenants as of December 31, 2023. We have investment grade ratings on our senior unsecured long-term debt. During the year ended December 31, 2023, Moody's Investors Service upgraded our cred"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4757,
+      "text": "contracts is a critical audit matter are (i) the significant judgment by management in developing the estimates of total net sales and Estimated Costs at Completion, including significant judgments and assumptions on a contract by contract basis and (ii) a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence related to management’s estimat"
+     },
+     {
+      "ticker": "MSI",
+      "chars": 4434,
+      "text": "). 106",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "MSI",
+      "chars": 5498,
+      "text": "1 ) ( 285 ) ( 353 ) Revolving credit facility renewal fees — — ( 7 ) Issuances of common stock 104 156 102 Purchases of common stock ( 804 ) ( 836 ) ( 528 ) Payment of dividends ( 589 ) ( 530 ) ( 482 ) Payment of dividends to noncontrolling interest ( 5 ) ( 6 ) ( 5 ) Net cash used for financing activities ( 1,295 ) ( 906 ) ( 429 ) Effect of exchange rate changes on cash and cash equivalents 45 ( 7"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8235294117647058,
+    "answer_relevancy": 0.7524595099952198,
+    "context_recall": 0.2,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.694
+   }
+  }
+ }
+}

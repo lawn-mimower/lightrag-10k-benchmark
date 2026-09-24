@@ -1,0 +1,84 @@
+{
+ "description": "Five-mode LightRAG run over the 10 priority tickers, answers generated inside LightRAG",
+ "notebook": "lightrag_10k_priority_ticker_models_optimised_multimode.ipynb, cells 1-6 (cell 7 was not run)",
+ "queried_from": "2026-01-19T19:01:17.039001",
+ "queried_to": "2026-01-19T21:20:39.335612",
+ "hardware": "NVIDIA GeForce RTX 4070 SUPER, 12 GB (from the notebook output)",
+ "index": {
+  "filings": 10,
+  "tickers": [
+   "HON",
+   "MSI",
+   "MRO",
+   "CE",
+   "HAS",
+   "VRSK",
+   "BIIB",
+   "ROP",
+   "CTAS",
+   "AMP"
+  ],
+  "chunks": 531,
+  "entities": 13368,
+  "relations": 17823,
+  "note": "counts from the workspace load message in the notebook output; the workspace was built before this run",
+  "chunk_token_size": 1200,
+  "chunk_overlap_token_size": 100,
+  "extraction_llm": "ministral-14b-2512 (Mistral API)",
+  "embedding_model": "intfloat/e5-mistral-7b-instruct, 4-bit NF4 on CUDA, mean pooling, max_length 512, 4096 dimensions"
+ },
+ "query": {
+  "modes": [
+   "local",
+   "global",
+   "naive",
+   "hybrid",
+   "mix"
+  ],
+  "order": "modes run in the order listed, one question at a time",
+  "calls_per_mode": 2,
+  "call_1": "QueryParam(mode, top_k=60, chunk_top_k=10, enable_rerank=True) -> answer",
+  "call_2": "same parameters with only_need_context=True -> retrieved_context",
+  "reranker": "BAAI/bge-reranker-v2-m3 (CrossEncoder, fp16 on CUDA, max_length 8192)",
+  "min_rerank_score": 0.3,
+  "answer_llm": "gemini-3-flash-preview (google-genai, default generation settings)",
+  "keyword_extraction": "one new keyword cache entry in the log; all other keyword sets were read from the workspace's LLM cache, written by earlier queries on the same index"
+ },
+ "questions": {
+  "source": "FinDER (Linq-AI-Research/FinDER) train split, 5,703 questions",
+  "selection": "ticker written as (XXX) or at the end after a comma or dash, one of the 10 tickers",
+  "selected": 63,
+  "per_ticker": {
+   "HON": 7,
+   "MSI": 7,
+   "MRO": 7,
+   "CE": 6,
+   "HAS": 6,
+   "VRSK": 6,
+   "BIIB": 6,
+   "ROP": 6,
+   "CTAS": 6,
+   "AMP": 6
+  }
+ },
+ "ragas": {
+  "script": "the sequential RAGAS batch script (now batch_ragas_evaluation.py --strategy sequential), which writes batch_ragas_evaluation_results_ultra_simple.json",
+  "completed": "2026-01-20T02:33:43.859366",
+  "judge_llm": "ministral-14b-2512 (Mistral API, OpenAI-compatible endpoint)",
+  "embeddings": "BAAI/bge-large-en-v1.5 on CPU",
+  "metrics": [
+   "faithfulness",
+   "answer_relevancy",
+   "context_recall",
+   "context_precision"
+  ],
+  "inputs": "question, answer, the whole retrieved_context as one context string, expected_answer as ground_truth",
+  "ragas_score": "mean of the non-NaN metrics",
+  "evaluations": 315,
+  "status": "all success",
+  "nan_values": 3
+ },
+ "outcome": {
+  "query_results": "315 of 315 question-mode results have status success; no answer is empty or a Gemini error string"
+ }
+}

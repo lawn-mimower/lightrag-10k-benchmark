@@ -1,0 +1,406 @@
+{
+ "question_id": "daff6a7b",
+ "ticker": "CE",
+ "question": "Macroeconomic and seasonal factors impact revenue margins for Celanese (CE).",
+ "expected_answer": "Celanese’s revenue streams and profitability margins are influenced by both macroeconomic factors and industry-specific seasonal trends, as highlighted in the provided data. Based on Reference 1, which explains the exposure to cyclical industry dynamics and macroeconomic risks, here are the key insights:\n\n1. Macroeconomic Factors:\n   - Economic Downturns and Credit Conditions: Celanese’s customers include companies in industries like automotive, construction, and textiles that are sensitive to the economic cycle. During periods of economic slowdown, these customers may experience reduced consumer demand or face difficulties in obtaining financing. This can result in order delays, cancellations, or reductions, thereby directly affecting Celanese’s revenue stream.\n   - Supply Chain and Financial Health of Partners: The company is exposed to the creditworthiness of its key suppliers and business partners. In a weakening economy, the risk of supplier or partner bankruptcies increases, which can disrupt the supply chain and, in turn, adversely impact both cash flow and profitability margins.\n\n2. Industry-Specific Seasonal Trends:\n   - Cyclical Production and Demand Patterns: Industries such as automotive and construction tend to show seasonal or cycle-dependent patterns. For instance, peak production and higher demand periods may result in increased revenue, but they may also bring challenges such as higher raw material prices (if demand spikes) or capacity utilization issues that might affect margin stability.\n   - Price Pressure and Competitive Dynamics: Reference 1 also notes that many of the relevant industries experience overcapacity and intense competition which, when combined with seasonal demand fluctuations, may force Celanese to adapt its pricing strategy. While higher production volumes in peak seasons could boost revenues, increased competitive pressure in these periods may compress profitability margins.\n\nIn summary, macroeconomic factors such as economic slowdowns, tightening credit conditions, and supply chain risks can dampen customer orders and delay product financing, thereby reducing revenue inflows. Simultaneously, seasonal trends in key cyclical industries can lead to fluctuations in demand—potentially enhancing revenue during high-demand periods but also applying competitive pricing pressure that negatively affects profitability margins. No complex calculations are required to understand these relationships; rather, the qualitative analysis provided in the references provides the key insights to assess the impact on Celanese's financial outcomes.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 2,
+ "finder_reference_chars": 3616,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:38:14.271709",
+   "duration_ms": 18975,
+   "answer": "Celanese Corporation’s revenue margins are significantly influenced by a variety of global macroeconomic conditions, including world economic growth, consumer and business confidence levels, and the stability of credit markets. As a global chemical and specialty materials company, Celanese is exposed to cost inflation, interest rate fluctuations, and volatile exchange rates, all of which can directly impact its financial performance. Furthermore, geopolitical factors, such as trade disputes—particularly with China—and the imposition of new or increased tariffs, can increase production costs and reduce the company's overall profitability.\n\nIn 2023, the company's operating margin improved to 15.4%, up from 14.2% in 2022. This margin performance was influenced by several key economic and strategic factors. For instance, the Acetyl Chain segment saw improved margins due to lower raw material and sourcing costs for inputs such as ethylene, methanol, and acid. Additionally, a substantial gain of $515 million recognized from the formation of the Nutrinova joint venture and increased net sales in the Engineered Materials segment (driven by the M&M Acquisition) contributed positively to the operating profit.\n\nHowever, these gains were partially offset by pricing pressures and demand shifts within the global market. Lower pricing in the Acetyl Chain segment occurred as market conditions reverted from the elevated levels seen in previous years. Furthermore, while the company experienced increased demand for products in Asia, this was countered by lower volumes in the Western Hemisphere for vinyl acetate monomer (VAM) and emulsion polymers. The company’s revenue margins remain sensitive to the business cycles of its primary customer industries, including the automotive, construction, consumer electronics, and textile sectors, which often dictate fluctuations in demand and pricing.\n\n### References\n\n* [1] CELANESE CORPORATION Form 10-K December 31, 2023",
+   "answer_length": 1973,
+   "context_length": 109956,
+   "context": {
+    "entities": 60,
+    "relations": 160,
+    "chunks": 10,
+    "rerank_candidates": 60,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "U.S. And Global Market Conditions",
+     "Economic Performance Of The United States",
+     "Global Production Capacity",
+     "Celanese Corporation And Subsidiaries",
+     "Celanese",
+     "Celanese Us Holdings LLC",
+     "Cyclicality",
+     "Global Chemical And Specialty Materials Industry",
+     "Macroeconomic Risks",
+     "Dow Jones U.S. Chemicals Index",
+     "Third-Party Industry Publications",
+     "Business Performance",
+     "Business And Market Conditions",
+     "Market Fluctuations",
+     "Item 7. Management's Discussion And Analysis Of Financial Condition And Results Of Operations"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6172,
+      "text": "OF CONTENTS Page Special Note Regarding Forward-Looking Statements 3 PART I Item 1. Business 4 Item 1A. Risk Factors 17 Item 1B. Unresolved Staff Comments 29 Item 1C. Cybersecurity 29 Item 2. Properties 30 Item 3. Legal Proceedings 31 Item 4. Mine Safety Disclosures 31 Information about our Executive Officers 31 PART II Item 5. Market for the Registrant's Common Equity, Related Shareholder Matters"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6020,
+      "text": "KOENIG Director February 23, 2024 Michael Koenig /s/ GANESH MOORTHY Director February 23, 2024 Ganesh Moorthy /s/ KIM K.W. RUCKER Director February 23, 2024 Kim K.W. Rucker 60 Table of Contents CELANESE CORPORATION AND SUBSIDIARIES INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page Number Report of Independent Registered Public Accounting Firm 62 Consolidated Statements of Operations for the years en"
+     },
+     {
+      "ticker": "CE",
+      "chars": 3979,
+      "text": ") Interest income 39 69 8 Dividend income - equity investments 126 133 147 Other income (expense), net 25 9 ( 5 ) Earnings (loss) from continuing operations before tax 1,183 1,421 2,248 Income tax (provision) benefit 790 489 ( 330 ) Earnings (loss) from continuing operations 1,973 1,910 1,918 Earnings (loss) from operation of discontinued operations ( 12 ) ( 9 ) ( 27 ) Income tax (provision) benef"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5101,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ Form 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 ("
+     },
+     {
+      "ticker": "CE",
+      "chars": 6633,
+      "text": "Recordable Incident Rate (\"TRIR\") and Lost Time Incident Rate (\"LTIR\") based upon the number of incidents per 200,000 work hours of both employees and contractors. Process Safety lagging indicators follow the industry standard from API RP 754 for Tier 1 and Tier 2 events for incident count, rate, and severity. In 2023, the criteria for tracking release to the environment was enhanced to a criteria"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7889122140812628,
+    "context_recall": 0.7142857142857143,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8758
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:38:29.337703",
+   "duration_ms": 15066,
+   "answer": "Macroeconomic factors and market conditions significantly influence Celanese Corporation’s financial performance and revenue margins. Management explicitly states that many factors affecting the company’s financial condition are macroeconomic in nature and remain beyond the control of management. These external variables include broad economic trends such as interest rates and overall demand, which shape the company's strategic execution and debt repayment capacity.\n\nWithin specific business segments like the Acetyl Chain, revenue margins are highly sensitive to industry utilization, demand fluctuations, and changes in the cost of raw materials. There is generally a direct correlation between these variables and the company's net sales. However, a significant factor impacting profit margins is the \"lag\" effect; changes in product pricing typically trail behind shifts in raw material costs by several months or even quarters. Consequently, profit margins may expand or contract during these transition periods before pricing can be fully adjusted to reflect the current economic environment.\n\nThe structure of Celanese’s commercial agreements also plays a critical role in how market conditions affect revenue. Many products, such as acetate tow, are sold under contracts with pricing fixed for one or more years. While these contracts provide stability, they can also limit the company's ability to adjust pricing in response to rapid market changes or intense industry competition. Furthermore, global economic factors—such as those impacting the fuel and energy industry or international economies—can disrupt supply chains and operational costs, further affecting the company's consolidated financial condition.\n\n### References\n\n* [1] CELANESE CORPORATION",
+   "answer_length": 1771,
+   "context_length": 58017,
+   "context": {
+    "entities": 31,
+    "relations": 60,
+    "chunks": 2,
+    "rerank_candidates": 96,
+    "chunk_tickers": [
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Business Performance",
+     "Macroeconomic Conditions",
+     "Consolidated Financial Condition",
+     "Risk Factors",
+     "Economic Activity",
+     "Results Of Operations",
+     "Cash Flows From Operations",
+     "Market Conditions",
+     "Ameriprise Financial",
+     "Macroeconomic Forces",
+     "Aerospace",
+     "Macroeconomic And Industry Risks",
+     "Economic Slowdown",
+     "International Operations",
+     "Financial Condition"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6203,
+      "text": "tow, we first produce acetate flake by processing wood pulp with acetic acid and acetic anhydride. Wood pulp generally comes from reforested trees and is purchased externally from a variety of sources, and acetic anhydride is an intermediate chemical that we produce from acetic acid in our intermediate chemistry business. Acetate flake is then further processed into acetate tow. • Customers Our ac"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.6774193548387096,
+    "answer_relevancy": 0.89926569871088,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8942
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:38:49.524750",
+   "duration_ms": 20187,
+   "answer": "I do not have enough information in the provided context to explain how macroeconomic and seasonal factors impact the revenue margins for Celanese (CE).\n\nThe available document provides a comprehensive overview of the company's business segments, including the **Engineered Materials** and **Acetyl Chain** segments, and lists its key products, raw materials, and competitors. It notes that Celanese serves a \"diverse set of end-use applications\" such as automotive, construction, medical, and consumer electronics, and that its growth in the Engineered Materials segment is driven by \"new project commercializations.\" \n\nHowever, the provided text does not contain specific information regarding macroeconomic trends, seasonal variations, or their direct influence on the company's financial margins. The document focuses on the company's corporate structure, history, and operational facilities rather than external economic or seasonal performance drivers.\n\n### References\n\n* [1] CELANESE CORPORATION",
+   "answer_length": 1002,
+   "context_length": 6542,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 1,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "CE"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:39:13.905111",
+   "duration_ms": 24380,
+   "answer": null,
+   "answer_length": 2686,
+   "context_length": 126305,
+   "context": {
+    "entities": 42,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 141,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Global Production Capacity",
+     "Business Performance",
+     "Celanese Corporation And Subsidiaries",
+     "Macroeconomic Conditions",
+     "Economic Performance Of The United States",
+     "Consolidated Financial Condition",
+     "Celanese",
+     "Risk Factors",
+     "Celanese Us Holdings LLC",
+     "Economic Activity",
+     "Global Chemical And Specialty Materials Industry",
+     "Results Of Operations",
+     "Celanese Corporation",
+     "Cash Flows From Operations",
+     "Cyclicality"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6172,
+      "text": "OF CONTENTS Page Special Note Regarding Forward-Looking Statements 3 PART I Item 1. Business 4 Item 1A. Risk Factors 17 Item 1B. Unresolved Staff Comments 29 Item 1C. Cybersecurity 29 Item 2. Properties 30 Item 3. Legal Proceedings 31 Item 4. Mine Safety Disclosures 31 Information about our Executive Officers 31 PART II Item 5. Market for the Registrant's Common Equity, Related Shareholder Matters"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6020,
+      "text": "KOENIG Director February 23, 2024 Michael Koenig /s/ GANESH MOORTHY Director February 23, 2024 Ganesh Moorthy /s/ KIM K.W. RUCKER Director February 23, 2024 Kim K.W. Rucker 60 Table of Contents CELANESE CORPORATION AND SUBSIDIARIES INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page Number Report of Independent Registered Public Accounting Firm 62 Consolidated Statements of Operations for the years en"
+     },
+     {
+      "ticker": "CE",
+      "chars": 3979,
+      "text": ") Interest income 39 69 8 Dividend income - equity investments 126 133 147 Other income (expense), net 25 9 ( 5 ) Earnings (loss) from continuing operations before tax 1,183 1,421 2,248 Income tax (provision) benefit 790 489 ( 330 ) Earnings (loss) from continuing operations 1,973 1,910 1,918 Earnings (loss) from operation of discontinued operations ( 12 ) ( 9 ) ( 27 ) Income tax (provision) benef"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5101,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ Form 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 ("
+     },
+     {
+      "ticker": "CE",
+      "chars": 6633,
+      "text": "Recordable Incident Rate (\"TRIR\") and Lost Time Incident Rate (\"LTIR\") based upon the number of incidents per 200,000 work hours of both employees and contractors. Process Safety lagging indicators follow the industry standard from API RP 754 for Tier 1 and Tier 2 events for incident count, rate, and severity. In 2023, the criteria for tracking release to the environment was enhanced to a criteria"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.8271721095083612,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9068
+   },
+   "answer_omitted": "flagged by an automated pre-publication number check"
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:39:40.289893",
+   "duration_ms": 26385,
+   "answer": "Celanese Corporation’s revenue margins and overall financial performance are significantly influenced by a complex array of macroeconomic and seasonal factors. As a global chemical and specialty materials company with operations spanning North America, Europe, and Asia, the company is directly and indirectly affected by world economic conditions, including consumer and business confidence, fluctuating commodity prices, and interest rates.\n\n### Macroeconomic Influences on Performance\nMacroeconomic conditions, such as inflation and instability in credit markets, act as foundational factors that shape Celanese’s business performance and strategic execution. For instance, in 2023, the company's non-operating pension and postretirement expenses increased by $86 million, primarily driven by higher interest costs of $66 million and a lower expected return on plan assets. Additionally, the company’s interest expense rose significantly from $405 million in 2022 to $720 million in 2023, reflecting the impact of the broader interest rate environment on its debt obligations.\n\nThe company’s revenue margins are also sensitive to regional market dynamics and pricing cycles. In 2023, the Acetyl Chain segment experienced a 15% decline in net sales, largely due to lower pricing as market conditions reverted from the elevated levels seen in the previous year. Similarly, the Engineered Materials segment faced pricing pressures from decreased energy surcharges and an unfavorable product mix, even as it saw volume growth from strategic acquisitions.\n\n### Political and Regulatory Risks\nGlobal political conditions and trade regulations further impact Celanese's cost structures and profitability. Risks such as the imposition of new tariffs, the renegotiation of trade agreements, or aggressive trade disputes—particularly with countries like China—can increase operational costs and hinder the execution of growth strategies. Because Celanese holds interests in affiliates operating in the U.S., Germany, China, Japan, South Korea, and Saudi Arabia, it is exposed to diverse regulatory environments that can affect its consolidated financial condition.\n\n### Seasonal and Demand Factors\nRevenue cycles and consumer purchasing behavior are influenced by seasonal demand patterns and broader economic trends. Declines in economic activity or a prolonged recession can reduce demand for Celanese’s products, which include engineered polymers and acetyl products used in the automotive, construction, and consumer electronics industries. These shifts in demand, coupled with fluctuations in raw material and energy costs, directly affect the company’s operating margins, which stood at 15.4% in 2023 compared to 14.2% in 2022.\n\n### References\n\n* [1] CELANESE CORPORATION Form 10-K December 31, 2023",
+   "answer_length": 2798,
+   "context_length": 126305,
+   "context": {
+    "entities": 42,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 144,
+    "chunk_tickers": [
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE",
+     "CE"
+    ],
+    "entity_names": [
+     "Global Production Capacity",
+     "Business Performance",
+     "Celanese Corporation And Subsidiaries",
+     "Macroeconomic Conditions",
+     "Economic Performance Of The United States",
+     "Consolidated Financial Condition",
+     "Celanese",
+     "Risk Factors",
+     "Celanese Us Holdings LLC",
+     "Economic Activity",
+     "Global Chemical And Specialty Materials Industry",
+     "Results Of Operations",
+     "Celanese Corporation",
+     "Cash Flows From Operations",
+     "Cyclicality"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "CE",
+      "chars": 6341,
+      "text": "February 9, 2024, there were 114 holders of record of our Common Stock. A substantially greater number of holders of our common stock are \"street name\" or beneficial holders, whose shares of record are held by banks, brokers and other financial institutions. Dividend Policy The amount available to us to pay cash dividends is not currently restricted by our existing senior credit facilities and our"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6133,
+      "text": "Basis of Presentation In this Annual Report on Form 10-K, the term \"Celanese\" refers to Celanese Corporation, a Delaware corporation, and not its subsidiaries. The terms \"Company,\" \"we,\" \"our\" and \"us\" refer to Celanese and its subsidiaries on a consolidated basis. The term \"Celanese U.S.\" refers to the Company's subsidiary, Celanese US Holdings LLC, a Delaware limited liability company, and not i"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6123,
+      "text": "that could materially affect our business\" on page 22 . Item 2. Properties Description of Property Our corporate headquarters is located in Irving, Texas and we also have administrative offices in Amsterdam, Netherlands; Asturias, Spain; Budapest, Hungary; Hyderabad, India; Kunshan, China; Mexico City, Mexico; Meyrin, Switzerland; Nanjing, China; Shanghai, China; and Sulzbach, Germany. We own or l"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5066,
+      "text": "1,075) (824) (251) Other (charges) gains, net (68) (8) (60) Gain (loss) on disposition of businesses and assets, net 505 5 500 Operating profit (loss) 1,687 1,378 309 Equity in net earnings (loss) of affiliates 102 220 (118) Non-operating pension and other postretirement employee benefit (expense) income (69) 17 (86) Interest expense (720) (405) (315) Interest income 39 69 (30) Dividend income - e"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6172,
+      "text": "OF CONTENTS Page Special Note Regarding Forward-Looking Statements 3 PART I Item 1. Business 4 Item 1A. Risk Factors 17 Item 1B. Unresolved Staff Comments 29 Item 1C. Cybersecurity 29 Item 2. Properties 30 Item 3. Legal Proceedings 31 Item 4. Mine Safety Disclosures 31 Information about our Executive Officers 31 PART II Item 5. Market for the Registrant's Common Equity, Related Shareholder Matters"
+     },
+     {
+      "ticker": "CE",
+      "chars": 6020,
+      "text": "KOENIG Director February 23, 2024 Michael Koenig /s/ GANESH MOORTHY Director February 23, 2024 Ganesh Moorthy /s/ KIM K.W. RUCKER Director February 23, 2024 Kim K.W. Rucker 60 Table of Contents CELANESE CORPORATION AND SUBSIDIARIES INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page Number Report of Independent Registered Public Accounting Firm 62 Consolidated Statements of Operations for the years en"
+     },
+     {
+      "ticker": "CE",
+      "chars": 3979,
+      "text": ") Interest income 39 69 8 Dividend income - equity investments 126 133 147 Other income (expense), net 25 9 ( 5 ) Earnings (loss) from continuing operations before tax 1,183 1,421 2,248 Income tax (provision) benefit 790 489 ( 330 ) Earnings (loss) from continuing operations 1,973 1,910 1,918 Earnings (loss) from operation of discontinued operations ( 12 ) ( 9 ) ( 27 ) Income tax (provision) benef"
+     },
+     {
+      "ticker": "CE",
+      "chars": 5101,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ___ Form 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 ("
+     },
+     {
+      "ticker": "CE",
+      "chars": 6633,
+      "text": "Recordable Incident Rate (\"TRIR\") and Lost Time Incident Rate (\"LTIR\") based upon the number of incidents per 200,000 work hours of both employees and contractors. Process Safety lagging indicators follow the industry standard from API RP 754 for Tier 1 and Tier 2 events for incident count, rate, and severity. In 2023, the criteria for tracking release to the environment was enhanced to a criteria"
+     },
+     {
+      "ticker": "CE",
+      "chars": 4037,
+      "text": "000,000 shares authorized (2023: 170,476,740 issued and 108,906,426 outstanding; 2022: 170,135,425 issued and 108,473,932 outstanding) — — Treasury stock, at cost (2023: 61,570,314 shares; 2022: 61,661,493 shares) ( 5,488 ) ( 5,491 ) Additional paid-in capital 394 372 Retained earnings 12,929 11,274 Accumulated other comprehensive income (loss), net ( 744 ) ( 518 ) Total Celanese Corporation share"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9454545454545454,
+    "answer_relevancy": 0.8621025684447794,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9519
+   }
+  }
+ }
+}

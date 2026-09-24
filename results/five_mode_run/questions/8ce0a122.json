@@ -1,0 +1,489 @@
+{
+ "question_id": "8ce0a122",
+ "ticker": "AMP",
+ "question": "Rev rec for variable annuities; AMP valuation for future revenues (AMP).",
+ "expected_answer": "The provided data explains that variable annuity guaranteed benefit rider charges, along with cost of insurance charges and contract charges (after netting reinsurance for UL insurance), are recognized as revenue \"when assessed.\" This means that these charges are recorded as revenue in the period when the fees are evaluated, rather than being deferred or recognized over a longer period based solely on elapsed time. \n\nImplications for the valuation of future revenue streams include:\n1. Predictability: Since revenue recognition is tied to the assessment of charges in each period, future revenue estimates can be linked directly to expected fee assessments based on contractual terms and assumed risk factors.\n2. Sensitivity to Updates: If actual experience (e.g., in prepayments, mortality, morbidity, or other assumptions) deviates from initial expectations, adjustments in the effective yield or revenue assumptions may occur. This leads to recalculations and catch-up adjustments, affecting the timing and predictability of revenue streams.\n3. Risk Considerations: The fact that these revenues are recognized upon being assessed means that any changes in consumer behavior or changes in the underlying risk profile (like unexpected prepayments or changes in the cost of insurance) will immediately impact current period revenue and therefore future projections.\n\nOverall, the methodology suggests that while revenue is recognized promptly and based on current assessments, any valuation of future revenue streams must factor in the variability and sensitivity to underlying assumptions and adjustments that are inherent in the products.",
+ "category": "Accounting",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1524,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:50:00.878791",
+   "duration_ms": 17483,
+   "answer": "Ameriprise Financial (AMP) recognizes revenue and values future benefits for its variable annuity products through a combination of asset-based fees, actuarial modeling, and fair value measurements. These financial instruments are managed primarily within the Retirement & Protection Solutions segment, with certain closed blocks residing in the Corporate & Other segment.\n\n### Revenue Recognition for Variable Annuities\nRevenue from variable annuity products is primarily derived from three sources:\n*   **Management and Financial Advice Fees:** Ameriprise earns asset-based fees for managing the underlying funds held in separate accounts. These fees fluctuate based on the total value of assets under management (AUM), which is directly impacted by market appreciation or depreciation.\n*   **Distribution Fees:** Fees are earned based on the sale and distribution of annuity products, although these decreased in recent years due to lower sales of products with living benefit guarantees.\n*   **Policy and Contract Charges:** This category includes charges for mortality and expense risk, administrative costs, and specific rider charges associated with additional benefits, such as Guaranteed Minimum Withdrawal Benefits (GMWB).\n\nFor payout annuities with life-contingent features, Ameriprise recognizes **Premium Revenue**, which is accrued over the life of the contract in proportion to the insurance benefits provided.\n\n### Valuation of Future Benefits and Revenues\nThe valuation of variable annuity obligations, particularly market risk benefits (MRBs), is based on **fair value accounting principles**. Ameriprise uses a **projected discounted cash flow** approach to determine these values. This method incorporates:\n*   **Projected Cash Flows:** Estimates of all future benefits to be paid to contractholders and fees to be collected over the life of the contract.\n*   **Actuarial Modeling:** The company employs actuarial models to simulate various equity market scenarios to project future benefits and contract assessments.\n*   **Risk Margins:** Explicit margins are added to provide for risk, reflecting the assumptions a participant in a hypothetical market would make to determine an \"exit price\" for the liability.\n\n### Key Actuarial Assumptions\nThe accuracy of revenue and benefit valuations depends on several critical assumptions reviewed quarterly and updated annually:\n*   **Customer Asset Value Growth Rates:** Projected growth of the underlying assets.\n*   **Persistency and Surrenders:** Estimates of how long contractholders will maintain their policies and the rate at which they will withdraw funds.\n*   **Mortality and Benefit Utilization:** Projections regarding the lifespan of policyholders and how frequently they will exercise guaranteed features.\n*   **Nonperformance Risk Adjustment:** The valuation is adjusted to reflect Ameriprise’s own credit risk, using a spread over the U.S. Treasury curve. Changes in this spread impact the liability value; however, these specific adjustments are recorded in **other comprehensive income (loss)** rather than direct earnings.\n\n### Market Sensitivity and Risk Management\nBecause variable annuity fees and benefits are highly sensitive to market fluctuations, Ameriprise utilizes a comprehensive hedging program. This program focuses on \"first-order sensitivities\" including equity market levels (Delta), interest rate levels (Rho), and volatility (Vega). While market impacts on guaranteed benefits can create volatility in GAAP earnings, the company often excludes these impacts (net of hedges) from its **pretax adjusted operating earnings** to better reflect the underlying performance of core operations.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023",
+   "answer_length": 3754,
+   "context_length": 108485,
+   "context": {
+    "entities": 60,
+    "relations": 119,
+    "chunks": 10,
+    "rerank_candidates": 36,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Variable Annuity And Structured Variable Annuity Benefits",
+     "Variable Annuity Contracts",
+     "Structured Variable Annuities (SVAs)",
+     "Indexing Feature For Structured Variable Annuities",
+     "Structured Variable Annuities (SVA)",
+     "Variable Annuity Products",
+     "Variable Annuity Account Value",
+     "Structured Variable Annuity Product",
+     "Variable Annuity Rider Charges",
+     "Variable Life Insurance",
+     "Market Impact on Fixed Annuity Benefits",
+     "Variable Annuities With Living Benefit Guarantees",
+     "Volatility Impact",
+     "Variable Universal Life (VUL) Products",
+     "Variable Annuity Net Outflows"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6377,
+      "text": "defaults by counterparties to our reinsurance arrangements; 64 Index Ameriprise Financial, Inc. • inadequate reserves for future policy benefits and claims or for future redemptions and maturities; • deviations from our assumptions regarding morbidity, mortality and persistency affecting our insurance profitability; • damage to our reputation arising from employee or advisor misconduct or otherwis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5491,
+      "text": ") Amortization of deferred acquisition costs 233 239 (6) (3) Interest and debt expense 39 37 2 5 General and administrative expense 309 302 7 2 Total expenses 2,257 2,612 (355) (14) Adjusted operating earnings $ 867 $ 618 $ 249 40 % NM Not Meaningful - variance equal to or greater than 100%. Our Retirement & Protection Solutions segment pretax adjusted operating earnings, which exclude net realize"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 7036,
+      "text": "of our Consolidated Financial Statements. The accounting and reporting policies and estimates we have identified as fundamental to a full understanding of our consolidated results of operations and financial condition are described below. See Note 2 to our Consolidated Financial Statements for further information about our accounting policies. Valuation of Investments The most significant componen"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6053,
+      "text": "the nonperformance credit spread was $15 million for 2023 compared to a favorable impact of $13 million for the prior year. • A $17 million decrease in expense from other market impacts on IUL benefits, net of hedges, which was an expense of $34 million for 2023 compared to an expense of $51 million for the prior year. The decrease in expense was primarily due to an increase in the IUL embedded de"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5326,
+      "text": "124 352 11 Banking and deposit interest expense — — — — Total net revenues 3,476 3,124 352 11 Expenses Distribution expenses 464 448 16 4 Interest credited to fixed accounts 369 386 (17) (4) Benefits, claims, losses and settlement expenses 744 469 275 59 Remeasurement (gains) losses of future policy benefit reserves (19) 1 (20) NM Change in fair value of market risk benefits 628 372 256 69 Amortiz"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5594,
+      "text": "risk benefits (1,049) 756 (293) Indexing feature for structured variable annuities 793 (513) 280 Total variable annuity and structured variable annuity benefits (256) 243 (13) IUL insurance 52 (52) — Total $ (525) $ 193 $ (332) (2) Interest Rate Increase 100 Basis Points Interest Rate Exposure to Pretax Income Before Hedge Impact Hedge Impact Net Impact (in millions) Asset-based management and dis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6870,
+      "text": "x) periods of elevated inflation; (xi) natural disasters such as weather catastrophes; and (xii) other factors affecting investor sentiment and confidence in the financial markets. Furthermore, changes in consumer economic variables, such as the number and size of personal bankruptcy filings, the rate of unemployment, decreases in property values, and the level of consumer confidence and consumer "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6892,
+      "text": "followed by losses are accounted for as insurance liabilities. The portion of structured variable annuities, indexed annuities and indexed universal life (“IUL”) policies allocated to the indexed account is accounted for as an embedded derivative. The establishment of reserves is an estimation process using a variety of methods, assumptions and data elements. If actual experience is better than or"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6783,
+      "text": "hedge these benefits and the “spread” income generated on our deposit products, fixed insurance, the fixed portion of variable annuities and variable insurance contracts and fixed deferred annuities. We have been operating in a historically low interest rate environment but have recently experienced a substantial increase in rates with uncertainty about where rates will go in the future. A higher "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9574468085106383,
+    "answer_relevancy": 0.7660622199663111,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6809
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:50:18.808305",
+   "duration_ms": 17930,
+   "answer": "Ameriprise Financial, Inc. (AMP) employs a sophisticated revenue recognition and valuation framework for its variable annuity products, primarily focusing on fee-based income and fair value assessments of market-linked liabilities. Revenue from these contracts is largely derived from management and financial advice fees, distribution fees, and specific assessments related to market risk benefits.\n\n### Revenue Recognition for Variable Annuities\nFor variable annuities, Ameriprise recognizes revenue primarily through **management and financial advice fees**. these fees are earned from managing separate account assets and providing administrative services. These revenues are generally asset-based, meaning they fluctuate according to the value of the assets under management and the underlying market performance. Additionally, the company earns **distribution fees** based on the assets under management and the volume of product sales.\n\nIn the case of **market risk benefits (MRBs)**—which include contract features like Guaranteed Minimum Death Benefits (GMDB) and Guaranteed Minimum Withdrawal Benefits (GMWB)—revenue is also generated through contract assessments. These assessments are projected over the life of the contract and are integrated into the fair value measurement of the liabilities.\n\n### Valuation of Future Revenues and Liabilities\nAmeriprise uses actuarial models to simulate various equity market scenarios to value market risk benefits and future policy obligations. This valuation process is based on **fair value accounting principles**, calculating the present value of projected discounted cash flows, including both benefits to be paid and fees to be collected. Key assumptions driving these valuations include:\n*   **Customer asset value growth rates:** Estimates of how underlying investments will perform.\n*   **Policyholder behavior:** Assumptions regarding surrenders (persistency), withdrawals, and benefit utilization.\n*   **Mortality and Morbidity:** Actuarial estimates of life expectancy and health-related claims.\n*   **Investment margins:** The expected spread earned on invested assets.\n\nFor **structured variable annuities (SVA)** and indexed universal life products, the portions allocated to indexed accounts are accounted for as **embedded derivatives**. These are recorded at fair value on the balance sheet, with changes in value typically reflected in earnings.\n\n### Nonperformance Risk and Market Adjustments\nA critical component of the valuation of market risk benefits and embedded derivatives is the **nonperformance risk adjustment**. Ameriprise adjusts the valuation of these liabilities to reflect the risk that its life insurance subsidiaries might not fulfill their obligations. This adjustment is based on an estimated spread over the U.S. Treasury curve. \n\nCrucially, while most changes in the fair value of market risk benefits are recorded through earnings, the portion of the change resulting from shifts in the company's own **nonperformance risk** is recognized in **Other Comprehensive Income (Loss)** rather than net income. This distinction helps isolate the impact of the company's credit standing from its operational performance and market-driven fluctuations.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023",
+   "answer_length": 3304,
+   "context_length": 106603,
+   "context": {
+    "entities": 41,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 106,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Fair Value of Market Risk Benefits",
+     "Variable Annuities With Living Benefits",
+     "Contract Options",
+     "Performance Obligation",
+     "Life Contingent Payout Annuities",
+     "Structured Variable Annuities (SVA)",
+     "Revenue Recognition",
+     "Transactional Solutions",
+     "Amortizable Customer Relationships",
+     "Projected Customer Revenue Growth Rates",
+     "Ameriprise Financial, Inc.",
+     "Variable Annuity Products",
+     "Contractholder Assumptions",
+     "Structured Variable Annuities",
+     "Nonperformance Risk"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6377,
+      "text": "defaults by counterparties to our reinsurance arrangements; 64 Index Ameriprise Financial, Inc. • inadequate reserves for future policy benefits and claims or for future redemptions and maturities; • deviations from our assumptions regarding morbidity, mortality and persistency affecting our insurance profitability; • damage to our reputation arising from employee or advisor misconduct or otherwis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5491,
+      "text": ") Amortization of deferred acquisition costs 233 239 (6) (3) Interest and debt expense 39 37 2 5 General and administrative expense 309 302 7 2 Total expenses 2,257 2,612 (355) (14) Adjusted operating earnings $ 867 $ 618 $ 249 40 % NM Not Meaningful - variance equal to or greater than 100%. Our Retirement & Protection Solutions segment pretax adjusted operating earnings, which exclude net realize"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 7036,
+      "text": "of our Consolidated Financial Statements. The accounting and reporting policies and estimates we have identified as fundamental to a full understanding of our consolidated results of operations and financial condition are described below. See Note 2 to our Consolidated Financial Statements for further information about our accounting policies. Valuation of Investments The most significant componen"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6053,
+      "text": "the nonperformance credit spread was $15 million for 2023 compared to a favorable impact of $13 million for the prior year. • A $17 million decrease in expense from other market impacts on IUL benefits, net of hedges, which was an expense of $34 million for 2023 compared to an expense of $51 million for the prior year. The decrease in expense was primarily due to an increase in the IUL embedded de"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5326,
+      "text": "124 352 11 Banking and deposit interest expense — — — — Total net revenues 3,476 3,124 352 11 Expenses Distribution expenses 464 448 16 4 Interest credited to fixed accounts 369 386 (17) (4) Benefits, claims, losses and settlement expenses 744 469 275 59 Remeasurement (gains) losses of future policy benefit reserves (19) 1 (20) NM Change in fair value of market risk benefits 628 372 256 69 Amortiz"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5594,
+      "text": "risk benefits (1,049) 756 (293) Indexing feature for structured variable annuities 793 (513) 280 Total variable annuity and structured variable annuity benefits (256) 243 (13) IUL insurance 52 (52) — Total $ (525) $ 193 $ (332) (2) Interest Rate Increase 100 Basis Points Interest Rate Exposure to Pretax Income Before Hedge Impact Hedge Impact Net Impact (in millions) Asset-based management and dis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6870,
+      "text": "x) periods of elevated inflation; (xi) natural disasters such as weather catastrophes; and (xii) other factors affecting investor sentiment and confidence in the financial markets. Furthermore, changes in consumer economic variables, such as the number and size of personal bankruptcy filings, the rate of unemployment, decreases in property values, and the level of consumer confidence and consumer "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6892,
+      "text": "followed by losses are accounted for as insurance liabilities. The portion of structured variable annuities, indexed annuities and indexed universal life (“IUL”) policies allocated to the indexed account is accounted for as an embedded derivative. The establishment of reserves is an estimation process using a variety of methods, assumptions and data elements. If actual experience is better than or"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6783,
+      "text": "hedge these benefits and the “spread” income generated on our deposit products, fixed insurance, the fixed portion of variable annuities and variable insurance contracts and fixed deferred annuities. We have been operating in a historically low interest rate environment but have recently experienced a substantial increase in rates with uncertainty about where rates will go in the future. A higher "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.96,
+    "answer_relevancy": 0.7913901990459188,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6878
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:50:31.248775",
+   "duration_ms": 12440,
+   "answer": "Ameriprise Financial (AMP) recognizes revenue from variable annuities through several primary streams, including management and financial advice fees, distribution fees, and policy and contract charges. Management and financial advice fees are derived from managing assets and providing administrative services, and they specifically include mortality and expense risk fees associated with these contracts. Distribution fees encompass asset-based fees (such as 12b-1 fees) and surrender charges collected when a contract is terminated early. Furthermore, policy and contract charges for variable annuities include specific rider charges paid by the policyholder.\n\nThe valuation of future revenues and related benefits is a complex estimation process. AMP utilizes actuarial models to project future benefits and contract assessments by simulating various equity market scenarios. These projections are critical for determining the assets or liabilities for market risk benefits, such as guaranteed minimum death benefits (GMDB) and various living benefits like guaranteed minimum withdrawal benefits (GMWB). The company also earns \"spread\" income, which is the difference between the investment income generated on the fixed portion of variable annuities and the interest credited to the contractholders.\n\nAMP relies on several significant assumptions to project these future cash flows. Key variables include customer asset value growth rates, mortality, surrenders (persistency), benefit utilization, and investment margins. Because policyholder behavior significantly impacts future valuations, the company conducts extensive experience studies to monitor trends in surrenders and the utilization of guaranteed benefits. The valuation of market risk benefits is also impacted by a nonperformance risk adjustment, which is an estimate based on a spread over the U.S. Treasury curve; as this spread fluctuates, the reported liability decreases or increases accordingly.\n\nTo ensure these valuations remain accurate, management performs an annual review of life insurance and annuity valuation assumptions, a process known as \"unlocking.\" During the third quarter of each year, assumptions regarding mortality, surrenders, and other factors are updated relative to current experience and management's future expectations. These updates can lead to a \"benefit\" or \"expense\" in the financial statements depending on whether the revised assumptions improve or worsen the projected financial outlook.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC.",
+   "answer_length": 2545,
+   "context_length": 46911,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 7,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 5491,
+      "text": ") Amortization of deferred acquisition costs 233 239 (6) (3) Interest and debt expense 39 37 2 5 General and administrative expense 309 302 7 2 Total expenses 2,257 2,612 (355) (14) Adjusted operating earnings $ 867 $ 618 $ 249 40 % NM Not Meaningful - variance equal to or greater than 100%. Our Retirement & Protection Solutions segment pretax adjusted operating earnings, which exclude net realize"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 7036,
+      "text": "of our Consolidated Financial Statements. The accounting and reporting policies and estimates we have identified as fundamental to a full understanding of our consolidated results of operations and financial condition are described below. See Note 2 to our Consolidated Financial Statements for further information about our accounting policies. Valuation of Investments The most significant componen"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6892,
+      "text": "followed by losses are accounted for as insurance liabilities. The portion of structured variable annuities, indexed annuities and indexed universal life (“IUL”) policies allocated to the indexed account is accounted for as an embedded derivative. The establishment of reserves is an estimation process using a variety of methods, assumptions and data elements. If actual experience is better than or"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6783,
+      "text": "hedge these benefits and the “spread” income generated on our deposit products, fixed insurance, the fixed portion of variable annuities and variable insurance contracts and fixed deferred annuities. We have been operating in a historically low interest rate environment but have recently experienced a substantial increase in rates with uncertainty about where rates will go in the future. A higher "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6742,
+      "text": "activity is eliminated in our consolidated results. Protection We provide life and disability income insurance products to address the protection and risk management needs of our retail clients. New RiverSource insurance products are exclusively offered through our advisor network. Our advisors also offer insurance products of unaffiliated carriers. The primary sources of revenues for our protecti"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6875,
+      "text": "to our Consolidated Financial Statements. Sources of Revenues and Expenses Management and Financial Advice Fees Management and financial advice fees relate primarily to fees earned from managing mutual funds, private funds, separate account and wrap account assets and institutional investments, as well as fees earned from providing financial advice, administrative services (including transfer agen"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6493,
+      "text": "value is calculated based on projected, discounted cash flows over the life of the contract, including projected, discounted benefits and fees. Equity Price Risk The variable annuity guaranteed benefits guarantee payouts to the annuity holder under certain specific conditions regardless of the performance of the investment assets. For this reason, when equity prices decline, the returns from the s"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8345030823885494,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7086
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:50:54.130272",
+   "duration_ms": 22881,
+   "answer": "Ameriprise Financial, Inc. (AMP) recognizes revenue from its variable annuity products primarily through management and financial advice fees, as well as policy and contract charges. Management and financial advice fees are earned from managing mutual funds, separate accounts, wrap account assets, and institutional investments. Policy and contract charges include fees for variable annuity riders, such as guaranteed minimum death benefits (GMDB) and living benefit riders, as well as charges for universal life (UL) and variable universal life (VUL) insurance.\n\nFor accounting purposes, variable annuities and structured variable annuities (SVAs) are categorized as non-traditional long-duration products. The portion of SVAs and other indexed policies allocated to an indexed account is accounted for as an embedded derivative. Revenue from these contracts is tied to the contract value and market performance, with fees recognized as earned over the life of the contract.\n\n### Valuation of Market Risk Benefits and Future Revenues\n\nAmeriprise utilizes a fair value framework to determine the valuation of market risk benefits (MRBs) associated with variable annuity contracts. These benefits include features such as:\n*   Guaranteed Minimum Death Benefits (GMDB)\n*   Guaranteed Minimum Income Benefits (GMIB)\n*   Guaranteed Minimum Withdrawal Benefits (GMWB)\n*   Guaranteed Minimum Accumulation Benefits (GMAB)\n\nThe fair value is calculated using actuarial models that project discounted cash flows, including both expected benefits to be paid and fees to be collected. These models simulate various equity market scenarios to estimate the potential liability exposure.\n\n### Key Assumptions in Financial Projections\n\nTo estimate future revenues and liabilities, Ameriprise relies on several critical assumptions that are reviewed quarterly and updated annually. These include:\n*   **Customer Asset Value Growth Rates:** Assumptions about how the underlying assets in the variable accounts will perform.\n*   **Policyholder Behavior:** Surrender rates (persistency) and benefit utilization are monitored closely, as deviations from expected behavior can significantly impact profitability.\n*   **Mortality and Morbidity:** Actuarial estimates regarding the life expectancy and health of contractholders.\n*   **Investment Margins:** The expected spread between asset yields and credited rates.\n\nAdditionally, the valuation of liabilities is impacted by a nonperformance risk adjustment. This adjustment reflects the estimated spread over the U.S. Treasury curve required to account for the risk of the company's life insurance subsidiaries not fulfilling their obligations. Changes in this adjustment are recorded in other comprehensive income rather than earnings.\n\n### Market Risk and Hedging\n\nBecause variable annuity valuations are highly sensitive to equity price and interest rate fluctuations, Ameriprise employs a comprehensive hedging program. This program focuses on managing sensitivities such as Delta (equity market level), Rho (interest rate level), and Vega (volatility). For instance, a 10% decline in equity prices as of December 31, 2023, was estimated to have a $1,049 million impact on variable annuity and structured variable annuity benefits before hedging, which was mitigated by a $756 million hedge impact.\n\n### References\n\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023",
+   "answer_length": 3401,
+   "context_length": 122792,
+   "context": {
+    "entities": 62,
+    "relations": 133,
+    "chunks": 10,
+    "rerank_candidates": 129,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Variable Annuity And Structured Variable Annuity Benefits",
+     "Fair Value of Market Risk Benefits",
+     "Indexing Feature For Structured Variable Annuities",
+     "Variable Annuities With Living Benefits",
+     "Variable Annuity Contracts",
+     "Contract Options",
+     "Structured Variable Annuity Product",
+     "Performance Obligation",
+     "Market Impact on Fixed Annuity Benefits",
+     "Life Contingent Payout Annuities",
+     "Structured Variable Annuities (SVAs)",
+     "Structured Variable Annuities (SVA)",
+     "Revenue Recognition",
+     "Separate Variable Accounts (SVAs)",
+     "Transactional Solutions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6377,
+      "text": "defaults by counterparties to our reinsurance arrangements; 64 Index Ameriprise Financial, Inc. • inadequate reserves for future policy benefits and claims or for future redemptions and maturities; • deviations from our assumptions regarding morbidity, mortality and persistency affecting our insurance profitability; • damage to our reputation arising from employee or advisor misconduct or otherwis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5491,
+      "text": ") Amortization of deferred acquisition costs 233 239 (6) (3) Interest and debt expense 39 37 2 5 General and administrative expense 309 302 7 2 Total expenses 2,257 2,612 (355) (14) Adjusted operating earnings $ 867 $ 618 $ 249 40 % NM Not Meaningful - variance equal to or greater than 100%. Our Retirement & Protection Solutions segment pretax adjusted operating earnings, which exclude net realize"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 7036,
+      "text": "of our Consolidated Financial Statements. The accounting and reporting policies and estimates we have identified as fundamental to a full understanding of our consolidated results of operations and financial condition are described below. See Note 2 to our Consolidated Financial Statements for further information about our accounting policies. Valuation of Investments The most significant componen"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6053,
+      "text": "the nonperformance credit spread was $15 million for 2023 compared to a favorable impact of $13 million for the prior year. • A $17 million decrease in expense from other market impacts on IUL benefits, net of hedges, which was an expense of $34 million for 2023 compared to an expense of $51 million for the prior year. The decrease in expense was primarily due to an increase in the IUL embedded de"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5326,
+      "text": "124 352 11 Banking and deposit interest expense — — — — Total net revenues 3,476 3,124 352 11 Expenses Distribution expenses 464 448 16 4 Interest credited to fixed accounts 369 386 (17) (4) Benefits, claims, losses and settlement expenses 744 469 275 59 Remeasurement (gains) losses of future policy benefit reserves (19) 1 (20) NM Change in fair value of market risk benefits 628 372 256 69 Amortiz"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5594,
+      "text": "risk benefits (1,049) 756 (293) Indexing feature for structured variable annuities 793 (513) 280 Total variable annuity and structured variable annuity benefits (256) 243 (13) IUL insurance 52 (52) — Total $ (525) $ 193 $ (332) (2) Interest Rate Increase 100 Basis Points Interest Rate Exposure to Pretax Income Before Hedge Impact Hedge Impact Net Impact (in millions) Asset-based management and dis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6870,
+      "text": "x) periods of elevated inflation; (xi) natural disasters such as weather catastrophes; and (xii) other factors affecting investor sentiment and confidence in the financial markets. Furthermore, changes in consumer economic variables, such as the number and size of personal bankruptcy filings, the rate of unemployment, decreases in property values, and the level of consumer confidence and consumer "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6892,
+      "text": "followed by losses are accounted for as insurance liabilities. The portion of structured variable annuities, indexed annuities and indexed universal life (“IUL”) policies allocated to the indexed account is accounted for as an embedded derivative. The establishment of reserves is an estimation process using a variety of methods, assumptions and data elements. If actual experience is better than or"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6783,
+      "text": "hedge these benefits and the “spread” income generated on our deposit products, fixed insurance, the fixed portion of variable annuities and variable insurance contracts and fixed deferred annuities. We have been operating in a historically low interest rate environment but have recently experienced a substantial increase in rates with uncertainty about where rates will go in the future. A higher "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.953125,
+    "answer_relevancy": 0.7861843449524994,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6848
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:51:12.878650",
+   "duration_ms": 18748,
+   "answer": "Ameriprise Financial (AMP) manages a significant volume of variable annuities, totaling approximately $81 billion in account value as of December 31, 2023. These products are primarily managed through its subsidiary, RiverSource Life, and are categorized into contracts with no living benefit guarantees and those with living benefit guarantees, such as Guaranteed Minimum Withdrawal Benefits (GMWB).\n\n### Revenue Recognition for Variable Annuities\nRevenue from variable annuities at Ameriprise is primarily generated through asset-based management and distribution fees. These fees are earned by managing the underlying separate account assets and providing administrative services. Because these fees are linked to the value of the assets under management, they are subject to fluctuations in both interest rates and equity prices. \n\nFollowing the adoption of Accounting Standards Update (ASU) 2018-12, management no longer excludes adjustments for unearned revenue amortization from its adjusted operating earnings measures. Under this standard, unearned revenue is amortized on a constant-level basis. Additionally, Ameriprise earns premium revenue from life contingent payout annuities, which saw a 10% increase in 2023 due to higher sales volume.\n\n### Valuation of Market Risk Benefits and Future Obligations\nAmeriprise values the market risk benefits associated with variable annuities—including guarantees such as Guaranteed Minimum Death Benefits (GMDB) and GMWB—at fair value. This valuation is recorded through earnings, with the exception of changes due to nonperformance risk, which are recognized in other comprehensive income.\n\nTo determine these valuations and project future benefits, the company employs actuarial models that simulate various equity market scenarios. This process relies on several critical assumptions:\n*   **Customer Asset Value Growth Rates:** Estimates of how the underlying assets will perform.\n*   **Contractholder Behavior:** Assumptions regarding surrenders (persistency) and benefit utilization.\n*   **Mortality:** Expectations regarding the lifespan of policyholders.\n*   **Investment Margins:** The spread between asset yields and credited rates.\n\n### The Unlocking Process and Nonperformance Risk\nAmeriprise performs a quarterly review of these assumptions, with a comprehensive \"unlocking\" process occurring annually in the third quarter. In 2023, the unlocking impact resulted in an expense of $128 million, primarily driven by lower surrender assumptions for variable annuities with living benefits.\n\nThe company also incorporates a nonperformance risk adjustment into its valuations. This estimate reflects a spread over the U.S. Treasury curve, representing the risk of the company's insurance subsidiaries not fulfilling their liabilities. If this spread widens, the reported liability decreases; if it tightens, the liability increases. As of December 31, 2023, if this spread were to move to zero, the reduction to future total equity would be approximately $795 million.\n\n### References\n* [1] AMERIPRISE FINANCIAL, INC. December 31, 2023 Form 10-K",
+   "answer_length": 3103,
+   "context_length": 126768,
+   "context": {
+    "entities": 49,
+    "relations": 146,
+    "chunks": 10,
+    "rerank_candidates": 138,
+    "chunk_tickers": [
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP",
+     "AMP"
+    ],
+    "entity_names": [
+     "Revenue Recognition Process",
+     "Life Contingent Payout Annuities",
+     "Revenue Recognition And Contracts With Customers",
+     "Structured Variable Annuities (SVA)",
+     "Note 2: Revenue Recognition",
+     "Ameriprise Financial, Inc.",
+     "Revenue From Contracts With Customers",
+     "Variable Annuity Products",
+     "FASB ASC 606",
+     "Contractholder Assumptions",
+     "Revenue Recognition",
+     "Structured Variable Annuities",
+     "Unearned Revenue",
+     "Fair Value of Market Risk Benefits",
+     "Premium Revenue"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "AMP",
+      "chars": 6377,
+      "text": "defaults by counterparties to our reinsurance arrangements; 64 Index Ameriprise Financial, Inc. • inadequate reserves for future policy benefits and claims or for future redemptions and maturities; • deviations from our assumptions regarding morbidity, mortality and persistency affecting our insurance profitability; • damage to our reputation arising from employee or advisor misconduct or otherwis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5491,
+      "text": ") Amortization of deferred acquisition costs 233 239 (6) (3) Interest and debt expense 39 37 2 5 General and administrative expense 309 302 7 2 Total expenses 2,257 2,612 (355) (14) Adjusted operating earnings $ 867 $ 618 $ 249 40 % NM Not Meaningful - variance equal to or greater than 100%. Our Retirement & Protection Solutions segment pretax adjusted operating earnings, which exclude net realize"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 7036,
+      "text": "of our Consolidated Financial Statements. The accounting and reporting policies and estimates we have identified as fundamental to a full understanding of our consolidated results of operations and financial condition are described below. See Note 2 to our Consolidated Financial Statements for further information about our accounting policies. Valuation of Investments The most significant componen"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6053,
+      "text": "the nonperformance credit spread was $15 million for 2023 compared to a favorable impact of $13 million for the prior year. • A $17 million decrease in expense from other market impacts on IUL benefits, net of hedges, which was an expense of $34 million for 2023 compared to an expense of $51 million for the prior year. The decrease in expense was primarily due to an increase in the IUL embedded de"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5326,
+      "text": "124 352 11 Banking and deposit interest expense — — — — Total net revenues 3,476 3,124 352 11 Expenses Distribution expenses 464 448 16 4 Interest credited to fixed accounts 369 386 (17) (4) Benefits, claims, losses and settlement expenses 744 469 275 59 Remeasurement (gains) losses of future policy benefit reserves (19) 1 (20) NM Change in fair value of market risk benefits 628 372 256 69 Amortiz"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 5594,
+      "text": "risk benefits (1,049) 756 (293) Indexing feature for structured variable annuities 793 (513) 280 Total variable annuity and structured variable annuity benefits (256) 243 (13) IUL insurance 52 (52) — Total $ (525) $ 193 $ (332) (2) Interest Rate Increase 100 Basis Points Interest Rate Exposure to Pretax Income Before Hedge Impact Hedge Impact Net Impact (in millions) Asset-based management and dis"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6870,
+      "text": "x) periods of elevated inflation; (xi) natural disasters such as weather catastrophes; and (xii) other factors affecting investor sentiment and confidence in the financial markets. Furthermore, changes in consumer economic variables, such as the number and size of personal bankruptcy filings, the rate of unemployment, decreases in property values, and the level of consumer confidence and consumer "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6892,
+      "text": "followed by losses are accounted for as insurance liabilities. The portion of structured variable annuities, indexed annuities and indexed universal life (“IUL”) policies allocated to the indexed account is accounted for as an embedded derivative. The establishment of reserves is an estimation process using a variety of methods, assumptions and data elements. If actual experience is better than or"
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6783,
+      "text": "hedge these benefits and the “spread” income generated on our deposit products, fixed insurance, the fixed portion of variable annuities and variable insurance contracts and fixed deferred annuities. We have been operating in a historically low interest rate environment but have recently experienced a substantial increase in rates with uncertainty about where rates will go in the future. A higher "
+     },
+     {
+      "ticker": "AMP",
+      "chars": 6162,
+      "text": "fixed annuity benefits (net of hedges), the market impact of hedges to offset interest rate and currency changes on unrealized gains or losses for certain investments, block transfer reinsurance transaction impact, gain or loss on disposal of a business that is not considered discontinued operations, integration and restructuring charges, and the impact of consolidating CIEs. Our Corporate & Other"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.925,
+    "answer_relevancy": 0.7308009050677092,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.914
+   }
+  }
+ }
+}

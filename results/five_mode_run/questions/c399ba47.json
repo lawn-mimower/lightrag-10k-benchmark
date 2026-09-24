@@ -1,0 +1,423 @@
+{
+ "question_id": "c399ba47",
+ "ticker": "MRO",
+ "question": "Impact on EPS and shareholder value from share repurchase by Marathon Oil (MRO).",
+ "expected_answer": "Marathon Oil’s buyback of 407 million shares for about $10.8 billion can affect both the earnings per share (EPS) and overall shareholder value in several ways. First, since EPS is calculated as net income divided by the number of outstanding shares, reducing the share count tends to boost EPS even if net income remains unchanged. In this case, the repurchase reduces the denominator, potentially making the company’s profitability on a per-share basis look stronger. A higher EPS can improve investor perception and may support a higher stock price if the market believes that the underlying earnings quality is stable or growing.\n\nAdditionally, share repurchases are often seen as a signal that management believes the stock is undervalued or that they have confidence in the company’s future earnings. This can have a positive impact on market sentiment and overall shareholder value. On the other hand, using $10.8 billion in cash (or equivalent funds) to buy back shares can reduce the company’s liquidity or limit its ability to invest in other growth opportunities. In effect, the benefit of a higher EPS must be weighed against potential risks such as reduced financial flexibility or the opportunity cost of not using the funds for other value-enhancing initiatives.\n\nIn summary, the share repurchase is likely to increase EPS by reducing the outstanding share base, and it may boost overall shareholder value if the market views the repurchase as a sign of confidence in the company’s future. However, the long-term impact on shareholder value will also depend on how efficiently Marathon Oil allocates its remaining capital and how it manages any changes in its balance sheet following the repurchases.",
+ "category": "Shareholder return",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 2618,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:09:57.491444",
+   "duration_ms": 15288,
+   "answer": "Marathon Oil Corporation (MRO) utilizes share repurchases as a primary component of its disciplined capital allocation framework. This strategy is designed to prioritize shareholder returns and drive per-share growth while remaining resilient through various commodity price cycles. By reducing the number of outstanding shares, the company aims to enhance the value of remaining shares and increase earnings per share (EPS).\n\n### Impact on Earnings Per Share (EPS)\nThe most direct impact of Marathon Oil’s share repurchase program is the reduction of the total outstanding share count, which serves to increase EPS by decreasing the denominator in the calculation. In 2023, Marathon Oil repurchased approximately **$1.5 billion** worth of common stock (58 million shares), which resulted in a **9% reduction** in the company’s outstanding share count for the year.\n\nThe reduction in share count, combined with higher segment profits and lower charges, contributed to an increase in earnings per share of common stock in 2023. Furthermore, management has established a financial target of achieving **12% to 15% growth** in adjusted operating earnings per diluted share, highlighting the role of repurchases in driving underlying profitability and shareholder value.\n\n### Shareholder Value and Capital Return Strategy\nMarathon Oil's share repurchase program is part of a broader commitment to returning capital to investors. Between 2006 and 2023, the company’s cumulative share repurchase authorization reached **$13.1 billion**. By the end of December 2023, the company had repurchased a total of 407 million common shares at a cost of approximately $10.8 billion (excluding taxes and fees). Key highlights regarding shareholder value include:\n\n*   **Authorization Increases:** In November 2023, the Board of Directors increased the remaining share repurchase authorization to **$2.5 billion**. As of December 31, 2023, approximately **$2.3 billion** of that authorization remained available.\n*   **Funding Mechanism:** Repurchases are funded through cash generated from operations, cash on hand, and proceeds from potential asset sales. In 2023, the company generated $4.1 billion in cash from operations, which fully funded its capital program and supported shareholder returns.\n*   **Dividends:** In addition to repurchases, the company returned value through dividends, paying $251 million ($0.41 per share) in 2023, an increase from the $0.32 per share paid in 2022.\n\n### Outlook for Shareholder Returns\nMarathon Oil’s 2024 capital budget, announced at **$1.9 billion to $2.1 billion**, continues to prioritize free cash flow generation and the \"meaningful return of capital to shareholders.\" The company maintains that its focus on per-share growth and a competitive cost structure positions it to navigate volatile commodity price environments while maintaining long-term value for stakeholders.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023 MRO.html",
+   "answer_length": 2979,
+   "context_length": 90519,
+   "context": {
+    "entities": 60,
+    "relations": 93,
+    "chunks": 10,
+    "rerank_candidates": 30,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Income And Dividends Per Common Share",
+     "Marathon Oil Common Stock",
+     "$2.5 Billion Remaining Authorization",
+     "Spin-Off Of Marathon Petroleum Corporation",
+     "9% Share Count Reduction",
+     "$13.1 Billion Share Repurchase Authorization",
+     "$2 Billion Share Repurchase Program",
+     "$1.5 Billion Share Repurchase",
+     "Earnings Per Share (EPS)",
+     "NYSE",
+     "Marathon Oil Corporation 2007 Incentive Compensation Plan",
+     "Discounted Future Net Cash Flows",
+     "Marathon Oil EF II LLC",
+     "$2.3 Billion",
+     "407 Million Shares Repurchased"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4956,
+      "text": "Other comprehensive income — — — — — 9 9 Dividends paid ($ 0.18 per share) — — — — ( 141 ) — ( 141 ) December 31, 2021 Balance $ — $ 937 $ ( 4,825 ) $ 7,221 $ 7,271 $ 82 $ 10,686 Shares repurchased under buyback programs — — ( 2,754 ) — — — ( 2,754 ) Stock-based compensation — — 67 ( 18 ) — — 49 Net income — — — — 3,612 — 3,612 Other comprehensive income — — — — — 24 24 Dividends paid ($ 0.32 per "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6299,
+      "text": "accounting manager in E.G. Available Information Our website is www.marathonoil.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other reports and filings with the SEC are available free of charge on our website as soon as reasonably practicable after the reports are filed or furnished with the SEC. Information contained on our website is not in"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8678231946916789,
+    "context_recall": 0.8,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.917
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:10:18.435557",
+   "duration_ms": 20944,
+   "answer": "Marathon Oil Corporation (MRO) utilizes share repurchase programs as a fundamental component of its capital allocation framework to return capital to shareholders and drive long-term value. This strategy is designed to deliver cash returns that are sustainable and resilient across all commodity price cycles. By prioritizing \"per share growth,\" the company aims to enhance the value of remaining shares through the reduction of the total share count.\n\n### Impact on Earnings Per Share (EPS)\nThe primary mechanism through which share repurchases affect Earnings Per Share is the reduction of the denominator in the EPS calculation. Net earnings per share is determined by dividing net earnings by the weighted average common shares outstanding. Because stock buybacks utilize cash flow to reduce the number of shares available in the market, the earnings are distributed across fewer shares, which increases the EPS. This approach is a key part of Marathon Oil's strategy to prioritize per-share growth alongside disciplined reinvestment and debt retirement.\n\n### Influence on Shareholder Value\nShare repurchases are a primary method for the return of capital to shareholders, intended to enhance overall shareholder value. Management prioritizes these returns as part of a disciplined framework that limits capital expenditures relative to expected cash flow from operations. Beyond the mathematical increase in EPS, repurchase activities can influence the stock price and bolster investor confidence. Management also uses targets, such as adjusted operating return on equity, to measure and prioritize the increase of shareholder value.\n\n### Financial Constraints and Execution\nThe feasibility and execution of share repurchase programs at Marathon Oil are subject to several factors:\n*   **Capital Availability:** Repurchases depend on available cash balances and results of operations.\n*   **Future Requirements:** Share repurchases are subject to future capital needs for operations, debt service, and strategic transactions.\n*   **Board Oversight:** The Board of Directors authorizes these programs based on the company's financial condition and shareholder interests. \n\nAs of December 31, 2023, Marathon Oil reported approximately $2.3 billion of remaining authorization under its share repurchase program, following active purchases during the fourth quarter of 2023. The company’s 2024 capital budget continues to prioritize free cash flow generation to support the meaningful return of capital to its stakeholders.\n\n### References\n\n* [1] Marathon Oil Corporation December 31, 2023",
+   "answer_length": 2590,
+   "context_length": 73619,
+   "context": {
+    "entities": 30,
+    "relations": 60,
+    "chunks": 5,
+    "rerank_candidates": 106,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Results Of Operations",
+     "Share Repurchase Programs",
+     "Company",
+     "Returns on Pension Assets",
+     "Financial Condition",
+     "Board Of Directors",
+     "Cash Flow",
+     "Stock Buybacks",
+     "EBITDA Margin",
+     "New Solutions And Businesses",
+     "Future Capital Requirements",
+     "Dividend Increases",
+     "Stock Price",
+     "Common Stock",
+     "Common Stock Repurchases"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6126,
+      "text": "ized communities of practice across all six of our petro-technical disciplines to further our culture of innovation and collaboration through knowledge and best practice sharing across our multiple basins. Executive Officers The executive officers of Marathon Oil and their ages as of February 1, 2024, are as follows: Lee M. Tillman 62 Chairman, President and Chief Executive Officer Dane E. Whitehe"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8379499109833163,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9595
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:10:35.587520",
+   "duration_ms": 17152,
+   "answer": "Based on the provided documents, Marathon Oil (MRO) utilized a significant portion of its cash flow to conduct share repurchases in 2022 and 2023. During 2023, the company repurchased 58 million shares of its common stock under its buyback program at a cost of approximately $1.5 billion (specifically $1,473 million). This followed a higher level of activity in 2022, where the company spent $2,754 million on share repurchases.\n\nThe provided context does not contain specific information regarding the numerical impact of these repurchases on Earnings Per Share (EPS) or a qualitative analysis of their direct impact on \"shareholder value.\" The documentation focuses on the execution and funding of the program, noting that commodity prices are the most significant factor impacting the company's ability to fund these share repurchases and dividends.\n\nIn addition to share repurchases, Marathon Oil returned value to shareholders through dividends, paying $251 million in 2023 compared to $220 million in 2022. The company stated that its liquidity level and operational cash flows provide it with the flexibility to continue funding these activities across various commodity price environments.\n\n### References\n\n* [1] Marathon Oil Corporation",
+   "answer_length": 1246,
+   "context_length": 5760,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 1,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "MRO"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.5
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:10:54.015986",
+   "duration_ms": 18428,
+   "answer": "Marathon Oil Corporation (MRO) utilizes share repurchases as a core component of its capital allocation framework to return value to shareholders and drive per-share growth. In 2023, the company repurchased approximately $1.5 billion worth of common stock, which resulted in a significant 9% reduction in the total outstanding share count for the year. These repurchases were funded through cash generated from operations, which totaled $4.1 billion in 2023.\n\nThe reduction in the number of outstanding shares has a direct positive impact on the company's Earnings Per Share (EPS). By decreasing the denominator in the EPS calculation, the \"favorable share count impact\" contributed to an overall increase in earnings per share of common stock (assuming dilution) for the fiscal year 2023. This strategy aligns with management's objective to prioritize per-share growth even as it manages volatile commodity price environments.\n\nBeyond immediate EPS metrics, share repurchases are integral to Marathon Oil's broader strategy of delivering sustainable, long-term shareholder value. The company’s Board of Directors oversees these programs, authorizing increases based on financial condition and capital availability. Between 2006 and 2023, the cumulative share repurchase authorization reached $13.1 billion, with 407 million shares repurchased at a cost of approximately $10.8 billion during that period. As of December 31, 2023, the company maintained a remaining authorization of $2.3 billion to continue its buyback activities.\n\nThe execution of these buybacks, alongside dividend payments—which increased to $0.41 per share in 2023—demonstrates a commitment to a disciplined capital allocation framework. This framework prioritizes meaningful returns to investors while simultaneously allowing the company to retire debt and fund its capital programs. The Board's decision to increase the remaining repurchase authorization to $2.5 billion in November 2023 further underscores the role of repurchases in the company's ongoing value-creation strategy.\n\n### References\n\n- [1] Marathon Oil Corporation Performance Report (MRO.html)",
+   "answer_length": 2132,
+   "context_length": 116363,
+   "context": {
+    "entities": 39,
+    "relations": 151,
+    "chunks": 10,
+    "rerank_candidates": 138,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Income And Dividends Per Common Share",
+     "Results Of Operations",
+     "Marathon Oil Common Stock",
+     "Share Repurchase Programs",
+     "$2.5 Billion Remaining Authorization",
+     "Company",
+     "Spin-Off Of Marathon Petroleum Corporation",
+     "Returns on Pension Assets",
+     "9% Share Count Reduction",
+     "Financial Condition",
+     "$13.1 Billion Share Repurchase Authorization",
+     "Board Of Directors",
+     "$2 Billion Share Repurchase Program",
+     "Cash Flow",
+     "$1.5 Billion Share Repurchase"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4956,
+      "text": "Other comprehensive income — — — — — 9 9 Dividends paid ($ 0.18 per share) — — — — ( 141 ) — ( 141 ) December 31, 2021 Balance $ — $ 937 $ ( 4,825 ) $ 7,221 $ 7,271 $ 82 $ 10,686 Shares repurchased under buyback programs — — ( 2,754 ) — — — ( 2,754 ) Stock-based compensation — — 67 ( 18 ) — — 49 Net income — — — — 3,612 — 3,612 Other comprehensive income — — — — — 24 24 Dividends paid ($ 0.32 per "
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6840,
+      "text": "to our shareholders and differentiated execution underpinned by a strong balance sheet, ESG excellence and our multi-basin portfolio. Intentional human capital management strategies enable us to attract, engage, develop and deploy our dedicated employees. We also believe in creating a safe, clean and ethical environment where employees feel empowered to make a difference in support of our business"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8641652528430961,
+    "context_recall": 0.5,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.841
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T21:11:16.643603",
+   "duration_ms": 22628,
+   "answer": "Marathon Oil (MRO) has utilized share repurchases as a primary mechanism to enhance shareholder value and drive growth in per-share financial metrics. In 2023, the company repurchased approximately $1.5 billion worth of common stock, which involved the buyback of 58 million shares. This strategic action resulted in a 9% reduction in the company's total outstanding share count during that year alone.\n\nThe significant reduction in the number of outstanding shares has had a direct, \"favorable\" impact on Marathon Oil’s Earnings Per Share (EPS). By decreasing the total number of shares, the company's net income is distributed across a smaller base, thereby increasing the earnings allocated to each remaining share. In 2023, the company reported that its earnings per share of common stock (assuming dilution) increased due to higher segment profits and lower charges, combined with the positive effect of the reduced share count.\n\nFrom a broader perspective, share repurchases are a core component of Marathon Oil’s capital allocation framework, which prioritizes shareholder returns and per-share growth alongside debt retirement and disciplined reinvestment. Between 2006 and 2023, the company's cumulative share repurchase authorization reached $13.1 billion. By the end of December 2023, the company had repurchased a total of 407 million common shares at a cost of approximately $10.8 billion.\n\nThe company continues to view these buybacks as a sustainable method for returning capital, supported by strong liquidity and cash flow. In 2023, Marathon Oil generated $4.1 billion in cash from operations, which was used to fund both its $1.9 billion to $2.0 billion capital program and its shareholder return initiatives. As of December 31, 2023, the Board of Directors had maintained a remaining repurchase authorization of approximately $2.3 billion, signaling a continued commitment to this strategy into 2024.\n\n### References\n\n* [1] Marathon Oil Corporation",
+   "answer_length": 1967,
+   "context_length": 119771,
+   "context": {
+    "entities": 42,
+    "relations": 161,
+    "chunks": 10,
+    "rerank_candidates": 151,
+    "chunk_tickers": [
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO",
+     "MRO"
+    ],
+    "entity_names": [
+     "Income And Dividends Per Common Share",
+     "Results Of Operations",
+     "$2.5 Billion Remaining Authorization",
+     "Share Repurchase Programs",
+     "Spin-Off Of Marathon Petroleum Corporation",
+     "Company",
+     "Marathon Oil Common Stock",
+     "Returns on Pension Assets",
+     "$13.1 Billion Share Repurchase Authorization",
+     "Financial Condition",
+     "$2 Billion Share Repurchase Program",
+     "Board Of Directors",
+     "9% Share Count Reduction",
+     "Cash Flow",
+     "$1.5 Billion Share Repurchase"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "MRO",
+      "chars": 6561,
+      "text": "corrective actions resulting from litigation, other proceedings and investigations or alleged violations of law or permits; • drilling and operating risks; • lack of, or disruption in, access to storage capacity, pipelines or other transportation methods; • availability of drilling rigs, materials and labor, including the costs associated therewith; • difficulty in obtaining necessary approvals an"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6078,
+      "text": "of potential, and any actual, cybersecurity and information technology risks and breaches. In addition, the Audit and Finance Committee and management review reports from internal audit regarding evaluation of our information technology department on a regular basis. To date, the Company has not experienced any material cybersecurity incidents and we are not aware of any cybersecurity risks that a"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5354,
+      "text": "3 - 10/31/2023 5,138,870 $ 26.97 5,138,870 $ 1,211,419,807 11/01/2023 - 11/30/2023 4,351,229 25.92 4,351,229 2,406,100,240 12/01/2023 - 12/31/2023 4,070,278 24.57 4,070,278 2,306,100,537 Total 13,560,377 $ 25.91 13,560,377 (a) No shares of restricted stock were delivered by employees to Marathon Oil, upon vesting, to satisfy tax withholding requirements. (b) Excludes 1% excise tax on share repurch"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5398,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the Fiscal Year Ended ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from ___ to ___ Commission file number 1-1513 Marathon Oil Corporation (Exact name o"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6382,
+      "text": "Consolidated Statements of Income 59 Consolidated Statements of Comprehensive Income 60 Consolidated Balance Sheets 61 Consolidated Statements of Cash Flows 62 Consolidated Statements of Stockholders’ Equity 63 Notes to Consolidated Financial Statements 1. Summary of Principal Accounting Policies 64 2. New Accounting Standards 67 3. Income and Dividends per Common Share 68 4. Acquisitions 68 5. Re"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 6141,
+      "text": "15. Stockholders’ Equity 85 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 16. Incentive Based Compensation 86 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 87 Table of Contents MARATHON OIL CORPORATION Notes to Consolidated Financial Statements 17. Equity Method Investments 88 Table of Contents MARATHON OIL CORPORATION"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5385,
+      "text": "volumes by our equity method investees. Items not allocated to segments, net of income taxes in 2023 was a loss of $441 million versus income of $287 million in 2022. The change from income to loss was primarily due to the partial release of the valuation allowance on certain U.S. and state deferred tax assets resulting in a non-cash deferred tax benefit of $685 million in 2022. In addition, our i"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4205,
+      "text": "ed taxes 126 171 Other current liabilities 312 364 Long-term debt due within one year 1,600 402 Total current liabilities 3,922 2,306 Long-term debt 3,378 5,521 Deferred tax liabilities 419 167 Defined benefit postretirement plan obligations 93 100 Asset retirement obligations 326 295 Deferred credits and other liabilities 232 154 Total liabilities 8,370 8,543 Commitments and contingencies (Note 2"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 5699,
+      "text": "under Investors—Corporate Governance. You may request a printed copy free of charge by sending a request to the Corporate Secretary. We intend to disclose any amendments and any waivers to our Code of Business Conduct that apply to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions and relate to any elem"
+     },
+     {
+      "ticker": "MRO",
+      "chars": 4956,
+      "text": "Other comprehensive income — — — — — 9 9 Dividends paid ($ 0.18 per share) — — — — ( 141 ) — ( 141 ) December 31, 2021 Balance $ — $ 937 $ ( 4,825 ) $ 7,221 $ 7,271 $ 82 $ 10,686 Shares repurchased under buyback programs — — ( 2,754 ) — — — ( 2,754 ) Stock-based compensation — — 67 ( 18 ) — — 49 Net income — — — — 3,612 — 3,612 Other comprehensive income — — — — — 24 24 Dividends paid ($ 0.32 per "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.896977479046091,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.955
+   }
+  }
+ }
+}

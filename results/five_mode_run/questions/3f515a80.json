@@ -1,0 +1,411 @@
+{
+ "question_id": "3f515a80",
+ "ticker": "HAS",
+ "question": "Risks related to external financing, alongside growth potential and competitive positioning, must be assessed for Hasbro (HAS).",
+ "expected_answer": "The provided data clearly outlines several potential risks that could impede Hasbro’s ability to secure external financing. Key risks include:\n\n1. Disruptions in Credit Markets: The company’s financing strategy relies partly on commercial paper and borrowings under revolving credit facilities. In times of credit market disruption, these sources may become either unavailable or more expensive, leading to higher financing costs or a shortfall in working capital. This risk is particularly significant during severe economic downturns where lenders might restrict or stop funding entirely.\n\n2. Unexpected Operating Losses and Increased Capital Expenditures: If Hasbro experiences material operating losses or incurs higher than anticipated capital expenditures, its cash flows from operations could be adversely affected. Reduced operational cash flow would increase the company’s reliance on external financing. If operating performance deteriorates, it could lead to a negative feedback loop where reduced funding means less ability to invest in growth or manage operational risks.\n\nImpact on Future Growth and Competitive Positioning:\n\n• Reduced Liquidity and Flexibility: If access to external financing is constrained, Hasbro might have to scale back on investments in new projects, marketing, or other strategic opportunities essential for long-term growth.\n\n• Weakened Competitive Positioning: Inability to secure funding might force the company to forego strategic expenditures that enhance its market position, such as product innovation or expansion into new markets. This could allow competitors to capture market share, adversely impacting Hasbro’s competitive edge over time.\n\n• Elevated Financing Costs: A constrained credit environment could increase borrowing costs. This would not only reduce immediate liquidity but also adversely affect the company’s return on investment in growth initiatives, potentially putting Hasbro at a strategic disadvantage compared to competitors with more secure or lower-cost financing options.\n\nOverall, while Hasbro currently maintains adequate liquidity through various sources (including cash on hand and operational cash flows), any significant disruption in these areas or an unexpected downturn in operational performance could hinder its ability to fund growth, thereby impacting its long-term competitive positioning.",
+ "category": "Financials",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 2,
+ "finder_reference_chars": 12303,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:20:55.177664",
+   "duration_ms": 34658,
+   "answer": "Hasbro, Inc. (HAS) faces several financial risks associated with its external financing and indebtedness. The company’s debt obligations may limit its overall cash availability, potentially requiring the diversion of cash to fund debt service payments rather than reinvesting in the business. This indebtedness can make it more difficult for the company to take certain strategic actions or obtain further external borrowings. Furthermore, Hasbro is subject to risks from external financing markets; during periods of economic distress, external financing may become unavailable or come with burdensome restrictions that affect operational flexibility. Fluctuations in interest rates and volatility in capital and credit markets can also hinder the company’s ability to refinance debt or obtain necessary lender consents.\n\nDespite these financial risks, Hasbro is pursuing significant growth potential through its \"Blueprint 2.0\" strategic plan. This transformation initiative focuses on fewer, bigger, and more profitable brands, emphasizing story-led and play-led consumer franchises across multiple platforms. A primary driver of growth is the Wizards of the Coast and Digital Gaming segment, which includes high-performing properties like *Magic: The Gathering*—Hasbro’s first billion-dollar brand—and *Dungeons & Dragons*. The company is also expanding its digital footprint through licensing its intellectual property for successful titles such as *Baldur’s Gate 3* and *Monopoly Go!*, and by investing in its fan-focused direct-to-consumer platforms like Hasbro Pulse and Secret Lair.\n\nHasbro's competitive positioning is rooted in its diverse portfolio of iconic franchises, including *Transformers*, *Nerf*, *Play-Doh*, and *Peppa Pig*. The company reinforces its market standing through strategic, multi-year licensing partnerships for premier brands such as *Marvel* and *Star Wars*. To maintain its leadership in the global toy and gaming industries, Hasbro has implemented an Operational Excellence Program aimed at cost savings, supply chain transformation, and organizational efficiency. This includes diversifying its manufacturing base away from China to locations such as Vietnam and India to mitigate supply chain disruptions.\n\nThe company's performance remains sensitive to broader economic factors, including inflation and consumer spending patterns. Significant inflation in 2022 and 2023 impacted operations, and Hasbro may implement price adjustments to mitigate these effects. Additionally, the company faces risks related to seasonality, as a significant portion of its sales are concentrated in the second half of the year, leading to potential challenges in managing production and shipping schedules for popular items.\n\n### References\n\n- [1] Hasbro, Inc. December 31, 2023 HAS.html",
+   "answer_length": 2810,
+   "context_length": 113733,
+   "context": {
+    "entities": 60,
+    "relations": 141,
+    "chunks": 10,
+    "rerank_candidates": 66,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "External Borrowings",
+     "Public Debt And Equity Markets",
+     "Commercial And Financing Market Conditions",
+     "Retailer Bankruptcy Risk",
+     "Senior Revolving Credit Facility",
+     "Foreign Currency Rates",
+     "Item 5. Market for Registrants Common Equity",
+     "Underproduction Risk",
+     "Entertainment Businesses",
+     "External Financing",
+     "Overproduction Risk",
+     "Financing Capacity",
+     "Cash Resources",
+     "Capital And Credit Markets",
+     "Equity and Debt Markets"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6723,
+      "text": ", and cash flows for each of the years in the three-year period ended December 31, 2023, and the related notes and financial statement schedule II - valuation and qualifying accounts (collectively, the consolidated financial statements). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5249,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended Commission file number 1-6682 Hasbro, Inc. (Exact Name of Registrant As Specified in its Charter) Rhode Island 05-0155090 (State of Incorporation) (I.R.S. Employer Identification No.) 102"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6797,
+      "text": ", the Company announced additional strategic steps to position the business for future growth, including additional headcount reductions under the Operational Excellence Program, and a revised organizational structure whereby aspects of certain corporate functions are anticipated to be supported by a third-party outsourcing provider. The Company’s organizational structure changes will result in th"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 4889,
+      "text": "declared — 5.3 ( 393.7 ) — — — ( 388.4 ) — Distributions paid to noncontrolling owners and other foreign exchange — — — — — ( 5.5 ) ( 5.5 ) — Buyout of redeemable noncontrolling interest — ( 2.1 ) — — — — ( 2.1 ) — Balance, December 31, 2023 $ 110.1 2,590.6 2,188.4 ( 201.5 ) ( 3,625.7 ) 25.1 $ 1,087.0 $ — See accompanying notes to consolidated financial statements. 76 Table of Contents HASBRO, INC"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6302,
+      "text": "Harley Davidson, Ms. Goetter served in senior leadership roles at Tyson Foods, Inc. from 2019 to 2020 and General Mills, Inc. from 1998 to 2019. (3) Prior to joining Hasbro in 2023, Mr. Kilpin served as Executive Chairman and Chief Executive Officer of PlayMonster Group, LLC from 2020 to 2023. Prior thereto, Mr. Kilpin held senior leadership positions within the toy and entertainment industry at c"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8857142857142857,
+    "answer_relevancy": 0.8079609635027146,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8401
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:21:36.827184",
+   "duration_ms": 41650,
+   "answer": "Hasbro, Inc. (HAS) operates in a complex environment where its financial stability, growth initiatives, and competitive standing are deeply interconnected. The company’s financial condition is heavily influenced by its ability to manage debt and maintain liquidity through a structured Deleveraging Plan. This strategy focuses on reducing long-term debt—including the retirement of floating-rate debt—by utilizing operational cash flow and proceeds from business sales. Hasbro’s access to capital is further supported by credit agreements and fixed-rate notes, such as $500 million in 3% notes. However, this stability is vulnerable to credit market disruptions and adverse economic conditions, which can increase borrowing costs and limit the availability of external financing necessary for operations or expansion.\n\nThe company’s growth potential is driven by a long-term strategy focused on its core segments: Wizards of the Coast, Consumer Products, and Entertainment. Hasbro is increasingly prioritizing digital gaming and the integration of new technologies, such as artificial intelligence, into game development to meet evolving consumer preferences. Strategic acquisitions, like the $146.3 million purchase of D&D Beyond in 2022, are central to this expansion. Despite these opportunities, the company faces significant risks related to the recoverability of assets. For instance, in 2023, Hasbro recorded substantial non-cash goodwill impairment charges of $231.2 million for its Film and TV unit and $960 million for its Family Brands unit. These charges were triggered by factors such as revised profitability forecasts, delayed production schedules due to industry strikes, and a strategic shift toward a support model for existing brands.\n\nCompetitive positioning remains a critical risk factor as Hasbro contends with low barriers to entry and a diversifying entertainment landscape. The company competes with traditional toy and game manufacturers, large retailers offering private labels at lower prices, and digital gaming developers across mobile and console platforms. For the attention of older children, Hasbro faces intense competition from technology companies producing tablets and social media platforms. Furthermore, its entertainment business must compete with major global film studios and streaming services for viewers and distribution rights. Failure to accurately anticipate consumer tastes or to adapt to rapid changes in digital distribution and entertainment formats could lead to a decline in market share and overall business results.\n\n### References\n\n- [1] Hasbro, Inc.",
+   "answer_length": 2609,
+   "context_length": 64183,
+   "context": {
+    "entities": 47,
+    "relations": 60,
+    "chunks": 3,
+    "rerank_candidates": 124,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "New Technology",
+     "Operational Or Commercialization Difficulties",
+     "Competition",
+     "Products And Systems Integration",
+     "Future Growth Prospects",
+     "Legal And Regulatory Developments",
+     "Data Analytics Provider",
+     "Financing Capacity",
+     "External Development Opportunities",
+     "Internal Development Projects",
+     "Acquisitions",
+     "External Factors",
+     "Company",
+     "Global Risks",
+     "Operating Results"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 7081,
+      "text": ", although certain products also use electronic components. All of these materials are readily available but may be subject to significant fluctuations in price. There are certain chemicals (including phthalates and BPA) that national, state and local governments have restricted or are seeking to restrict or limit the use of; however, we do not believe these restrictions have or will materially im"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 7132,
+      "text": "is potentially even greater than for our other products and this pace of change is expected to accelerate as artificial intelligence is further incorporated into the development of games. If a digital game fails to gain consumer acceptance early in its life cycle, there are limited opportunities to gain such acceptance through secondary launches or distribution through alternative platforms. This "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6774,
+      "text": "and television production costs, recoverability of goodwill, intangible assets, income taxes and business combinations. Additionally, the Company identified the valuation of the Company’s equity method investment in Discovery Family Channel as a significant accounting estimate. Film and Television Production Costs The Company incurs certain costs in connection with the production of television pro"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9428571428571428,
+    "answer_relevancy": 0.7716112042635137,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8453
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:21:48.651428",
+   "duration_ms": 11824,
+   "answer": "Based on the provided documentation, the following assessment outlines the risks related to external financing, Hasbro's growth potential, and its competitive positioning.\n\n### External Financing and Financial Risks\nHasbro faces several financial challenges regarding its capital and debt management. The company's indebtedness may limit the availability of cash, potentially forcing the diversion of funds to service debt payments rather than investing in business operations [1]. There is also the risk that Hasbro may be unable to obtain or service external borrowings, or that the restrictions imposed by such borrowings could become burdensome [1]. \n\nBeyond direct financing, the company is susceptible to broader economic conditions, such as inflation and rising interest rates, which can harm the business and negatively impact discretionary consumer spending [1]. Additionally, Hasbro’s financial performance is subject to fluctuations in foreign currency rates and changes in tax laws across the various territories in which it operates [1].\n\n### Growth Potential and Strategic Transformation\nHasbro is currently engaged in a multi-year transformation guided by a strategic plan announced in October 2022. This strategy focuses on \"Creating Magic Through Play\" by delivering engaging experiences across gaming, consumer products, and entertainment [1]. Key drivers for growth include:\n*   **Focus on Core Franchises:** The company is concentrating strategic investments on its most profitable franchises, including **MAGIC: THE GATHERING**, **Hasbro Gaming**, **PLAY-DOH**, **NERF**, **TRANSFORMERS**, **DUNGEONS & DRAGONS**, and **PEPPA PIG** [1].\n*   **Operational Efficiencies:** Hasbro has worked to create supply chain efficiencies, improve inventory positions, and lower costs to facilitate reinvestment back into the business [1].\n*   **Portfolio Optimization:** To sharpen its focus, Hasbro sold non-core parts of its business, such as the Entertainment One film and television business (excluding Hasbro-specific and family brands) [1].\n*   **Organizational Changes:** Despite market headwinds in the Consumer Products segment, the company has implemented organizational structure changes and headcount reductions intended to strengthen its foundation for future growth [1].\n\n### Competitive Positioning and Operational Risks\nHasbro’s competitive position relies heavily on its iconic brands and its ability to protect its intellectual property [1]. However, the company’s operational model introduces specific risks:\n*   **Third-Party Dependencies:** Digital game and entertainment offerings are often dependent on third-party studios, content producers, and distribution channels. Furthermore, planned outsourcing may result in Hasbro having less control over certain business functions [1].\n*   **Talent Acquisition and Leadership:** The company’s success is linked to its ability to attract and retain talented individuals. Recent leadership changes, including the appointment of a new Chief Financial Officer in May 2023, underscore the importance of successful management transitions [1].\n*   **Corporate Reputation:** Hasbro leverages a strong reputation for corporate citizenship and ethics. Failure to achieve sustainability goals or involvement in product liability suits and litigation could cause reputational damage and harm the business [1].\n\n### References\n\n* [1] Hasbro, Inc. December 31, 2023 HAS.html",
+   "answer_length": 3436,
+   "context_length": 6586,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 1,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HAS"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8493728735421663,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4623
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:22:31.941104",
+   "duration_ms": 43290,
+   "answer": "Hasbro (HAS) faces several risks regarding its external financing and financial structure. The company’s level of indebtedness may limit the availability of cash for operational needs, forcing the diversion of funds to debt service payments and making it more difficult to execute strategic actions. Additionally, Hasbro may face challenges in obtaining or servicing external borrowings, particularly if restrictive covenants imposed by such debt become burdensome. Economic factors, such as rising interest rates and credit market disruptions, can further impair the company's ability to secure financing or refinance existing debt, ultimately harming liquidity. To mitigate these risks, Hasbro has implemented a deleveraging plan, which includes using proceeds from asset sales, such as the eOne Film and TV business, to retire floating-rate long-term debt.\n\nThe company's growth potential is currently driven by its \"Blueprint 2.0\" strategic plan, which emphasizes \"fewer, bigger, and more profitable brands.\" Hasbro is focusing on its most valuable franchises, including *Magic: The Gathering*, *NERF*, *Transformers*, and *Dungeons & Dragons*. A significant portion of this growth is expected from the digital gaming sector, where the company leverages internal development and external licensing for titles like *Baldur's Gate 3*, *Monopoly Go!*, and *Magic: The Gathering Arena*. Furthermore, Hasbro is expanding its direct-to-consumer reach through platforms like Hasbro PULSE and its \"Secret Lair\" gaming products, while continuing to scale brand licensing into diverse areas such as theme parks, apparel, and publishing.\n\nHasbro's competitive positioning is defined by its mission to connect generations of fans through storytelling and play. The company aims to capture market share in key focus categories, including board games, role-playing games, preschool toys, and action brands. However, it faces intense competition from both large and small U.S. and international toy companies, as well as retailers who offer private-label toys and games at lower price points. In the entertainment sector, Hasbro competes with major studios and distributors for consumer attention and distribution rights.\n\nTo maintain its competitive edge, Hasbro relies heavily on its Wizards of the Coast segment, which is a critical driver of innovation in role-playing and fantasy card games. The company also maintains multi-year licensing rights for major external properties, such as Marvel’s Spider-Man and The Avengers, to bolster its product portfolio. Despite these strengths, Hasbro's market position remains sensitive to consumer acceptance of its products, the success of its digital gaming launches, and its ability to protect its critical intellectual property rights.\n\n### References\n\n* [1] Hasbro, Inc. Period: December 31, 2023",
+   "answer_length": 2835,
+   "context_length": 130420,
+   "context": {
+    "entities": 64,
+    "relations": 156,
+    "chunks": 10,
+    "rerank_candidates": 161,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Public Debt And Equity Markets",
+     "New Technology",
+     "Senior Revolving Credit Facility",
+     "Operational Or Commercialization Difficulties",
+     "Item 5. Market for Registrants Common Equity",
+     "Future Growth Prospects",
+     "Commercial And Financing Market Conditions",
+     "Legal And Regulatory Developments",
+     "Entertainment Businesses",
+     "Competition",
+     "Hasbro, Inc. And Subsidiaries",
+     "Products And Systems Integration",
+     "Hasbro SA",
+     "Data Analytics Provider",
+     "Term Loan Agreement"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6723,
+      "text": ", and cash flows for each of the years in the three-year period ended December 31, 2023, and the related notes and financial statement schedule II - valuation and qualifying accounts (collectively, the consolidated financial statements). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5249,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended Commission file number 1-6682 Hasbro, Inc. (Exact Name of Registrant As Specified in its Charter) Rhode Island 05-0155090 (State of Incorporation) (I.R.S. Employer Identification No.) 102"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6797,
+      "text": ", the Company announced additional strategic steps to position the business for future growth, including additional headcount reductions under the Operational Excellence Program, and a revised organizational structure whereby aspects of certain corporate functions are anticipated to be supported by a third-party outsourcing provider. The Company’s organizational structure changes will result in th"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6302,
+      "text": "Harley Davidson, Ms. Goetter served in senior leadership roles at Tyson Foods, Inc. from 2019 to 2020 and General Mills, Inc. from 1998 to 2019. (3) Prior to joining Hasbro in 2023, Mr. Kilpin served as Executive Chairman and Chief Executive Officer of PlayMonster Group, LLC from 2020 to 2023. Prior thereto, Mr. Kilpin held senior leadership positions within the toy and entertainment industry at c"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6577,
+      "text": "Treadway Commission. In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. We also have audited, in accordance with the standards of the Public Company"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9696969696969697,
+    "answer_relevancy": 0.7945702070748034,
+    "context_recall": 0.14285714285714285,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7268
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:23:16.851649",
+   "duration_ms": 44911,
+   "answer": "Hasbro, Inc. (HAS) manages a complex profile of financial risks, growth initiatives, and competitive challenges as it navigates its \"Blueprint 2.0\" strategic transformation. The company's ability to maintain its market leadership is closely tied to its management of debt, its expansion into digital markets, and its resilience against macroeconomic volatility.\n\n### External Financing and Financial Risks\nHasbro’s financial stability is subject to risks associated with its **indebtedness**, which can limit the availability of cash for operations and necessitate the diversion of funds to debt service payments. The company faces potential difficulties in obtaining or servicing external borrowings, particularly if credit market conditions deteriorate or if burdensome restrictions are imposed by lenders. To mitigate these risks, Hasbro has implemented a **Deleveraging Plan** aimed at reducing long-term debt. This strategy involves retiring floating-rate debt using proceeds from asset sales, such as the 2023 sale of the eOne Film and TV business to Lionsgate.\n\nFurthermore, the company is exposed to fluctuations in **foreign currency exchange rates** and interest rates, which can impact its global financial performance. Seasonality also plays a critical role, as a significant portion of net revenues—approximately 56% in 2023—is recognized in the second half of the year, increasing the risk of overproduction or failure to meet compressed shipping schedules.\n\n### Growth Potential and Strategic Initiatives\nHasbro’s growth prospects are centered on its **Blueprint 2.0** strategy, which prioritizes \"fewer, bigger, and more profitable brands.\" Key pillars of this strategy include:\n*   **Digital Gaming:** Expanding the reach of franchises through AAA games, games-as-a-service, and high-profile licensing, such as *Baldur’s Gate 3* and *Monopoly Go!*.\n*   **Wizards of the Coast:** This segment remains a primary growth driver, led by *Magic: The Gathering*—Hasbro's first billion-dollar brand—and *Dungeons & Dragons*.\n*   **Direct-to-Consumer (DTC):** Investing in platforms like **Hasbro Pulse** and **Secret Lair** to build direct relationships with fans and enhance margins.\n*   **Operational Excellence:** An enterprise-wide cost-savings program designed to improve supply chain efficiency and reinvest savings back into core franchises.\n\n### Competitive Positioning and Market Challenges\nHasbro operates in a highly competitive environment, facing rivalry from both large and small toy and game companies, as well as retailers who may offer private-label products at lower price points. Its competitive position is heavily dependent on **consumer acceptance** and maintaining strong relationships with a concentrated group of retailers; in 2023, the top five retail customers accounted for 34% of consolidated net revenues, with **Wal-Mart** and **Amazon** together representing 22%.\n\nThe company also faces external pressures from the **Retail Sector**, where inventory management is a constant challenge. For example, in 2023, Hasbro significantly reduced inventory levels by 51% to improve the quality of stock on hand following lower-than-anticipated sales in previous periods. Additionally, macroeconomic factors such as **inflation** and rising unemployment can adversely affect discretionary consumer spending on toys and entertainment, further impacting Hasbro’s market share and operating results.\n\n### References\n\n- [1] Hasbro, Inc. Period: December 31, 2023",
+   "answer_length": 3489,
+   "context_length": 130420,
+   "context": {
+    "entities": 64,
+    "relations": 156,
+    "chunks": 10,
+    "rerank_candidates": 164,
+    "chunk_tickers": [
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS",
+     "HAS"
+    ],
+    "entity_names": [
+     "Public Debt And Equity Markets",
+     "New Technology",
+     "Senior Revolving Credit Facility",
+     "Operational Or Commercialization Difficulties",
+     "Item 5. Market for Registrants Common Equity",
+     "Competition",
+     "Commercial And Financing Market Conditions",
+     "Products And Systems Integration",
+     "Entertainment Businesses",
+     "Future Growth Prospects",
+     "Hasbro, Inc. And Subsidiaries",
+     "Legal And Regulatory Developments",
+     "Hasbro SA",
+     "Data Analytics Provider",
+     "Term Loan Agreement"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HAS",
+      "chars": 6223,
+      "text": "Our digital game and entertainment offerings may be dependent on third-party studios, content producers and distribution channels. • We will have less control over certain functions of our business due to the planned outsourcing to a third-party. • We have had recent leadership changes and other employee changes. If we lose key management or other employees or are unable to attract and retain tale"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6723,
+      "text": ", and cash flows for each of the years in the three-year period ended December 31, 2023, and the related notes and financial statement schedule II - valuation and qualifying accounts (collectively, the consolidated financial statements). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and "
+     },
+     {
+      "ticker": "HAS",
+      "chars": 5249,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended Commission file number 1-6682 Hasbro, Inc. (Exact Name of Registrant As Specified in its Charter) Rhode Island 05-0155090 (State of Incorporation) (I.R.S. Employer Identification No.) 102"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6535,
+      "text": ".6 million remaining available under these share repurchase authorizations. There were no repurchases of the Company’s Common Stock during 2023. The Company has no obligation to repurchase shares under this authorization. The timing, actual number and value of the shares that are repurchased, if any, will depend on a number of factors, including the price of the Company’s stock and the Company's g"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6290,
+      "text": "threats, trends in the industry, and best practices. This third party also evaluates and assesses our programs. The Cybersecurity Committee conducts an ongoing review of the Company’s cybersecurity program, which includes discussion of management’s actions to identify and detect threats, planned actions in the event of a response or recovery situation, as well as a review of recent enhancements to"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6670,
+      "text": "issuance was recorded in Accumulated other comprehensive loss and is being amortized through the Consolidated Statements of Operations using an effective interest rate method over the life of the related debt. Included in Accumulated other comprehensive loss at December 31, 2023 are deferred losses, net of tax, of $14.2 million related to these derivatives. Industry Trends, the Economy and Inflati"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6946,
+      "text": ", for use of our brands, and, in some cases, the license arrangements are subject to minimum guaranteed amounts or fixed fees, over the term of the license. Our entertainment offerings also require us to pay royalties and participations to those involved in the creation of the content, such as producers, writers, directors and actors. Marketing and Sales, Customer Concentration and Advertising Mar"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6797,
+      "text": ", the Company announced additional strategic steps to position the business for future growth, including additional headcount reductions under the Operational Excellence Program, and a revised organizational structure whereby aspects of certain corporate functions are anticipated to be supported by a third-party outsourcing provider. The Company’s organizational structure changes will result in th"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6302,
+      "text": "Harley Davidson, Ms. Goetter served in senior leadership roles at Tyson Foods, Inc. from 2019 to 2020 and General Mills, Inc. from 1998 to 2019. (3) Prior to joining Hasbro in 2023, Mr. Kilpin served as Executive Chairman and Chief Executive Officer of PlayMonster Group, LLC from 2020 to 2023. Prior thereto, Mr. Kilpin held senior leadership positions within the toy and entertainment industry at c"
+     },
+     {
+      "ticker": "HAS",
+      "chars": 6577,
+      "text": "Treadway Commission. In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. We also have audited, in accordance with the standards of the Public Company"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9642857142857143,
+    "answer_relevancy": 0.725177312289257,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8599
+   }
+  }
+ }
+}

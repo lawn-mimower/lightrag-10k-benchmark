@@ -1,0 +1,465 @@
+{
+ "question_id": "f3a3d09b",
+ "ticker": "HON",
+ "question": "The impact of working capital on Honeywell's (HON) reinvestment strategies, including acquisitions, dividends, share repurchases, and CapEx.",
+ "expected_answer": "Effective working capital management is crucial for Honeywell’s ability to generate available capital. By efficiently managing current assets and liabilities, the company ensures that its operational cash flow is robust and not tied up in non-essential assets, thereby increasing liquidity. This improved cash flow is essential for Honeywell in several ways:\n\n1. Reinvestment in Growth and Strategic Initiatives: The surplus capital generated through effective working capital management is reinvested in the company’s growth through capital expenditures and acquisitions. This provides Honeywell with the means to expand its portfolio and technology base, reinforcing its competitive edge.\n\n2. Shareholder Returns: The availability of cash allows Honeywell to pursue shareholder-focused strategies such as dividend distributions and share repurchases. These are critical tools for enhancing shareholder value and signaling financial strength to the market.\n\n3. Debt Management: In addition to reinvestment, effective working capital management contributes to proactive debt management, ensuring that the company maintains financial flexibility and a stronger balance sheet. This further enhances the capacity to fund strategic investments without undue reliance on external financing.\n\nOverall, Honeywell’s commitment to strong working capital management is key to its strategic deployment of capital. The generated liquidity supports a balanced approach to both internal growth initiatives (like capital expenditures and acquisitions) and returns to shareholders (through dividends and share repurchases), which underlines its approach to sustainable profitability and competitive positioning.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 2,
+ "finder_reference_chars": 2742,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:37:41.868645",
+   "duration_ms": 29327,
+   "answer": "Honeywell’s reinvestment strategies are heavily reliant on its ability to generate robust operating cash flows, which are significantly influenced by working capital management. In 2023, Honeywell reported net cash provided by operating activities of $5,340 million [1]. This cash generation supports the company's \"Accelerator\" operating model, which focuses on increasing cash flow through revenue growth, margin expansion, and improved working capital turnover to fund long-term shareholder value [1].\n\n### Working Capital Impact on Cash Flow\nThe efficiency of Honeywell's working capital had a notable impact on its 2023 financial performance. Compared to 2022, the company saw a favorable impact from working capital driven by:\n*   **Accounts Receivable:** A decrease of $697 million due to higher cash receipts [1].\n*   **Accounts Payable:** An increase of $673 million resulting from increased material receipts and lower disbursements [1].\n\nThese favorable movements were partially offset by a $626 million increase in inventories due to higher purchase volumes and a substantial $1,325 million payment required by the NARCO Amended Buyout Agreement [1]. Despite these offsets, the company's focus on working capital efficiency remains a primary driver for the $8.3 billion it deployed in 2023 toward capital expenditures, dividends, share repurchases, and acquisitions [1].\n\n### Capital Expenditures (CapEx) and M&A\nHoneywell utilizes its generated cash to invest in growth and portfolio optimization. In 2023, the company spent $1,039 million on capital expenditures [1]. For 2024, Honeywell expects to increase this spend to approximately $1.1 billion, targeting growth, production capacity expansion, maintenance, and the implementation of cost-reduction measures [1].\n\nRegarding mergers and acquisitions (M&A), Honeywell deployed $718 million for acquisitions in 2023, including Compressor Controls Corporation and SCADAfence [1]. The company intends to significantly accelerate this strategy in 2024, with an expected $5.0 billion expenditure to complete the acquisition of Carrier Global Corporation’s Global Access Solutions business [1]. These investments are specifically aligned with global megatrends such as automation, the future of aviation, and energy transition [1].\n\n### Shareholder Returns: Dividends and Repurchases\nA significant portion of the cash liberated through working capital management is returned to shareholders. In 2023, Honeywell spent $3,715 million on share repurchases and $2,855 million on cash dividends [1]. \n\nThe company maintains a commitment to reducing its share count by at least 1% annually, utilizing a $10 billion share repurchase authorization that had $7.1 billion in remaining availability as of December 31, 2023 [1]. Additionally, Honeywell increased its quarterly dividend by 5% to $1.08 per share in late 2023, marking the fourteenth dividend increase in the last thirteen years [1]. The company's robust backlog of $31.8 billion serves as a foundation to sustain these capital deployment strategies into the future [1].\n\n### References\n\n* [1] Honeywell International Inc. Document Title One",
+   "answer_length": 3153,
+   "context_length": 84730,
+   "context": {
+    "entities": 60,
+    "relations": 73,
+    "chunks": 10,
+    "rerank_candidates": 40,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "$8.3 Billion",
+     "Mergers And Acquisitions",
+     "Acquisitions And Divestitures",
+     "Acquisitions, Divestitures, And Other",
+     "Capital Expenditures By Segment",
+     "Accelerated Share Repurchase Transactions",
+     "$804 Million Share Repurchases",
+     "Honeywell International",
+     "Honeywell UOP",
+     "$5.3 Billion",
+     "$10 Billion Share Repurchase Authorization",
+     "$36.7 Billion",
+     "Honeywell International Inc. Incentive Compensation Plan For Executive Employees",
+     "Acquisitions/Divestitures",
+     "$1.4 Billion Capital Return"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 5173,
+      "text": "cash flows from operating, investing, and financing activities, as reflected in the Consolidated Statement of Cash Flows, are summarized as follows: Years Ended December 31, 2023 2022 Change 2023 vs. 2022 2021 Change 2022 vs. 2021 Cash and cash equivalents at beginning of period $ 9,627 $ 10,959 $ (1,332) $ 14,275 $ (3,316) Operating activities Net income attributable to Honeywell 5,658 4,966 692 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6184,
+      "text": "conditions and our level of operating, financing, and other investing activities. • Mergers and acquisitions—we expect to spend $5.0 billion to complete the acquisition of Carrier Global Corporation's Global Access Solutions business, as announced on December 8, 2023, subject to customary closing conditions, including receipt of certain regulatory approvals. We expect to evaluate and undertake oth"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 3937,
+      "text": "560 ) ( 1,211 ) ( 2,373 ) Decrease in investments 971 1,255 2,525 Receipts from Garrett Motion Inc. — 409 586 Receipts (payments) from settlements of derivative contracts 6 369 192 Cash paid for acquisitions, net of cash acquired ( 718 ) ( 178 ) ( 1,326 ) Proceeds from sales of businesses, net of fees paid 4 — 203 Net cash used for investing activities ( 1,293 ) ( 93 ) ( 1,061 ) Cash flows from fi"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 3766,
+      "text": "Consolidated Statements of Cash Flows, (v) Consolidated Statements of Shareowners' Equity and (vi) Notes to Consolidated Financial Statements, tagged as blocks of text and including detailed tags (filed herewith) 101.SCH iXBRL Taxonomy Extension Schema (filed herewith) 101.CAL iXBRL Taxonomy Extension Calculation Linkbase (filed herewith) 101.DEF iXBRL Taxonomy Extension Definition Linkbase (filed"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8311880280687323,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9578
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:38:03.410299",
+   "duration_ms": 21542,
+   "answer": "Honeywell International Inc. (HON) manages its reinvestment strategies—including acquisitions, dividends, share repurchases, and capital expenditures—by prioritizing the maximization of operating cash flows. This is achieved through a focus on revenue growth, margin expansion, and improved working capital turnover. The company’s ability to maintain sufficient liquidity through working capital efficiency is fundamental to its capacity to fund these strategic initiatives.\n\n### Acquisitions and Strategic Investments\nHoneywell utilizes its operating cash flows and access to capital markets to fund portfolio optimizations. A primary component of its 2024 strategy involves the expected $5.0 billion acquisition of Carrier Global Corporation's Global Access Solutions business. Beyond large-scale transactions, the company evaluates \"bolt-on\" acquisitions to strengthen its core businesses. Management continuously assesses the profit and cash flow contributions of each business unit to identify target investment opportunities that upgrade the overall portfolio.\n\n### Shareholder Returns: Dividends and Share Repurchases\nWorking capital management directly supports Honeywell’s commitment to returning value to shareholders:\n*   **Dividends:** The company increased its quarterly dividend by 5% to $1.08 per share in late 2023 and intends to maintain quarterly payments throughout 2024.\n*   **Share Repurchases:** In April 2023, the Board of Directors authorized a $10 billion share repurchase program. As of December 31, 2023, approximately $7.1 billion remained available under this authorization. These repurchases are intended to offset dilution from employee stock-based compensation and to reduce the overall share count when attractive market opportunities arise.\n\n### Working Capital Efficiency and Liquidity Tools\nTo improve liquidity and working capital efficiency, Honeywell employs several specific strategies:\n*   **Supply Chain Financing (SCF):** The company maintains agreements with third-party financial institutions to offer voluntary SCF programs to suppliers. While these programs allow suppliers to receive earlier payments, they do not change Honeywell's negotiated commercial payment terms (typically 60 to 120 days), allowing the company to manage its own cash outflows effectively.\n*   **Receivables Management:** Honeywell sells certain trade receivables to unaffiliated financial institutions to accelerate cash inflows. These transfers are accounted for as sales, thereby reducing the net accounts receivable on the balance sheet and increasing cash from operating activities.\n*   **Capital Sources:** Beyond internal cash generation, the company maintains access to commercial paper markets, committed credit lines, and public debt/equity markets to provide additional liquidity for current operations and future investment opportunities.\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 2923,
+   "context_length": 102356,
+   "context": {
+    "entities": 41,
+    "relations": 60,
+    "chunks": 9,
+    "rerank_candidates": 114,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Future Cash Flow",
+     "Pipeline Development",
+     "Corporate Strategies",
+     "Reinvestment Activities",
+     "Company",
+     "Global Working Capital",
+     "Financial Condition",
+     "Share Repurchase Programs",
+     "EBITDA Margin",
+     "New Solutions And Businesses",
+     "Capital And Credit Markets",
+     "Working Capital",
+     "Future Capital Requirements",
+     "Liquidity And Capital Resources",
+     "Acquisitions"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6184,
+      "text": "conditions and our level of operating, financing, and other investing activities. • Mergers and acquisitions—we expect to spend $5.0 billion to complete the acquisition of Carrier Global Corporation's Global Access Solutions business, as announced on December 8, 2023, subject to customary closing conditions, including receipt of certain regulatory approvals. We expect to evaluate and undertake oth"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7105,
+      "text": "foreign currency exchange rates, antitrust regulations, employment regulations, foreign investment laws, import, export, and other trade restrictions (such as sanctions and embargoes), differing levels of protection of intellectual property, acts of industrial espionage, violations by our employees of anti-corruption laws (despite our efforts to mitigate such risk), changes in regulations regardin"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6846,
+      "text": "operations and require cash pension contributions in future periods. Changes in discount rates and actual asset returns different than our anticipated asset returns can result in significant non-cash actuarial gains or losses, which we record in the fourth quarter of each fiscal year, and, if applicable, in any quarter in which an interim re-measurement is triggered. With regard to cash pension co"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7822081681290175,
+    "context_recall": 0.6363636363636364,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8546
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:38:13.160612",
+   "duration_ms": 9750,
+   "answer": "Honeywell (HON) manages its working capital as a key component of its broader strategy to generate cash, which in turn fuels its capital deployment and reinvestment activities. In 2023, the company reported operating cash flows of $5.3 billion. Management has emphasized that increasing these cash flows is a priority, achieved through a combination of revenue growth, margin expansion, and improved working capital turnover. This cash generation is central to the Honeywell Accelerator operating model, which is designed to drive incremental growth and cash generation across the company’s business segments.\n\nThe company's reinvestment strategy is robust, with $8.3 billion deployed in 2023 toward capital expenditures, dividends, share repurchases, and mergers and acquisitions (M&A). Honeywell utilizes its liquidity and operating cash flows to maintain a multi-faceted approach to shareholder value:\n\n*   **Mergers and Acquisitions:** Honeywell aligns its M&A activities with three megatrends: automation, the future of aviation, and energy transition. Significant activity in 2023 included the acquisitions of Compressor Controls Corporation and SCADAfence, as well as an agreement to acquire Carrier Global Corporation’s Global Access Solutions business for $5.0 billion, which is expected to close in 2024.\n*   **Dividends and Share Repurchases:** The company increased its dividend for the 14th time in 13 years, with a 5% increase to $1.08 per share effective in the fourth quarter of 2023. Additionally, Honeywell opportunistically repurchases shares to meet its commitment of reducing the total share count by at least 1% annually.\n*   **Capital Expenditures (CapEx):** CapEx is part of the total $8.3 billion capital deployment aimed at high-return opportunities and supporting a backlog that stood at $31.8 billion at the end of 2023.\n\nHoneywell also employs specific strategies to improve liquidity and working capital efficiency. This includes extending payment terms with suppliers and utilizing voluntary supply chain financing (SCF) programs. As of December 31, 2023, accounts payable included approximately $1.112 million due to suppliers participating in these SCF programs. While these programs allow suppliers to receive earlier payments from third-party institutions, they do not change Honeywell’s negotiated payment terms (typically 60 to 120 days), thereby helping the company maintain its liquidity for strategic investments.\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 2505,
+   "context_length": 26390,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 4,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6184,
+      "text": "conditions and our level of operating, financing, and other investing activities. • Mergers and acquisitions—we expect to spend $5.0 billion to complete the acquisition of Carrier Global Corporation's Global Access Solutions business, as announced on December 8, 2023, subject to customary closing conditions, including receipt of certain regulatory approvals. We expect to evaluate and undertake oth"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6892,
+      "text": "Quantinuum. Corporate and All Other is not a separate reportable business segment as segment reporting criteria is not met. The Company continues to monitor the activities in Corporate and All Other to determine the need for further reportable business segment disaggregation. REPOSITIONING CHARGES See Note 4 Repositioning and Other Charges of Notes to Consolidated Financial Statements for a discus"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9761904761904762,
+    "answer_relevancy": 0.7751373998332992,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9378
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:38:46.416290",
+   "duration_ms": 33256,
+   "answer": "Honeywell International Inc. (HON) utilizes a strategic capital allocation framework that prioritizes the deployment of cash into high-return opportunities, including capital expenditures (CapEx), dividends, share repurchases, and mergers and acquisitions (M&A). In 2023, the company deployed a total of $8.3 billion across these four areas, supported by $5.3 billion in operating cash flows [1]. The efficiency of working capital management is a primary driver of this liquidity, as the company focuses on increasing operating cash flows through revenue growth, margin expansion, and improved working capital turnover [1].\n\n### Working Capital Impact on Liquidity\nWorking capital serves as a critical indicator of Honeywell's short-term liquidity, representing the difference between current assets and current liabilities [1]. In 2023, changes in working capital resulted in a $150 million decrease in cash, which represented a substantial improvement compared to the $1,334 million decrease recorded in 2022 [1]. This favorable shift was largely driven by:\n*   **Accounts Receivable:** A $697 million decrease due to higher cash receipts from customers.\n*   **Accounts Payable:** A $673 million increase resulting from increased material receipts and lower disbursements.\n*   **Offsets:** These gains were partially offset by a $626 million increase in inventories due to higher purchases and a $1,325 million payment related to the NARCO Amended Buyout Agreement [1].\n\nThe company continually seeks to improve working capital efficiency by extending payment terms with suppliers and utilizing voluntary supply chain financing (SCF) programs, which had approximately $1,112 million in participation as of December 31, 2023 [1].\n\n### Reinvestment Strategies and Future Requirements\nThe cash generated from these operations and efficient working capital turnover directly funds Honeywell's reinvestment pillars. For 2024, the company expects its primary cash requirements to include approximately $1.1 billion for capital expenditures focused on growth, capacity expansion, and cost reduction measures [1]. Furthermore, Honeywell has committed $5.0 billion for the acquisition of Carrier Global Corporation's Global Access Solutions business, a move intended to align its portfolio with megatrends in automation, aviation, and energy transition [1].\n\nWorking capital performance also influences the company's ability to maintain its commitment to shareholders. In 2023, Honeywell paid $2,855 million in dividends and spent $3,715 million on share repurchases [1]. The company aims to reduce its share count by at least 1% annually, with $7.1 billion remaining available under its current $10 billion share repurchase authorization as of the end of 2023 [1]. While operating cash flows remain the primary source of funding, Honeywell maintains access to commercial paper, public debt markets, and committed credit lines to supplement its working capital and ensure it can meet all future contractual obligations and strategic investment goals [1].\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 3099,
+   "context_length": 114644,
+   "context": {
+    "entities": 58,
+    "relations": 131,
+    "chunks": 10,
+    "rerank_candidates": 170,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "$8.3 Billion",
+     "Future Cash Flow",
+     "Mergers And Acquisitions",
+     "Pipeline Development",
+     "Acquisitions And Divestitures",
+     "Corporate Strategies",
+     "Acquisitions, Divestitures, And Other",
+     "Reinvestment Activities",
+     "Capital Expenditures By Segment",
+     "Company",
+     "Accelerated Share Repurchase Transactions",
+     "Global Working Capital",
+     "$804 Million Share Repurchases",
+     "Financial Condition",
+     "Honeywell International"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 5173,
+      "text": "cash flows from operating, investing, and financing activities, as reflected in the Consolidated Statement of Cash Flows, are summarized as follows: Years Ended December 31, 2023 2022 Change 2023 vs. 2022 2021 Change 2022 vs. 2021 Cash and cash equivalents at beginning of period $ 9,627 $ 10,959 $ (1,332) $ 14,275 $ (3,316) Operating activities Net income attributable to Honeywell 5,658 4,966 692 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6184,
+      "text": "conditions and our level of operating, financing, and other investing activities. • Mergers and acquisitions—we expect to spend $5.0 billion to complete the acquisition of Carrier Global Corporation's Global Access Solutions business, as announced on December 8, 2023, subject to customary closing conditions, including receipt of certain regulatory approvals. We expect to evaluate and undertake oth"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 3937,
+      "text": "560 ) ( 1,211 ) ( 2,373 ) Decrease in investments 971 1,255 2,525 Receipts from Garrett Motion Inc. — 409 586 Receipts (payments) from settlements of derivative contracts 6 369 192 Cash paid for acquisitions, net of cash acquired ( 718 ) ( 178 ) ( 1,326 ) Proceeds from sales of businesses, net of fees paid 4 — 203 Net cash used for investing activities ( 1,293 ) ( 93 ) ( 1,061 ) Cash flows from fi"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6964907416261488,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9241
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:39:17.538339",
+   "duration_ms": 31122,
+   "answer": "Honeywell International Inc. (HON) utilizes a capital allocation framework that prioritizes the deployment of cash toward high-return opportunities, including capital expenditures (CapEx), dividends, share repurchases, and mergers and acquisitions (M&A). In 2023, the company deployed a total of $8.3 billion across these four areas. The primary source of funding for these activities is net cash provided by operating activities, which reached $5.3 billion in 2023. Honeywell’s ability to sustain this level of reinvestment is directly influenced by its management of working capital, as the company focuses on increasing cash flow through improved working capital turnover and revenue growth.\n\n### Working Capital Drivers and Liquidity\nThe efficiency of Honeywell’s working capital has a significant impact on its available liquidity. In 2023, changes in working capital resulted in a $150 million decrease in cash, a substantial improvement from the $1,334 million decrease seen in 2022. This favorable year-over-year shift was driven by a $697 million decrease in accounts receivable due to higher cash receipts and a $673 million increase in accounts payable from increased material receipts and lower disbursements. However, these gains were partially offset by a $626 million increase in inventories due to higher purchase volumes. To further optimize liquidity, Honeywell employs supply chain financing (SCF) programs and sells trade receivables to third-party financial institutions, with approximately $1.1 billion in accounts payable related to SCF programs as of December 31, 2023.\n\n### Impact on Acquisitions and Mergers\nEffective working capital management provides the necessary cash flow to execute strategic M&A, which Honeywell uses to align its portfolio with global megatrends such as automation, aviation, and the energy transition. In 2023, the company paid $718 million for acquisitions, including Compressor Controls Corporation and SCADAfence. Looking forward to 2024, Honeywell expects to spend approximately $5.0 billion to complete the acquisition of Carrier Global Corporation’s Global Access Solutions business. The company continues to evaluate \"bolt-on\" acquisitions and uses its robust backlog of $31.8 billion as a foundation for future capital deployment to accelerate growth.\n\n### Shareholder Returns: Dividends and Repurchases\nHoneywell’s financial condition and operating cash flows dictate its capacity for share repurchases and dividend payments. In 2023, the company spent $3,715 million on common stock repurchases and $2,855 million on cash dividends. The Board of Directors authorized a $10 billion share repurchase program in April 2023, and as of year-end, $7.1 billion remained available for future use. The company intends to continue opportunistic repurchases to reduce share count by at least 1% annually and to offset dilution from employee stock-based compensation plans. Dividends also remain a priority, with a 5% increase to the quarterly rate implemented in late 2023.\n\n### Capital Expenditures (CapEx)\nThe company’s reinvestment strategy includes significant allocations for internal growth and operational maintenance. In 2023, Honeywell spent $1,039 million on capital expenditures. For 2024, the company anticipates spending approximately $1.1 billion. These funds are primarily targeted at growth, production and capacity expansion, the implementation of cost-reduction measures, and general facility maintenance. While operating cash flow is the primary funding source for these requirements, Honeywell also maintains access to commercial paper markets and public debt/equity markets to ensure sufficient liquidity for its ongoing capital needs.\n\n### References\n\n- [1] Honeywell International Inc. Document Title: HON.html",
+   "answer_length": 3784,
+   "context_length": 114644,
+   "context": {
+    "entities": 58,
+    "relations": 131,
+    "chunks": 10,
+    "rerank_candidates": 173,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "$8.3 Billion",
+     "Future Cash Flow",
+     "Mergers And Acquisitions",
+     "Pipeline Development",
+     "Acquisitions And Divestitures",
+     "Corporate Strategies",
+     "Acquisitions, Divestitures, And Other",
+     "Reinvestment Activities",
+     "Capital Expenditures By Segment",
+     "Company",
+     "Accelerated Share Repurchase Transactions",
+     "Global Working Capital",
+     "$804 Million Share Repurchases",
+     "Financial Condition",
+     "Honeywell International"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 5173,
+      "text": "cash flows from operating, investing, and financing activities, as reflected in the Consolidated Statement of Cash Flows, are summarized as follows: Years Ended December 31, 2023 2022 Change 2023 vs. 2022 2021 Change 2022 vs. 2021 Cash and cash equivalents at beginning of period $ 9,627 $ 10,959 $ (1,332) $ 14,275 $ (3,316) Operating activities Net income attributable to Honeywell 5,658 4,966 692 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4184,
+      "text": "Honeywell stock and each index on December 31, 2018, and that all dividends were reinvested. Comparison of Cumulative Five-Year Total Return Dec. 2018 Dec. 2019 Dec. 2020 Dec. 2021 Dec. 2022 Dec. 2023 Honeywell 100 136.70 168.10 167.60 175.82 175.85 S&P 500 Index 100 131.49 155.68 200.37 164.08 207.21 Composite Index 100 127.46 125.45 136.51 140.88 163.96 XLI Index 100 129.08 143.16 173.34 163.69 "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6184,
+      "text": "conditions and our level of operating, financing, and other investing activities. • Mergers and acquisitions—we expect to spend $5.0 billion to complete the acquisition of Carrier Global Corporation's Global Access Solutions business, as announced on December 8, 2023, subject to customary closing conditions, including receipt of certain regulatory approvals. We expect to evaluate and undertake oth"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 3937,
+      "text": "560 ) ( 1,211 ) ( 2,373 ) Decrease in investments 971 1,255 2,525 Receipts from Garrett Motion Inc. — 409 586 Receipts (payments) from settlements of derivative contracts 6 369 192 Cash paid for acquisitions, net of cash acquired ( 718 ) ( 178 ) ( 1,326 ) Proceeds from sales of businesses, net of fees paid 4 — 203 Net cash used for investing activities ( 1,293 ) ( 93 ) ( 1,061 ) Cash flows from fi"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6702577563051695,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9176
+   }
+  }
+ }
+}

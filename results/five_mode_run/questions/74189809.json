@@ -1,0 +1,417 @@
+{
+ "question_id": "74189809",
+ "ticker": "VRSK",
+ "question": "Risk, synergies, & competitive impact of Verisk (VRSK) acquisition.",
+ "expected_answer": "The provided reference does not include specific numerical data or proprietary financial metrics, but it does offer qualitative insights that can be used to assess both risks and synergies associated with acquisitions that might introduce additional competitors. On the risk side, acquiring new businesses can expose Verisk Analytics to heightened competitive pressures if the acquired entities bring in competitors who challenge its existing service lines. This may lead to margin compression, increased pressure on market share, and additional integration costs if the acquired business overlaps or conflicts with established operations. Moreover, the integration process itself carries execution risk, potentially disrupting current service offerings and leading to more volatile projected earnings.\n\nOn the synergy side, however, there are potential financial benefits. Acquisitions might allow Verisk Analytics to expand its technological capabilities, broaden its product and service mix, and take advantage of cross-selling opportunities. These synergies can lead to cost efficiencies and revenue growth if the combined entity is better positioned to serve a diversified client base. For instance, merging integrated solutions or complementary technologies might lead to scale advantages and improved competitive positioning, thereby enhancing long-term profitability.\n\nIn summary, although precise calculations (such as cost synergies expected, margin impacts, or revenue growth projections) cannot be derived without detailed financial and operational data, the qualitative analysis indicates that acquisitions in this context pose a dual-edged financial implication: they raise competitive risk but also provide an opportunity for enhanced synergy-driven growth and overall value creation. Without access to the precise acquisition cost, integration expense projections, and detailed financial forecasts, a definitive numerical impact cannot be provided, and the answer remains largely qualitative.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 1982,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:45:05.894267",
+   "duration_ms": 32481,
+   "answer": "Verisk Analytics (VRSK) utilizes a disciplined acquisition strategy to maintain its position as a leading data, analytics, and technology provider within the global insurance ecosystem. This strategy is central to its goal of driving consistent and predictable growth by expanding its data assets, augmenting its technological capabilities, and extending its reach within the insurance industry.\n\n### Strategic Synergies and Growth\nVerisk’s acquisitions are primarily integrated into its Insurance segment, which serves the vast majority of U.S. property and casualty (P&C) insurers. Recent 2023 acquisitions, including **Mavera Holding AB**, **Krug Sachverstandigen GmbH (\"SV Krug\")**, and **Morning Data Ltd.**, are aimed at expanding the company’s reach and data sources. Furthermore, acquisitions such as **Infutor Data Solutions, LLC**, **Opta Information Intelligence Corp**, and **Data Driven Safety, LLC** have been integrated into the underwriting category of the Insurance segment to bolster net revenues and market penetration.\n\nThe synergy between Verisk and its acquired entities focuses on modernizing core solutions through cloud technology and advanced analytical methods, such as **machine learning and artificial intelligence (AI)**. These tools are used to automate medical record reviews, improve injury evaluations, and enhance claim settlement negotiations. By combining proprietary data from acquisitions with Verisk’s existing scale, the company aims to create leadership positions in adjacent markets like life insurance, marketing, and specialty business solutions.\n\n### Competitive Impact\nAcquisitions allow Verisk to leverage a series of competitive advantages, including proprietary data assets and long-standing industry relationships established through its origins as an insurance rating bureau. As of 2023, Verisk's clients included all of the **top 100 P&C insurance providers in the U.S.** and **18 of the top 25 global reinsurance companies**. Its scale enables the broad distribution of innovation, helping the company solve industry-wide challenges related to regulatory focus and value creation.\n\nHowever, the competitive landscape remains intense. While acquisitions expand Verisk’s footprint, the company faces competition from larger entities that may have greater resources to anticipate changing customer preferences or emerging technologies. Additionally, as Verisk enters new lines of business through acquisitions, it encounters new competitors and alliances that may challenge its market share.\n\n### Integration and Operational Risks\nThe pursuit of growth through acquisition introduces several strategic and operational risks:\n*   **Internal Controls:** Verisk is currently integrating the 2023 acquisitions into its internal control over financial reporting. Failure to maintain effective controls during this integration could lead to misstatements in financial reporting.\n*   **Execution Risks:** If Verisk is unable to successfully develop or obtain regulatory approval for new solutions derived from acquisitions, its growth may occur more slowly than anticipated. Undetected errors, defects, or delays in new products can also cause serious harm to the business.\n*   **Market Pressures:** The increasing availability of free or inexpensive information from governmental agencies may reduce demand for Verisk’s proprietary solutions. Furthermore, pricing pressures can make newly developed products unattractive to pursue, potentially offsetting the benefits of an acquisition.\n*   **Regulatory and Legal Risks:** Many of Verisk's operations are subject to state-level regulation under the McCarran-Ferguson Act. Acquisitions may increase the company's exposure to periodic examinations by state regulators and enforcement of antitrust or trade practice statutes by state attorneys general.\n\n### References\n\n- [1] Verisk Analytics, Inc. Document Title: VRSK.html",
+   "answer_length": 3916,
+   "context_length": 112645,
+   "context": {
+    "entities": 60,
+    "relations": 188,
+    "chunks": 10,
+    "rerank_candidates": 42,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Verisk Financial Services",
+     "Financial Services Business",
+     "Investor.Verisk.Com",
+     "Verisk Analytics",
+     "Verisk Marketing Solutions",
+     "MSCI Inc.",
+     "Verisk",
+     "Gartner, Inc.",
+     "Verisk Analytics, Inc.",
+     "Specialized Markets Business",
+     "VRSK",
+     "2023 Acquisitions",
+     "Acquisition Transactions",
+     "Proxy Peers",
+     "Fair Isaac Corp."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6742,
+      "text": "institutions; the Drivers Privacy Protection Act, which prohibits the public disclosure, use, or resale by any state’s department of motor vehicles of personal information about an individual that was obtained by the department in connection with a motor vehicle record, except for a “permissible purpose”; and various other federal, state, and local laws and regulations. Those laws generally restri"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6429,
+      "text": "the year ended December 31, 2023 . Based upon the foregoing assessments, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023 , our disclosure controls and procedures were effective at the reasonable assurance level. Management’s Report on Internal Control over Financial Reporting The information required by this Item is set forth on page 48 of this "
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6398,
+      "text": "financial reporting, included in the accompanying Management’s Report on Internal Controls over Financial Reporting . Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal se"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 7055,
+      "text": "and brief claims history. 8 Table of Contents Casualty Solutions We offer a full suite of casualty/bodily injury solutions to serve the P&C industry, third-party administrators, and self-insured employers. Verisk casualty solutions focus on compliance (Medicare Secondary Payer and workers’ compensation state reporting); casualty claims decision support (severity detection and damage assessment); a"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9565217391304348,
+    "answer_relevancy": 0.7806366027901568,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9343
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:45:45.370294",
+   "duration_ms": 39476,
+   "answer": "Verisk Analytics, Inc. (VRSK) utilizes a strategy of selective, strategic acquisitions as a primary component of its disciplined capital allocation framework. These acquisitions are designed to expand the company’s data assets, augment its technological capabilities, and extend its reach within the global insurance industry. By integrating these new businesses, Verisk aims to create value by leveraging its existing resources and scale, particularly within its core Insurance segment [1].\n\n### Strategic Intent and Synergies\nThe company’s acquisition practice focuses on purchasing businesses that provide growth opportunities in adjacent markets, such as life insurance, marketing, specialty business solutions, and resilience and sustainability. The primary synergy sought through these transactions is the expansion of Verisk’s proprietary data assets and the modernization of its solutions using cloud technology and advanced analytical methods, including artificial intelligence and machine learning. Additionally, Verisk seeks to achieve core operating leverage by applying its subscription-based business model to acquired entities, thereby driving operating efficiency and profitability [1].\n\n### Competitive Impact\nEntering new lines of business through acquisition changes Verisk's competitive landscape. While these transactions can strengthen its position as a leading data and analytics provider, they also expose the company to competition from \"new players with different competitive dynamics.\" Verisk competes on the basis of product quality, customer service, and pricing. To maintain its competitive edge against larger rivals who may have more resources, Verisk often must further invest in upgrading its systems and innovating its software platforms [1].\n\n### Risks and Challenges\nAcquisitions at Verisk carry several strategic and operational risks:\n*   **Integration Hurdles:** Challenges include operational disruptions and difficulties in retaining key employees and customers. If the company fails to integrate an acquisition successfully, it may not realize the anticipated benefits or business plan objectives [1].\n*   **Market and Pricing Pressure:** New products developed through acquired entities may face pricing pressures or delays in gaining regulatory approval, which can slow anticipated growth [1].\n*   **Impairment Risks:** Intangible assets resulting from acquisitions, such as trade names, are subject to impairment risk. This risk typically remains elevated until the acquired business is fully integrated into the enterprise. Management must continuously monitor changes in strategy or operations that could affect the fair value of these reporting units [1].\n*   **External Factors:** Success is also dependent on external market conditions and the ability to navigate complex regulatory frameworks across different jurisdictions [1].\n\n### References\n\n- [1] Verisk Analytics, Inc.",
+   "answer_length": 2926,
+   "context_length": 68448,
+   "context": {
+    "entities": 36,
+    "relations": 60,
+    "chunks": 4,
+    "rerank_candidates": 115,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Climate Change Risks",
+     "Company",
+     "Business Acquisition",
+     "Intellectual Property Rights",
+     "Business Flexibility",
+     "M&M Acquisition",
+     "Motorola Solutions",
+     "Quantitative and Qualitative Disclosures About Market Risk",
+     "Competition",
+     "Products And Systems Integration",
+     "New Product Launches",
+     "Trade Names",
+     "Acquisitions",
+     "Strategic Relationships",
+     "Management"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6742,
+      "text": "institutions; the Drivers Privacy Protection Act, which prohibits the public disclosure, use, or resale by any state’s department of motor vehicles of personal information about an individual that was obtained by the department in connection with a motor vehicle record, except for a “permissible purpose”; and various other federal, state, and local laws and regulations. Those laws generally restri"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.7466263084814874,
+    "context_recall": 0.7,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8438
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:45:54.878226",
+   "duration_ms": 9508,
+   "answer": "Verisk (VRSK) maintains a focused approach to acquisitions as part of its broader capital allocation strategy. The company prioritizes \"disciplined capital allocation,\" focusing first on organic reinvestment and second on selective, strategic acquisitions. These acquisitions are intended to create value by leveraging Verisk’s existing capabilities and resources to expand its data assets, augment its capabilities, and increase its reach within the insurance industry [1].\n\n### Synergies and Value Creation\nThe primary goal of Verisk's acquisition strategy is to generate high returns by integrating new assets into its core insurance-focused business model. Synergies are realized by using Verisk’s \"scale advantage\" to drive the broad distribution of innovation across the insurance industry. By acquiring entities that provide new data assets or specialized technological capabilities, Verisk can modernize its core solutions using advanced analytical methods, such as machine learning and artificial intelligence, thereby strengthening its value proposition to global insurance clients [1].\n\n### Competitive Impact and Market Position\nVerisk’s competitive position is driven by its specialized knowledge in risk management, long-standing industry relationships dating back to its origins as a rating bureau, and its significant scale. Acquisitions allow the company to build leadership positions in adjacent markets, including life insurance, marketing, specialty business solutions, and resilience and sustainability. This strategic expansion helps Verisk maintain its position as a leading strategic data and technology partner to the global insurance industry while addressing challenges like rapidly changing technology and growing regulatory focus [1].\n\n### Strategic Shifts and Dispositions\nIn recent years, Verisk has undergone a significant strategic shift to focus exclusively on its Insurance segment. This included the sale of its environmental health and safety business (3E) and its Financial Services segment in 2022. Additionally, the company sold its Energy business (Wood Mackenzie) in early 2023, a transaction classified as a \"discontinued operation\" because it represented a strategic shift with a major effect on operations and financial results. These actions indicate a shift away from diversified markets to concentrate resources and capital on the core insurance-related \"building blocks,\" such as loss prediction, risk selection, and pricing [1].\n\n### References\n\n* [1] {\"ticker\":\"VRSK\",\"company\":\"Verisk Analytics, Inc.\",\"period\":\"December 31, 2023\",\"source\":\"VRSK.html\"}",
+   "answer_length": 2604,
+   "context_length": 6974,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 1,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "VRSK"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.8780487804878049,
+    "answer_relevancy": 0.8065020394288989,
+    "context_recall": 0.7777777777777778,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8656
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:46:35.477210",
+   "duration_ms": 40599,
+   "answer": "Verisk Analytics (VRSK) utilizes strategic acquisitions as a core component of its business strategy to expand its data assets, augment its technological capabilities, and increase its reach within the global insurance ecosystem. These transactions are designed to build upon the company’s existing competitive advantages, such as its proprietary data, deep industry expertise, and the scale required to distribute innovation broadly across the market.\n\n### Strategic Objectives and Synergies\nVerisk’s acquisition strategy is characterized by a disciplined approach to capital allocation, prioritizing investments that offer high internal returns. The company seeks to acquire businesses that can be integrated into its subscription-based model, which helps drive **core operating leverage**. By leveraging its scale, Verisk aims to achieve **cost synergies** and operational efficiencies, often utilizing advanced technologies like artificial intelligence (AI) and machine learning to modernize acquired solutions. For example, recent acquisitions such as Mavera and Krug have contributed to revenue growth within the claims category of Verisk's Insurance segment.\n\n### Operational and Financial Risks\nDespite the potential for growth, acquisitions introduce significant risks that could adversely affect Verisk’s financial condition. Key risks include:\n*   **Integration Challenges:** Difficulties in merging acquired operations, IT systems, and compliance frameworks can lead to delays or a failure to realize anticipated benefits.\n*   **Increased Expenses:** Acquisitions often result in higher Selling, General, and Administrative (SGA) expenses, particularly regarding salaries and employee benefits for the newly integrated workforce. \n*   **Unrealized Business Plans:** Strategic objectives may fail to materialize due to market mismatches, overpayment, or an inability to retain key employees and customers.\n*   **Liabilities and Dilution:** Acquisitions may introduce unknown legal, environmental, or regulatory liabilities. Additionally, acquiring businesses with higher valuations can lead to earnings dilution.\n\n### Competitive Impact\nThe competitive landscape for Verisk is highly intensive, with the company competing on the basis of product quality, service selection, and pricing. Strategic acquisitions allow Verisk to anticipate and respond to changing customer preferences and emerging technology trends more effectively than smaller peers. However, the company faces pressure from larger competitors who may have greater resources to allocate to specific market segments. \n\nFurthermore, as Verisk enters new lines of business through acquisition, it encounters new competitors and different market dynamics. The emergence of new alliances among competitors or the increasing availability of free public information can also decrease demand for Verisk’s proprietary solutions, requiring continuous investment in system upgrades and new product development to maintain its market position.\n\n### References\n\n* [1] Verisk Analytics, Inc. DECEMBER 31, 2023",
+   "answer_length": 3072,
+   "context_length": 122171,
+   "context": {
+    "entities": 57,
+    "relations": 190,
+    "chunks": 10,
+    "rerank_candidates": 151,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Competitive Advantages",
+     "Business Plan",
+     "Verisk Marketing Solutions",
+     "Strategic Acquisitions",
+     "Verisk Financial Services",
+     "Business Flexibility",
+     "Financial Services Business",
+     "M&M Acquisition",
+     "Verisk",
+     "Business Acquisition",
+     "Insurance Industry Knowledge",
+     "Intellectual Property Rights",
+     "Scale Advantage",
+     "Acquisitions",
+     "Global Risk Analytics"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6742,
+      "text": "institutions; the Drivers Privacy Protection Act, which prohibits the public disclosure, use, or resale by any state’s department of motor vehicles of personal information about an individual that was obtained by the department in connection with a motor vehicle record, except for a “permissible purpose”; and various other federal, state, and local laws and regulations. Those laws generally restri"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 7055,
+      "text": "and brief claims history. 8 Table of Contents Casualty Solutions We offer a full suite of casualty/bodily injury solutions to serve the P&C industry, third-party administrators, and self-insured employers. Verisk casualty solutions focus on compliance (Medicare Secondary Payer and workers’ compensation state reporting); casualty claims decision support (severity detection and damage assessment); a"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4874,
+      "text": "salaries and employee benefits of $15.0 million, information technology expenses of $13.6 million, and travel expenses of $3.5 million. These increases were partially offset by decreases in data costs of $4.7 million, professional consulting fees of $0.9 million, and other operating cost of $0.7 million. Selling, General and Administrative Expenses SGA expenses for our Insurance segment were $347."
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6285,
+      "text": "35%. Learners spent an average of 15 hours on the platform. We offer competitive salaries, short and long-term incentives, and the opportunity for advancement. In addition, our program includes paid time off (“PTO”), flextime and telecommuting options, and a 401(k) program with a 100% company cash match (up to 6%). We also offer health insurance plans, no-cost life insurance equivalent to annual s"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9361702127659575,
+    "answer_relevancy": 0.8153335958790141,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9379
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:47:19.821884",
+   "duration_ms": 44345,
+   "answer": "Verisk Analytics (VRSK) utilizes strategic acquisitions as a core component of its business strategy to maintain its position as a leading data, analytics, and technology provider in the insurance ecosystem. By targeting businesses that expand its data assets and augment its technological capabilities, Verisk aims to enhance its reach within the global insurance industry while creating value through its existing resources and scale.\n\n### Synergies and Strategic Benefits\nVerisk’s acquisition strategy is designed to drive consistent and predictable growth by leveraging its strong client relationships. The company specifically pursues \"selective, strategic acquisitions\" that allow it to build leadership positions in adjacent markets, such as life insurance, marketing, and specialty business solutions. These transactions are intended to produce high internal returns and provide solutions that address the insurance industry’s most significant challenges, including rapidly changing technology and increasing regulatory focus.\n\nFor example, in international markets like the United Kingdom and Continental Europe, Verisk has utilized acquisitions to expand its claims product offerings. These solutions are centered on personal injury and motor franchises, aiming to provide insurance customers with greater certainty, lower indemnity, increased automation, and faster settlement speeds. By integrating these acquired assets, Verisk can introduce advanced claim analytics and anti-fraud solutions to new geographical regions.\n\n### Operational and Strategic Risks\nDespite the potential for growth, acquisitions introduce significant risks that could adversely affect Verisk’s financial condition and results of operations. One primary risk is the failure to successfully integrate acquired businesses, which may lead to unrealized benefits or the failure of the initial business plan. The company also faces competition from new players with different dynamics when entering new lines of business through acquisition.\n\nOther specific risks associated with Verisk's acquisition activity include:\n*   **Competition and Market Dynamics:** New competitors or alliances may emerge to take market share, and larger competitors may be better positioned to allocate resources to anticipate market trends or emerging technologies.\n*   **Regulatory Hurdles:** The company may face difficulties in obtaining regulatory approval or acceptance for new solutions developed through acquired technologies.\n*   **Intellectual Property and Financial Exposure:** Acquisitions involve the risk of losing or misusing intellectual property post-transaction. Additionally, if the anticipated growth from these investments does not materialize, the trading price of Verisk’s common stock could decline.\n\n### Competitive Impact\nAcquisitions bolster Verisk’s series of competitive advantages, particularly its \"Scale Advantage,\" which allows the company to innovate and distribute solutions broadly across the insurance industry. By acquiring unique data assets, Verisk reinforces its \"Proprietary Data Assets\" advantage, which is central to developing the predictive models used by its clients. \n\nFurthermore, acquisitions help Verisk maintain its status as a trusted partner for the top 100 property and casualty (P&C) insurance providers in the U.S. and 18 of the top 25 global reinsurers. However, the company must continually invest to upgrade systems and compete effectively, as failures to maintain its competitive position—especially against larger firms—could lead to a decrease in demand for its solutions.\n\n### References\n\n* [1] Verisk Analytics, Inc. | Form 10-K | December 31, 2023",
+   "answer_length": 3675,
+   "context_length": 123385,
+   "context": {
+    "entities": 51,
+    "relations": 191,
+    "chunks": 10,
+    "rerank_candidates": 153,
+    "chunk_tickers": [
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK",
+     "VRSK"
+    ],
+    "entity_names": [
+     "Competitive Advantages",
+     "Business Plan",
+     "Verisk Financial Services",
+     "Strategic Acquisitions",
+     "Verisk",
+     "Business Flexibility",
+     "Verisk Marketing Solutions",
+     "M&M Acquisition",
+     "Financial Services Business",
+     "Acquisitions",
+     "Global Risk Analytics",
+     "External Factors",
+     "Scale Advantage",
+     "Strategic Relationships",
+     "Verisk Analytics"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "VRSK",
+      "chars": 6742,
+      "text": "institutions; the Drivers Privacy Protection Act, which prohibits the public disclosure, use, or resale by any state’s department of motor vehicles of personal information about an individual that was obtained by the department in connection with a motor vehicle record, except for a “permissible purpose”; and various other federal, state, and local laws and regulations. Those laws generally restri"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6267,
+      "text": "Reserved] 28 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 29 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 46 Item 8. Consolidated Financial Statements and Supplementary Data 46 Consolidated Balance Sheets 55 Consolidated Statements of Operations 56 Consolidated Statements of Comprehensive Income 57 Consolidated Statements of C"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 6587,
+      "text": "specialized and in-depth knowledge in insurance and risk management that drives our engagement with our clients; • Long-standing Industry Relationships – Our early beginnings as an insurance rating bureau have established us as a trusted partner for the industry as well as a source of insights for our clients; and • Scale to Drive Broad Distribution of Innovation – Our scale advantage enables us t"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5818,
+      "text": "prevention and protection, monitoring and detection, and response and recovery planning. Key control functions that comprise the security measures include but are not limited to: risk assessment, asset management, supply chain risk management, identity and access management, customer credentialing, physical security, application and infrastructure security, perimeter and network security, secure d"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 5282,
+      "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 001-34480 VERISK A"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4614,
+      "text": "period $ 302.7 $ 292.7 $ 280.3 Supplemental disclosures: Income taxes paid $ 276.0 $ 324.5 $ 175.0 Interest paid $ 111.2 $ 134.3 $ 129.0 Noncash investing and financing activities: Deferred tax liability established on date of acquisitions $ 8.7 $ 14.0 $ 21.0 Net assets sold as part of the dispositions, net of cash sold $ 3,211.8 $ - $ - Finance lease additions, net of disposals $ 45.6 $ 5.2 $ 7.0"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 7055,
+      "text": "and brief claims history. 8 Table of Contents Casualty Solutions We offer a full suite of casualty/bodily injury solutions to serve the P&C industry, third-party administrators, and self-insured employers. Verisk casualty solutions focus on compliance (Medicare Secondary Payer and workers’ compensation state reporting); casualty claims decision support (severity detection and damage assessment); a"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3457,
+      "text": "before income taxes 1,027.2 1,262.4 786.5 Provision for income taxes ( 258.8 ) ( 220.3 ) ( 179.4 ) Income from continuing operations 768.4 1,042.1 607.1 (Loss) income from discontinued operations, net of tax (expense) benefit of $( 12.6 ), $ 131.5 and $( 29.7 ), respectively (Note 11) ( 154.0 ) ( 87.8 ) 59.2 Net income 614.4 954.3 666.3 Less: Net loss (income) attributable to noncontrolling intere"
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 4874,
+      "text": "salaries and employee benefits of $15.0 million, information technology expenses of $13.6 million, and travel expenses of $3.5 million. These increases were partially offset by decreases in data costs of $4.7 million, professional consulting fees of $0.9 million, and other operating cost of $0.7 million. Selling, General and Administrative Expenses SGA expenses for our Insurance segment were $347."
+     },
+     {
+      "ticker": "VRSK",
+      "chars": 3908,
+      "text": "estimate performed as of June 30, 2022 and the carrying value of each reporting unit. ● Held inquires with appropriate management personnel regarding any changes in the Company’s internal structure that could cause its reporting unit determinations to change in the current year. ● Held ongoing inquires with management, the board of directors, and the legal department regarding any changes in manag"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.812589992802551,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9531
+   }
+  }
+ }
+}

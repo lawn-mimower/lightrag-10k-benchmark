@@ -1,0 +1,447 @@
+{
+ "question_id": "df27b7cc",
+ "ticker": "BIIB",
+ "question": "Biogen (BIIB) revenue recognition timing under ASC 606: point vs over time.",
+ "expected_answer": "Under ASC 606, Biogen adopts a systematic five‐step approach to revenue recognition that directly influences both when and how revenue is measured. The five steps—involving (i) the identification of the contract(s) with a customer, (ii) identification of performance obligations, (iii) determination of the transaction price, (iv) allocation of the transaction price to the performance obligations, and (v) recognition of revenue when (or as) those performance obligations are satisfied—ensure that revenue is both reliably measured and recognized in a manner that reflects the transfer of control to the customer.\n\nFor many of Biogen’s products, revenue is recognized at a point in time, specifically when the customer obtains control, such as upon delivery of the product. This point-in-time recognition means that once the performance obligation is met (i.e., the product has been delivered), the revenue is measured and recorded. \n\nHowever, in some cases—such as certain contract manufacturing agreements or other arrangements where control is transferred over time—the timing of revenue recognition may be spread out over a period. In these instances, revenue is recognized as the related performance obligations are satisfied, allowing for recognition over time rather than at a single point. The approach ensures that variable considerations (like rebates, discounts, and allowances) are appropriately estimated and recorded as adjustments to the transaction price, further aligning revenue recognition with the underlying economics of the contracts.\n\nOverall, the adoption of ASC 606 by Biogen refines the timing and measurement of revenue, ensuring that revenue recognition more closely mirrors the actual transfer of goods or services (either at a single point or progressively over time) based on the specific terms of each customer contract.",
+ "category": "Accounting",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 15197,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:06:59.149771",
+   "duration_ms": 29669,
+   "answer": "Biogen Inc. recognizes revenue in accordance with the Five-Step Model prescribed under Financial Accounting Standards Board (FASB) ASC 606, *Revenue from Contracts with Customers*. This process involves identifying the contract with a customer, identifying performance obligations, determining the transaction price, allocating that price to the performance obligations, and recognizing revenue as those obligations are satisfied.\n\nFor its primary source of income, **Product Revenue**, Biogen recognizes revenue at a **point in time**. This recognition occurs when the customer—typically wholesale distributors, specialty pharmacies, or hospitals—obtains control of the product. Control is generally considered to have transferred upon delivery to the customer. \n\nThe company records product revenue net of reserves for variable consideration, which includes government-mandated or privately-negotiated discounts, contractual adjustments, and returns. These reserves are estimated using the expected value method and are based on historical experience, statutory requirements, and market trends. Biogen includes these variable amounts in the net sales price only to the extent that a significant reversal of cumulative revenue is unlikely to occur in future periods.\n\nIn addition to direct product sales, Biogen generates revenue from collaboration arrangements and royalties, such as those related to anti-CD20 therapeutic programs like OCREVUS. Royalty revenue is recognized based on estimates of product sales occurring during the corresponding period, utilizing third-party and market research data. These estimates are subsequently adjusted in the period when actual figures become known, which is typically the following quarter.\n\n### References\n\n* [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 1789,
+   "context_length": 101037,
+   "context": {
+    "entities": 60,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 44,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Product Revenue",
+     "Total Revenue For 2021",
+     "Total Revenue For 2022",
+     "Research And Development For 2021",
+     "Net Income Attributable To Biogen Inc.",
+     "Net Income Attributable To Biogen Inc. For 2022",
+     "Net Income Attributable To Biogen Inc. For 2021",
+     "Comprehensive Income (Loss) Attributable To Biogen Inc.",
+     "Comprehensive Income (Loss) Attributable To Biogen Inc. For 2022",
+     "Comprehensive Income (Loss) Attributable To Biogen Inc. For 2021",
+     "Research And Development Expense",
+     "FASB ASC 606",
+     "Research And Development For 2022",
+     "Biogen Inc",
+     "Note 2: Revenue Recognition"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6669,
+      "text": "or special purpose entities that were established for the purpose of facilitating off-balance sheet arrangements. As such, we are not exposed to any financing, liquidity, market or credit risk that could arise if we had engaged in such relationships. We consolidate variable interest entities if we are the primary beneficiary. 87 T able of Contents NEW ACCOUNTING STANDARDS For a discussion of new a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3558,
+      "text": "1 476.3 Total revenue 9,835.6 10,173.4 10,981.7 Cost and expense: Cost of sales, excluding amortization and impairment of acquired intangible assets 2,533.4 2,278.3 2,109.7 Research and development 2,462.0 2,231.1 2,501.2 Selling, general and administrative 2,549.7 2,403.6 2,674.3 Amortization and impairment of acquired intangible assets 240.6 365.9 881.3 Collaboration profit sharing/(loss reimbur"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4799,
+      "text": "UTIC PROGRAMS Our share of RITUXAN, including RITUXAN HYCELA, GAZYVA and LUNSUMIO collaboration operating profits in the U.S., royalty revenue on sales of OCREVUS and other revenue from anti-CD20 therapeutic programs are summarized in the table below. For purposes of this discussion, we refer to RITUXAN and RITUXAN HYCELA collectively as RITUXAN. For the Years Ended December 31, (In millions) 2023"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3701,
+      "text": "1 Goodwill 6,219.2 5,749.0 Deferred tax asset 928.6 1,226.4 Investments and other assets 745.0 1,529.2 Total assets $ 26,844.8 $ 24,554.1 LIABILITIES AND EQUITY Current liabilities: Current portion of term loan $ 150.0 $ — Taxes payable 257.4 259.9 Accounts payable 403.3 491.5 Accrued expense and other 2,623.6 2,521.4 Total current liabilities 3,434.3 3,272.8 Notes payable and term loan 6,788.2 6,"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6894,
+      "text": "Biogen Inc. Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of Biogen Inc. and its subsidiaries (the “Company”) as of December 31, 2023 and 2022, and the related consolidated statements of income, of comprehensive income, of equity and of cash flow for each of the three years in the period ended Decembe"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8120259101583821,
+    "context_recall": 0.75,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8905
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:07:37.132694",
+   "duration_ms": 37983,
+   "answer": "Biogen Inc. (BIIB) follows the revenue recognition framework established by the Financial Accounting Standards Board (FASB) under **ASC 606**, *Revenue from Contracts with Customers*. This standard utilizes a five-step model: identifying the contract with the customer, identifying specific performance obligations, determining the transaction price, allocating that price to the obligations, and recognizing revenue as those obligations are satisfied.\n\nFor its primary source of income, **product revenue**, Biogen recognizes revenue at a **point in time**. This occurs when the customer—typically wholesale distributors, specialty pharmacies, or hospitals—obtains control of the products. Control is generally transferred upon delivery to the customer.\n\nBiogen’s revenue recognition process also involves significant estimation regarding variable consideration. Product revenue is recorded net of reserves for discounts, returns, and contractual adjustments (such as Medicaid and managed care rebates). These reserves are calculated using the expected value method, reflecting historical experience, statutory requirements, and forecasted buying patterns. If actual results differ from these estimates, the company adjusts them in the period the variation is identified, which can impact earnings.\n\nWhile the provided documentation focuses on point-in-time recognition for products, the broader ASC 606 standard applied by the company accounts for different types of contracts. In other industries or specific service contexts mentioned in the global standard (such as route servicing or system contracts), revenue may be recognized **over time** as progress toward completion is made; however, for Biogen’s core product sales, the point-of-delivery remains the primary trigger for recognition.\n\n### References\n\n- [1] BIOGEN INC.",
+   "answer_length": 1831,
+   "context_length": 87810,
+   "context": {
+    "entities": 34,
+    "relations": 60,
+    "chunks": 8,
+    "rerank_candidates": 109,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "FASB ASC 606",
+     "Revenue Recognition",
+     "Transactional Solutions",
+     "Engineered Materials",
+     "Ameriprise Financial Inc",
+     "Revenue From Contracts With Customers",
+     "ASC 606",
+     "FASB",
+     "Honeywell International Inc.",
+     "Revenue Recognition And Contracts With Customers",
+     "Motorola Solutions",
+     "Company",
+     "Notes 1 And 5 To The Consolidated Financial Statements",
+     "Deferred Revenues",
+     "Estimated Costs To Complete System Contracts"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6669,
+      "text": "or special purpose entities that were established for the purpose of facilitating off-balance sheet arrangements. As such, we are not exposed to any financing, liquidity, market or credit risk that could arise if we had engaged in such relationships. We consolidate variable interest entities if we are the primary beneficiary. 87 T able of Contents NEW ACCOUNTING STANDARDS For a discussion of new a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6894,
+      "text": "Biogen Inc. Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of Biogen Inc. and its subsidiaries (the “Company”) as of December 31, 2023 and 2022, and the related consolidated statements of income, of comprehensive income, of equity and of cash flow for each of the three years in the period ended Decembe"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3377,
+      "text": "— — — — ( 3.6 ) ( 750.0 ) ( 750.0 ) — ( 750.0 ) Retirement of common stock pursuant to the 2020 Share Repurchase Program, at cost — — ( 3.6 ) — ( 257.9 ) — ( 492.1 ) 3.6 750.0 — — — Issuance of common stock under stock option and stock purchase plans — — 0.2 — 44.2 — — — — 44.2 — 44.2 Issuance of common stock under stock award plan — — 0.5 — ( 46.0 ) — — — — ( 46.0 ) — ( 46.0 ) Compensation expens"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8600520955215437,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.965
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:08:03.636420",
+   "duration_ms": 26504,
+   "answer": "Based on the provided context, I do not have enough information to determine whether Biogen (BIIB) recognizes revenue at a point in time or over time under ASC 606. The provided document chunks focus on financial performance summaries, product descriptions, and collaboration profit-sharing calculations, but they do not explicitly state the specific accounting policies regarding the timing of revenue recognition for product sales or contract manufacturing.\n\nThe documentation does, however, provide details on how certain types of revenue are recorded:\n\n*   **Royalty Revenue:** For products such as OCREVUS, royalty revenue is based on estimates derived from third-party and market research data of sales occurring during the corresponding period. Adjustments are made in the period they become known, typically the following quarter.\n*   **Collaborative Programs:** For anti-CD20 therapeutic programs (such as RITUXAN, GAZYVA, and LUNSUMIO), Biogen records its share of pre-tax profits. Once a product is approved, the company's share of development, sales, and marketing expenses is recorded as a reduction of its share of pre-tax profits.\n*   **Contract Manufacturing:** While the company reports revenue for contract manufacturing ($848.2 million in 2023), the specific timing of recognition for these services is not detailed in the provided text.\n\n### References\n\n- [1] BIOGEN INC.",
+   "answer_length": 1391,
+   "context_length": 10510,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 2,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4799,
+      "text": "UTIC PROGRAMS Our share of RITUXAN, including RITUXAN HYCELA, GAZYVA and LUNSUMIO collaboration operating profits in the U.S., royalty revenue on sales of OCREVUS and other revenue from anti-CD20 therapeutic programs are summarized in the table below. For purposes of this discussion, we refer to RITUXAN and RITUXAN HYCELA collectively as RITUXAN. For the Years Ended December 31, (In millions) 2023"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.25
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:08:37.063572",
+   "duration_ms": 33427,
+   "answer": "Biogen Inc. (BIIB) recognizes revenue in accordance with the five-step model prescribed under FASB ASC 606, *Revenue from Contracts with Customers*. This process involves identifying the contract, determining performance obligations, establishing the transaction price, allocating that price to the obligations, and recognizing revenue as those obligations are satisfied. For Biogen, the timing of revenue recognition depends on the nature of the specific revenue stream, primarily distinguishing between product sales and collaboration or royalty arrangements.\n\n### Product Revenue Timing\nProduct revenue represents a significant portion of Biogen's financial performance and is recognized at a **point in time**. This recognition occurs when the customer obtains control of the promised goods, which typically happens upon delivery to the customer. In the United States, Biogen primarily sells to wholesale and specialty distributors and pharmacies, while international sales involve hospitals and third-party distribution partners.\n\nRevenue from these sales is recorded net of variable consideration, such as reserves for discounts, contractual adjustments, and product returns. These reserves are estimated using the expected value method, reflecting historical experience, statutory requirements, and market trends. Biogen only includes variable consideration in the net sales price to the extent it is probable that a significant reversal of cumulative revenue will not occur in future periods.\n\n### Collaboration and Royalty Revenue Timing\nBiogen also generates revenue through collaboration arrangements and royalties, which may follow different recognition patterns based on the transfer of control or the occurrence of sales by third parties. For example, royalty revenue from the sale of **OCREVUS** is recognized based on estimates of sales occurring during the corresponding period, derived from third-party and market research data.\n\nAdditionally, Biogen recognizes its share of pre-tax profits from anti-CD20 therapeutic programs, such as **RITUXAN**, **GAZYVA**, and **LUNSUMIO**. This revenue is recorded as earned according to the terms of the collaboration agreements with Genentech. For newly acquired assets like **SKYCLARYS**, which was added through the acquisition of Reata Pharmaceuticals in 2023, Biogen began recognizing revenue in the fourth quarter of 2023 following the integration of the product into its portfolio.\n\n### References\n\n* [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 2499,
+   "context_length": 117807,
+   "context": {
+    "entities": 47,
+    "relations": 171,
+    "chunks": 10,
+    "rerank_candidates": 135,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Product Revenue",
+     "FASB ASC 606",
+     "Total Revenue For 2021",
+     "Revenue Recognition",
+     "Total Revenue For 2022",
+     "Transactional Solutions",
+     "Research And Development For 2021",
+     "Engineered Materials",
+     "Net Income Attributable To Biogen Inc.",
+     "Contract Options",
+     "Net Income Attributable To Biogen Inc. For 2022",
+     "Performance Obligation",
+     "Net Income Attributable To Biogen Inc. For 2021",
+     "Estimated Costs To Complete System Contracts",
+     "Comprehensive Income (Loss) Attributable To Biogen Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6669,
+      "text": "or special purpose entities that were established for the purpose of facilitating off-balance sheet arrangements. As such, we are not exposed to any financing, liquidity, market or credit risk that could arise if we had engaged in such relationships. We consolidate variable interest entities if we are the primary beneficiary. 87 T able of Contents NEW ACCOUNTING STANDARDS For a discussion of new a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3558,
+      "text": "1 476.3 Total revenue 9,835.6 10,173.4 10,981.7 Cost and expense: Cost of sales, excluding amortization and impairment of acquired intangible assets 2,533.4 2,278.3 2,109.7 Research and development 2,462.0 2,231.1 2,501.2 Selling, general and administrative 2,549.7 2,403.6 2,674.3 Amortization and impairment of acquired intangible assets 240.6 365.9 881.3 Collaboration profit sharing/(loss reimbur"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4799,
+      "text": "UTIC PROGRAMS Our share of RITUXAN, including RITUXAN HYCELA, GAZYVA and LUNSUMIO collaboration operating profits in the U.S., royalty revenue on sales of OCREVUS and other revenue from anti-CD20 therapeutic programs are summarized in the table below. For purposes of this discussion, we refer to RITUXAN and RITUXAN HYCELA collectively as RITUXAN. For the Years Ended December 31, (In millions) 2023"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3701,
+      "text": "1 Goodwill 6,219.2 5,749.0 Deferred tax asset 928.6 1,226.4 Investments and other assets 745.0 1,529.2 Total assets $ 26,844.8 $ 24,554.1 LIABILITIES AND EQUITY Current liabilities: Current portion of term loan $ 150.0 $ — Taxes payable 257.4 259.9 Accounts payable 403.3 491.5 Accrued expense and other 2,623.6 2,521.4 Total current liabilities 3,434.3 3,272.8 Notes payable and term loan 6,788.2 6,"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6894,
+      "text": "Biogen Inc. Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of Biogen Inc. and its subsidiaries (the “Company”) as of December 31, 2023 and 2022, and the related consolidated statements of income, of comprehensive income, of equity and of cash flow for each of the three years in the period ended Decembe"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5471,
+      "text": "of December 31, 2023, as Reata was acquired by our Company in a business combination during 2023. The total assets and total revenue of Reata represents 1.0% and 0.6%, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023. The effectiveness of our internal control over financial reporting as of December 31, 2023, has been audited by Pr"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8650301546089211,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9663
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:09:14.863750",
+   "duration_ms": 37800,
+   "answer": "Biogen Inc. recognizes revenue in accordance with the **FASB ASC 606** five-step model, which involves identifying the contract, determining performance obligations, establishing the transaction price, allocating that price, and recognizing revenue as obligations are satisfied. The timing of this recognition depends on when control of the promised goods or services is transferred to the customer.\n\n### Point in Time Recognition\nFor Biogen, **product revenue** is recognized at a **point in time**. This occurs when the customer—typically wholesale and specialty distributors, specialty pharmacies, hospitals, or third-party distribution partners—obtains control of the product. This transfer of control typically happens upon delivery to the customer. \n\nProduct revenue is recorded net of reserves for variable consideration, such as government-mandated or privately-negotiated discounts, contractual adjustments, and returns. These reserves are estimated using the expected value method and reflect historical experience, statutory requirements, and market trends.\n\n### Recognition Over Time and Other Streams\nWhile the provided documentation focuses heavily on point-in-time recognition for product sales, the company also generates revenue through other streams, including **anti-CD20 therapeutic programs**, contract manufacturing, and royalties. \n\nUnder the ASC 606 framework, revenue is generally recognized \"when (or as)\" a performance obligation is satisfied. For certain royalty revenues, such as those from Ocrevus sales, Biogen utilizes market research and third-party data to estimate sales and calculate the associated royalty revenue, with adjustments made in subsequent quarters as actual figures become available.\n\n### References\n\n* [1] BIOGEN INC. December 31, 2023 BIIB.html",
+   "answer_length": 1795,
+   "context_length": 117643,
+   "context": {
+    "entities": 47,
+    "relations": 168,
+    "chunks": 10,
+    "rerank_candidates": 134,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Product Revenue",
+     "FASB ASC 606",
+     "Total Revenue For 2021",
+     "Revenue Recognition",
+     "Total Revenue For 2022",
+     "ASC 606",
+     "Research And Development For 2021",
+     "FASB",
+     "Net Income Attributable To Biogen Inc.",
+     "Deferred Revenues",
+     "Net Income Attributable To Biogen Inc. For 2022",
+     "Transactional Solutions",
+     "Net Income Attributable To Biogen Inc. For 2021",
+     "Engineered Materials",
+     "Comprehensive Income (Loss) Attributable To Biogen Inc."
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6669,
+      "text": "or special purpose entities that were established for the purpose of facilitating off-balance sheet arrangements. As such, we are not exposed to any financing, liquidity, market or credit risk that could arise if we had engaged in such relationships. We consolidate variable interest entities if we are the primary beneficiary. 87 T able of Contents NEW ACCOUNTING STANDARDS For a discussion of new a"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3558,
+      "text": "1 476.3 Total revenue 9,835.6 10,173.4 10,981.7 Cost and expense: Cost of sales, excluding amortization and impairment of acquired intangible assets 2,533.4 2,278.3 2,109.7 Research and development 2,462.0 2,231.1 2,501.2 Selling, general and administrative 2,549.7 2,403.6 2,674.3 Amortization and impairment of acquired intangible assets 240.6 365.9 881.3 Collaboration profit sharing/(loss reimbur"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5365,
+      "text": "continue to advance our research and development prioritization efforts, which includes refocusing our investment in gene therapy, we are evaluating several alternative uses for this facility. 56 T able of Contents TEXAS As part of our acquisition of Reata in September 2023 we acquired leases totaling approximately 404,000 square feet of real estate space, which is summarized as follows: • 327,000"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5235,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number: 0-19311 BIOGEN INC. (Exact name of registrant as specified in its charter) Delaware 33-"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4416,
+      "text": "Logics Co., Ltd. and Samsung Bioepis Co., Ltd, dated April 20, 2020. 10.36 Amended and Restated Collaboration Agreement, dated October 22, 2017, between Biogen MA Inc. and Eisai Co., LTD. Filed as Exhibit 10.45 to our Annual Report on Form 10-K for the year ended December 31, 2022. 10.37 First Amendment to Amended and Restated Collaboration Agreement, dated March 13, 2022, between Biogen MA Inc. a"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8279900033639483,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.957
+   }
+  }
+ }
+}

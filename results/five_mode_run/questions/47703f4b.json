@@ -1,0 +1,460 @@
+{
+ "question_id": "47703f4b",
+ "ticker": "HON",
+ "question": "Honeywell's leadership diversity positively impacts operational efficiency and profitability, HON.",
+ "expected_answer": "The available information on the executives’ backgrounds allows us to qualitatively assess their potential influence on operational efficiency and profitability across Honeywell's various segments. For example:\n\n1. **Diverse Industry Experience**: Lucian Boldea’s extensive history in industrial automation and performance materials, combined with Jim Currier’s leadership in aerospace, and Kevin Dehoff’s experience in strategic business transformations (including his tenure at a consulting firm like McKinsey), indicates that each executive brings unique perspectives. This diversity can foster cross‐segment learning and the adoption of best practices that enhance operational efficiency by integrating innovations from different fields.\n\n2. **Strategic and Operational Improvements**: Boldea’s leadership background, with roles that required navigating sector-specific challenges across different segments (industrial automation and performance materials), suggests he could drive synergistic initiatives that streamline operations across divisions. Similarly, Dehoff’s experience in performance excellence and restructuring initiatives can lead to cost reduction and improved margins, thereby positively impacting profitability. Jim Currier’s background in aerospace, which typically demands high precision and regulatory compliance, may contribute to refining processes that not only increase efficiency in that segment but also serve as models for other divisions.\n\n3. **Risk Management and Capital Allocation**: A varied leadership team can enhance risk assessment by incorporating different perspectives on market volatility and capital needs. This can improve decision-making on investments in technology, process optimization, or market expansion initiatives, which are essential for maintaining profitability in a complex, multi-segment organization.\n\n4. **Innovation and Competitive Positioning**: The blend of expertise from different industries helps in challenging conventional practices and may promote innovation. This lessens operational inertia and might lead to the identification of new revenue opportunities or the implementation of cost-effective, scalable technologies that further optimize the company’s operations.\n\nWhile these insights do not directly substitute for quantitative financial analysis or specific performance metrics, the qualitative context implies that the diverse leadership backgrounds of Boldea, Dehoff, and Currier are likely to foster operational efficiencies and drive profitability improvements across Honeywell’s business segments.",
+ "category": "Governance",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 4320,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:29:04.390979",
+   "duration_ms": 30413,
+   "answer": "Honeywell International Inc. views inclusion and diversity (I&D) as a foundational principle that is central to its culture and long-term business growth strategy. The company explicitly states that its commitment to a diverse workforce and leadership team enables better decision-making, helps build competitive advantages, and furthers its long-term success. By fostering a culture reflective of varied backgrounds and perspectives, Honeywell aims to support its evolving business strategy and maintain its position as a global employer of choice.\n\nThe company's commitment to leadership diversity is reflected in its governing bodies. As of late 2023, Honeywell’s Board of Directors included four women, two African American directors, one Hispanic director, and two Asian American directors. Furthermore, six of the company’s nine executive officers are considered diverse by ethnic background, non-U.S. place of birth, or gender. This diversity at the top is intended to drive the recruitment, development, and retention of diverse talent across the entire organization.\n\nIn terms of operational impact, Honeywell leverages its \"Honeywell Accelerator\" operating model to drive growth, margin expansion, and productivity. In 2023, the company reported higher productivity of approximately $0.2 billion, which helped partially offset higher labor and material costs. Specifically, within the Aerospace segment, segment profit increased by $513 million, and the segment margin percentage rose to 27.5%. The company attributes its ability to effectively execute its human capital strategy to its internal culture, which emphasizes I&D alongside integrity and workplace respect.\n\nTo sustain this inclusive culture, Honeywell employs several governance and support structures. The Global Inclusion and Diversity Steering Committee, co-sponsored by the CEO and other senior executives, oversees I&D initiatives across all business groups. Additionally, the company supports nine affinity group employee networks, such as the Honeywell Black Employee Network and the Honeywell Women’s Employee Network, which provide training, development, and internal networking opportunities to ensure a steady pipeline of diverse talent from campus recruitment to the C-suite.\n\n### References\n\n* [1] Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL TRAINING AND LEADERSHIP DEVELOPMENT",
+   "answer_length": 2382,
+   "context_length": 117118,
+   "context": {
+    "entities": 60,
+    "relations": 182,
+    "chunks": 10,
+    "rerank_candidates": 33,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Inclusion And Diversity",
+     "Honeywell.Com",
+     "Hiring Processes",
+     "About Honeywell",
+     "Diversity Of Slate",
+     "Safety and Productivity Solutions",
+     "Honeywell Black Employee Network",
+     "Talent Review Processes",
+     "Honeywell Womens Employee Network",
+     "Affinity Group Employee Networks",
+     "Diversity, Equity, and Inclusion (DEI)",
+     "Recognition",
+     "Diversity, Equity, And Inclusion (DEI)",
+     "Executive Leadership",
+     "Honeywell Asian Employee Network"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6573,
+      "text": "parties, we do not anticipate having to bear significantly more than our proportional share in multi-party situations taken as a whole. We do not believe that federal, state, and local provisions regulating the discharge of materials into the environment, or otherwise relating to the protection of the environment, or any existing or pending climate change legislation, regulation, or international "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6514,
+      "text": "by changes in government procurement regulations. Within Honeywell Building Technologies and Safety and Productivity Solutions, the demand for and cost of providing products, services and solutions can be impacted by fire, security, safety, health care, environmental, and energy efficiency standards and regulations. Performance Materials and Technologies’ results of operations can be impacted by e"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4997,
+      "text": "2023 compared with 2022 Selling, general and administrative expenses were flat due to the following: • Higher productivity of approximately $0.2 billion or 4%, • Partially offset by higher labor costs of approximately $0.2 billion or 4%. 22 Honeywell International Inc. TABLE OF CONTENTS MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS Other (Income) Expense 202"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9787234042553191,
+    "answer_relevancy": 0.6819216872883503,
+    "context_recall": 0.08333333333333333,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.686
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:29:42.900006",
+   "duration_ms": 38509,
+   "answer": "Honeywell International Inc. views leadership diversity as a fundamental driver of its evolving business strategy and long-term success. As of late 2023, the company’s Board of Directors reflected a broad spectrum of backgrounds, including four women and five directors from underrepresented ethnic groups (two African American, one Hispanic, and two Asian American). This commitment extends to the executive leadership team, where six of the nine total executive officers are diverse by ethnic background, gender, or non-U.S. place of birth.\n\nThe company maintains that this diversity at the top enables better decision-making and helps build sustainable competitive advantages. By integrating varied perspectives into the governing body and senior management, Honeywell aims to foster a high-performance culture that reflects the global communities it serves. This strategic focus is designed to improve the recruitment, development, and retention of diverse talent across the entire organization, from entry-level positions to the \"C-Suite.\"\n\nOperational efficiency is supported by a robust governance structure for inclusion and diversity (I&D). A Global Inclusion and Diversity Steering Committee, co-sponsored by the CEO, General Counsel, and Chief Human Resources Officer, oversees I&D Councils within each business group. This scalable model is intended to embed inclusive practices into daily operations and facilitate the development of internal networks that provide training and promotional opportunities for employees.\n\nFurthermore, Honeywell leverages its \"Honeywell Accelerator\" operating model to standardize best practices across its business segments, aiming to drive incremental growth and margin expansion. The company’s focus on human capital management—including I&D—is considered a key driver of its performance culture. In 2023, Honeywell reported strong financial results, including 3% sales growth to $36.7 billion and operating cash flows of $5.3 billion, which the company attributes to its focus on operational excellence and its ability to respond to changing customer needs through a motivated, diverse workforce.\n\n### References\n\n- [1] Honeywell International Inc. Document Title: HON.html",
+   "answer_length": 2221,
+   "context_length": 90786,
+   "context": {
+    "entities": 39,
+    "relations": 60,
+    "chunks": 7,
+    "rerank_candidates": 108,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Board Of Directors",
+     "Diversity",
+     "Executive Leadership",
+     "Honeywell International Inc",
+     "Company Success",
+     "Senior Management",
+     "Business Transformation",
+     "Leadership Team",
+     "Company",
+     "Human Capital Resources",
+     "Business Operations",
+     "Executive Leadership Team",
+     "Strategic Plan",
+     "Inclusion And Diversity",
+     "Representation"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6573,
+      "text": "parties, we do not anticipate having to bear significantly more than our proportional share in multi-party situations taken as a whole. We do not believe that federal, state, and local provisions regulating the discharge of materials into the environment, or otherwise relating to the protection of the environment, or any existing or pending climate change legislation, regulation, or international "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7243,
+      "text": "vii) achieve sufficient return on investment for new products introduced based on capital expenditures and research and development spending; (viii) respond to changes in overall trends related to end market demand; and (ix) attract, develop, and retain individuals with the requisite technical expertise and understanding of customers’ needs to develop new technologies and introduce new products. C"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9393939393939394,
+    "answer_relevancy": 0.7614552778033334,
+    "context_recall": 0.45454545454545453,
+    "context_precision": 0.0,
+    "ragas_score": 0.5388
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:29:52.926899",
+   "duration_ms": 10027,
+   "answer": "Honeywell’s commitment to leadership diversity is integrated into its core business strategy and governance. As of December 31, 2023, the company’s Board of Directors includes four women, two African American directors, one Hispanic director, and two Asian American directors. Furthermore, six of the company’s nine executive officers are considered diverse based on ethnic background, non-U.S. place of birth, or gender. Honeywell views this diversity at the highest levels as a testament to its ongoing commitment to hiring, developing, and retaining diverse talent.\n\nAccording to the company, this focus on inclusion and diversity (I&D) is a key driver for long-term success and competitive advantage. Specifically, Honeywell states that its commitment to I&D enables better decision-making and supports the company’s evolving business strategy. By fostering a workforce and leadership team that reflects a broad spectrum of backgrounds and perspectives, the company aims to leverage its culture as a competitive advantage and cultivate an environment of respect and accessibility.\n\nThe impact of diversity is further reinforced through Honeywell’s human capital management and governance structures. The company believes that investments in human capital management enable better decision-making and help the workforce respond more effectively to fast-changing customer needs. To maintain this, a Global Inclusion and Diversity Steering Committee—co-sponsored by the CEO and other senior executives—embeds I&D Councils within each business group. This governance model supports nine affinity group employee networks designed to provide training and expand internal networks for promotional opportunities, ensuring that diversity remains central to the company’s operational and growth strategies.\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 1852,
+   "context_length": 33305,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 5,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6573,
+      "text": "parties, we do not anticipate having to bear significantly more than our proportional share in multi-party situations taken as a whole. We do not believe that federal, state, and local provisions regulating the discharge of materials into the environment, or otherwise relating to the protection of the environment, or any existing or pending climate change legislation, regulation, or international "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6547,
+      "text": "the 2024 Annual Meeting of Stockholders (the Proxy Statement), which we expect to file with the SEC on or about April 2, 2024, and which will also be available free of charge on our website. 2 Honeywell International Inc. TABLE OF CONTENTS ABOUT HONEYWELL EXECUTIVE SUMMARY Leveraging our Honeywell Accelerator operating model, we delivered strong performance in 2023, remaining focused on creating l"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6277,
+      "text": ". TABLE OF CONTENTS MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Dollars in tables and graphs in millions, except per share amounts) The following Management’s Discussion and Analysis of Financial Condition and Results of Operations is intended to help the reader understand the results of operations and financial condition of Honeywell International Inc. a"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7653086970672964,
+    "context_recall": 0.0,
+    "context_precision": 0.0,
+    "ragas_score": 0.4413
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:30:33.914371",
+   "duration_ms": 40987,
+   "answer": "Honeywell International Inc. views leadership diversity as a foundational principle that is directly linked to its evolving business strategy and long-term success. As of late 2023, the company’s Board of Directors reflected significant diversity, including four women, two African American directors, one Hispanic director, and two Asian American directors. Furthermore, six of the company’s nine executive officers are diverse by ethnic background, gender, or non-U.S. place of birth. Honeywell asserts that this diverse leadership team brings a broad spectrum of perspectives that enable better decision-making and help build sustainable competitive advantages [1].\n\nThe company integrates inclusion and diversity (I&D) into its operational framework through the \"Honeywell Accelerator\" operating model. This system serves as the company's \"operating system\" for governing and managing business day-to-day, emphasizing core behaviors such as integrity and inclusion to drive a high-performance culture. By embedding I&D into this model, Honeywell aims to ensure its workforce can respond effectively to fast-changing customer needs, which is identified as a key driver of the company's performance culture and overall operational efficiency [1].\n\nHoneywell’s commitment to diversity is also reflected in its governance and talent management structures. The Global Inclusion and Diversity Steering Committee, co-sponsored by the CEO and other senior executives, oversees I&D Councils within each business group. This governance structure supports nine affinity group employee networks that provide training, development, and internal networking opportunities. These initiatives are designed to sustain a pipeline of diverse talent from campus recruitment to the executive level, which Honeywell believes leverages its corporate culture as a competitive advantage [1].\n\nIn terms of financial and strategic outcomes, Honeywell reported that leveraging the Honeywell Accelerator model—which includes these inclusive leadership principles—allowed the company to deliver strong performance in 2023. The organization remains focused on creating long-term shareholder value through these principles, maintaining that a diverse and inclusive environment improves performance and distinguishes the company as a global employer of choice. This strategy is central to their efforts in driving growth, margin expansion, and cash generation [1].\n\n### References\n\n* [1] {\"ticker\":\"HON\",\"company\":\"Honeywell International Inc.\",\"period\":\"December 31, 2023\",\"source\":\"HON.html\"}",
+   "answer_length": 2564,
+   "context_length": 135299,
+   "context": {
+    "entities": 60,
+    "relations": 186,
+    "chunks": 10,
+    "rerank_candidates": 168,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Honeywell.Com",
+     "Board Of Directors",
+     "Hiring Processes",
+     "Diversity",
+     "Talent Review Processes",
+     "Executive Leadership",
+     "Honeywell Black Employee Network",
+     "Honeywell International Inc",
+     "Honeywell Womens Employee Network",
+     "Company",
+     "Safety and Productivity Solutions",
+     "Human Capital Resources",
+     "Honeywell Asian Employee Network",
+     "Inclusion And Diversity",
+     "About Honeywell"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6573,
+      "text": "parties, we do not anticipate having to bear significantly more than our proportional share in multi-party situations taken as a whole. We do not believe that federal, state, and local provisions regulating the discharge of materials into the environment, or otherwise relating to the protection of the environment, or any existing or pending climate change legislation, regulation, or international "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6326,
+      "text": "to the traditional SEC Form 10-K format. 1 Cautionary Statement about Forward-Looking Statements 2 About Honeywell 17 Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Review of Business Segments 30 Risk Factors 38 Quantitative and Qualitative Disclosures about Market Risks 38 Liquidity and Capital Resources 44 Critical Accounting Estimates 47 Other Matters 4"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5993,
+      "text": "ING PRONOUNCEMENTS See Note 1 Summary of Significant Accounting Policies of Notes to Consolidated Financial Statements for a discussion of recent accounting pronouncements. 47 Honeywell International Inc. TABLE OF CONTENTS INFORMATION ABOUT OUR EXECUTIVE OFFICERS The executive officers of Honeywell, listed as follows, are elected annually by the Board of Directors. There are no family relationship"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7841155709666419,
+    "context_recall": 0.09090909090909091,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.7188
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:31:14.952142",
+   "duration_ms": 41038,
+   "answer": "Honeywell International Inc. views inclusion and diversity as foundational principles that are integrated into its core business operations and long-term growth strategy. The company’s commitment to these values begins at the highest levels of governance. As of December 31, 2023, Honeywell’s **Board of Directors** featured significant diversity, including four women, two African American directors, one Hispanic director, and two Asian American directors. Similarly, the **executive leadership team** is composed of nine officers, six of whom are diverse by gender, ethnic background, or non-U.S. place of birth [1].\n\n### Impact on Operational Efficiency and Decision-Making\nHoneywell maintains that its diverse leadership and workforce directly enhance **better decision-making** and support its evolving business strategy. By incorporating a broad spectrum of backgrounds and perspectives, the company aims to build a competitive advantage and ensure long-term success. This diverse representation is supported by the **Global Inclusion and Diversity Steering Committee**, co-sponsored by the CEO and other senior executives, which ensures that inclusion and diversity goals are embedded across all business groups [1].\n\nTo maintain operational efficiency and a high-performance culture, Honeywell utilizes the **Honeywell Accelerator** operating system. This system provides a centralized source of best practices, digital platforms, and over 22,000 learning modules designed to enhance how the company operates and governs itself day-to-day. Leadership development programs within this framework focus on core management skills and inclusive leadership training, educating the global workforce on reducing unconscious bias to influence behavior and improve collaborative performance [1].\n\n### Strategic Success and Human Capital\nThe company’s focus on human capital management is a key driver of its performance culture. Honeywell believes that investing in continuous learning and maintaining an inclusive environment allows its workforce to respond effectively to the rapidly changing needs of global customers. To sustain this, the company implements a **\"diversity of slate\"** requirement for hiring, ensuring that at least one diverse candidate is interviewed for exempt and management roles globally [1]. \n\nBy prioritizing the strategic areas of **Representation, Recognition, and Retention**, Honeywell seeks to cultivate a workforce that reflects the global communities it serves. The company leverages its inclusive culture as a competitive advantage to attract and retain top talent, which it believes is essential for driving business results and achieving its strategic objectives in sectors like aerospace, building technologies, and energy transition [1].\n\n### References\n\n* [1] Honeywell International Inc.",
+   "answer_length": 2828,
+   "context_length": 132996,
+   "context": {
+    "entities": 56,
+    "relations": 186,
+    "chunks": 10,
+    "rerank_candidates": 162,
+    "chunk_tickers": [
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON",
+     "HON"
+    ],
+    "entity_names": [
+     "Honeywell Womens Employee Network",
+     "Board Of Directors",
+     "Honeywell Black Employee Network",
+     "Diversity",
+     "Honeywell.Com",
+     "Executive Leadership",
+     "Inclusion And Diversity",
+     "Honeywell International Inc",
+     "Honeywell Hispanic Employee Network",
+     "Company Success",
+     "Honeywell Asian Employee Network",
+     "Senior Management",
+     "Honeywell Growing Experience Employee Network",
+     "Business Transformation",
+     "Diversity, Equity, and Inclusion (DEI)"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "HON",
+      "chars": 6826,
+      "text": "campaigns to promote well-being and help provide visibility to resources and available benefits across a range of topics from health and wellness programs to caring for your family and taking care of finances. We promoted mental health globally during Mental Health Awareness month, during which we offered a variety of benefits and resources were promoted, hosted live webinars, and employees engage"
+     },
+     {
+      "ticker": "HON",
+      "chars": 5549,
+      "text": "infrastructure and products” in Item 1A, Risk Factors of this Annual Report. In the event an attack or other intrusion were to be successful, we have a response team of internal and external resources engaged and prepared to respond . PROPERTIES We have approxim ately 715 locations, of which 194 are manufacturing sites. Our properties and equipment are in good operating condition and are adequate "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6555,
+      "text": ", for near real-time emissions reporting as a consolidated system of record. • Honeywell Helps Define Pathways To Net Zero . We can deliver solutions to help drive the energy transition and decarbonization. We have unique expertise in essential technologies needed to help on the journey to create a net-zero economy, including refrigerants, renewable diesel and aviation fuels, hydrogen production, "
+     },
+     {
+      "ticker": "HON",
+      "chars": 5278,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K x ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number 1-8974 Honeywell International Inc. (Exact name of reg"
+     },
+     {
+      "ticker": "HON",
+      "chars": 7297,
+      "text": "cybersecurity issues, is responsible for oversight of Honeywell’s information technology and cybersecurity risks and regularly reports to the Board on information technology and cybersecurity matters. The Audit Committee oversees risk related to the protection of customer and employee data, trade secrets, and other proprietary information, the security of data on the cloud, persistent threats, and"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6573,
+      "text": "parties, we do not anticipate having to bear significantly more than our proportional share in multi-party situations taken as a whole. We do not believe that federal, state, and local provisions regulating the discharge of materials into the environment, or otherwise relating to the protection of the environment, or any existing or pending climate change legislation, regulation, or international "
+     },
+     {
+      "ticker": "HON",
+      "chars": 6174,
+      "text": "maintaining adequate internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Honeywell’s internal control over financial reporting is a process designed to provide reasonable assurance to our management and Board of Directors regarding the reliability of financial repor"
+     },
+     {
+      "ticker": "HON",
+      "chars": 6645,
+      "text": "discount rate reflects the market rate on December 31 (measurement date) for high-quality fixed income investments with maturities corresponding to our benefit obligations and is subject to change each year. The discount rate can be volatile from year to year as it is determined based upon prevailing interest rates as of the measurement date. We used a 4.97% discount rate to determine benefit obli"
+     },
+     {
+      "ticker": "HON",
+      "chars": 4538,
+      "text": "Honeywell's Form 10-K for the year ended December 31, 2022)",
+      "text_cut_early": true
+     },
+     {
+      "ticker": "HON",
+      "chars": 5082,
+      "text": "does not include any exercise price for notional shares allocated to employees under Honeywell’s equity compensation plans not approved by shareowners because all of these shares are only settled for shares of Common Stock on a one-for-one basis. 6 The amount of securities available for future issuance under the Honeywell Excess Benefit Plan and Supplemental Savings Plan is not determinable becaus"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7286375799362464,
+    "context_recall": 0.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.6822
+   }
+  }
+ }
+}

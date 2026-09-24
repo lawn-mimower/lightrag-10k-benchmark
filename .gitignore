@@ -54,3 +54,7 @@ parsing_errors.json
 output_markdown*/
 mistral_output_markdown/
 docling_output/
+
+# Curated benchmark results are tracked (see results/README.md)
+!/results/
+!/results/**

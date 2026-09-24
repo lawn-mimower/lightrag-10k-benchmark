@@ -1,0 +1,477 @@
+{
+ "question_id": "a26c0c76",
+ "ticker": "BIIB",
+ "question": "Impact of generics & biosimilars on revenue for Biogen, BIIB.",
+ "expected_answer": "The provided data clearly indicates that increasing competition from generics and biosimilars is expected to have an adverse impact on Biogen Inc.'s revenue streams and profitability, particularly for TECFIDERA and TYSABRI. For TECFIDERA, the entry of multiple generic versions—accompanied by significantly lower pricing—has already led to a substantial reduction in revenue. This downward trend is expected to continue as further generics exit the market over time, despite ongoing legal and regulatory efforts to extend market protection. Similarly, for TYSABRI, the recent approval of a biosimilar in both the U.S. and the E.U. signals future revenue challenges. Biosimilar competition can capture market share and typically results in lower pricing, which will likely further erode the product's profitability. In summary, these competitive pressures are expected to depress both the price and sales volume of these key products, leading to a negative near-term impact on overall revenue and profitability.",
+ "category": "Company overview",
+ "expected_type": "None",
+ "reasoning": false,
+ "finder_reference_count": 1,
+ "finder_reference_chars": 10561,
+ "modes": {
+  "local": {
+   "status": "success",
+   "timestamp": "2026-01-19T19:59:33.130444",
+   "duration_ms": 47251,
+   "answer": "The entry of generic and biosimilar products has significantly impacted Biogen's financial performance, primarily by driving down demand and pricing for its established branded therapies. In 2023, Biogen’s total product revenue decreased by $741.1 million (9.3%), a decline largely attributed to competition in its Multiple Sclerosis (MS) and anti-CD20 portfolios [1].\n\n### Impact on the Multiple Sclerosis (MS) Portfolio\nBiogen's MS revenue saw a substantial decrease of $768.3 million (14.1%) in 2023. A primary driver was the loss of market share for **TECFIDERA** following the introduction of multiple generic entrants in North America, Brazil, and certain European Union countries [1]. Additionally, **TYSABRI** revenue in the U.S. declined due to increased competition and pricing pressure. The approval of a TYSABRI biosimilar in the U.S. (August 2023) and the E.U. (September 2023) is expected to further adversely affect future sales of the product [1].\n\n### Effects on Anti-CD20 Therapeutic Programs\nBiosimilar competition has also eroded profits from Biogen’s collaborative anti-CD20 programs with Genentech. Sales volumes for **RITUXAN** in the U.S. fell by 15.2% in 2023 due to the availability of lower-priced biosimilar alternatives. Consequently, Biogen’s share of pre-tax profits from RITUXAN, GAZYVA, and LUNSUMIO dropped from $547.0 million in 2022 to $409.4 million in 2023 [1]. The company anticipates that continued biosimilar penetration will have a significant adverse impact on these co-promotion profits in future years [1].\n\n### Biogen’s Own Biosimilars Business\nWhile competition from third-party biosimilars has harmed its branded revenue, Biogen also operates its own biosimilars business. This segment includes products such as **BENEPALI**, **IMRALDI**, **FLIXABI**, and **BYOOVIZ**. In 2023, revenue from this portfolio increased modestly by 2.5% to **$770.0 million**, up from $751.1 million in 2022. This growth was partially driven by the launch of BYOOVIZ in various markets, although it was tempered by broader pricing and supply constraints [1]. Despite this growth, Biogen announced in February 2023 that it is exploring strategic options for its biosimilars business [1].\n\n### Regulatory and Market Dynamics\nThe broader market environment remains challenging as generic and biosimilar versions of Biogen's products are often priced lower, leading to rapid revenue declines once regulatory exclusivity expires [1]. Furthermore, the **Inflation Reduction Act (IRA)** in the U.S. introduces drug pricing reforms and inflationary rebate requirements that may further pressure product pricing. Conversely, the IRA also includes incentives for biosimilar development, such as an 8.0% Medicare Part B add-on payment for qualifying products, which may influence the competitive landscape for Biogen's future therapeutic offerings [1].\n\n### References\n\n* [1] BIOGEN INC. Annual Report on Form 10-K for the year ended December 31, 2023",
+   "answer_length": 2967,
+   "context_length": 109976,
+   "context": {
+    "entities": 60,
+    "relations": 173,
+    "chunks": 10,
+    "rerank_candidates": 45,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Generic And Biosimilar Competition",
+     "Global Biogen Biosimilars Unit",
+     "Follow-On Biologics",
+     "Biosimilars Business",
+     "Biosimilar Products",
+     "Pre-Tax Profits",
+     "Pharmaceutical Products",
+     "Generic Drugs",
+     "Biosimilar Versions",
+     "Drug Price Negotiation",
+     "Biosimilars Revenue",
+     "Biogen Therapeutics Inc.",
+     "Rare Diseases",
+     "Biosimilar Regulation",
+     "Originator Therapies"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5235,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Commission file number: 0-19311 BIOGEN INC. (Exact name of registrant as specified in its charter) Delaware 33-"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 7148,
+      "text": "our decision to sell or not to sell a product, thus adversely affecting our geographic expansion plans and revenue. Additionally, in certain jurisdictions governmental health agencies may adjust, retroactively and/or prospectively, reimbursement rates for our products. Reimbursement for our products by governments, including the timing of any reimbursements, may also be affected by budgetary or po"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4799,
+      "text": "UTIC PROGRAMS Our share of RITUXAN, including RITUXAN HYCELA, GAZYVA and LUNSUMIO collaboration operating profits in the U.S., royalty revenue on sales of OCREVUS and other revenue from anti-CD20 therapeutic programs are summarized in the table below. For purposes of this discussion, we refer to RITUXAN and RITUXAN HYCELA collectively as RITUXAN. For the Years Ended December 31, (In millions) 2023"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5244,
+      "text": "at the 2023 International Conference on Alzheimer's and Parkinson's Diseases, showing that BIIB080 substantially reduced tau protein levels in patients with early-stage Alzheimer's disease. RARE DISEASE SPINRAZA (nusinersen) • In June 2023 we announced new data from the Phase 4 RESPOND study, which is designed to evaluate the clinical outcomes and safety following treatment with SPINRAZA in infant"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8313415334815253,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9162
+   }
+  },
+  "global": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:00:05.342041",
+   "duration_ms": 32212,
+   "answer": "Generic and biosimilar competition has significantly impacted Biogen Inc.’s revenue, contributing to a 9.3% decrease in total product revenue for the fiscal year ended December 31, 2023. This decline was primarily driven by the entry of lower-cost alternatives that reduced both sales volumes and pricing power for several of the company’s key therapies.\n\n### Impact on Multiple Sclerosis (MS) Products\nThe most substantial impact from generic competition was seen in the company's MS franchise, specifically with **TECFIDERA**. Global revenue for TECFIDERA dropped by 29.9%, or $431.4 million, between 2022 and 2023. This decline was largely attributed to the introduction of multiple generic entrants in North America, Brazil, and various European Union countries. Additionally, **TYSABRI** revenue in the U.S. decreased due to increased competition and pricing pressure, and the company has identified upcoming biosimilar versions of TYSABRI as a threat to its future market share and sales.\n\n### Impact on Anti-CD20 Therapeutic Programs\nBiogen’s revenue from its anti-CD20 therapeutic programs, which include collaboration with Genentech, has also been adversely affected by biosimilar products.\n*   **RITUXAN:** Sales volumes in the U.S. fell by 15.2% in 2023 due to competition from multiple biosimilar products offered at lower prices.\n*   **Profitability:** This competition has led to a substantial decrease in Biogen’s share of pre-tax profits from these collaboration arrangements. The company expects biosimilar competition to continue capturing market share, further impacting co-promotion profits in future years.\n\n### Biogen’s Biosimilars Business Segment\nWhile competition from generics and biosimilars reduces revenue for Biogen’s originator products, the company also operates its own biosimilars business. In 2023, Biogen’s biosimilars revenue increased by 2.5% to $770.0 million, up from $751.1 million in 2022. This segment includes products such as **BENEPALI**, **IMRALDI**, and **FLIXABI** in Europe, as well as **BYOOVIZ** and **TOFIDENCE**. Despite the modest growth in this segment, Biogen announced in February 2023 that it is exploring strategic options for its biosimilars business, which may include restructuring or other growth initiatives.\n\n### Regulatory and Future Considerations\nThe Inflation Reduction Act (IRA) in the U.S. introduced provisions that both challenge and incentivize the market. While the IRA’s drug pricing reforms and Medicare redesign may adversely affect sales of Biogen’s products, the act also provides an 8.0% Medicare Part B add-on payment for qualifying biosimilar products to encourage their development. However, Biogen remains subject to various risks, including supply chain challenges and the need for patient and physician acceptance of biosimilars based on perceived safety and efficacy.\n\n### References\n\n* [1] BIOGEN INC. Annual Report (December 31, 2023)",
+   "answer_length": 2925,
+   "context_length": 100214,
+   "context": {
+    "entities": 40,
+    "relations": 60,
+    "chunks": 10,
+    "rerank_candidates": 102,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Future Cash Flow",
+     "Generic And Biosimilar Competition",
+     "Biosimilar Products",
+     "Generics",
+     "Biosimilars",
+     "Pharmaceutical Products",
+     "Market Exclusivity",
+     "Innovator's Product",
+     "Competitive Position",
+     "Generic Versions",
+     "Biogen Inc",
+     "European Union",
+     "Pharmaceutical Product",
+     "Biosimilar Versions",
+     "Competitors"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 7148,
+      "text": "our decision to sell or not to sell a product, thus adversely affecting our geographic expansion plans and revenue. Additionally, in certain jurisdictions governmental health agencies may adjust, retroactively and/or prospectively, reimbursement rates for our products. Reimbursement for our products by governments, including the timing of any reimbursements, may also be affected by budgetary or po"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4799,
+      "text": "UTIC PROGRAMS Our share of RITUXAN, including RITUXAN HYCELA, GAZYVA and LUNSUMIO collaboration operating profits in the U.S., royalty revenue on sales of OCREVUS and other revenue from anti-CD20 therapeutic programs are summarized in the table below. For purposes of this discussion, we refer to RITUXAN and RITUXAN HYCELA collectively as RITUXAN. For the Years Ended December 31, (In millions) 2023"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5244,
+      "text": "at the 2023 International Conference on Alzheimer's and Parkinson's Diseases, showing that BIIB080 substantially reduced tau protein levels in patients with early-stage Alzheimer's disease. RARE DISEASE SPINRAZA (nusinersen) • In June 2023 we announced new data from the Phase 4 RESPOND study, which is designed to evaluate the clinical outcomes and safety following treatment with SPINRAZA in infant"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3674,
+      "text": "eligible patients with early-stage idiopathic Parkinson’s disease. BIIB093 In April 2023 we announced that we would terminate the development of BIIB093 (glibenclamide IV), currently in a Phase 3 study for LHI and a Phase 2 study for brain contusion, due to operational challenges and other strategic considerations. In connection with this termination, we recorded close-out costs of approximately $"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9772727272727273,
+    "answer_relevancy": 0.8733237627153322,
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.8793
+   }
+  },
+  "naive": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:00:18.979663",
+   "duration_ms": 13638,
+   "answer": "Biogen (BIIB) reports that its revenue streams face significant and increasing competition from generic versions, prodrugs, and biosimilars of its existing products. These competing products are typically offered at substantially lower prices than branded medicines. Consequently, their introduction reduces both the prices Biogen can charge and the volume of products it sells, which negatively impacts overall revenue. In some markets, generic or biosimilar versions may be automatically substituted for Biogen’s products, leading to a rapid loss of revenue in a short period.\n\nThe impact of this competition is particularly pronounced within Biogen's Multiple Sclerosis (MS) portfolio:\n\n*   **TECFIDERA:** Revenue has significantly declined due to the entry of deeply discounted generic versions in North America, Brazil, and certain E.U. countries. Biogen expects TECFIDERA revenue to continue decreasing in the future.\n*   **TYSABRI:** A biosimilar entrant for TYSABRI was approved in the U.S. in August 2023 and the E.U. in September 2023. Biogen believes future sales of TYSABRI will be adversely affected by this competition.\n*   **General MS Outlook:** For 2024, the company expects total MS revenue to continue declining as a result of increasing competition across both U.S. and international markets.\n\nIn the rare disease segment, **SPINRAZA** has also experienced the effects of a competitive landscape. While U.S. revenue saw a slight increase due to pricing, rest-of-world revenue decreased by 5.2% in 2023. This decline was driven by increased competition in certain European markets from gene therapy and oral products, as well as unfavorable currency exchange and pricing adjustments. Biogen anticipates that 2024 SPINRAZA revenue will remain relatively flat as it balances growth in the U.S. and emerging markets against increased competition and loading dose dynamics.\n\nRegarding its own **Biosimilars** business, Biogen saw a revenue increase in 2023, primarily due to higher sales volumes of BYOOVIZ in the U.S. and international markets. This was partially offset by lower pricing and currency fluctuations. The company expects modest growth in its biosimilars segment in 2024 with the continued launch of BYOOVIZ and the expected commercial availability of TOFIDENCE. However, Biogen announced in February 2023 that it is exploring strategic options for this specific business unit.\n\nTo mitigate revenue losses, Biogen continues to enforce its intellectual property and regulatory protections. For example, following a favorable 2023 decision by the Court of Justice of the European Union (CJEU), the European Commission (EC) revoked centralized marketing authorizations for generic versions of TECFIDERA. While Biogen believes it is entitled to market protection in the E.U. until at least February 2025, it noted that some generics had not yet fully exited E.U. markets as of late 2023.\n\n### References\n\n* [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 2965,
+   "context_length": 29187,
+   "context": {
+    "entities": 0,
+    "relations": 0,
+    "chunks": 5,
+    "rerank_candidates": 10,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5457,
+      "text": "we can develop products, complete the testing and approval process and supply commercial quantities of products will have a significant impact on our competitive position. The introduction of new products or technologies, including the development of new processes or technologies by competitors or new information about existing products or technologies, results in increased competition for our mar"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5010,
+      "text": "4.1%, primarily due to an increase in global demand, partially offset by higher discounts and allowances in the U.S. driven by a favorable Medicaid-related sales adjustment in the first quarter of 2022. • Global TYSABRI revenue decreased $154.0 million, from $2,030.9 million in 2022 to $1,876.9 million in 2023, or 7.6%, primarily due to a decrease in U.S. TYSABRI revenue driven by a decrease in de"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 7017,
+      "text": "greater acceptance or more favorable reimbursement. Local tendering processes may restrict biosimilar products from being marketed and sold in some jurisdictions. The number of competitors in a jurisdiction, the timing of approval and the ability to market biosimilar products successfully in a timely and cost-effective manner are additional factors that may impact our success in this business area"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9534883720930233,
+    "answer_relevancy": 0.8351701965277343,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9472
+   }
+  },
+  "hybrid": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:00:48.268119",
+   "duration_ms": 29288,
+   "answer": "The emergence of generic and biosimilar competition has significantly impacted Biogen Inc.’s revenue, particularly across its multiple sclerosis (MS) and anti-CD20 therapeutic portfolios. While Biogen operates its own biosimilars business, the introduction of lower-cost alternatives to its blockbuster branded products has led to substantial declines in sales volume and pricing power.\n\n### Impact on Multiple Sclerosis Portfolio\nThe most pronounced impact of generic competition is evident in the performance of **TECFIDERA**. Global revenue for the drug decreased by 29.9% in 2023, falling from $1,443.9 million in 2022 to $1,012.5 million. This decline was primarily driven by a decrease in demand resulting from the entry of multiple generic competitors in North America, Brazil, and certain European Union countries. Similarly, **TYSABRI** revenue declined by 7.6% globally in 2023, largely due to increased competition and pricing pressure in the U.S. market. The approval of a TYSABRI biosimilar in the U.S. (August 2023) and the E.U. (September 2023) is expected to further adversely affect future sales.\n\n### Impact on Collaborative and Anti-CD20 Revenue\nBiogen’s share of profits from its collaboration with Genentech has also suffered due to biosimilar entry. Revenue from the company’s share of pre-tax profits in the U.S. for **RITUXAN**, **GAZYVA**, and **LUNSUMIO** decreased significantly, with Biogen’s share dropping from $547.0 million in 2022 to $409.4 million in 2023. This was largely caused by a 15.2% decrease in U.S. sales volumes for RITUXAN, which faced intense competition from multiple lower-priced biosimilar products. Biogen expects this competition to continue capturing market share, further impacting co-promotion profits in future years.\n\n### Biogen’s Biosimilars Business Performance\nWhile competition from external generics and biosimilars has reduced revenue for Biogen's branded products, the company’s own biosimilars business saw a modest revenue increase of 2.5% in 2023, totaling **$770.0 million**. This portfolio includes:\n*   **BENEPALI** (etanercept biosimilar)\n*   **IMRALDI** (adalimumab biosimilar)\n*   **FLIXABI** (infliximab biosimilar)\n*   **BYOOVIZ** (ranibizumab biosimilar)\n\nDespite this growth, the company announced in February 2023 that it is exploring strategic options for this business unit. Overall, the negative pressure from generic and biosimilar competition on high-margin branded products contributed to a 9.3% decrease in Biogen's total net product revenue for the year ended December 31, 2023.\n\n### References\n\n- [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 2617,
+   "context_length": 117038,
+   "context": {
+    "entities": 55,
+    "relations": 178,
+    "chunks": 10,
+    "rerank_candidates": 78,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Generic And Biosimilar Competition",
+     "Future Cash Flow",
+     "Follow-On Biologics",
+     "Global Biogen Biosimilars Unit",
+     "Biosimilar Products",
+     "Generics",
+     "Biosimilars Business",
+     "Biosimilars",
+     "Pharmaceutical Products",
+     "Biosimilar Versions",
+     "Market Exclusivity",
+     "Drug Price Negotiation",
+     "Pharmaceutical Product",
+     "Generic Drugs",
+     "Biosimilar Regulation"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 7148,
+      "text": "our decision to sell or not to sell a product, thus adversely affecting our geographic expansion plans and revenue. Additionally, in certain jurisdictions governmental health agencies may adjust, retroactively and/or prospectively, reimbursement rates for our products. Reimbursement for our products by governments, including the timing of any reimbursements, may also be affected by budgetary or po"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4799,
+      "text": "UTIC PROGRAMS Our share of RITUXAN, including RITUXAN HYCELA, GAZYVA and LUNSUMIO collaboration operating profits in the U.S., royalty revenue on sales of OCREVUS and other revenue from anti-CD20 therapeutic programs are summarized in the table below. For purposes of this discussion, we refer to RITUXAN and RITUXAN HYCELA collectively as RITUXAN. For the Years Ended December 31, (In millions) 2023"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5244,
+      "text": "at the 2023 International Conference on Alzheimer's and Parkinson's Diseases, showing that BIIB080 substantially reduced tau protein levels in patients with early-stage Alzheimer's disease. RARE DISEASE SPINRAZA (nusinersen) • In June 2023 we announced new data from the Phase 4 RESPOND study, which is designed to evaluate the clinical outcomes and safety following treatment with SPINRAZA in infant"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 3674,
+      "text": "eligible patients with early-stage idiopathic Parkinson’s disease. BIIB093 In April 2023 we announced that we would terminate the development of BIIB093 (glibenclamide IV), currently in a Phase 3 study for LHI and a Phase 2 study for brain contusion, due to operational challenges and other strategic considerations. In connection with this termination, we recorded close-out costs of approximately $"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8455235716342565,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9197
+   }
+  },
+  "mix": {
+   "status": "success",
+   "timestamp": "2026-01-19T20:01:18.939459",
+   "duration_ms": 30671,
+   "answer": "The entry of generics and biosimilars has a dual-faceted impact on Biogen’s financial performance. While the company operates its own biosimilars business, it simultaneously faces significant revenue erosion for its core branded products due to lower-cost competition. In 2023, Biogen’s total product revenue decreased by 9.3%, or $741.1 million, largely driven by these competitive pressures.\n\n### Erosion of Branded Product Revenue\nThe most significant impact of generic competition is observed in Biogen’s Multiple Sclerosis (MS) portfolio. Revenue for **TECFIDERA** has seen a sharp decline due to the market entry of multiple generic versions in North America, Brazil, and several European Union countries. Additionally, the company's share of pre-tax profits from anti-CD20 therapeutic programs—specifically **RITUXAN**—has decreased substantially. This is attributed to the launch of several RITUXAN biosimilars in the U.S. offered at lower prices, which Biogen expects will continue to capture market share and adversely affect future co-promotion profits.\n\nLooking forward, Biogen anticipates further pressure from the expected entry of biosimilar versions of **TYSABRI**. A TYSABRI biosimilar was approved in the U.S. in August 2023 and the E.U. in September 2023, which is projected to negatively impact future sales volumes and pricing. These competitive entrants often leverage the innovator’s product data to offer cheaper alternatives, leading to rapid revenue declines once patent exclusivity is lost.\n\n### Biogen’s Biosimilars Portfolio\nConversely, Biogen generates revenue through its own portfolio of biosimilar products. In 2023, biosimilars revenue reached **$770.0 million**, representing a modest 2.5% increase from $751.1 million in 2022. This growth was primarily driven by the launch of **BYOOVIZ** (a ranibizumab biosimilar) in the U.S. and other international markets, although these gains were partially offset by pricing pressures and supply constraints. Other products in this segment include **BENEPALI**, **IMRALDI**, and **FLIXABI**, which are marketed in various European countries.\n\nDespite this revenue stream, the company is evaluating the long-term viability of this segment. In February 2023, Biogen announced it was exploring strategic options for its biosimilars business, which may include restructuring, acquisitions, or licensing to address changing customer expectations and a volatile regulatory environment.\n\n### Regulatory and Economic Influences\nThe broader economic and regulatory landscape further complicates the impact of biosimilars and generics. The **Inflation Reduction Act (IRA)** in the U.S. includes provisions to incentivize biosimilar development, such as an 8.0% Medicare Part B add-on payment. However, the same act introduces drug pricing reforms and negotiations that may adversely impact Biogen’s overall sales, particularly for products heavily reliant on Medicare reimbursement. Furthermore, local tendering processes and physician/patient acceptance remain critical hurdles that influence how effectively biosimilars can offset the revenue lost from originator therapies.\n\n### References\n\n- [1] BIOGEN INC. December 31, 2023",
+   "answer_length": 3195,
+   "context_length": 120330,
+   "context": {
+    "entities": 65,
+    "relations": 172,
+    "chunks": 10,
+    "rerank_candidates": 84,
+    "chunk_tickers": [
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB",
+     "BIIB"
+    ],
+    "entity_names": [
+     "Global Biogen Biosimilars Unit",
+     "Future Cash Flow",
+     "Biogen Therapeutics Inc.",
+     "Generic And Biosimilar Competition",
+     "Biosimilar Products",
+     "Biosimilars Business",
+     "Generics",
+     "Genentech, Inc.",
+     "Biosimilars",
+     "Follow-On Biologics",
+     "Pharmaceutical Products",
+     "Pre-Tax Profits",
+     "Market Exclusivity",
+     "Sandoz",
+     "Competitive Position"
+    ],
+    "chunk_excerpts": [
+     {
+      "ticker": "BIIB",
+      "chars": 5672,
+      "text": "of the conflict on our operations and financial performance remains uncertain and will depend on future developments, including the severity and duration of the conflict between Russia and Ukraine, its impact on regional and global economic conditions and whether the conflict spreads or has effects on countries outside Ukraine and Russia. We will continue to monitor the ongoing conflict between Ru"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5310,
+      "text": ". The performance graph below assumes the investment of $100.00 on December 31, 2018, in our common stock and each of the three indexes, with dividends being reinvested. The stock price performance in the graph below is not necessarily indicative of future price performance. 2018 2019 2020 2021 2022 2023 Biogen Inc. $100.00 $98.61 $81.37 $79.73 $92.01 $85.97 Nasdaq Pharmaceutical Index $100.00 $11"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6254,
+      "text": "car rental company, from May 2014 to November 2018. Prior to that, Ms. Kramer was an audit partner at Deloitte & Touche LLP (Deloitte), a professional services firm, from 2007 to 2014, including serving in Deloitte's National Office Accounting Standards and Communications Group from 2007 to 2010. From 2005 to 2007 Ms. Kramer served as Chief Accounting Officer of Fisher Scientific International, In"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5561,
+      "text": "DD Major Depressive Disorder MHRA Medicines and Healthcare products Regulatory Agency MS Multiple Sclerosis Mylan Ireland Mylan Ireland Ltd. NCD National Coverage Decision NDA New Drug Application NDS New Drug Submission Neurimmune Neurimmune SubOne AG NIST National Institute of Standards and Technology NMPA National Medicinal Products Administration OECD Organization for Economic Co-operation and"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5650,
+      "text": "the gene therapy manufacturing facility in RTP, North Carolina to be operational; • the impact of the continued uncertainty of the credit and economic conditions in certain countries and our collection of accounts receivable in such countries; • lease commitments, purchase obligations and the timing and satisfaction of other contractual obligations; and • the impact of new laws (including tax), re"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 7148,
+      "text": "our decision to sell or not to sell a product, thus adversely affecting our geographic expansion plans and revenue. Additionally, in certain jurisdictions governmental health agencies may adjust, retroactively and/or prospectively, reimbursement rates for our products. Reimbursement for our products by governments, including the timing of any reimbursements, may also be affected by budgetary or po"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 4799,
+      "text": "UTIC PROGRAMS Our share of RITUXAN, including RITUXAN HYCELA, GAZYVA and LUNSUMIO collaboration operating profits in the U.S., royalty revenue on sales of OCREVUS and other revenue from anti-CD20 therapeutic programs are summarized in the table below. For purposes of this discussion, we refer to RITUXAN and RITUXAN HYCELA collectively as RITUXAN. For the Years Ended December 31, (In millions) 2023"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5628,
+      "text": "3 decision of the CJEU affirming TECFIDERA's right to regulatory data and marketing protection and the EC determination in May 2023 that TECFIDERA is entitled to an additional year of market 2 T able of Contents protection for its pediatric indication, we believe that TECFIDERA is entitled to regulatory marketing protection in the E.U. until at least February 2, 2025, and are seeking to enforce th"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 6637,
+      "text": "principles and our Board of Directors annually review our ESG strategy and short-and long-term goals. We regularly review our environmental commitments within the context of our business performance, rising costs and supply chain challenges. We remain committed to engaging employees and suppliers. As part of our broader commitment to these priorities, we continue to tie a portion of our employees'"
+     },
+     {
+      "ticker": "BIIB",
+      "chars": 5244,
+      "text": "at the 2023 International Conference on Alzheimer's and Parkinson's Diseases, showing that BIIB080 substantially reduced tau protein levels in patients with early-stage Alzheimer's disease. RARE DISEASE SPINRAZA (nusinersen) • In June 2023 we announced new data from the Phase 4 RESPOND study, which is designed to evaluate the clinical outcomes and safety following treatment with SPINRAZA in infant"
+     }
+    ]
+   },
+   "ragas": {
+    "faithfulness": 0.9423076923076923,
+    "answer_relevancy": 0.8783917218465676,
+    "context_recall": 1.0,
+    "context_precision": 0.9999999999,
+    "ragas_score": 0.9552
+   }
+  }
+ }
+}
