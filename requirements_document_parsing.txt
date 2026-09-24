@@ -1,0 +1,11 @@
+# Document parsing scripts (Docling / EasyOCR / Tesseract fallback)
+# Install with: pip install -r requirements_document_parsing.txt
+# Tesseract and Poppler binaries are needed for docling_md_out_monitored.py
+
+docling>=2.50.0
+easyocr>=1.7.0
+pytesseract>=0.3.10
+pdf2image>=1.16.0
+Pillow>=10.0.0
+psutil>=5.9.0
+python-dotenv>=1.0.0
