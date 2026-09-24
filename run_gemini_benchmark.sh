@@ -2,7 +2,8 @@
 
 # Script to run Gemini API benchmark with proper configuration
 
-echo "="echo "Gemini-3-Flash-Preview API Benchmark"
+echo "========================================"
+echo "Gemini-3-Flash-Preview API Benchmark"
 echo "========================================"
 echo ""
 
@@ -54,7 +55,7 @@ echo ""
 echo "Starting benchmark..."
 echo ""
 
-python3 benchmark_gemini_api.py
+SAMPLE_SIZE="$SAMPLE_SIZE" python3 benchmark_gemini_api.py
 
 echo ""
 echo "Benchmark complete!"

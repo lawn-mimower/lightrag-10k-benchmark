@@ -313,8 +313,8 @@ def print_summary(stats: Dict[str, Any]):
 
 def main():
     # Configuration
-    data_dir = Path('5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL')
-    sample_size = 10  # Number of questions to test
+    data_dir = Path(os.getenv('RESULTS_DIR', '5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL'))
+    sample_size = int(os.getenv('SAMPLE_SIZE', '10'))  # Number of questions to test
 
     if not data_dir.exists():
         print(f"Error: Directory {data_dir} does not exist")
