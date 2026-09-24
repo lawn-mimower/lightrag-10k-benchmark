@@ -37,14 +37,15 @@ This project processes SEC 10-K HTML filings, builds knowledge graphs using Ligh
 
 2. **Install dependencies**:
    ```bash
-   pip install lightrag-hku sentence-transformers torch beautifulsoup4 \
-               pandas tqdm nest-asyncio python-dotenv
+   pip install -r requirements.txt
+   # optional: local llama.cpp benchmark / document parsing scripts
+   pip install -r local-llm/requirements.txt
+   pip install -r requirements_document_parsing.txt
    ```
 
 3. **Set up environment variables**:
-   Create a `.env` file in the project root:
    ```bash
-   MISTRAL_API_KEY=your_mistral_api_key_here
+   cp .env.example .env   # then fill in MISTRAL_API_KEY and GEMINI_API_KEY
    ```
 
 4. **Verify GPU** (optional but recommended):
@@ -86,6 +87,8 @@ The HTML files contain iXBRL tags (inline XBRL) that need to be removed to extra
 
 ```bash
 python html_parser.py 10k parsed_10k_documents.json
+# or only some filings
+python html_parser.py 10k parsed_10k_documents.json --tickers CTAS HON
 ```
 
 **What this does:**
@@ -104,7 +107,64 @@ python html_parser.py 10k parsed_10k_documents.json
   }
   ```
 
-**Output**: `parsed_10k_documents.json` (~156MB, 497 companies)
+**Output**: `parsed_10k_documents.json` (497 companies)
+
+---
+
+## Benchmark Pipeline (5 query modes)
+
+The current pipeline indexes the priority tickers, answers every matching
+FinDER question in the `local`, `global`, `naive`, `hybrid` and `mix`
+modes, then scores the answers with RAGAS.
+
+```bash
+# 1. Parse filings (see above) and put finder_train.parquet in the project root
+python html_parser.py 10k parsed_10k_documents.json
+
+# 2. Index + query + answer (Mistral extraction, Gemini answers)
+jupyter nbconvert --to notebook --execute --inplace \
+    lightrag_10k_priority_ticker_models_optimised_multimode.ipynb
+#    -> 5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL/*.json
+
+# 3. RAGAS (faithfulness, answer relevancy, context recall/precision)
+python batch_ragas_evaluation.py            # all files, all modes
+python batch_ragas_evaluation.py --modes naive hybrid --limit 5
+
+# 4. Latency / token analysis per mode
+python analyze_mode_performance.py && python visualize_mode_performance.py
+```
+
+Quick or CPU-only runs are configured through environment variables (see
+`.env.example`), for example:
+
+```bash
+TICKERS=CTAS MAX_QUESTIONS=1 MAX_DOC_CHARS=10000 \
+EMBEDDING_MODEL_NAME=BAAI/bge-large-en-v1.5 EMBEDDING_DIM=1024 \
+MISTRAL_BASE_URL=http://localhost:8080/v1 GENERATION_BACKEND=openai \
+LLM_TIMEOUT=3600 EMBEDDING_TIMEOUT=900 \
+jupyter nbconvert --to notebook --execute --output run.ipynb \
+    lightrag_10k_priority_ticker_models_optimised_multimode.ipynb
+```
+
+`MISTRAL_BASE_URL` accepts any OpenAI-compatible server (for example
+llama.cpp's `llama-server`); `GENERATION_BACKEND=openai` answers with that
+endpoint instead of Gemini.
+
+### Local CPU benchmark (llama.cpp)
+
+```bash
+python local-llm/benchmark_finder.py \
+    --model-path models/Llama-3.2-3B-Instruct.Q8_0.gguf \
+    --embedder-path models/qwen3-0.6b \
+    --data-path finder_train.parquet --num-docs 1 --max-queries 1
+```
+
+### Tests
+
+```bash
+pytest                      # offline tests (e2e tests skip unless configured)
+pytest -m e2e               # live runs; see tests/test_e2e.py for the variables
+```
 
 ---
 
@@ -302,8 +362,7 @@ The current system is ready to work with any 10-K corpus:
 Install all dependencies with:
 
 ```bash
-pip install lightrag-hku sentence-transformers torch beautifulsoup4 \
-            pandas tqdm nest-asyncio python-dotenv pyarrow
+pip install -r requirements.txt
 ```
 
 **Key packages**:
