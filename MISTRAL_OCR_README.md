@@ -29,24 +29,21 @@ MISTRAL_API_KEY=your-api-key-here
 
 ### 1. `mistral_document_extraction_with_server.py` (Recommended)
 
-This is the **recommended approach** that uses a local HTTP server to serve files to the Mistral API.
-
-**How it works:**
-- Starts a local HTTP server on port 8888
-- Serves files from the specified directory
-- Sends file URLs to Mistral OCR API
-- Supports all document formats
+This is the **recommended approach**: each file is uploaded to Mistral storage, OCR runs on a temporary signed URL, and the upload is deleted afterwards. Excel workbooks are converted locally with pandas.
 
 **Usage:**
 ```bash
-python mistral_document_extraction_with_server.py
+# All results in mistral_parsed_documents.json
+python mistral_document_extraction_with_server.py --input-dir /path/to/docs report.pdf scan.jpg
+
+# Also one <name>_mistral.md per document plus mistral_parsing_summary.json
+python mistral_document_extraction_with_server.py --markdown-dir mistral_output_markdown report.pdf
 ```
 
 **Features:**
-- Handles DOCX, XLSX, PDF, JPG, XML files
-- Automatic file server management
+- Handles PDF, image and Excel files
 - Markdown output format
-- Individual markdown files for each document
+- Individual markdown files for each document (`--markdown-dir`)
 - JSON summary with processing statistics
 
 ### 2. `mistral_document_extraction.py` (Direct API - Limited Support)
@@ -127,11 +124,6 @@ Make sure you've set your API key:
 export MISTRAL_API_KEY="your-api-key-here"
 ```
 
-### Error: "Port 8888 is already in use"
-The local server uses port 8888. If it's in use, either:
-1. Stop the process using port 8888
-2. Modify the `server_port` variable in the script
-
 ### Error: "File not found"
 Ensure the documents exist in the input directory (`--input-dir`, default `$DOCS_DIR` or `./documents`):
 ```bash
@@ -182,8 +174,8 @@ python mistral_document_extraction_with_server.py
 ```
 
 4. Check the results:
-- Main JSON output: `mistral_parsed_documents_server.json`
-- Individual markdowns: `mistral_extracted_texts/` directory
+- Main JSON output: `mistral_parsed_documents.json`
+- Individual markdowns: the `--markdown-dir` directory
 
 ## Notes
 

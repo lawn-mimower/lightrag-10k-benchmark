@@ -4,6 +4,7 @@ import json
 import os
 import subprocess
 import sys
+from types import SimpleNamespace as NS
 
 import pytest
 
@@ -125,7 +126,7 @@ def test_multimode_notebook_ragas_cell_uses_imported_embeddings():
 DOCUMENT_PARSING_SCRIPTS = {
     "parse_documents_with_docling.py",
     "docling_md_out_monitored.py", "mistral_document_extraction.py",
-    "mistral_document_extraction_with_server.py", "mistral_scanned.py",
+    "mistral_document_extraction_with_server.py",
 }
 
 
@@ -156,3 +157,58 @@ def test_docling_parser_ocr_engine(load_script, monkeypatch, engine, options_cla
     assert pipeline.do_ocr and pipeline.do_table_structure
     assert pipeline.accelerator_options.device == parser.AcceleratorDevice.CPU
     assert parser.OCR_ENGINES[engine]["output"].startswith("parsed_documents_markdown")
+
+
+class FakeMistralClient:
+    """Stands in for mistralai.Mistral: upload, signed URL, OCR and delete."""
+
+    def __init__(self):
+        self.deleted = []
+        self.files = NS(
+            upload=lambda file, purpose: NS(id="file-1"),
+            get_signed_url=lambda file_id: NS(url="https://signed.example/" + file_id),
+            delete=lambda file_id: self.deleted.append(file_id),
+        )
+        self.ocr = NS(process=lambda **kwargs: NS(pages=[NS(markdown="# Page 1"), NS(markdown="Total 42")]))
+
+
+@pytest.fixture
+def mistral_server(load_script, monkeypatch, tmp_path):
+    import pandas as pd
+
+    monkeypatch.chdir(tmp_path)
+    module = load_script("mistral_document_extraction_with_server.py")
+    client = FakeMistralClient()
+    monkeypatch.setattr(module, "API_KEY", "test-key")
+    monkeypatch.setattr(module, "Mistral", lambda api_key: client)
+    docs = tmp_path / "docs"
+    docs.mkdir()
+    (docs / "scan.pdf").write_bytes(b"%PDF-1.4 test")
+    pd.DataFrame({"item": ["Revenue"], "value": [42]}).to_excel(docs / "sheet.xlsx", index=False)
+    return module, client, docs
+
+
+def test_mistral_server_default_output(mistral_server, tmp_path):
+    module, client, docs = mistral_server
+    module.main(["--input-dir", str(docs), "scan.pdf", "sheet.xlsx", "missing.pdf"])
+
+    out = json.loads((tmp_path / "mistral_parsed_documents.json").read_text())
+    by_name = {d["filename"]: d for d in out["documents"]}
+    assert set(by_name) == {"scan.pdf", "sheet.xlsx"}
+    assert by_name["scan.pdf"]["markdown"] == "# Page 1\n\nTotal 42"
+    assert by_name["scan.pdf"]["method"] == "mistral-signed-url" and "processing_time" in by_name["scan.pdf"]
+    assert by_name["sheet.xlsx"]["markdown"].startswith("# sheet.xlsx\n|")
+    assert client.deleted == ["file-1"]
+
+
+def test_mistral_server_markdown_dir(mistral_server, tmp_path):
+    module, client, docs = mistral_server
+    md_dir = tmp_path / "md"
+    module.main(["--input-dir", str(docs), "--markdown-dir", str(md_dir), "scan.pdf", "sheet.xlsx"])
+
+    assert (md_dir / "scan_mistral.md").read_text() == "# Page 1\n\nTotal 42"
+    assert "## Sheet: Sheet1\n| item" in (md_dir / "sheet_mistral.md").read_text()
+    summary = json.loads((md_dir / "mistral_parsing_summary.json").read_text())
+    assert [d["saved_to"] for d in summary["documents"]] == [str(md_dir / "scan_mistral.md"), str(md_dir / "sheet_mistral.md")]
+    assert all("processing_time_seconds" in d for d in summary["documents"])
+    assert not (tmp_path / "mistral_parsed_documents.json").exists()
