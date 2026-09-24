@@ -86,6 +86,82 @@ def test_process_file_adds_responses_for_each_mode(ctas, tmp_path):
     assert sorted(checkpoint["completed"][path.name]["completed_modes"]) == ["global", "naive"]
 
 
+def test_always_reason_regenerates_every_mode(ctas, tmp_path):
+    path = tmp_path / "test_results_CTAS_question_abc.json"
+    path.write_text(json.dumps({
+        "question_id": "abc",
+        "question": "What drives Cintas revenue?",
+        "reasoning": False,
+        "modes": {
+            "naive": {"retrieved_context": "uniform rental", "response": "old answer", "status": "success"},
+            "local": {"retrieved_context": "", "status": "success"},
+        },
+    }))
+    client = fake_client(thinking_response("weighing segments", "Uniform rental."))
+    checkpoint, made_calls = ctas.process_ctas_file(path, client, {"completed": {}}, always_reason=True)
+
+    data = json.loads(path.read_text())
+    naive = data["modes"]["naive"]
+    assert made_calls is True
+    assert (naive["response_old"], naive["response"], naive["thought"]) == (
+        "old answer", "Uniform rental.", "weighing segments")
+    assert "response" not in data["modes"]["local"]
+    call = client.models.calls[0]
+    assert call["config"].thinking_config.include_thoughts is True
+    assert "requires detailed reasoning" in call["contents"]
+    assert checkpoint["completed"][path.name]["completed_modes"] == ["naive"]
+
+
+class FakeHTTPResponse:
+    def __init__(self, status_code, payload=None, text=""):
+        self.status_code = status_code
+        self._payload = payload
+        self.text = text
+
+    def json(self):
+        return self._payload
+
+
+def test_vertex_express_answers_modes_without_response(ctas, monkeypatch, tmp_path):
+    import requests
+
+    posts = []
+
+    def fake_post(url, params=None, headers=None, json=None, timeout=None):
+        posts.append({"url": url, "params": params, "json": json})
+        return FakeHTTPResponse(200, {"candidates": [{"content": {"parts": [{"text": " Uniform rental. "}]}}]})
+
+    monkeypatch.setattr(requests, "post", fake_post)
+    monkeypatch.setattr(ctas.time, "sleep", lambda s: None)
+    path = tmp_path / "test_results_CTAS_question_abc.json"
+    path.write_text(json.dumps({
+        "question_id": "abc",
+        "question": "What drives Cintas revenue?",
+        "modes": {
+            "naive": {"retrieved_context": "uniform rental"},
+            "global": {"retrieved_context": "ctx", "response": "kept"},
+            "local": {"retrieved_context": ""},
+        },
+    }))
+    ctas.process_file_vertex(path, "my-project", "test-key")
+
+    data = json.loads(path.read_text())
+    assert data["modes"]["naive"]["response"] == "Uniform rental."
+    assert data["modes"]["global"]["response"] == "kept"
+    assert "response" not in data["modes"]["local"]
+    assert len(posts) == 1
+    assert "/projects/my-project/locations/us-central1/" in posts[0]["url"]
+    assert posts[0]["url"].endswith("/models/gemini-3.0-flash-preview-001:generateContent")
+    assert posts[0]["params"] == {"key": "test-key"}
+    assert posts[0]["json"]["contents"][0]["parts"][0]["text"].endswith("Answer based strictly on context:")
+
+
+def test_generation_options_are_exclusive(ctas):
+    assert ctas.parse_args(["--always-reason"]).always_reason is True
+    with pytest.raises(SystemExit):
+        ctas.parse_args(["--always-reason", "--vertex-express"])
+
+
 def test_batch_prompt_lists_every_question(load_script, monkeypatch, tmp_path):
     monkeypatch.chdir(tmp_path)
     gen = load_script("generate_answers.py")
