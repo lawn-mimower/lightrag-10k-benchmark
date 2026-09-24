@@ -75,16 +75,29 @@ def test_ragas_batch_help_lists_options():
     result = subprocess.run([sys.executable, str(RAGAS_SCRIPT), "--help"],
                             capture_output=True, text=True, timeout=300)
     assert result.returncode == 0, result.stderr
-    for option in ("--results-dir", "--output", "--checkpoint", "--modes", "--limit"):
+    for option in ("--results-dir", "--output", "--checkpoint", "--modes", "--limit", "--strategy"):
         assert option in result.stdout
 
 
 def test_ragas_batch_requires_api_key(tmp_path):
-    env = dict(os.environ, MISTRAL_API_KEY="")
+    env = {k: v for k, v in os.environ.items() if k not in ("OUTPUT_FILE", "CHECKPOINT_FILE")}
+    env["MISTRAL_API_KEY"] = ""
     result = subprocess.run([sys.executable, str(RAGAS_SCRIPT), "--results-dir", str(tmp_path)],
                             capture_output=True, text=True, timeout=300, env=env, cwd=tmp_path)
     assert result.returncode == 1
     assert "MISTRAL_API_KEY not found" in result.stdout
+    assert "batch_ragas_evaluation_results_ultra_simple.json" in result.stdout
+
+
+def test_ragas_batch_adaptive_strategy_defaults(tmp_path):
+    env = {k: v for k, v in os.environ.items() if k not in ("OUTPUT_FILE", "CHECKPOINT_FILE")}
+    env["MISTRAL_API_KEY"] = ""
+    result = subprocess.run([sys.executable, str(RAGAS_SCRIPT), "--strategy", "adaptive", "--results-dir", str(tmp_path)],
+                            capture_output=True, text=True, timeout=300, env=env, cwd=tmp_path)
+    assert result.returncode == 1
+    assert "ADAPTIVE RATE LIMITING" in result.stdout
+    assert "batch_ragas_evaluation_results_optimized.json" in result.stdout
+    assert "Testing API connection" not in result.stdout
 
 
 NOTEBOOKS = sorted(REPO_ROOT.glob("*.ipynb"))

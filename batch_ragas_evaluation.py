@@ -4,6 +4,13 @@ ULTRA SIMPLE BATCH RAGAS EVALUATION
 ====================================
 Maximum simplicity, maximum reliability.
 Process one file at a time, one mode at a time.
+
+Strategies (--strategy):
+- sequential (default): fixed delays (2s between modes, 3s between files),
+  retries on connection errors, API connection test before starting.
+- adaptive: modes in pairs with an adaptive per-call delay that speeds up
+  after successes and backs off after errors (1s between pairs, 5s between
+  files).
 """
 
 import os
@@ -37,35 +44,64 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ============================================
-# ULTRA SIMPLE Configuration
+# Configuration
 # ============================================
 ALL_QUERY_MODES = ["local", "global", "naive", "hybrid", "mix"]
 
+STRATEGIES = {
+    # Ultra conservative settings
+    "sequential": {
+        "delay_between_modes": 2,  # 2 second delay between mode evaluations
+        "delay_between_files": 3,  # 3 second delay between files
+        "llm_max_retries": 5,
+        "llm_timeout": 180,  # 3 minutes
+        "output": "batch_ragas_evaluation_results_ultra_simple.json",
+        "checkpoint": "batch_ragas_checkpoint_ultra.json",
+    },
+    # Balance of speed and reliability
+    "adaptive": {
+        "modes_per_group": 2,  # Evaluate modes in pairs
+        "delay_between_modes": 1,  # 1 second delay between mode pairs
+        "delay_between_files": 5,  # 5 second delay between files
+        "llm_max_retries": 3,
+        "llm_timeout": 120,
+        "output": "batch_ragas_evaluation_results_optimized.json",
+        "checkpoint": "batch_ragas_checkpoint_optimized.json",
+    },
+}
+
 parser = argparse.ArgumentParser(
-    description="Sequential RAGAS evaluation of per-question 5-mode LightRAG results"
+    description="RAGAS evaluation of per-question 5-mode LightRAG results"
 )
 parser.add_argument(
     "--results-dir",
     default=os.getenv("RESULTS_DIR", "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"),
     help="Directory with test_results_*_question_*.json files (env RESULTS_DIR)",
 )
-parser.add_argument("--output", default=os.getenv("OUTPUT_FILE", "batch_ragas_evaluation_results_ultra_simple.json"),
-                    help="Results JSON (env OUTPUT_FILE)")
-parser.add_argument("--checkpoint", default=os.getenv("CHECKPOINT_FILE", "batch_ragas_checkpoint_ultra.json"),
-                    help="Checkpoint JSON used to resume (env CHECKPOINT_FILE)")
+parser.add_argument("--strategy", choices=sorted(STRATEGIES), default="sequential",
+                    help="sequential (default): fixed delays and retries; "
+                         "adaptive: modes in pairs with an adaptive per-call delay")
+parser.add_argument("--output", default=os.getenv("OUTPUT_FILE"),
+                    help="Results JSON (env OUTPUT_FILE; default batch_ragas_evaluation_results_ultra_simple.json, "
+                         "or batch_ragas_evaluation_results_optimized.json for the adaptive strategy)")
+parser.add_argument("--checkpoint", default=os.getenv("CHECKPOINT_FILE"),
+                    help="Checkpoint JSON used to resume (env CHECKPOINT_FILE; default batch_ragas_checkpoint_ultra.json, "
+                         "or batch_ragas_checkpoint_optimized.json for the adaptive strategy)")
 parser.add_argument("--modes", nargs="+", choices=ALL_QUERY_MODES, default=ALL_QUERY_MODES,
                     help="Query modes to evaluate")
 parser.add_argument("--limit", type=int, default=None, help="Only evaluate the first N question files")
 args = parser.parse_args()
 
-RESULTS_DIR = args.results_dir
-OUTPUT_FILE = args.output
-CHECKPOINT_FILE = args.checkpoint
+STRATEGY = args.strategy
+SETTINGS = STRATEGIES[STRATEGY]
 
-# Ultra conservative settings
-DELAY_BETWEEN_MODES = 2  # 2 second delay between mode evaluations
-DELAY_BETWEEN_FILES = 3  # 3 second delay between files
-MAX_RETRIES = 3  # Retry failed evaluations
+RESULTS_DIR = args.results_dir
+OUTPUT_FILE = args.output or SETTINGS["output"]
+CHECKPOINT_FILE = args.checkpoint or SETTINGS["checkpoint"]
+
+DELAY_BETWEEN_MODES = SETTINGS["delay_between_modes"]
+DELAY_BETWEEN_FILES = SETTINGS["delay_between_files"]
+MAX_RETRIES = 3  # Retry failed evaluations (sequential strategy)
 
 # Models
 RAGAS_JUDGE_MODEL = os.getenv("RAGAS_JUDGE_MODEL", "ministral-14b-2512")
@@ -77,41 +113,55 @@ MISTRAL_BASE_URL = os.getenv("MISTRAL_BASE_URL", "https://api.mistral.ai/v1")
 QUERY_MODES = args.modes
 
 print("="*70)
-print("🐌 ULTRA SIMPLE BATCH RAGAS EVALUATION")
+if STRATEGY == "adaptive":
+    print("⚡ BATCH RAGAS EVALUATION - ADAPTIVE RATE LIMITING")
+else:
+    print("🐌 ULTRA SIMPLE BATCH RAGAS EVALUATION")
 print("="*70)
 print(f"📁 Source: {Path(RESULTS_DIR).name}")
 print(f"💾 Output: {Path(OUTPUT_FILE).name}")
-print(f"🐢 Mode: Sequential (1 file → 1 mode at a time)")
-print(f"⏰ Delays: {DELAY_BETWEEN_MODES}s between modes, {DELAY_BETWEEN_FILES}s between files")
+if STRATEGY == "adaptive":
+    print(f"🔄 Mode: Semi-parallel ({SETTINGS['modes_per_group']} modes at once)")
+    print(f"⏱️ Delays: Adaptive rate limiting, {DELAY_BETWEEN_MODES}s between mode pairs, {DELAY_BETWEEN_FILES}s between files")
+else:
+    print(f"🐢 Mode: Sequential (1 file → 1 mode at a time)")
+    print(f"⏰ Delays: {DELAY_BETWEEN_MODES}s between modes, {DELAY_BETWEEN_FILES}s between files")
 print()
+
+
+def test_connection(api_key: str):
+    """Quick connection test; exits when the judge endpoint does not answer."""
+    try:
+        test_llm = ChatOpenAI(
+            model=RAGAS_JUDGE_MODEL,
+            api_key=api_key,
+            base_url=MISTRAL_BASE_URL,
+            max_retries=2,
+            request_timeout=30
+        )
+        response = test_llm.invoke("Say 'ok' in one word")
+        print(f"✅ API connection working: {response.content}")
+    except Exception as e:
+        print(f"❌ API connection failed: {e}")
+        print("\nPlease check:")
+        print("1. Your MISTRAL_API_KEY is valid")
+        print("2. You have internet connection")
+        print("3. Mistral API is accessible")
+        exit(1)
+
 
 # ============================================
 # Test Connection First
 # ============================================
-print("🔍 Testing API connection...")
+if STRATEGY == "sequential":
+    print("🔍 Testing API connection...")
 mistral_api_key = os.getenv("MISTRAL_API_KEY")
 if not mistral_api_key:
     print("❌ MISTRAL_API_KEY not found!")
     exit(1)
 
-# Quick connection test
-try:
-    test_llm = ChatOpenAI(
-        model=RAGAS_JUDGE_MODEL,
-        api_key=mistral_api_key,
-        base_url=MISTRAL_BASE_URL,
-        max_retries=2,
-        request_timeout=30
-    )
-    response = test_llm.invoke("Say 'ok' in one word")
-    print(f"✅ API connection working: {response.content}")
-except Exception as e:
-    print(f"❌ API connection failed: {e}")
-    print("\nPlease check:")
-    print("1. Your MISTRAL_API_KEY is valid")
-    print("2. You have internet connection")
-    print("3. Mistral API is accessible")
-    exit(1)
+if STRATEGY == "sequential":
+    test_connection(mistral_api_key)
 
 # ============================================
 # Setup Models (KNOWN WORKING CONFIG)
@@ -123,8 +173,8 @@ base_llm = ChatOpenAI(
     model=RAGAS_JUDGE_MODEL,
     api_key=mistral_api_key,
     base_url=MISTRAL_BASE_URL,
-    max_retries=5,
-    request_timeout=180  # 3 minutes
+    max_retries=SETTINGS["llm_max_retries"],
+    request_timeout=SETTINGS["llm_timeout"]
 )
 
 try:
@@ -168,8 +218,83 @@ def save_checkpoint(checkpoint):
         json.dump(checkpoint, f, indent=2)
 
 # ============================================
-# ULTRA SIMPLE Evaluation
+# Rate Limiter (adaptive strategy)
 # ============================================
+class AdaptiveRateLimiter:
+    """Adaptive rate limiting based on success/failure."""
+    def __init__(self):
+        self.delay = 0.5  # Start with small delay
+        self.success_count = 0
+        self.error_count = 0
+        self.last_call = 0
+
+    def wait(self):
+        """Wait appropriate time before next call."""
+        elapsed = time.time() - self.last_call
+        if elapsed < self.delay:
+            time.sleep(self.delay - elapsed)
+        self.last_call = time.time()
+
+    def record_success(self):
+        """Record successful call and potentially speed up."""
+        self.success_count += 1
+        self.error_count = 0
+        if self.success_count > 5:
+            self.delay = max(0.2, self.delay * 0.9)  # Speed up
+            self.success_count = 0
+
+    def record_error(self):
+        """Record error and slow down."""
+        self.error_count += 1
+        self.delay = min(5.0, self.delay * 1.5)  # Slow down
+        print(f"  ⚠️ Adjusting rate limit to {self.delay:.1f}s")
+
+rate_limiter = AdaptiveRateLimiter()
+
+# ============================================
+# Evaluation
+# ============================================
+def run_ragas(question_text: str, mode_data: dict[str, any], expected_answer: str) -> tuple[dict, float]:
+    """Score one answer with the four RAGAS metrics; returns (metrics, ragas_score)."""
+    # Prepare dataset
+    eval_dataset = Dataset.from_dict({
+        "question": [question_text],
+        "answer": [mode_data["answer"]],
+        "contexts": [[mode_data["retrieved_context"]]],
+        "ground_truth": [str(expected_answer)]
+    })
+
+    # Run evaluation
+    eval_results = evaluate(
+        dataset=eval_dataset,
+        metrics=[
+            Faithfulness(),
+            AnswerRelevancy(),
+            ContextRecall(),
+            ContextPrecision()
+        ],
+        llm=ragas_llm,
+        embeddings=ragas_embeddings,
+        show_progress=False
+    )
+
+    # Extract scores
+    df = eval_results.to_pandas()
+    scores_row = df.iloc[0]
+
+    metrics = {
+        "faithfulness": float(scores_row.get("faithfulness", 0)),
+        "answer_relevancy": float(scores_row.get("answer_relevancy", 0)),
+        "context_recall": float(scores_row.get("context_recall", 0)),
+        "context_precision": float(scores_row.get("context_precision", 0))
+    }
+
+    # Calculate RAGAS score
+    valid_metrics = [v for v in metrics.values() if not np.isnan(v)]
+    ragas_score = np.mean(valid_metrics) if valid_metrics else 0
+    return metrics, ragas_score
+
+
 def evaluate_single_mode_with_retry(
     question_id: str,
     question_text: str,
@@ -190,42 +315,7 @@ def evaluate_single_mode_with_retry(
         }
 
     try:
-        # Prepare dataset
-        eval_dataset = Dataset.from_dict({
-            "question": [question_text],
-            "answer": [mode_data["answer"]],
-            "contexts": [[mode_data["retrieved_context"]]],
-            "ground_truth": [str(expected_answer)]
-        })
-
-        # Run evaluation
-        eval_results = evaluate(
-            dataset=eval_dataset,
-            metrics=[
-                Faithfulness(),
-                AnswerRelevancy(),
-                ContextRecall(),
-                ContextPrecision()
-            ],
-            llm=ragas_llm,
-            embeddings=ragas_embeddings,
-            show_progress=False
-        )
-
-        # Extract scores
-        df = eval_results.to_pandas()
-        scores_row = df.iloc[0]
-
-        metrics = {
-            "faithfulness": float(scores_row.get("faithfulness", 0)),
-            "answer_relevancy": float(scores_row.get("answer_relevancy", 0)),
-            "context_recall": float(scores_row.get("context_recall", 0)),
-            "context_precision": float(scores_row.get("context_precision", 0))
-        }
-
-        # Calculate RAGAS score
-        valid_metrics = [v for v in metrics.values() if not np.isnan(v)]
-        ragas_score = np.mean(valid_metrics) if valid_metrics else 0
+        metrics, ragas_score = run_ragas(question_text, mode_data, expected_answer)
 
         return {
             "question_id": question_id,
@@ -255,6 +345,63 @@ def evaluate_single_mode_with_retry(
             "error": error_str[:200],
             "retries": retry_count
         }
+
+
+def evaluate_single_mode_adaptive(
+    question_id: str,
+    question_text: str,
+    mode: str,
+    mode_data: dict[str, any],
+    expected_answer: str
+) -> dict[str, any]:
+    """
+    Evaluate with the adaptive rate limiter (no retries).
+    """
+    if mode_data.get("status") != "success":
+        return {
+            "question_id": question_id,
+            "mode": mode,
+            "status": "skipped",
+            "reason": "no_data"
+        }
+
+    # Rate limit before each evaluation
+    rate_limiter.wait()
+
+    try:
+        metrics, ragas_score = run_ragas(question_text, mode_data, expected_answer)
+        rate_limiter.record_success()
+
+        return {
+            "question_id": question_id,
+            "mode": mode,
+            "status": "success",
+            "metrics": metrics,
+            "ragas_score": round(ragas_score, 4)
+        }
+
+    except Exception as e:
+        rate_limiter.record_error()
+
+        # Extra delay after error
+        time.sleep(2)
+
+        return {
+            "question_id": question_id,
+            "mode": mode,
+            "status": "error",
+            "error": str(e)[:200]
+        }
+
+
+def pause_after_mode(mode: str):
+    """Delay before the next mode: after every mode (sequential) or every pair (adaptive)."""
+    position = QUERY_MODES.index(mode) + 1
+    if position >= len(QUERY_MODES):  # Not after the last mode
+        return
+    if STRATEGY == "adaptive" and position % SETTINGS["modes_per_group"] != 0:
+        return
+    time.sleep(DELAY_BETWEEN_MODES)
 
 
 def main():
@@ -300,15 +447,17 @@ def main():
             return
 
     print("\n" + "="*70)
-    print("🚀 STARTING SEQUENTIAL PROCESSING")
+    print(f"🚀 STARTING {STRATEGY.upper()} PROCESSING")
     print("="*70)
+
+    evaluate_mode = evaluate_single_mode_adaptive if STRATEGY == "adaptive" else evaluate_single_mode_with_retry
 
     start_time = time.time()
     evaluation_count = 0
 
     # Process each file
     with tqdm(total=remaining_evaluations, desc="Evaluations", initial=completed_evaluations) as pbar:
-        for file_path in all_files:
+        for file_index, file_path in enumerate(all_files):
             file_name = file_path.name
 
             # Skip if already fully processed
@@ -335,8 +484,8 @@ def main():
                     # Show current task
                     pbar.set_description(f"{question_id[:8]}:{mode}")
 
-                    # Evaluate with retry
-                    result = evaluate_single_mode_with_retry(
+                    # Evaluate
+                    result = evaluate_mode(
                         question_id,
                         question_text,
                         mode,
@@ -376,11 +525,11 @@ def main():
                         pbar.set_postfix({"✓": evaluation_count, "⚠": result.get("status")})
 
                     # Delay between modes
-                    if mode != QUERY_MODES[-1]:  # Not the last mode
-                        time.sleep(DELAY_BETWEEN_MODES)
+                    pause_after_mode(mode)
 
-                # Delay between files
-                time.sleep(DELAY_BETWEEN_FILES)
+                # Delay between files (the adaptive strategy skips it after the last file)
+                if STRATEGY == "sequential" or file_index < len(all_files) - 1:
+                    time.sleep(DELAY_BETWEEN_FILES)
 
             except Exception as e:
                 print(f"\n❌ Error processing {file_name}: {e}")

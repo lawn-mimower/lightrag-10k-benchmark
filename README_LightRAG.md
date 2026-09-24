@@ -129,6 +129,7 @@ jupyter nbconvert --to notebook --execute --inplace \
 # 3. RAGAS (faithfulness, answer relevancy, context recall/precision)
 python batch_ragas_evaluation.py            # all files, all modes
 python batch_ragas_evaluation.py --modes naive hybrid --limit 5
+python batch_ragas_evaluation.py --strategy adaptive     # modes in pairs, adaptive delay
 
 # 4. Latency / token analysis per mode
 python analyze_mode_performance.py && python visualize_mode_performance.py

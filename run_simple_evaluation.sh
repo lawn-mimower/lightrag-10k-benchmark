@@ -6,8 +6,8 @@ echo "=================================="
 echo ""
 echo "Configuration:"
 echo "• 1 file at a time (sequential)"
-echo "• 5 modes evaluated in parallel per file"
-echo "• 120 second timeout per evaluation"
+echo "• 1 mode at a time, 2s between modes, 3s between files"
+echo "• Retries on connection errors"
 echo "• Automatic checkpoint/resume support"
 echo ""
 
@@ -21,13 +21,13 @@ elif [ -d "venv" ]; then
 fi
 
 # Check if checkpoint exists
-if [ -f "batch_ragas_checkpoint.json" ]; then
+if [ -f "batch_ragas_checkpoint_ultra.json" ]; then
     echo "📚 Found checkpoint - will resume from last position"
     echo ""
 fi
 
 # Run the evaluation
-python3 batch_ragas_evaluation_simple.py
+python3 batch_ragas_evaluation.py "$@"
 
 echo ""
-echo "Complete! Check batch_ragas_evaluation_results_simple.json for results."
+echo "Complete! Check batch_ragas_evaluation_results_ultra_simple.json for results."

@@ -194,7 +194,7 @@ async def main():
         print("="*60)
         print("\nYour API connection is working correctly.")
         print("You can now run the fixed evaluation script:")
-        print("  python batch_ragas_evaluation_fast_fixed.py")
+        print("  python batch_ragas_evaluation.py")
     else:
         print("\n" + "="*60)
         print("❌ CONNECTION TESTS FAILED")
