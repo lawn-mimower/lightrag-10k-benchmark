@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
 Answer Evaluation Script using NVIDIA Metrics Framework
-Evaluates generated answers using Gemini 2.5 Flash
+Evaluates generated answers with an LLM judge:
+  --judge gemini   Gemini 2.5 Flash (default)
+  --judge mistral  Ministral 3-14B via the Mistral API (OpenAI-compatible)
 Implements: Answer Accuracy, Context Relevance, Response Groundedness
 """
 
+import argparse
 import json
 import os
 import time
@@ -24,12 +27,46 @@ OUTPUT_FILE = "test_results_priority_tickers_MIX_rerank>0.3_topk10_evaluated.jso
 CHECKPOINT_FILE = "evaluation_checkpoint.json"
 LOG_FILE = "evaluation_log.txt"
 
-MODEL_NAME = "gemini-2.5-flash"
+# Judge models and their rate limits
+JUDGES = {
+    "gemini": {
+        "model": "gemini-2.5-flash",
+        "evals_per_minute": 20,  # 3 seconds between calls
+        "api_key_env": "GEMINI_API_KEY",
+        "label": "Gemini",
+    },
+    "mistral": {
+        "model": "ministral-14b-2512",
+        "evals_per_minute": 30,  # 2 seconds between calls
+        "api_key_env": "MISTRAL_API_KEY",
+        "label": "Mistral",
+        "base_url": "https://api.mistral.ai/v1",
+    },
+}
+
+JUDGE = "gemini"
+MODEL_NAME = JUDGES[JUDGE]["model"]
 TEMPERATURE = 0
-EVALS_PER_MINUTE = 20  # Rate limit
-EVAL_DELAY = 60 / EVALS_PER_MINUTE  # 3 seconds between calls
+EVALS_PER_MINUTE = JUDGES[JUDGE]["evals_per_minute"]  # Rate limit
+EVAL_DELAY = 60 / EVALS_PER_MINUTE
 RETRY_DELAY = 60
 MAX_RETRIES = 3
+
+
+def configure_judge(name: str):
+    """Select the judge model (and its rate limit) used by call_llm_judge."""
+    global JUDGE, MODEL_NAME, EVALS_PER_MINUTE, EVAL_DELAY
+    JUDGE = name
+    MODEL_NAME = JUDGES[name]["model"]
+    EVALS_PER_MINUTE = JUDGES[name]["evals_per_minute"]
+    EVAL_DELAY = 60 / EVALS_PER_MINUTE
+
+
+def judge_prompt(template: str, **fields) -> str:
+    """Fill a metric prompt. The Mistral judge is shown a plain score placeholder."""
+    if JUDGE == "mistral":
+        template = template.replace('"score": 0/2/4', '"score": 0').replace('"score": 0/1/2', '"score": 0')
+    return template.format(**fields)
 
 
 def log_message(message: str):
@@ -177,8 +214,31 @@ Scoring rubric:
 Provide your evaluation as JSON: {{"score": 0/1/2, "reasoning": "explanation"}}"""
 
 
+def request_judgement(client, prompt: str) -> str:
+    """Send one prompt to the configured judge and return the raw JSON text."""
+    if JUDGE == "mistral":
+        response = client.chat.completions.create(
+            model=MODEL_NAME,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=TEMPERATURE,
+            response_format={"type": "json_object"},
+            timeout=120
+        )
+        return response.choices[0].message.content
+
+    response = client.models.generate_content(
+        model=MODEL_NAME,
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            temperature=TEMPERATURE,
+            response_mime_type="application/json",
+        ),
+    )
+    return response.text.strip()
+
+
 def call_llm_judge(
-    client: genai.Client,
+    client,
     prompt: str,
     max_score: int,
     metric_name: str,
@@ -187,16 +247,15 @@ def call_llm_judge(
     """Call LLM judge and parse response"""
     for retry in range(MAX_RETRIES):
         try:
-            response = client.models.generate_content(
-                model=MODEL_NAME,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    temperature=TEMPERATURE,
-                    response_mime_type="application/json",
-                ),
-            )
+            result = json.loads(request_judgement(client, prompt))
 
-            result = json.loads(response.text.strip())
+            # Handle if the Mistral judge returns an array instead of an object
+            if JUDGE == "mistral" and isinstance(result, list):
+                if len(result) > 0:
+                    result = result[0]
+                else:
+                    return 0.0, "Error: Empty array returned"
+
             score = result.get("score", 0)
             reasoning = result.get("reasoning", "No reasoning provided")
 
@@ -223,7 +282,7 @@ def call_llm_judge(
 
 
 def evaluate_answer_accuracy(
-    client: genai.Client,
+    client,
     question: str,
     expected_answer: str,
     generated_answer: str
@@ -232,7 +291,7 @@ def evaluate_answer_accuracy(
     log_message("    Evaluating: Answer Accuracy")
 
     # Evaluation 1
-    prompt1 = ANSWER_ACCURACY_PROMPT_1.format(
+    prompt1 = judge_prompt(ANSWER_ACCURACY_PROMPT_1,
         question=question,
         expected_answer=expected_answer,
         generated_answer=generated_answer
@@ -241,7 +300,7 @@ def evaluate_answer_accuracy(
     time.sleep(EVAL_DELAY)
 
     # Evaluation 2
-    prompt2 = ANSWER_ACCURACY_PROMPT_2.format(
+    prompt2 = judge_prompt(ANSWER_ACCURACY_PROMPT_2,
         question=question,
         expected_answer=expected_answer,
         generated_answer=generated_answer
@@ -261,7 +320,7 @@ def evaluate_answer_accuracy(
 
 
 def evaluate_context_relevance(
-    client: genai.Client,
+    client,
     question: str,
     context: str
 ) -> Dict[str, Any]:
@@ -269,7 +328,7 @@ def evaluate_context_relevance(
     log_message("    Evaluating: Context Relevance")
 
     # Evaluation 1
-    prompt1 = CONTEXT_RELEVANCE_PROMPT_1.format(
+    prompt1 = judge_prompt(CONTEXT_RELEVANCE_PROMPT_1,
         question=question,
         context=context[:50000]  # Truncate if too long
     )
@@ -277,7 +336,7 @@ def evaluate_context_relevance(
     time.sleep(EVAL_DELAY)
 
     # Evaluation 2
-    prompt2 = CONTEXT_RELEVANCE_PROMPT_2.format(
+    prompt2 = judge_prompt(CONTEXT_RELEVANCE_PROMPT_2,
         question=question,
         context=context[:50000]
     )
@@ -296,7 +355,7 @@ def evaluate_context_relevance(
 
 
 def evaluate_groundedness(
-    client: genai.Client,
+    client,
     context: str,
     generated_answer: str
 ) -> Dict[str, Any]:
@@ -304,7 +363,7 @@ def evaluate_groundedness(
     log_message("    Evaluating: Response Groundedness")
 
     # Evaluation 1
-    prompt1 = GROUNDEDNESS_PROMPT_1.format(
+    prompt1 = judge_prompt(GROUNDEDNESS_PROMPT_1,
         context=context[:50000],
         generated_answer=generated_answer
     )
@@ -312,7 +371,7 @@ def evaluate_groundedness(
     time.sleep(EVAL_DELAY)
 
     # Evaluation 2
-    prompt2 = GROUNDEDNESS_PROMPT_2.format(
+    prompt2 = judge_prompt(GROUNDEDNESS_PROMPT_2,
         context=context[:50000],
         generated_answer=generated_answer
     )
@@ -330,7 +389,7 @@ def evaluate_groundedness(
     }
 
 
-def evaluate_entry(client: genai.Client, entry: Dict[str, Any], idx: int, total: int) -> Dict[str, Any]:
+def evaluate_entry(client, entry: Dict[str, Any], idx: int, total: int) -> Dict[str, Any]:
     """Evaluate a single entry on all three metrics"""
     question_id = entry["question_id"]
     log_message(f"  [{idx}/{total}] Evaluating {question_id}")
@@ -378,18 +437,28 @@ def evaluate_entry(client: genai.Client, entry: Dict[str, Any], idx: int, total:
     return evaluation
 
 
-def main():
+def create_client(api_key: str):
+    """API client for the configured judge."""
+    if JUDGE == "mistral":
+        from openai import OpenAI
+        return OpenAI(api_key=api_key, base_url=JUDGES["mistral"]["base_url"])
+    return genai.Client(api_key=api_key)
+
+
+def main(judge: str = "gemini"):
     """Main execution function"""
     start_time = time.time()
+    configure_judge(judge)
+    settings = JUDGES[judge]
 
     # Initialize API client
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = os.getenv(settings["api_key_env"])
     if not api_key:
-        log_message("ERROR: GEMINI_API_KEY not found in environment")
+        log_message(f"ERROR: {settings['api_key_env']} not found in environment")
         return
 
-    client = genai.Client(api_key=api_key)
-    log_message(f"Initialized Gemini client with model: {MODEL_NAME}")
+    client = create_client(api_key)
+    log_message(f"Initialized {settings['label']} client with model: {MODEL_NAME}")
 
     # Load input data
     log_message(f"Loading input file: {INPUT_FILE}")
@@ -466,4 +535,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Evaluate generated answers with an LLM judge")
+    parser.add_argument("--judge", choices=sorted(JUDGES), default="gemini",
+                        help="gemini (Gemini 2.5 Flash, GEMINI_API_KEY) or mistral "
+                             "(ministral-14b-2512, MISTRAL_API_KEY)")
+    main(parser.parse_args().judge)
