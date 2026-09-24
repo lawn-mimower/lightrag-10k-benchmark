@@ -38,9 +38,9 @@ load_dotenv()
 # ============================================
 # Configuration
 # ============================================
-RESULTS_DIR = "./lightrag-bench/5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"
-OUTPUT_FILE = "./lightrag-bench/batch_ragas_evaluation_results_batch_api.json"
-BATCH_DIR = "./lightrag-bench/batch_files"
+RESULTS_DIR = os.getenv("RESULTS_DIR", "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "batch_ragas_evaluation_results_batch_api.json")
+BATCH_DIR = os.getenv("BATCH_DIR", "batch_files")
 
 # Mistral Batch API settings
 RAGAS_JUDGE_MODEL = "ministral-14b-2512"

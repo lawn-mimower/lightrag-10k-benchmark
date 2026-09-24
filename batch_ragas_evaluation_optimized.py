@@ -42,9 +42,9 @@ load_dotenv()
 # ============================================
 # OPTIMIZED Configuration
 # ============================================
-RESULTS_DIR = "./lightrag-bench/5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"
-OUTPUT_FILE = "./lightrag-bench/batch_ragas_evaluation_results_optimized.json"
-CHECKPOINT_FILE = "./lightrag-bench/batch_ragas_checkpoint_optimized.json"
+RESULTS_DIR = os.getenv("RESULTS_DIR", "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "batch_ragas_evaluation_results_optimized.json")
+CHECKPOINT_FILE = os.getenv("CHECKPOINT_FILE", "batch_ragas_checkpoint_optimized.json")
 
 # Optimized settings - balance of speed and reliability
 MAX_CONCURRENT_MODES = 2  # Process 2 modes at once (not 5)

@@ -25,7 +25,7 @@ else:
     exit(1)
 
 # 2. Check results directory
-results_dir = Path("./lightrag-bench/5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL")
+results_dir = Path(os.getenv("RESULTS_DIR", "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"))
 if results_dir.exists():
     files = list(results_dir.glob("test_results_*_question_*.json"))
     print(f"✅ Results directory found ({len(files)} files)")

@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # CONFIGURATION
-RESULTS_FILE = "./lightrag-bench/batch_ragas_evaluation_results_ultra_simple.json"
+RESULTS_FILE = os.getenv("RESULTS_FILE", "batch_ragas_evaluation_results_ultra_simple.json")
 REFRESH_RATE = 10  # Seconds
 
 def clear_screen():

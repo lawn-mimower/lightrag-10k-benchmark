@@ -8,6 +8,7 @@ Process one file at a time, one mode at a time.
 
 import os
 import json
+import argparse
 import time
 import warnings
 from pathlib import Path
@@ -38,9 +39,28 @@ load_dotenv()
 # ============================================
 # ULTRA SIMPLE Configuration
 # ============================================
-RESULTS_DIR = "./lightrag-bench/5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"
-OUTPUT_FILE = "./lightrag-bench/batch_ragas_evaluation_results_ultra_simple.json"
-CHECKPOINT_FILE = "./lightrag-bench/batch_ragas_checkpoint_ultra.json"
+ALL_QUERY_MODES = ["local", "global", "naive", "hybrid", "mix"]
+
+parser = argparse.ArgumentParser(
+    description="Sequential RAGAS evaluation of per-question 5-mode LightRAG results"
+)
+parser.add_argument(
+    "--results-dir",
+    default=os.getenv("RESULTS_DIR", "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL"),
+    help="Directory with test_results_*_question_*.json files (env RESULTS_DIR)",
+)
+parser.add_argument("--output", default=os.getenv("OUTPUT_FILE", "batch_ragas_evaluation_results_ultra_simple.json"),
+                    help="Results JSON (env OUTPUT_FILE)")
+parser.add_argument("--checkpoint", default=os.getenv("CHECKPOINT_FILE", "batch_ragas_checkpoint_ultra.json"),
+                    help="Checkpoint JSON used to resume (env CHECKPOINT_FILE)")
+parser.add_argument("--modes", nargs="+", choices=ALL_QUERY_MODES, default=ALL_QUERY_MODES,
+                    help="Query modes to evaluate")
+parser.add_argument("--limit", type=int, default=None, help="Only evaluate the first N question files")
+args = parser.parse_args()
+
+RESULTS_DIR = args.results_dir
+OUTPUT_FILE = args.output
+CHECKPOINT_FILE = args.checkpoint
 
 # Ultra conservative settings
 DELAY_BETWEEN_MODES = 2  # 2 second delay between mode evaluations
@@ -48,11 +68,13 @@ DELAY_BETWEEN_FILES = 3  # 3 second delay between files
 MAX_RETRIES = 3  # Retry failed evaluations
 
 # Models
-RAGAS_JUDGE_MODEL = "ministral-14b-2512"
-RAGAS_EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"
+RAGAS_JUDGE_MODEL = os.getenv("RAGAS_JUDGE_MODEL", "ministral-14b-2512")
+RAGAS_EMBEDDING_MODEL = os.getenv("RAGAS_EMBEDDING_MODEL", "BAAI/bge-large-en-v1.5")
+# Any OpenAI-compatible endpoint works; defaults to the Mistral API
+MISTRAL_BASE_URL = os.getenv("MISTRAL_BASE_URL", "https://api.mistral.ai/v1")
 
 # Query modes
-QUERY_MODES = ["local", "global", "naive", "hybrid", "mix"]
+QUERY_MODES = args.modes
 
 print("="*70)
 print("🐌 ULTRA SIMPLE BATCH RAGAS EVALUATION")
@@ -77,7 +99,7 @@ try:
     test_llm = ChatOpenAI(
         model=RAGAS_JUDGE_MODEL,
         api_key=mistral_api_key,
-        base_url="https://api.mistral.ai/v1",
+        base_url=MISTRAL_BASE_URL,
         max_retries=2,
         request_timeout=30
     )
@@ -100,7 +122,7 @@ print("\n📦 Setting up models...")
 base_llm = ChatOpenAI(
     model=RAGAS_JUDGE_MODEL,
     api_key=mistral_api_key,
-    base_url="https://api.mistral.ai/v1",
+    base_url=MISTRAL_BASE_URL,
     max_retries=5,
     request_timeout=180  # 3 minutes
 )
@@ -242,6 +264,8 @@ def main():
     # Find all files
     results_path = Path(RESULTS_DIR)
     all_files = sorted(results_path.glob("test_results_*_question_*.json"))
+    if args.limit:
+        all_files = all_files[:args.limit]
 
     if not all_files:
         print(f"❌ No files found in {RESULTS_DIR}")

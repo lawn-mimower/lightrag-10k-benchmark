@@ -52,8 +52,8 @@ print()
 # ============================================
 # Configuration
 # ============================================
-TEST_FILE = "./lightrag-bench/5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL/test_results_CTAS_question_f3a3d09b.json"
-OUTPUT_FILE = "./lightrag-bench/single_file_ragas_test_results.json"
+TEST_FILE = os.getenv("TEST_FILE", "5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL/test_results_CTAS_question_f3a3d09b.json")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "single_file_ragas_test_results.json")
 
 RAGAS_JUDGE_MODEL = "ministral-14b-2512"  # Correct Mistral API identifier
 RAGAS_EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"  # Local model, 1024 dims

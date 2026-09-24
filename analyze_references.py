@@ -3,6 +3,7 @@
 Script to analyze the 'references' column from finder_train.parquet
 """
 
+import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,7 +11,8 @@ from scipy import stats
 
 # Load the parquet file
 print("Loading finder_train.parquet...")
-df = pd.read_parquet('./lightrag-bench/finder_train.parquet')
+# Usage: python analyze_references.py [finder_train.parquet] [output.png]
+df = pd.read_parquet(sys.argv[1] if len(sys.argv) > 1 else 'finder_train.parquet')
 
 print(f"Total rows in dataset: {len(df)}")
 print(f"\nColumns: {df.columns.tolist()}")
@@ -88,7 +90,7 @@ ax.legend(fontsize=10)
 ax.grid(True, alpha=0.3)
 
 # Save the plot
-output_file = './lightrag-bench/references_char_length_distribution.png'
+output_file = sys.argv[2] if len(sys.argv) > 2 else 'references_char_length_distribution.png'
 plt.tight_layout()
 plt.savefig(output_file, dpi=300, bbox_inches='tight')
 print(f"\nGaussian curve visualization saved to: {output_file}")

@@ -138,7 +138,10 @@ def transform_test_results(input_file: str, output_file: str):
 
 
 if __name__ == "__main__":
-    input_file = "./lightrag-bench/test_results_priority_tickers.json"
-    output_file = "./lightrag-bench/test_results_priority_tickers_transformed.json"
+    import sys
+
+    # Usage: python transform_contexts.py [input.json] [output.json]
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "test_results_priority_tickers.json"
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "test_results_priority_tickers_transformed.json"
 
     transform_test_results(input_file, output_file)
