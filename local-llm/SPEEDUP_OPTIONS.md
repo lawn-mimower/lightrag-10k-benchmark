@@ -34,9 +34,9 @@ response = await rag.aquery(
 
 ## Alternative: Reduce Document Count
 
-Set a limit in the config:
-```python
-LIMIT_DOCS = 100  # Process only 100 documents instead of 5832
+Pass a limit on the command line:
+```bash
+python benchmark_finder.py --device gpu --num-docs 100  # Process only 100 documents instead of 5832
 ```
 
 ## Monitoring Progress

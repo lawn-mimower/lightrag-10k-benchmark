@@ -3,13 +3,21 @@
 FinDER Benchmark with LightRAG
 
 Benchmarks the LightRAG framework on the FinDER financial dataset using:
-- LLM: Llama-3.2-3B-Instruct (CPU inference via llama-cpp-python)
+- LLM: Llama-3.2-3B-Instruct (llama-cpp-python, CPU or GPU inference)
 - Embedder: Qwen3-0.6B (sentence-transformers)
 - Dataset: FinDER train set (10-K financial filings)
 
-Optimized for small (3B) models with strict generation parameters.
+Profiles (--device):
+- cpu (default): strict generation parameters for small (3B) models, 8K
+  context, first 10 contexts, sequential indexing, single-threaded LightRAG
+- gpu: all layers on the GPU with the full 128K context, all contexts,
+  batch indexing with 8-way parallelism and no gleaning retries
+
+--query-only skips indexing and queries the index already stored in
+--working-dir (32K context on CPU).
 """
 
+import argparse
 import pandas as pd
 import numpy as np
 import asyncio
@@ -33,20 +41,52 @@ from sentence_transformers import SentenceTransformer
 MODEL_PATH = "./models/Llama-3.2-3B-Instruct.Q8_0.gguf"
 EMBEDDER_PATH = "./models/qwen3-0.6b"
 DATA_PATH = "./data/finder_train.parquet"
-WORKING_DIR = "./finder_benchmark_workdir1"
-OUTPUT_PATH = "finder_lightrag_results.csv"
 
 # Flag for query detection (used by embedder to differentiate queries from documents)
 QUERY_FLAG = "benchmark::query::"
 
-# Number of documents to index (limited for CPU benchmarking)
-NUM_DOCS = 10
+DEVICE_PROFILES = {
+    "cpu": {
+        # llama.cpp
+        "n_ctx": 8192,  # Large context for 10-K documents
+        "n_threads": 8,  # Leave headroom for OS
+        "n_gpu_layers": 0,  # CPU-only
+        # sentence-transformers
+        "embedder_device": "cpu",  # Force CPU usage (critical for CPU-only benchmark)
+        # LightRAG
+        "llm_model_name": "Llama-3.2-3B-Instruct",
+        "llm_model_max_async": 1,  # Single-threaded to avoid CPU thrashing
+        "chunk_token_size": 1024,  # Reduced from 1200 for easier processing
+        "entity_extract_max_gleaning": 2,  # Allow 2 retry attempts for formatting (crucial for 3B models)
+        "max_parallel_insert": 1,  # Concurrency limits for CPU
+        "batch_insert": False,  # Insert contexts one at a time
+        # Run defaults
+        "num_docs": 10,  # Number of documents to index (limited for CPU benchmarking)
+        "working_dir": "./finder_benchmark_workdir1",
+        "output": "finder_lightrag_results.csv",
+    },
+    "gpu": {
+        "n_ctx": 131072,  # Maximum context (128K) - model's native training context
+        "n_threads": 4,  # Reduced threads since GPU handles compute
+        "n_gpu_layers": -1,  # ALL layers on GPU
+        "embedder_device": "cuda",  # GPU acceleration
+        "llm_model_name": "Llama-3.2-3B-Instruct-GPU",
+        "llm_model_max_async": 8,  # Increased parallelism for GPU
+        "chunk_token_size": 1200,  # Balanced: not too small (more chunks) or large (harder extraction)
+        "entity_extract_max_gleaning": 0,  # Disable gleaning retries (massive speedup)
+        "max_parallel_insert": 8,  # Concurrency - maximized for GPU
+        "batch_insert": True,  # One ainsert() call with every context
+        "num_docs": None,  # No document limit - process all unique contexts
+        "working_dir": "./finder_benchmark_workdir_gpu",
+        "output": "finder_lightrag_results_gpu.csv",
+    },
+}
 
-# Number of matching queries to run (None = all)
-MAX_QUERIES = None
+# Querying an existing index on CPU needs a larger window for the retrieved context
+QUERY_ONLY_CPU_N_CTX = 32768
 
 # ============================================================================
-# LLM WRAPPER - CPU-Optimized with Strict Parameters
+# LLM WRAPPER - Strict Parameters for a 3B Model
 # ============================================================================
 
 def format_llama3_prompt(prompt: str, system_prompt: str = None, history_messages=None) -> str:
@@ -64,22 +104,25 @@ def format_llama3_prompt(prompt: str, system_prompt: str = None, history_message
 
 class LlamaCppWrapper:
     """
-    CPU-optimized LLM wrapper for llama-cpp-python.
+    LLM wrapper for llama-cpp-python.
 
     Optimized for 3B models with strict generation parameters to ensure
-    proper formatting for LightRAG's entity extraction.
+    proper formatting for LightRAG's entity extraction. The defaults are the
+    CPU profile; pass n_gpu_layers=-1 to load every layer onto the GPU.
     """
 
-    def __init__(self, model_path: str):
+    def __init__(self, model_path: str, n_ctx: int = 8192, n_threads: int = 8, n_gpu_layers: int = 0):
         print(f"Loading LLM from {model_path}...")
         self.llm = Llama(
             model_path=model_path,
-            n_ctx=8192,  # Large context for 10-K documents
-            n_threads=8,  # Leave headroom for OS
-            n_gpu_layers=0,  # CPU-only
+            n_ctx=n_ctx,
+            n_threads=n_threads,
+            n_gpu_layers=n_gpu_layers,
             verbose=False
         )
         print("✓ LLM loaded successfully")
+        print(f"  Context window: {n_ctx:,} tokens")
+        print(f"  GPU layers: {'ALL (-1)' if n_gpu_layers == -1 else n_gpu_layers}")
 
     async def __call__(self, prompt: str, system_prompt: str = None, history_messages=None, **kwargs) -> str:
         """
@@ -138,12 +181,12 @@ class QwenEmbedderWrapper:
     - Documents/Entities (no flag): Encode as-is
     """
 
-    def __init__(self, model_path: str):
+    def __init__(self, model_path: str, device: str = "cpu"):
         print(f"Loading embedder from {model_path}...")
         self.model = SentenceTransformer(
             model_path,
             trust_remote_code=True,
-            device='cpu'  # Force CPU usage (critical for CPU-only benchmark)
+            device=device
         )
         print(f"✓ Embedder loaded (dimension: {self.model.get_sentence_embedding_dimension()})")
         print(f"  Device: {self.model.device}")
@@ -193,46 +236,111 @@ class QwenEmbedderWrapper:
 
 
 # ============================================================================
+# INDEXING
+# ============================================================================
+
+async def index_sequentially(rag, contexts):
+    """Insert contexts one at a time; failures are reported and skipped."""
+    for idx, context in enumerate(contexts, 1):
+        try:
+            print(f"[{idx}/{len(contexts)}] Indexing context (length: {len(context)} chars)...")
+
+            # Insert document (no flag needed - this is a document)
+            await rag.ainsert(context)
+
+            print(f"  ✓ Indexed successfully")
+            print()
+
+        except Exception as e:
+            print(f"  ⚠ Error indexing document {idx}: {e}")
+            print()
+            continue
+
+
+async def index_in_batch(rag, contexts):
+    """Insert all contexts in one call (parallelised by max_parallel_insert)."""
+    print(f"📦 Batch inserting {len(contexts)} documents...")
+    print("   (This is much faster than sequential insertion)")
+    print()
+
+    try:
+        # LightRAG's ainsert() accepts both single strings and lists
+        await rag.ainsert(contexts)
+
+        print(f"✓ Successfully indexed all {len(contexts)} documents")
+        print()
+
+    except Exception as e:
+        print(f"⚠ Error during batch insertion: {e}")
+        print("   Falling back to sequential insertion...")
+        print()
+        await index_sequentially(rag, contexts)
+
+
+# ============================================================================
 # MAIN BENCHMARK PIPELINE
 # ============================================================================
 
-async def main():
+async def main(settings):
     """Main benchmark execution pipeline."""
+    profile = DEVICE_PROFILES[settings.device]
+    working_dir = settings.working_dir
 
+    title = "FinDER BENCHMARK WITH LIGHTRAG"
+    if settings.device == "gpu":
+        title += " - GPU ACCELERATED"
+    if settings.query_only:
+        title += " - QUERY ONLY"
     print("=" * 70)
-    print("FinDER BENCHMARK WITH LIGHTRAG")
+    print(title)
     print("=" * 70)
     print()
 
     # ------------------------------------------------------------------------
-    # STEP 1: Safe-Start - Clear Previous Data
+    # STEP 1: Prepare the working directory
     # ------------------------------------------------------------------------
 
-    if os.path.exists(WORKING_DIR):
-        print(f"⚠ Found existing working directory: {WORKING_DIR}")
-        shutil.rmtree(WORKING_DIR)
-        print("✓ Cleared previous benchmark data for clean run")
-        print()
+    if settings.query_only:
+        # Queries run against the index built by a previous run
+        if not os.path.exists(working_dir):
+            print(f"❌ ERROR: Working directory not found: {working_dir}")
+            print("   Please run the indexing script first!")
+            return
 
-    # Create fresh working directory
-    Path(WORKING_DIR).mkdir(parents=True, exist_ok=True)
+        print(f"✓ Found existing working directory: {working_dir}")
+        print()
+    else:
+        # Safe-start: clear previous data
+        if os.path.exists(working_dir):
+            print(f"⚠ Found existing working directory: {working_dir}")
+            shutil.rmtree(working_dir)
+            print("✓ Cleared previous benchmark data for clean run")
+            print()
+
+        # Create fresh working directory
+        Path(working_dir).mkdir(parents=True, exist_ok=True)
 
     # ------------------------------------------------------------------------
     # STEP 2: Initialize Models
     # ------------------------------------------------------------------------
 
-    print("Initializing models...")
+    print(f"Initializing models ({settings.device.upper()})...")
     print()
 
     # Initialize LLM wrapper
-    llm_wrapper = LlamaCppWrapper(MODEL_PATH)
+    llm_wrapper = LlamaCppWrapper(
+        settings.model_path,
+        n_ctx=settings.n_ctx,
+        n_threads=profile["n_threads"],
+        n_gpu_layers=profile["n_gpu_layers"],
+    )
 
     # Create LightRAG-compatible LLM function
     async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwargs) -> str:
         return await llm_wrapper(prompt, system_prompt, history_messages=history_messages, **kwargs)
 
     # Initialize embedder wrapper
-    embedder_wrapper = QwenEmbedderWrapper(EMBEDDER_PATH)
+    embedder_wrapper = QwenEmbedderWrapper(settings.embedder_path, device=profile["embedder_device"])
 
     # Wrap in LightRAG's EmbeddingFunc
     embedding_func = EmbeddingFunc(
@@ -248,7 +356,7 @@ async def main():
     # ------------------------------------------------------------------------
 
     print("Loading FinDER dataset...")
-    df = pd.read_parquet(DATA_PATH)
+    df = pd.read_parquet(settings.data_path)
 
     print(f"✓ Loaded {len(df)} query-answer pairs")
     print(f"  Columns: {df.columns.tolist()}")
@@ -262,104 +370,103 @@ async def main():
     unique_contexts = df['references'].explode().drop_duplicates().tolist()
     print(f"✓ Found {len(unique_contexts)} unique contexts")
 
-    # Limit to first N documents for reasonable runtime on CPU
-    selected_contexts = unique_contexts[:NUM_DOCS]
-    print(f"✓ Selected first {NUM_DOCS} contexts for benchmarking")
+    # The same selection is used when querying an existing index, so the
+    # queries match the contexts that were indexed
+    if settings.num_docs is not None:
+        selected_contexts = unique_contexts[:settings.num_docs]
+        print(f"✓ Selected first {settings.num_docs} contexts for benchmarking")
+    else:
+        selected_contexts = unique_contexts
+        print(f"✓ Processing ALL {len(selected_contexts)} contexts (no limit)")
 
     # Filter dataframe to only queries matching selected contexts
     # This ensures 100% alignment between indexed documents and test queries
     filtered_df = df[df['references'].apply(lambda refs: any(ref in selected_contexts for ref in refs))].copy()
-    if MAX_QUERIES is not None:
-        filtered_df = filtered_df.head(MAX_QUERIES)
+    if settings.max_queries is not None:
+        filtered_df = filtered_df.head(settings.max_queries)
     print(f"✓ Filtered to {len(filtered_df)} queries matching selected contexts")
     print()
 
-    # Display sample
-    print("=== Sample Data ===")
-    print(f"Query: {filtered_df.iloc[0]['text'][:100]}...")
-    print(f"Answer: {filtered_df.iloc[0]['answer'][:100]}...")
-    print(f"References count: {len(filtered_df.iloc[0]['references'])}")
-    print(f"First reference length: {len(filtered_df.iloc[0]['references'][0])} chars")
-    print()
+    if not settings.query_only:
+        # Display sample
+        print("=== Sample Data ===")
+        print(f"Query: {filtered_df.iloc[0]['text'][:100]}...")
+        print(f"Answer: {filtered_df.iloc[0]['answer'][:100]}...")
+        print(f"References count: {len(filtered_df.iloc[0]['references'])}")
+        print(f"First reference length: {len(filtered_df.iloc[0]['references'][0])} chars")
+        print()
 
     # ------------------------------------------------------------------------
     # STEP 4: Initialize LightRAG
     # ------------------------------------------------------------------------
 
-    print("Initializing LightRAG...")
+    print("Initializing LightRAG" + (" (loading existing index)..." if settings.query_only else "..."))
 
     rag = LightRAG(
-        working_dir=WORKING_DIR,
+        working_dir=working_dir,
 
         # LLM configuration
         llm_model_func=llm_model_func,
-        llm_model_name="Llama-3.2-3B-Instruct",
-        llm_model_max_async=1,  # Single-threaded to avoid CPU thrashing
+        llm_model_name=profile["llm_model_name"],
+        llm_model_max_async=profile["llm_model_max_async"],
 
         # Embedding configuration
         embedding_func=embedding_func,
 
-        # Chunking configuration (reduced for 3B model)
-        chunk_token_size=1024,  # Reduced from 1200 for easier processing
+        # Chunking configuration (must match the indexing run when querying)
+        chunk_token_size=profile["chunk_token_size"],
         chunk_overlap_token_size=100,
 
-        # Entity extraction retry mechanism (crucial for 3B models)
-        entity_extract_max_gleaning=2,  # Allow 2 retry attempts for formatting
+        # Entity extraction retry mechanism
+        entity_extract_max_gleaning=profile["entity_extract_max_gleaning"],
 
         # Storage backends
         graph_storage="NetworkXStorage",
         kv_storage="JsonKVStorage",
         vector_storage="NanoVectorDBStorage",
 
-        # Concurrency limits for CPU
-        max_parallel_insert=1
+        # Concurrency limits
+        max_parallel_insert=profile["max_parallel_insert"]
     )
 
-    # CRITICAL: Initialize storages
+    # CRITICAL: Initialize storages (loads existing data when querying)
     await rag.initialize_storages()
 
     print("✓ LightRAG initialized successfully")
-    print(f"  Working directory: {WORKING_DIR}")
-    print(f"  Chunk size: 1024 tokens")
-    print(f"  Max gleaning retries: 2")
-    print(f"  Concurrency: 1 (CPU-optimized)")
+    print(f"  Working directory: {working_dir}")
+    print(f"  Chunk size: {profile['chunk_token_size']} tokens")
+    print(f"  Max gleaning retries: {profile['entity_extract_max_gleaning']}")
+    print(f"  LLM concurrency: {profile['llm_model_max_async']}")
+    print(f"  Insert parallelism: {profile['max_parallel_insert']}")
+    print(f"  Context window: {settings.n_ctx:,} tokens")
     print()
 
     # ------------------------------------------------------------------------
     # STEP 5: Index Documents
     # ------------------------------------------------------------------------
 
-    print("=" * 70)
-    print("INDEXING PHASE")
-    print("=" * 70)
-    print()
+    if not settings.query_only:
+        print("=" * 70)
+        print(f"INDEXING PHASE - Processing {len(selected_contexts)} documents")
+        print("=" * 70)
+        print()
 
-    for idx, context in enumerate(selected_contexts, 1):
-        try:
-            print(f"[{idx}/{NUM_DOCS}] Indexing context (length: {len(context)} chars)...")
+        if profile["batch_insert"]:
+            await index_in_batch(rag, selected_contexts)
+        else:
+            await index_sequentially(rag, selected_contexts)
 
-            # Insert document (no flag needed - this is a document)
-            await rag.ainsert(context)
-
-            print(f"  ✓ Indexed successfully")
-            print()
-
-        except Exception as e:
-            print(f"  ⚠ Error indexing document {idx}: {e}")
-            print()
-            continue
-
-    print("=" * 70)
-    print("✓ INDEXING COMPLETE")
-    print("=" * 70)
-    print()
+        print("=" * 70)
+        print("✓ INDEXING COMPLETE")
+        print("=" * 70)
+        print()
 
     # ------------------------------------------------------------------------
     # STEP 6: Query and Generate Answers
     # ------------------------------------------------------------------------
 
     print("=" * 70)
-    print("QUERY PHASE")
+    print(f"QUERY PHASE - Processing {len(filtered_df)} queries")
     print("=" * 70)
     print()
 
@@ -429,57 +536,76 @@ async def main():
     results_df = pd.DataFrame(results)
 
     # Save to CSV
-    output_path = OUTPUT_PATH
+    output_path = settings.output
     results_df.to_csv(output_path, index=False)
 
     print(f"✓ Results saved to {output_path}")
     print(f"  Total queries: {len(results_df)}")
-    print(f"  Successful: {len(results_df[~results_df['lightrag_generated_answer'].str.upper().str.startswith('ERROR')])}")
-    print(f"  Errors: {len(results_df[results_df['lightrag_generated_answer'].str.upper().str.startswith('ERROR')])}")
-    print()
+    if len(results_df):
+        errors = results_df['lightrag_generated_answer'].str.upper().str.startswith('ERROR')
+        print(f"  Successful: {len(results_df[~errors])}")
+        print(f"  Errors: {len(results_df[errors])}")
+        print()
 
-    # Display preview
-    print("=== Results Preview ===")
-    print(results_df.head(3).to_string())
+        # Display preview
+        print("=== Results Preview ===")
+        print(results_df.head(3).to_string())
     print()
 
     print("=" * 70)
     print("✓ BENCHMARK COMPLETE")
     print("=" * 70)
+    if len(results_df):
+        print()
+        print(f"📊 Statistics:")
+        print(f"   Contexts {'queried' if settings.query_only else 'indexed'}: {len(selected_contexts)}")
+        print(f"   Total queries processed: {len(results_df)}")
+        print(f"   Success rate: {len(results_df[~errors]) / len(results_df) * 100:.1f}%")
 
 
 # ============================================================================
 # ENTRY POINT
 # ============================================================================
 
-def parse_args():
-    import argparse
+def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
+    parser.add_argument("--device", choices=sorted(DEVICE_PROFILES), default="cpu",
+                        help="Inference profile: cpu (default) or gpu (all layers on the GPU)")
+    parser.add_argument("--query-only", action="store_true",
+                        help="Skip indexing and query the index already in --working-dir")
     parser.add_argument("--model-path", default=os.getenv("LLM_MODEL_PATH", MODEL_PATH),
                         help="Llama-3.2-3B-Instruct GGUF file (env LLM_MODEL_PATH)")
     parser.add_argument("--embedder-path", default=os.getenv("EMBEDDER_PATH", EMBEDDER_PATH),
                         help="Qwen3-Embedding-0.6B directory or HF id (env EMBEDDER_PATH)")
     parser.add_argument("--data-path", default=os.getenv("FINDER_DATA_PATH", DATA_PATH),
                         help="FinDER finder_train.parquet (env FINDER_DATA_PATH)")
-    parser.add_argument("--working-dir", default=WORKING_DIR,
-                        help="LightRAG workspace (deleted and recreated on each run)")
-    parser.add_argument("--num-docs", type=int, default=NUM_DOCS,
-                        help="Number of unique FinDER contexts to index")
+    parser.add_argument("--working-dir", default=None,
+                        help="LightRAG workspace, deleted and recreated unless --query-only "
+                             "(default: ./finder_benchmark_workdir1 on cpu, ./finder_benchmark_workdir_gpu on gpu)")
+    parser.add_argument("--num-docs", type=int, default=None,
+                        help="Number of unique FinDER contexts to index (default: 10 on cpu, all on gpu)")
     parser.add_argument("--max-queries", type=int, default=None,
                         help="Only run the first N matching queries")
-    parser.add_argument("--output", default=OUTPUT_PATH, help="Results CSV path")
-    return parser.parse_args()
+    parser.add_argument("--n-ctx", type=int, default=None,
+                        help="llama.cpp context window (default: 8192 on cpu, 32768 on cpu with "
+                             "--query-only, 131072 on gpu)")
+    parser.add_argument("--output", default=None,
+                        help="Results CSV path (default: finder_lightrag_results[_gpu][_query_only].csv)")
+    args = parser.parse_args(argv)
+
+    profile = DEVICE_PROFILES[args.device]
+    if args.working_dir is None:
+        args.working_dir = profile["working_dir"]
+    if args.num_docs is None:
+        args.num_docs = profile["num_docs"]
+    if args.n_ctx is None:
+        args.n_ctx = QUERY_ONLY_CPU_N_CTX if (args.query_only and args.device == "cpu") else profile["n_ctx"]
+    if args.output is None:
+        stem = Path(profile["output"]).stem
+        args.output = f"{stem}_query_only.csv" if args.query_only else profile["output"]
+    return args
 
 
 if __name__ == "__main__":
-    args = parse_args()
-    MODEL_PATH = args.model_path
-    EMBEDDER_PATH = args.embedder_path
-    DATA_PATH = args.data_path
-    WORKING_DIR = args.working_dir
-    NUM_DOCS = args.num_docs
-    MAX_QUERIES = args.max_queries
-    OUTPUT_PATH = args.output
-
     # Run the async main function
-    asyncio.run(main())
+    asyncio.run(main(parse_args()))

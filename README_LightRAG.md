@@ -150,7 +150,7 @@ jupyter nbconvert --to notebook --execute --output run.ipynb \
 llama.cpp's `llama-server`); `GENERATION_BACKEND=openai` answers with that
 endpoint instead of Gemini.
 
-### Local CPU benchmark (llama.cpp)
+### Local benchmark (llama.cpp)
 
 ```bash
 python local-llm/benchmark_finder.py \
@@ -158,6 +158,10 @@ python local-llm/benchmark_finder.py \
     --embedder-path models/qwen3-0.6b \
     --data-path finder_train.parquet --num-docs 1 --max-queries 1
 ```
+
+`--device gpu` loads every layer onto the GPU with the full 128K context and
+indexes all contexts in one batch; `--query-only` reuses the index in
+`--working-dir` and only runs the queries.
 
 ### Tests
 
