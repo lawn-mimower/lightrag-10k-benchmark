@@ -32,7 +32,7 @@ from PIL import Image
 import pdf2image
 
 # Base directory where documents are located
-BASE_DIR = Path("./data")
+BASE_DIR = Path(os.getenv("DOCS_DIR", "documents"))
 # Directory to save the output Markdown files
 OUTPUT_DIR = Path("output_markdown1")
 # Directory to save monitoring data
@@ -523,8 +523,25 @@ def parse_documents(monitor=None):
     return results
 
 
+def parse_cli_args():
+    import argparse
+    parser = argparse.ArgumentParser(description="Parse documents; defaults to the list above")
+    parser.add_argument("files", nargs="*",
+                        help="Documents to parse, relative to --input-dir or absolute")
+    parser.add_argument("--input-dir", default=str(BASE_DIR),
+                        help="Directory containing the documents (env DOCS_DIR)")
+    parser.add_argument("--output-dir", default=str(OUTPUT_DIR), help="Where to write the outputs")
+    return parser.parse_args()
+
+
 def main():
     """Main execution function with resource monitoring."""
+    global BASE_DIR, DOCUMENTS_TO_PROCESS, OUTPUT_DIR
+    args = parse_cli_args()
+    BASE_DIR = Path(args.input_dir)
+    if args.files:
+        DOCUMENTS_TO_PROCESS = args.files
+    OUTPUT_DIR = Path(args.output_dir)
     print("=" * 70)
     print("Docling Document Parser with Resource Monitoring")
     print("=" * 70)

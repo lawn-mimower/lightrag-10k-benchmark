@@ -12,12 +12,13 @@ from docling.datamodel.pipeline_options import (
     RapidOcrOptions
 )
 import json
+import os
 from pathlib import Path
 from datetime import datetime
 import time
 from dotenv import load_dotenv
 # Base directory where documents are located
-BASE_DIR = Path("./data")
+BASE_DIR = Path(os.getenv("DOCS_DIR", "documents"))
 
 
 load_dotenv()
@@ -149,8 +150,23 @@ def parse_documents():
     return results
 
 
+def parse_cli_args():
+    import argparse
+    parser = argparse.ArgumentParser(description="Parse documents; defaults to the list above")
+    parser.add_argument("files", nargs="*",
+                        help="Documents to parse, relative to --input-dir or absolute")
+    parser.add_argument("--input-dir", default=str(BASE_DIR),
+                        help="Directory containing the documents (env DOCS_DIR)")
+    return parser.parse_args()
+
+
 def main():
     """Main execution function."""
+    global BASE_DIR, DOCUMENTS_TO_PROCESS
+    args = parse_cli_args()
+    BASE_DIR = Path(args.input_dir)
+    if args.files:
+        DOCUMENTS_TO_PROCESS = args.files
     print("=" * 70)
     print("Docling Document Parser (CPU-Only Mode)")
     print("=" * 70)

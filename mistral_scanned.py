@@ -16,7 +16,7 @@ dotenv.load_dotenv()
 
 # --- CONFIGURATION ---
 API_KEY = os.environ.get("MISTRAL_API_KEY")
-BASE_DIR = Path("./data")
+BASE_DIR = Path(os.getenv("DOCS_DIR", "documents"))
 OUTPUT_DIR = Path("mistral_output_markdown")
 
 DOCUMENTS = [
@@ -88,7 +88,24 @@ def process_signed_url(client, doc_path):
             except Exception as cleanup_err:
                 print(f"  [Warning] Cleanup failed: {cleanup_err}")
 
+def parse_cli_args():
+    import argparse
+    parser = argparse.ArgumentParser(description="Parse documents; defaults to the list above")
+    parser.add_argument("files", nargs="*",
+                        help="Documents to parse, relative to --input-dir or absolute")
+    parser.add_argument("--input-dir", default=str(BASE_DIR),
+                        help="Directory containing the documents (env DOCS_DIR)")
+    parser.add_argument("--output-dir", default=str(OUTPUT_DIR), help="Where to write the outputs")
+    return parser.parse_args()
+
+
 def main():
+    global BASE_DIR, DOCUMENTS, OUTPUT_DIR
+    args = parse_cli_args()
+    BASE_DIR = Path(args.input_dir)
+    if args.files:
+        DOCUMENTS = args.files
+    OUTPUT_DIR = Path(args.output_dir)
     if not API_KEY:
         print("Error: MISTRAL_API_KEY not found in environment variables.")
         return
