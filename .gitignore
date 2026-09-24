@@ -13,7 +13,7 @@ ml-env/
 .env
 
 # Input data (download separately, see README_LightRAG.md)
-10k/
+/10k/
 10-k.zip
 data/
 models/
