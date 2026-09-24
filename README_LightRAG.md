@@ -8,7 +8,7 @@ This project processes SEC 10-K HTML filings, builds knowledge graphs using Ligh
 
 - **Knowledge Graph Extraction**: Entities and relationships extracted from financial documents
 - **Hybrid Search**: Graph-based reasoning + semantic vector search
-- **GPU Acceleration**: Fast embeddings (BGE-large) and reranking (BGE-reranker)
+- **GPU Acceleration**: Fast embeddings (E5-Mistral-7B, 4-bit) and reranking (BGE-reranker-v2-m3)
 - **Metadata Preservation**: Full citation tracking for answers
 
 ### Current Status
@@ -175,25 +175,25 @@ pytest -m e2e               # live runs; see tests/test_e2e.py for the variables
 
 ## Running the Test
 
-### HON (Honeywell) Test
+### Single-ticker run (HON)
 
-Open and run the Jupyter notebook:
+Index one company and answer a couple of its FinDER questions:
 
 ```bash
-jupyter notebook lightrag_10k_test_hon.ipynb
+TICKERS=HON TEST_TICKER=HON MAX_QUESTIONS=2 \
+jupyter nbconvert --to notebook --execute --output run_hon.ipynb \
+    lightrag_10k_priority_ticker_models_optimised_multimode.ipynb
 ```
 
-Or run all cells programmatically:
-```bash
-jupyter nbconvert --to notebook --execute lightrag_10k_test_hon.ipynb
-```
+Or open `lightrag_10k_priority_ticker_models_optimised_multimode.ipynb` in
+Jupyter and run the cells in order.
 
 **What happens:**
-1. Loads models (BGE embeddings, Mistral LLM, BGE reranker)
-2. Initializes LightRAG workspace
-3. Indexes HON document (builds knowledge graph)
-4. Runs 2 test queries from FinDER benchmark
-5. Saves results to `test_results_hon.json`
+1. Loads models (E5-Mistral-7B embeddings, Ministral-14B for extraction, Gemini for answers)
+2. Initializes the LightRAG workspace (`lightrag_10k_workspace_latest/`)
+3. Indexes the HON filing (builds the knowledge graph)
+4. Answers the first 2 HON questions from FinDER in all five query modes, with the BGE reranker loaded just before querying
+5. Writes one JSON file per question to `5_modes_question_wise_results_with_answers/5_modes_question_wise_results_priority_tickers_ALL/`
 
 **Expected runtime**: 5-10 minutes on GPU (first run)
 
@@ -201,63 +201,16 @@ jupyter nbconvert --to notebook --execute lightrag_10k_test_hon.ipynb
 
 ## Notebook Components
 
-The notebook is organized into 5 main cells:
+`lightrag_10k_priority_ticker_models_optimised_multimode.ipynb` is organized into 8 cells:
 
-### Cell 0: Overview
-- Goal: Test LightRAG with HON first, then batch-index remaining tickers
-- Models: BGE-large (embeddings), Ministral-8b (LLM), BGE-reranker (reranking)
-- Priority tickers for batch indexing
-
-### Cell 1: Configuration
-```python
-# Key settings
-PARSED_DOCS_PATH = "parsed_10k_documents.json"
-WORKING_DIR = "./lightrag_test_workspace"
-BGE_MODEL_NAME = "BAAI/bge-large-en-v1.5"
-MISTRAL_MODEL = "ministral-8b-latest"
-DEVICE = "cuda"  # GPU acceleration
-```
-
-### Cell 2: Model Loading
-- **BGE Embeddings** (1024-dim): Loaded to GPU for fast encoding
-- **Mistral LLM**: API-based, used for knowledge graph extraction and answer generation
-- **BGE Reranker**: GPU-accelerated cross-encoder for relevance scoring
-
-**Test**: Verifies embedding shape and device placement
-
-### Cell 3: LightRAG Initialization
-```python
-rag = LightRAG(
-    working_dir=WORKING_DIR,
-    llm_model_func=mistral_llm_func,
-    embedding_func=bge_embedding_func,
-    chunk_token_size=1200,      # Chunk size
-    chunk_overlap_token_size=100,  # Overlap
-    rerank_model_func=hf_rerank_func
-)
-```
-
-**Indexing HON**:
-- Chunks HON document automatically (1200 tokens, 100 overlap)
-- Extracts entities and relationships → builds knowledge graph
-- Encodes metadata (ticker, company, period) for provenance
-- Stores in `lightrag_test_workspace/`
-
-**To batch-index remaining tickers**: Uncomment the code block at the end of Cell 3
-
-### Cell 4: Test Queries
-Loads 2 HON questions from `finder_train.parquet` and queries LightRAG:
-
-**Example Query 1**:
-- Question: "Impact on supply chain risk and cost structure for Skyworks globally."
-- Mode: Hybrid (KG + vector search)
-- Top-k: 60 entities/relations, 20 text chunks
-- Reranking: Top 20 after scoring
-
-**Output**: `test_results_hon.json` with:
-- Retrieved context (entities, relations, text chunks)
-- Expected answer (from benchmark)
-- Metadata and timestamps
+- **Cell 0: Overview** - goal, models and priority tickers
+- **Cell 1: Configuration** - paths, model names, query modes and run limits; each can be overridden through an environment variable (see `.env.example`)
+- **Cell 2: Model Loading** - E5-Mistral-7B embeddings (4-bit on GPU), the Ministral-14B extraction LLM and the Gemini client; the reranker is deferred to save VRAM during indexing
+- **Cell 3: LightRAG Initialization** - workspace, chunking, reranker hook, document loading and indexing with ticker/company/period metadata
+- **Cell 4: Indexing** - indexes `TEST_TICKER`, then every ticker in `TICKERS`
+- **Cell 5: Questions** - loads `finder_train.parquet` and keeps the questions about the priority tickers (`MAX_QUESTIONS` limits the run)
+- **Cell 6: Querying** - loads the reranker, answers each question in every query mode and saves one file per question
+- **Cell 7: RAGAS Evaluation** - scores the saved answers (faithfulness, answer relevancy, context recall, context precision)
 
 ---
 
@@ -272,23 +225,24 @@ Loads 2 HON questions from `finder_train.parquet` and queries LightRAG:
 
 2. **Vector Chunk Retrieval**:
    - Semantic search over text chunks
-   - BGE-large embeddings (1024-dim)
+   - E5-Mistral-7B embeddings (4096-dim)
 
 3. **Reranking**:
-   - Cross-encoder (BGE-reranker) scores query-chunk pairs
+   - Cross-encoder (BGE-reranker-v2-m3) scores query-chunk pairs
    - Selects top 20 most relevant chunks
 
 4. **Answer Generation**:
-   - Mistral-8b generates answer from reranked context
+   - Gemini generates the answer from the reranked context
    - Includes citations from metadata
 
 ### Model Stack
 
 | Component | Model | Device | Purpose |
 |-----------|-------|--------|---------|
-| Embeddings | BAAI/bge-large-en-v1.5 | GPU | 1024-dim dense vectors |
-| LLM | ministral-8b-latest | API | KG extraction + generation |
-| Reranker | BAAI/bge-reranker-base | GPU | Relevance scoring |
+| Embeddings | intfloat/e5-mistral-7b-instruct (4-bit) | GPU | 4096-dim dense vectors |
+| Extraction LLM | ministral-14b-2512 | API | KG extraction |
+| Generation LLM | gemini-3-flash-preview | API | Answer generation |
+| Reranker | BAAI/bge-reranker-v2-m3 | GPU | Relevance scoring |
 
 ### Metadata Encoding
 
@@ -317,9 +271,9 @@ lightrag-bench/
 │   └── ...
 ├── html_parser.py                  # HTML preprocessing script
 ├── parsed_10k_documents.json       # Parsed clean text (156MB)
-├── lightrag_10k_test_hon.ipynb     # Main test notebook
-├── test_results_hon.json           # Query results
-├── lightrag_test_workspace/        # LightRAG storage
+├── lightrag_10k_priority_ticker_models_optimised_multimode.ipynb  # Pipeline notebook
+├── 5_modes_question_wise_results_with_answers/  # One result file per question
+├── lightrag_10k_workspace_latest/  # LightRAG storage
 │   ├── kv_store_full_entities.json # Knowledge graph entities
 │   ├── kv_store_full_relations.json # Knowledge graph relations
 │   ├── vdb_entities.json           # Entity embeddings
@@ -335,13 +289,9 @@ lightrag-bench/
 ## Future Work
 
 ### Batch Indexing
-To index all 496 remaining tickers, uncomment the code in Cell 3:
-
-```python
-BATCH_PRIORITY = [t for t in PRIORITY_TICKERS if t != "HON" and t in documents]
-for ticker in tqdm(BATCH_PRIORITY, desc="Priority batch"):
-    await index_document(ticker, documents[ticker])
-```
+Cell 4 indexes every ticker listed in `TICKERS` (the ten priority tickers by
+default). To index more companies, set `TICKERS` to a longer comma-separated
+list of tickers from `parsed_10k_documents.json`.
 
 **Note**: Full indexing takes several hours on GPU (497 companies × ~2-5 min/company)
 
