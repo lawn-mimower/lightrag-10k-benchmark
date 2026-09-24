@@ -65,10 +65,11 @@ def parse_ixbrl_html(file_path: str) -> Dict:
         script.decompose()
     
     # Remove any remaining ix: prefixed elements (XBRL inline elements)
-    # These may contain contextRef attributes with non-human-readable content
+    # The hidden ones are gone; what is left wraps visible text (facts and
+    # whole narrative/table text blocks), so keep the content and drop only
+    # the tag. Decomposing multi-child elements lost about a third of each filing.
     for elem in soup.find_all(re.compile(r'^ix:')):
-        # Keep the text content but remove the tag structure
-        elem.unwrap() if elem.string else elem.decompose()
+        elem.unwrap()
 
     # Extract visible text from the body
     body = soup.find('body')
