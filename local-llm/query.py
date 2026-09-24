@@ -144,10 +144,9 @@ async def main():
         kv_storage="JsonKVStorage",
         vector_storage="NanoVectorDBStorage",
     )
-    # This loads the JSON/Graph files from disk
-    # Note: LightRAG loads lazily, so explicit storage init isn't always needed if files exist,
-    # but we initialize just to be safe.
-    # await rag.initialize_storages() 
+    # This loads the JSON/Graph files from disk (queries fail on
+    # uninitialized storages)
+    await rag.initialize_storages()
 
     # Load Data to get the queries
     print("Loading FinDER dataset to retrieve queries...")
